@@ -14,7 +14,10 @@
           "presentation": "On ne peint pas pour faire beau, on peint pour agir sur le monde : capturer l'animal, assurer la chasse et la fertilité. Représenter une chose, c'est croire qu'on la possède un peu. Pas d'artiste connu — seulement le geste et sa fonction.",
           "oeuvres": [
             { "titre": "Grottes de Lascaux", "wiki": "Lascaux", "artiste": "Anonyme (Magdalénien)", "annee": "≈ 17 000 av. J.-C.", "support": "mur", "note": "Aurochs et chevaux d'un réalisme saisissant, peints dans le noir total. Pas pour être vus : pour exister.", "model": null },
-            { "titre": "Vénus de Willendorf", "wiki": "Venus of Willendorf", "artiste": "Anonyme", "annee": "≈ 25 000 av. J.-C.", "support": "socle", "note": "Le corps réduit à ses signes de fécondité. L'art comme amplification du vital, pas comme portrait.", "model": null }
+            { "titre": "Grotte Chauvet", "wiki": "Chauvet Cave", "artiste": "Anonyme", "annee": "≈ 34 000 av. J.-C.", "support": "mur", "note": "Les plus anciennes peintures connues : lions, rhinocéros, déjà le sens du mouvement et de la profondeur.", "model": null },
+            { "titre": "Grotte d'Altamira", "wiki": "Cave of Altamira", "artiste": "Anonyme", "annee": "≈ 15 000 av. J.-C.", "support": "mur", "note": "Les bisons épousent les reliefs de la roche : le volume naturel devient partie de l'image.", "model": null },
+            { "titre": "Vénus de Willendorf", "wiki": "Venus of Willendorf", "artiste": "Anonyme", "annee": "≈ 25 000 av. J.-C.", "support": "socle", "note": "Le corps réduit à ses signes de fécondité. L'art comme amplification du vital, pas comme portrait.", "model": null },
+            { "titre": "Vénus de Hohle Fels", "wiki": "Venus of Hohle Fels", "artiste": "Anonyme", "annee": "≈ 38 000 av. J.-C.", "support": "socle", "note": "En ivoire de mammouth, la plus ancienne figure humaine connue.", "model": null }
           ]
         }
       ]
@@ -32,8 +35,12 @@
           "nom": "L'art pour l'éternité",
           "presentation": "On représente chaque chose sous son angle le plus clair et le plus durable — pour l'éternité, pas pour l'instant. Une figure est la somme de ses parties les plus reconnaissables. L'art sert l'ordre cosmique et le pouvoir, par des règles immuables. Les artistes restent anonymes.",
           "oeuvres": [
+            { "titre": "Pyramide de Khéops", "wiki": "Great Pyramid of Giza", "artiste": "Anonyme", "annee": "≈ 2560 av. J.-C.", "support": "mur", "note": "La géométrie pure au service de l'éternité royale. Un défi technique inégalé pendant 4000 ans.", "model": null },
+            { "titre": "Palette de Narmer", "wiki": "Narmer Palette", "artiste": "Anonyme", "annee": "≈ 3100 av. J.-C.", "support": "mur", "note": "Le code est déjà fixé : registres, hiérarchie des tailles, profil et torse de face. L'acte fondateur du style égyptien.", "model": null },
+            { "titre": "Le Livre des morts", "wiki": "Book of the Dead", "artiste": "Anonyme", "annee": "≈ 1500 av. J.-C.", "support": "mur", "note": "Texte et image guident le défunt dans l'au-delà : l'art comme mode d'emploi de l'éternité.", "model": null },
             { "titre": "Le Grand Sphinx de Gizeh", "wiki": "Great Sphinx of Giza", "artiste": "Anonyme", "annee": "≈ 2500 av. J.-C.", "support": "socle", "note": "La permanence faite pierre. L'art au service de l'ordre cosmique et de la royauté.", "model": null },
-            { "titre": "Buste de Néfertiti", "wiki": "Nefertiti Bust", "artiste": "Atelier de Thoutmôsis", "annee": "≈ 1345 av. J.-C.", "support": "socle", "note": "Rare percée de naturalisme et d'élégance dans un art régi par des règles strictes.", "model": null }
+            { "titre": "Buste de Néfertiti", "wiki": "Nefertiti Bust", "artiste": "Atelier de Thoutmôsis", "annee": "≈ 1345 av. J.-C.", "support": "socle", "note": "Rare percée de naturalisme et d'élégance dans un art régi par des règles strictes.", "model": null },
+            { "titre": "Masque de Toutânkhamon", "wiki": "Mask of Tutankhamun", "artiste": "Anonyme", "annee": "≈ 1323 av. J.-C.", "support": "socle", "note": "Or et lapis-lazuli : le visage idéalisé du roi-dieu, pour traverser la mort.", "model": null }
           ]
         }
       ]
@@ -51,8 +58,12 @@
           "nom": "Le corps et l'idéal",
           "presentation": "Pour la première fois on représente ce que l'œil voit vraiment : le raccourci, le mouvement, le poids du corps. L'individu apparaît, puis Rome met ce réalisme au service du pouvoir. Les premiers noms d'artistes émergent (Polyclète, Phidias) mais l'œuvre prime encore.",
           "oeuvres": [
-            { "titre": "Le Doryphore", "wiki": "Doryphoros", "artiste": "Polyclète", "annee": "≈ 440 av. J.-C.", "support": "socle", "note": "Le canon des proportions : la beauté comme équilibre mesurable. Jambe d'appui, jambe libre.", "model": null },
             { "titre": "Le Parthénon", "wiki": "Parthenon", "artiste": "Phidias, Ictinos & Callicratès", "annee": "≈ 438 av. J.-C.", "support": "mur", "note": "Des corrections optiques invisibles pour que l'œil perçoive la perfection. L'art qui corrige la nature.", "model": null },
+            { "titre": "Le Colisée", "wiki": "Colosseum", "artiste": "Anonyme (romain)", "annee": "80 ap. J.-C.", "support": "mur", "note": "Rome invente l'architecture de masse : arcs, béton, ingénierie au service du spectacle.", "model": null },
+            { "titre": "Le Doryphore", "wiki": "Doryphoros", "artiste": "Polyclète", "annee": "≈ 440 av. J.-C.", "support": "socle", "note": "Le canon des proportions : la beauté comme équilibre mesurable. Jambe d'appui, jambe libre.", "model": null },
+            { "titre": "Le Discobole", "wiki": "Discobolus", "artiste": "Myron", "annee": "≈ 450 av. J.-C.", "support": "socle", "note": "Le mouvement figé à son point de tension maximale : l'instant juste avant le lancer.", "model": null },
+            { "titre": "La Vénus de Milo", "wiki": "Venus de Milo", "artiste": "Alexandros d'Antioche", "annee": "≈ 130 av. J.-C.", "support": "socle", "note": "Le hellénisme : grâce du déhanchement, drapé vivant, idéal de beauté devenu universel.", "model": null },
+            { "titre": "Laocoon", "wiki": "Laocoön and His Sons", "artiste": "Sculpteurs de Rhodes", "annee": "≈ 40 av. J.-C.", "support": "socle", "note": "Le pathos extrême : douleur, torsion, drame. La sculpture qui fascinera Michel-Ange.", "model": null },
             { "titre": "Auguste de Prima Porta", "wiki": "Augustus of Prima Porta", "artiste": "Anonyme (romain)", "annee": "≈ 20 av. J.-C.", "support": "socle", "note": "Rome met le réalisme grec au service de la propagande : l'empereur idéalisé mais reconnaissable.", "model": null }
           ]
         }
@@ -71,9 +82,11 @@
           "nom": "La Bible des illettrés",
           "presentation": "Clarté, hiérarchie, symbole : il faut raconter l'histoire sainte à des fidèles qui ne lisent pas. Puis le gothique fait entrer la lumière, et Giotto, peu à peu, l'émotion humaine. L'art est souvent collectif et anonyme, au service de l'Église.",
           "oeuvres": [
+            { "titre": "Cathédrale de Chartres", "wiki": "Chartres Cathedral", "artiste": "Anonymes (gothique)", "annee": "≈ 1220", "support": "mur", "note": "Le gothique dissout le mur en vitraux. La pierre s'élance, la lumière devient théologie.", "model": null },
             { "titre": "Sainte-Sophie", "wiki": "Hagia Sophia", "artiste": "Anthémius & Isidore", "annee": "537", "support": "mur", "note": "Byzance : une coupole qui semble suspendue à la lumière. L'espace sacré comme expérience du divin.", "model": null },
             { "titre": "Le Livre de Kells", "wiki": "Book of Kells", "artiste": "Moines irlandais", "annee": "≈ 800", "support": "mur", "note": "L'entrelacs sans fin : la lettre devient labyrinthe spirituel.", "model": null },
-            { "titre": "Cathédrale de Chartres", "wiki": "Chartres Cathedral", "artiste": "Anonymes (gothique)", "annee": "≈ 1220", "support": "mur", "note": "Le gothique dissout le mur en vitraux. La pierre s'élance, la lumière devient théologie.", "model": null },
+            { "titre": "Notre-Dame de Paris", "wiki": "Notre-Dame de Paris", "artiste": "Anonymes (gothique)", "annee": "≈ 1260", "support": "mur", "note": "Arcs-boutants et rosaces : la cathédrale comme cosmos de pierre et de lumière colorée.", "model": null },
+            { "titre": "Tapisserie de Bayeux", "wiki": "Bayeux Tapestry", "artiste": "Anonyme", "annee": "≈ 1077", "support": "mur", "note": "70 mètres de récit brodé : la BD avant l'heure, au service de la conquête normande.", "model": null },
             { "titre": "La Lamentation", "wiki": "Lamentation (Giotto)", "artiste": "Giotto", "annee": "≈ 1305", "support": "mur", "note": "Le tournant : Giotto redonne poids, espace et émotion vraie. La porte de la Renaissance.", "model": null }
           ]
         }
@@ -92,7 +105,8 @@
           "nom": "Botticelli",
           "presentation": "Sandro Botticelli (1445-1510), Florence, cour des Médicis. Maître de la ligne et de la grâce : il préfère la beauté idéale héritée de l'Antiquité au réalisme strict.",
           "oeuvres": [
-            { "titre": "La Naissance de Vénus", "wiki": "The Birth of Venus", "artiste": "Botticelli", "annee": "≈ 1485", "support": "mur", "note": "La grâce de la ligne plus que le réalisme : la beauté antique ressuscitée.", "model": null }
+            { "titre": "La Naissance de Vénus", "wiki": "The Birth of Venus", "artiste": "Botticelli", "annee": "≈ 1485", "support": "mur", "note": "La grâce de la ligne plus que le réalisme : la beauté antique ressuscitée.", "model": null },
+            { "titre": "Le Printemps", "wiki": "Primavera (Botticelli)", "artiste": "Botticelli", "annee": "≈ 1480", "support": "mur", "note": "Une allégorie raffinée du renouveau, peuplée de figures mythologiques d'une élégance dansante.", "model": null }
           ]
         },
         {
@@ -101,7 +115,9 @@
           "presentation": "Leonardo da Vinci (1452-1519) : peintre, ingénieur, anatomiste. L'incarnation du génie universel de la Renaissance. Invente le sfumato et étudie tout ce qu'il peint.",
           "oeuvres": [
             { "titre": "La Joconde", "wiki": "Mona Lisa", "artiste": "Léonard de Vinci", "annee": "≈ 1503", "support": "mur", "note": "Le sfumato : les contours se fondent dans l'ombre, le sourire devient insaisissable.", "model": null },
-            { "titre": "La Cène", "wiki": "The Last Supper (Leonardo)", "artiste": "Léonard de Vinci", "annee": "≈ 1498", "support": "mur", "note": "Le drame psychologique de la trahison, composé avec une rigueur géométrique parfaite.", "model": null }
+            { "titre": "La Cène", "wiki": "The Last Supper (Leonardo)", "artiste": "Léonard de Vinci", "annee": "≈ 1498", "support": "mur", "note": "Le drame psychologique de la trahison, composé avec une rigueur géométrique parfaite.", "model": null },
+            { "titre": "L'Homme de Vitruve", "wiki": "Vitruvian Man", "artiste": "Léonard de Vinci", "annee": "≈ 1490", "support": "mur", "note": "Le corps humain comme mesure du monde : art, science et géométrie réunis.", "model": null },
+            { "titre": "La Dame à l'hermine", "wiki": "Lady with an Ermine", "artiste": "Léonard de Vinci", "annee": "≈ 1490", "support": "mur", "note": "Le mouvement et la vie intérieure saisis dans un simple regard de côté.", "model": null }
           ]
         },
         {
@@ -109,8 +125,11 @@
           "nom": "Michel-Ange",
           "presentation": "Michelangelo Buonarroti (1475-1564) : sculpteur d'abord, mais aussi peintre et architecte. La puissance du corps humain comme langage du divin, et la 'terribilità' — une intensité qui annonce déjà le Baroque.",
           "oeuvres": [
+            { "titre": "La Création d'Adam", "wiki": "The Creation of Adam", "artiste": "Michel-Ange", "annee": "≈ 1512", "support": "mur", "note": "Le doigt de Dieu effleure celui de l'homme : l'étincelle de la vie, devenue image universelle.", "model": null },
             { "titre": "Plafond de la chapelle Sixtine", "wiki": "Sistine Chapel ceiling", "artiste": "Michel-Ange", "annee": "1512", "support": "plafond", "note": "Lève la tête : le corps humain devient langage du divin. Quatre ans seul sur un échafaudage.", "model": null },
-            { "titre": "David", "wiki": "David (Michelangelo)", "artiste": "Michel-Ange", "annee": "1504", "support": "socle", "note": "5,17 m de marbre : l'instant avant le combat, la tension contenue. Le nu héroïque parfait.", "model": null }
+            { "titre": "David", "wiki": "David (Michelangelo)", "artiste": "Michel-Ange", "annee": "1504", "support": "socle", "note": "5,17 m de marbre : l'instant avant le combat, la tension contenue. Le nu héroïque parfait.", "model": null },
+            { "titre": "La Pietà", "wiki": "Pietà (Michelangelo)", "artiste": "Michel-Ange", "annee": "1499", "support": "socle", "note": "À 24 ans : la douleur sublimée, le drapé miraculeux. Sa seule œuvre signée.", "model": null },
+            { "titre": "Moïse", "wiki": "Moses (Michelangelo)", "artiste": "Michel-Ange", "annee": "≈ 1515", "support": "socle", "note": "La force contenue prête à exploser : la 'terribilità' faite marbre.", "model": null }
           ]
         },
         {
@@ -118,7 +137,9 @@
           "nom": "Raphaël",
           "presentation": "Raffaello Sanzio (1483-1520) : l'équilibre et la sérénité même. La Renaissance à son apogée harmonieux, avant les ruptures à venir.",
           "oeuvres": [
-            { "titre": "L'École d'Athènes", "wiki": "The School of Athens", "artiste": "Raphaël", "annee": "≈ 1510", "support": "mur", "note": "Composition, perspective et pensée réunies. La raison antique mise en espace.", "model": null }
+            { "titre": "L'École d'Athènes", "wiki": "The School of Athens", "artiste": "Raphaël", "annee": "≈ 1510", "support": "mur", "note": "Composition, perspective et pensée réunies. La raison antique mise en espace.", "model": null },
+            { "titre": "La Madone Sixtine", "wiki": "Sistine Madonna", "artiste": "Raphaël", "annee": "≈ 1512", "support": "mur", "note": "La douceur absolue — et, en bas, les deux angelots devenus icônes populaires.", "model": null },
+            { "titre": "La Transfiguration", "wiki": "Transfiguration (Raphael)", "artiste": "Raphaël", "annee": "≈ 1520", "support": "mur", "note": "Son testament : la lumière divine en haut, le tumulte humain en bas. Le pont vers le Baroque.", "model": null }
           ]
         }
       ]
@@ -136,7 +157,9 @@
           "nom": "Le Caravage",
           "presentation": "Caravaggio (1571-1610) : peintre maudit et révolutionnaire. Invente un clair-obscur radical et fait surgir le sacré dans des scènes brutales, populaires, réelles.",
           "oeuvres": [
-            { "titre": "La Vocation de saint Matthieu", "wiki": "The Calling of Saint Matthew", "artiste": "Le Caravage", "annee": "≈ 1600", "support": "mur", "note": "Un rayon de lumière comme doigt de Dieu, dans une scène de taverne. Le clair-obscur radical.", "model": null }
+            { "titre": "La Vocation de saint Matthieu", "wiki": "The Calling of Saint Matthew", "artiste": "Le Caravage", "annee": "≈ 1600", "support": "mur", "note": "Un rayon de lumière comme doigt de Dieu, dans une scène de taverne. Le clair-obscur radical.", "model": null },
+            { "titre": "Judith décapitant Holopherne", "wiki": "Judith Beheading Holofernes (Caravaggio)", "artiste": "Le Caravage", "annee": "≈ 1599", "support": "mur", "note": "La violence frontale, sans pudeur : le théâtre de la cruauté en pleine lumière crue.", "model": null },
+            { "titre": "Bacchus", "wiki": "Bacchus (Caravaggio)", "artiste": "Le Caravage", "annee": "≈ 1596", "support": "mur", "note": "Un dieu aux ongles sales : le sacré ramené au charnel, au réel le plus cru.", "model": null }
           ]
         },
         {
@@ -144,7 +167,9 @@
           "nom": "Rembrandt",
           "presentation": "Rembrandt van Rijn (1606-1669), Amsterdam. Maître de la lumière intérieure : il peint l'âme plus que le visage, jusque dans ses autoportraits implacables.",
           "oeuvres": [
-            { "titre": "La Ronde de nuit", "wiki": "The Night Watch", "artiste": "Rembrandt", "annee": "1642", "support": "mur", "note": "Le portrait de groupe devient scène vivante, mouvement et lumière dramatique.", "model": null }
+            { "titre": "La Ronde de nuit", "wiki": "The Night Watch", "artiste": "Rembrandt", "annee": "1642", "support": "mur", "note": "Le portrait de groupe devient scène vivante, mouvement et lumière dramatique.", "model": null },
+            { "titre": "La Leçon d'anatomie", "wiki": "The Anatomy Lesson of Dr. Nicolaes Tulp", "artiste": "Rembrandt", "annee": "1632", "support": "mur", "note": "Le savoir et la mort mis en scène : chaque regard raconte une réaction différente.", "model": null },
+            { "titre": "Autoportrait aux deux cercles", "wiki": "Self-Portrait with Two Circles", "artiste": "Rembrandt", "annee": "≈ 1665", "support": "mur", "note": "Le peintre âgé se regarde sans complaisance : la vérité avant la flatterie.", "model": null }
           ]
         },
         {
@@ -152,7 +177,9 @@
           "nom": "Vélasquez",
           "presentation": "Diego Velázquez (1599-1660), peintre du roi d'Espagne. Le sommet de l'illusion picturale et de l'intelligence sur le regard.",
           "oeuvres": [
-            { "titre": "Les Ménines", "wiki": "Las Meninas", "artiste": "Vélasquez", "annee": "1656", "support": "mur", "note": "Le tableau qui se regarde peindre : où est le spectateur, où est le roi ?", "model": null }
+            { "titre": "Les Ménines", "wiki": "Las Meninas", "artiste": "Vélasquez", "annee": "1656", "support": "mur", "note": "Le tableau qui se regarde peindre : où est le spectateur, où est le roi ?", "model": null },
+            { "titre": "Portrait d'Innocent X", "wiki": "Portrait of Innocent X", "artiste": "Vélasquez", "annee": "1650", "support": "mur", "note": "Une présence psychologique presque insoutenable : « trop vrai », disait le pape lui-même.", "model": null },
+            { "titre": "La Vénus au miroir", "wiki": "Rokeby Venus", "artiste": "Vélasquez", "annee": "≈ 1648", "support": "mur", "note": "Un nu rare dans l'Espagne dévote : le jeu subtil du reflet et du regard.", "model": null }
           ]
         }
       ]
@@ -170,7 +197,8 @@
           "nom": "Delacroix",
           "presentation": "Eugène Delacroix (1798-1863) : chef du romantisme. La passion, la couleur et l'élan contre la froideur classique.",
           "oeuvres": [
-            { "titre": "La Liberté guidant le peuple", "wiki": "Liberty Leading the People", "artiste": "Delacroix", "annee": "1830", "support": "mur", "note": "La passion politique faite peinture : couleur, mouvement, allégorie incarnée.", "model": null }
+            { "titre": "La Liberté guidant le peuple", "wiki": "Liberty Leading the People", "artiste": "Delacroix", "annee": "1830", "support": "mur", "note": "La passion politique faite peinture : couleur, mouvement, allégorie incarnée.", "model": null },
+            { "titre": "La Mort de Sardanapale", "wiki": "The Death of Sardanapalus", "artiste": "Delacroix", "annee": "1827", "support": "mur", "note": "Le chaos somptueux : couleur déchaînée, sensualité et destruction. Le romantisme à son comble.", "model": null }
           ]
         },
         {
@@ -178,7 +206,9 @@
           "nom": "Manet",
           "presentation": "Édouard Manet (1832-1883) : le père de la modernité. Il assume que la peinture est de la peinture, et provoque le scandale qui ouvre tout.",
           "oeuvres": [
-            { "titre": "Olympia", "wiki": "Olympia (Manet)", "artiste": "Manet", "annee": "1863", "support": "mur", "note": "Une vraie femme, un regard direct : le scandale qui ouvre la modernité.", "model": null }
+            { "titre": "Olympia", "wiki": "Olympia (Manet)", "artiste": "Manet", "annee": "1863", "support": "mur", "note": "Une vraie femme, un regard direct : le scandale qui ouvre la modernité.", "model": null },
+            { "titre": "Le Déjeuner sur l'herbe", "wiki": "Le Déjeuner sur l'herbe", "artiste": "Manet", "annee": "1863", "support": "mur", "note": "Un nu banalisé en plein jour, aux côtés d'hommes habillés : la provocation tranquille.", "model": null },
+            { "titre": "Un bar aux Folies Bergère", "wiki": "A Bar at the Folies-Bergère", "artiste": "Manet", "annee": "1882", "support": "mur", "note": "Le reflet qui ne colle pas : Manet joue déjà avec la vérité de l'image.", "model": null }
           ]
         },
         {
@@ -186,7 +216,9 @@
           "nom": "Monet",
           "presentation": "Claude Monet (1840-1926) : l'impressionnisme incarné. Peindre la sensation lumineuse de l'instant, pas l'objet.",
           "oeuvres": [
-            { "titre": "Impression, soleil levant", "wiki": "Impression, Sunrise", "artiste": "Monet", "annee": "1872", "support": "mur", "note": "Le tableau qui donne son nom au mouvement : la lumière de l'instant.", "model": null }
+            { "titre": "Impression, soleil levant", "wiki": "Impression, Sunrise", "artiste": "Monet", "annee": "1872", "support": "mur", "note": "Le tableau qui donne son nom au mouvement : la lumière de l'instant.", "model": null },
+            { "titre": "Les Nymphéas", "wiki": "Water Lilies", "artiste": "Monet", "annee": "≈ 1916", "support": "mur", "note": "Le motif se dissout dans la couleur pure : aux portes de l'abstraction.", "model": null },
+            { "titre": "La Femme à l'ombrelle", "wiki": "Woman with a Parasol", "artiste": "Monet", "annee": "1875", "support": "mur", "note": "Le vent, la lumière, l'instant : la peinture du plein air par excellence.", "model": null }
           ]
         },
         {
@@ -194,7 +226,10 @@
           "nom": "Van Gogh",
           "presentation": "Vincent van Gogh (1853-1890) : la couleur et la touche deviennent émotion pure. L'art exprime le monde intérieur — la porte du XXᵉ.",
           "oeuvres": [
-            { "titre": "La Nuit étoilée", "wiki": "The Starry Night", "artiste": "Van Gogh", "annee": "1889", "support": "mur", "note": "La touche tourbillonnante : le ciel comme état d'âme.", "model": null }
+            { "titre": "La Nuit étoilée", "wiki": "The Starry Night", "artiste": "Van Gogh", "annee": "1889", "support": "mur", "note": "La touche tourbillonnante : le ciel comme état d'âme.", "model": null },
+            { "titre": "Les Tournesols", "wiki": "Sunflowers (Van Gogh series)", "artiste": "Van Gogh", "annee": "1888", "support": "mur", "note": "Le jaune poussé à l'extrême : la couleur comme pure énergie vitale.", "model": null },
+            { "titre": "La Chambre à Arles", "wiki": "Bedroom in Arles", "artiste": "Van Gogh", "annee": "1888", "support": "mur", "note": "La perspective tordue et les couleurs franches disent le repos rêvé plus que la pièce réelle.", "model": null },
+            { "titre": "Terrasse de café le soir", "wiki": "Café Terrace at Night", "artiste": "Van Gogh", "annee": "1888", "support": "mur", "note": "Une nuit sans noir : la lumière jaune contre le bleu profond du ciel étoilé.", "model": null }
           ]
         }
       ]
@@ -212,7 +247,9 @@
           "nom": "Picasso",
           "presentation": "Pablo Picasso (1881-1973) : le démolisseur du point de vue unique. Avec le cubisme, il brise la perspective de la Renaissance.",
           "oeuvres": [
-            { "titre": "Les Demoiselles d'Avignon", "wiki": "Les Demoiselles d'Avignon", "artiste": "Picasso", "annee": "1907", "support": "mur", "note": "Plusieurs faces à la fois : l'éclatement qui ouvre le cubisme.", "model": null }
+            { "titre": "Les Demoiselles d'Avignon", "wiki": "Les Demoiselles d'Avignon", "artiste": "Picasso", "annee": "1907", "support": "mur", "note": "Plusieurs faces à la fois : l'éclatement qui ouvre le cubisme.", "model": null },
+            { "titre": "Guernica", "wiki": "Guernica (Picasso)", "artiste": "Picasso", "annee": "1937", "support": "mur", "note": "Le cri pacifiste en noir et blanc : la guerre disloquée en chaos de formes.", "model": null },
+            { "titre": "La Femme qui pleure", "wiki": "The Weeping Woman", "artiste": "Picasso", "annee": "1937", "support": "mur", "note": "La douleur fragmentée par le cubisme : le visage comme verre brisé.", "model": null }
           ]
         },
         {
@@ -220,7 +257,8 @@
           "nom": "Mondrian",
           "presentation": "Piet Mondrian (1872-1944) : l'abstraction totale. Plus d'objet, seulement l'équilibre pur des lignes et des couleurs primaires.",
           "oeuvres": [
-            { "titre": "Composition en rouge, jaune, bleu", "wiki": "Composition with Red, Blue and Yellow", "artiste": "Mondrian", "annee": "1930", "support": "mur", "note": "La peinture réduite à son essence : équilibre, ligne, couleur primaire.", "model": null }
+            { "titre": "Composition en rouge, jaune, bleu", "wiki": "Composition with Red, Blue and Yellow", "artiste": "Mondrian", "annee": "1930", "support": "mur", "note": "La peinture réduite à son essence : équilibre, ligne, couleur primaire.", "model": null },
+            { "titre": "Broadway Boogie-Woogie", "wiki": "Broadway Boogie-Woogie", "artiste": "Mondrian", "annee": "1943", "support": "mur", "note": "New York, le jazz : la grille s'anime en pulsations colorées.", "model": null }
           ]
         },
         {
@@ -228,7 +266,8 @@
           "nom": "Dalí",
           "presentation": "Salvador Dalí (1904-1989) : le surréalisme spectaculaire. La logique du rêve et de l'inconscient devient matière à peindre.",
           "oeuvres": [
-            { "titre": "La Persistance de la mémoire", "wiki": "The Persistence of Memory", "artiste": "Dalí", "annee": "1931", "support": "mur", "note": "Les montres molles : le temps qui fond, la logique du rêve.", "model": null }
+            { "titre": "La Persistance de la mémoire", "wiki": "The Persistence of Memory", "artiste": "Dalí", "annee": "1931", "support": "mur", "note": "Les montres molles : le temps qui fond, la logique du rêve.", "model": null },
+            { "titre": "Cygnes reflétant des éléphants", "wiki": "Swans Reflecting Elephants", "artiste": "Dalí", "annee": "1937", "support": "mur", "note": "L'image double : le reflet métamorphose le réel. Le jeu paranoïaque-critique.", "model": null }
           ]
         },
         {
@@ -236,7 +275,9 @@
           "nom": "Duchamp",
           "presentation": "Marcel Duchamp (1887-1968) : il déplace la question de l'art du faire vers l'idée. Le readymade change tout.",
           "oeuvres": [
-            { "titre": "Fontaine", "wiki": "Fountain (Duchamp)", "artiste": "Duchamp", "annee": "1917", "support": "socle", "note": "Un urinoir signé et exposé : l'idée devient l'œuvre. 'Qu'est-ce que l'art ?' remplace l'objet beau.", "model": null }
+            { "titre": "Nu descendant un escalier", "wiki": "Nude Descending a Staircase, No. 2", "artiste": "Duchamp", "annee": "1912", "support": "mur", "note": "Le mouvement décomposé en plans : la peinture qui veut filmer le temps.", "model": null },
+            { "titre": "Fontaine", "wiki": "Fountain (Duchamp)", "artiste": "Duchamp", "annee": "1917", "support": "socle", "note": "Un urinoir signé et exposé : l'idée devient l'œuvre. 'Qu'est-ce que l'art ?' remplace l'objet beau.", "model": null },
+            { "titre": "Roue de bicyclette", "wiki": "Bicycle Wheel", "artiste": "Duchamp", "annee": "1913", "support": "socle", "note": "Le premier readymade : un objet ordinaire devient art par la seule décision de l'artiste.", "model": null }
           ]
         }
       ]

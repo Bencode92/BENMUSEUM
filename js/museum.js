@@ -11,7 +11,7 @@ import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
    Avatar-guide stylisé dans chaque salle : clic = discussion IA
    ========================================================================= */
 
-const ROOM = { w: 18, d: 24, h: 5.5 };
+const ROOM = { w: 22, d: 30, h: 6.5 };
 const EYE = 1.65;
 const MARGIN = 1.6;
 
@@ -98,8 +98,8 @@ async function loadRoom(index) {
   roomGroup.add(new THREE.AmbientLight(amb.amb[0], Math.max(amb.amb[1] * 1.7, 1.0)));
   roomGroup.add(new THREE.HemisphereLight(0xffffff, amb.floor, 0.55));
   // plafonniers : décroissance nulle (decay 0) => éclairage stable, jamais tout noir
-  [-7, 0, 7].forEach((z, i) => {
-    const p = new THREE.PointLight(0xfff2e0, i === 1 ? 1.3 : 0.7, 0, 0);
+  [-10, -3, 4, 10].forEach((z, i) => {
+    const p = new THREE.PointLight(0xfff2e0, 0.9, 0, 0);
     p.position.set(0, ROOM.h - 0.5, z); roomGroup.add(p);
   });
 
@@ -123,28 +123,31 @@ async function loadRoom(index) {
   const accent = new THREE.PointLight(parseInt((floor.couleur || "#c9a14a").slice(1), 16), 0.6, 45);
   accent.position.set(0, h - 0.4, 0); roomGroup.add(accent);
 
-  // titre de la salle gravé sur le mur du fond
-  const titre = salle.type === "artiste" ? salle.nom : salle.nom;
-  roomGroup.add(makeLabel(titre.toUpperCase(), 0, h - 1.0, -d / 2 + 0.05, 1.4, amb.spot, floor.nom));
+  // architecture : plinthes, corniche, tapis, banc, colonnes
+  buildArchitecture(amb);
+
+  // titre de la salle, haut du mur du fond
+  roomGroup.add(makeLabel(salle.nom.toUpperCase(), 0, h - 0.8, -d / 2 + 0.05, 1.5, amb.spot, floor.nom));
 
   // répartition des œuvres par support
   const murs = salle.oeuvres.filter(o => o.support === "mur");
   const socles = salle.oeuvres.filter(o => o.support === "socle");
   const plafonds = salle.oeuvres.filter(o => o.support === "plafond");
 
-  const left = murs.filter((_, i) => i % 2 === 0);
-  const right = murs.filter((_, i) => i % 2 === 1);
-  placeWall(left, -w / 2 + 0.12, Math.PI / 2, amb);
-  placeWall(right, w / 2 - 0.12, -Math.PI / 2, amb);
+  // œuvre maîtresse au fond → on lui fait face en entrant
+  if (murs.length) addArtwork(murs[0], 0, 0, -d / 2 + 0.12, amb);
+  const rest = murs.slice(1);
+  placeWall(rest.filter((_, i) => i % 2 === 0), -w / 2 + 0.12, Math.PI / 2, amb);
+  placeWall(rest.filter((_, i) => i % 2 === 1),  w / 2 - 0.12, -Math.PI / 2, amb);
   placePedestals(socles, amb);
   plafonds.forEach(o => placeCeiling(o, h));
 
   // avatar-guide
   addAvatar(amb, floor);
 
-  // portails salle précédente / suivante (traversent les étages)
-  if (index < rooms.length - 1) addPortal(0, EYE, -d / 2 + 0.2, +1, portalLabel(index + 1), amb.spot);
-  if (index > 0)                addPortal(0, EYE,  d / 2 - 0.2, -1, portalLabel(index - 1), amb.spot);
+  // portails : suivant = porte sur le mur droit (fond) · précédent = mur gauche (entrée)
+  if (index < rooms.length - 1) addPortal(w / 2 - 0.15, EYE, -d / 2 + 4.5, +1, portalLabel(index + 1), amb.spot, -Math.PI / 2);
+  if (index > 0)                addPortal(-w / 2 + 0.15, EYE,  d / 2 - 4.5, -1, portalLabel(index - 1), amb.spot, Math.PI / 2);
 
   const entryZ = d / 2 - 2.5;
   camera.position.set(0, EYE, entryZ);
@@ -184,38 +187,50 @@ function addArtwork(work, x, rotY, z, amb) {
   let W = 2.4, H = 1.8;
 
   const frame = new THREE.Mesh(
-    new THREE.BoxGeometry(W + 0.28, H + 0.28, 0.14),
+    new THREE.BoxGeometry(W + 0.34, H + 0.34, 0.16),
     new THREE.MeshStandardMaterial({ color: frameCol, roughness: .5, metalness: amb.frame === "gold" ? .7 : .2 }));
   group.add(frame);
 
-  const picMat = new THREE.MeshStandardMaterial({ color: 0x333333, roughness: .9 });
+  // passe-partout crème
+  const mat = new THREE.Mesh(new THREE.PlaneGeometry(W + 0.16, H + 0.16),
+    new THREE.MeshStandardMaterial({ color: 0xf2ece0, roughness: .95 }));
+  mat.position.z = 0.085; group.add(mat);
+
+  const picMat = new THREE.MeshStandardMaterial({ color: 0x2a2a2a, roughness: .9 });
   const pic = new THREE.Mesh(new THREE.PlaneGeometry(W, H), picMat);
-  pic.position.z = 0.09;
+  pic.position.z = 0.095;
   pic.userData = { type: "art", work, normal: new THREE.Vector3(0, 0, 1).applyAxisAngle(new THREE.Vector3(0, 1, 0), rotY) };
   group.add(pic); pickables.push(pic);
 
-  const spot = new THREE.SpotLight(amb.spot, 6, 12, Math.PI / 6, 0.5, 0);
-  spot.position.set(0, 1.8, 1.6); spot.target = pic; group.add(spot, spot.target);
+  const spot = new THREE.SpotLight(amb.spot, 6, 14, Math.PI / 6, 0.5, 0);
+  spot.position.set(0, 2.0, 1.8); spot.target = pic; group.add(spot, spot.target);
 
-  group.add(makeLabel(work.titre, 0, -H / 2 - 0.35, 0.1, 0.5, 0xffffff, work.annee));
+  group.add(makeLabel(work.titre, 0, -H / 2 - 0.4, 0.1, 0.5, 0xffffff, work.annee));
   roomGroup.add(group);
 
   loadArtImage(work.wiki, tex => {
     picMat.map = tex; picMat.color.set(0xffffff); picMat.needsUpdate = true;
     const ar = tex.image.width / tex.image.height;
-    let nh = 2.4, nw = 2.4 * ar; const maxW = 3.0;
+    let nh = 2.6, nw = 2.6 * ar; const maxW = 3.4;
     if (nw > maxW) { nw = maxW; nh = maxW / ar; }
     pic.scale.set(nw / W, nh / H, 1);
-    frame.scale.set((nw + 0.28) / (W + 0.28), (nh + 0.28) / (H + 0.28), 1);
+    mat.scale.set((nw + 0.16) / (W + 0.16), (nh + 0.16) / (H + 0.16), 1);
+    frame.scale.set((nw + 0.34) / (W + 0.34), (nh + 0.34) / (H + 0.34), 1);
   });
 }
 
 /* ---------- SOCLE : sculptures (vraie 3D si modèle, sinon photo) ---------- */
 function placePedestals(list, amb) {
-  const span = Math.min(ROOM.d - 10, list.length * 4);
+  if (!list.length) return;
+  if (list.length === 1) { addPedestal(list[0], 0, 0, amb); return; }
+  // deux colonnes (x = ±4) pour garder l'allée centrale dégagée
+  const rows = Math.ceil(list.length / 2);
+  const span = Math.min(ROOM.d - 12, rows * 5);
   list.forEach((work, i) => {
-    const z = list.length <= 1 ? 1 : -span / 2 + (span / (list.length - 1)) * i;
-    addPedestal(work, 0, z, amb);
+    const x = i % 2 === 0 ? -4 : 4;
+    const row = Math.floor(i / 2);
+    const z = rows === 1 ? 0 : -span / 2 + (span / (rows - 1)) * row;
+    addPedestal(work, x, z, amb);
   });
 }
 
@@ -327,14 +342,53 @@ function addAvatar(amb, floor) {
   avatar = g;
 }
 
-function addPortal(x, y, z, dir, label, color) {
+function addPortal(x, y, z, dir, label, color, rotY = (dir < 0 ? Math.PI : 0)) {
   const group = new THREE.Group();
-  group.position.set(x, y, z); if (dir < 0) group.rotation.y = Math.PI;
-  const mat = new THREE.MeshStandardMaterial({ color, emissive: color, emissiveIntensity: .6, transparent: true, opacity: .85, side: THREE.DoubleSide });
-  const arch = new THREE.Mesh(new THREE.PlaneGeometry(2.0, 2.8), mat);
+  group.position.set(x, y, z); group.rotation.y = rotY;
+  // chambranle clair pour faire « porte »
+  const jambMat = new THREE.MeshStandardMaterial({ color: 0xe8e0d0, roughness: .8 });
+  [-1.25, 1.25].forEach(jx => { const j = new THREE.Mesh(new THREE.BoxGeometry(0.25, 3.2, 0.3), jambMat); j.position.set(jx, 0.2, 0); group.add(j); });
+  const lint = new THREE.Mesh(new THREE.BoxGeometry(2.9, 0.3, 0.3), jambMat); lint.position.set(0, 1.75, 0); group.add(lint);
+  const mat = new THREE.MeshStandardMaterial({ color, emissive: color, emissiveIntensity: .6, transparent: true, opacity: .82, side: THREE.DoubleSide });
+  const arch = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 3.0), mat);
   arch.userData = { type: "portal", dir }; group.add(arch); pickables.push(arch);
-  group.add(makeLabel((dir > 0 ? "→ " : "← ") + label, 0, 1.8, 0.02, 0.7, color));
+  group.add(makeLabel((dir > 0 ? "→ " : "← ") + label, 0, 2.1, 0.04, 0.7, color));
   roomGroup.add(group);
+}
+
+/* ---------- architecture de la salle ---------- */
+function buildArchitecture(amb) {
+  const { w, d, h } = ROOM;
+  const trimCol = new THREE.Color(amb.wall).multiplyScalar(0.45);
+  const trimMat = new THREE.MeshStandardMaterial({ color: trimCol, roughness: .7 });
+
+  const strip = (len, x, z, ry, y, th) => {
+    const m = new THREE.Mesh(new THREE.BoxGeometry(len, th, 0.14), trimMat);
+    m.position.set(x, y, z); m.rotation.y = ry; roomGroup.add(m);
+  };
+  // plinthes
+  strip(w, 0, -d / 2 + 0.07, 0, 0.13, 0.26); strip(w, 0, d / 2 - 0.07, 0, 0.13, 0.26);
+  strip(d, -w / 2 + 0.07, 0, Math.PI / 2, 0.13, 0.26); strip(d, w / 2 - 0.07, 0, Math.PI / 2, 0.13, 0.26);
+  // corniche
+  strip(w, 0, -d / 2 + 0.07, 0, h - 0.2, 0.3); strip(w, 0, d / 2 - 0.07, 0, h - 0.2, 0.3);
+  strip(d, -w / 2 + 0.07, 0, Math.PI / 2, h - 0.2, 0.3); strip(d, w / 2 - 0.07, 0, Math.PI / 2, h - 0.2, 0.3);
+
+  // tapis central
+  const rug = new THREE.Mesh(new THREE.PlaneGeometry(w * 0.4, d * 0.62),
+    new THREE.MeshStandardMaterial({ color: new THREE.Color(amb.floor).multiplyScalar(0.7), roughness: .98 }));
+  rug.rotation.x = -Math.PI / 2; rug.position.y = 0.02; roomGroup.add(rug);
+
+  // banc capitonné, près de l'entrée
+  const benchMat = new THREE.MeshStandardMaterial({ color: 0x4a3826, roughness: .65 });
+  const bench = new THREE.Mesh(new THREE.BoxGeometry(2.6, 0.5, 1.0), benchMat);
+  bench.position.set(0, 0.25, d / 2 - 6); roomGroup.add(bench);
+
+  // colonnes encadrant le mur du fond
+  const colMat = new THREE.MeshStandardMaterial({ color: 0xe2dccd, roughness: .85 });
+  [-w / 2 + 2.2, w / 2 - 2.2].forEach(x => {
+    const c = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.48, h, 22), colMat);
+    c.position.set(x, h / 2, -d / 2 + 1.6); roomGroup.add(c);
+  });
 }
 
 /* ---------- étiquettes texte ---------- */
