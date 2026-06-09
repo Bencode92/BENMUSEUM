@@ -1,0 +1,92 @@
+:root {
+  --gold: #c9a14a;
+  --ink: #1c1a17;
+  --paper: #f5f1e8;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body { height: 100%; overflow: hidden; font-family: "Georgia", "Times New Roman", serif; background: #0a0a0a; color: var(--paper); }
+
+#scene { position: fixed; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; }
+#scene:active { cursor: grabbing; }
+
+/* ---- Écran d'entrée ---- */
+#intro {
+  position: fixed; inset: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(circle at 50% 35%, #2a2620, #0a0908);
+}
+.intro-card {
+  max-width: 540px; text-align: center; padding: 48px 40px;
+  background: rgba(20,18,15,.7); border: 1px solid rgba(201,161,74,.35);
+  border-radius: 6px; backdrop-filter: blur(4px);
+}
+.intro-card h1 { font-size: 34px; letter-spacing: .5px; color: var(--gold); margin-bottom: 10px; }
+.intro-card .sub { font-style: italic; opacity: .85; margin-bottom: 26px; }
+.howto { list-style: none; text-align: left; max-width: 360px; margin: 0 auto 28px; line-height: 2; opacity: .9; font-size: 15px; }
+.howto b { color: var(--gold); font-weight: normal; }
+button {
+  font-family: inherit; cursor: pointer; border: none; border-radius: 4px;
+  padding: 12px 26px; font-size: 16px; background: var(--gold); color: #1c1408;
+  transition: filter .15s; letter-spacing: .3px;
+}
+button:hover { filter: brightness(1.12); }
+.loading { margin-top: 18px; font-style: italic; opacity: .7; }
+
+/* ---- HUD ---- */
+#hud { position: fixed; top: 0; left: 0; right: 0; z-index: 20; display: flex; justify-content: space-between; align-items: flex-start; padding: 18px 22px; pointer-events: none; }
+#floorTag { background: rgba(10,9,8,.55); padding: 10px 16px; border-radius: 4px; border-left: 3px solid var(--gold); }
+#floorName { display: block; font-size: 20px; color: var(--gold); }
+#floorEra { opacity: .75; font-size: 13px; }
+#mapBtn { pointer-events: auto; background: rgba(10,9,8,.65); color: var(--paper); border: 1px solid rgba(201,161,74,.4); padding: 10px 14px; font-size: 14px; }
+#mapBtn:hover { background: rgba(201,161,74,.25); }
+
+/* ---- Menu étages ---- */
+#floorMenu {
+  position: fixed; inset: 0; z-index: 40; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 14px;
+  background: rgba(8,7,6,.92);
+}
+#floorMenu h2 { color: var(--gold); font-size: 26px; margin-bottom: 8px; }
+#floorList { list-style: none; width: min(460px, 86vw); }
+#floorList li {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 14px 18px; margin-bottom: 8px; border: 1px solid rgba(201,161,74,.25);
+  border-radius: 4px; cursor: pointer; transition: background .15s;
+}
+#floorList li:hover { background: rgba(201,161,74,.15); }
+#floorList .fl-name { font-size: 18px; color: var(--paper); }
+#floorList .fl-era { font-size: 13px; opacity: .65; }
+
+/* ---- Panneau œuvre + guide ---- */
+#panel {
+  position: fixed; top: 0; right: 0; bottom: 0; z-index: 30;
+  width: min(440px, 92vw); padding: 28px 26px 22px;
+  background: linear-gradient(180deg, rgba(18,16,13,.97), rgba(12,11,9,.98));
+  border-left: 1px solid rgba(201,161,74,.4);
+  display: flex; flex-direction: column; gap: 12px; overflow-y: auto;
+  animation: slideIn .25s ease;
+}
+@keyframes slideIn { from { transform: translateX(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+#closePanel { position: absolute; top: 12px; right: 14px; background: none; color: var(--paper); font-size: 28px; padding: 0 8px; line-height: 1; }
+#closePanel:hover { color: var(--gold); filter: none; }
+#pTitle { color: var(--gold); font-size: 24px; padding-right: 28px; line-height: 1.2; }
+#pMeta { font-style: italic; opacity: .8; font-size: 14px; }
+#pNote { font-size: 16px; line-height: 1.55; }
+
+.guide { margin-top: 8px; border-top: 1px solid rgba(201,161,74,.25); padding-top: 14px; display: flex; flex-direction: column; min-height: 0; flex: 1; }
+.guide h3 { color: var(--gold); font-size: 16px; margin-bottom: 10px; font-weight: normal; letter-spacing: .3px; }
+#chatLog { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; min-height: 80px; }
+.msg { padding: 9px 12px; border-radius: 8px; font-size: 14px; line-height: 1.5; max-width: 92%; }
+.msg.me { align-self: flex-end; background: rgba(201,161,74,.2); }
+.msg.bot { align-self: flex-start; background: rgba(255,255,255,.06); }
+.msg.bot.thinking { opacity: .6; font-style: italic; }
+#chatForm { display: flex; gap: 8px; }
+#chatInput { flex: 1; padding: 10px 12px; border-radius: 4px; border: 1px solid rgba(201,161,74,.35); background: rgba(0,0,0,.3); color: var(--paper); font-family: inherit; font-size: 14px; }
+#chatForm button { padding: 10px 16px; font-size: 14px; }
+.guidehint { font-size: 12px; opacity: .6; margin-top: 8px; font-style: italic; }
+
+@media (max-width: 600px) {
+  #panel { width: 100vw; border-left: none; }
+}

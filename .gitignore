@@ -1,0 +1,11 @@
+# Échanges générés par le guide IA (locaux)
+data/notes.json
+
+# Modèles 3D lourds déposés localement (voir README pour les ajouter)
+models/*.glb
+models/*.gltf
+
+# macOS / éditeurs
+.DS_Store
+node_modules/
+*.log

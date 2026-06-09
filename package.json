@@ -1,0 +1,10 @@
+{
+  "name": "musee-art",
+  "version": "1.0.0",
+  "description": "Musée de l'Histoire de l'Art — visite première personne (Three.js + guide IA Claude)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "private": true
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musée de l'Histoire de l'Art — visite en première personne</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Écran de chargement / entrée -->
+  <div id="intro">
+    <div class="intro-card">
+      <h1>Musée de l'Histoire de l'Art</h1>
+      <p class="sub">Une visite en première personne, de Lascaux à Duchamp.</p>
+      <ul class="howto">
+        <li><b>Clic sur le sol</b> → tu te déplaces</li>
+        <li><b>Clic sur un tableau</b> → tu t'en approches, explications + guide</li>
+        <li><b>Glisser la souris</b> → regarder autour &nbsp;·&nbsp; <b>ZQSD</b> → marcher</li>
+        <li><b>Portail au fond</b> → étage suivant</li>
+      </ul>
+      <button id="enterBtn">Entrer dans le musée</button>
+      <p class="loading" id="loadingMsg" hidden>Chargement de la première salle…</p>
+    </div>
+  </div>
+
+  <!-- Interface en surimpression -->
+  <div id="hud" hidden>
+    <div id="floorTag"><span id="floorName"></span><small id="floorEra"></small></div>
+    <button id="mapBtn" title="Plan du musée">🛗 Étages</button>
+  </div>
+
+  <!-- Menu des étages -->
+  <div id="floorMenu" hidden>
+    <h2>Plan du musée</h2>
+    <ul id="floorList"></ul>
+    <button id="closeMenu">Fermer</button>
+  </div>
+
+  <!-- Panneau d'une œuvre + guide IA -->
+  <aside id="panel" hidden>
+    <button id="closePanel" title="Fermer">×</button>
+    <h2 id="pTitle"></h2>
+    <p id="pMeta"></p>
+    <p id="pNote"></p>
+
+    <div class="guide">
+      <h3>Demande au guide</h3>
+      <div id="chatLog"></div>
+      <form id="chatForm">
+        <input id="chatInput" type="text" placeholder="Pose ta question sur cette œuvre…" autocomplete="off" />
+        <button type="submit">Envoyer</button>
+      </form>
+      <p class="guidehint" id="guideHint"></p>
+    </div>
+  </aside>
+
+  <canvas id="scene"></canvas>
+  <script type="module" src="js/museum.js?v=2"></script>
+</body>
+</html>
