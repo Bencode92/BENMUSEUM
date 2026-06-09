@@ -36,6 +36,8 @@ const canvas = document.getElementById("scene");
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
 renderer.setSize(innerWidth, innerHeight);
 renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.15;
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(62, innerWidth / innerHeight, 0.1, 200);
@@ -90,11 +92,16 @@ async function loadRoom(index) {
   disposeRoom();
   pickables = []; spinners = []; avatar = null;
 
-  scene.fog = new THREE.FogExp2(amb.fog[0], amb.fog[1]);
+  scene.fog = new THREE.FogExp2(amb.fog[0], amb.fog[1] * 0.4);
   scene.background = new THREE.Color(amb.fog[0]);
 
-  roomGroup.add(new THREE.AmbientLight(amb.amb[0], amb.amb[1]));
-  roomGroup.add(new THREE.HemisphereLight(0xffffff, amb.floor, 0.25));
+  roomGroup.add(new THREE.AmbientLight(amb.amb[0], Math.max(amb.amb[1] * 1.7, 1.0)));
+  roomGroup.add(new THREE.HemisphereLight(0xffffff, amb.floor, 0.55));
+  // plafonniers : décroissance nulle (decay 0) => éclairage stable, jamais tout noir
+  [-7, 0, 7].forEach((z, i) => {
+    const p = new THREE.PointLight(0xfff2e0, i === 1 ? 1.3 : 0.7, 0, 0);
+    p.position.set(0, ROOM.h - 0.5, z); roomGroup.add(p);
+  });
 
   const matWall = new THREE.MeshStandardMaterial({ color: amb.wall, roughness: .95 });
   const matFloor = new THREE.MeshStandardMaterial({ color: amb.floor, roughness: .8, metalness: .05 });
@@ -187,8 +194,8 @@ function addArtwork(work, x, rotY, z, amb) {
   pic.userData = { type: "art", work, normal: new THREE.Vector3(0, 0, 1).applyAxisAngle(new THREE.Vector3(0, 1, 0), rotY) };
   group.add(pic); pickables.push(pic);
 
-  const spot = new THREE.SpotLight(amb.spot, 4, 9, Math.PI / 7, 0.5, 1.2);
-  spot.position.set(0, 1.6, 1.4); spot.target = pic; group.add(spot, spot.target);
+  const spot = new THREE.SpotLight(amb.spot, 6, 12, Math.PI / 6, 0.5, 0);
+  spot.position.set(0, 1.8, 1.6); spot.target = pic; group.add(spot, spot.target);
 
   group.add(makeLabel(work.titre, 0, -H / 2 - 0.35, 0.1, 0.5, 0xffffff, work.annee));
   roomGroup.add(group);
@@ -223,8 +230,8 @@ function addPedestal(work, x, z, amb) {
   base.position.y = baseH / 2; group.add(base);
 
   // spot vertical
-  const spot = new THREE.SpotLight(amb.spot, 5, 12, Math.PI / 6, 0.6, 1);
-  spot.position.set(0, 5, 0.01); group.add(spot);
+  const spot = new THREE.SpotLight(amb.spot, 8, 16, Math.PI / 6, 0.6, 0);
+  spot.position.set(0, 5, 0.01); spot.target = base; group.add(spot, spot.target);
 
   // zone cliquable autour de l'œuvre
   const hit = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 0.9, 2.4, 12),
@@ -283,7 +290,7 @@ function placeCeiling(work, h) {
   plane.userData = { type: "art", work, normal: new THREE.Vector3(0, -1, 0) };
   roomGroup.add(plane); pickables.push(plane);
 
-  const up = new THREE.PointLight(0xfff0d0, 0.8, 30); up.position.set(0, h - 1.5, -2); roomGroup.add(up);
+  const up = new THREE.PointLight(0xfff0d0, 1.4, 0, 0); up.position.set(0, h - 1.5, -2); roomGroup.add(up);
 
   loadArtImage(work.wiki, tex => {
     mat.map = tex; mat.color.set(0xffffff); mat.needsUpdate = true;
