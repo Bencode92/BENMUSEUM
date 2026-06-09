@@ -51,6 +51,12 @@ let roomGroup = new THREE.Group(); scene.add(roomGroup);
 let pickables = [];
 let spinners = [];        // objets 3D qui tournent (sculptures)
 let avatar = null;        // référence pour l'animation
+let currentEnv = "gallery";
+const torches = [];       // lampes de torche à faire vaciller
+let caveRockMat = null;   // matériau roche partagé (grotte)
+
+// environnement par étage (les autres = galerie ; thématisables ensuite)
+const ENV = { prehistoire: "cave" };
 
 let yaw = 0, pitch = 0, targetYaw = 0, targetPitch = 0;
 const targetPos = new THREE.Vector3();
@@ -90,41 +96,47 @@ async function loadRoom(index) {
   const amb = AMBIANCE[floor.id] || AMBIANCE.moderne;
 
   disposeRoom();
-  pickables = []; spinners = []; avatar = null;
+  pickables = []; spinners = []; avatar = null; torches.length = 0;
+  currentEnv = ENV[floor.id] || "gallery";
 
-  scene.fog = new THREE.FogExp2(amb.fog[0], amb.fog[1] * 0.4);
-  scene.background = new THREE.Color(amb.fog[0]);
-
-  roomGroup.add(new THREE.AmbientLight(amb.amb[0], Math.max(amb.amb[1] * 1.7, 1.0)));
-  roomGroup.add(new THREE.HemisphereLight(0xffffff, amb.floor, 0.55));
-  // plafonniers : décroissance nulle (decay 0) => éclairage stable, jamais tout noir
-  [-10, -3, 4, 10].forEach((z, i) => {
-    const p = new THREE.PointLight(0xfff2e0, 0.9, 0, 0);
-    p.position.set(0, ROOM.h - 0.5, z); roomGroup.add(p);
-  });
-
-  const matWall = new THREE.MeshStandardMaterial({ color: amb.wall, roughness: .95 });
-  const matFloor = new THREE.MeshStandardMaterial({ color: amb.floor, roughness: .8, metalness: .05 });
-  const matCeil = new THREE.MeshStandardMaterial({ color: amb.ceil, roughness: 1 });
   const { w, d, h } = ROOM;
 
-  const floorMesh = new THREE.Mesh(new THREE.PlaneGeometry(w, d), matFloor);
-  floorMesh.rotation.x = -Math.PI / 2; floorMesh.userData = { type: "floor" };
-  roomGroup.add(floorMesh); pickables.push(floorMesh);
+  if (currentEnv === "cave") {
+    scene.fog = new THREE.FogExp2(0x140d07, 0.028);
+    scene.background = new THREE.Color(0x0a0805);
+    buildCave();
+  } else {
+    scene.fog = new THREE.FogExp2(amb.fog[0], amb.fog[1] * 0.4);
+    scene.background = new THREE.Color(amb.fog[0]);
 
-  const ceil = new THREE.Mesh(new THREE.PlaneGeometry(w, d), matCeil);
-  ceil.rotation.x = Math.PI / 2; ceil.position.y = h; roomGroup.add(ceil);
+    roomGroup.add(new THREE.AmbientLight(amb.amb[0], Math.max(amb.amb[1] * 1.7, 1.0)));
+    roomGroup.add(new THREE.HemisphereLight(0xffffff, amb.floor, 0.55));
+    [-10, -3, 4, 10].forEach(z => {
+      const p = new THREE.PointLight(0xfff2e0, 0.9, 0, 0);
+      p.position.set(0, h - 0.5, z); roomGroup.add(p);
+    });
 
-  addWall(matWall, w, h, 0, h / 2, -d / 2, 0);
-  addWall(matWall, w, h, 0, h / 2,  d / 2, Math.PI);
-  addWall(matWall, d, h, -w / 2, h / 2, 0, Math.PI / 2);
-  addWall(matWall, d, h,  w / 2, h / 2, 0, -Math.PI / 2);
+    const matWall = new THREE.MeshStandardMaterial({ color: amb.wall, roughness: .95 });
+    const matFloor = new THREE.MeshStandardMaterial({ color: amb.floor, roughness: .8, metalness: .05 });
+    const matCeil = new THREE.MeshStandardMaterial({ color: amb.ceil, roughness: 1 });
 
-  const accent = new THREE.PointLight(parseInt((floor.couleur || "#c9a14a").slice(1), 16), 0.6, 45);
-  accent.position.set(0, h - 0.4, 0); roomGroup.add(accent);
+    const floorMesh = new THREE.Mesh(new THREE.PlaneGeometry(w, d), matFloor);
+    floorMesh.rotation.x = -Math.PI / 2; floorMesh.userData = { type: "floor" };
+    roomGroup.add(floorMesh); pickables.push(floorMesh);
 
-  // architecture : plinthes, corniche, tapis, banc, colonnes
-  buildArchitecture(amb);
+    const ceil = new THREE.Mesh(new THREE.PlaneGeometry(w, d), matCeil);
+    ceil.rotation.x = Math.PI / 2; ceil.position.y = h; roomGroup.add(ceil);
+
+    addWall(matWall, w, h, 0, h / 2, -d / 2, 0);
+    addWall(matWall, w, h, 0, h / 2,  d / 2, Math.PI);
+    addWall(matWall, d, h, -w / 2, h / 2, 0, Math.PI / 2);
+    addWall(matWall, d, h,  w / 2, h / 2, 0, -Math.PI / 2);
+
+    const accent = new THREE.PointLight(parseInt((floor.couleur || "#c9a14a").slice(1), 16), 0.6, 45);
+    accent.position.set(0, h - 0.4, 0); roomGroup.add(accent);
+
+    buildArchitecture(amb);
+  }
 
   // titre de la salle, haut du mur du fond
   roomGroup.add(makeLabel(salle.nom.toUpperCase(), 0, h - 0.8, -d / 2 + 0.05, 1.5, amb.spot, floor.nom));
@@ -183,29 +195,37 @@ function placeWall(list, wallX, rotY, amb) {
 function addArtwork(work, x, rotY, z, amb) {
   const group = new THREE.Group();
   group.position.set(x, EYE + 0.25, z); group.rotation.y = rotY;
+  const cave = currentEnv === "cave";
   const frameCol = FRAME_COLOR[amb.frame] || FRAME_COLOR.gold;
   let W = 2.4, H = 1.8;
+  let frame = null, mat = null;
 
-  const frame = new THREE.Mesh(
-    new THREE.BoxGeometry(W + 0.34, H + 0.34, 0.16),
-    new THREE.MeshStandardMaterial({ color: frameCol, roughness: .5, metalness: amb.frame === "gold" ? .7 : .2 }));
-  group.add(frame);
+  if (!cave) {
+    frame = new THREE.Mesh(new THREE.BoxGeometry(W + 0.34, H + 0.34, 0.16),
+      new THREE.MeshStandardMaterial({ color: frameCol, roughness: .5, metalness: amb.frame === "gold" ? .7 : .2 }));
+    group.add(frame);
+    mat = new THREE.Mesh(new THREE.PlaneGeometry(W + 0.16, H + 0.16),
+      new THREE.MeshStandardMaterial({ color: 0xf2ece0, roughness: .95 }));
+    mat.position.z = 0.085; group.add(mat);
+  }
 
-  // passe-partout crème
-  const mat = new THREE.Mesh(new THREE.PlaneGeometry(W + 0.16, H + 0.16),
-    new THREE.MeshStandardMaterial({ color: 0xf2ece0, roughness: .95 }));
-  mat.position.z = 0.085; group.add(mat);
-
-  const picMat = new THREE.MeshStandardMaterial({ color: 0x2a2a2a, roughness: .9 });
+  const picMat = new THREE.MeshStandardMaterial({
+    color: 0x2a2a2a, roughness: .9,
+    emissive: cave ? 0x2a1d10 : 0x000000, emissiveIntensity: cave ? 0.35 : 0,
+  });
   const pic = new THREE.Mesh(new THREE.PlaneGeometry(W, H), picMat);
-  pic.position.z = 0.095;
+  pic.position.z = cave ? 0.6 : 0.095;   // décollé de la paroi bosselée
   pic.userData = { type: "art", work, normal: new THREE.Vector3(0, 0, 1).applyAxisAngle(new THREE.Vector3(0, 1, 0), rotY) };
   group.add(pic); pickables.push(pic);
 
-  const spot = new THREE.SpotLight(amb.spot, 6, 14, Math.PI / 6, 0.5, 0);
-  spot.position.set(0, 2.0, 1.8); spot.target = pic; group.add(spot, spot.target);
+  if (cave) {
+    const gl = new THREE.PointLight(0xffb060, 6, 7, 2); gl.position.set(0, 0.2, 1.3); group.add(gl);
+  } else {
+    const spot = new THREE.SpotLight(amb.spot, 6, 14, Math.PI / 6, 0.5, 0);
+    spot.position.set(0, 2.0, 1.8); spot.target = pic; group.add(spot, spot.target);
+  }
 
-  group.add(makeLabel(work.titre, 0, -H / 2 - 0.4, 0.1, 0.5, 0xffffff, work.annee));
+  group.add(makeLabel(work.titre, 0, -H / 2 - 0.4, cave ? 0.62 : 0.1, 0.5, 0xffffff, work.annee));
   roomGroup.add(group);
 
   loadArtImage(work.wiki, tex => {
@@ -214,8 +234,8 @@ function addArtwork(work, x, rotY, z, amb) {
     let nh = 2.6, nw = 2.6 * ar; const maxW = 3.4;
     if (nw > maxW) { nw = maxW; nh = maxW / ar; }
     pic.scale.set(nw / W, nh / H, 1);
-    mat.scale.set((nw + 0.16) / (W + 0.16), (nh + 0.16) / (H + 0.16), 1);
-    frame.scale.set((nw + 0.34) / (W + 0.34), (nh + 0.34) / (H + 0.34), 1);
+    if (mat) mat.scale.set((nw + 0.16) / (W + 0.16), (nh + 0.16) / (H + 0.16), 1);
+    if (frame) frame.scale.set((nw + 0.34) / (W + 0.34), (nh + 0.34) / (H + 0.34), 1);
   });
 }
 
@@ -237,16 +257,22 @@ function placePedestals(list, amb) {
 function addPedestal(work, x, z, amb) {
   const group = new THREE.Group();
   group.position.set(x, 0, z);
+  const cave = currentEnv === "cave";
   const baseH = 1.0;
 
-  const base = new THREE.Mesh(
-    new THREE.CylinderGeometry(0.8, 0.95, baseH, 24),
-    new THREE.MeshStandardMaterial({ color: 0xded6c8, roughness: .85 }));
+  const base = cave
+    ? new THREE.Mesh(new THREE.CylinderGeometry(0.7, 0.95, baseH, 7), caveRockMat)
+    : new THREE.Mesh(new THREE.CylinderGeometry(0.8, 0.95, baseH, 24),
+        new THREE.MeshStandardMaterial({ color: 0xded6c8, roughness: .85 }));
   base.position.y = baseH / 2; group.add(base);
 
-  // spot vertical
-  const spot = new THREE.SpotLight(amb.spot, 8, 16, Math.PI / 6, 0.6, 0);
-  spot.position.set(0, 5, 0.01); spot.target = base; group.add(spot, spot.target);
+  // éclairage de l'œuvre
+  if (cave) {
+    const gl = new THREE.PointLight(0xffb060, 7, 8, 2); gl.position.set(0, 3, 0.3); group.add(gl);
+  } else {
+    const spot = new THREE.SpotLight(amb.spot, 8, 16, Math.PI / 6, 0.6, 0);
+    spot.position.set(0, 5, 0.01); spot.target = base; group.add(spot, spot.target);
+  }
 
   // zone cliquable autour de l'œuvre
   const hit = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 0.9, 2.4, 12),
@@ -391,6 +417,94 @@ function buildArchitecture(amb) {
   });
 }
 
+/* ---------- environnement GROTTE (préhistoire) ---------- */
+function buildCave() {
+  const { w, d, h } = ROOM;
+  caveRockMat = new THREE.MeshStandardMaterial({ map: makeRockTexture(), color: 0x7a6147, roughness: 1, metalness: 0 });
+
+  // sol rocheux irrégulier (cliquable)
+  const floorGeo = new THREE.PlaneGeometry(w + 2, d + 2, 36, 48); displace(floorGeo, 0.22);
+  const floorMesh = new THREE.Mesh(floorGeo, caveRockMat);
+  floorMesh.rotation.x = -Math.PI / 2; floorMesh.userData = { type: "floor" };
+  roomGroup.add(floorMesh); pickables.push(floorMesh);
+
+  // voûte basse et irrégulière
+  const ceilGeo = new THREE.PlaneGeometry(w + 2, d + 2, 30, 40); displace(ceilGeo, 0.7);
+  const ceil = new THREE.Mesh(ceilGeo, caveRockMat);
+  ceil.rotation.x = Math.PI / 2; ceil.position.y = h - 0.9; roomGroup.add(ceil);
+
+  // parois bosselées
+  addCaveWall(w, h, 0, h / 2, -d / 2, 0);
+  addCaveWall(w, h, 0, h / 2,  d / 2, Math.PI);
+  addCaveWall(d, h, -w / 2, h / 2, 0, Math.PI / 2);
+  addCaveWall(d, h,  w / 2, h / 2, 0, -Math.PI / 2);
+
+  roomGroup.add(new THREE.AmbientLight(0x3a2614, 0.55));
+
+  // torches le long des parois
+  [[-w / 2 + 1.3, 6], [w / 2 - 1.3, 2], [-w / 2 + 1.3, -6], [w / 2 - 1.3, -10], [0, d / 2 - 3]]
+    .forEach(([x, z]) => addTorch(x, z));
+
+  // stalactites + stalagmites + rochers
+  for (let i = 0; i < 18; i++) addStalactite((Math.random() - .5) * w * .85, h - 1.0, (Math.random() - .5) * d * .88);
+  for (let i = 0; i < 10; i++) addRock((Math.random() - .5) * w * .8, (Math.random() - .5) * d * .85);
+}
+
+function makeRockTexture() {
+  const c = document.createElement("canvas"); c.width = c.height = 256;
+  const g = c.getContext("2d");
+  g.fillStyle = "#5b4836"; g.fillRect(0, 0, 256, 256);
+  for (let i = 0; i < 12000; i++) {
+    const x = Math.random() * 256, y = Math.random() * 256, v = Math.random();
+    g.fillStyle = `rgba(${(50 + v * 70) | 0},${(38 + v * 50) | 0},${(26 + v * 34) | 0},0.5)`;
+    g.fillRect(x, y, 2, 2);
+  }
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(4, 4); t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+}
+
+function displace(geo, amt) {
+  const p = geo.attributes.position;
+  for (let i = 0; i < p.count; i++) {
+    const x = p.getX(i), y = p.getY(i);
+    const n = Math.sin(x * 0.7) * Math.cos(y * 0.55) + Math.sin(x * 1.9 + 1.3) * 0.5 + (Math.random() - .5) * 0.7;
+    p.setZ(i, n * amt);
+  }
+  p.needsUpdate = true; geo.computeVertexNormals();
+}
+
+function addCaveWall(length, height, x, y, z, rotY) {
+  const geo = new THREE.PlaneGeometry(length, height, 28, 14); displace(geo, 0.5);
+  const m = new THREE.Mesh(geo, caveRockMat);
+  m.position.set(x, y, z); m.rotation.y = rotY; roomGroup.add(m);
+}
+
+function addTorch(x, z) {
+  const light = new THREE.PointLight(0xff7a26, 14, 16, 2);
+  light.position.set(x, 2.7, z); light.userData = { base: 14 };
+  roomGroup.add(light); torches.push(light);
+  const flame = new THREE.Mesh(new THREE.SphereGeometry(0.13, 8, 8),
+    new THREE.MeshBasicMaterial({ color: 0xffb24a }));
+  flame.position.copy(light.position); roomGroup.add(flame);
+  const holder = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.06, 0.7, 6),
+    new THREE.MeshStandardMaterial({ color: 0x2a1a0e, roughness: 1 }));
+  holder.position.set(x, 2.3, z); roomGroup.add(holder);
+}
+
+function addStalactite(x, y, z) {
+  const len = 0.5 + Math.random() * 1.4;
+  const m = new THREE.Mesh(new THREE.ConeGeometry(0.15 + Math.random() * 0.2, len, 6), caveRockMat);
+  m.position.set(x, y - len / 2, z); m.rotation.x = Math.PI; roomGroup.add(m);
+}
+
+function addRock(x, z) {
+  const r = 0.35 + Math.random() * 0.6;
+  const m = new THREE.Mesh(new THREE.IcosahedronGeometry(r, 0), caveRockMat);
+  m.position.set(x, r * 0.5, z); m.rotation.set(Math.random() * 3, Math.random() * 3, Math.random() * 3);
+  roomGroup.add(m);
+}
+
 /* ---------- étiquettes texte ---------- */
 function makeLabel(text, x, y, z, scale, color = 0xffffff, sub = "") {
   const c = document.createElement("canvas");
@@ -529,6 +643,7 @@ function animate() {
   applyOrientation();
   spinners.forEach(s => s.rotation.y += 0.004);
   if (avatar) avatar.position.y = Math.sin(t * 1.5) * 0.08;
+  for (const l of torches) l.intensity = l.userData.base * (0.72 + Math.random() * 0.5);
   renderer.render(scene, camera);
 }
 animate();
