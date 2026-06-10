@@ -2282,7 +2282,8 @@
           "annee": "1907",
           "lieu": "New York (MoMA)",
           "wiki": "Les Demoiselles d'Avignon",
-          "genie": "Cinq figures aux corps anguleux, visages inspirés des masques africains, fragmentés sous plusieurs angles. Acte de naissance du Cubisme : on abandonne le point de vue unique de la Renaissance, vieux de 500 ans. La forme est analysée et reconstruite, pas imitée."
+          "genie": "Cinq figures aux corps anguleux, visages inspirés des masques africains, fragmentés sous plusieurs angles. Acte de naissance du Cubisme : on abandonne le point de vue unique de la Renaissance, vieux de 500 ans. La forme est analysée et reconstruite, pas imitée.",
+          "analyse": "Le titre fait sourire : ce sont cinq prostituées d'une maison close de la rue d'Avignon à Barcelone. Mais le tableau n'a rien de charmant — c'est une agression. Les corps sont taillés à coups de hache, l'espace n'a plus de profondeur, et surtout les deux visages de droite sont des masques africains, brutaux, presque effrayants : Picasso venait de découvrir l'art africain au musée du Trocadéro et en avait reçu un « choc ». Aucun point de vue unique : un nez est de profil sur un visage de face, un corps montre dos et avant à la fois. Picasso a tellement senti qu'il allait trop loin qu'il a caché la toile dans son atelier pendant des années ; même ses amis étaient atterrés. C'est pourtant l'acte de naissance du cubisme et, avec lui, de tout l'art du XXe siècle."
         },
         {
           "titre": "La Danse",
@@ -2298,7 +2299,8 @@
           "annee": "1913",
           "lieu": "Moscou (Tretiakov)",
           "wiki": "Composition VII",
-          "genie": "Plus aucun objet reconnaissable : seulement des formes et des couleurs en mouvement, « comme une musique ». Naissance de l'art abstrait : un tableau peut ne renvoyer à rien du monde visible et rester de l'art."
+          "genie": "Plus aucun objet reconnaissable : seulement des formes et des couleurs en mouvement, « comme une musique ». Naissance de l'art abstrait : un tableau peut ne renvoyer à rien du monde visible et rester de l'art.",
+          "analyse": "C'est le sommet de l'abstraction de Kandinsky, sa toile la plus complexe — il a fait une trentaine d'études avant de la peindre en quatre jours de 1913. À première vue, un tourbillon de couleurs et de formes sans aucun objet reconnaissable. Et pourtant ce n'est pas du décor : Kandinsky y a enfoui des thèmes apocalyptiques (le Déluge, le Jugement dernier, la Résurrection) dissous jusqu'à n'être plus que pure énergie. L'idée : atteindre le spectateur comme le ferait une symphonie, par la seule force des couleurs et des rythmes, sans passer par la reconnaissance d'objets. Le premier grand chef-d'œuvre d'un art qui ne montre rien et dit tout."
         },
         {
           "titre": "Fontaine",
@@ -2306,7 +2308,8 @@
           "annee": "1917",
           "lieu": "(ready-made)",
           "wiki": "Fountain (Duchamp)",
-          "genie": "Un urinoir industriel signé et exposé comme une sculpture. Dada et le ready-made : l'œuvre n'est plus un objet fabriqué mais un geste, une idée. « Qu'est-ce que l'art ? » devient le sujet — la racine de tout l'art conceptuel."
+          "genie": "Un urinoir industriel signé et exposé comme une sculpture. Dada et le ready-made : l'œuvre n'est plus un objet fabriqué mais un geste, une idée. « Qu'est-ce que l'art ? » devient le sujet — la racine de tout l'art conceptuel.",
+          "analyse": "En 1917, à New York, une société d'artistes promet d'exposer toute œuvre soumise avec sa cotisation. Duchamp, qui en est membre, achète un urinoir, le pose sur le dos, le signe « R. Mutt 1917 », l'intitule Fontaine et le soumet. Scandale : le comité refuse de l'exposer. Duchamp démissionne et défend anonymement l'objet dans une revue : peu importe que M. Mutt l'ait fabriqué de ses mains, « il l'a CHOISI » — et ce choix, ce déplacement d'un objet ordinaire dans le champ de l'art, est l'acte créateur. Tout bascule là : l'œuvre n'est plus un objet fabriqué avec talent, c'est une idée, une décision. L'original a disparu ; il n'en reste que des photos et des répliques. Aucun objet du XXe siècle n'a eu autant de descendance."
         }
       ],
       "artistes": [
@@ -2316,7 +2319,8 @@
           "dates": "1869-1954",
           "role": "Fauvisme",
           "wiki": "Henri Matisse",
-          "portrait": "Chef du Fauvisme, maître de la couleur et de la ligne ; fin de vie : les gouaches découpées."
+          "portrait": "Chef du Fauvisme, maître de la couleur et de la ligne ; fin de vie : les gouaches découpées.",
+          "bio_longue": "Henri Matisse (1869-1954) se destinait au droit ; c'est une boîte de couleurs offerte pendant une convalescence à 21 ans qui décide de tout — « comme une révélation ». Chef du fauvisme, il fait scandale puis devient le grand maître de la couleur et de la ligne pure, cherchant toute sa vie un art « d'équilibre, de calme », « comme un bon fauteuil » pour l'esprit fatigué. Sa rivalité-amitié avec Picasso structure tout le siècle : Picasso le démolisseur anguleux, Matisse l'enchanteur de la couleur — « personne d'autre que lui ne mérite qu'on le regarde », disait Picasso. Cloué au lit et à la chaise roulante à la fin de sa vie, ne pouvant plus tenir le pinceau, il invente les gouaches découpées : il « dessine avec des ciseaux » dans des feuilles peintes. La contrainte devient un nouveau sommet."
         },
         {
           "niveau": "★",
@@ -2324,7 +2328,8 @@
           "dates": "1881-1973",
           "role": "Cubisme",
           "wiki": "Pablo Picasso",
-          "portrait": "Le géant du siècle : co-invente le Cubisme, traverse tous les styles (Guernica, 1937)."
+          "portrait": "Le géant du siècle : co-invente le Cubisme, traverse tous les styles (Guernica, 1937).",
+          "bio_longue": "Né à Málaga en 1881, fils d'un professeur de dessin qui, dit la légende, lui aurait donné ses pinceaux en reconnaissant l'élève dépasser le maître. Prodige précoce, il s'installe à Paris dans la misère de Montmartre. Sa « période bleue » (1901-04), née du suicide d'un ami, baigne mendiants et solitudes dans un bleu glacé ; la « période rose » l'adoucit avec ses saltimbanques. Puis, en 1907, le coup de tonnerre des Demoiselles d'Avignon, et l'aventure cubiste avec Braque. Picasso ne s'arrêtera jamais : il traverse tous les styles, change de manière comme de maîtresse, peint la guerre civile espagnole dans Guernica (1937), sculpte, grave, fait de la céramique. Mort en 1973 à 91 ans, il laisse des dizaines de milliers d'œuvres. Sa vraie signature n'est pas un style mais une énergie : la réinvention permanente. « Je ne cherche pas, je trouve. »"
         },
         {
           "niveau": "○",
@@ -2332,7 +2337,8 @@
           "dates": "1882-1963",
           "role": "Cubisme",
           "wiki": "Georges Braque",
-          "portrait": "Co-inventeur du Cubisme avec Picasso."
+          "portrait": "Co-inventeur du Cubisme avec Picasso.",
+          "bio_longue": "Georges Braque (1882-1963), fils de peintre en bâtiment, apporte au cubisme la rigueur et le métier (faux bois, lettres au pochoir, papiers collés qu'il invente en 1912). Avec Picasso, entre 1908 et 1914, leur collaboration est si fusionnelle qu'ils cessent parfois de signer pour qu'on ne sache plus qui a peint quoi. La Première Guerre les sépare : Braque part au front, y est gravement blessé à la tête. Il reviendra à un cubisme plus serein, plus musical, mais l'aventure héroïque à deux est finie."
         },
         {
           "niveau": "○",
@@ -2340,7 +2346,8 @@
           "dates": "1863-1944",
           "role": "Expressionnisme",
           "wiki": "Edvard Munch",
-          "portrait": "Le Cri, source de l'Expressionnisme."
+          "portrait": "Le Cri, source de l'Expressionnisme.",
+          "bio_longue": "Edvard Munch (1863-1944), Norvégien marqué par la mort de sa mère et de sa sœur, peint l'angoisse à l'état pur. Le Cri (1893) — une silhouette qui hurle sous un ciel sang, les mains sur les oreilles — est devenu l'icône universelle de l'anxiété moderne. Il est la source de l'expressionnisme : déformer le visible pour exprimer le ressenti."
         },
         {
           "niveau": "○",
@@ -2356,7 +2363,8 @@
           "dates": "1866-1944",
           "role": "Abstraction",
           "wiki": "Wassily Kandinsky",
-          "portrait": "Pionnier de l'abstraction ; la couleur comme musique."
+          "portrait": "Pionnier de l'abstraction ; la couleur comme musique.",
+          "bio_longue": "Wassily Kandinsky (1866-1944) est d'abord juriste à Moscou ; il abandonne une chaire de professeur à 30 ans pour devenir peintre, après deux chocs : un tableau de Monet où il ne reconnaît pas le sujet (une meule) mais ressent une force, et une représentation de Wagner. Il croit que la couleur, comme la musique, agit directement sur l'âme — il dit « entendre » les couleurs (synesthésie). Vers 1910, il peint les premières aquarelles sans aucun sujet : l'art abstrait est né. Théoricien (Du spirituel dans l'art), fondateur du Cavalier bleu, il enseignera au Bauhaus avant de fuir les nazis pour Paris."
         },
         {
           "niveau": "○",
@@ -2364,7 +2372,8 @@
           "dates": "1872-1944",
           "role": "Abstraction géométrique",
           "wiki": "Piet Mondrian",
-          "portrait": "Abstraction géométrique pure (grilles, rouge/bleu/jaune)."
+          "portrait": "Abstraction géométrique pure (grilles, rouge/bleu/jaune).",
+          "bio_longue": "Piet Mondrian (1872-1944), Hollandais, part de paysages d'arbres qu'il épure d'année en année jusqu'à ce qu'il n'en reste que des lignes. Il aboutit au néoplasticisme : uniquement des lignes noires horizontales et verticales, et les trois couleurs primaires sur fond blanc. Pour lui, ce n'est pas de la décoration mais une quête quasi mystique : l'ordre universel et l'équilibre des forces sous le désordre du monde. Exilé à New York à la fin de sa vie, fasciné par le jazz et la ville, il fait vibrer sa grille dans Broadway Boogie-Woogie."
         },
         {
           "niveau": "★",
@@ -2372,7 +2381,8 @@
           "dates": "1879-1940",
           "role": "Bauhaus",
           "wiki": "Paul Klee",
-          "portrait": "Poésie, signes, humour ; enseignant au Bauhaus."
+          "portrait": "Poésie, signes, humour ; enseignant au Bauhaus.",
+          "bio_longue": "Paul Klee (1879-1940), Suisse-allemand, musicien autant que peintre, crée un monde de signes, de flèches, de poissons et de lettres, d'une poésie et d'un humour uniques. « Le dessin, c'est prendre une ligne pour une promenade. » Professeur au Bauhaus, il bâtit une véritable théorie de la forme et de la couleur. Déclaré « dégénéré » par les nazis, malade, il peint ses dernières œuvres, plus sombres et graves, comme des hiéroglyphes face à la mort."
         },
         {
           "niveau": "★",
@@ -2380,7 +2390,8 @@
           "dates": "1904-1989",
           "role": "Surréalisme",
           "wiki": "Salvador Dalí",
-          "portrait": "Surréalisme, rêve hyperréaliste (La Persistance de la mémoire)."
+          "portrait": "Surréalisme, rêve hyperréaliste (La Persistance de la mémoire).",
+          "bio_longue": "Salvador Dalí (1904-1989), Catalan génial et cabotin, se fait le showman du surréalisme : moustache en guidon, provocations calculées, amour de l'argent (Breton l'anagramme en « Avida Dollars »). Mais derrière le clown, un technicien hors pair qui peint ses rêves avec une précision hallucinante — c'est ce réalisme minutieux qui rend ses montres molles si troublantes. Il invente la méthode « paranoïaque-critique » : provoquer en soi un délire pour y voir des images doubles. Sa muse et femme Gala est au centre de tout. Génie ou imposteur ? Les deux, sans doute — et c'est très surréaliste."
         },
         {
           "niveau": "○",
@@ -2404,7 +2415,8 @@
           "dates": "1898-1986",
           "role": "Sculpture",
           "wiki": "Henry Moore",
-          "portrait": "Sculpteur, formes organiques creusées."
+          "portrait": "Sculpteur, formes organiques creusées.",
+          "bio_longue": "Henry Moore (1898-1986), fils de mineur anglais, révolutionne la sculpture avec ses grandes figures couchées aux formes organiques creusées de vides — le trou, l'absence, devient aussi important que la matière. Inspiré par les galets, les os, les paysages, il rend la sculpture moderne à la fois monumentale et étrangement vivante."
         },
         {
           "niveau": "○",
@@ -2549,6 +2561,40 @@
         "Qu'est-ce qu'un ready-made et pourquoi est-ce une révolution ?",
         "Relie chaque post-impressionniste au mouvement du XXe qu'il a engendré.",
         "Cite un mouvement et son idée centrale : Fauvisme, Cubisme, Abstraction, Dada, Surréalisme."
+      ],
+      "recit": [
+        {
+          "h": "La rupture : pourquoi l'art cesse d'imiter",
+          "p": "Au tournant du siècle, la peinture perd sa mission millénaire. Depuis la Renaissance, l'artiste occidental cherchait à imiter le monde : la perspective, l'anatomie, la lumière n'étaient que des outils pour tromper l'œil. Mais en 1839 la photographie est née, et vers 1900 elle fait tout cela mieux, plus vite, pour rien. La question devient brutale : à quoi sert un peintre si une machine copie le réel ? Les trois post-impressionnistes avaient déjà montré la sortie — Cézanne en cherchant la structure géométrique sous l'apparence, Van Gogh en faisant de la couleur un cri intérieur, Gauguin en fuyant vers le symbole et l'aplat. Le XXe siècle va pousser chacune de ces portes jusqu'au bout. L'art ne va plus représenter le monde : il va le réinventer, le décomposer, ou s'en passer."
+        },
+        {
+          "h": "Le fauvisme (1905) : la couleur prend le pouvoir",
+          "p": "Au Salon d'automne de 1905, une salle fait scandale : des toiles où le ciel peut être rouge, un visage vert, une ombre orange. Un critique parle d'une « cage aux fauves ». Matisse en est le chef. L'idée : la couleur n'a plus à être juste, fidèle à l'objet — elle existe pour elle-même, pour sa force et son harmonie. Un arbre n'est pas peint vert parce qu'il est vert, mais parce que ce vert-là équilibre le tableau et provoque une émotion. C'est la première libération du XXe : la couleur s'émancipe du réel. Le fauvisme dure peu (quelques années), mais il ouvre la voie : si la couleur peut mentir au service de l'art, pourquoi pas la forme ?"
+        },
+        {
+          "h": "Le cubisme (1907-1914) : briser le point de vue unique",
+          "p": "C'est LA révolution du siècle, et elle a deux pères : Picasso et Braque, qui travaillent si serrés qu'ils disent eux-mêmes être « comme deux alpinistes encordés ». Le déclencheur, c'est la leçon de Cézanne (« traiter la nature par le cylindre, la sphère, le cône ») et le choc des masques africains. En 1907, Picasso peint Les Demoiselles d'Avignon : cinq corps anguleux, des visages-masques, vus de plusieurs angles à la fois. Pour la première fois en cinq siècles, on abandonne le point de vue unique inventé à la Renaissance. L'idée du cubisme : un objet n'est pas ce qu'on voit d'un seul endroit, mais la somme de tous ses aspects. On tourne autour, on le démonte, on rabat ses faces sur la toile."
+        },
+        {
+          "h": "Cubisme analytique puis synthétique",
+          "p": "Le cubisme a deux temps. Le cubisme analytique (1909-1912) décompose : objets et espace éclatent en facettes, les couleurs disparaissent presque (ocres, gris) pour ne pas distraire de la structure ; les tableaux deviennent des énigmes presque illisibles, une guitare ou un visage reconstruits comme un cristal. Puis le cubisme synthétique (à partir de 1912) recompose : on colle de vrais morceaux de réel — papier journal, papier peint, partition (les papiers collés, le collage, inventés là). L'art cesse même de peindre l'objet : il intègre des fragments du monde. Conséquence immense : si une toile peut être un assemblage de signes plutôt qu'une fenêtre, alors la peinture est libre de tout. Le cubisme est la matrice d'où sortiront l'abstraction et presque tout l'art moderne."
+        },
+        {
+          "h": "L'abstraction (années 1910) : l'art sans sujet",
+          "p": "Le pas suivant était logique : si la couleur et la forme valent pour elles-mêmes, pourquoi garder un sujet ? Vers 1910, Kandinsky franchit le seuil — un tableau peut ne représenter rien du tout et rester de l'art, comme une musique qui n'imite aucun bruit. Pour lui, couleurs et lignes touchent l'âme directement, sans passer par les choses. Trois voies s'ouvrent : Kandinsky, lyrique et spirituel (l'abstraction comme émotion pure) ; Mondrian, qui réduit tout à des lignes noires et trois couleurs primaires (l'ordre universel sous le chaos) ; Malevitch, qui peint un carré noir sur fond blanc — le degré zéro, l'art ramené à presque rien pour mieux renaître."
+        },
+        {
+          "h": "Dada (1916) : l'art se moque de l'art",
+          "p": "Pendant que l'Europe se massacre dans les tranchées, un groupe d'artistes réfugiés à Zurich décide que cette civilisation « rationnelle » qui produit la guerre ne mérite plus qu'on la prenne au sérieux. C'est Dada : provocation, absurde, hasard, anti-art. Son geste le plus radical vient de Duchamp : en 1917, il signe « R. Mutt » un urinoir industriel, l'intitule Fontaine et le présente comme sculpture. Aucune main d'artiste, aucun savoir-faire — juste un choix, une idée. La question « est-ce beau ? » est remplacée par « est-ce de l'art ? », et c'est désormais l'artiste qui décide, par sa seule décision. Le readymade fait basculer tout l'art à venir : l'idée devient l'œuvre. Sans Duchamp, pas d'art conceptuel, pas de Warhol."
+        },
+        {
+          "h": "Le surréalisme (1924) : le règne du rêve",
+          "p": "Après la guerre, une autre génération veut explorer non le monde extérieur mais l'intérieur : l'inconscient que Freud venait de cartographier. Mené par le poète André Breton, le surréalisme peint la logique du rêve — associations impossibles, objets qui se métamorphosent, désirs et peurs rendus visibles. Dalí en est la vitrine spectaculaire avec ses montres molles et sa technique hyperréaliste qui rend l'impossible crédible ; Magritte joue de l'énigme (« ceci n'est pas une pipe ») ; Ernst et Miró inventent des mondes oniriques. Le réel ne suffit plus : on peint ce qui n'existe que dans la tête."
+        },
+        {
+          "h": "Bauhaus et après : la fin d'une histoire, le début d'une autre",
+          "p": "En parallèle, le Bauhaus (école allemande, 1919-1933) applique l'esprit moderne au design et à l'architecture : « la forme suit la fonction », plus d'ornement, des objets pensés pour la vie moderne et la production. C'est là que naît le design tel qu'on le connaît. Puis l'Histoire s'emballe : les nazis ferment le Bauhaus et traquent l'« art dégénéré », les artistes fuient aux États-Unis. Après 1945, le centre du monde de l'art quitte Paris pour New York — expressionnisme abstrait (Pollock, Rothko), puis Pop Art (Warhol). Mais c'est déjà après Gombrich : le XXe siècle de ce chapitre, c'est le moment où l'art, libéré de l'imitation, se met à expérimenter sans fin sur sa propre nature."
+        }
       ]
     },
     {

@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "13"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "14"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -323,6 +323,9 @@ function renderDossier(id) {
     <h1>${esc(d.titre)} ${favBtn(`dossier:${d.id}`, d.titre, `#/d/${d.id}`, "dossier")}</h1>
     ${d.sous_titre ? `<p class="lead">${esc(d.sous_titre)}</p>` : ""}</div>`);
 
+  if (d.recit) P.push(sec("📖 Le récit",
+    d.recit.map(s => `<div class="block recit"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div>`).join("")));
+
   if (d.carte) P.push(sec("🪪 Carte d'identité",
     `<table class="kv">${d.carte.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>`));
 
@@ -361,14 +364,16 @@ function renderDossier(id) {
       <div class="card"><div class="thumb" data-wiki="${esc(o.wiki)}"></div>
         <div class="body"><div class="t">${esc(o.titre)} ${favBtn(`oeuvre-d:${d.id}:${o.titre}`, `${o.titre} — ${o.artiste}`, `#/d/${d.id}`, "œuvre")}</div>
         <div class="s">${esc(o.artiste)} · ${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
-        <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p></div></div>`).join("")}</div>`));
+        <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p>
+        ${o.analyse ? `<details class="deep"><summary>📖 Analyse approfondie</summary><p>${esc(o.analyse)}</p></details>` : ""}</div></div>`).join("")}</div>`));
 
   if (d.artistes) P.push(sec("👤 Les artistes",
     `<div class="grid cols">${d.artistes.map(a => `
       <div class="card"><div class="thumb" data-wiki="${esc(a.wiki)}"></div>
         <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)} ${favBtn(`artiste:${a.nom}`, a.nom, `#/d/${d.id}`, "artiste")}</div>
         <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
-        <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p></div></div>`).join("")}</div>`));
+        <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p>
+        ${a.bio_longue ? `<details class="deep"><summary>📖 Lire son histoire</summary><p>${esc(a.bio_longue)}</p></details>` : ""}</div></div>`).join("")}</div>`));
 
   if (!d.artistes && d.artistes_note) P.push(sec("👤 Les artistes", `<p>${esc(d.artistes_note)}</p>`));
 

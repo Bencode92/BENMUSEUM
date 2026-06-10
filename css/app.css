@@ -135,6 +135,16 @@ ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 .dossier-link { display: inline-block; background: var(--gold); color: #fff; padding: 10px 16px; border-radius: 8px; text-decoration: none; cursor: pointer; margin: 8px 0; }
 .dossier-link:hover { filter: brightness(1.08); }
 
+/* ---- récit profond & sections dépliables ---- */
+.block.recit { margin: 12px 0; }
+.block.recit h3 { font-family: Georgia, serif; font-size: 18px; color: var(--gold); text-transform: none; letter-spacing: 0; margin-bottom: 8px; }
+.block.recit p { font-size: 15.5px; line-height: 1.7; }
+details.deep { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+details.deep summary { cursor: pointer; color: var(--gold); font-size: 13px; list-style: none; }
+details.deep summary::-webkit-details-marker { display: none; }
+details.deep[open] summary { margin-bottom: 6px; }
+details.deep p { font-size: 14px; line-height: 1.65; }
+
 /* ---- session du jour ---- */
 .session-cta { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
   background: linear-gradient(120deg, #2e2620, #3a2f24); color: #f5efe2; border-radius: 14px; padding: 20px 24px; margin-bottom: 22px; box-shadow: var(--shadow); }
