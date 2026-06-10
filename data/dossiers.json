@@ -156,21 +156,24 @@
           "dates": "~1267-1337",
           "role": "le grand-père",
           "wiki": "Giotto",
-          "portrait": "Premier à donner poids, émotion et espace, rompant avec l'or byzantin. Sans lui, pas de Renaissance. → Chapelle des Scrovegni (Padoue)."
+          "portrait": "Premier à donner poids, émotion et espace, rompant avec l'or byzantin. Sans lui, pas de Renaissance. → Chapelle des Scrovegni (Padoue).",
+          "groupe": "Le précurseur"
         },
         {
           "nom": "Masaccio",
           "dates": "1401-1428",
           "role": "le pionnier foudroyé",
           "wiki": "Masaccio",
-          "portrait": "Mort à 27 ans, il change tout : fusionne perspective, volume et observation. Tous les grands Florentins iront étudier ses fresques."
+          "portrait": "Mort à 27 ans, il change tout : fusionne perspective, volume et observation. Tous les grands Florentins iront étudier ses fresques.",
+          "groupe": "École de Florence & Rome — le dessin"
         },
         {
           "nom": "Donatello",
           "dates": "~1386-1466",
           "role": "le sculpteur révolutionnaire",
           "wiki": "Donatello",
-          "portrait": "Ramène le nu autonome et l'émotion intense. Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité."
+          "portrait": "Ramène le nu autonome et l'émotion intense. Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité.",
+          "groupe": "École de Florence & Rome — le dessin"
         },
         {
           "nom": "Botticelli",
@@ -178,7 +181,8 @@
           "role": "la grâce, puis le doute",
           "wiki": "Sandro Botticelli",
           "portrait": "Mythologies païennes d'une grâce linéaire unique sous les Médicis. Fin de vie troublée sous l'influence de Savonarole.",
-          "bio_longue": "Sandro Botticelli (1445-1510) est le peintre de la grâce florentine sous les Médicis. Sa ligne sinueuse, presque musicale, et ses figures rêveuses (La Naissance de Vénus, Le Printemps) traduisent un idéal de beauté hérité de l'Antiquité et de la philosophie néoplatonicienne de son cercle. Mais sa fin est sombre : tombé sous l'influence du prédicateur fanatique Savonarole, qui faisait brûler les œuvres « vaniteuses » dans des « bûchers des vanités », il aurait lui-même renié et détruit certaines de ses toiles païennes. Oublié à sa mort, il ne sera redécouvert qu'au XIXe siècle."
+          "bio_longue": "Sandro Botticelli (1445-1510) est le peintre de la grâce florentine sous les Médicis. Sa ligne sinueuse, presque musicale, et ses figures rêveuses (La Naissance de Vénus, Le Printemps) traduisent un idéal de beauté hérité de l'Antiquité et de la philosophie néoplatonicienne de son cercle. Mais sa fin est sombre : tombé sous l'influence du prédicateur fanatique Savonarole, qui faisait brûler les œuvres « vaniteuses » dans des « bûchers des vanités », il aurait lui-même renié et détruit certaines de ses toiles païennes. Oublié à sa mort, il ne sera redécouvert qu'au XIXe siècle.",
+          "groupe": "École de Florence & Rome — le dessin"
         },
         {
           "nom": "Léonard de Vinci",
@@ -186,7 +190,8 @@
           "role": "le génie universel",
           "wiki": "Leonardo da Vinci",
           "portrait": "Peintre, anatomiste, ingénieur. Obsédé par l'observation, finissait peu d'œuvres. Invente le sfumato. Meurt en France auprès de François Iᵉʳ. Pour lui, peindre = comprendre le monde.",
-          "bio_longue": "Leonardo da Vinci (1452-1519), fils illégitime d'un notaire, est l'incarnation même du génie universel : peintre, mais aussi anatomiste, ingénieur, botaniste, inventeur. Sa curiosité dévorante est aussi son défaut — il finissait peu d'œuvres, distrait par mille recherches. Il invente le sfumato, ce fondu vaporeux qui rend le sourire de la Joconde insaisissable. Pour lui, peindre, c'est comprendre : il dissèque des cadavres, étudie le vol des oiseaux, le mouvement de l'eau. Il meurt en France, à la cour de François Iᵉʳ, qui l'avait attiré comme on s'offre la plus grande merveille de son temps."
+          "bio_longue": "Leonardo da Vinci (1452-1519), fils illégitime d'un notaire, est l'incarnation même du génie universel : peintre, mais aussi anatomiste, ingénieur, botaniste, inventeur. Sa curiosité dévorante est aussi son défaut — il finissait peu d'œuvres, distrait par mille recherches. Il invente le sfumato, ce fondu vaporeux qui rend le sourire de la Joconde insaisissable. Pour lui, peindre, c'est comprendre : il dissèque des cadavres, étudie le vol des oiseaux, le mouvement de l'eau. Il meurt en France, à la cour de François Iᵉʳ, qui l'avait attiré comme on s'offre la plus grande merveille de son temps.",
+          "groupe": "École de Florence & Rome — le dessin"
         },
         {
           "nom": "Michel-Ange",
@@ -194,7 +199,8 @@
           "role": "la force et le tourment",
           "wiki": "Michelangelo",
           "portrait": "Se voulait avant tout sculpteur. Solitaire, exigeant. Peint seul, sur le dos, le plafond Sixtine en 4 ans. Donne au corps une puissance quasi divine. Vit 88 ans.",
-          "bio_longue": "Michelangelo Buonarroti (1475-1564) se voulait avant tout sculpteur — il disait « libérer » la figure déjà prisonnière du bloc de marbre. Solitaire, colérique, d'une exigence terrible, il vit 88 ans et traverse les époques. Le pape Jules II le force à peindre le plafond de la chapelle Sixtine : quatre ans de souffrance, seul sur un échafaudage, la tête renversée, à peindre 300 figures — il s'en plaint en vers. Son art a une puissance, une tension dramatique (la « terribilità ») qui dépasse l'équilibre serein de ses contemporains et annonce déjà le Baroque."
+          "bio_longue": "Michelangelo Buonarroti (1475-1564) se voulait avant tout sculpteur — il disait « libérer » la figure déjà prisonnière du bloc de marbre. Solitaire, colérique, d'une exigence terrible, il vit 88 ans et traverse les époques. Le pape Jules II le force à peindre le plafond de la chapelle Sixtine : quatre ans de souffrance, seul sur un échafaudage, la tête renversée, à peindre 300 figures — il s'en plaint en vers. Son art a une puissance, une tension dramatique (la « terribilità ») qui dépasse l'équilibre serein de ses contemporains et annonce déjà le Baroque.",
+          "groupe": "École de Florence & Rome — le dessin"
         },
         {
           "nom": "Raphaël",
@@ -202,7 +208,8 @@
           "role": "l'harmonie incarnée",
           "wiki": "Raphael",
           "portrait": "Le plus jeune des trois géants, mort à 37 ans. Génie de l'équilibre et de la composition. Serein là où Léonard est mystérieux et Michel-Ange tourmenté.",
-          "bio_longue": "Raffaello Sanzio (1483-1520) est le plus jeune des trois géants et le plus aimable : là où Léonard est mystérieux et Michel-Ange tourmenté, Raphaël est l'harmonie, la grâce, la facilité. Génie de la composition, il orchestre des dizaines de figures dans un équilibre parfait (L'École d'Athènes). Adulé, riche, entouré d'un grand atelier, il mène une vie de prince — et meurt brutalement à 37 ans, le jour de son anniversaire dit-on. Sa mort, en 1520, est souvent prise comme la fin de la Haute Renaissance."
+          "bio_longue": "Raffaello Sanzio (1483-1520) est le plus jeune des trois géants et le plus aimable : là où Léonard est mystérieux et Michel-Ange tourmenté, Raphaël est l'harmonie, la grâce, la facilité. Génie de la composition, il orchestre des dizaines de figures dans un équilibre parfait (L'École d'Athènes). Adulé, riche, entouré d'un grand atelier, il mène une vie de prince — et meurt brutalement à 37 ans, le jour de son anniversaire dit-on. Sa mort, en 1520, est souvent prise comme la fin de la Haute Renaissance.",
+          "groupe": "École de Florence & Rome — le dessin"
         },
         {
           "nom": "Titien",
@@ -210,7 +217,8 @@
           "role": "le roi de la couleur (Venise)",
           "wiki": "Titian",
           "portrait": "Domine 60 ans. Maître de la couleur et de la matière, touche de plus en plus libre avec l'âge. Peintre des rois et des papes.",
-          "bio_longue": "Tiziano Vecellio (vers 1488-1576) règne sur Venise et sur la peinture européenne pendant soixante ans. Maître absolu de la couleur et de la matière, peintre officiel de l'empereur Charles Quint (qui, dit la légende, se serait baissé pour ramasser son pinceau tombé), il peint rois, papes et déesses. Le plus frappant est son évolution : avec l'âge, sa touche se libère, se fait large, vibrante, presque abstraite de près — annonçant trois siècles à l'avance la peinture moderne."
+          "bio_longue": "Tiziano Vecellio (vers 1488-1576) règne sur Venise et sur la peinture européenne pendant soixante ans. Maître absolu de la couleur et de la matière, peintre officiel de l'empereur Charles Quint (qui, dit la légende, se serait baissé pour ramasser son pinceau tombé), il peint rois, papes et déesses. Le plus frappant est son évolution : avec l'âge, sa touche se libère, se fait large, vibrante, presque abstraite de près — annonçant trois siècles à l'avance la peinture moderne.",
+          "groupe": "École de Venise — la couleur"
         },
         {
           "nom": "Albrecht Dürer",
@@ -218,7 +226,125 @@
           "role": "le pont Nord-Sud",
           "wiki": "Albrecht Dürer",
           "portrait": "Allemand, ramène la Renaissance au Nord. Génie de la gravure diffusée en masse. Se peint en personnage noble : la nouvelle fierté de l'artiste.",
-          "bio_longue": "Albrecht Dürer (1471-1528), de Nuremberg, est l'homme qui fait entrer la Renaissance en Allemagne. Fasciné par l'Italie, il en rapporte la science des proportions et de la perspective, qu'il fusionne avec le génie nordique du détail. Surtout, il est un maître de la gravure : un art reproductible, diffusé en masse à travers l'Europe — ce qui fait de lui le premier artiste véritablement célèbre de son vivant à l'échelle du continent. Dans ses autoportraits, il se représente en personnage noble, presque christique : l'affirmation éclatante de la nouvelle dignité de l'artiste."
+          "bio_longue": "Albrecht Dürer (1471-1528), de Nuremberg, est l'homme qui fait entrer la Renaissance en Allemagne. Fasciné par l'Italie, il en rapporte la science des proportions et de la perspective, qu'il fusionne avec le génie nordique du détail. Surtout, il est un maître de la gravure : un art reproductible, diffusé en masse à travers l'Europe — ce qui fait de lui le premier artiste véritablement célèbre de son vivant à l'échelle du continent. Dans ses autoportraits, il se représente en personnage noble, presque christique : l'affirmation éclatante de la nouvelle dignité de l'artiste.",
+          "groupe": "Renaissance du Nord — le détail"
+        },
+        {
+          "niveau": "★",
+          "nom": "Brunelleschi",
+          "dates": "1377-1446",
+          "role": "architecte",
+          "wiki": "Filippo Brunelleschi",
+          "groupe": "École de Florence & Rome — le dessin",
+          "portrait": "Orfèvre devenu architecte, il invente les lois de la perspective et coiffe la cathédrale de Florence d'une coupole colossale qu'on jugeait impossible. Le véritable point de départ technique de la Renaissance."
+        },
+        {
+          "niveau": "○",
+          "nom": "Fra Angelico",
+          "dates": "~1395-1455",
+          "role": "",
+          "wiki": "Fra Angelico",
+          "groupe": "École de Florence & Rome — le dessin",
+          "portrait": "Moine dominicain et peintre, il met la science nouvelle de l'espace au service d'une douceur mystique. Ses fresques du couvent San Marco, peintes pour la prière des moines, sont d'une pureté lumineuse."
+        },
+        {
+          "niveau": "★",
+          "nom": "Piero della Francesca",
+          "dates": "~1415-1492",
+          "role": "",
+          "wiki": "Piero della Francesca",
+          "groupe": "École de Florence & Rome — le dessin",
+          "portrait": "Peintre et mathématicien, il unit la perspective la plus rigoureuse à une lumière claire et une gravité sereine, presque abstraite. Longtemps oublié, il est aujourd'hui adoré pour sa géométrie silencieuse."
+        },
+        {
+          "niveau": "○",
+          "nom": "Mantegna",
+          "dates": "~1431-1506",
+          "role": "",
+          "wiki": "Andrea Mantegna",
+          "groupe": "École de Florence & Rome — le dessin",
+          "portrait": "Passionné de l'Antiquité romaine et virtuose du raccourci, il ose des audaces stupéfiantes — comme son Christ mort vu en perspective brutale depuis les pieds. La pierre et l'archéologie faites peinture."
+        },
+        {
+          "niveau": "○",
+          "nom": "Bramante",
+          "dates": "1444-1514",
+          "role": "architecte",
+          "wiki": "Donato Bramante",
+          "groupe": "École de Florence & Rome — le dessin",
+          "portrait": "Le grand architecte de la Haute Renaissance : il dessine les premiers plans de la nouvelle basilique Saint-Pierre de Rome et réalise le Tempietto, petit temple d'une perfection classique absolue."
+        },
+        {
+          "niveau": "○",
+          "nom": "Giovanni Bellini",
+          "dates": "~1430-1516",
+          "role": "",
+          "wiki": "Giovanni Bellini",
+          "groupe": "École de Venise — la couleur",
+          "portrait": "Le père de l'école vénitienne. Le premier à faire de la lumière et de la couleur, plus que du dessin, le cœur de la peinture. Maître de Giorgione et de Titien, il ouvre la voie à tout le génie vénitien."
+        },
+        {
+          "niveau": "★",
+          "nom": "Giorgione",
+          "dates": "~1477-1510",
+          "role": "",
+          "wiki": "Giorgione",
+          "groupe": "École de Venise — la couleur",
+          "portrait": "Mystérieux et mort jeune de la peste, il invente le « paysage d'âme » : des scènes énigmatiques (La Tempête) où l'atmosphère et la lumière comptent plus que le sujet. Une poésie sans équivalent."
+        },
+        {
+          "niveau": "○",
+          "nom": "Véronèse",
+          "dates": "1528-1588",
+          "role": "",
+          "wiki": "Paolo Veronese",
+          "groupe": "École de Venise — la couleur",
+          "portrait": "Le peintre du faste vénitien : d'immenses banquets somptueux, des architectures lumineuses, des couleurs éclatantes. Convoqué par l'Inquisition pour avoir mis des chiens et des bouffons dans une Cène, il rebaptisa simplement la toile."
+        },
+        {
+          "niveau": "★",
+          "nom": "Van Eyck",
+          "dates": "~1390-1441",
+          "role": "",
+          "wiki": "Jan van Eyck",
+          "groupe": "Renaissance du Nord — le détail",
+          "portrait": "Le génie flamand de la peinture à l'huile, qu'il porte à une perfection inégalée : un réalisme minutieux, des transparences, une lumière qui semble venir des choses elles-mêmes (Les Époux Arnolfini, le Retable de Gand)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Van der Weyden",
+          "dates": "~1400-1464",
+          "role": "",
+          "wiki": "Rogier van der Weyden",
+          "groupe": "Renaissance du Nord — le détail",
+          "portrait": "Le maître flamand de l'émotion. Sa Descente de croix, aux figures alignées comme un bas-relief douloureux, atteint une intensité de chagrin que peu d'œuvres égalent."
+        },
+        {
+          "niveau": "★",
+          "nom": "Jérôme Bosch",
+          "dates": "~1450-1516",
+          "role": "",
+          "wiki": "Hieronymus Bosch",
+          "groupe": "Renaissance du Nord — le détail",
+          "portrait": "L'imagination la plus fiévreuse du Nord : un fourmillement de créatures hybrides, de péchés et de cauchemars (Le Jardin des délices). Entre le rêve et l'enfer, un visionnaire qui fascinera plus tard les surréalistes."
+        },
+        {
+          "niveau": "★",
+          "nom": "Holbein le Jeune",
+          "dates": "~1497-1543",
+          "role": "",
+          "wiki": "Hans Holbein the Younger",
+          "groupe": "Renaissance du Nord — le détail",
+          "portrait": "Le plus grand portraitiste du Nord, peintre de la cour d'Henri VIII d'Angleterre. Ses visages d'une vérité saisissante et ses détails virtuoses (le crâne anamorphique des Ambassadeurs) le placent au sommet."
+        },
+        {
+          "niveau": "★",
+          "nom": "Bruegel l'Ancien",
+          "dates": "~1525-1569",
+          "role": "",
+          "wiki": "Pieter Bruegel the Elder",
+          "groupe": "Renaissance du Nord — le détail",
+          "portrait": "Le grand regard sur la vie ordinaire : noces, danses, proverbes, foules paysannes et grands paysages d'hiver (Les Chasseurs dans la neige). Sous le pittoresque, une morale grave sur la condition humaine."
         }
       ],
       "index": [

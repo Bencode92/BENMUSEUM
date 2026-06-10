@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "18"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "19"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -435,13 +435,22 @@ function renderDossier(id) {
         <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p>
         ${o.analyse ? `<details class="deep"><summary>📖 Analyse approfondie</summary><p>${esc(o.analyse)}</p></details>` : ""}</div></div>`).join("")}</div>`));
 
-  if (d.artistes) P.push(sec("👤 Les artistes",
-    `<div class="grid cols">${d.artistes.map(a => `
+  if (d.artistes) {
+    const aCard = a => `
       <div class="card"><div class="thumb zoomable" data-wiki="${esc(a.wiki)}" data-zoom="${esc(a.wiki)}" data-cap="${esc(a.nom)}"></div>
         <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)} ${favBtn(`artiste:${a.nom}`, a.nom, `#/d/${d.id}`, "artiste")}</div>
         <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
         <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p>
-        ${a.bio_longue ? `<details class="deep"><summary>📖 Lire son histoire</summary><p>${esc(a.bio_longue)}</p></details>` : ""}</div></div>`).join("")}</div>`));
+        ${a.bio_longue ? `<details class="deep"><summary>📖 Lire son histoire</summary><p>${esc(a.bio_longue)}</p></details>` : ""}</div></div>`;
+    if (d.artistes.some(a => a.groupe)) {
+      const groups = {};
+      d.artistes.forEach(a => { (groups[a.groupe || "Autres"] ||= []).push(a); });
+      P.push(sec("👤 Les artistes, par école", Object.entries(groups).map(([g, arr]) =>
+        `<h3 class="grp">${esc(g)}</h3><div class="grid cols">${arr.map(aCard).join("")}</div>`).join("")));
+    } else {
+      P.push(sec("👤 Les artistes", `<div class="grid cols">${d.artistes.map(aCard).join("")}</div>`));
+    }
+  }
 
   if (!d.artistes && d.artistes_note) P.push(sec("👤 Les artistes", `<p>${esc(d.artistes_note)}</p>`));
 

@@ -2147,5 +2147,125 @@
     "format": "jpg",
     "file": "02_10_2024_Photo_Paolo_Villa-Napoli-mann-Museo_Archeologico-FO232526tris-Arte_Greca_copia_romana-Policleto_Doriforo_Polykleitos_Doryphoros_from_Pompeii-marmo_marble_carrara.jpg",
     "via": "Doryphoros"
+  },
+  "Filippo Brunelleschi": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg/1280px-Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1249,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg",
+    "w": 2035,
+    "h": 2542,
+    "format": "jpg",
+    "file": "Masaccio,_cappella_brancacci,_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg"
+  },
+  "Fra Angelico": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/41/Fra_Angelico_portrait.jpg",
+    "thumb_w": 550,
+    "thumb_h": 695,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Fra_Angelico_portrait.jpg",
+    "w": 550,
+    "h": 695,
+    "format": "jpg",
+    "file": "Fra_Angelico_portrait.jpg"
+  },
+  "Piero della Francesca": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Delle_vite_de%27_pi%C3%B9_eccellenti_pittori%2C_scultori%2C_et_architetti_%281648%29_%2814799608033%29.jpg/1280px-Delle_vite_de%27_pi%C3%B9_eccellenti_pittori%2C_scultori%2C_et_architetti_%281648%29_%2814799608033%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1166,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Delle_vite_de%27_pi%C3%B9_eccellenti_pittori%2C_scultori%2C_et_architetti_%281648%29_%2814799608033%29.jpg",
+    "w": 1690,
+    "h": 1970,
+    "format": "jpg",
+    "file": "Delle_vite_de'_più_eccellenti_pittori,_scultori,_et_architetti_(1648)_(14799608033).jpg"
+  },
+  "Andrea Mantegna": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mantegna_Bronze_Bust_San_Andrea_Mantua.png",
+    "thumb_w": 688,
+    "thumb_h": 912,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mantegna_Bronze_Bust_San_Andrea_Mantua.png",
+    "w": 688,
+    "h": 912,
+    "format": "png",
+    "file": "Mantegna_Bronze_Bust_San_Andrea_Mantua.png"
+  },
+  "Donato Bramante": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/35/Donato_Bramante.jpg",
+    "thumb_w": 468,
+    "thumb_h": 640,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Donato_Bramante.jpg",
+    "w": 468,
+    "h": 640,
+    "format": "jpg",
+    "file": "Donato_Bramante.jpg"
+  },
+  "Giovanni Bellini": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Giovanni_Bellini_Felt%C3%A9telezett%C3%96narck%C3%A9peKJ.jpg",
+    "thumb_w": 1223,
+    "thumb_h": 1612,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Giovanni_Bellini_Felt%C3%A9telezett%C3%96narck%C3%A9peKJ.jpg",
+    "w": 1223,
+    "h": 1612,
+    "format": "jpg",
+    "file": "Giovanni_Bellini_FeltételezettÖnarcképeKJ.jpg"
+  },
+  "Giorgione": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Self_portrait%2C_by_Giorgio_da_Castelfranco.jpg/1280px-Self_portrait%2C_by_Giorgio_da_Castelfranco.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1212,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Self_portrait%2C_by_Giorgio_da_Castelfranco.jpg",
+    "w": 3365,
+    "h": 4078,
+    "format": "jpg",
+    "file": "Self_portrait,_by_Giorgio_da_Castelfranco.jpg"
+  },
+  "Paolo Veronese": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paolo_Veronese%2C_avtoportret.jpg",
+    "thumb_w": 751,
+    "thumb_h": 944,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paolo_Veronese%2C_avtoportret.jpg",
+    "w": 751,
+    "h": 944,
+    "format": "jpg",
+    "file": "Paolo_Veronese,_avtoportret.jpg"
+  },
+  "Jan van Eyck": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg/1280px-Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1376,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg",
+    "w": 8889,
+    "h": 12230,
+    "format": "jpg",
+    "file": "Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait?)_1433.jpg"
+  },
+  "Rogier van der Weyden": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Rogier_Lamp_%28cropped%29.jpg",
+    "thumb_w": 998,
+    "thumb_h": 1255,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Rogier_Lamp_%28cropped%29.jpg",
+    "w": 998,
+    "h": 1255,
+    "format": "jpg",
+    "file": "Rogier_Lamp_(cropped).jpg"
+  },
+  "Hieronymus Bosch": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jheronimus_Bosch_%28cropped%29.jpg/1280px-Jheronimus_Bosch_%28cropped%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1165,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jheronimus_Bosch_%28cropped%29.jpg",
+    "w": 1658,
+    "h": 1932,
+    "format": "jpg",
+    "file": "Jheronimus_Bosch_(cropped).jpg"
+  },
+  "Hans Holbein the Younger": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hans_Holbein_the_Younger%2C_self-portrait.jpg/1280px-Hans_Holbein_the_Younger%2C_self-portrait.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1366,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hans_Holbein_the_Younger%2C_self-portrait.jpg",
+    "w": 2424,
+    "h": 3312,
+    "format": "jpg",
+    "file": "Hans_Holbein_the_Younger,_self-portrait.jpg"
   }
 }
