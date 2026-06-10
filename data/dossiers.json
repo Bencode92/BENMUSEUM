@@ -110,7 +110,8 @@
           "annee": "~1427",
           "lieu": "Florence",
           "wiki": "Holy Trinity (Masaccio)",
-          "genie": "Première application rigoureuse de la perspective en peinture : le mur plat semble se creuser en vraie chapelle. La peinture devient une fenêtre sur un monde cohérent."
+          "genie": "Première application rigoureuse de la perspective en peinture : le mur plat semble se creuser en vraie chapelle. La peinture devient une fenêtre sur un monde cohérent.",
+          "analyse": "Peinte vers 1427 dans une église de Florence, c'est la première application rigoureuse de la perspective en peinture. Masaccio y crée l'illusion parfaite d'une chapelle creusée dans le mur plat : les lignes fuient vers un point unique situé à hauteur du regard du spectateur, si bien qu'on croit voir une vraie voûte. En bas, un squelette dans un tombeau porte une inscription glaçante : « J'étais ce que vous êtes, vous serez ce que je suis. » L'œuvre réunit la prouesse technique (l'espace mathématique) et le vertige spirituel (la mort, la Trinité) : tout le programme de la Renaissance en un seul tableau."
         },
         {
           "titre": "Les Époux Arnolfini",
@@ -118,7 +119,8 @@
           "annee": "1434",
           "lieu": "Londres",
           "wiki": "Arnolfini Portrait",
-          "genie": "Maîtrise inouïe de l'huile : chaque texture rendue avec une précision quasi photographique, 3 siècles avant la photo. Le miroir du fond reflète la scène par-derrière, peintre compris. Le quotidien d'un couple de marchands mérite l'attention du sacré."
+          "genie": "Maîtrise inouïe de l'huile : chaque texture rendue avec une précision quasi photographique, 3 siècles avant la photo. Le miroir du fond reflète la scène par-derrière, peintre compris. Le quotidien d'un couple de marchands mérite l'attention du sacré.",
+          "analyse": "Van Eyck, 1434. Un riche marchand italien installé à Bruges et son épouse, dans une chambre où chaque objet est rendu avec une précision hallucinante : la fourrure, le laiton du lustre, le petit chien, les oranges (signe de richesse). Au fond, un miroir convexe reflète toute la scène par-derrière — et deux silhouettes sur le seuil, dont le peintre lui-même : au-dessus, il a écrit « Jan van Eyck fut ici ». Tableau-énigme (contrat de mariage ? mémorial ?), il prouve surtout une chose : grâce à l'huile, le quotidien d'un couple de bourgeois mérite désormais la même attention minutieuse que les saints."
         },
         {
           "titre": "La Cène",
@@ -126,7 +128,8 @@
           "annee": "~1495-98",
           "lieu": "Milan",
           "wiki": "The Last Supper (Leonardo)",
-          "genie": "Saisit l'instant psychologique où le Christ annonce la trahison ; chaque apôtre réagit, la géométrie pointe vers sa tête. L'art peint l'intérieur des gens, pas seulement l'apparence."
+          "genie": "Saisit l'instant psychologique où le Christ annonce la trahison ; chaque apôtre réagit, la géométrie pointe vers sa tête. L'art peint l'intérieur des gens, pas seulement l'apparence.",
+          "analyse": "Léonard, vers 1495-98, sur le mur d'un réfectoire à Milan. Il choisit l'instant le plus dramatique : celui où le Christ vient de dire « l'un de vous me trahira ». Onze apôtres réagissent — stupeur, indignation, déni — tandis que Judas, isolé, recule dans l'ombre en serrant sa bourse. Toute la géométrie de la salle (les lignes de fuite du plafond) converge vers la tête calme du Christ, point de paix au centre de l'agitation. Léonard ne peint pas une scène figée mais un moment psychologique : l'art apprend à montrer l'intérieur des êtres. Hélas, sa technique expérimentale s'est dégradée presque aussitôt."
         },
         {
           "titre": "David",
@@ -134,7 +137,8 @@
           "annee": "1501-04",
           "lieu": "Florence",
           "wiki": "David (Michelangelo)",
-          "genie": "L'instant avant le combat : tension, concentration. Anatomie parfaite, contrapposto antique, charge psychologique neuve. Le corps nu redevient expression suprême de dignité ; symbole d'une Florence libre."
+          "genie": "L'instant avant le combat : tension, concentration. Anatomie parfaite, contrapposto antique, charge psychologique neuve. Le corps nu redevient expression suprême de dignité ; symbole d'une Florence libre.",
+          "analyse": "Michel-Ange, 1501-04. Plus de cinq mètres de marbre, taillés dans un bloc que d'autres sculpteurs avaient abandonné comme inutilisable. Il ne représente pas David vainqueur, la tête de Goliath à ses pieds (comme la tradition), mais l'instant d'AVANT : le berger qui jauge l'adversaire, la fronde sur l'épaule, le corps en tension contenue, le regard concentré et inquiet. Mains et tête sont volontairement surdimensionnées, pour être lues d'en bas. Symbole de la petite république de Florence défiant les puissants, ce nu héroïque est devenu l'image même de la perfection du corps humain."
         },
         {
           "titre": "L'École d'Athènes",
@@ -142,7 +146,8 @@
           "annee": "1509-11",
           "lieu": "Vatican",
           "wiki": "The School of Athens",
-          "genie": "Synthèse parfaite de tous les acquis ; les philosophes ont les traits de Léonard et Michel-Ange. Dans un palais du pape, on célèbre des penseurs païens : savoir antique et foi réconciliés."
+          "genie": "Synthèse parfaite de tous les acquis ; les philosophes ont les traits de Léonard et Michel-Ange. Dans un palais du pape, on célèbre des penseurs païens : savoir antique et foi réconciliés.",
+          "analyse": "Raphaël, vers 1510, sur un mur des appartements du pape au Vatican. Sous une immense architecture en perspective, il rassemble tous les grands penseurs de l'Antiquité. Au centre, Platon (qui pointe le ciel, les idées) et Aristote (la main vers le sol, le réel) — et Raphaël leur donne, en secret, les traits de ses contemporains : Platon ressemble à Léonard, le penseur isolé sur les marches à Michel-Ange, et le jeune homme qui nous regarde, à droite, c'est Raphaël lui-même. Audace suprême : dans le palais du pape, on célèbre des païens. Foi chrétienne et raison antique, enfin réconciliées."
         }
       ],
       "artistes": [
@@ -172,42 +177,48 @@
           "dates": "1445-1510",
           "role": "la grâce, puis le doute",
           "wiki": "Sandro Botticelli",
-          "portrait": "Mythologies païennes d'une grâce linéaire unique sous les Médicis. Fin de vie troublée sous l'influence de Savonarole."
+          "portrait": "Mythologies païennes d'une grâce linéaire unique sous les Médicis. Fin de vie troublée sous l'influence de Savonarole.",
+          "bio_longue": "Sandro Botticelli (1445-1510) est le peintre de la grâce florentine sous les Médicis. Sa ligne sinueuse, presque musicale, et ses figures rêveuses (La Naissance de Vénus, Le Printemps) traduisent un idéal de beauté hérité de l'Antiquité et de la philosophie néoplatonicienne de son cercle. Mais sa fin est sombre : tombé sous l'influence du prédicateur fanatique Savonarole, qui faisait brûler les œuvres « vaniteuses » dans des « bûchers des vanités », il aurait lui-même renié et détruit certaines de ses toiles païennes. Oublié à sa mort, il ne sera redécouvert qu'au XIXe siècle."
         },
         {
           "nom": "Léonard de Vinci",
           "dates": "1452-1519",
           "role": "le génie universel",
           "wiki": "Leonardo da Vinci",
-          "portrait": "Peintre, anatomiste, ingénieur. Obsédé par l'observation, finissait peu d'œuvres. Invente le sfumato. Meurt en France auprès de François Iᵉʳ. Pour lui, peindre = comprendre le monde."
+          "portrait": "Peintre, anatomiste, ingénieur. Obsédé par l'observation, finissait peu d'œuvres. Invente le sfumato. Meurt en France auprès de François Iᵉʳ. Pour lui, peindre = comprendre le monde.",
+          "bio_longue": "Leonardo da Vinci (1452-1519), fils illégitime d'un notaire, est l'incarnation même du génie universel : peintre, mais aussi anatomiste, ingénieur, botaniste, inventeur. Sa curiosité dévorante est aussi son défaut — il finissait peu d'œuvres, distrait par mille recherches. Il invente le sfumato, ce fondu vaporeux qui rend le sourire de la Joconde insaisissable. Pour lui, peindre, c'est comprendre : il dissèque des cadavres, étudie le vol des oiseaux, le mouvement de l'eau. Il meurt en France, à la cour de François Iᵉʳ, qui l'avait attiré comme on s'offre la plus grande merveille de son temps."
         },
         {
           "nom": "Michel-Ange",
           "dates": "1475-1564",
           "role": "la force et le tourment",
           "wiki": "Michelangelo",
-          "portrait": "Se voulait avant tout sculpteur. Solitaire, exigeant. Peint seul, sur le dos, le plafond Sixtine en 4 ans. Donne au corps une puissance quasi divine. Vit 88 ans."
+          "portrait": "Se voulait avant tout sculpteur. Solitaire, exigeant. Peint seul, sur le dos, le plafond Sixtine en 4 ans. Donne au corps une puissance quasi divine. Vit 88 ans.",
+          "bio_longue": "Michelangelo Buonarroti (1475-1564) se voulait avant tout sculpteur — il disait « libérer » la figure déjà prisonnière du bloc de marbre. Solitaire, colérique, d'une exigence terrible, il vit 88 ans et traverse les époques. Le pape Jules II le force à peindre le plafond de la chapelle Sixtine : quatre ans de souffrance, seul sur un échafaudage, la tête renversée, à peindre 300 figures — il s'en plaint en vers. Son art a une puissance, une tension dramatique (la « terribilità ») qui dépasse l'équilibre serein de ses contemporains et annonce déjà le Baroque."
         },
         {
           "nom": "Raphaël",
           "dates": "1483-1520",
           "role": "l'harmonie incarnée",
           "wiki": "Raphael",
-          "portrait": "Le plus jeune des trois géants, mort à 37 ans. Génie de l'équilibre et de la composition. Serein là où Léonard est mystérieux et Michel-Ange tourmenté."
+          "portrait": "Le plus jeune des trois géants, mort à 37 ans. Génie de l'équilibre et de la composition. Serein là où Léonard est mystérieux et Michel-Ange tourmenté.",
+          "bio_longue": "Raffaello Sanzio (1483-1520) est le plus jeune des trois géants et le plus aimable : là où Léonard est mystérieux et Michel-Ange tourmenté, Raphaël est l'harmonie, la grâce, la facilité. Génie de la composition, il orchestre des dizaines de figures dans un équilibre parfait (L'École d'Athènes). Adulé, riche, entouré d'un grand atelier, il mène une vie de prince — et meurt brutalement à 37 ans, le jour de son anniversaire dit-on. Sa mort, en 1520, est souvent prise comme la fin de la Haute Renaissance."
         },
         {
           "nom": "Titien",
           "dates": "~1488-1576",
           "role": "le roi de la couleur (Venise)",
           "wiki": "Titian",
-          "portrait": "Domine 60 ans. Maître de la couleur et de la matière, touche de plus en plus libre avec l'âge. Peintre des rois et des papes."
+          "portrait": "Domine 60 ans. Maître de la couleur et de la matière, touche de plus en plus libre avec l'âge. Peintre des rois et des papes.",
+          "bio_longue": "Tiziano Vecellio (vers 1488-1576) règne sur Venise et sur la peinture européenne pendant soixante ans. Maître absolu de la couleur et de la matière, peintre officiel de l'empereur Charles Quint (qui, dit la légende, se serait baissé pour ramasser son pinceau tombé), il peint rois, papes et déesses. Le plus frappant est son évolution : avec l'âge, sa touche se libère, se fait large, vibrante, presque abstraite de près — annonçant trois siècles à l'avance la peinture moderne."
         },
         {
           "nom": "Albrecht Dürer",
           "dates": "1471-1528",
           "role": "le pont Nord-Sud",
           "wiki": "Albrecht Dürer",
-          "portrait": "Allemand, ramène la Renaissance au Nord. Génie de la gravure diffusée en masse. Se peint en personnage noble : la nouvelle fierté de l'artiste."
+          "portrait": "Allemand, ramène la Renaissance au Nord. Génie de la gravure diffusée en masse. Se peint en personnage noble : la nouvelle fierté de l'artiste.",
+          "bio_longue": "Albrecht Dürer (1471-1528), de Nuremberg, est l'homme qui fait entrer la Renaissance en Allemagne. Fasciné par l'Italie, il en rapporte la science des proportions et de la perspective, qu'il fusionne avec le génie nordique du détail. Surtout, il est un maître de la gravure : un art reproductible, diffusé en masse à travers l'Europe — ce qui fait de lui le premier artiste véritablement célèbre de son vivant à l'échelle du continent. Dans ses autoportraits, il se représente en personnage noble, presque christique : l'affirmation éclatante de la nouvelle dignité de l'artiste."
         }
       ],
       "index": [
@@ -493,6 +504,32 @@
         "Pourquoi L'École d'Athènes est-elle audacieuse vu son emplacement ?",
         "Oppose en une phrase Léonard, Michel-Ange et Raphaël.",
         "Différence Florence / Venise / Nord ?"
+      ],
+      "recit": [
+        {
+          "h": "Giotto, le réveil (vers 1300)",
+          "p": "Tout commence un peu avant la Renaissance « officielle », avec un berger toscan devenu peintre : Giotto. Pendant des siècles, l'art médiéval avait peint des symboles plats sur fond d'or — des figures sans poids, sans espace, hors du temps. Giotto, lui, redonne aux personnages un corps lourd, une place dans un vrai décor, et surtout des émotions humaines : ses figures pleurent, se détournent, se touchent. Pour la première fois depuis l'Antiquité, une scène peinte semble se passer ici, entre des êtres de chair. C'est l'étincelle : deux siècles plus tard, toute la Renaissance se réclamera de lui."
+        },
+        {
+          "h": "La double révolution : la perspective et l'huile",
+          "p": "Au début du XVe siècle, deux outils changent tout. À Florence, l'architecte Brunelleschi découvre les lois de la perspective linéaire — des lignes qui fuient vers un point unique — et Masaccio l'applique le premier en peinture : son mur peint semble se creuser en vraie chapelle. La peinture devient une fenêtre ouverte sur un monde cohérent. Au même moment, au Nord, dans les Flandres, Van Eyck perfectionne la peinture à l'huile : elle permet des transparences, une minutie quasi photographique, trois siècles avant la photo. Deux voies, un même but : conquérir le réel."
+        },
+        {
+          "h": "Florence et le mécénat : l'argent fait la beauté",
+          "p": "Sans les Médicis, pas de Renaissance. Cette famille de banquiers florentins finance les artistes comme on financerait aujourd'hui la recherche de pointe. Botticelli peint pour eux des mythologies païennes d'une grâce inédite (La Naissance de Vénus). C'est l'humanisme : on redécouvre les textes et les statues de l'Antiquité, on remet l'humain — sa raison, sa beauté, sa dignité — au centre, là où le Moyen Âge ne voyait qu'un pécheur tourné vers Dieu."
+        },
+        {
+          "h": "La Haute Renaissance : l'apogée (vers 1500)",
+          "p": "Trois génies portent l'art à un sommet d'équilibre, à Florence puis à Rome sous le mécénat des papes. Léonard de Vinci invente le sfumato (des contours fondus dans l'ombre) et cherche à comprendre le monde autant qu'à le peindre. Michel-Ange, sculpteur dans l'âme, donne au corps humain une puissance quasi divine, au burin comme au pinceau. Raphaël réalise la synthèse parfaite : la science nouvelle, la beauté antique et l'harmonie réunies sans effort apparent. En vingt ans, l'Occident atteint un point que la génération suivante jugera indépassable — et c'est précisément ce qui la mettra en crise."
+        },
+        {
+          "h": "Venise : la couleur contre le dessin",
+          "p": "Pendant que Florence et Rome cultivent le dessin (disegno), la ligne, la rigueur, Venise — cité marchande, humide, baignée de lumière — mise sur la couleur (colorito). Giorgione puis Titien construisent leurs tableaux par taches colorées et atmosphère plutôt que par contours nets. Titien, qui dominera la peinture pendant soixante ans, peint d'une touche de plus en plus libre, presque moderne, dans sa vieillesse. Cette querelle dessin/couleur traversera ensuite tout l'art occidental, jusqu'à Ingres contre Delacroix."
+        },
+        {
+          "h": "Le Nord et l'artiste-génie",
+          "p": "Au nord des Alpes, pas de retour à l'Antiquité, mais un réalisme du détail poussé à l'extrême (Van Eyck, puis l'imagination fiévreuse de Bosch). Dürer fait le pont : il rapporte d'Italie la science des proportions et la diffuse par la gravure, reproductible en masse — premier artiste « star » internationale. Car c'est là le vrai bouleversement de la Renaissance : l'artiste cesse d'être un artisan anonyme. Il signe, on connaît sa vie, son caractère, ses caprices ; il devient un créateur, comparable au poète. Le mot « génie » prend son sens moderne."
+        }
       ]
     },
     {
@@ -755,7 +792,8 @@
           "annee": "~1600",
           "lieu": "Rome",
           "wiki": "The Calling of Saint Matthew",
-          "genie": "Un rayon de lumière traverse une salle sombre et « désigne » Matthieu, attablé comme des joueurs. Le sacré surgit dans le quotidien le plus banal ; la lumière fait tout le drame. Caravage invente une religiosité brute, populaire, bouleversante."
+          "genie": "Un rayon de lumière traverse une salle sombre et « désigne » Matthieu, attablé comme des joueurs. Le sacré surgit dans le quotidien le plus banal ; la lumière fait tout le drame. Caravage invente une religiosité brute, populaire, bouleversante.",
+          "analyse": "Caravage, vers 1600, dans une chapelle romaine. Dans une salle sombre, des hommes comptent de l'argent autour d'une table — des collecteurs d'impôts, en costumes contemporains. Soudain, par la droite, un rayon de lumière entre en même temps que le Christ, dont la main tendue (citation directe de la main de Dieu de Michel-Ange à la Sixtine) désigne Matthieu. Celui-ci se montre du doigt, incrédule : « Moi ? ». Tout le miracle tient dans cette lumière : elle ne décrit pas, elle élit. Caravage invente une religiosité brute et populaire — le sacré fait irruption dans le quotidien le plus banal."
         },
         {
           "titre": "L'Extase de sainte Thérèse",
@@ -763,7 +801,8 @@
           "annee": "1652",
           "lieu": "Rome",
           "wiki": "Ecstasy of Saint Teresa",
-          "genie": "La sainte transpercée par la flèche d'un ange, en extase mystique. Marbre qui semble chair et nuée, lumière dorée tombant d'une fenêtre cachée. La sculpture devient théâtre total : architecture, lumière et marbre fusionnent."
+          "genie": "La sainte transpercée par la flèche d'un ange, en extase mystique. Marbre qui semble chair et nuée, lumière dorée tombant d'une fenêtre cachée. La sculpture devient théâtre total : architecture, lumière et marbre fusionnent.",
+          "analyse": "Le Bernin, 1652. La sainte espagnole avait décrit une vision où un ange lui transperçait le cœur d'une flèche d'or, dans une douleur « si douce » qu'elle en gémissait — extase mystique à l'ambiguïté très charnelle, que le Bernin ne masque pas. Le marbre y accomplit l'impossible : le drapé bouillonne comme agité par le vent, le corps de Thérèse défaille sur un nuage, et de vrais rayons de bronze doré descendent vers elle, éclairés par une fenêtre dissimulée au-dessus. Sur les côtés, des membres de la famille commanditaire, sculptés dans des loges, assistent à la scène. C'est de la sculpture, de l'architecture, du théâtre et de la lumière fondus en une seule expérience."
         },
         {
           "titre": "Les Ménines",
@@ -771,7 +810,8 @@
           "annee": "1656",
           "lieu": "Madrid",
           "wiki": "Las Meninas",
-          "genie": "L'infante, ses suivantes, le peintre lui-même, le couple royal reflété dans un miroir. Vertige sur le regard : qui regarde qui ? Le spectateur prend la place du roi. Sommet de la peinture occidentale."
+          "genie": "L'infante, ses suivantes, le peintre lui-même, le couple royal reflété dans un miroir. Vertige sur le regard : qui regarde qui ? Le spectateur prend la place du roi. Sommet de la peinture occidentale.",
+          "analyse": "Vélasquez, 1656. La scène paraît simple : l'infante Marguerite entourée de ses suivantes (les ménines), de deux nains et d'un chien, dans l'atelier du peintre. Mais tout est piège. À gauche, Vélasquez lui-même peint, devant une immense toile dont on ne voit que le dos. Au fond, dans un miroir, apparaissent le roi et la reine — donc ils se tiennent là où nous, spectateurs, nous tenons. Que peint Vélasquez ? Le couple royal ? Nous ? Le tableau nous regarde autant qu'on le regarde. Cette mise en abyme du regard, étudiée sans fin par les philosophes, fait des Ménines l'un des tableaux les plus intelligents jamais peints."
         }
       ],
       "artistes": [
@@ -781,7 +821,8 @@
           "dates": "1571-1610",
           "role": "",
           "wiki": "Caravaggio",
-          "portrait": "Révolutionnaire et violent (meurtrier en fuite). Invente le ténébrisme et le réalisme sacré. Influence toute l'Europe."
+          "portrait": "Révolutionnaire et violent (meurtrier en fuite). Invente le ténébrisme et le réalisme sacré. Influence toute l'Europe.",
+          "bio_longue": "Caravaggio (1571-1610) est le génie maudit de la peinture. Coléreux, bagarreur, il fréquente les bas-fonds de Rome qu'il fait poser comme saints et madones — au grand scandale de l'Église, qui refuse parfois ses toiles trop crues. En 1606, il tue un homme lors d'une rixe et doit fuir : Naples, Malte, la Sicile, toujours en cavale, peignant des chefs-d'œuvre de plus en plus sombres et déchirants. Il meurt à 38 ans sur une plage, dans des circonstances obscures, en tentant de regagner Rome où l'attendait une grâce papale. Son ténébrisme a changé la peinture européenne pour un siècle."
         },
         {
           "niveau": "○",
@@ -797,7 +838,8 @@
           "dates": "1598-1680",
           "role": "",
           "wiki": "Gian Lorenzo Bernini",
-          "portrait": "Génie total du baroque romain : sculpteur, architecte, scénographe. Colonnade de Saint-Pierre, baldaquin."
+          "portrait": "Génie total du baroque romain : sculpteur, architecte, scénographe. Colonnade de Saint-Pierre, baldaquin.",
+          "bio_longue": "Gian Lorenzo Bernini (1598-1680) est au Baroque ce que Michel-Ange fut à la Renaissance : un génie total, adulé, qui domine l'art romain pendant un demi-siècle. Sculpteur prodige (son Apollon et Daphné, où le marbre se transforme en feuillage, est taillé à 24 ans), il est aussi architecte (la colonnade de Saint-Pierre, le baldaquin), scénographe, auteur de comédies. Sa rivalité avec l'architecte Borromini, plus sombre et torturé, alimente la légende. Pour lui, l'art doit émerveiller et émouvoir, fusionner sculpture, architecture et lumière en un spectacle total."
         },
         {
           "niveau": "○",
@@ -813,7 +855,8 @@
           "dates": "1577-1640",
           "role": "",
           "wiki": "Peter Paul Rubens",
-          "portrait": "Flandre ; énergie, chair, couleur, immense atelier ; aussi diplomate. Le baroque triomphant."
+          "portrait": "Flandre ; énergie, chair, couleur, immense atelier ; aussi diplomate. Le baroque triomphant.",
+          "bio_longue": "Pierre Paul Rubens (1577-1640) est le prince des peintres baroques du Nord, et l'un des hommes les plus brillants de son temps : peintre prodigieux, mais aussi diplomate de haut vol, érudit, collectionneur, parlant six langues. Son atelier d'Anvers fonctionne comme une grande entreprise : il conçoit, ses assistants (dont le jeune Van Dyck) exécutent, lui retouche. Il inonde l'Europe de retables, de cycles royaux et de mythologies sensuelles, peuplés de corps opulents et de couleurs éclatantes. Anobli par deux rois, il meurt riche et comblé."
         },
         {
           "niveau": "○",
@@ -829,7 +872,8 @@
           "dates": "1599-1660",
           "role": "",
           "wiki": "Diego Velázquez",
-          "portrait": "Peintre du roi d'Espagne ; réalisme souverain, touche libre."
+          "portrait": "Peintre du roi d'Espagne ; réalisme souverain, touche libre.",
+          "bio_longue": "Diego Vélasquez (1599-1660) passe presque toute sa carrière au service d'un seul homme : Philippe IV d'Espagne, dont il devient le peintre et l'ami, gravissant les échelons de la cour. Il peint la famille royale, les bouffons et les nains du palais avec une égale et bouleversante dignité. Sa touche, d'une liberté inouïe pour l'époque, fascinera les modernes — Manet le nommera « le peintre des peintres ». Les Ménines, son testament, le montre lui-même au travail, mêlant le réel, le reflet et le regard dans une énigme jamais épuisée."
         },
         {
           "niveau": "○",
@@ -845,7 +889,8 @@
           "dates": "1594-1665",
           "role": "",
           "wiki": "Nicolas Poussin",
-          "portrait": "Français à Rome ; baroque classique et intellectuel : raison, ordre, antiquité."
+          "portrait": "Français à Rome ; baroque classique et intellectuel : raison, ordre, antiquité.",
+          "bio_longue": "Nicolas Poussin (1594-1665) est le grand classique français, paradoxalement installé à Rome presque toute sa vie. Cultivé, philosophe, il compose ses tableaux comme on construit une démonstration : équilibre, clarté, références à l'Antiquité et au stoïcisme. Il travaille lentement, pour des amateurs lettrés, loin des grandes commandes spectaculaires. Son art « qui pense » fonde une tradition française de la raison et de l'ordre, opposée à l'exubérance baroque, et qui mènera jusqu'à David et au néoclassicisme."
         },
         {
           "niveau": "○",
@@ -938,6 +983,32 @@
         "En quoi La Vocation de saint Matthieu est-elle révolutionnaire ?",
         "Pourquoi parle-t-on de « théâtre total » pour Sainte Thérèse du Bernin ?",
         "Oppose Caravage et Poussin en une phrase."
+      ],
+      "recit": [
+        {
+          "h": "La Contre-Réforme : un art de combat",
+          "p": "Au XVIe siècle, la Réforme protestante a fracturé la chrétienté. Les protestants se méfient des images, parfois les détruisent (iconoclasme). L'Église catholique riposte par le pari exactement inverse : un art spectaculaire, émotionnel, immersif, qui ne raisonne pas le fidèle mais le saisit aux tripes, le bouleverse, le ramène. Le Baroque est cet art de reconquête. Le mot, d'abord péjoratif (« bizarre, irrégulier »), désignera ce goût du mouvement, du débordement, du drame poussé à son comble."
+        },
+        {
+          "h": "Caravage : la lumière qui fait le drame",
+          "p": "Personne n'a frappé aussi fort que le Caravage. Sa révolution tient en deux mots : ténébrisme et réalisme. Ténébrisme : il plonge ses scènes dans le noir et fait jaillir une lumière crue, latérale, qui découpe les figures comme un projecteur. Réalisme : ses saints et ses apôtres sont des gens du peuple, pieds sales, rides, vêtements d'époque — le sacré surgit dans la rue, dans la taverne. Scandaleux, génial, violent (il tue un homme et finit sa vie en fuite), il influence toute l'Europe : on parlera de « caravagisme » de Naples à Utrecht."
+        },
+        {
+          "h": "Le Bernin : le théâtre total",
+          "p": "À Rome, le Baroque trouve son génie complet en Gian Lorenzo Bernini (le Bernin) : sculpteur, architecte, scénographe, il fait fusionner les arts. Son Extase de sainte Thérèse n'est pas qu'une statue : c'est une mise en scène où le marbre devient chair et nuage, où une lumière dorée tombe d'une fenêtre cachée, où des spectateurs sculptés assistent à la scène depuis des « loges ». Il dessine aussi la colossale colonnade de la place Saint-Pierre, deux bras de pierre qui « embrassent » les fidèles. Le Baroque ne décore plus l'espace : il l'orchestre comme un opéra."
+        },
+        {
+          "h": "Rubens : l'énergie et la chair",
+          "p": "Dans les Flandres catholiques, Pierre Paul Rubens incarne le Baroque triomphant : des compositions tourbillonnantes, des couleurs chaudes, des corps charnels, une énergie débordante. Diplomate, érudit, parlant plusieurs langues, anobli par les rois, il dirige un atelier-entreprise immense où des dizaines d'assistants exécutent ses esquisses — une véritable industrie de la peinture. Il fournit toute l'Europe en grands cycles religieux et mythologiques."
+        },
+        {
+          "h": "Vélasquez : le peintre-roi",
+          "p": "En Espagne, Diego Vélasquez est le peintre de Philippe IV — et le plus subtil de tous. Loin du tumulte de Rubens, il observe avec une vérité souveraine et une touche d'une liberté étonnante (de près, ce ne sont que des taches ; de loin, la réalité même). Son chef-d'œuvre, Les Ménines, est une énigme sans fin sur le regard : le peintre s'y représente en train de peindre, le couple royal n'apparaît que dans un miroir au fond, et c'est NOUS, spectateurs, qui prenons leur place. Un sommet de toute la peinture occidentale."
+        },
+        {
+          "h": "Poussin : le baroque qui pense",
+          "p": "Tout le Baroque n'est pas tumulte. Le Français Nicolas Poussin, installé à Rome, en représente la voie classique et intellectuelle : ordre, clarté, raison, références antiques, émotion maîtrisée. Là où Caravage frappe, Poussin fait réfléchir. Cette tension entre l'élan baroque et la rigueur classique structurera tout l'art français pour les siècles suivants."
+        }
       ]
     },
     {
@@ -2000,7 +2071,8 @@
           "annee": "1872",
           "lieu": "Paris (Marmottan)",
           "wiki": "Impression, Sunrise",
-          "genie": "Un port dans la brume, le soleil orange, tout en touches rapides — le tableau qui donne son nom au mouvement. On peint la lumière elle-même, pas les choses ; l'esquisse devient l'œuvre."
+          "genie": "Un port dans la brume, le soleil orange, tout en touches rapides — le tableau qui donne son nom au mouvement. On peint la lumière elle-même, pas les choses ; l'esquisse devient l'œuvre.",
+          "analyse": "Monet, 1872, le port du Havre dans la brume du petit matin. Quelques touches rapides suffisent : un soleil orange et son reflet dansant sur l'eau, des silhouettes de bateaux à peine esquissées, une atmosphère plus qu'un paysage. Rien n'est « fini » au sens académique — et c'est tout le propos : Monet ne peint pas le port, il peint l'instant de lumière, fugitif, tel que l'œil le reçoit avant que le cerveau ne nomme les choses. Exposée en 1874, elle vaut au groupe son nom moqueur. Le tableau-manifeste de tout le mouvement."
         },
         {
           "titre": "La Montagne Sainte-Victoire",
@@ -2008,7 +2080,8 @@
           "annee": "~1890s",
           "lieu": "Aix-en-Provence",
           "wiki": "Mont Sainte-Victoire (Cézanne)",
-          "genie": "La même montagne peinte sans cesse, en plans de couleur qui construisent l'espace comme une architecture. Cézanne cherche la structure permanente sous l'apparence : il ouvre directement la porte au cubisme."
+          "genie": "La même montagne peinte sans cesse, en plans de couleur qui construisent l'espace comme une architecture. Cézanne cherche la structure permanente sous l'apparence : il ouvre directement la porte au cubisme.",
+          "analyse": "Cézanne a peint cette montagne près d'Aix plus de quatre-vingts fois. Ici, pas d'impression fugitive mais l'inverse : la recherche de ce qui dure, de la structure permanente sous l'apparence. Il construit le paysage par petits plans de couleur juxtaposés, comme des facettes, qui font tenir l'espace sans recourir vraiment à la perspective classique. Les maisons, les arbres, la montagne tendent vers des volumes simples. C'est cette « mise en architecture » de la nature qui, regardée par Picasso et Braque, donnera naissance au cubisme. Cézanne, raté de son vivant, est ici en train d'inventer l'art moderne."
         },
         {
           "titre": "La Nuit étoilée",
@@ -2016,7 +2089,8 @@
           "annee": "1889",
           "lieu": "New York (MoMA)",
           "wiki": "The Starry Night",
-          "genie": "Un ciel en tourbillons de couleur, des étoiles qui vibrent. La couleur et la touche ne décrivent plus le monde mais l'état intérieur du peintre. Naissance de l'expressionnisme."
+          "genie": "Un ciel en tourbillons de couleur, des étoiles qui vibrent. La couleur et la touche ne décrivent plus le monde mais l'état intérieur du peintre. Naissance de l'expressionnisme.",
+          "analyse": "Van Gogh, 1889, peinte depuis la fenêtre de l'asile de Saint-Rémy où il s'était fait interner. Le ciel n'a rien de réel : il tourbillonne en spirales de couleur, les étoiles explosent en halos, la lune brûle. Un immense cyprès noir — l'arbre des cimetières — monte comme une flamme vers ce ciel agité, tandis qu'en bas le village dort, paisible, avec son clocher. La couleur et la touche ne décrivent plus le monde : elles expriment l'état intérieur du peintre, son exaltation et son angoisse. C'est l'acte de naissance de l'expressionnisme — peindre ce qu'on ressent, pas ce qu'on voit."
         }
       ],
       "artistes": [
@@ -2026,7 +2100,8 @@
           "dates": "1832-1883",
           "role": "Précurseur",
           "wiki": "Édouard Manet",
-          "portrait": "Le précurseur scandaleux (Le Déjeuner sur l'herbe, Olympia) ; pont entre réalisme et impressionnisme."
+          "portrait": "Le précurseur scandaleux (Le Déjeuner sur l'herbe, Olympia) ; pont entre réalisme et impressionnisme.",
+          "bio_longue": "Édouard Manet (1832-1883), fils de la grande bourgeoisie parisienne, voulait être reconnu par le Salon officiel — et passa sa vie à le scandaliser malgré lui. Élégant, cultivé, il admire les maîtres anciens (Vélasquez, Goya) mais peint la vie moderne : cafés, courses, demi-mondaines. Son refus d'idéaliser et sa peinture en aplats francs en font le pivot entre le réalisme et l'impressionnisme. Plus âgé que Monet ou Renoir, il leur sert de modèle et de chef de file involontaire, sans jamais exposer avec eux. La reconnaissance officielle ne viendra qu'à la toute fin de sa vie."
         },
         {
           "niveau": "★",
@@ -2034,7 +2109,8 @@
           "dates": "1840-1926",
           "role": "Impressionnisme",
           "wiki": "Claude Monet",
-          "portrait": "Le plus pur impressionniste ; séries (cathédrales, meules, Nymphéas)."
+          "portrait": "Le plus pur impressionniste ; séries (cathédrales, meules, Nymphéas).",
+          "bio_longue": "Claude Monet (1840-1926) est l'âme et le plus tenace des impressionnistes — celui qui restera fidèle au mouvement toute sa vie quand les autres s'en éloigneront. Sa jeunesse est misérable (il aurait tenté de se suicider, sa première femme Camille meurt jeune dans la pauvreté). Obsédé par la lumière, il peint en séries la même chose à toute heure. Riche et célèbre à la fin, il aménage son jardin d'eau à Giverny comme un motif vivant et y peint les immenses Nymphéas, quasi abstraits, malgré une vue déclinante. Il meurt en patriarche de la peinture moderne."
         },
         {
           "niveau": "★",
@@ -2042,7 +2118,8 @@
           "dates": "1841-1919",
           "role": "Impressionnisme",
           "wiki": "Pierre-Auguste Renoir",
-          "portrait": "La joie, la lumière, les chairs (Bal du moulin de la Galette)."
+          "portrait": "La joie, la lumière, les chairs (Bal du moulin de la Galette).",
+          "bio_longue": "Pierre-Auguste Renoir (1841-1919), ancien peintre sur porcelaine, est l'impressionniste de la joie : bals, déjeuners, baigneuses, lumière qui danse à travers les feuilles, chairs roses et chaleureuses. « La peinture est faite pour être agréable », disait-il. Vieillissant, perclus de rhumatismes, il continue de peindre les pinceaux attachés à ses doigts déformés."
         },
         {
           "niveau": "★",
@@ -2050,7 +2127,8 @@
           "dates": "1834-1917",
           "role": "Impressionnisme",
           "wiki": "Edgar Degas",
-          "portrait": "Danseuses, courses, cadrages photographiques et japonisants."
+          "portrait": "Danseuses, courses, cadrages photographiques et japonisants.",
+          "bio_longue": "Edgar Degas (1834-1917) est l'impressionniste à part : bourgeois solitaire et caustique, il déteste peindre dehors et se dit « réaliste ». Maître du dessin, fasciné par le mouvement, il saisit les danseuses à l'entraînement, les courses de chevaux, les blanchisseuses, avec des cadrages coupés, en plongée, hérités de la photographie et de l'estampe japonaise. Sa vue baissant, il se tourne vers le pastel et la sculpture."
         },
         {
           "niveau": "○",
@@ -2066,7 +2144,8 @@
           "dates": "1839-1906",
           "role": "Post-impr. (structure)",
           "wiki": "Paul Cézanne",
-          "portrait": "La structure ; le « père de l'art moderne »."
+          "portrait": "La structure ; le « père de l'art moderne ».",
+          "bio_longue": "Paul Cézanne (1839-1906), fils d'un riche banquier d'Aix-en-Provence, travaille longtemps dans l'incompréhension et la solitude. Il cherche obstinément la structure géométrique cachée sous l'apparence — il peint la montagne Sainte-Victoire des dizaines de fois, en plans de couleur qui construisent l'espace. Raté de son vivant, il devient après sa mort « le père de nous tous » (Picasso, Matisse) : son analyse de la forme ouvre directement le cubisme."
         },
         {
           "niveau": "★",
@@ -2074,7 +2153,8 @@
           "dates": "1853-1890",
           "role": "Post-impr. (émotion)",
           "wiki": "Vincent van Gogh",
-          "portrait": "L'émotion par la couleur ; vie tragique, gloire posthume."
+          "portrait": "L'émotion par la couleur ; vie tragique, gloire posthume.",
+          "bio_longue": "Vincent van Gogh (1853-1890) ne peint que dix ans, et ne vend presque rien de son vivant. Ancien prédicateur raté, écorché vif, il met dans la couleur et la touche tourbillonnante toute sa souffrance et sa ferveur. À Arles, rêvant d'une communauté d'artistes, il se brouille violemment avec Gauguin et se mutile l'oreille. Interné, il peint dans des crises ses chefs-d'œuvre (La Nuit étoilée), puis se tire une balle à 37 ans. Sa correspondance avec son frère Theo est l'un des plus bouleversants témoignages sur l'acte de créer. Gloire posthume immense."
         },
         {
           "niveau": "★",
@@ -2082,7 +2162,8 @@
           "dates": "1848-1903",
           "role": "Post-impr. (symbole)",
           "wiki": "Paul Gauguin",
-          "portrait": "Le symbole, l'aplat, la fuite à Tahiti."
+          "portrait": "Le symbole, l'aplat, la fuite à Tahiti.",
+          "bio_longue": "Paul Gauguin (1848-1903) était un agent de change prospère ; à 35 ans, il quitte tout — métier, femme, enfants — pour peindre. En quête d'un art plus « pur » et plus spirituel, il fuit la civilisation occidentale jusqu'à Tahiti, où il peint des aplats de couleurs vives et des figures symboliques. Sa vie là-bas est trouble et misérable, mais son refus du réalisme, sa couleur libérée et son goût du « primitif » influenceront profondément le fauvisme et tout l'art du XXe siècle."
         },
         {
           "niveau": "○",
@@ -2106,7 +2187,8 @@
           "dates": "1840-1917",
           "role": "Sculpture",
           "wiki": "Auguste Rodin",
-          "portrait": "La sculpture renouvelée (Le Penseur, Le Baiser)."
+          "portrait": "La sculpture renouvelée (Le Penseur, Le Baiser).",
+          "bio_longue": "Auguste Rodin (1840-1917) fait pour la sculpture ce que les impressionnistes font pour la peinture : il la rend vivante, frémissante, expressive. Recalé trois fois aux Beaux-Arts, il s'impose par la seule force de son travail (Le Penseur, Le Baiser, Les Bourgeois de Calais). Ses surfaces vibrantes, ses figures inachevées émergeant du bloc, son intensité dramatique font de lui le plus grand sculpteur depuis Michel-Ange et le passeur vers la sculpture moderne."
         }
       ],
       "index": [
@@ -2196,6 +2278,32 @@
         "Pourquoi Impression, soleil levant est-il révolutionnaire ?",
         "Que reprochent les post-impressionnistes à l'impressionnisme ?",
         "Relie chacun des trois grands post-impressionnistes au mouvement du XXe qu'il annonce."
+      ],
+      "recit": [
+        {
+          "h": "Le refus et la naissance d'un mot (1874)",
+          "p": "Au XIXe siècle, pour exister, un peintre doit être admis au Salon officiel, jugé par une Académie qui impose ses goûts : sujets nobles, fini lisse et léché. Une bande de jeunes peintres en est régulièrement recalée. En 1874, lassés, ils organisent leur propre exposition. Devant une toile de Monet intitulée Impression, soleil levant, un critique ricane : ce ne sont que des « impressions », des ébauches inachevées. Le mot, lancé comme une insulte, devient le nom d'une révolution."
+        },
+        {
+          "h": "Peindre dehors : la lumière comme sujet",
+          "p": "Deux innovations rendent l'impressionnisme possible. La peinture en tube (vers 1840) libère le peintre de l'atelier : on peut enfin peindre dehors, sur le motif. Et l'arrivée des estampes japonaises bouleverse la composition (cadrages audacieux, aplats). L'idée centrale : on ne peint plus l'objet qu'on connaît, mais l'impression visuelle d'un instant — la lumière qui change, les reflets, l'atmosphère. La touche devient visible, fragmentée ; les ombres se colorent ; le sujet (une gare, une meule, une danseuse) n'est qu'un prétexte à capter la lumière."
+        },
+        {
+          "h": "Manet, le père scandaleux",
+          "p": "Avant même le groupe, Édouard Manet ouvre la brèche. Son Déjeuner sur l'herbe (une femme nue déjeunant avec des hommes habillés) puis son Olympia (une prostituée qui fixe le spectateur droit dans les yeux) font scandale au Salon. Non pour le nu — banal en peinture — mais parce qu'il refuse de l'ennoblir en déesse : c'est une femme d'aujourd'hui, peinte en aplats francs, qui assume d'être de la peinture. Manet ne se joindra jamais aux expositions impressionnistes, mais il en est le père : il a fait sauter le verrou."
+        },
+        {
+          "h": "Monet : la lumière obsédante",
+          "p": "Claude Monet est l'impressionniste le plus pur, le plus radical. Il peint la même chose encore et encore — meules de foin, cathédrale de Rouen, peupliers — à différentes heures, pour saisir non l'objet mais la lumière qui le baigne, toujours changeante. À la fin de sa vie, dans son jardin de Giverny, ses Nymphéas dissolvent tout repère : plus d'horizon, plus de rive, l'eau et le reflet confondus en pure couleur. Sans le vouloir, il arrive aux portes de l'abstraction."
+        },
+        {
+          "h": "Le post-impressionnisme : aller plus loin",
+          "p": "Une génération suivante juge l'impressionnisme trop superficiel — « rien que de la sensation ». Chacun cherche au-delà, et ce sont eux qui engendreront tout le XXe siècle. Cézanne cherche la structure solide, géométrique, sous l'apparence (« traiter la nature par le cylindre, la sphère, le cône ») : il ouvre la porte au cubisme. Van Gogh fait de la couleur et de la touche le cri de son âme : il ouvre l'expressionnisme. Gauguin fuit la civilisation, simplifie en aplats symboliques : il ouvre vers le fauvisme et l'art « primitif ». Seurat, lui, applique la science des couleurs par petits points (le pointillisme)."
+        },
+        {
+          "h": "Pourquoi ils sont les pères de l'art moderne",
+          "p": "En une génération, l'art a basculé. Les impressionnistes ont prouvé qu'on pouvait peindre librement, hors de l'Académie, et vendre directement à des marchands et collectionneurs — un nouveau marché. Les post-impressionnistes ont montré que la peinture pouvait servir la structure, l'émotion ou le symbole plutôt que l'imitation. Tout le XXe siècle — cubisme, fauvisme, expressionnisme, abstraction — sort de ces quelques ateliers parisiens de la fin du XIXe."
+        }
       ]
     },
     {
