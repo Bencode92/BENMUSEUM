@@ -6,19 +6,22 @@
 
 let CHAPITRES = [];
 let DOSSIERS = [];
+let IMAGES = {};             // manifeste des images résolues (data/images.json)
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "12"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "13"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
+  fetch("data/images.json?v=" + DV).then(r => r.json()).catch(() => ({})),
 ])
-  .then(([art, dos]) => {
+  .then(([art, dos, img]) => {
     CHAPITRES = art.chapitres;
     CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) =>
       FLAT.push({ ci, oi, chap: c, oeuvre: o })));
     DOSSIERS = dos.dossiers || [];
+    IMAGES = img || {};
     buildFloors();
     route();
   })
@@ -28,6 +31,7 @@ Promise.all([
 const imgCache = new Map();
 async function getImageUrl(title) {
   if (!title) return null;
+  if (IMAGES[title]) return IMAGES[title].thumb || IMAGES[title].url; // manifeste enregistré (instantané)
   if (imgCache.has(title)) return imgCache.get(title);
   try {
     const u = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=900&titles=${encodeURIComponent(title)}&origin=*`;
