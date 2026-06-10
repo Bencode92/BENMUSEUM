@@ -122,6 +122,19 @@ ul.dots li { margin: 4px 0; }
 .star { color: var(--gold); }
 ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 
+/* ---- checklist roster (index par chapitre) ---- */
+.roster { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 7px; margin-top: 10px; }
+.chk { display: flex; align-items: flex-start; gap: 9px; padding: 9px 11px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); cursor: pointer; }
+.chk:hover { border-color: var(--gold); }
+.chk input { margin-top: 3px; }
+.chk .lvl { font-weight: bold; color: var(--muted); }
+.chk .lvl.star { color: var(--gold); }
+.chk .nm { font-weight: 600; }
+.chk .dt { color: var(--muted); font-size: 13px; }
+.chk.done { opacity: .55; }
+.dossier-link { display: inline-block; background: var(--gold); color: #fff; padding: 10px 16px; border-radius: 8px; text-decoration: none; cursor: pointer; margin: 8px 0; }
+.dossier-link:hover { filter: brightness(1.08); }
+
 @media (max-width: 820px) {
   #layout { flex-direction: column; }
   #floors { position: static; flex: none; }

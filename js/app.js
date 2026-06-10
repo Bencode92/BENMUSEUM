@@ -118,6 +118,8 @@ function renderChapitre(ci) {
   const c = CHAPITRES[ci]; if (!c) return renderHome();
   crumb([{ label: "Accueil", nav: "#/" }, { label: `${c.num}. ${c.titre}` }]);
   const works = c.oeuvres || [];
+  const dossier = c.dossier && DOSSIERS.find(x => x.id === c.dossier);
+  const roster = c.roster || [];
   $("view").innerHTML = `
     <div class="pagehead">
       <div class="ep">Chapitre ${c.num} · p. ${c.page} · ${esc(c.titre_en)}</div>
@@ -125,14 +127,38 @@ function renderChapitre(ci) {
       <p class="lead">${esc(c.portee)}</p>
     </div>
     <div class="block"><h3>L'idée du chapitre</h3><p>${esc(c.idee)}</p></div>
-    <h2 style="margin:22px 0 0;font-size:20px">Les œuvres</h2>
-    ${works.length ? `<div class="grid cols">${works.map((o, oi) => `
+    ${c.notion ? `<div class="memo"><b>Notion :</b> ${esc(c.notion)}</div>` : ""}
+    ${dossier ? `<a class="dossier-link" data-nav="#/d/${dossier.id}">📚 Dossier complet : ${esc(dossier.titre)} →</a>` : ""}
+    ${roster.length ? `
+      <h2 style="margin:22px 0 0;font-size:20px">Qui / quoi couvre ce chapitre <small style="font-weight:normal;color:var(--muted);font-size:13px">(★ central · ○ secondaire — coche ce que tu sais)</small></h2>
+      <ul class="roster">${roster.map(it => {
+        const k = `chk:${c.num}:${it.nom}`;
+        return `<li><label class="chk" data-k="${k}">
+          <input type="checkbox" data-k="${k}">
+          <span><span class="lvl ${it.niveau === "★" ? "star" : ""}">${it.niveau || "·"}</span>
+          <span class="nm">${esc(it.nom)}</span>${it.detail ? ` <span class="dt">— ${esc(it.detail)}</span>` : ""}</span>
+        </label></li>`;
+      }).join("")}</ul>` : ""}
+    ${works.length ? `<h2 style="margin:24px 0 0;font-size:20px">Œuvres en fiche</h2>
+      <div class="grid cols">${works.map((o, oi) => `
         <div class="card" data-nav="#/c/${ci}/o/${oi}">
           <div class="thumb" data-wiki="${esc(o.wiki)}"></div>
           <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.artiste)} · ${esc(o.annee)}</div></div>
-        </div>`).join("")}</div>`
-      : `<p class="lead" style="margin-top:10px">Chapitre à enrichir — œuvres à venir.</p>`}`;
+        </div>`).join("")}</div>` : ""}`;
   loadImages($("view"));
+  wireChecklist();
+}
+
+function wireChecklist() {
+  $("view").querySelectorAll(".chk input[type=checkbox]").forEach(cb => {
+    const k = cb.dataset.k;
+    cb.checked = localStorage.getItem(k) === "1";
+    cb.closest(".chk").classList.toggle("done", cb.checked);
+    cb.addEventListener("change", () => {
+      localStorage.setItem(k, cb.checked ? "1" : "0");
+      cb.closest(".chk").classList.toggle("done", cb.checked);
+    });
+  });
 }
 
 /* ---------- ŒUVRE : la fiche d'apprentissage ---------- */

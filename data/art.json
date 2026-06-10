@@ -2,276 +2,2283 @@
   "source": "Structure d'après E. H. Gombrich, « Histoire de l'art » (The Story of Art), 27 chapitres.",
   "chapitres": [
     {
-      "num": 1, "titre": "Étranges débuts", "titre_en": "Strange Beginnings",
-      "portee": "Peuples préhistoriques et primitifs ; Amérique ancienne", "page": 19, "couleur": "#b06a2c",
+      "num": 1,
+      "titre": "Étranges débuts",
+      "titre_en": "Strange Beginnings",
+      "portee": "Peuples préhistoriques et primitifs ; Amérique ancienne",
+      "page": 19,
+      "couleur": "#b06a2c",
       "idee": "Pour les premiers artistes, l'image n'est pas belle mais utile : peindre l'animal, c'est s'assurer la chasse. L'art naît du besoin et de la magie, pas du goût.",
       "oeuvres": [
-        { "titre": "Grottes de Lascaux", "wiki": "Lascaux", "artiste": "Anonyme (Magdalénien)", "annee": "≈ 17 000 av. J.-C.", "explication": "Animaux d'un dynamisme saisissant peints au fond de la grotte : pas pour être vus, pour exister.", "contexte": "Paléolithique supérieur, dernière glaciation.", "elements": ["Le réalisme du mouvement", "L'usage des reliefs de la roche", "L'absence de figures humaines"] },
-        { "titre": "Grotte Chauvet", "wiki": "Chauvet Cave", "artiste": "Anonyme", "annee": "≈ 34 000 av. J.-C.", "explication": "Les plus anciennes peintures connues : déjà un sens du volume et du mouvement.", "contexte": "Découverte en 1994, elle a doublé l'ancienneté supposée de l'art.", "elements": ["Les estompes pour le volume", "Les superpositions", "Les grands fauves"] },
-        { "titre": "Grotte d'Altamira", "wiki": "Cave of Altamira", "artiste": "Anonyme", "annee": "≈ 15 000 av. J.-C.", "explication": "Des bisons polychromes qui épousent les bosses de la roche.", "contexte": "Première grotte ornée reconnue ; on refusa d'abord d'y croire.", "elements": ["La polychromie", "L'intégration des reliefs", "Le plafond comme composition"] },
-        { "titre": "Vénus de Willendorf", "wiki": "Venus of Willendorf", "artiste": "Anonyme", "annee": "≈ 25 000 av. J.-C.", "explication": "Le corps réduit à ses signes de fécondité : l'art comme amplification du vital.", "contexte": "Une des « Vénus » paléolithiques d'Europe.", "elements": ["L'exagération des formes", "L'absence de visage", "La taille faite pour la main"] },
-        { "titre": "Vénus de Hohle Fels", "wiki": "Venus of Hohle Fels", "artiste": "Anonyme", "annee": "≈ 38 000 av. J.-C.", "explication": "En ivoire de mammouth, la plus ancienne figure humaine connue.", "contexte": "Découverte en 2008 en Allemagne.", "elements": ["L'ivoire sculpté", "L'anneau-tête (pendentif)", "L'ancienneté record"] }
+        {
+          "titre": "Grottes de Lascaux",
+          "wiki": "Lascaux",
+          "artiste": "Anonyme (Magdalénien)",
+          "annee": "≈ 17 000 av. J.-C.",
+          "explication": "Animaux d'un dynamisme saisissant peints au fond de la grotte : pas pour être vus, pour exister.",
+          "contexte": "Paléolithique supérieur, dernière glaciation.",
+          "elements": [
+            "Le réalisme du mouvement",
+            "L'usage des reliefs de la roche",
+            "L'absence de figures humaines"
+          ]
+        },
+        {
+          "titre": "Grotte Chauvet",
+          "wiki": "Chauvet Cave",
+          "artiste": "Anonyme",
+          "annee": "≈ 34 000 av. J.-C.",
+          "explication": "Les plus anciennes peintures connues : déjà un sens du volume et du mouvement.",
+          "contexte": "Découverte en 1994, elle a doublé l'ancienneté supposée de l'art.",
+          "elements": [
+            "Les estompes pour le volume",
+            "Les superpositions",
+            "Les grands fauves"
+          ]
+        },
+        {
+          "titre": "Grotte d'Altamira",
+          "wiki": "Cave of Altamira",
+          "artiste": "Anonyme",
+          "annee": "≈ 15 000 av. J.-C.",
+          "explication": "Des bisons polychromes qui épousent les bosses de la roche.",
+          "contexte": "Première grotte ornée reconnue ; on refusa d'abord d'y croire.",
+          "elements": [
+            "La polychromie",
+            "L'intégration des reliefs",
+            "Le plafond comme composition"
+          ]
+        },
+        {
+          "titre": "Vénus de Willendorf",
+          "wiki": "Venus of Willendorf",
+          "artiste": "Anonyme",
+          "annee": "≈ 25 000 av. J.-C.",
+          "explication": "Le corps réduit à ses signes de fécondité : l'art comme amplification du vital.",
+          "contexte": "Une des « Vénus » paléolithiques d'Europe.",
+          "elements": [
+            "L'exagération des formes",
+            "L'absence de visage",
+            "La taille faite pour la main"
+          ]
+        },
+        {
+          "titre": "Vénus de Hohle Fels",
+          "wiki": "Venus of Hohle Fels",
+          "artiste": "Anonyme",
+          "annee": "≈ 38 000 av. J.-C.",
+          "explication": "En ivoire de mammouth, la plus ancienne figure humaine connue.",
+          "contexte": "Découverte en 2008 en Allemagne.",
+          "elements": [
+            "L'ivoire sculpté",
+            "L'anneau-tête (pendentif)",
+            "L'ancienneté record"
+          ]
+        }
+      ],
+      "notion": "L'image comme magie.",
+      "roster": [
+        {
+          "nom": "Art anonyme",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Lascaux, Altamira",
+          "niveau": "",
+          "detail": "grottes ornées"
+        },
+        {
+          "nom": "Masques & art tribal",
+          "niveau": "",
+          "detail": "Afrique, Océanie, Nouvelle-Guinée, Maoris"
+        },
+        {
+          "nom": "Art précolombien",
+          "niveau": "",
+          "detail": "Aztèques, Mayas, Incas"
+        }
       ]
     },
     {
-      "num": 2, "titre": "L'art de l'éternité", "titre_en": "Art for Eternity",
-      "portee": "Égypte, Mésopotamie, Crète", "page": 33, "couleur": "#c9a23a",
+      "num": 2,
+      "titre": "L'art de l'éternité",
+      "titre_en": "Art for Eternity",
+      "portee": "Égypte, Mésopotamie, Crète",
+      "page": 33,
+      "couleur": "#c9a23a",
       "idee": "L'Égyptien ne dessine pas ce qu'il voit mais ce qu'il sait, selon des règles immuables : un art conçu pour l'éternité, pas pour l'instant.",
       "oeuvres": [
-        { "titre": "Pyramide de Khéops", "wiki": "Great Pyramid of Giza", "artiste": "Anonyme", "annee": "≈ 2560 av. J.-C.", "explication": "La géométrie pure au service de l'éternité royale.", "contexte": "Ancien Empire, apogée pharaonique.", "elements": ["La perfection des proportions", "L'orientation astronomique", "L'échelle colossale"] },
-        { "titre": "Palette de Narmer", "wiki": "Narmer Palette", "artiste": "Anonyme", "annee": "≈ 3100 av. J.-C.", "explication": "Le code égyptien est déjà fixé : registres, hiérarchie des tailles, profil et torse de face.", "contexte": "Commémore l'unification de l'Égypte.", "elements": ["Les registres qui se lisent", "Le roi géant", "La convention profil/face"] },
-        { "titre": "Le Livre des morts", "wiki": "Book of the Dead", "artiste": "Anonyme", "annee": "≈ 1500 av. J.-C.", "explication": "Texte et image guident le défunt dans l'au-delà.", "contexte": "Nouvel Empire, rouleaux déposés dans les tombes.", "elements": ["La pesée du cœur", "L'alternance texte/vignettes", "Les dieux à tête animale"] },
-        { "titre": "Le Grand Sphinx de Gizeh", "wiki": "Great Sphinx of Giza", "artiste": "Anonyme", "annee": "≈ 2500 av. J.-C.", "explication": "Corps de lion, tête de roi : gardien de l'ordre cosmique.", "contexte": "Taillé près des pyramides.", "elements": ["L'hybride homme-lion", "Le regard vers le levant", "La taille monumentale"] },
-        { "titre": "Buste de Néfertiti", "wiki": "Nefertiti Bust", "artiste": "Atelier de Thoutmôsis", "annee": "≈ 1345 av. J.-C.", "explication": "Rare percée de naturalisme dans un art de règles strictes.", "contexte": "Époque d'Amarna, brève révolution sous Akhenaton.", "elements": ["L'équilibre cou/couronne", "Le naturalisme du visage", "L'œil gauche inachevé"] },
-        { "titre": "Masque de Toutânkhamon", "wiki": "Mask of Tutankhamun", "artiste": "Anonyme", "annee": "≈ 1323 av. J.-C.", "explication": "Or et lapis : le visage idéalisé du roi-dieu pour traverser la mort.", "contexte": "Tombe découverte intacte en 1922.", "elements": ["L'or et le lapis", "Le némès royal", "Le cobra et le vautour"] }
+        {
+          "titre": "Pyramide de Khéops",
+          "wiki": "Great Pyramid of Giza",
+          "artiste": "Anonyme",
+          "annee": "≈ 2560 av. J.-C.",
+          "explication": "La géométrie pure au service de l'éternité royale.",
+          "contexte": "Ancien Empire, apogée pharaonique.",
+          "elements": [
+            "La perfection des proportions",
+            "L'orientation astronomique",
+            "L'échelle colossale"
+          ]
+        },
+        {
+          "titre": "Palette de Narmer",
+          "wiki": "Narmer Palette",
+          "artiste": "Anonyme",
+          "annee": "≈ 3100 av. J.-C.",
+          "explication": "Le code égyptien est déjà fixé : registres, hiérarchie des tailles, profil et torse de face.",
+          "contexte": "Commémore l'unification de l'Égypte.",
+          "elements": [
+            "Les registres qui se lisent",
+            "Le roi géant",
+            "La convention profil/face"
+          ]
+        },
+        {
+          "titre": "Le Livre des morts",
+          "wiki": "Book of the Dead",
+          "artiste": "Anonyme",
+          "annee": "≈ 1500 av. J.-C.",
+          "explication": "Texte et image guident le défunt dans l'au-delà.",
+          "contexte": "Nouvel Empire, rouleaux déposés dans les tombes.",
+          "elements": [
+            "La pesée du cœur",
+            "L'alternance texte/vignettes",
+            "Les dieux à tête animale"
+          ]
+        },
+        {
+          "titre": "Le Grand Sphinx de Gizeh",
+          "wiki": "Great Sphinx of Giza",
+          "artiste": "Anonyme",
+          "annee": "≈ 2500 av. J.-C.",
+          "explication": "Corps de lion, tête de roi : gardien de l'ordre cosmique.",
+          "contexte": "Taillé près des pyramides.",
+          "elements": [
+            "L'hybride homme-lion",
+            "Le regard vers le levant",
+            "La taille monumentale"
+          ]
+        },
+        {
+          "titre": "Buste de Néfertiti",
+          "wiki": "Nefertiti Bust",
+          "artiste": "Atelier de Thoutmôsis",
+          "annee": "≈ 1345 av. J.-C.",
+          "explication": "Rare percée de naturalisme dans un art de règles strictes.",
+          "contexte": "Époque d'Amarna, brève révolution sous Akhenaton.",
+          "elements": [
+            "L'équilibre cou/couronne",
+            "Le naturalisme du visage",
+            "L'œil gauche inachevé"
+          ]
+        },
+        {
+          "titre": "Masque de Toutânkhamon",
+          "wiki": "Mask of Tutankhamun",
+          "artiste": "Anonyme",
+          "annee": "≈ 1323 av. J.-C.",
+          "explication": "Or et lapis : le visage idéalisé du roi-dieu pour traverser la mort.",
+          "contexte": "Tombe découverte intacte en 1922.",
+          "elements": [
+            "L'or et le lapis",
+            "Le némès royal",
+            "Le cobra et le vautour"
+          ]
+        }
+      ],
+      "notion": "Représenter ce qu'on sait, pas ce qu'on voit.",
+      "roster": [
+        {
+          "nom": "Art égyptien",
+          "niveau": "",
+          "detail": "frontalité, hiérarchie"
+        },
+        {
+          "nom": "Akhenaton / Amarna",
+          "niveau": "",
+          "detail": "rupture réaliste"
+        },
+        {
+          "nom": "Toutânkhamon",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Art assyrien, sumérien",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Crète (Knossos)",
+          "niveau": "",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 3, "titre": "Le grand éveil", "titre_en": "The Great Awakening",
-      "portee": "Grèce, VIIᵉ au Vᵉ siècle av. J.-C.", "page": 49, "couleur": "#4f7fb5",
+      "num": 3,
+      "titre": "Le grand éveil",
+      "titre_en": "The Great Awakening",
+      "portee": "Grèce, VIIᵉ au Vᵉ siècle av. J.-C.",
+      "page": 49,
+      "couleur": "#4f7fb5",
       "idee": "La Grèce ose, pour la première fois, représenter le corps tel que l'œil le voit : le raccourci, le poids, le mouvement. L'art apprend à regarder.",
       "oeuvres": [
-        { "titre": "Le Doryphore", "wiki": "Doryphoros", "artiste": "Polyclète", "annee": "≈ 440 av. J.-C.", "explication": "Le canon des proportions : la beauté comme équilibre mesurable.", "contexte": "Polyclète en fit un traité théorique.", "elements": ["Le contrapposto", "L'équilibre tensions/repos", "Le corps comme système"] },
-        { "titre": "Le Discobole", "wiki": "Discobolus", "artiste": "Myron", "annee": "≈ 450 av. J.-C.", "explication": "Le mouvement figé à sa tension maximale, juste avant le lancer.", "contexte": "Célébration de l'athlète.", "elements": ["La torsion en arc", "L'instant suspendu", "Le visage serein"] },
-        { "titre": "Le Parthénon", "wiki": "Parthenon", "artiste": "Phidias, Ictinos & Callicratès", "annee": "≈ 438 av. J.-C.", "explication": "Des corrections optiques invisibles pour que l'œil perçoive la perfection.", "contexte": "Athènes démocratique de Périclès.", "elements": ["Les colonnes galbées (entasis)", "Le fronton de Phidias", "L'équilibre mathématique"] }
+        {
+          "titre": "Le Doryphore",
+          "wiki": "Doryphoros",
+          "artiste": "Polyclète",
+          "annee": "≈ 440 av. J.-C.",
+          "explication": "Le canon des proportions : la beauté comme équilibre mesurable.",
+          "contexte": "Polyclète en fit un traité théorique.",
+          "elements": [
+            "Le contrapposto",
+            "L'équilibre tensions/repos",
+            "Le corps comme système"
+          ]
+        },
+        {
+          "titre": "Le Discobole",
+          "wiki": "Discobolus",
+          "artiste": "Myron",
+          "annee": "≈ 450 av. J.-C.",
+          "explication": "Le mouvement figé à sa tension maximale, juste avant le lancer.",
+          "contexte": "Célébration de l'athlète.",
+          "elements": [
+            "La torsion en arc",
+            "L'instant suspendu",
+            "Le visage serein"
+          ]
+        },
+        {
+          "titre": "Le Parthénon",
+          "wiki": "Parthenon",
+          "artiste": "Phidias, Ictinos & Callicratès",
+          "annee": "≈ 438 av. J.-C.",
+          "explication": "Des corrections optiques invisibles pour que l'œil perçoive la perfection.",
+          "contexte": "Athènes démocratique de Périclès.",
+          "elements": [
+            "Les colonnes galbées (entasis)",
+            "Le fronton de Phidias",
+            "L'équilibre mathématique"
+          ]
+        }
+      ],
+      "notion": "Naissance de l'observation.",
+      "roster": [
+        {
+          "nom": "Myron",
+          "niveau": "★",
+          "detail": "Discobole"
+        },
+        {
+          "nom": "Phidias",
+          "niveau": "★",
+          "detail": "Parthénon"
+        },
+        {
+          "nom": "Polyclète",
+          "niveau": "○",
+          "detail": "canon des proportions"
+        }
       ]
     },
     {
-      "num": 4, "titre": "Le royaume de la beauté", "titre_en": "The Realm of Beauty",
-      "portee": "Grèce et monde grec, IVᵉ s. av. J.-C. au Iᵉ s. apr. J.-C.", "page": 67, "couleur": "#5a86b8",
+      "num": 4,
+      "titre": "Le royaume de la beauté",
+      "titre_en": "The Realm of Beauty",
+      "portee": "Grèce et monde grec, IVᵉ s. av. J.-C. au Iᵉ s. apr. J.-C.",
+      "page": 67,
+      "couleur": "#5a86b8",
       "idee": "L'art grec passe de la rigueur à la grâce, puis au mouvement et à l'émotion intenses de l'époque hellénistique.",
       "oeuvres": [
-        { "titre": "La Vénus de Milo", "wiki": "Venus de Milo", "artiste": "Alexandros d'Antioche", "annee": "≈ 130 av. J.-C.", "explication": "Grâce du déhanchement, drapé vivant : un idéal de beauté devenu universel.", "contexte": "Découverte en 1820, emblème du Louvre.", "elements": ["Le drapé sur les hanches", "La spirale du corps", "Les bras manquants"] },
-        { "titre": "Victoire de Samothrace", "wiki": "Winged Victory of Samothrace", "artiste": "Anonyme (hellénistique)", "annee": "≈ 190 av. J.-C.", "explication": "Le vent, l'élan, le drapé mouillé : la sculpture devient pur mouvement.", "contexte": "Monument commémorant une victoire navale.", "elements": ["Le drapé plaqué par le vent", "L'élan vers l'avant", "L'ancrage sur une proue"] },
-        { "titre": "Laocoon", "wiki": "Laocoön and His Sons", "artiste": "Sculpteurs de Rhodes", "annee": "≈ 40 av. J.-C.", "explication": "Le pathos extrême : douleur, torsion, drame. La sculpture qui fascinera Michel-Ange.", "contexte": "Redécouverte à Rome en 1506.", "elements": ["La souffrance physique", "La diagonale", "Les serpents qui enserrent"] }
+        {
+          "titre": "La Vénus de Milo",
+          "wiki": "Venus de Milo",
+          "artiste": "Alexandros d'Antioche",
+          "annee": "≈ 130 av. J.-C.",
+          "explication": "Grâce du déhanchement, drapé vivant : un idéal de beauté devenu universel.",
+          "contexte": "Découverte en 1820, emblème du Louvre.",
+          "elements": [
+            "Le drapé sur les hanches",
+            "La spirale du corps",
+            "Les bras manquants"
+          ]
+        },
+        {
+          "titre": "Victoire de Samothrace",
+          "wiki": "Winged Victory of Samothrace",
+          "artiste": "Anonyme (hellénistique)",
+          "annee": "≈ 190 av. J.-C.",
+          "explication": "Le vent, l'élan, le drapé mouillé : la sculpture devient pur mouvement.",
+          "contexte": "Monument commémorant une victoire navale.",
+          "elements": [
+            "Le drapé plaqué par le vent",
+            "L'élan vers l'avant",
+            "L'ancrage sur une proue"
+          ]
+        },
+        {
+          "titre": "Laocoon",
+          "wiki": "Laocoön and His Sons",
+          "artiste": "Sculpteurs de Rhodes",
+          "annee": "≈ 40 av. J.-C.",
+          "explication": "Le pathos extrême : douleur, torsion, drame. La sculpture qui fascinera Michel-Ange.",
+          "contexte": "Redécouverte à Rome en 1506.",
+          "elements": [
+            "La souffrance physique",
+            "La diagonale",
+            "Les serpents qui enserrent"
+          ]
+        }
+      ],
+      "notion": "Idéal + pathos.",
+      "roster": [
+        {
+          "nom": "Praxitèle",
+          "niveau": "★",
+          "detail": "Hermès"
+        },
+        {
+          "nom": "Apollon du Belvédère",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Lysippe",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Laocoon",
+          "niveau": "",
+          "detail": "Hagésandros, Athénodore, Polydore"
+        },
+        {
+          "nom": "Vénus de Milo",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Pergame",
+          "niveau": "",
+          "detail": "hellénistique"
+        }
       ]
     },
     {
-      "num": 5, "titre": "Les conquérants du monde", "titre_en": "World Conquerors",
-      "portee": "Romains, bouddhistes, juifs et chrétiens, Iᵉ au IVᵉ siècle", "page": 79, "couleur": "#7a8ba0",
+      "num": 5,
+      "titre": "Les conquérants du monde",
+      "titre_en": "World Conquerors",
+      "portee": "Romains, bouddhistes, juifs et chrétiens, Iᵉ au IVᵉ siècle",
+      "page": 79,
+      "couleur": "#7a8ba0",
       "idee": "Rome diffuse l'art grec et le tourne vers l'utile et le pouvoir ; les premières images chrétiennes naissent, simples et symboliques.",
       "oeuvres": [
-        { "titre": "Auguste de Prima Porta", "wiki": "Augustus of Prima Porta", "artiste": "Anonyme (romain)", "annee": "≈ 20 av. J.-C.", "explication": "Le réalisme grec au service de la propagande impériale.", "contexte": "Auguste, premier empereur.", "elements": ["Le geste d'orateur", "La cuirasse historiée", "L'idéalisation éternelle"] },
-        { "titre": "Le Colisée", "wiki": "Colosseum", "artiste": "Anonyme (romain)", "annee": "80 apr. J.-C.", "explication": "L'architecture de masse : arcs, béton, ingénierie au service du spectacle.", "contexte": "Amphithéâtre du « pain et des jeux ».", "elements": ["La superposition des ordres", "Les arcs en série", "Le béton romain"] },
-        { "titre": "Le Panthéon de Rome", "wiki": "Pantheon, Rome", "artiste": "Anonyme (romain)", "annee": "≈ 125 apr. J.-C.", "explication": "Une coupole parfaite percée d'un oculus : Rome maîtrise l'espace intérieur.", "contexte": "Temple de tous les dieux, sous Hadrien.", "elements": ["La coupole à caissons", "L'oculus ouvert sur le ciel", "L'espace sphérique parfait"] }
+        {
+          "titre": "Auguste de Prima Porta",
+          "wiki": "Augustus of Prima Porta",
+          "artiste": "Anonyme (romain)",
+          "annee": "≈ 20 av. J.-C.",
+          "explication": "Le réalisme grec au service de la propagande impériale.",
+          "contexte": "Auguste, premier empereur.",
+          "elements": [
+            "Le geste d'orateur",
+            "La cuirasse historiée",
+            "L'idéalisation éternelle"
+          ]
+        },
+        {
+          "titre": "Le Colisée",
+          "wiki": "Colosseum",
+          "artiste": "Anonyme (romain)",
+          "annee": "80 apr. J.-C.",
+          "explication": "L'architecture de masse : arcs, béton, ingénierie au service du spectacle.",
+          "contexte": "Amphithéâtre du « pain et des jeux ».",
+          "elements": [
+            "La superposition des ordres",
+            "Les arcs en série",
+            "Le béton romain"
+          ]
+        },
+        {
+          "titre": "Le Panthéon de Rome",
+          "wiki": "Pantheon, Rome",
+          "artiste": "Anonyme (romain)",
+          "annee": "≈ 125 apr. J.-C.",
+          "explication": "Une coupole parfaite percée d'un oculus : Rome maîtrise l'espace intérieur.",
+          "contexte": "Temple de tous les dieux, sous Hadrien.",
+          "elements": [
+            "La coupole à caissons",
+            "L'oculus ouvert sur le ciel",
+            "L'espace sphérique parfait"
+          ]
+        }
+      ],
+      "roster": [
+        {
+          "nom": "Art romain",
+          "niveau": "",
+          "detail": "Colisée, Panthéon, colonne Trajane, portraits réalistes"
+        },
+        {
+          "nom": "Art bouddhique du Gandhara",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Doura-Europos",
+          "niveau": "",
+          "detail": "art juif"
+        },
+        {
+          "nom": "Catacombes",
+          "niveau": "",
+          "detail": "premier art chrétien"
+        }
       ]
     },
     {
-      "num": 6, "titre": "La séparation des chemins", "titre_en": "A Parting of Ways",
-      "portee": "Rome et Byzance, Vᵉ au XIIIᵉ siècle", "page": 91, "couleur": "#6f4a8e",
+      "num": 6,
+      "titre": "La séparation des chemins",
+      "titre_en": "A Parting of Ways",
+      "portee": "Rome et Byzance, Vᵉ au XIIIᵉ siècle",
+      "page": 91,
+      "couleur": "#6f4a8e",
       "idee": "À Byzance, l'image devient icône sacrée, frontale et hiératique : on ne cherche plus la ressemblance mais la présence du divin.",
       "oeuvres": [
-        { "titre": "Sainte-Sophie", "wiki": "Hagia Sophia", "artiste": "Anthémius & Isidore", "annee": "537", "explication": "Une coupole qui semble suspendue à la lumière : l'espace sacré comme expérience du divin.", "contexte": "Constantinople, capitale byzantine.", "elements": ["La coupole sur pendentifs", "La couronne de fenêtres", "Les mosaïques à fond d'or"] },
-        { "titre": "Mosaïques de San Vitale", "wiki": "Basilica of San Vitale", "artiste": "Anonyme (byzantin)", "annee": "≈ 547", "explication": "Justinien et sa cour en or et hiératiques : le pouvoir sacralisé par l'image.", "contexte": "Ravenne, avant-poste byzantin en Italie.", "elements": ["Les fonds d'or", "La frontalité des figures", "L'absence d'ombre et de poids"] }
+        {
+          "titre": "Sainte-Sophie",
+          "wiki": "Hagia Sophia",
+          "artiste": "Anthémius & Isidore",
+          "annee": "537",
+          "explication": "Une coupole qui semble suspendue à la lumière : l'espace sacré comme expérience du divin.",
+          "contexte": "Constantinople, capitale byzantine.",
+          "elements": [
+            "La coupole sur pendentifs",
+            "La couronne de fenêtres",
+            "Les mosaïques à fond d'or"
+          ]
+        },
+        {
+          "titre": "Mosaïques de San Vitale",
+          "wiki": "Basilica of San Vitale",
+          "artiste": "Anonyme (byzantin)",
+          "annee": "≈ 547",
+          "explication": "Justinien et sa cour en or et hiératiques : le pouvoir sacralisé par l'image.",
+          "contexte": "Ravenne, avant-poste byzantin en Italie.",
+          "elements": [
+            "Les fonds d'or",
+            "La frontalité des figures",
+            "L'absence d'ombre et de poids"
+          ]
+        }
+      ],
+      "notion": "L'image au service du sacré.",
+      "roster": [
+        {
+          "nom": "Mosaïques de Ravenne",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Icônes byzantines",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Querelle des iconoclastes",
+          "niveau": "",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 7, "titre": "Le regard vers l'Orient", "titre_en": "Looking Eastwards",
-      "portee": "Islam, Chine, IIᵉ au XIIIᵉ siècle", "page": 99, "couleur": "#2f8f7a",
+      "num": 7,
+      "titre": "Le regard vers l'Orient",
+      "titre_en": "Looking Eastwards",
+      "portee": "Islam, Chine, IIᵉ au XIIIᵉ siècle",
+      "page": 99,
+      "couleur": "#2f8f7a",
       "idee": "Privé de la figure, l'islam porte l'ornement et la calligraphie à la perfection ; la Chine fait de la peinture de paysage une méditation sur la nature.",
       "oeuvres": [
-        { "titre": "Grande Mosquée de Cordoue", "wiki": "Mosque–Cathedral of Córdoba", "artiste": "Anonyme (omeyyade)", "annee": "≈ 785", "explication": "Une forêt d'arcs bicolores à l'infini : l'art islamique fait de la répétition une expérience spirituelle.", "contexte": "Al-Andalus, Espagne musulmane.", "elements": ["Les arcs en fer à cheval bicolores", "La répétition à l'infini", "L'absence de figures"] },
-        { "titre": "Voyageurs parmi monts et torrents", "wiki": "Travelers Among Mountains and Streams", "artiste": "Fan Kuan", "annee": "≈ 1000", "explication": "L'homme minuscule face à la montagne immense : la peinture chinoise comme contemplation.", "contexte": "Dynastie Song, âge d'or du paysage.", "elements": ["L'échelle écrasante de la nature", "Le lavis d'encre", "La perspective atmosphérique"] }
+        {
+          "titre": "Grande Mosquée de Cordoue",
+          "wiki": "Mosque–Cathedral of Córdoba",
+          "artiste": "Anonyme (omeyyade)",
+          "annee": "≈ 785",
+          "explication": "Une forêt d'arcs bicolores à l'infini : l'art islamique fait de la répétition une expérience spirituelle.",
+          "contexte": "Al-Andalus, Espagne musulmane.",
+          "elements": [
+            "Les arcs en fer à cheval bicolores",
+            "La répétition à l'infini",
+            "L'absence de figures"
+          ]
+        },
+        {
+          "titre": "Voyageurs parmi monts et torrents",
+          "wiki": "Travelers Among Mountains and Streams",
+          "artiste": "Fan Kuan",
+          "annee": "≈ 1000",
+          "explication": "L'homme minuscule face à la montagne immense : la peinture chinoise comme contemplation.",
+          "contexte": "Dynastie Song, âge d'or du paysage.",
+          "elements": [
+            "L'échelle écrasante de la nature",
+            "Le lavis d'encre",
+            "La perspective atmosphérique"
+          ]
+        }
+      ],
+      "notion": "L'art sans l'image figurée.",
+      "roster": [
+        {
+          "nom": "Art islamique",
+          "niveau": "",
+          "detail": "arabesque, interdit de l'image"
+        },
+        {
+          "nom": "Ku K'ai-chi",
+          "niveau": "",
+          "detail": "peinture chinoise"
+        },
+        {
+          "nom": "Ma Yuan",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Kao K'o-kung",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Estampes",
+          "niveau": "",
+          "detail": "préfigure le Japon"
+        }
       ]
     },
     {
-      "num": 8, "titre": "Le creuset occidental", "titre_en": "Western Art in the Melting Pot",
-      "portee": "Europe, VIᵉ au XIᵉ siècle", "page": 109, "couleur": "#5a4a7a",
+      "num": 8,
+      "titre": "Le creuset occidental",
+      "titre_en": "Western Art in the Melting Pot",
+      "portee": "Europe, VIᵉ au XIᵉ siècle",
+      "page": 109,
+      "couleur": "#5a4a7a",
       "idee": "Dans l'Europe troublée du haut Moyen Âge, l'art monastique fond traditions barbares et chrétiennes : l'entrelacs et l'enluminure.",
       "oeuvres": [
-        { "titre": "Le Livre de Kells", "wiki": "Book of Kells", "artiste": "Moines irlandais", "annee": "≈ 800", "explication": "L'entrelacs sans fin : la lettre devient labyrinthe spirituel.", "contexte": "Monastères irlandais, foyers de culture.", "elements": ["Les entrelacs infinis", "Les lettrines monumentales", "L'horreur du vide"] },
-        { "titre": "Tapisserie de Bayeux", "wiki": "Bayeux Tapestry", "artiste": "Anonyme", "annee": "≈ 1077", "explication": "70 mètres de récit brodé : la bande dessinée avant l'heure.", "contexte": "Raconte la conquête de l'Angleterre en 1066.", "elements": ["La narration continue", "Les bordures commentées", "L'absence de perspective"] }
+        {
+          "titre": "Le Livre de Kells",
+          "wiki": "Book of Kells",
+          "artiste": "Moines irlandais",
+          "annee": "≈ 800",
+          "explication": "L'entrelacs sans fin : la lettre devient labyrinthe spirituel.",
+          "contexte": "Monastères irlandais, foyers de culture.",
+          "elements": [
+            "Les entrelacs infinis",
+            "Les lettrines monumentales",
+            "L'horreur du vide"
+          ]
+        },
+        {
+          "titre": "Tapisserie de Bayeux",
+          "wiki": "Bayeux Tapestry",
+          "artiste": "Anonyme",
+          "annee": "≈ 1077",
+          "explication": "70 mètres de récit brodé : la bande dessinée avant l'heure.",
+          "contexte": "Raconte la conquête de l'Angleterre en 1066.",
+          "elements": [
+            "La narration continue",
+            "Les bordures commentées",
+            "L'absence de perspective"
+          ]
+        }
+      ],
+      "notion": "Art préroman.",
+      "roster": [
+        {
+          "nom": "Évangiles de Lindisfarne",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Enluminures",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Charlemagne",
+          "niveau": "",
+          "detail": "chapelle d'Aix"
+        }
       ]
     },
     {
-      "num": 9, "titre": "L'Église militante", "titre_en": "The Church Militant",
-      "portee": "Le XIIᵉ siècle (art roman)", "page": 119, "couleur": "#7a5c8a",
+      "num": 9,
+      "titre": "L'Église militante",
+      "titre_en": "The Church Militant",
+      "portee": "Le XIIᵉ siècle (art roman)",
+      "page": 119,
+      "couleur": "#7a5c8a",
       "idee": "L'art roman, massif et clair, raconte l'histoire sainte sur les murs et les tympans, sans souci du réalisme : c'est la « Bible des illettrés ».",
       "oeuvres": [
-        { "titre": "Cathédrale de Durham", "wiki": "Durham Cathedral", "artiste": "Anonyme (roman)", "annee": "≈ 1130", "explication": "Murs épais, arcs en plein cintre, voûtes d'ogives naissantes : la puissance tranquille du roman.", "contexte": "Angleterre normande.", "elements": ["Les piliers massifs gravés", "L'arc en plein cintre", "La pénombre solennelle"] }
+        {
+          "titre": "Cathédrale de Durham",
+          "wiki": "Durham Cathedral",
+          "artiste": "Anonyme (roman)",
+          "annee": "≈ 1130",
+          "explication": "Murs épais, arcs en plein cintre, voûtes d'ogives naissantes : la puissance tranquille du roman.",
+          "contexte": "Angleterre normande.",
+          "elements": [
+            "Les piliers massifs gravés",
+            "L'arc en plein cintre",
+            "La pénombre solennelle"
+          ]
+        }
+      ],
+      "notion": "Force, murs épais, narration.",
+      "roster": [
+        {
+          "nom": "Art roman",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Cathédrale de Durham",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Tympans sculptés",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Gislebertus",
+          "niveau": "○",
+          "detail": "Autun"
+        }
       ]
     },
     {
-      "num": 10, "titre": "L'Église triomphante", "titre_en": "The Church Triumphant",
-      "portee": "Le XIIIᵉ siècle (art gothique)", "page": 131, "couleur": "#8a5ca0",
+      "num": 10,
+      "titre": "L'Église triomphante",
+      "titre_en": "The Church Triumphant",
+      "portee": "Le XIIIᵉ siècle (art gothique)",
+      "page": 131,
+      "couleur": "#8a5ca0",
       "idee": "Le gothique élance la pierre et dissout les murs en vitraux : la cathédrale devient une image du ciel inondée de lumière colorée.",
       "oeuvres": [
-        { "titre": "Cathédrale de Chartres", "wiki": "Chartres Cathedral", "artiste": "Anonymes (gothique)", "annee": "≈ 1220", "explication": "La pierre s'élance, la lumière devient théologie.", "contexte": "Pèlerinage majeur de la chrétienté.", "elements": ["Les arcs-boutants", "Le « bleu de Chartres »", "L'élévation verticale"] },
-        { "titre": "Notre-Dame de Paris", "wiki": "Notre-Dame de Paris", "artiste": "Anonymes (gothique)", "annee": "≈ 1260", "explication": "Arcs-boutants et rosaces : la cathédrale comme cosmos de pierre et de lumière.", "contexte": "Cœur du Paris médiéval.", "elements": ["Les rosaces", "La façade à deux tours", "Les arcs-boutants extérieurs"] }
+        {
+          "titre": "Cathédrale de Chartres",
+          "wiki": "Chartres Cathedral",
+          "artiste": "Anonymes (gothique)",
+          "annee": "≈ 1220",
+          "explication": "La pierre s'élance, la lumière devient théologie.",
+          "contexte": "Pèlerinage majeur de la chrétienté.",
+          "elements": [
+            "Les arcs-boutants",
+            "Le « bleu de Chartres »",
+            "L'élévation verticale"
+          ]
+        },
+        {
+          "titre": "Notre-Dame de Paris",
+          "wiki": "Notre-Dame de Paris",
+          "artiste": "Anonymes (gothique)",
+          "annee": "≈ 1260",
+          "explication": "Arcs-boutants et rosaces : la cathédrale comme cosmos de pierre et de lumière.",
+          "contexte": "Cœur du Paris médiéval.",
+          "elements": [
+            "Les rosaces",
+            "La façade à deux tours",
+            "Les arcs-boutants extérieurs"
+          ]
+        }
+      ],
+      "notion": "Lumière, hauteur, vitrail.",
+      "roster": [
+        {
+          "nom": "Art gothique",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Chartres, Notre-Dame",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Naumburg",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Nicola Pisano",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Cimabue",
+          "niveau": "○",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 11, "titre": "Courtisans et bourgeois", "titre_en": "Courtiers and Burghers",
-      "portee": "Le XIVᵉ siècle", "page": 149, "couleur": "#b07ab0",
+      "num": 11,
+      "titre": "Courtisans et bourgeois",
+      "titre_en": "Courtiers and Burghers",
+      "portee": "Le XIVᵉ siècle",
+      "page": 149,
+      "couleur": "#b07ab0",
       "idee": "L'art gothique tardif se fait gracieux et délicat ; mais en Italie, Giotto redonne aux figures un poids réel et une émotion vraie.",
       "oeuvres": [
-        { "titre": "La Lamentation", "wiki": "Lamentation (Giotto)", "artiste": "Giotto", "annee": "≈ 1305", "explication": "Giotto redonne poids, espace et émotion vraie : la porte de la Renaissance.", "contexte": "Chapelle Scrovegni, Padoue.", "elements": ["Les figures qui ont un poids", "L'émotion partagée", "L'espace qui se creuse"] },
-        { "titre": "Les Très Riches Heures", "wiki": "Très Riches Heures du Duc de Berry", "artiste": "Frères de Limbourg", "annee": "≈ 1412", "explication": "Le « style international » : élégance courtoise, détail précieux et premières scènes de la vie réelle.", "contexte": "Livre d'heures d'un grand prince.", "elements": ["Les calendriers des saisons", "Le détail miniature", "L'or et l'outremer"] }
+        {
+          "titre": "La Lamentation",
+          "wiki": "Lamentation (Giotto)",
+          "artiste": "Giotto",
+          "annee": "≈ 1305",
+          "explication": "Giotto redonne poids, espace et émotion vraie : la porte de la Renaissance.",
+          "contexte": "Chapelle Scrovegni, Padoue.",
+          "elements": [
+            "Les figures qui ont un poids",
+            "L'émotion partagée",
+            "L'espace qui se creuse"
+          ]
+        },
+        {
+          "titre": "Les Très Riches Heures",
+          "wiki": "Très Riches Heures du Duc de Berry",
+          "artiste": "Frères de Limbourg",
+          "annee": "≈ 1412",
+          "explication": "Le « style international » : élégance courtoise, détail précieux et premières scènes de la vie réelle.",
+          "contexte": "Livre d'heures d'un grand prince.",
+          "elements": [
+            "Les calendriers des saisons",
+            "Le détail miniature",
+            "L'or et l'outremer"
+          ]
+        }
+      ],
+      "notion": "Giotto, la charnière : poids, émotion.",
+      "roster": [
+        {
+          "nom": "Giotto",
+          "niveau": "★",
+          "detail": "la charnière"
+        },
+        {
+          "nom": "Duccio",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Simone Martini",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Gothique international",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Frères Limbourg",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Wilton Diptych",
+          "niveau": "",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 12, "titre": "La conquête du réel", "titre_en": "The Conquest of Reality",
-      "portee": "Le début du XVᵉ siècle", "page": 161, "couleur": "#3f9a6a",
+      "num": 12,
+      "titre": "La conquête du réel",
+      "titre_en": "The Conquest of Reality",
+      "portee": "Le début du XVᵉ siècle",
+      "page": 161,
+      "couleur": "#3f9a6a",
       "idee": "Au début du XVe, l'art conquiert le réel : la perspective mathématique à Florence, le miroir minutieux du monde chez Van Eyck au Nord.",
       "oeuvres": [
-        { "titre": "Les Époux Arnolfini", "wiki": "Arnolfini Portrait", "artiste": "Jan van Eyck", "annee": "1434", "explication": "La peinture à l'huile permet un réalisme inouï : chaque détail, jusqu'au reflet du miroir, devient miroir du monde.", "contexte": "Bruges, riche cité marchande flamande.", "elements": ["Le miroir convexe au fond", "Le rendu des matières (fourrure, laiton)", "La signature-témoin"] },
-        { "titre": "La Trinité", "wiki": "Holy Trinity (Masaccio)", "artiste": "Masaccio", "annee": "≈ 1427", "explication": "La première application rigoureuse de la perspective : un espace qui semble percer le mur.", "contexte": "Florence, avec l'aide de l'architecte Brunelleschi.", "elements": ["La voûte en perspective exacte", "Le point de fuite à hauteur d'œil", "Le squelette et l'inscription (memento mori)"] }
+        {
+          "titre": "Les Époux Arnolfini",
+          "wiki": "Arnolfini Portrait",
+          "artiste": "Jan van Eyck",
+          "annee": "1434",
+          "explication": "La peinture à l'huile permet un réalisme inouï : chaque détail, jusqu'au reflet du miroir, devient miroir du monde.",
+          "contexte": "Bruges, riche cité marchande flamande.",
+          "elements": [
+            "Le miroir convexe au fond",
+            "Le rendu des matières (fourrure, laiton)",
+            "La signature-témoin"
+          ]
+        },
+        {
+          "titre": "La Trinité",
+          "wiki": "Holy Trinity (Masaccio)",
+          "artiste": "Masaccio",
+          "annee": "≈ 1427",
+          "explication": "La première application rigoureuse de la perspective : un espace qui semble percer le mur.",
+          "contexte": "Florence, avec l'aide de l'architecte Brunelleschi.",
+          "elements": [
+            "La voûte en perspective exacte",
+            "Le point de fuite à hauteur d'œil",
+            "Le squelette et l'inscription (memento mori)"
+          ]
+        }
+      ],
+      "notion": "La perspective + le réalisme.",
+      "dossier": "renaissance",
+      "roster": [
+        {
+          "nom": "Brunelleschi",
+          "niveau": "★",
+          "detail": "perspective"
+        },
+        {
+          "nom": "Masaccio",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Donatello",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Ghiberti",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Fra Angelico",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Van Eyck",
+          "niveau": "★",
+          "detail": "conquête par l'huile (Nord)"
+        }
       ]
     },
     {
-      "num": 13, "titre": "Tradition et innovation (Italie)", "titre_en": "Tradition and Innovation I",
-      "portee": "La fin du XVᵉ siècle en Italie", "page": 177, "couleur": "#2e8b67",
+      "num": 13,
+      "titre": "Tradition et innovation (Italie)",
+      "titre_en": "Tradition and Innovation I",
+      "portee": "La fin du XVᵉ siècle en Italie",
+      "page": 177,
+      "couleur": "#2e8b67",
       "idee": "Les Italiens concilient la science nouvelle (perspective, anatomie) avec l'harmonie et la grâce héritées de l'Antiquité.",
       "oeuvres": [
-        { "titre": "La Naissance de Vénus", "wiki": "The Birth of Venus", "artiste": "Botticelli", "annee": "≈ 1485", "explication": "La grâce de la ligne plus que le réalisme : la beauté antique ressuscitée.", "contexte": "Florence des Médicis, inspiration néoplatonicienne.", "elements": ["La ligne sinueuse", "La déesse sur sa conque", "Le souffle des vents"] },
-        { "titre": "Le Printemps", "wiki": "Primavera (Botticelli)", "artiste": "Botticelli", "annee": "≈ 1480", "explication": "Une allégorie raffinée du renouveau, d'une élégance dansante.", "contexte": "Programme savant médicéen.", "elements": ["Les Trois Grâces", "Flore fleurie", "La lecture symbolique"] }
+        {
+          "titre": "La Naissance de Vénus",
+          "wiki": "The Birth of Venus",
+          "artiste": "Botticelli",
+          "annee": "≈ 1485",
+          "explication": "La grâce de la ligne plus que le réalisme : la beauté antique ressuscitée.",
+          "contexte": "Florence des Médicis, inspiration néoplatonicienne.",
+          "elements": [
+            "La ligne sinueuse",
+            "La déesse sur sa conque",
+            "Le souffle des vents"
+          ]
+        },
+        {
+          "titre": "Le Printemps",
+          "wiki": "Primavera (Botticelli)",
+          "artiste": "Botticelli",
+          "annee": "≈ 1480",
+          "explication": "Une allégorie raffinée du renouveau, d'une élégance dansante.",
+          "contexte": "Programme savant médicéen.",
+          "elements": [
+            "Les Trois Grâces",
+            "Flore fleurie",
+            "La lecture symbolique"
+          ]
+        }
+      ],
+      "notion": "Tradition et innovation en Italie.",
+      "dossier": "renaissance",
+      "roster": [
+        {
+          "nom": "Botticelli",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Piero della Francesca",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Mantegna",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Uccello",
+          "niveau": "○",
+          "detail": "perspective obsessionnelle"
+        },
+        {
+          "nom": "Verrocchio",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Ghirlandaio",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Pollaiuolo",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Le Pérugin",
+          "niveau": "○",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 14, "titre": "Tradition et innovation (Nord)", "titre_en": "Tradition and Innovation II",
-      "portee": "Le XVᵉ siècle dans le Nord", "page": 195, "couleur": "#4a9a5a",
+      "num": 14,
+      "titre": "Tradition et innovation (Nord)",
+      "titre_en": "Tradition and Innovation II",
+      "portee": "Le XVᵉ siècle dans le Nord",
+      "page": 195,
+      "couleur": "#4a9a5a",
       "idee": "Au nord des Alpes, on cherche moins la perspective théorique que le détail minutieux, le réalisme concret et l'imagination débordante.",
       "oeuvres": [
-        { "titre": "Le Jardin des délices", "wiki": "The Garden of Earthly Delights", "artiste": "Jérôme Bosch", "annee": "≈ 1500", "explication": "Un triptyque foisonnant de créatures et de symboles : l'imagination du Nord, entre rêve et cauchemar.", "contexte": "Pays-Bas, fin du Moyen Âge.", "elements": ["Le triptyque Éden / monde / enfer", "Les créatures hybrides", "La profusion de détails"] }
+        {
+          "titre": "Le Jardin des délices",
+          "wiki": "The Garden of Earthly Delights",
+          "artiste": "Jérôme Bosch",
+          "annee": "≈ 1500",
+          "explication": "Un triptyque foisonnant de créatures et de symboles : l'imagination du Nord, entre rêve et cauchemar.",
+          "contexte": "Pays-Bas, fin du Moyen Âge.",
+          "elements": [
+            "Le triptyque Éden / monde / enfer",
+            "Les créatures hybrides",
+            "La profusion de détails"
+          ]
+        }
+      ],
+      "notion": "Le détail flamand après Van Eyck.",
+      "dossier": "renaissance",
+      "roster": [
+        {
+          "nom": "Hugo van der Goes",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Rogier van der Weyden",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Memling",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Schongauer",
+          "niveau": "○",
+          "detail": "gravure"
+        }
       ]
     },
     {
-      "num": 15, "titre": "L'harmonie atteinte", "titre_en": "Harmony Attained",
-      "portee": "Toscane et Rome, début du XVIᵉ siècle", "page": 209, "couleur": "#2f8f5a",
+      "num": 15,
+      "titre": "L'harmonie atteinte",
+      "titre_en": "Harmony Attained",
+      "portee": "Toscane et Rome, début du XVIᵉ siècle",
+      "page": 209,
+      "couleur": "#2f8f5a",
       "idee": "Léonard, Michel-Ange et Raphaël atteignent l'équilibre parfait entre science, beauté et expression : le sommet de la Haute Renaissance.",
       "oeuvres": [
-        { "titre": "La Joconde", "wiki": "Mona Lisa", "artiste": "Léonard de Vinci", "annee": "≈ 1503", "explication": "Le sfumato : les contours se fondent dans l'ombre, le sourire devient insaisissable.", "contexte": "Portrait probable de Lisa Gherardini.", "elements": ["Le sfumato", "Le sourire ambigu", "Le paysage atmosphérique"] },
-        { "titre": "La Cène", "wiki": "The Last Supper (Leonardo)", "artiste": "Léonard de Vinci", "annee": "≈ 1498", "explication": "Le drame de la trahison, composé avec une rigueur géométrique parfaite.", "contexte": "Réfectoire de Santa Maria delle Grazie, Milan.", "elements": ["Les apôtres par trois", "La perspective centrée sur le Christ", "L'instant de l'annonce"] },
-        { "titre": "L'Homme de Vitruve", "wiki": "Vitruvian Man", "artiste": "Léonard de Vinci", "annee": "≈ 1490", "explication": "Le corps humain comme mesure du monde : art et science réunis.", "contexte": "Inspiré de l'architecte romain Vitruve.", "elements": ["Le cercle et le carré", "Les proportions idéales", "La fusion art-science"] },
-        { "titre": "La Dame à l'hermine", "wiki": "Lady with an Ermine", "artiste": "Léonard de Vinci", "annee": "≈ 1490", "explication": "Le mouvement et la vie intérieure saisis dans un regard de côté.", "contexte": "Cour de Milan.", "elements": ["La torsion vivante", "Le regard hors-champ", "L'hermine symbolique"] },
-        { "titre": "La Création d'Adam", "wiki": "The Creation of Adam", "artiste": "Michel-Ange", "annee": "≈ 1512", "explication": "Le doigt de Dieu effleure celui de l'homme : l'étincelle de la vie.", "contexte": "Détail du plafond de la chapelle Sixtine.", "elements": ["L'espace entre les doigts", "Le voile en forme de cerveau", "La tension de l'attente"] },
-        { "titre": "Plafond de la chapelle Sixtine", "wiki": "Sistine Chapel ceiling", "artiste": "Michel-Ange", "annee": "1512", "explication": "Le corps humain devient langage du divin. Quatre ans, seul, sur un échafaudage.", "contexte": "Commande du pape Jules II.", "elements": ["La Genèse en neuf scènes", "Les Ignudi", "L'architecture en trompe-l'œil"] },
-        { "titre": "David", "wiki": "David (Michelangelo)", "artiste": "Michel-Ange", "annee": "1504", "explication": "5,17 m de marbre : l'instant avant le combat, la tension contenue.", "contexte": "Symbole civique de Florence.", "elements": ["La tension d'avant l'action", "Les mains surdimensionnées", "Le contrapposto antique"] },
-        { "titre": "La Pietà", "wiki": "Pietà (Michelangelo)", "artiste": "Michel-Ange", "annee": "1499", "explication": "À 24 ans : la douleur sublimée, le drapé miraculeux. Sa seule œuvre signée.", "contexte": "Basilique Saint-Pierre, Rome.", "elements": ["Le drapé virtuose", "La jeunesse de Marie", "La composition pyramidale"] },
-        { "titre": "L'École d'Athènes", "wiki": "The School of Athens", "artiste": "Raphaël", "annee": "≈ 1510", "explication": "Composition, perspective et pensée réunies : la raison antique mise en espace.", "contexte": "Appartements du pape, Vatican.", "elements": ["Platon et Aristote au centre", "La perspective convergente", "Les philosophes aux traits d'artistes"] },
-        { "titre": "La Madone Sixtine", "wiki": "Sistine Madonna", "artiste": "Raphaël", "annee": "≈ 1512", "explication": "La douceur absolue — et les deux angelots devenus icônes.", "contexte": "Commande pour Plaisance.", "elements": ["Les angelots rêveurs", "Le rideau qui s'ouvre", "La Vierge qui avance"] }
+        {
+          "titre": "La Joconde",
+          "wiki": "Mona Lisa",
+          "artiste": "Léonard de Vinci",
+          "annee": "≈ 1503",
+          "explication": "Le sfumato : les contours se fondent dans l'ombre, le sourire devient insaisissable.",
+          "contexte": "Portrait probable de Lisa Gherardini.",
+          "elements": [
+            "Le sfumato",
+            "Le sourire ambigu",
+            "Le paysage atmosphérique"
+          ]
+        },
+        {
+          "titre": "La Cène",
+          "wiki": "The Last Supper (Leonardo)",
+          "artiste": "Léonard de Vinci",
+          "annee": "≈ 1498",
+          "explication": "Le drame de la trahison, composé avec une rigueur géométrique parfaite.",
+          "contexte": "Réfectoire de Santa Maria delle Grazie, Milan.",
+          "elements": [
+            "Les apôtres par trois",
+            "La perspective centrée sur le Christ",
+            "L'instant de l'annonce"
+          ]
+        },
+        {
+          "titre": "L'Homme de Vitruve",
+          "wiki": "Vitruvian Man",
+          "artiste": "Léonard de Vinci",
+          "annee": "≈ 1490",
+          "explication": "Le corps humain comme mesure du monde : art et science réunis.",
+          "contexte": "Inspiré de l'architecte romain Vitruve.",
+          "elements": [
+            "Le cercle et le carré",
+            "Les proportions idéales",
+            "La fusion art-science"
+          ]
+        },
+        {
+          "titre": "La Dame à l'hermine",
+          "wiki": "Lady with an Ermine",
+          "artiste": "Léonard de Vinci",
+          "annee": "≈ 1490",
+          "explication": "Le mouvement et la vie intérieure saisis dans un regard de côté.",
+          "contexte": "Cour de Milan.",
+          "elements": [
+            "La torsion vivante",
+            "Le regard hors-champ",
+            "L'hermine symbolique"
+          ]
+        },
+        {
+          "titre": "La Création d'Adam",
+          "wiki": "The Creation of Adam",
+          "artiste": "Michel-Ange",
+          "annee": "≈ 1512",
+          "explication": "Le doigt de Dieu effleure celui de l'homme : l'étincelle de la vie.",
+          "contexte": "Détail du plafond de la chapelle Sixtine.",
+          "elements": [
+            "L'espace entre les doigts",
+            "Le voile en forme de cerveau",
+            "La tension de l'attente"
+          ]
+        },
+        {
+          "titre": "Plafond de la chapelle Sixtine",
+          "wiki": "Sistine Chapel ceiling",
+          "artiste": "Michel-Ange",
+          "annee": "1512",
+          "explication": "Le corps humain devient langage du divin. Quatre ans, seul, sur un échafaudage.",
+          "contexte": "Commande du pape Jules II.",
+          "elements": [
+            "La Genèse en neuf scènes",
+            "Les Ignudi",
+            "L'architecture en trompe-l'œil"
+          ]
+        },
+        {
+          "titre": "David",
+          "wiki": "David (Michelangelo)",
+          "artiste": "Michel-Ange",
+          "annee": "1504",
+          "explication": "5,17 m de marbre : l'instant avant le combat, la tension contenue.",
+          "contexte": "Symbole civique de Florence.",
+          "elements": [
+            "La tension d'avant l'action",
+            "Les mains surdimensionnées",
+            "Le contrapposto antique"
+          ]
+        },
+        {
+          "titre": "La Pietà",
+          "wiki": "Pietà (Michelangelo)",
+          "artiste": "Michel-Ange",
+          "annee": "1499",
+          "explication": "À 24 ans : la douleur sublimée, le drapé miraculeux. Sa seule œuvre signée.",
+          "contexte": "Basilique Saint-Pierre, Rome.",
+          "elements": [
+            "Le drapé virtuose",
+            "La jeunesse de Marie",
+            "La composition pyramidale"
+          ]
+        },
+        {
+          "titre": "L'École d'Athènes",
+          "wiki": "The School of Athens",
+          "artiste": "Raphaël",
+          "annee": "≈ 1510",
+          "explication": "Composition, perspective et pensée réunies : la raison antique mise en espace.",
+          "contexte": "Appartements du pape, Vatican.",
+          "elements": [
+            "Platon et Aristote au centre",
+            "La perspective convergente",
+            "Les philosophes aux traits d'artistes"
+          ]
+        },
+        {
+          "titre": "La Madone Sixtine",
+          "wiki": "Sistine Madonna",
+          "artiste": "Raphaël",
+          "annee": "≈ 1512",
+          "explication": "La douceur absolue — et les deux angelots devenus icônes.",
+          "contexte": "Commande pour Plaisance.",
+          "elements": [
+            "Les angelots rêveurs",
+            "Le rideau qui s'ouvre",
+            "La Vierge qui avance"
+          ]
+        }
+      ],
+      "notion": "La perfection, l'équilibre (Haute Renaissance).",
+      "dossier": "renaissance",
+      "roster": [
+        {
+          "nom": "Léonard de Vinci",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Michel-Ange",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Raphaël",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Bramante",
+          "niveau": "○",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 16, "titre": "Lumière et couleur", "titre_en": "Light and Colour",
-      "portee": "Venise et l'Italie du Nord, début du XVIᵉ siècle", "page": 237, "couleur": "#c2843a",
+      "num": 16,
+      "titre": "Lumière et couleur",
+      "titre_en": "Light and Colour",
+      "portee": "Venise et l'Italie du Nord, début du XVIᵉ siècle",
+      "page": 237,
+      "couleur": "#c2843a",
       "idee": "À Venise, Titien et Giorgione font de la couleur et de la lumière, plus que du dessin, le véritable cœur de la peinture.",
       "oeuvres": [
-        { "titre": "La Vénus d'Urbin", "wiki": "Venus of Urbino", "artiste": "Titien", "annee": "1538", "explication": "La couleur chaude et la chair vibrante : le nu vénitien, sensuel et terrestre.", "contexte": "Venise, cité marchande et raffinée.", "elements": ["La richesse des couleurs", "Le regard direct", "La profondeur de l'espace domestique"] },
-        { "titre": "La Tempête", "wiki": "The Tempest (Giorgione)", "artiste": "Giorgione", "annee": "≈ 1508", "explication": "L'atmosphère et la lumière priment sur le sujet, énigmatique : la naissance du « paysage d'âme ».", "contexte": "Venise du début du XVIe.", "elements": ["L'orage à l'arrière-plan", "L'unité par la lumière", "Le sujet volontairement obscur"] }
+        {
+          "titre": "La Vénus d'Urbin",
+          "wiki": "Venus of Urbino",
+          "artiste": "Titien",
+          "annee": "1538",
+          "explication": "La couleur chaude et la chair vibrante : le nu vénitien, sensuel et terrestre.",
+          "contexte": "Venise, cité marchande et raffinée.",
+          "elements": [
+            "La richesse des couleurs",
+            "Le regard direct",
+            "La profondeur de l'espace domestique"
+          ]
+        },
+        {
+          "titre": "La Tempête",
+          "wiki": "The Tempest (Giorgione)",
+          "artiste": "Giorgione",
+          "annee": "≈ 1508",
+          "explication": "L'atmosphère et la lumière priment sur le sujet, énigmatique : la naissance du « paysage d'âme ».",
+          "contexte": "Venise du début du XVIe.",
+          "elements": [
+            "L'orage à l'arrière-plan",
+            "L'unité par la lumière",
+            "Le sujet volontairement obscur"
+          ]
+        }
+      ],
+      "notion": "Le colorito vénitien contre le disegno florentin.",
+      "dossier": "renaissance",
+      "roster": [
+        {
+          "nom": "Giorgione",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Titien",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Giovanni Bellini",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Corrège",
+          "niveau": "○",
+          "detail": "Correggio"
+        }
       ]
     },
     {
-      "num": 17, "titre": "La diffusion du savoir nouveau", "titre_en": "The New Learning Spreads",
-      "portee": "Allemagne et Pays-Bas, début du XVIᵉ siècle", "page": 249, "couleur": "#6a8a4a",
+      "num": 17,
+      "titre": "La diffusion du savoir nouveau",
+      "titre_en": "The New Learning Spreads",
+      "portee": "Allemagne et Pays-Bas, début du XVIᵉ siècle",
+      "page": 249,
+      "couleur": "#6a8a4a",
       "idee": "Au nord, Dürer et Holbein absorbent la science italienne tout en gardant le génie nordique du détail et de l'observation.",
       "oeuvres": [
-        { "titre": "Autoportrait de Dürer", "wiki": "Self-Portrait (Dürer, Munich)", "artiste": "Albrecht Dürer", "annee": "1500", "explication": "L'artiste se peint de face, presque en Christ : l'affirmation neuve du génie créateur au Nord.", "contexte": "Nuremberg ; Dürer a étudié l'art italien.", "elements": ["La frontalité solennelle", "Le détail des cheveux et de la fourrure", "Le monogramme et la date"] },
-        { "titre": "Les Ambassadeurs", "wiki": "The Ambassadors (Holbein)", "artiste": "Hans Holbein le Jeune", "annee": "1533", "explication": "Le portrait du savoir et du pouvoir — et, en travers, un crâne anamorphique : memento mori caché.", "contexte": "Cour d'Angleterre, Réforme religieuse.", "elements": ["Les objets de science et de musique", "Le crâne anamorphique", "Le rendu des matières"] },
-        { "titre": "Chasseurs dans la neige", "wiki": "The Hunters in the Snow", "artiste": "Pieter Bruegel l'Ancien", "annee": "1565", "explication": "La vie paysanne et le paysage d'hiver : le Nord regarde le monde quotidien sans l'ennoblir.", "contexte": "Pays-Bas, série des mois.", "elements": ["La vue plongeante", "Les chasseurs de dos", "Le froid rendu par la palette"] }
+        {
+          "titre": "Autoportrait de Dürer",
+          "wiki": "Self-Portrait (Dürer, Munich)",
+          "artiste": "Albrecht Dürer",
+          "annee": "1500",
+          "explication": "L'artiste se peint de face, presque en Christ : l'affirmation neuve du génie créateur au Nord.",
+          "contexte": "Nuremberg ; Dürer a étudié l'art italien.",
+          "elements": [
+            "La frontalité solennelle",
+            "Le détail des cheveux et de la fourrure",
+            "Le monogramme et la date"
+          ]
+        },
+        {
+          "titre": "Les Ambassadeurs",
+          "wiki": "The Ambassadors (Holbein)",
+          "artiste": "Hans Holbein le Jeune",
+          "annee": "1533",
+          "explication": "Le portrait du savoir et du pouvoir — et, en travers, un crâne anamorphique : memento mori caché.",
+          "contexte": "Cour d'Angleterre, Réforme religieuse.",
+          "elements": [
+            "Les objets de science et de musique",
+            "Le crâne anamorphique",
+            "Le rendu des matières"
+          ]
+        },
+        {
+          "titre": "Chasseurs dans la neige",
+          "wiki": "The Hunters in the Snow",
+          "artiste": "Pieter Bruegel l'Ancien",
+          "annee": "1565",
+          "explication": "La vie paysanne et le paysage d'hiver : le Nord regarde le monde quotidien sans l'ennoblir.",
+          "contexte": "Pays-Bas, série des mois.",
+          "elements": [
+            "La vue plongeante",
+            "Les chasseurs de dos",
+            "Le froid rendu par la palette"
+          ]
+        }
+      ],
+      "notion": "La Renaissance gagne le Nord.",
+      "dossier": "renaissance",
+      "roster": [
+        {
+          "nom": "Dürer",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Grünewald",
+          "niveau": "★",
+          "detail": "retable d'Issenheim"
+        },
+        {
+          "nom": "Cranach",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Holbein",
+          "niveau": "★",
+          "detail": "portraits"
+        },
+        {
+          "nom": "Bosch",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Mabuse",
+          "niveau": "○",
+          "detail": "Gossaert"
+        }
       ]
     },
     {
-      "num": 18, "titre": "Une crise de l'art", "titre_en": "A Crisis of Art",
-      "portee": "L'Europe, fin du XVIᵉ siècle (maniérisme)", "page": 265, "couleur": "#8a6a3a",
+      "num": 18,
+      "titre": "Une crise de l'art",
+      "titre_en": "A Crisis of Art",
+      "portee": "L'Europe, fin du XVIᵉ siècle (maniérisme)",
+      "page": 265,
+      "couleur": "#8a6a3a",
       "idee": "Après la perfection des grands maîtres, le maniérisme cherche volontairement l'étrange, l'artifice et la tension : la règle se brise pour étonner.",
       "oeuvres": [
-        { "titre": "L'Enterrement du comte d'Orgaz", "wiki": "The Burial of the Count of Orgaz", "artiste": "Le Greco", "annee": "1588", "explication": "Corps allongés, couleurs irréelles, ciel embrasé : l'émotion mystique déforme le réel.", "contexte": "Tolède, Espagne de la Contre-Réforme.", "elements": ["Les figures étirées", "La séparation terre/ciel", "La lumière surnaturelle"] }
+        {
+          "titre": "L'Enterrement du comte d'Orgaz",
+          "wiki": "The Burial of the Count of Orgaz",
+          "artiste": "Le Greco",
+          "annee": "1588",
+          "explication": "Corps allongés, couleurs irréelles, ciel embrasé : l'émotion mystique déforme le réel.",
+          "contexte": "Tolède, Espagne de la Contre-Réforme.",
+          "elements": [
+            "Les figures étirées",
+            "La séparation terre/ciel",
+            "La lumière surnaturelle"
+          ]
+        }
+      ],
+      "notion": "Tordre la perfection (Maniérisme).",
+      "roster": [
+        {
+          "nom": "Parmesan",
+          "niveau": "★",
+          "detail": "Parmigianino"
+        },
+        {
+          "nom": "Cellini",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Giambologna",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Tintoret",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "El Greco",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Bruegel l'Ancien",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Zuccari",
+          "niveau": "○",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 19, "titre": "Vision et visions", "titre_en": "Vision and Visions",
-      "portee": "L'Europe catholique, première moitié du XVIIᵉ siècle", "page": 287, "couleur": "#b5642a",
+      "num": 19,
+      "titre": "Vision et visions",
+      "titre_en": "Vision and Visions",
+      "portee": "L'Europe catholique, première moitié du XVIIᵉ siècle",
+      "page": 287,
+      "couleur": "#b5642a",
       "idee": "Le Baroque catholique veut émouvoir et convaincre : Caravage par sa lumière crue, d'autres par le mouvement et l'extase.",
       "oeuvres": [
-        { "titre": "La Vocation de saint Matthieu", "wiki": "The Calling of Saint Matthew", "artiste": "Le Caravage", "annee": "≈ 1600", "explication": "Un rayon de lumière comme doigt de Dieu, dans une scène de taverne.", "contexte": "Chapelle Contarelli, Rome.", "elements": ["Le rayon révélateur", "Les costumes contemporains", "Le geste du Christ"] },
-        { "titre": "Judith décapitant Holopherne", "wiki": "Judith Beheading Holofernes (Caravaggio)", "artiste": "Le Caravage", "annee": "≈ 1599", "explication": "La violence frontale en pleine lumière crue.", "contexte": "Réalisme brutal inédit.", "elements": ["La lumière sur l'action", "Le réalisme des expressions", "L'instant exact"] },
-        { "titre": "L'Extase de sainte Thérèse", "wiki": "Ecstasy of Saint Teresa", "artiste": "Le Bernin", "annee": "1652", "explication": "Le marbre se fait nuage, chair et lumière : le Baroque met l'extase mystique en scène théâtrale.", "contexte": "Rome, Contre-Réforme triomphante.", "elements": ["Le drapé bouillonnant", "Les rayons de bronze doré", "La mise en scène théâtrale"] },
-        { "titre": "Les Ménines", "wiki": "Las Meninas", "artiste": "Vélasquez", "annee": "1656", "explication": "Le tableau qui se regarde peindre : où est le spectateur, où est le roi ?", "contexte": "Cour de Philippe IV d'Espagne.", "elements": ["Le miroir au fond", "Le peintre dans son tableau", "Le jeu des regards"] },
-        { "titre": "Portrait d'Innocent X", "wiki": "Portrait of Innocent X", "artiste": "Vélasquez", "annee": "1650", "explication": "Une présence psychologique presque insoutenable : « trop vrai », dit le pape.", "contexte": "Voyage de Vélasquez à Rome.", "elements": ["Le regard perçant", "Les rouges somptueux", "La vérité crue"] }
+        {
+          "titre": "La Vocation de saint Matthieu",
+          "wiki": "The Calling of Saint Matthew",
+          "artiste": "Le Caravage",
+          "annee": "≈ 1600",
+          "explication": "Un rayon de lumière comme doigt de Dieu, dans une scène de taverne.",
+          "contexte": "Chapelle Contarelli, Rome.",
+          "elements": [
+            "Le rayon révélateur",
+            "Les costumes contemporains",
+            "Le geste du Christ"
+          ]
+        },
+        {
+          "titre": "Judith décapitant Holopherne",
+          "wiki": "Judith Beheading Holofernes (Caravaggio)",
+          "artiste": "Le Caravage",
+          "annee": "≈ 1599",
+          "explication": "La violence frontale en pleine lumière crue.",
+          "contexte": "Réalisme brutal inédit.",
+          "elements": [
+            "La lumière sur l'action",
+            "Le réalisme des expressions",
+            "L'instant exact"
+          ]
+        },
+        {
+          "titre": "L'Extase de sainte Thérèse",
+          "wiki": "Ecstasy of Saint Teresa",
+          "artiste": "Le Bernin",
+          "annee": "1652",
+          "explication": "Le marbre se fait nuage, chair et lumière : le Baroque met l'extase mystique en scène théâtrale.",
+          "contexte": "Rome, Contre-Réforme triomphante.",
+          "elements": [
+            "Le drapé bouillonnant",
+            "Les rayons de bronze doré",
+            "La mise en scène théâtrale"
+          ]
+        },
+        {
+          "titre": "Les Ménines",
+          "wiki": "Las Meninas",
+          "artiste": "Vélasquez",
+          "annee": "1656",
+          "explication": "Le tableau qui se regarde peindre : où est le spectateur, où est le roi ?",
+          "contexte": "Cour de Philippe IV d'Espagne.",
+          "elements": [
+            "Le miroir au fond",
+            "Le peintre dans son tableau",
+            "Le jeu des regards"
+          ]
+        },
+        {
+          "titre": "Portrait d'Innocent X",
+          "wiki": "Portrait of Innocent X",
+          "artiste": "Vélasquez",
+          "annee": "1650",
+          "explication": "Une présence psychologique presque insoutenable : « trop vrai », dit le pape.",
+          "contexte": "Voyage de Vélasquez à Rome.",
+          "elements": [
+            "Le regard perçant",
+            "Les rouges somptueux",
+            "La vérité crue"
+          ]
+        }
+      ],
+      "notion": "Drame, mouvement, foi (Baroque catholique).",
+      "roster": [
+        {
+          "nom": "Caravage",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Annibal Carrache",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Le Bernin",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Borromini",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Rubens",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Van Dyck",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Vélasquez",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Murillo",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Zurbarán",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Poussin",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Le Lorrain",
+          "niveau": "○",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 20, "titre": "Le miroir de la nature", "titre_en": "The Mirror of Nature",
-      "portee": "La Hollande au XVIIᵉ siècle", "page": 309, "couleur": "#9a5a2a",
+      "num": 20,
+      "titre": "Le miroir de la nature",
+      "titre_en": "The Mirror of Nature",
+      "portee": "La Hollande au XVIIᵉ siècle",
+      "page": 309,
+      "couleur": "#9a5a2a",
       "idee": "Dans la Hollande protestante et marchande, on peint la vie quotidienne, les portraits et les paysages : l'art du regard patient sur le réel.",
       "oeuvres": [
-        { "titre": "La Ronde de nuit", "wiki": "The Night Watch", "artiste": "Rembrandt", "annee": "1642", "explication": "Le portrait de groupe devient scène vivante, mouvement et lumière dramatique.", "contexte": "Commande d'une milice d'Amsterdam.", "elements": ["Le mouvement du groupe", "La lumière sélective", "La profondeur scénique"] },
-        { "titre": "La Leçon d'anatomie", "wiki": "The Anatomy Lesson of Dr. Nicolaes Tulp", "artiste": "Rembrandt", "annee": "1632", "explication": "Le savoir et la mort mis en scène : chaque regard raconte une réaction.", "contexte": "Guilde des chirurgiens d'Amsterdam.", "elements": ["La diagonale du cadavre", "Les regards variés", "La lumière sur la science"] },
-        { "titre": "La Jeune Fille à la perle", "wiki": "Girl with a Pearl Earring", "artiste": "Vermeer", "annee": "≈ 1665", "explication": "Une lumière douce, un regard suspendu : l'intime hollandais porté à la perfection silencieuse.", "contexte": "Delft ; Vermeer peint peu, mais des merveilles.", "elements": ["La lumière sur le visage", "L'éclat de la perle", "Le fond sombre et neutre"] }
+        {
+          "titre": "La Ronde de nuit",
+          "wiki": "The Night Watch",
+          "artiste": "Rembrandt",
+          "annee": "1642",
+          "explication": "Le portrait de groupe devient scène vivante, mouvement et lumière dramatique.",
+          "contexte": "Commande d'une milice d'Amsterdam.",
+          "elements": [
+            "Le mouvement du groupe",
+            "La lumière sélective",
+            "La profondeur scénique"
+          ]
+        },
+        {
+          "titre": "La Leçon d'anatomie",
+          "wiki": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+          "artiste": "Rembrandt",
+          "annee": "1632",
+          "explication": "Le savoir et la mort mis en scène : chaque regard raconte une réaction.",
+          "contexte": "Guilde des chirurgiens d'Amsterdam.",
+          "elements": [
+            "La diagonale du cadavre",
+            "Les regards variés",
+            "La lumière sur la science"
+          ]
+        },
+        {
+          "titre": "La Jeune Fille à la perle",
+          "wiki": "Girl with a Pearl Earring",
+          "artiste": "Vermeer",
+          "annee": "≈ 1665",
+          "explication": "Une lumière douce, un regard suspendu : l'intime hollandais porté à la perfection silencieuse.",
+          "contexte": "Delft ; Vermeer peint peu, mais des merveilles.",
+          "elements": [
+            "La lumière sur le visage",
+            "L'éclat de la perle",
+            "Le fond sombre et neutre"
+          ]
+        }
+      ],
+      "notion": "Le quotidien, le miroir de la nature (Hollande).",
+      "roster": [
+        {
+          "nom": "Rembrandt",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Vermeer",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Frans Hals",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Ruisdael",
+          "niveau": "○",
+          "detail": "paysage"
+        },
+        {
+          "nom": "Jan Steen",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Kalf",
+          "niveau": "○",
+          "detail": "nature morte"
+        },
+        {
+          "nom": "Pieter de Hooch",
+          "niveau": "○",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 21, "titre": "Pouvoir et gloire (Italie)", "titre_en": "Power and Glory I",
-      "portee": "Italie, fin du XVIIᵉ et XVIIIᵉ siècle", "page": 325, "couleur": "#b07030",
+      "num": 21,
+      "titre": "Pouvoir et gloire (Italie)",
+      "titre_en": "Power and Glory I",
+      "portee": "Italie, fin du XVIIᵉ et XVIIIᵉ siècle",
+      "page": 325,
+      "couleur": "#b07030",
       "idee": "Le Baroque tardif italien éblouit : plafonds en trompe-l'œil qui ouvrent l'église sur le ciel, théâtre de la foi et du pouvoir.",
       "oeuvres": [
-        { "titre": "Le Banquet de Cléopâtre", "wiki": "The Banquet of Cleopatra (Tiepolo)", "artiste": "Giambattista Tiepolo", "annee": "≈ 1744", "explication": "Couleurs claires, perspectives vertigineuses, faste théâtral : le dernier grand éclat du Baroque.", "contexte": "Venise, art décoratif des palais.", "elements": ["La palette lumineuse", "La mise en scène fastueuse", "La perspective ouverte"] }
+        {
+          "titre": "Le Banquet de Cléopâtre",
+          "wiki": "The Banquet of Cleopatra (Tiepolo)",
+          "artiste": "Giambattista Tiepolo",
+          "annee": "≈ 1744",
+          "explication": "Couleurs claires, perspectives vertigineuses, faste théâtral : le dernier grand éclat du Baroque.",
+          "contexte": "Venise, art décoratif des palais.",
+          "elements": [
+            "La palette lumineuse",
+            "La mise en scène fastueuse",
+            "La perspective ouverte"
+          ]
+        }
+      ],
+      "notion": "Baroque tardif et Rococo italien.",
+      "roster": [
+        {
+          "nom": "Tiepolo",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Guardi",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Canaletto",
+          "niveau": "○",
+          "detail": "vedute"
+        },
+        {
+          "nom": "Gaulli",
+          "niveau": "",
+          "detail": "plafond du Gesù"
+        },
+        {
+          "nom": "Architecture théâtrale",
+          "niveau": "",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 22, "titre": "Pouvoir et gloire (France)", "titre_en": "Power and Glory II",
-      "portee": "France, Allemagne, Autriche, fin XVIIᵉ - début XVIIIᵉ", "page": 335, "couleur": "#c08a40",
+      "num": 22,
+      "titre": "Pouvoir et gloire (France)",
+      "titre_en": "Power and Glory II",
+      "portee": "France, Allemagne, Autriche, fin XVIIᵉ - début XVIIIᵉ",
+      "page": 335,
+      "couleur": "#c08a40",
       "idee": "L'art de cour met la grandeur en scène (Versailles), puis le rococo l'allège en grâce, plaisir et légèreté.",
       "oeuvres": [
-        { "titre": "Château de Versailles", "wiki": "Palace of Versailles", "artiste": "Le Vau, Mansart, Le Nôtre", "annee": "≈ 1680", "explication": "L'architecture, les jardins et le décor au service de la gloire absolue du Roi-Soleil.", "contexte": "Louis XIV, monarchie absolue.", "elements": ["La galerie des Glaces", "L'axe et les jardins à la française", "Le faste comme pouvoir"] },
-        { "titre": "L'Embarquement pour Cythère", "wiki": "The Embarkation for Cythera", "artiste": "Watteau", "annee": "1717", "explication": "La fête galante : grâce, mélancolie douce et couleurs tendres. Le rococo français naît.", "contexte": "Régence, après la rigueur de Louis XIV.", "elements": ["La touche légère", "L'atmosphère mélancolique", "Le mouvement en guirlande"] }
+        {
+          "titre": "Château de Versailles",
+          "wiki": "Palace of Versailles",
+          "artiste": "Le Vau, Mansart, Le Nôtre",
+          "annee": "≈ 1680",
+          "explication": "L'architecture, les jardins et le décor au service de la gloire absolue du Roi-Soleil.",
+          "contexte": "Louis XIV, monarchie absolue.",
+          "elements": [
+            "La galerie des Glaces",
+            "L'axe et les jardins à la française",
+            "Le faste comme pouvoir"
+          ]
+        },
+        {
+          "titre": "L'Embarquement pour Cythère",
+          "wiki": "The Embarkation for Cythera",
+          "artiste": "Watteau",
+          "annee": "1717",
+          "explication": "La fête galante : grâce, mélancolie douce et couleurs tendres. Le rococo français naît.",
+          "contexte": "Régence, après la rigueur de Louis XIV.",
+          "elements": [
+            "La touche légère",
+            "L'atmosphère mélancolique",
+            "Le mouvement en guirlande"
+          ]
+        }
+      ],
+      "notion": "Le faste du pouvoir absolu.",
+      "roster": [
+        {
+          "nom": "Versailles",
+          "niveau": "",
+          "detail": ""
+        },
+        {
+          "nom": "Watteau",
+          "niveau": "★",
+          "detail": "Rococo français"
+        },
+        {
+          "nom": "Baroque d'Europe centrale",
+          "niveau": "",
+          "detail": "Melk, églises bavaroises"
+        }
       ]
     },
     {
-      "num": 23, "titre": "L'âge de raison", "titre_en": "The Age of Reason",
-      "portee": "Angleterre et France, XVIIIᵉ siècle", "page": 343, "couleur": "#9a8a5a",
+      "num": 23,
+      "titre": "L'âge de raison",
+      "titre_en": "The Age of Reason",
+      "portee": "Angleterre et France, XVIIIᵉ siècle",
+      "page": 343,
+      "couleur": "#9a8a5a",
       "idee": "Au siècle des Lumières, l'art se fait plus sobre et bourgeois : portrait anglais, scènes intimes, regard observateur et parfois critique.",
       "oeuvres": [
-        { "titre": "M. et Mme Andrews", "wiki": "Mr and Mrs Andrews", "artiste": "Gainsborough", "annee": "≈ 1750", "explication": "Le portrait anglais relié au paysage : la fierté tranquille de la propriété terrienne.", "contexte": "Angleterre des grands domaines.", "elements": ["Le couple et leurs terres", "Le naturel des poses", "Le paysage anglais réel"] }
+        {
+          "titre": "M. et Mme Andrews",
+          "wiki": "Mr and Mrs Andrews",
+          "artiste": "Gainsborough",
+          "annee": "≈ 1750",
+          "explication": "Le portrait anglais relié au paysage : la fierté tranquille de la propriété terrienne.",
+          "contexte": "Angleterre des grands domaines.",
+          "elements": [
+            "Le couple et leurs terres",
+            "Le naturel des poses",
+            "Le paysage anglais réel"
+          ]
+        }
+      ],
+      "notion": "Raison, mesure, vie bourgeoise.",
+      "roster": [
+        {
+          "nom": "Chardin",
+          "niveau": "★",
+          "detail": "nature morte sobre"
+        },
+        {
+          "nom": "Fragonard",
+          "niveau": "○",
+          "detail": "rococo galant"
+        },
+        {
+          "nom": "Hogarth",
+          "niveau": "○",
+          "detail": "satire"
+        },
+        {
+          "nom": "Reynolds",
+          "niveau": "○",
+          "detail": "portrait anglais"
+        },
+        {
+          "nom": "Gainsborough",
+          "niveau": "★",
+          "detail": "portrait anglais"
+        },
+        {
+          "nom": "Houdon",
+          "niveau": "○",
+          "detail": "sculpture"
+        }
       ]
     },
     {
-      "num": 24, "titre": "La rupture de la tradition", "titre_en": "The Break in Tradition",
-      "portee": "Angleterre, Amérique, France, fin XVIIIᵉ - début XIXᵉ", "page": 357, "couleur": "#b03b2c",
+      "num": 24,
+      "titre": "La rupture de la tradition",
+      "titre_en": "The Break in Tradition",
+      "portee": "Angleterre, Amérique, France, fin XVIIIᵉ - début XIXᵉ",
+      "page": 357,
+      "couleur": "#b03b2c",
       "idee": "Les révolutions brisent les conventions : le néoclassicisme prône la vertu antique, le romantisme la passion. L'artiste choisit désormais son sujet et son style.",
       "oeuvres": [
-        { "titre": "Le Serment des Horaces", "wiki": "Oath of the Horatii", "artiste": "Jacques-Louis David", "annee": "1784", "explication": "Rigueur antique et vertu civique : le néoclassicisme au service de l'idéal républicain.", "contexte": "Veille de la Révolution française.", "elements": ["La composition claire en trois groupes", "Les lignes droites et viriles", "Le sacrifice à la patrie"] },
-        { "titre": "Tres de Mayo", "wiki": "The Third of May 1808", "artiste": "Goya", "annee": "1814", "explication": "L'horreur de la guerre, sans héroïsme : la victime anonyme face au peloton. Une modernité brutale.", "contexte": "Répression napoléonienne en Espagne.", "elements": ["La lanterne qui éclaire la victime", "Le peloton sans visage", "L'absence d'idéalisation"] },
-        { "titre": "La Liberté guidant le peuple", "wiki": "Liberty Leading the People", "artiste": "Delacroix", "annee": "1830", "explication": "La passion politique faite peinture : couleur, mouvement, allégorie incarnée.", "contexte": "Révolution de juillet 1830.", "elements": ["La Liberté allégorique mais charnelle", "La pyramide des corps", "Le drapeau tricolore"] },
-        { "titre": "La Mort de Sardanapale", "wiki": "The Death of Sardanapalus", "artiste": "Delacroix", "annee": "1827", "explication": "Le chaos somptueux : couleur déchaînée, sensualité et destruction. Le romantisme à son comble.", "contexte": "Inspirée de Byron ; scandale au Salon.", "elements": ["La composition en tourbillon", "Les rouges orgiaques", "Le roi impassible"] }
+        {
+          "titre": "Le Serment des Horaces",
+          "wiki": "Oath of the Horatii",
+          "artiste": "Jacques-Louis David",
+          "annee": "1784",
+          "explication": "Rigueur antique et vertu civique : le néoclassicisme au service de l'idéal républicain.",
+          "contexte": "Veille de la Révolution française.",
+          "elements": [
+            "La composition claire en trois groupes",
+            "Les lignes droites et viriles",
+            "Le sacrifice à la patrie"
+          ]
+        },
+        {
+          "titre": "Tres de Mayo",
+          "wiki": "The Third of May 1808",
+          "artiste": "Goya",
+          "annee": "1814",
+          "explication": "L'horreur de la guerre, sans héroïsme : la victime anonyme face au peloton. Une modernité brutale.",
+          "contexte": "Répression napoléonienne en Espagne.",
+          "elements": [
+            "La lanterne qui éclaire la victime",
+            "Le peloton sans visage",
+            "L'absence d'idéalisation"
+          ]
+        },
+        {
+          "titre": "La Liberté guidant le peuple",
+          "wiki": "Liberty Leading the People",
+          "artiste": "Delacroix",
+          "annee": "1830",
+          "explication": "La passion politique faite peinture : couleur, mouvement, allégorie incarnée.",
+          "contexte": "Révolution de juillet 1830.",
+          "elements": [
+            "La Liberté allégorique mais charnelle",
+            "La pyramide des corps",
+            "Le drapeau tricolore"
+          ]
+        },
+        {
+          "titre": "La Mort de Sardanapale",
+          "wiki": "The Death of Sardanapalus",
+          "artiste": "Delacroix",
+          "annee": "1827",
+          "explication": "Le chaos somptueux : couleur déchaînée, sensualité et destruction. Le romantisme à son comble.",
+          "contexte": "Inspirée de Byron ; scandale au Salon.",
+          "elements": [
+            "La composition en tourbillon",
+            "Les rouges orgiaques",
+            "Le roi impassible"
+          ]
+        }
+      ],
+      "notion": "La tradition se brise, l'artiste se libère.",
+      "roster": [
+        {
+          "nom": "David",
+          "niveau": "★",
+          "detail": "néoclassicisme révolutionnaire"
+        },
+        {
+          "nom": "Goya",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Blake",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Constable",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Turner",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Copley, West",
+          "niveau": "○",
+          "detail": "Amérique"
+        }
       ]
     },
     {
-      "num": 25, "titre": "La révolution permanente", "titre_en": "Revolution in Permanence",
-      "portee": "Le XIXᵉ siècle", "page": 377, "couleur": "#c0392b",
+      "num": 25,
+      "titre": "La révolution permanente",
+      "titre_en": "Revolution in Permanence",
+      "portee": "Le XIXᵉ siècle",
+      "page": 377,
+      "couleur": "#c0392b",
       "idee": "Au XIXe, les ruptures s'enchaînent : le réalisme peint le réel sans le farder, puis l'impressionnisme saisit la sensation lumineuse de l'instant.",
       "oeuvres": [
-        { "titre": "Les Casseurs de pierres", "wiki": "The Stone Breakers", "artiste": "Courbet", "annee": "1849", "explication": "Des travailleurs grandeur nature, sans héroïsme : le réalisme impose le quotidien comme sujet noble.", "contexte": "Réalisme, après 1848.", "elements": ["L'échelle monumentale du banal", "L'anonymat des visages", "La matière épaisse"] },
-        { "titre": "Olympia", "wiki": "Olympia (Manet)", "artiste": "Manet", "annee": "1863", "explication": "Une vraie femme, un regard direct : le scandale qui ouvre la modernité.", "contexte": "Scandale au Salon de 1865.", "elements": ["Le regard frontal", "Les à-plats nets", "Le bouquet et la servante"] },
-        { "titre": "Le Déjeuner sur l'herbe", "wiki": "Le Déjeuner sur l'herbe", "artiste": "Manet", "annee": "1863", "explication": "Un nu banalisé en plein jour : la provocation tranquille.", "contexte": "Salon des refusés.", "elements": ["Le mélange nu/habillés", "La lumière plate", "Le regard vers nous"] },
-        { "titre": "Impression, soleil levant", "wiki": "Impression, Sunrise", "artiste": "Monet", "annee": "1872", "explication": "Le tableau qui donne son nom au mouvement : la lumière de l'instant.", "contexte": "Un critique moqueur invente le mot « impressionniste ».", "elements": ["Les touches esquissées", "Le soleil et son reflet", "La brume du port"] },
-        { "titre": "Les Nymphéas", "wiki": "Water Lilies", "artiste": "Monet", "annee": "≈ 1916", "explication": "Le motif se dissout dans la couleur pure : aux portes de l'abstraction.", "contexte": "Jardin de Giverny.", "elements": ["L'absence d'horizon", "Le reflet et l'eau confondus", "La couleur quasi abstraite"] }
+        {
+          "titre": "Les Casseurs de pierres",
+          "wiki": "The Stone Breakers",
+          "artiste": "Courbet",
+          "annee": "1849",
+          "explication": "Des travailleurs grandeur nature, sans héroïsme : le réalisme impose le quotidien comme sujet noble.",
+          "contexte": "Réalisme, après 1848.",
+          "elements": [
+            "L'échelle monumentale du banal",
+            "L'anonymat des visages",
+            "La matière épaisse"
+          ]
+        },
+        {
+          "titre": "Olympia",
+          "wiki": "Olympia (Manet)",
+          "artiste": "Manet",
+          "annee": "1863",
+          "explication": "Une vraie femme, un regard direct : le scandale qui ouvre la modernité.",
+          "contexte": "Scandale au Salon de 1865.",
+          "elements": [
+            "Le regard frontal",
+            "Les à-plats nets",
+            "Le bouquet et la servante"
+          ]
+        },
+        {
+          "titre": "Le Déjeuner sur l'herbe",
+          "wiki": "Le Déjeuner sur l'herbe",
+          "artiste": "Manet",
+          "annee": "1863",
+          "explication": "Un nu banalisé en plein jour : la provocation tranquille.",
+          "contexte": "Salon des refusés.",
+          "elements": [
+            "Le mélange nu/habillés",
+            "La lumière plate",
+            "Le regard vers nous"
+          ]
+        },
+        {
+          "titre": "Impression, soleil levant",
+          "wiki": "Impression, Sunrise",
+          "artiste": "Monet",
+          "annee": "1872",
+          "explication": "Le tableau qui donne son nom au mouvement : la lumière de l'instant.",
+          "contexte": "Un critique moqueur invente le mot « impressionniste ».",
+          "elements": [
+            "Les touches esquissées",
+            "Le soleil et son reflet",
+            "La brume du port"
+          ]
+        },
+        {
+          "titre": "Les Nymphéas",
+          "wiki": "Water Lilies",
+          "artiste": "Monet",
+          "annee": "≈ 1916",
+          "explication": "Le motif se dissout dans la couleur pure : aux portes de l'abstraction.",
+          "contexte": "Jardin de Giverny.",
+          "elements": [
+            "L'absence d'horizon",
+            "Le reflet et l'eau confondus",
+            "La couleur quasi abstraite"
+          ]
+        }
+      ],
+      "notion": "Chaque artiste cherche sa voie (Romantisme & Réalisme).",
+      "roster": [
+        {
+          "nom": "Géricault",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Delacroix",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Ingres",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Corot",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Millet",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Courbet",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Daumier",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Préraphaélites",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Whistler",
+          "niveau": "○",
+          "detail": ""
+        }
       ]
     },
     {
-      "num": 26, "titre": "En quête de nouveaux critères", "titre_en": "In Search of New Standards",
-      "portee": "La fin du XIXᵉ siècle", "page": 403, "couleur": "#c75a3a",
+      "num": 26,
+      "titre": "En quête de nouveaux critères",
+      "titre_en": "In Search of New Standards",
+      "portee": "La fin du XIXᵉ siècle",
+      "page": 403,
+      "couleur": "#c75a3a",
       "idee": "Après l'impressionnisme, Cézanne, Van Gogh et Gauguin cherchent au-delà de l'impression : une structure solide, une émotion, une couleur libérée.",
       "oeuvres": [
-        { "titre": "La Montagne Sainte-Victoire", "wiki": "Mont Sainte-Victoire (Cézanne)", "artiste": "Cézanne", "annee": "≈ 1902", "explication": "Construire la nature en plans et volumes solides : Cézanne prépare le cubisme.", "contexte": "Provence ; il peint la même montagne sans relâche.", "elements": ["Les touches en facettes", "La construction géométrique", "La couleur qui modèle l'espace"] },
-        { "titre": "La Nuit étoilée", "wiki": "The Starry Night", "artiste": "Van Gogh", "annee": "1889", "explication": "La touche tourbillonnante : le ciel comme état d'âme.", "contexte": "Asile de Saint-Rémy-de-Provence.", "elements": ["Les volutes du ciel", "Le cyprès-flamme", "Le village paisible"] },
-        { "titre": "Les Tournesols", "wiki": "Sunflowers (Van Gogh series)", "artiste": "Van Gogh", "annee": "1888", "explication": "Le jaune poussé à l'extrême : la couleur comme énergie vitale.", "contexte": "Arles, pour la chambre de Gauguin.", "elements": ["La gamme de jaunes", "L'empâtement", "Les fleurs à tous les stades"] },
-        { "titre": "D'où venons-nous ?", "wiki": "Where Do We Come From? What Are We? Where Are We Going?", "artiste": "Gauguin", "annee": "1897", "explication": "Couleurs plates et symbolisme : Gauguin fuit l'Occident et cherche un art « primitif » et spirituel.", "contexte": "Tahiti.", "elements": ["Les aplats de couleur", "La lecture de droite à gauche (vie/mort)", "Le refus de la perspective"] }
+        {
+          "titre": "La Montagne Sainte-Victoire",
+          "wiki": "Mont Sainte-Victoire (Cézanne)",
+          "artiste": "Cézanne",
+          "annee": "≈ 1902",
+          "explication": "Construire la nature en plans et volumes solides : Cézanne prépare le cubisme.",
+          "contexte": "Provence ; il peint la même montagne sans relâche.",
+          "elements": [
+            "Les touches en facettes",
+            "La construction géométrique",
+            "La couleur qui modèle l'espace"
+          ]
+        },
+        {
+          "titre": "La Nuit étoilée",
+          "wiki": "The Starry Night",
+          "artiste": "Van Gogh",
+          "annee": "1889",
+          "explication": "La touche tourbillonnante : le ciel comme état d'âme.",
+          "contexte": "Asile de Saint-Rémy-de-Provence.",
+          "elements": [
+            "Les volutes du ciel",
+            "Le cyprès-flamme",
+            "Le village paisible"
+          ]
+        },
+        {
+          "titre": "Les Tournesols",
+          "wiki": "Sunflowers (Van Gogh series)",
+          "artiste": "Van Gogh",
+          "annee": "1888",
+          "explication": "Le jaune poussé à l'extrême : la couleur comme énergie vitale.",
+          "contexte": "Arles, pour la chambre de Gauguin.",
+          "elements": [
+            "La gamme de jaunes",
+            "L'empâtement",
+            "Les fleurs à tous les stades"
+          ]
+        },
+        {
+          "titre": "D'où venons-nous ?",
+          "wiki": "Where Do We Come From? What Are We? Where Are We Going?",
+          "artiste": "Gauguin",
+          "annee": "1897",
+          "explication": "Couleurs plates et symbolisme : Gauguin fuit l'Occident et cherche un art « primitif » et spirituel.",
+          "contexte": "Tahiti.",
+          "elements": [
+            "Les aplats de couleur",
+            "La lecture de droite à gauche (vie/mort)",
+            "Le refus de la perspective"
+          ]
+        }
+      ],
+      "notion": "Impressionnisme & Post-impressionnisme.",
+      "roster": [
+        {
+          "nom": "Manet",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Monet",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Renoir",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Degas",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Pissarro",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Cézanne",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Van Gogh",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Gauguin",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Seurat",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Toulouse-Lautrec",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Rodin",
+          "niveau": "★",
+          "detail": "sculpture"
+        },
+        {
+          "nom": "William Morris",
+          "niveau": "○",
+          "detail": "arts & crafts"
+        }
       ]
     },
     {
-      "num": 27, "titre": "L'art expérimental", "titre_en": "Experimental Art",
-      "portee": "Le XXᵉ siècle", "page": 419, "couleur": "#34495e",
+      "num": 27,
+      "titre": "L'art expérimental",
+      "titre_en": "Experimental Art",
+      "portee": "Le XXᵉ siècle",
+      "page": 419,
+      "couleur": "#34495e",
       "idee": "Au XXe, plus aucune règle n'est sûre : cubisme, abstraction, surréalisme, readymade. L'expérimentation elle-même devient le sujet de l'art.",
       "oeuvres": [
-        { "titre": "Les Demoiselles d'Avignon", "wiki": "Les Demoiselles d'Avignon", "artiste": "Picasso", "annee": "1907", "explication": "Plusieurs faces à la fois : l'éclatement qui ouvre le cubisme.", "contexte": "Influence de l'art africain.", "elements": ["Les visages-masques", "Les corps en facettes", "L'espace brisé"] },
-        { "titre": "Guernica", "wiki": "Guernica (Picasso)", "artiste": "Picasso", "annee": "1937", "explication": "Le cri pacifiste en noir et blanc : la guerre disloquée en chaos de formes.", "contexte": "Bombardement de Guernica.", "elements": ["Le noir et blanc de la presse", "Le cheval et le taureau", "La mère à l'enfant mort"] },
-        { "titre": "La Danse", "wiki": "Dance (Matisse)", "artiste": "Matisse", "annee": "1910", "explication": "Trois couleurs, des corps en ronde : la couleur et la ligne libérées, pure joie rythmique.", "contexte": "Le fauvisme et la libération de la couleur.", "elements": ["Les trois couleurs pures", "La ronde dynamique", "La simplification radicale"] },
-        { "titre": "Composition en rouge, jaune, bleu", "wiki": "Composition with Red, Blue and Yellow", "artiste": "Mondrian", "annee": "1930", "explication": "La peinture réduite à son essence : équilibre, ligne, couleur primaire.", "contexte": "Néoplasticisme, revue De Stijl.", "elements": ["Les couleurs primaires", "Les lignes orthogonales", "L'équilibre asymétrique"] },
-        { "titre": "La Persistance de la mémoire", "wiki": "The Persistence of Memory", "artiste": "Dalí", "annee": "1931", "explication": "Les montres molles : le temps qui fond, la logique du rêve.", "contexte": "Emblème du surréalisme.", "elements": ["Les montres molles", "Le paysage catalan", "La forme molle centrale"] },
-        { "titre": "Fontaine", "wiki": "Fountain (Duchamp)", "artiste": "Duchamp", "annee": "1917", "explication": "Un urinoir signé et exposé : l'idée devient l'œuvre.", "contexte": "Soumis sous le pseudonyme « R. Mutt ».", "elements": ["L'objet manufacturé", "La signature « R. Mutt »", "Le geste de désignation"] },
-        { "titre": "Roue de bicyclette", "wiki": "Bicycle Wheel", "artiste": "Duchamp", "annee": "1913", "explication": "Le premier readymade : un objet ordinaire devient art par décision de l'artiste.", "contexte": "« Comme un feu de cheminée », disait-il.", "elements": ["L'assemblage roue + tabouret", "L'objet détourné", "Le premier readymade"] }
+        {
+          "titre": "Les Demoiselles d'Avignon",
+          "wiki": "Les Demoiselles d'Avignon",
+          "artiste": "Picasso",
+          "annee": "1907",
+          "explication": "Plusieurs faces à la fois : l'éclatement qui ouvre le cubisme.",
+          "contexte": "Influence de l'art africain.",
+          "elements": [
+            "Les visages-masques",
+            "Les corps en facettes",
+            "L'espace brisé"
+          ]
+        },
+        {
+          "titre": "Guernica",
+          "wiki": "Guernica (Picasso)",
+          "artiste": "Picasso",
+          "annee": "1937",
+          "explication": "Le cri pacifiste en noir et blanc : la guerre disloquée en chaos de formes.",
+          "contexte": "Bombardement de Guernica.",
+          "elements": [
+            "Le noir et blanc de la presse",
+            "Le cheval et le taureau",
+            "La mère à l'enfant mort"
+          ]
+        },
+        {
+          "titre": "La Danse",
+          "wiki": "Dance (Matisse)",
+          "artiste": "Matisse",
+          "annee": "1910",
+          "explication": "Trois couleurs, des corps en ronde : la couleur et la ligne libérées, pure joie rythmique.",
+          "contexte": "Le fauvisme et la libération de la couleur.",
+          "elements": [
+            "Les trois couleurs pures",
+            "La ronde dynamique",
+            "La simplification radicale"
+          ]
+        },
+        {
+          "titre": "Composition en rouge, jaune, bleu",
+          "wiki": "Composition with Red, Blue and Yellow",
+          "artiste": "Mondrian",
+          "annee": "1930",
+          "explication": "La peinture réduite à son essence : équilibre, ligne, couleur primaire.",
+          "contexte": "Néoplasticisme, revue De Stijl.",
+          "elements": [
+            "Les couleurs primaires",
+            "Les lignes orthogonales",
+            "L'équilibre asymétrique"
+          ]
+        },
+        {
+          "titre": "La Persistance de la mémoire",
+          "wiki": "The Persistence of Memory",
+          "artiste": "Dalí",
+          "annee": "1931",
+          "explication": "Les montres molles : le temps qui fond, la logique du rêve.",
+          "contexte": "Emblème du surréalisme.",
+          "elements": [
+            "Les montres molles",
+            "Le paysage catalan",
+            "La forme molle centrale"
+          ]
+        },
+        {
+          "titre": "Fontaine",
+          "wiki": "Fountain (Duchamp)",
+          "artiste": "Duchamp",
+          "annee": "1917",
+          "explication": "Un urinoir signé et exposé : l'idée devient l'œuvre.",
+          "contexte": "Soumis sous le pseudonyme « R. Mutt ».",
+          "elements": [
+            "L'objet manufacturé",
+            "La signature « R. Mutt »",
+            "Le geste de désignation"
+          ]
+        },
+        {
+          "titre": "Roue de bicyclette",
+          "wiki": "Bicycle Wheel",
+          "artiste": "Duchamp",
+          "annee": "1913",
+          "explication": "Le premier readymade : un objet ordinaire devient art par décision de l'artiste.",
+          "contexte": "« Comme un feu de cheminée », disait-il.",
+          "elements": [
+            "L'assemblage roue + tabouret",
+            "L'objet détourné",
+            "Le premier readymade"
+          ]
+        }
+      ],
+      "notion": "L'expérimentation permanente.",
+      "roster": [
+        {
+          "nom": "Picasso",
+          "niveau": "★",
+          "detail": "cubisme"
+        },
+        {
+          "nom": "Braque",
+          "niveau": "○",
+          "detail": "cubisme"
+        },
+        {
+          "nom": "Matisse",
+          "niveau": "★",
+          "detail": "fauvisme"
+        },
+        {
+          "nom": "Kandinsky",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Mondrian",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Klee",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Munch",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Kokoschka",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Dalí",
+          "niveau": "★",
+          "detail": ""
+        },
+        {
+          "nom": "Chagall",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Feininger",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Henry Moore",
+          "niveau": "★",
+          "detail": "sculpture"
+        },
+        {
+          "nom": "Giacometti",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Gropius / Bauhaus",
+          "niveau": "○",
+          "detail": ""
+        },
+        {
+          "nom": "Frank Lloyd Wright",
+          "niveau": "○",
+          "detail": "architecture"
+        }
       ]
     }
   ]
