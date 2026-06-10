@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "20"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "21"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -115,7 +115,11 @@ function route() {
   if (top === "parcours") { setActiveFloor(-1); return renderParcours(); }
   if (top === "favoris") { setActiveFloor(-1); return renderFavoris(); }
   if (top === "dossiers") { setActiveFloor(-1); return renderDossiersList(); }
-  if (top === "d") { setActiveFloor(-1); return renderDossier(parts[1]); }
+  if (top === "d") {
+    setActiveFloor(-1);
+    if (parts[2] === "a") return renderArtiste(parts[1], +parts[3]);
+    return renderDossier(parts[1]);
+  }
   if (top === "c") {
     const ci = +parts[1]; setActiveFloor(ci);
     if (parts[2] === "o") return renderOeuvre(ci, +parts[3]);
@@ -415,6 +419,58 @@ function recitImage(d, text) {
   return best;
 }
 
+// deux noms désignent-ils le même artiste (tolérant) ?
+function sameArtist(a, b) {
+  const cl = s => (s || "").toLowerCase().replace(/\(.*?\)/g, "").replace(/^(le |la |les |l')/, "").trim();
+  const A = cl(a), B = cl(b); if (!A || !B) return false;
+  if (A === B || A.includes(B) || B.includes(A)) return true;
+  const toks = s => s.split(/\s+/).filter(w => w.length >= 4);
+  return toks(A).some(w => B.includes(w)) || toks(B).some(w => A.includes(w));
+}
+
+/* ---------- PAGE ARTISTE : sa vie en récit illustré + ses œuvres ---------- */
+function renderArtiste(id, ai) {
+  const d = DOSSIERS.find(x => x.id === id);
+  const a = d && d.artistes && d.artistes[ai];
+  if (!a) return d ? renderDossier(id) : renderDossiersList();
+  crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre, nav: `#/d/${id}` }, { label: a.nom }]);
+  const works = (d.oeuvres || []).filter(o => sameArtist(o.artiste, a.nom));
+  const P = [];
+
+  P.push(`<div class="pagehead">
+    <div class="ep">${esc(d.titre)} · ${esc(a.dates)}${a.role ? ` · ${esc(a.role)}` : ""}</div>
+    <h1>${esc(a.nom)} ${favBtn(`artiste:${a.nom}`, a.nom, `#/d/${id}/a/${ai}`, "artiste")}</h1></div>`);
+
+  // portrait + intro
+  P.push(`<div class="recit-block illus">
+    <figure class="recit-fig"><img class="recit-img" data-wiki="${esc(a.wiki)}" data-zoom="${esc(a.wiki)}" data-cap="${esc(a.nom)}" alt="${esc(a.nom)}" />
+      <figcaption>${esc(a.nom)} <span class="zoomhint">🔍 agrandir</span></figcaption></figure>
+    <div class="recit-txt"><p style="font-size:16px">${esc(a.portrait || "")}</p></div></div>`);
+
+  // biographie : sections riches (bio_sections), illustrées par ses œuvres ; sinon le paragraphe
+  if (Array.isArray(a.bio_sections)) {
+    P.push(`<h2 class="sec">📖 Sa vie, son évolution</h2>` + a.bio_sections.map(s => {
+      const o = recitImage(d, (s.h || "") + " " + (s.p || ""));
+      return `<div class="recit-block${o ? " illus" : ""}">
+        ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.caption)}" alt="${esc(o.caption)}" /><figcaption>${esc(o.caption)} <span class="zoomhint">🔍</span></figcaption></figure>` : ""}
+        <div class="recit-txt"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div></div>`;
+    }).join(""));
+  } else if (a.bio_longue) {
+    P.push(`<h2 class="sec">📖 Sa vie</h2><div class="block recit"><p style="font-size:15.5px;line-height:1.75">${esc(a.bio_longue)}</p></div>`);
+  }
+
+  // ses œuvres dans ce dossier
+  if (works.length) P.push(`<h2 class="sec">🖼 Ses œuvres ici</h2>
+    <div class="grid cols">${works.map(o => `
+      <div class="card"><div class="thumb zoomable" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}"></div>
+        <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
+        ${o.analyse ? `<details class="deep"><summary>📖 Analyse</summary><p>${esc(o.analyse)}</p></details>` : `<p style="font-size:13px;margin-top:6px">${esc(o.genie || "")}</p>`}</div></div>`).join("")}</div>`);
+
+  P.push(`<div class="navworks"><button data-nav="#/d/${id}">← Retour au dossier ${esc(d.titre)}</button></div>`);
+  $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
+  loadImages($("view"));
+}
+
 function renderDossier(id) {
   const d = DOSSIERS.find(x => x.id === id); if (!d) return renderDossiersList();
   crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre }]);
@@ -484,12 +540,18 @@ function renderDossier(id) {
         ${o.analyse ? `<details class="deep"><summary>📖 Analyse approfondie</summary><p>${esc(o.analyse)}</p></details>` : ""}</div></div>`).join("")}</div>`));
 
   if (d.artistes) {
-    const aCard = a => `
-      <div class="card"><div class="thumb zoomable" data-wiki="${esc(a.wiki)}" data-zoom="${esc(a.wiki)}" data-cap="${esc(a.nom)}"></div>
-        <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)} ${favBtn(`artiste:${a.nom}`, a.nom, `#/d/${d.id}`, "artiste")}</div>
-        <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
-        <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p>
-        ${a.bio_longue ? `<details class="deep"><summary>📖 Lire son histoire</summary><p>${esc(a.bio_longue)}</p></details>` : ""}</div></div>`;
+    const aCard = a => {
+      const ai = d.artistes.indexOf(a);
+      const teaser = (a.portrait || "").split(/(?<=\.)\s/)[0];
+      return `<div class="card">
+        <div class="thumb zoomable" data-wiki="${esc(a.wiki)}" data-zoom="${esc(a.wiki)}" data-cap="${esc(a.nom)}"></div>
+        <div class="body" data-nav="#/d/${d.id}/a/${ai}" style="cursor:pointer">
+          <div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)} ${favBtn(`artiste:${a.nom}`, a.nom, `#/d/${d.id}/a/${ai}`, "artiste")}</div>
+          <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
+          <p style="font-size:13px;margin-top:8px">${esc(teaser)}</p>
+          <span class="seemore">📖 Voir sa vie & ses œuvres →</span>
+        </div></div>`;
+    };
     if (d.artistes.some(a => a.groupe)) {
       const groups = {};
       d.artistes.forEach(a => { (groups[a.groupe || "Autres"] ||= []).push(a); });

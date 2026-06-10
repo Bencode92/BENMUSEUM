@@ -236,7 +236,25 @@
           "wiki": "Leonardo da Vinci",
           "portrait": "Peintre, anatomiste, ingénieur. Obsédé par l'observation, finissait peu d'œuvres. Invente le sfumato. Meurt en France auprès de François Iᵉʳ. Pour lui, peindre = comprendre le monde.",
           "bio_longue": "Leonardo da Vinci (1452-1519), fils illégitime d'un notaire, est l'incarnation même du génie universel : peintre, mais aussi anatomiste, ingénieur, botaniste, inventeur. Sa curiosité dévorante est aussi son défaut — il finissait peu d'œuvres, distrait par mille recherches. Il invente le sfumato, ce fondu vaporeux qui rend le sourire de la Joconde insaisissable. Pour lui, peindre, c'est comprendre : il dissèque des cadavres, étudie le vol des oiseaux, le mouvement de l'eau. Il meurt en France, à la cour de François Iᵉʳ, qui l'avait attiré comme on s'offre la plus grande merveille de son temps.",
-          "groupe": "École de Florence & Rome — le dessin"
+          "groupe": "École de Florence & Rome — le dessin",
+          "bio_sections": [
+            {
+              "h": "L'enfant de Vinci (1452-1482)",
+              "p": "Léonard naît près de Vinci, fils illégitime d'un notaire et d'une paysanne — ce qui lui ferme les carrières « nobles » et le pousse vers l'atelier. À Florence, il entre chez le sculpteur-peintre Verrocchio. La légende dit que, voyant l'ange peint par le jeune Léonard dans son Baptême du Christ, Verrocchio aurait renoncé à peindre, dépassé par l'élève. Déjà, Léonard observe tout : l'eau, les plantes, les visages, la lumière."
+            },
+            {
+              "h": "Milan et le sommet (1482-1499)",
+              "p": "Il quitte Florence pour Milan et le duc Ludovic Sforza, à qui il se présente d'abord comme ingénieur militaire (canons, machines) — la peinture n'est qu'au bout de sa lettre. Là, il peint La Cène : il y saisit l'instant où le Christ annonce la trahison, et fait réagir chaque apôtre. C'est sa grande idée : peindre l'intérieur des êtres. En parallèle, il dissèque des cadavres, étudie l'anatomie, remplit des milliers de pages de carnets."
+            },
+            {
+              "h": "L'errance et la Joconde (1500-1516)",
+              "p": "La chute de Sforza le jette sur les routes : Florence, Rome, Venise. C'est là qu'il peint le portrait d'une certaine Lisa — La Joconde — où il pousse à l'extrême son sfumato, ce fondu vaporeux qui rend le sourire insaisissable. Il ne s'en sépare plus, la retravaille des années. Perfectionniste et dispersé, il finit peu d'œuvres : pour lui, peindre n'est qu'une façon, parmi d'autres, de comprendre le monde."
+            },
+            {
+              "h": "La France et la légende (1516-1519)",
+              "p": "Le jeune roi François Iᵉʳ l'attire en France comme on s'offre la plus grande merveille de son temps, l'installe près d'Amboise et l'appelle, dit-on, « mon père ». Léonard y meurt en 1519, ses carnets sous le bras. Il laisse peu de tableaux mais une idée qui change tout : l'artiste n'est plus un artisan, c'est un esprit universel, un savant autant qu'un peintre."
+            }
+          ]
         },
         {
           "nom": "Michel-Ange",
@@ -245,7 +263,25 @@
           "wiki": "Michelangelo",
           "portrait": "Se voulait avant tout sculpteur. Solitaire, exigeant. Peint seul, sur le dos, le plafond Sixtine en 4 ans. Donne au corps une puissance quasi divine. Vit 88 ans.",
           "bio_longue": "Michelangelo Buonarroti (1475-1564) se voulait avant tout sculpteur — il disait « libérer » la figure déjà prisonnière du bloc de marbre. Solitaire, colérique, d'une exigence terrible, il vit 88 ans et traverse les époques. Le pape Jules II le force à peindre le plafond de la chapelle Sixtine : quatre ans de souffrance, seul sur un échafaudage, la tête renversée, à peindre 300 figures — il s'en plaint en vers. Son art a une puissance, une tension dramatique (la « terribilità ») qui dépasse l'équilibre serein de ses contemporains et annonce déjà le Baroque.",
-          "groupe": "École de Florence & Rome — le dessin"
+          "groupe": "École de Florence & Rome — le dessin",
+          "bio_sections": [
+            {
+              "h": "Le marbre dans le sang (1475-1499)",
+              "p": "Né près d'Arezzo, mis en nourrice chez un tailleur de pierre, Michel-Ange dira qu'il a « tété le marbre avec le lait ». Adolescent, il est remarqué par Laurent de Médicis, qui l'accueille dans son cercle d'humanistes à Florence. À 24 ans, à Rome, il sculpte la Pietà — la Vierge tenant le Christ mort, d'un drapé miraculeux — et la signe, la seule œuvre qu'il signera jamais : il prouve qu'on peut égaler l'Antiquité."
+            },
+            {
+              "h": "Le David et Florence (1501-1504)",
+              "p": "De retour à Florence, on lui confie un énorme bloc de marbre que d'autres avaient abandonné comme inutilisable. Il en tire le David, cinq mètres saisis à l'instant d'avant le combat. La statue devient le symbole de la petite république défiant les puissants. À ses yeux, sculpter, c'est « libérer » la figure déjà prisonnière dans la pierre."
+            },
+            {
+              "h": "Le supplice de la Sixtine (1508-1512)",
+              "p": "Le pape Jules II le détourne de la sculpture pour lui imposer le plafond de la chapelle Sixtine. Quatre ans, seul, sur un échafaudage, la tête renversée, à peindre 300 figures et la Genèse — dont la Création d'Adam, ces deux doigts qui s'effleurent. Il s'en plaint en vers (« la peinture me dégouline sur le visage »), mais accomplit le plus grand cycle peint de l'histoire."
+            },
+            {
+              "h": "Le vieux lion (jusqu'en 1564)",
+              "p": "Il vit 88 ans, traversant les époques. Il revient à la Sixtine peindre un terrifiant Jugement dernier, devient l'architecte de la basilique Saint-Pierre dont il conçoit la coupole. Sa puissance, sa tension dramatique — la « terribilità » — dépassent l'équilibre serein de ses contemporains et ouvrent déjà la voie au Baroque. Il meurt à Rome, le plus respecté des artistes de son temps."
+            }
+          ]
         },
         {
           "nom": "Raphaël",
@@ -254,7 +290,25 @@
           "wiki": "Raphael",
           "portrait": "Le plus jeune des trois géants, mort à 37 ans. Génie de l'équilibre et de la composition. Serein là où Léonard est mystérieux et Michel-Ange tourmenté.",
           "bio_longue": "Raffaello Sanzio (1483-1520) est le plus jeune des trois géants et le plus aimable : là où Léonard est mystérieux et Michel-Ange tourmenté, Raphaël est l'harmonie, la grâce, la facilité. Génie de la composition, il orchestre des dizaines de figures dans un équilibre parfait (L'École d'Athènes). Adulé, riche, entouré d'un grand atelier, il mène une vie de prince — et meurt brutalement à 37 ans, le jour de son anniversaire dit-on. Sa mort, en 1520, est souvent prise comme la fin de la Haute Renaissance.",
-          "groupe": "École de Florence & Rome — le dessin"
+          "groupe": "École de Florence & Rome — le dessin",
+          "bio_sections": [
+            {
+              "h": "L'élève surdoué (1483-1504)",
+              "p": "Né à Urbino, petite cour raffinée, fils d'un peintre qui meurt tôt, Raphaël est un prodige d'une douceur et d'une facilité désarmantes. Il se forme auprès du Pérugin, dont il absorbe vite la grâce — puis la dépasse. Très jeune, il maîtrise déjà la composition et la couleur."
+            },
+            {
+              "h": "Florence, la leçon des géants (1504-1508)",
+              "p": "À Florence, il étudie avidement les deux génies du moment : il prend à Léonard le sfumato et les compositions pyramidales (ses tendres Madones), et à Michel-Ange la force et l'anatomie. Là où ces deux-là sont mystère et tourment, Raphaël fait la synthèse, sereine et harmonieuse."
+            },
+            {
+              "h": "Rome et les Chambres (1508-1520)",
+              "p": "Le pape Jules II l'appelle à Rome pour décorer ses appartements du Vatican. Il y peint L'École d'Athènes, où il rassemble toute la pensée antique sous une architecture parfaite — et glisse les visages de Léonard et de Michel-Ange parmi les philosophes. Adulé, riche, il dirige un atelier immense et mène une vie de prince."
+            },
+            {
+              "h": "Mort à 37 ans",
+              "p": "Au sommet de la gloire, Raphaël meurt brutalement en 1520, le jour, dit-on, de son anniversaire. Sa disparition est ressentie comme la fin d'un âge d'or : la perfection qu'il incarnait paraît désormais indépassable. La génération suivante, ne pouvant faire mieux, choisira de la tordre — ce sera le maniérisme."
+            }
+          ]
         },
         {
           "nom": "Titien",

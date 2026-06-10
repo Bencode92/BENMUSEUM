@@ -142,6 +142,8 @@ ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 .dossier-link { display: inline-block; background: var(--gold); color: #fff; padding: 10px 16px; border-radius: 8px; text-decoration: none; cursor: pointer; margin: 8px 0; }
 .dossier-link:hover { filter: brightness(1.08); }
 
+.seemore { display: inline-block; margin-top: 8px; font-size: 13px; color: var(--gold); }
+
 /* ---- groupes d'artistes (écoles) ---- */
 .grp { font-family: Georgia, serif; font-size: 18px; color: var(--ink); margin: 20px 0 8px; padding-bottom: 6px; border-bottom: 2px solid var(--gold); }
 
