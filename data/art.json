@@ -1644,7 +1644,8 @@
           "niveau": "",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "baroque-tardif-italie"
     },
     {
       "num": 22,
@@ -1699,7 +1700,8 @@
           "niveau": "",
           "detail": "Melk, églises bavaroises"
         }
-      ]
+      ],
+      "dossier": "rococo-versailles"
     },
     {
       "num": 23,
@@ -1756,7 +1758,8 @@
           "niveau": "○",
           "detail": "sculpture"
         }
-      ]
+      ],
+      "dossier": "age-de-raison"
     },
     {
       "num": 24,

@@ -1122,6 +1122,471 @@
         "En quoi La Ronde de nuit sort-elle des codes du portrait de groupe ?",
         "Oppose en une phrase Rembrandt, Vermeer et Frans Hals."
       ]
+    },
+    {
+      "id": "baroque-tardif-italie",
+      "titre": "Pouvoir et gloire : Italie",
+      "periode": "≈ 1650 – 1750",
+      "couleur": "#b07030",
+      "sous_titre": "Ici l'art ne cherche plus à convertir, il cherche à éblouir.",
+      "carte": [
+        [
+          "Dates",
+          "~1650 – 1750"
+        ],
+        [
+          "Foyers",
+          "Rome, Venise"
+        ],
+        [
+          "Idée-mère",
+          "Émerveiller : l'art décoratif total, le plafond qui ouvre sur le ciel"
+        ],
+        [
+          "Mots-clés",
+          "Quadratura (illusion architecturale peinte) · Veduta (vue de ville)"
+        ]
+      ],
+      "bascule": "Le grand Baroque du Bernin a gagné. Au siècle suivant, l'Italie n'invente plus de rupture mais pousse l'illusion décorative à son comble. Les commanditaires veulent des intérieurs qui en mettent plein la vue : plafonds qui semblent s'ouvrir sur l'infini, palais éblouissants. L'émotion religieuse du Baroque initial se mue en enchantement des sens ; la peinture de plafond efface le mur et fait monter le regard. À Venise, parallèlement, naît un art tout profane : les vedute, vues exactes de la ville pour les voyageurs du Grand Tour.",
+      "phrase": "Ici l'art ne cherche plus à convertir, il cherche à éblouir.",
+      "probleme": "Comment effacer les limites de l'architecture et faire entrer l'infini dans une pièce ? → illusion (quadratura), légèreté, lumière.",
+      "caracteristiques": [
+        "Plafonds en trompe-l'œil : le toit semble s'ouvrir sur le ciel et des nuées de figures.",
+        "Légèreté, couleurs claires, mouvement aérien (annonce du Rococo).",
+        "Vedute : vues topographiques précises de Venise.",
+        "Fusion totale architecture + peinture + sculpture."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Le Triomphe du nom de Jésus",
+          "artiste": "Gaulli",
+          "annee": "~1680",
+          "lieu": "église du Gesù, Rome",
+          "wiki": "The Worship of the Holy Name of Jesus",
+          "genie": "Le plafond de l'église semble se déchirer : des figures débordent du cadre, projetant des ombres sur la voûte réelle. L'illusion abolit la frontière entre l'espace peint et l'espace réel."
+        },
+        {
+          "titre": "Fresques de Tiepolo",
+          "artiste": "Tiepolo",
+          "annee": "~1750",
+          "lieu": "Würzburg, Venise",
+          "wiki": "Würzburg Residence",
+          "genie": "D'immenses plafonds de cieux lumineux et de scènes flottantes, d'une légèreté inégalée. Sommet et chant du cygne de la grande peinture décorative : après lui, plus personne ne fera mieux."
+        },
+        {
+          "titre": "Vues de Venise",
+          "artiste": "Canaletto",
+          "annee": "~1730",
+          "lieu": "Venise",
+          "wiki": "The Stonemason's Yard",
+          "genie": "Vedute d'une précision quasi photographique, vendues aux aristocrates anglais en voyage. La ville devient sujet : un art profane, documentaire et commercial."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Tiepolo",
+          "dates": "1696-1770",
+          "role": "",
+          "wiki": "Giovanni Battista Tiepolo",
+          "portrait": "Le dernier grand maître du plafond baroque ; Venise, puis Würzburg et Madrid. Légèreté solaire."
+        },
+        {
+          "niveau": "○",
+          "nom": "Gaulli (Baciccio)",
+          "dates": "1639-1709",
+          "role": "",
+          "wiki": "Giovanni Battista Gaulli",
+          "portrait": "Maître de l'illusion de plafond (Gesù)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Canaletto",
+          "dates": "1697-1768",
+          "role": "",
+          "wiki": "Canaletto",
+          "portrait": "Roi de la veduta vénitienne ; travaille beaucoup pour le marché anglais."
+        },
+        {
+          "niveau": "○",
+          "nom": "Guardi",
+          "dates": "1712-1793",
+          "role": "",
+          "wiki": "Francesco Guardi",
+          "portrait": "Vedute plus libres, atmosphériques, presque pré-impressionnistes."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Tiepolo",
+              true,
+              "1696-1770",
+              "Fresque de plafond — Plafonds de Würzburg"
+            ],
+            [
+              "Gaulli",
+              false,
+              "1639-1709",
+              "Plafond illusionniste — Gesù (Rome)"
+            ],
+            [
+              "Canaletto",
+              true,
+              "1697-1768",
+              "Veduta — Vues de Venise"
+            ],
+            [
+              "Guardi",
+              false,
+              "1712-1793",
+              "Veduta atmosphérique — Vues de Venise"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le Baroque romain (ch. 19), dont c'est le prolongement décoratif.",
+        "mene": "Le Rococo (ch. 22), même légèreté mais transposée en France et en Europe centrale."
+      },
+      "memos": [
+        "Quadratura = l'architecture peinte qui prolonge l'architecture réelle.",
+        "Tiepolo = le dernier sommet du plafond baroque.",
+        "Canaletto = la veduta, l'art devient souvenir de voyage."
+      ],
+      "autotest": [
+        "Qu'est-ce que la quadratura ? Une veduta ?",
+        "Comment le plafond du Gesù abolit-il la frontière peint/réel ?",
+        "Pourquoi Canaletto travaillait-il pour les Anglais ?"
+      ]
+    },
+    {
+      "id": "rococo-versailles",
+      "titre": "Pouvoir et gloire : France",
+      "periode": "≈ 1660 – 1750",
+      "couleur": "#c08a40",
+      "sous_titre": "Après le roi qui veut écraser, l'aristocrate qui veut jouir : la pompe devient grâce.",
+      "carte": [
+        [
+          "Dates",
+          "~1660 – 1750"
+        ],
+        [
+          "Foyers",
+          "Versailles/Paris, puis cours allemandes et autrichiennes"
+        ],
+        [
+          "Idée-mère",
+          "Le décor au service du prestige absolu, puis la grâce intime du Rococo"
+        ],
+        [
+          "Mots-clés",
+          "Rococo (de rocaille) · fête galante"
+        ]
+      ],
+      "bascule": "Louis XIV fait de Versailles une machine de prestige : architecture, jardins, peinture et sculpture orchestrés pour glorifier le « Roi-Soleil ». L'art devient instrument du pouvoir absolu. Puis, à sa mort (1715), le ton change : l'aristocratie quitte la pompe pour des hôtels particuliers plus intimes. Naît le Rococo : léger, sinueux, ornemental, voluptueux, pastel. En Europe centrale, ce goût explose en églises et palais d'une exubérance inouïe. De la grandeur écrasante à la grâce et au plaisir : l'art ne veut plus impressionner par la force, mais charmer.",
+      "phrase": "Après le roi qui veut écraser, l'aristocrate qui veut jouir : la pompe devient grâce.",
+      "probleme": "Comment l'art exprime-t-il le prestige, puis le plaisir d'une élite ? → décor total (Versailles), puis légèreté sensuelle (Rococo).",
+      "caracteristiques": [
+        "Versailles : symétrie monumentale, or, glaces, jardins à la française.",
+        "Rococo : courbes (rocaille, coquillages), pastels, asymétrie gracieuse, scènes galantes et champêtres.",
+        "Architecture d'Europe centrale : intérieurs blancs et or, stucs foisonnants, plafonds lumineux."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Château de Versailles",
+          "artiste": "Le Vau, Mansart, Le Nôtre",
+          "annee": "~1660-1710",
+          "lieu": "Versailles",
+          "wiki": "Palace of Versailles",
+          "genie": "Un système total où chaque allée, fontaine et salle converge vers le roi. L'art comme mise en scène du pouvoir : on ne décore pas un palais, on construit une démonstration de puissance."
+        },
+        {
+          "titre": "L'Embarquement pour Cythère",
+          "artiste": "Watteau",
+          "annee": "1717",
+          "lieu": "Paris (Louvre)",
+          "wiki": "The Embarkation for Cythera",
+          "genie": "Des couples élégants quittent l'île de l'amour, dans une lumière dorée et mélancolique. Watteau invente la fête galante : un genre doux-amer où le plaisir est teinté de la conscience qu'il passe."
+        },
+        {
+          "titre": "Églises rococo d'Europe centrale",
+          "artiste": "Balthasar Neumann",
+          "annee": "~1740",
+          "lieu": "Vierzehnheiligen",
+          "wiki": "Basilica of the Fourteen Holy Helpers",
+          "genie": "Espaces ondulants, blancs et or, où murs, autels et plafonds semblent flotter. L'architecture devient musique visuelle, un tourbillon de lumière et de courbes."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Watteau",
+          "dates": "1684-1721",
+          "role": "",
+          "wiki": "Antoine Watteau",
+          "portrait": "Inventeur de la fête galante ; grâce et mélancolie ; mort jeune, tuberculeux."
+        },
+        {
+          "niveau": "○",
+          "nom": "Boucher",
+          "dates": "1703-1770",
+          "role": "",
+          "wiki": "François Boucher",
+          "portrait": "Rococo sensuel et décoratif, peintre de Madame de Pompadour."
+        },
+        {
+          "niveau": "○",
+          "nom": "Balthasar Neumann",
+          "dates": "1687-1753",
+          "role": "architecte",
+          "wiki": "Balthasar Neumann",
+          "portrait": "Vierzehnheiligen, Würzburg : maître de l'architecture rococo d'Europe centrale."
+        },
+        {
+          "niveau": "○",
+          "nom": "Fischer von Erlach",
+          "dates": "1656-1723",
+          "role": "architecte",
+          "wiki": "Johann Bernhard Fischer von Erlach",
+          "portrait": "Karlskirche (Vienne) : baroque autrichien."
+        },
+        {
+          "niveau": "○",
+          "nom": "Prandtauer",
+          "dates": "1660-1726",
+          "role": "architecte",
+          "wiki": "Jakob Prandtauer",
+          "portrait": "Abbaye de Melk, perchée sur le Danube."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Versailles",
+              false,
+              "~1660-1710",
+              "France — Art de cour, pouvoir absolu"
+            ],
+            [
+              "Watteau",
+              true,
+              "1684-1721",
+              "France — L'Embarquement pour Cythère"
+            ],
+            [
+              "Boucher",
+              false,
+              "1703-1770",
+              "France — Nus et pastorales"
+            ],
+            [
+              "Neumann",
+              false,
+              "1687-1753",
+              "Allemagne — Vierzehnheiligen ; Würzburg"
+            ],
+            [
+              "Fischer von Erlach",
+              false,
+              "1656-1723",
+              "Autriche — Karlskirche (Vienne)"
+            ],
+            [
+              "Prandtauer",
+              false,
+              "1660-1726",
+              "Autriche — Abbaye de Melk"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le baroque décoratif italien (ch. 21), transposé au service des cours.",
+        "mene": "L'Âge de raison (ch. 23), puis la réaction néoclassique (ch. 24) qui rejettera la frivolité rococo."
+      },
+      "memos": [
+        "Versailles = l'art comme machine de pouvoir.",
+        "Rococo = courbes, pastels, plaisir et grâce.",
+        "Watteau = la fête galante, le plaisir teinté de mélancolie."
+      ],
+      "autotest": [
+        "Comment Versailles met-il l'art au service du pouvoir ?",
+        "Qu'est-ce qu'une « fête galante » ? Qui l'invente ?",
+        "Qu'est-ce qui distingue le Rococo du Baroque qui le précède ?"
+      ]
+    },
+    {
+      "id": "age-de-raison",
+      "titre": "L'âge de la raison",
+      "periode": "≈ 1700 – 1790",
+      "couleur": "#9a8a5a",
+      "sous_titre": "Le siècle de la raison veut un art qui observe, qui instruit et qui ressemble à la vie réelle.",
+      "carte": [
+        [
+          "Dates",
+          "~1700 – 1790"
+        ],
+        [
+          "Foyers",
+          "Londres, Paris"
+        ],
+        [
+          "Idée-mère",
+          "Le siècle des Lumières : observation, mesure, vie réelle, sens moral"
+        ],
+        [
+          "Contexte",
+          "Montée de la bourgeoisie et de l'esprit critique (Voltaire, Diderot)"
+        ]
+      ],
+      "bascule": "C'est le siècle des Lumières : la raison, la science, la critique. Une classe moyenne prospère, surtout en Angleterre, devient acheteuse d'art. Elle ne veut ni plafonds mystiques ni allégories royales, mais des sujets proches de sa vie : portraits dignes, scènes morales, paysages, natures mortes honnêtes. À côté du Rococo aristocratique persiste un courant sobre, observateur, parfois moralisateur : Chardin peint le silence des objets quotidiens ; Hogarth raconte la société comme un romancier, et naît une grande école du portrait anglais.",
+      "phrase": "Le siècle de la raison veut un art qui observe, qui instruit et qui ressemble à la vie réelle.",
+      "probleme": "Comment l'art parle-t-il à une société bourgeoise éprise de raison et de morale ? → vérité de l'observation, récit moral, portrait digne.",
+      "caracteristiques": [
+        "Sobriété et observation directe (Chardin) face à la frivolité rococo.",
+        "Récit moral en série (Hogarth, comme une BD avant l'heure).",
+        "Grand portrait anglais : élégance naturelle, souvent en plein air.",
+        "Sens du paysage et de la nature."
+      ],
+      "oeuvres": [
+        {
+          "titre": "La Raie / natures mortes",
+          "artiste": "Chardin",
+          "annee": "~1728",
+          "lieu": "Paris (Louvre)",
+          "wiki": "The Ray (Chardin)",
+          "genie": "Des objets ordinaires — du pain, un verre, du gibier — peints avec une gravité et une matière somptueuses. Chardin ennoblit le banal : pas de sujet noble, juste la vérité tranquille des choses. À contre-courant du Rococo brillant."
+        },
+        {
+          "titre": "Mariage à la mode",
+          "artiste": "Hogarth",
+          "annee": "~1743",
+          "lieu": "Londres (série)",
+          "wiki": "Marriage A-la-Mode (Hogarth)",
+          "genie": "Une suite de tableaux qui racontent, scène par scène, la déchéance d'un mariage arrangé. Hogarth invente la peinture-récit morale et satirique : l'art devient critique sociale, lisible comme une histoire."
+        },
+        {
+          "titre": "Portraits de Gainsborough",
+          "artiste": "Gainsborough",
+          "annee": "~1770",
+          "lieu": "Angleterre",
+          "wiki": "Mr and Mrs Andrews",
+          "genie": "Des aristocrates et bourgeois saisis avec naturel, souvent dans un paysage anglais vaporeux. Le portrait n'est plus apparat figé mais présence vivante et élégante, fondue dans la nature."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Chardin",
+          "dates": "1699-1779",
+          "role": "France",
+          "wiki": "Jean-Baptiste-Siméon Chardin",
+          "portrait": "Maître de la nature morte et de la scène intime ; la dignité du quotidien."
+        },
+        {
+          "niveau": "★",
+          "nom": "Fragonard",
+          "dates": "1732-1806",
+          "role": "France",
+          "wiki": "Jean-Honoré Fragonard",
+          "portrait": "Dernier grand du Rococo galant (L'Escarpolette), virtuose de la fougue légère."
+        },
+        {
+          "niveau": "○",
+          "nom": "Hogarth",
+          "dates": "1697-1764",
+          "role": "Angleterre",
+          "wiki": "William Hogarth",
+          "portrait": "Satire morale en séries, père de l'art anglais."
+        },
+        {
+          "niveau": "○",
+          "nom": "Reynolds",
+          "dates": "1723-1792",
+          "role": "Angleterre",
+          "wiki": "Joshua Reynolds",
+          "portrait": "Portraitiste savant, premier président de la Royal Academy."
+        },
+        {
+          "niveau": "★",
+          "nom": "Gainsborough",
+          "dates": "1727-1788",
+          "role": "Angleterre",
+          "wiki": "Thomas Gainsborough",
+          "portrait": "Portraits naturels et paysages, rival de Reynolds."
+        },
+        {
+          "niveau": "○",
+          "nom": "Houdon",
+          "dates": "1741-1828",
+          "role": "France",
+          "wiki": "Jean-Antoine Houdon",
+          "portrait": "Sculpteur, bustes saisissants (Voltaire, Washington)."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Chardin",
+              true,
+              "1699-1779",
+              "France — Natures mortes ; La Pourvoyeuse"
+            ],
+            [
+              "Fragonard",
+              true,
+              "1732-1806",
+              "France — L'Escarpolette"
+            ],
+            [
+              "Hogarth",
+              false,
+              "1697-1764",
+              "Angleterre — Mariage à la mode"
+            ],
+            [
+              "Reynolds",
+              false,
+              "1723-1792",
+              "Angleterre — Portraits d'apparat"
+            ],
+            [
+              "Gainsborough",
+              true,
+              "1727-1788",
+              "Angleterre — Portraits ; paysages"
+            ],
+            [
+              "Houdon",
+              false,
+              "1741-1828",
+              "France — Buste de Voltaire"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le Rococo (ch. 22), dont Fragonard est le prolongement, mais que Chardin et Hogarth contredisent par la sobriété.",
+        "mene": "La rupture néoclassique (ch. 24) — le retour à l'antique et à la vertu, en réaction à la frivolité du siècle."
+      },
+      "memos": [
+        "Lumières = raison, observation, morale, montée bourgeoise.",
+        "Chardin = la dignité du banal ; Hogarth = l'art qui raconte et critique.",
+        "Reynolds & Gainsborough = l'âge d'or du portrait anglais."
+      ],
+      "autotest": [
+        "Comment l'esprit des Lumières change-t-il les sujets de l'art ?",
+        "En quoi Chardin s'oppose-t-il au Rococo ?",
+        "Qu'invente Hogarth avec ses séries ?",
+        "Oppose Chardin et Fragonard en une phrase."
+      ]
     }
   ]
 }
