@@ -1,13 +1,22 @@
-# 🏛 Musée de l'Histoire de l'Art
+# 🏛 Histoire de l'Art — plateforme d'apprentissage
 
-Une visite **en première personne** de l'histoire de l'art, dans le navigateur.
-Chaque **étage = une période**, chaque **salle = un artiste** (ou un thème pour les
-périodes anonymes), avec ses **œuvres emblématiques** posées sur leur bon support
-(tableau au mur, sculpture sur socle, fresque au plafond), et un **avatar-guide IA**
-à qui poser des questions.
+Un outil **pour apprendre** l'histoire de l'art, dans le navigateur.
+On « monte les étages » du temps : chaque **étage = une période**, et l'on descend
+en profondeur de façon toujours contextuelle :
 
-> Projet personnel, non commercial. Les images des œuvres sont chargées en direct
-> depuis Wikipédia (domaine public). Aucune image n'est stockée dans le dépôt.
+```
+PÉRIODE (contexte de l'époque)
+  └─ STYLE / MOUVEMENT (explication du style)
+       └─ ARTISTE (qui il était)
+            └─ ŒUVRE  →  image + explication + contexte de création + éléments à repérer
+```
+
+Plus un **mode Réviser** (quiz : période, style, auteur) pour mémoriser.
+
+> Projet personnel, non commercial. Tout le contenu vit dans **`data/art.json`**
+> (un seul fichier, facile à éditer). Les images sont chargées en direct depuis
+> Wikipédia (domaine public) ; aucune image n'est stockée dans le dépôt.
+> L'ancienne visite 3D est conservée dans `archive/` (non maintenue).
 
 ---
 

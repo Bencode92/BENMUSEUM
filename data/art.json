@@ -1,0 +1,415 @@
+{
+  "periodes": [
+    {
+      "id": "prehistoire",
+      "nom": "Préhistoire",
+      "epoque": "≈ 40 000 – 3000 av. J.-C.",
+      "couleur": "#c98a4a",
+      "contexte": "Sociétés de chasseurs-cueilleurs, sans écriture ni État. L'art surgit dans les grottes et la pierre, intimement lié à la survie : la chasse, les animaux, la fécondité.",
+      "apport": "Inventer l'image : représenter le réel pour agir sur lui. L'art comme magie, pas comme décoration.",
+      "styles": [
+        {
+          "nom": "Art pariétal & mobilier",
+          "resume": "Peintures rupestres et figurines, par des artistes anonymes.",
+          "explication": "Des animaux d'un réalisme étonnant, peints dans l'obscurité des grottes ; des figures humaines réduites à leurs signes vitaux. Le but est magique — capturer la bête, assurer la fécondité — jamais décoratif.",
+          "contexte": "Paléolithique supérieur, pendant la dernière glaciation. L'humain maîtrise le feu, l'outil, et soudain l'image.",
+          "artistes": [
+            {
+              "nom": "Anonymes du Paléolithique",
+              "bio": "Aucun nom ne nous est parvenu. Ce sont des chasseurs qui, à la lueur de lampes à graisse, ont couvert des parois de chefs-d'œuvre que personne ne devait « exposer ».",
+              "oeuvres": [
+                { "titre": "Grottes de Lascaux", "wiki": "Lascaux", "annee": "≈ 17 000 av. J.-C.", "explication": "Aurochs, chevaux et cerfs d'un dynamisme saisissant, peints au plus profond de la grotte. Pas pour être vus : pour exister.", "contexte": "Découverte en 1940 par des adolescents ; surnommée « la chapelle Sixtine de la préhistoire ».", "elements": ["Le réalisme du mouvement des animaux", "L'usage des reliefs naturels de la roche", "L'absence quasi totale de figures humaines"] },
+                { "titre": "Grotte Chauvet", "wiki": "Chauvet Cave", "annee": "≈ 34 000 av. J.-C.", "explication": "Les plus anciennes peintures connues : lions, rhinocéros, déjà un sens de la profondeur et du mouvement.", "contexte": "Découverte en 1994 ; elle a doublé l'ancienneté supposée de l'art figuratif.", "elements": ["Les estompes pour suggérer le volume", "Les superpositions qui donnent le mouvement", "La prédominance des grands fauves"] },
+                { "titre": "Grotte d'Altamira", "wiki": "Cave of Altamira", "annee": "≈ 15 000 av. J.-C.", "explication": "Des bisons polychromes qui épousent les bosses de la roche : le volume naturel devient partie de l'image.", "contexte": "Première grotte ornée reconnue ; on refusa d'abord d'y croire tant c'était « trop beau » pour des préhistoriques.", "elements": ["La polychromie (ocre, noir)", "L'intégration des reliefs au dessin", "Le plafond comme composition d'ensemble"] },
+                { "titre": "Vénus de Willendorf", "wiki": "Venus of Willendorf", "annee": "≈ 25 000 av. J.-C.", "explication": "Le corps réduit à ses signes de fécondité. L'art comme amplification du vital, pas comme portrait.", "contexte": "Une des nombreuses « Vénus » paléolithiques trouvées d'Europe en Sibérie.", "elements": ["L'exagération des formes liées à la fertilité", "L'absence de visage", "La petite taille (11 cm), faite pour la main"] },
+                { "titre": "Vénus de Hohle Fels", "wiki": "Venus of Hohle Fels", "annee": "≈ 38 000 av. J.-C.", "explication": "En ivoire de mammouth, la plus ancienne figure humaine connue.", "contexte": "Découverte en 2008 en Allemagne, dans une grotte qui a aussi livré les plus vieilles flûtes.", "elements": ["L'ivoire sculpté", "L'anneau en guise de tête (pendentif)", "L'ancienneté record"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antiquite-orient",
+      "nom": "Égypte & Orient ancien",
+      "epoque": "≈ 3000 – 500 av. J.-C.",
+      "couleur": "#d8b24a",
+      "contexte": "Naissance des grands États, de l'écriture et du pouvoir divin des rois. L'art devient un instrument de l'ordre cosmique et de l'éternité.",
+      "apport": "Un langage visuel stable, codifié, pensé pour durer des millénaires.",
+      "styles": [
+        {
+          "nom": "Art égyptien",
+          "resume": "Un style immuable au service de l'éternité et du pharaon.",
+          "explication": "On ne représente pas ce que l'œil voit mais ce que l'esprit sait : chaque chose sous son angle le plus clair (visage de profil, œil et torse de face). Règles fixes, hiérarchie des tailles, frontalité.",
+          "contexte": "Une civilisation d'une stabilité exceptionnelle sur 3000 ans, structurée par la religion funéraire et le pouvoir absolu du pharaon.",
+          "artistes": [
+            {
+              "nom": "Artisans des pharaons",
+              "bio": "Anonymes et organisés en ateliers, ils appliquent un canon transmis sur des millénaires. L'individualité de l'artiste n'a pas sa place.",
+              "oeuvres": [
+                { "titre": "Pyramide de Khéops", "wiki": "Great Pyramid of Giza", "annee": "≈ 2560 av. J.-C.", "explication": "La géométrie pure au service de l'éternité royale, défi technique inégalé pendant 4000 ans.", "contexte": "Ancien Empire, apogée du pouvoir pharaonique. Tombeau et machine à immortaliser le roi.", "elements": ["La perfection des proportions", "L'orientation astronomique", "L'échelle colossale (146 m à l'origine)"] },
+                { "titre": "Palette de Narmer", "wiki": "Narmer Palette", "annee": "≈ 3100 av. J.-C.", "explication": "Le code égyptien est déjà fixé : registres, hiérarchie des tailles, profil et torse de face.", "contexte": "Commémore l'unification de l'Égypte. L'un des premiers documents historiques de l'humanité.", "elements": ["Les registres horizontaux qui se lisent", "Le roi géant dominant ses ennemis", "La convention profil/face du corps"] },
+                { "titre": "Le Livre des morts", "wiki": "Book of the Dead", "annee": "≈ 1500 av. J.-C.", "explication": "Texte et image guident le défunt dans l'au-delà : l'art comme mode d'emploi de l'éternité.", "contexte": "Nouvel Empire. Rouleaux de papyrus déposés dans les tombes.", "elements": ["La pesée du cœur", "L'alternance texte/vignettes", "Les dieux à tête animale"] },
+                { "titre": "Le Grand Sphinx de Gizeh", "wiki": "Great Sphinx of Giza", "annee": "≈ 2500 av. J.-C.", "explication": "La permanence faite pierre : corps de lion, tête de roi, gardien de l'ordre cosmique.", "contexte": "Taillé dans un éperon rocheux près des pyramides.", "elements": ["L'hybride homme-lion", "Le regard tourné vers le levant", "La taille monumentale (73 m de long)"] },
+                { "titre": "Buste de Néfertiti", "wiki": "Nefertiti Bust", "annee": "≈ 1345 av. J.-C.", "explication": "Rare percée de naturalisme et d'élégance dans un art régi par des règles strictes.", "contexte": "Époque d'Amarna, sous Akhenaton, brève révolution artistique et religieuse.", "elements": ["L'équilibre du long cou et de la couronne", "Le naturalisme du visage", "L'œil gauche inachevé (modèle d'atelier)"] },
+                { "titre": "Masque de Toutânkhamon", "wiki": "Mask of Tutankhamun", "annee": "≈ 1323 av. J.-C.", "explication": "Or et lapis-lazuli : le visage idéalisé du roi-dieu, pour traverser la mort.", "contexte": "Tombe découverte intacte en 1922 par Howard Carter — sensation mondiale.", "elements": ["L'or massif et le lapis", "Le némès (coiffe royale rayée)", "Le cobra et le vautour protecteurs"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antiquite-greco-romaine",
+      "nom": "Grèce & Rome",
+      "epoque": "≈ 500 av. J.-C. – 400 ap. J.-C.",
+      "couleur": "#5a86b8",
+      "contexte": "Cités grecques, démocratie naissante, philosophie — puis l'Empire romain. L'homme, et non plus seulement le dieu ou le roi, devient mesure de toute chose.",
+      "apport": "L'artiste ose enfin regarder le réel : mouvement, anatomie, raccourci, portrait individuel.",
+      "styles": [
+        {
+          "nom": "L'idéal grec",
+          "resume": "La quête de la beauté parfaite par la mesure et le mouvement.",
+          "explication": "Le corps humain étudié et idéalisé : proportions calculées (le canon), contrapposto (déhanchement), puis, à l'époque hellénistique, le mouvement et l'émotion intenses.",
+          "contexte": "De la Grèce classique (Ve s., Athènes de Périclès) au monde hellénistique répandu par Alexandre.",
+          "artistes": [
+            {
+              "nom": "Les maîtres grecs",
+              "bio": "Polyclète, Myron, Phidias… Les premiers artistes dont le nom compte. La plupart de leurs bronzes sont perdus, connus par des copies romaines en marbre.",
+              "oeuvres": [
+                { "titre": "Le Parthénon", "wiki": "Parthenon", "annee": "≈ 438 av. J.-C.", "explication": "Des corrections optiques invisibles (colonnes légèrement galbées) pour que l'œil perçoive la perfection.", "contexte": "Temple d'Athéna sur l'Acropole, symbole de l'Athènes démocratique de Périclès.", "elements": ["Les colonnes doriques galbées (entasis)", "Le fronton sculpté par Phidias", "L'équilibre mathématique de la façade"] },
+                { "titre": "Le Doryphore", "wiki": "Doryphoros", "annee": "≈ 440 av. J.-C.", "explication": "Le canon des proportions : la beauté comme équilibre mesurable. Jambe d'appui, jambe libre.", "contexte": "Polyclète en fit un traité théorique sur les proportions idéales du corps.", "elements": ["Le contrapposto (poids sur une jambe)", "L'équilibre des tensions et des repos", "Le corps comme système de rapports"] },
+                { "titre": "Le Discobole", "wiki": "Discobolus", "annee": "≈ 450 av. J.-C.", "explication": "Le mouvement figé à son point de tension maximale : l'instant juste avant le lancer.", "contexte": "Célébration de l'athlète, idéal grec du corps et de l'effort.", "elements": ["La torsion du corps en arc tendu", "L'instant suspendu", "Le visage paradoxalement serein"] },
+                { "titre": "La Vénus de Milo", "wiki": "Venus de Milo", "annee": "≈ 130 av. J.-C.", "explication": "Le hellénisme : grâce du déhanchement, drapé vivant, idéal de beauté devenu universel.", "contexte": "Découverte en 1820 sur l'île de Milos, vite emblème du Louvre.", "elements": ["Le drapé qui glisse sur les hanches", "La spirale du corps", "Les bras manquants, devenus mystère"] },
+                { "titre": "Laocoon", "wiki": "Laocoön and His Sons", "annee": "≈ 40 av. J.-C.", "explication": "Le pathos extrême : douleur, torsion, drame. La sculpture qui fascinera Michel-Ange.", "contexte": "Redécouverte à Rome en 1506, elle bouleverse les artistes de la Renaissance.", "elements": ["La souffrance physique exprimée", "La composition en diagonale", "Les serpents qui enserrent les corps"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "L'art romain",
+          "resume": "Le réalisme grec mis au service du pouvoir et de l'ingénierie.",
+          "explication": "Rome adopte l'art grec mais le tourne vers l'efficacité : portraits ressemblants, propagande impériale, architecture de masse (arc, voûte, béton).",
+          "contexte": "République puis Empire : un État qui gère un monde et a besoin d'images de pouvoir et de bâtiments utiles.",
+          "artistes": [
+            {
+              "nom": "Bâtisseurs et portraitistes romains",
+              "bio": "Souvent anonymes, ils excellent dans le portrait réaliste et l'architecture monumentale qui structure encore nos villes.",
+              "oeuvres": [
+                { "titre": "Auguste de Prima Porta", "wiki": "Augustus of Prima Porta", "annee": "≈ 20 av. J.-C.", "explication": "Rome met le réalisme grec au service de la propagande : l'empereur idéalisé mais reconnaissable.", "contexte": "Auguste, premier empereur, fonde une imagerie du pouvoir reprise pendant des siècles.", "elements": ["Le geste d'orateur (adlocutio)", "La cuirasse historiée", "L'idéalisation jeune et éternelle"] },
+                { "titre": "Le Colisée", "wiki": "Colosseum", "annee": "80 ap. J.-C.", "explication": "Rome invente l'architecture de masse : arcs, béton, ingénierie au service du spectacle.", "contexte": "Amphithéâtre de 50 000 places, instrument politique du « pain et des jeux ».", "elements": ["La superposition des ordres (dorique, ionique, corinthien)", "Les arcs en série", "L'usage du béton romain"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moyen-age",
+      "nom": "Moyen Âge",
+      "epoque": "≈ 400 – 1400",
+      "couleur": "#a86fb0",
+      "contexte": "L'Empire romain s'effondre, l'Église devient le grand commanditaire. L'art abandonne volontairement le réalisme antique pour servir le message sacré.",
+      "apport": "Faire de l'image un livre pour qui ne lit pas, puis, avec le gothique, rouvrir la porte à la lumière et à l'émotion.",
+      "styles": [
+        {
+          "nom": "Byzantin & roman",
+          "resume": "L'image sacrée, hiératique et symbolique.",
+          "explication": "Figures frontales, fonds d'or, hiérarchie des tailles : on ne cherche pas la ressemblance mais la présence du divin. À Byzance, mosaïques ; en Occident, enluminures et fresques.",
+          "contexte": "Christianisation de l'Europe, monastères centres du savoir, Empire byzantin à l'Est.",
+          "artistes": [
+            {
+              "nom": "Moines et mosaïstes",
+              "bio": "L'art est collectif, anonyme, au service de la liturgie. Le moine copiste ou le mosaïste s'efface devant le sacré.",
+              "oeuvres": [
+                { "titre": "Sainte-Sophie", "wiki": "Hagia Sophia", "annee": "537", "explication": "Une coupole qui semble suspendue à la lumière : l'espace sacré comme expérience du divin.", "contexte": "Constantinople, capitale byzantine ; prouesse d'ingénierie inégalée pendant mille ans.", "elements": ["La coupole « flottante » sur pendentifs", "La lumière par la couronne de fenêtres", "Les mosaïques à fond d'or"] },
+                { "titre": "Le Livre de Kells", "wiki": "Book of Kells", "annee": "≈ 800", "explication": "L'entrelacs sans fin : la lettre devient labyrinthe spirituel.", "contexte": "Monastères irlandais, foyers de culture dans l'Europe troublée du haut Moyen Âge.", "elements": ["Les entrelacs infinis", "Les lettrines monumentales", "L'horreur du vide (chaque espace orné)"] },
+                { "titre": "Tapisserie de Bayeux", "wiki": "Bayeux Tapestry", "annee": "≈ 1077", "explication": "70 mètres de récit brodé : la bande dessinée avant l'heure, au service de la conquête normande.", "contexte": "Raconte la conquête de l'Angleterre par Guillaume en 1066.", "elements": ["La narration continue", "Les bordures commentant l'action", "L'absence de perspective"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Gothique & pré-Renaissance",
+          "resume": "La lumière entre, l'émotion revient.",
+          "explication": "Le gothique dissout le mur en vitraux et élance la pierre vers le ciel. Puis Giotto, en Italie, redonne aux figures du poids, de l'espace et une émotion humaine vraie — la porte de la Renaissance.",
+          "contexte": "Essor des villes et des cathédrales (XIIe-XIIIe s.), premières universités, renouveau économique.",
+          "artistes": [
+            {
+              "nom": "Bâtisseurs gothiques & Giotto",
+              "bio": "Les cathédrales sont l'œuvre de corporations anonymes. Giotto (1267-1337), lui, est le premier peintre dont la personnalité s'impose.",
+              "oeuvres": [
+                { "titre": "Cathédrale de Chartres", "wiki": "Chartres Cathedral", "annee": "≈ 1220", "explication": "Le gothique dissout le mur en vitraux. La pierre s'élance, la lumière devient théologie.", "contexte": "Apogée de l'art gothique, pèlerinage majeur de la chrétienté.", "elements": ["Les arcs-boutants qui libèrent les murs", "Les vitraux (le « bleu de Chartres »)", "L'élévation verticale vers Dieu"] },
+                { "titre": "Notre-Dame de Paris", "wiki": "Notre-Dame de Paris", "annee": "≈ 1260", "explication": "Arcs-boutants et rosaces : la cathédrale comme cosmos de pierre et de lumière colorée.", "contexte": "Cœur du Paris médiéval, chantier étalé sur près de deux siècles.", "elements": ["Les rosaces", "La façade harmonique à deux tours", "Les arcs-boutants extérieurs"] },
+                { "titre": "La Lamentation", "wiki": "Lamentation (Giotto)", "annee": "≈ 1305", "explication": "Giotto redonne poids, espace et émotion vraie aux figures. Le tournant vers la Renaissance.", "contexte": "Chapelle Scrovegni à Padoue, cycle fondateur de la peinture occidentale.", "elements": ["Les figures qui ont un poids réel", "L'émotion partagée (anges qui pleurent)", "L'espace qui commence à se creuser"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renaissance",
+      "nom": "Renaissance",
+      "epoque": "≈ 1400 – 1600",
+      "couleur": "#3fa07a",
+      "contexte": "Redécouverte de l'Antiquité, humanisme, mécénat des Médicis et des papes. L'homme se place au centre, et l'artisan devient un « génie » respecté.",
+      "apport": "Conquérir l'espace réel sur la surface plate (perspective), unir science, anatomie et beauté.",
+      "styles": [
+        {
+          "nom": "Première Renaissance",
+          "resume": "Florence redécouvre la grâce antique et la perspective.",
+          "explication": "Retour à la mythologie et à l'idéal antique, ligne élégante, premières perspectives mathématiques. La beauté idéale prime encore sur le réalisme strict.",
+          "contexte": "Florence au XVe siècle, sous le mécénat éclairé de la famille Médicis.",
+          "artistes": [
+            {
+              "nom": "Botticelli",
+              "bio": "Sandro Botticelli (1445-1510), maître de la ligne et de la grâce, peintre de la cour des Médicis.",
+              "oeuvres": [
+                { "titre": "La Naissance de Vénus", "wiki": "The Birth of Venus", "annee": "≈ 1485", "explication": "La grâce de la ligne plus que le réalisme : la beauté antique ressuscitée.", "contexte": "Commande médicéenne, inspirée par la philosophie néoplatonicienne.", "elements": ["La ligne sinueuse des contours", "La déesse sur sa conque", "Le souffle des vents qui la porte"] },
+                { "titre": "Le Printemps", "wiki": "Primavera (Botticelli)", "annee": "≈ 1480", "explication": "Une allégorie raffinée du renouveau, peuplée de figures d'une élégance dansante.", "contexte": "Programme savant mêlant mythologie et néoplatonisme florentin.", "elements": ["Les Trois Grâces", "Flore couverte de fleurs", "La lecture symbolique de droite à gauche"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Haute Renaissance",
+          "resume": "L'apogée : Léonard, Michel-Ange, Raphaël.",
+          "explication": "Maîtrise totale de la perspective, de l'anatomie et de la lumière, au service d'un équilibre serein. L'artiste devient un génie universel.",
+          "contexte": "Rome et Florence au tournant de 1500, sous le mécénat des papes Jules II et Léon X.",
+          "artistes": [
+            {
+              "nom": "Léonard de Vinci",
+              "bio": "Leonardo da Vinci (1452-1519) : peintre, ingénieur, anatomiste. L'incarnation du génie universel ; il étudie tout ce qu'il peint.",
+              "oeuvres": [
+                { "titre": "La Joconde", "wiki": "Mona Lisa", "annee": "≈ 1503", "explication": "Le sfumato : les contours se fondent dans l'ombre, le sourire devient insaisissable.", "contexte": "Portrait probable de Lisa Gherardini ; Léonard le garda toute sa vie.", "elements": ["Le sfumato (contours fondus)", "Le sourire ambigu", "Le paysage atmosphérique du fond"] },
+                { "titre": "La Cène", "wiki": "The Last Supper (Leonardo)", "annee": "≈ 1498", "explication": "Le drame psychologique de la trahison, composé avec une rigueur géométrique parfaite.", "contexte": "Fresque du réfectoire de Santa Maria delle Grazie, à Milan.", "elements": ["Les apôtres en groupes de trois", "La perspective centrée sur le Christ", "L'instant de l'annonce de la trahison"] },
+                { "titre": "L'Homme de Vitruve", "wiki": "Vitruvian Man", "annee": "≈ 1490", "explication": "Le corps humain comme mesure du monde : art, science et géométrie réunis.", "contexte": "Étude inspirée de l'architecte romain Vitruve.", "elements": ["L'homme dans le cercle et le carré", "Les proportions idéales", "La fusion art-science"] },
+                { "titre": "La Dame à l'hermine", "wiki": "Lady with an Ermine", "annee": "≈ 1490", "explication": "Le mouvement et la vie intérieure saisis dans un simple regard de côté.", "contexte": "Portrait de Cecilia Gallerani, à la cour de Milan.", "elements": ["La torsion vivante du buste", "Le regard hors-champ", "L'hermine, symbole et jeu de mots"] }
+              ]
+            },
+            {
+              "nom": "Michel-Ange",
+              "bio": "Michelangelo Buonarroti (1475-1564) : sculpteur avant tout, mais aussi peintre et architecte. La puissance du corps humain et la « terribilità ».",
+              "oeuvres": [
+                { "titre": "La Création d'Adam", "wiki": "The Creation of Adam", "annee": "≈ 1512", "explication": "Le doigt de Dieu effleure celui de l'homme : l'étincelle de la vie, image universelle.", "contexte": "Détail le plus célèbre du plafond de la chapelle Sixtine.", "elements": ["L'espace entre les deux doigts", "Dieu porté par un voile en forme de cerveau", "La tension de l'attente"] },
+                { "titre": "Plafond de la chapelle Sixtine", "wiki": "Sistine Chapel ceiling", "annee": "1512", "explication": "Le corps humain devient langage du divin. Quatre ans, seul, sur un échafaudage.", "contexte": "Commande du pape Jules II ; Michel-Ange se disait pourtant sculpteur, pas peintre.", "elements": ["La Genèse en neuf scènes", "Les Ignudi (nus monumentaux)", "L'architecture peinte en trompe-l'œil"] },
+                { "titre": "David", "wiki": "David (Michelangelo)", "annee": "1504", "explication": "5,17 m de marbre : l'instant avant le combat, la tension contenue. Le nu héroïque parfait.", "contexte": "Symbole civique de Florence, taillé dans un bloc abandonné par d'autres.", "elements": ["La tension juste avant l'action", "Les mains et le regard surdimensionnés", "Le contrapposto hérité de l'Antiquité"] },
+                { "titre": "La Pietà", "wiki": "Pietà (Michelangelo)", "annee": "1499", "explication": "À 24 ans : la douleur sublimée, le drapé miraculeux. Sa seule œuvre signée.", "contexte": "Sculptée pour la basilique Saint-Pierre de Rome.", "elements": ["Le drapé virtuose", "La jeunesse intemporelle de Marie", "La composition pyramidale stable"] },
+                { "titre": "Moïse", "wiki": "Moses (Michelangelo)", "annee": "≈ 1515", "explication": "La force contenue prête à exploser : la « terribilità » faite marbre.", "contexte": "Pour le tombeau du pape Jules II.", "elements": ["Le regard de côté, intense", "Les muscles et la barbe travaillés", "Les « cornes » (erreur de traduction biblique)"] }
+              ]
+            },
+            {
+              "nom": "Raphaël",
+              "bio": "Raffaello Sanzio (1483-1520) : l'équilibre et la sérénité mêmes, la Renaissance à son apogée harmonieux.",
+              "oeuvres": [
+                { "titre": "L'École d'Athènes", "wiki": "The School of Athens", "annee": "≈ 1510", "explication": "Composition, perspective et pensée réunies : la raison antique mise en espace.", "contexte": "Fresque des appartements du pape au Vatican.", "elements": ["Platon et Aristote au centre", "La perspective qui converge sur eux", "Les philosophes aux traits d'artistes (Léonard…)"] },
+                { "titre": "La Madone Sixtine", "wiki": "Sistine Madonna", "annee": "≈ 1512", "explication": "La douceur absolue — et, en bas, les deux angelots devenus icônes populaires.", "contexte": "Commande pour une église de Plaisance.", "elements": ["Les deux angelots rêveurs", "Le rideau qui s'ouvre", "La Vierge qui semble avancer vers nous"] },
+                { "titre": "La Transfiguration", "wiki": "Transfiguration (Raphael)", "annee": "≈ 1520", "explication": "Son testament : lumière divine en haut, tumulte humain en bas. Le pont vers le Baroque.", "contexte": "Dernière œuvre de Raphaël, achevée à sa mort.", "elements": ["La double scène haut/bas", "Le contraste lumière/agitation", "Le mouvement pré-baroque"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baroque",
+      "nom": "Baroque",
+      "epoque": "≈ 1600 – 1750",
+      "couleur": "#c87432",
+      "contexte": "Contre-Réforme catholique et monarchies absolues. L'art doit émouvoir, convaincre, éblouir pour reconquérir les âmes et glorifier le pouvoir.",
+      "apport": "Le drame : lumière violente, mouvement, émotion débordante, illusion saisissante.",
+      "styles": [
+        {
+          "nom": "Baroque",
+          "resume": "Le théâtre de la lumière et de l'émotion.",
+          "explication": "Clair-obscur violent (ténébrisme), diagonales dynamiques, instant dramatique saisi au vol, réalisme charnel. On cherche à happer le spectateur.",
+          "contexte": "De Rome (Caravage) aux Pays-Bas (Rembrandt) et à l'Espagne (Vélasquez), un même goût du drame et du vrai.",
+          "artistes": [
+            {
+              "nom": "Le Caravage",
+              "bio": "Caravaggio (1571-1610) : peintre maudit et révolutionnaire, inventeur d'un clair-obscur radical.",
+              "oeuvres": [
+                { "titre": "La Vocation de saint Matthieu", "wiki": "The Calling of Saint Matthew", "annee": "≈ 1600", "explication": "Un rayon de lumière comme doigt de Dieu, dans une scène de taverne. Le clair-obscur radical.", "contexte": "Chapelle Contarelli à Rome, œuvre qui rendit Caravage célèbre.", "elements": ["Le rayon de lumière révélateur", "Les personnages en costumes contemporains", "Le geste du Christ qui désigne"] },
+                { "titre": "Judith décapitant Holopherne", "wiki": "Judith Beheading Holofernes (Caravaggio)", "annee": "≈ 1599", "explication": "La violence frontale, sans pudeur : le théâtre de la cruauté en pleine lumière crue.", "contexte": "Épisode biblique traité avec un réalisme brutal inédit.", "elements": ["La lumière crue sur l'action", "Le réalisme des expressions", "L'instant exact du geste"] },
+                { "titre": "Bacchus", "wiki": "Bacchus (Caravaggio)", "annee": "≈ 1596", "explication": "Un dieu aux ongles sales : le sacré ramené au charnel, au réel le plus cru.", "contexte": "Jeunesse romaine de Caravage, période des figures sensuelles.", "elements": ["Les fruits trop mûrs (vanité)", "Le modèle bien réel, pas idéalisé", "Le verre tendu vers nous"] }
+              ]
+            },
+            {
+              "nom": "Rembrandt",
+              "bio": "Rembrandt van Rijn (1606-1669), Amsterdam : maître de la lumière intérieure, il peint l'âme plus que le visage.",
+              "oeuvres": [
+                { "titre": "La Ronde de nuit", "wiki": "The Night Watch", "annee": "1642", "explication": "Le portrait de groupe devient scène vivante, mouvement et lumière dramatique.", "contexte": "Commande d'une compagnie de miliciens d'Amsterdam.", "elements": ["Le mouvement qui anime le groupe", "La lumière sélective sur les figures", "La profondeur scénique"] },
+                { "titre": "La Leçon d'anatomie", "wiki": "The Anatomy Lesson of Dr. Nicolaes Tulp", "annee": "1632", "explication": "Le savoir et la mort mis en scène : chaque regard raconte une réaction différente.", "contexte": "Portrait de la guilde des chirurgiens d'Amsterdam.", "elements": ["La diagonale du cadavre", "Les regards variés des spectateurs", "La lumière sur la science"] },
+                { "titre": "Autoportrait aux deux cercles", "wiki": "Self-Portrait with Two Circles", "annee": "≈ 1665", "explication": "Le peintre âgé se regarde sans complaisance : la vérité avant la flatterie.", "contexte": "Un des nombreux autoportraits qui jalonnent toute sa vie.", "elements": ["La touche libre et épaisse", "Le visage vieilli sans complaisance", "Les deux cercles énigmatiques"] }
+              ]
+            },
+            {
+              "nom": "Vélasquez",
+              "bio": "Diego Velázquez (1599-1660), peintre du roi d'Espagne : sommet de l'illusion picturale et de l'intelligence du regard.",
+              "oeuvres": [
+                { "titre": "Les Ménines", "wiki": "Las Meninas", "annee": "1656", "explication": "Le tableau qui se regarde peindre : où est le spectateur, où est le roi ?", "contexte": "Cour de Philippe IV d'Espagne ; Vélasquez s'y représente lui-même.", "elements": ["Le miroir au fond (le couple royal)", "Le peintre dans son propre tableau", "Le jeu des regards vers nous"] },
+                { "titre": "Portrait d'Innocent X", "wiki": "Portrait of Innocent X", "annee": "1650", "explication": "Une présence psychologique presque insoutenable : « trop vrai », dit le pape lui-même.", "contexte": "Peint lors d'un voyage de Vélasquez à Rome.", "elements": ["Le regard perçant", "Les rouges somptueux", "La vérité psychologique crue"] },
+                { "titre": "La Vénus au miroir", "wiki": "Rokeby Venus", "annee": "≈ 1648", "explication": "Un nu rare dans l'Espagne dévote : le jeu subtil du reflet et du regard.", "contexte": "Sujet audacieux dans l'Espagne de l'Inquisition.", "elements": ["Le reflet flou dans le miroir", "La ligne sensuelle du dos", "Le regard renvoyé au spectateur"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xixe",
+      "nom": "XIXᵉ siècle",
+      "epoque": "≈ 1780 – 1900",
+      "couleur": "#c0392b",
+      "contexte": "Révolutions politiques et industrielles, invention de la photographie, essor des villes. L'artiste se libère des commandes et invente son propre sujet.",
+      "apport": "Une succession de ruptures : l'art cesse de copier le réel pour exprimer une vision personnelle.",
+      "styles": [
+        {
+          "nom": "Romantisme",
+          "resume": "La passion et la couleur contre la froideur classique.",
+          "explication": "Émotion, mouvement, couleur exaltée, sujets dramatiques ou exotiques. Le sentiment l'emporte sur la règle.",
+          "contexte": "Première moitié du XIXe, dans le sillage des révolutions et de l'individu.",
+          "artistes": [
+            {
+              "nom": "Delacroix",
+              "bio": "Eugène Delacroix (1798-1863) : chef de file du romantisme français, peintre de la couleur et de l'élan.",
+              "oeuvres": [
+                { "titre": "La Liberté guidant le peuple", "wiki": "Liberty Leading the People", "annee": "1830", "explication": "La passion politique faite peinture : couleur, mouvement, allégorie incarnée.", "contexte": "Inspirée des Trois Glorieuses, la révolution de juillet 1830.", "elements": ["La Liberté allégorique mais charnelle", "La pyramide des corps", "Le drapeau tricolore au sommet"] },
+                { "titre": "La Mort de Sardanapale", "wiki": "The Death of Sardanapalus", "annee": "1827", "explication": "Le chaos somptueux : couleur déchaînée, sensualité et destruction. Le romantisme à son comble.", "contexte": "Inspirée d'un poème de Byron ; scandale au Salon.", "elements": ["La composition en tourbillon", "Les rouges et ors orgiaques", "Le roi impassible au milieu du chaos"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Vers la modernité",
+          "resume": "Manet fait scandale et ouvre la peinture moderne.",
+          "explication": "On peint la vie contemporaine sans l'ennoblir, et l'on assume que la peinture est de la peinture (touches visibles, à-plats). Le sujet devient prétexte.",
+          "contexte": "Paris du Second Empire, Salons officiels et refus ; naissance de la modernité.",
+          "artistes": [
+            {
+              "nom": "Manet",
+              "bio": "Édouard Manet (1832-1883) : le père de la peinture moderne, provocateur malgré lui.",
+              "oeuvres": [
+                { "titre": "Olympia", "wiki": "Olympia (Manet)", "annee": "1863", "explication": "Une vraie femme, un regard direct : le scandale qui ouvre la modernité.", "contexte": "Scandale au Salon de 1865 : une prostituée traitée comme une déesse.", "elements": ["Le regard frontal qui défie", "Les à-plats et contours nets", "Le bouquet et la servante"] },
+                { "titre": "Le Déjeuner sur l'herbe", "wiki": "Le Déjeuner sur l'herbe", "annee": "1863", "explication": "Un nu banalisé en plein jour, aux côtés d'hommes habillés : la provocation tranquille.", "contexte": "Refusé au Salon, exposé au « Salon des refusés ».", "elements": ["Le mélange nu/habillés", "La lumière plate, sans modelé", "Le regard de la femme vers nous"] },
+                { "titre": "Un bar aux Folies Bergère", "wiki": "A Bar at the Folies-Bergère", "annee": "1882", "explication": "Le reflet qui ne colle pas : Manet joue déjà avec la vérité de l'image.", "contexte": "Dernier chef-d'œuvre de Manet, scène de la vie parisienne.", "elements": ["Le reflet impossible dans le miroir", "Le regard absent de la serveuse", "La modernité du lieu de loisir"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Impressionnisme",
+          "resume": "Peindre la sensation lumineuse de l'instant.",
+          "explication": "On sort peindre dehors, par touches rapides et colorées, pour saisir la lumière changeante plutôt que l'objet. Les contours se dissolvent.",
+          "contexte": "Années 1870-80, en marge des Salons ; le tube de peinture portable rend le plein air possible.",
+          "artistes": [
+            {
+              "nom": "Monet",
+              "bio": "Claude Monet (1840-1926) : l'impressionnisme incarné, obsédé par la lumière et l'instant.",
+              "oeuvres": [
+                { "titre": "Impression, soleil levant", "wiki": "Impression, Sunrise", "annee": "1872", "explication": "Le tableau qui donne son nom au mouvement : la lumière de l'instant.", "contexte": "Exposée en 1874 ; un critique moqueur invente le mot « impressionniste ».", "elements": ["Les touches rapides, esquissées", "Le soleil et son reflet", "L'atmosphère brumeuse du port"] },
+                { "titre": "Les Nymphéas", "wiki": "Water Lilies", "annee": "≈ 1916", "explication": "Le motif se dissout dans la couleur pure : aux portes de l'abstraction.", "contexte": "Série tardive peinte dans son jardin de Giverny.", "elements": ["L'absence d'horizon", "Le reflet et l'eau confondus", "La couleur quasi abstraite"] },
+                { "titre": "La Femme à l'ombrelle", "wiki": "Woman with a Parasol", "annee": "1875", "explication": "Le vent, la lumière, l'instant : la peinture du plein air par excellence.", "contexte": "Portrait de sa femme Camille et leur fils.", "elements": ["La contre-plongée légère", "Le vent dans le voile et l'herbe", "Les ombres colorées"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Post-impressionnisme",
+          "resume": "La couleur et la touche deviennent émotion.",
+          "explication": "Après l'impressionnisme, des artistes poussent la couleur et la touche vers l'expression du monde intérieur. La porte du XXe siècle.",
+          "contexte": "Fin du XIXe ; chacun cherche une voie personnelle au-delà de l'impression.",
+          "artistes": [
+            {
+              "nom": "Van Gogh",
+              "bio": "Vincent van Gogh (1853-1890) : la couleur et la touche deviennent émotion pure. Incompris de son vivant.",
+              "oeuvres": [
+                { "titre": "La Nuit étoilée", "wiki": "The Starry Night", "annee": "1889", "explication": "La touche tourbillonnante : le ciel comme état d'âme.", "contexte": "Peinte depuis l'asile de Saint-Rémy-de-Provence.", "elements": ["Les volutes du ciel", "Le cyprès comme flamme", "Le village paisible en bas"] },
+                { "titre": "Les Tournesols", "wiki": "Sunflowers (Van Gogh series)", "annee": "1888", "explication": "Le jaune poussé à l'extrême : la couleur comme pure énergie vitale.", "contexte": "Peints à Arles pour décorer la chambre de Gauguin.", "elements": ["La gamme de jaunes", "La matière épaisse (empâtement)", "Les fleurs à tous les stades de vie"] },
+                { "titre": "La Chambre à Arles", "wiki": "Bedroom in Arles", "annee": "1888", "explication": "La perspective tordue et les couleurs franches disent le repos rêvé plus que la pièce réelle.", "contexte": "Sa chambre dans la « maison jaune » d'Arles.", "elements": ["La perspective volontairement faussée", "Les couleurs en aplats", "Les objets par paires"] },
+                { "titre": "Terrasse de café le soir", "wiki": "Café Terrace at Night", "annee": "1888", "explication": "Une nuit sans noir : la lumière jaune contre le bleu profond du ciel étoilé.", "contexte": "Place du Forum à Arles, peinte de nuit sur le motif.", "elements": ["Le contraste jaune/bleu", "L'absence de noir", "La perspective de la rue pavée"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moderne",
+      "nom": "Art moderne",
+      "epoque": "≈ 1900 – 1970",
+      "couleur": "#34495e",
+      "contexte": "Deux guerres mondiales, vitesse, psychanalyse, photographie et cinéma. Toutes les certitudes vacillent, y compris la définition de l'art.",
+      "apport": "Démolir une à une les règles héritées de la Renaissance — et finir par demander : qu'est-ce que l'art ?",
+      "styles": [
+        {
+          "nom": "Cubisme",
+          "resume": "Briser le point de vue unique.",
+          "explication": "On montre plusieurs faces d'un objet à la fois, en facettes géométriques. La perspective unique de la Renaissance vole en éclats.",
+          "contexte": "Paris, vers 1907-1914 ; Picasso et Braque inventent à deux.",
+          "artistes": [
+            {
+              "nom": "Picasso",
+              "bio": "Pablo Picasso (1881-1973) : le démolisseur du point de vue unique, inventeur du cubisme avec Braque.",
+              "oeuvres": [
+                { "titre": "Les Demoiselles d'Avignon", "wiki": "Les Demoiselles d'Avignon", "annee": "1907", "explication": "Plusieurs faces à la fois : l'éclatement qui ouvre le cubisme.", "contexte": "Choc total à l'atelier ; influence de l'art africain.", "elements": ["Les visages-masques africains", "Les corps en facettes", "L'espace aplati et brisé"] },
+                { "titre": "Guernica", "wiki": "Guernica (Picasso)", "annee": "1937", "explication": "Le cri pacifiste en noir et blanc : la guerre disloquée en chaos de formes.", "contexte": "Réaction au bombardement de Guernica pendant la guerre d'Espagne.", "elements": ["Le noir et blanc de la presse", "Le cheval et le taureau hurlants", "La mère et l'enfant mort"] },
+                { "titre": "La Femme qui pleure", "wiki": "The Weeping Woman", "annee": "1937", "explication": "La douleur fragmentée par le cubisme : le visage comme verre brisé.", "contexte": "Prolonge la souffrance de Guernica, sur le visage de Dora Maar.", "elements": ["Le visage éclaté en facettes", "Les couleurs criardes", "Le mouchoir comme éclat de verre"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Abstraction",
+          "resume": "Plus d'objet, seulement la forme et la couleur.",
+          "explication": "L'art abandonne toute représentation : il ne reste que l'équilibre pur des lignes, des formes et des couleurs. Une recherche spirituelle pour certains.",
+          "contexte": "Années 1910-40 ; Kandinsky, Malevitch, Mondrian, chacun par une voie propre.",
+          "artistes": [
+            {
+              "nom": "Mondrian",
+              "bio": "Piet Mondrian (1872-1944) : l'abstraction géométrique radicale, en quête d'un ordre universel.",
+              "oeuvres": [
+                { "titre": "Composition en rouge, jaune, bleu", "wiki": "Composition with Red, Blue and Yellow", "annee": "1930", "explication": "La peinture réduite à son essence : équilibre, ligne, couleur primaire.", "contexte": "Théorie du néoplasticisme et de la revue De Stijl.", "elements": ["Les seules couleurs primaires", "Les lignes noires orthogonales", "L'équilibre asymétrique"] },
+                { "titre": "Broadway Boogie-Woogie", "wiki": "Broadway Boogie-Woogie", "annee": "1943", "explication": "New York, le jazz : la grille s'anime en pulsations colorées.", "contexte": "Peint après son exil à New York, fasciné par la ville et le boogie-woogie.", "elements": ["La grille qui vibre", "Les petits carrés rythmés", "L'énergie de la ville"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Surréalisme",
+          "resume": "La logique du rêve et de l'inconscient.",
+          "explication": "On peint les images du rêve, les associations absurdes, l'inconscient libéré — souvent avec une technique très réaliste qui rend l'étrange crédible.",
+          "contexte": "Années 1920-40, dans le sillage de la psychanalyse de Freud.",
+          "artistes": [
+            {
+              "nom": "Dalí",
+              "bio": "Salvador Dalí (1904-1989) : le surréalisme spectaculaire, virtuose de l'image onirique.",
+              "oeuvres": [
+                { "titre": "La Persistance de la mémoire", "wiki": "The Persistence of Memory", "annee": "1931", "explication": "Les montres molles : le temps qui fond, la logique du rêve.", "contexte": "Image devenue l'emblème même du surréalisme.", "elements": ["Les montres molles", "Le paysage de Catalogne", "La forme molle au centre (autoportrait)"] },
+                { "titre": "Cygnes reflétant des éléphants", "wiki": "Swans Reflecting Elephants", "annee": "1937", "explication": "L'image double : le reflet métamorphose le réel. Le jeu paranoïaque-critique.", "contexte": "Illustre la méthode « paranoïaque-critique » de Dalí.", "elements": ["Les cygnes qui deviennent éléphants dans l'eau", "La double lecture", "Le paysage aride"] }
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Dada & readymade",
+          "resume": "L'idée devient l'œuvre.",
+          "explication": "L'art n'est plus une question de savoir-faire mais de décision : un objet ordinaire, choisi et signé, devient art. La question « qu'est-ce que l'art ? » remplace l'objet beau.",
+          "contexte": "Pendant et après la Première Guerre, dans le rejet des valeurs établies.",
+          "artistes": [
+            {
+              "nom": "Duchamp",
+              "bio": "Marcel Duchamp (1887-1968) : il déplace l'art du faire vers l'idée. Le readymade change tout l'art du XXe siècle.",
+              "oeuvres": [
+                { "titre": "Nu descendant un escalier", "wiki": "Nude Descending a Staircase, No. 2", "annee": "1912", "explication": "Le mouvement décomposé en plans : la peinture qui veut filmer le temps.", "contexte": "Scandale à l'Armory Show de New York en 1913.", "elements": ["La décomposition du mouvement", "L'influence de la chronophotographie", "Les plans mécaniques"] },
+                { "titre": "Fontaine", "wiki": "Fountain (Duchamp)", "annee": "1917", "explication": "Un urinoir signé et exposé : l'idée devient l'œuvre.", "contexte": "Soumis (et refusé) sous le pseudonyme « R. Mutt ».", "elements": ["L'objet manufacturé tel quel", "La signature « R. Mutt »", "Le geste de désignation comme art"] },
+                { "titre": "Roue de bicyclette", "wiki": "Bicycle Wheel", "annee": "1913", "explication": "Le premier readymade : un objet ordinaire devient art par la seule décision de l'artiste.", "contexte": "Duchamp aimait la regarder tourner, « comme un feu de cheminée ».", "elements": ["L'assemblage roue + tabouret", "L'objet détourné de sa fonction", "Le premier des readymades"] }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
