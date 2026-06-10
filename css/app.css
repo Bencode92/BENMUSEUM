@@ -102,6 +102,7 @@ ul.dots li { margin: 4px 0; }
 .guide .ask { margin-top: 8px; background: var(--gold); color: #fff; border: none; padding: 9px 16px; border-radius: 8px; cursor: pointer; font: inherit; }
 .guide .answer { margin-top: 12px; white-space: pre-wrap; font-size: 15px; }
 .guide .answer.dim { color: var(--muted); font-style: italic; }
+.linkbtn { background: none; border: none; color: var(--gold); cursor: pointer; text-decoration: underline; font: inherit; padding: 0; }
 
 /* ---- quiz ---- */
 .quiz { max-width: 640px; margin: 0 auto; }

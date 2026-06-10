@@ -249,13 +249,20 @@ function renderOeuvre(ci, oi) {
   wireNotes();
 }
 
+// endpoint IA : ton Cloudflare Worker (en ligne) sinon le serveur local
+function aiEndpoint() { return localStorage.getItem("museum:aiurl") || "/api/ask"; }
+function setAiUrl() {
+  const u = prompt("Colle l'URL de ton Cloudflare Worker (https://...workers.dev) — voir worker/README.md :", localStorage.getItem("museum:aiurl") || "");
+  if (u !== null) { localStorage.setItem("museum:aiurl", u.trim()); alert(u.trim() ? "Guide IA en ligne configuré. Repose ta question." : "URL effacée."); }
+}
+
 function wireGuide(c, o, scope) {
   const btn = $("gask"), ans = $("gans");
   btn.onclick = async () => {
     const q = $("gq").value.trim(); if (!q) return;
     ans.className = "answer dim"; ans.textContent = "…";
     try {
-      const r = await fetch("/api/ask", {
+      const r = await fetch(aiEndpoint(), {
         method: "POST", headers: { "content-type": "application/json" },
         body: JSON.stringify({
           floorName: `${c.titre} (chap. ${c.num}, ${c.titre_en})`, epoque: c.portee,
@@ -279,7 +286,8 @@ function wireGuide(c, o, scope) {
       ans.after(add);
     } catch {
       ans.className = "answer dim";
-      ans.textContent = "⚠️ Guide hors ligne. Active-le en local : ANTHROPIC_API_KEY=... node server.js (voir README).";
+      ans.innerHTML = "⚠️ Guide hors ligne. <button id='aicfg' class='linkbtn'>Configurer l'IA en ligne</button> (Cloudflare Worker) — ou lance <code>node server.js</code> en local.";
+      const cfg = document.getElementById("aicfg"); if (cfg) cfg.onclick = setAiUrl;
     }
   };
 }
