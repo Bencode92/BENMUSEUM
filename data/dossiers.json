@@ -3176,6 +3176,671 @@
         "Pourquoi le Panthéon est-il une prouesse ?",
         "En quoi l'art des catacombes annonce-t-il le Moyen Âge ?"
       ]
+    },
+    {
+      "id": "rome-byzance",
+      "titre": "Une séparation des chemins",
+      "periode": "≈ 400 – 1300",
+      "couleur": "#6f4a8e",
+      "sous_titre": "Byzance ne veut pas peindre le monde mais ouvrir une fenêtre vers l'éternité divine.",
+      "carte": [
+        [
+          "Dates",
+          "~400 – 1300"
+        ],
+        [
+          "Foyers",
+          "Rome/Occident · Constantinople/Byzance (Orient)"
+        ],
+        [
+          "Idée-mère",
+          "L'image n'imite plus le réel : elle devient signe sacré"
+        ],
+        [
+          "Tension",
+          "Faut-il des images ? La querelle des iconoclastes"
+        ]
+      ],
+      "bascule": "L'Empire romain se divise : Occident latin et Orient grec (Byzance). Le christianisme est religion d'État, et l'art devient presque entièrement religieux. Mais une question brûle : une image peut-elle représenter le divin sans devenir une idole ? C'est la querelle des iconoclastes contre les défenseurs des icônes. On abandonne consciemment le réalisme grec : une icône ne doit pas ressembler à une personne réelle, mais être un symbole stable, hiératique, intemporel du sacré. Fond d'or, figures frontales, pas d'ombre ni d'espace. L'art a délibérément reculé par rapport à la Grèce, pour mieux servir la foi.",
+      "phrase": "Byzance ne veut pas peindre le monde mais ouvrir une fenêtre vers l'éternité divine.",
+      "probleme": "Comment montrer le sacré sans tomber dans l'idolâtrie, et avec quelle image ?",
+      "caracteristiques": [
+        "Fond d'or, figures frontales, hiératiques, sans poids ni mouvement.",
+        "Pas d'espace réaliste : un monde hors du temps.",
+        "Mosaïque comme technique reine (lumière dans l'or).",
+        "Codes rigides et durables (l'icône se « copie », pas s'invente)."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Mosaïques de Ravenne",
+          "artiste": "Anonyme (byzantin)",
+          "annee": "~547",
+          "lieu": "San Vitale, Ravenne",
+          "wiki": "Basilica of San Vitale",
+          "genie": "L'empereur Justinien et sa cour, en or, frontaux, figés. Le pouvoir et le sacré fusionnent ; les figures flottent hors du réel, baignées d'une lumière dorée surnaturelle."
+        },
+        {
+          "titre": "L'icône byzantine",
+          "artiste": "Anonyme",
+          "annee": "tous siècles",
+          "lieu": "Byzance",
+          "wiki": "Byzantine art",
+          "genie": "Visage du Christ ou de la Vierge, codifié, frontal, au regard fixe. Ce n'est pas un portrait, c'est un objet de dévotion : la « ressemblance » est spirituelle, pas physique. Modèle reproduit pendant des siècles."
+        }
+      ],
+      "artistes_note": "Anonymes : l'icône byzantine refuse l'originalité individuelle ; le moine-peintre suit un modèle sacré, il ne « crée » pas.",
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Mosaïques de Ravenne",
+              true,
+              "~547",
+              "Sacré + pouvoir en or"
+            ],
+            [
+              "Sainte-Sophie",
+              false,
+              "~537",
+              "Coupole byzantine géante"
+            ],
+            [
+              "Icône byzantine",
+              true,
+              "tous siècles",
+              "Fenêtre vers le divin"
+            ],
+            [
+              "Querelle des iconoclastes",
+              true,
+              "VIIIe-IXe s.",
+              "Pour ou contre l'image"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le premier art chrétien (ch. 5), poussé jusqu'au symbole pur.",
+        "mene": "L'art occidental médiéval (ch. 8) et, bien plus tard, l'or des fonds gothiques que Giotto (ch. 11) commencera à abandonner."
+      },
+      "memos": [
+        "Byzance = recul volontaire du réalisme au profit du symbole sacré.",
+        "Fond d'or = l'éternité, pas le ciel réel.",
+        "Iconoclastes = la grande querelle : l'image est-elle permise ?"
+      ],
+      "autotest": [
+        "Pourquoi Byzance abandonne-t-elle le réalisme grec ?",
+        "Qu'est-ce qu'une icône, et en quoi diffère-t-elle d'un portrait ?",
+        "Qu'était la querelle des iconoclastes ?"
+      ]
+    },
+    {
+      "id": "islam-chine",
+      "titre": "Le regard vers l'Orient",
+      "periode": "≈ 700 – 1300",
+      "couleur": "#2f8f7a",
+      "sous_titre": "Il n'y a pas une seule bonne façon de faire de l'art — l'interdit ou la contemplation en créent d'autres, aussi hautes.",
+      "carte": [
+        [
+          "Dates",
+          "~700 – 1300"
+        ],
+        [
+          "Foyers",
+          "Monde islamique · Chine"
+        ],
+        [
+          "Idée-mère",
+          "D'autres civilisations résolvent l'art autrement — sans la figure (Islam) ou par la contemplation (Chine)"
+        ],
+        [
+          "Leçon",
+          "L'interdit de l'image peut engendrer un art, pas l'appauvrir"
+        ]
+      ],
+      "bascule": "Gombrich détourne le regard de l'Occident pour montrer deux grandes voies parallèles. L'Islam interdit largement la représentation des êtres vivants dans l'art religieux : loin de bloquer l'art, cet interdit le détourne vers une splendeur de l'abstraction (arabesques, calligraphie sublimée, décor sans fin). La contrainte devient créativité. La Chine développe une peinture de paysage d'une tout autre philosophie : l'artiste ne copie pas une vue, il médite la nature et la restitue de mémoire, d'un trait juste, comme un acte spirituel. Le vide y est aussi important que le plein.",
+      "phrase": "Il n'y a pas une seule bonne façon de faire de l'art — l'interdit ou la contemplation en créent d'autres, aussi hautes.",
+      "probleme": "Islam : comment faire un art sublime sans représenter d'êtres vivants ? · Chine : comment saisir l'esprit d'un paysage plutôt que son apparence ?",
+      "caracteristiques": [
+        "Islam : arabesque, géométrie infinie, calligraphie, décor de surface (mosquées, manuscrits, tapis).",
+        "Chine : paysage à l'encre, traits économes, brumes, vide expressif, harmonie avec la nature."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Décor de mosquée / arabesque",
+          "artiste": "Anonyme (islamique)",
+          "annee": "VIIIe-XIIIe s.",
+          "lieu": "Monde islamique",
+          "wiki": "Arabesque",
+          "genie": "Entrelacs végétaux et géométriques se répétant à l'infini. L'absence de figure devient une méditation sur l'infini et l'unité divine ; la beauté naît du rythme et de la pure forme."
+        },
+        {
+          "titre": "Paysage chinois (Song)",
+          "artiste": "Maîtres Song",
+          "annee": "XIe-XIIIe s.",
+          "lieu": "Chine",
+          "wiki": "Travelers Among Mountains and Streams",
+          "genie": "Montagnes émergeant de la brume, minuscule voyageur, vastes vides. Le paysage exprime une harmonie cosmique ; le peintre vise l'essence, pas la copie. Le vide n'est pas un manque, c'est du souffle."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "○",
+          "nom": "Ku K'ai-chi",
+          "dates": "~344-406",
+          "role": "Chine",
+          "wiki": "Gu Kaizhi",
+          "portrait": "L'un des premiers grands peintres chinois nommés."
+        },
+        {
+          "niveau": "○",
+          "nom": "Ma Yuan",
+          "dates": "Song",
+          "role": "Chine",
+          "wiki": "Ma Yuan (painter)",
+          "portrait": "Maître du paysage Song, compositions « à un coin »."
+        },
+        {
+          "niveau": "○",
+          "nom": "Kao K'o-kung",
+          "dates": "Song/Yuan",
+          "role": "Chine",
+          "wiki": "Gao Kegong",
+          "portrait": "Paysagiste de brumes et de montagnes."
+        },
+        {
+          "niveau": "○",
+          "nom": "Art islamique",
+          "dates": "—",
+          "role": "anonyme",
+          "wiki": "Islamic art",
+          "portrait": "Largement anonyme, collectif et artisanal : la gloire est à l'ornement, pas à l'individu."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Arabesque / calligraphie islamique",
+              true,
+              "",
+              "Beauté sans figure, infini"
+            ],
+            [
+              "Décor de mosquée",
+              false,
+              "",
+              "Géométrie sacrée"
+            ],
+            [
+              "Paysage chinois Song",
+              true,
+              "",
+              "Contemplation, esprit de la nature"
+            ],
+            [
+              "Ma Yuan",
+              false,
+              "",
+              "Maître du paysage"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Voies contemporaines du Moyen Âge occidental (ch. 8-11) mais indépendantes de lui.",
+        "mene": "L'estampe japonaise (héritière lointaine) marquera les impressionnistes (ch. 26)."
+      },
+      "memos": [
+        "Islam = l'interdit de l'image crée l'art de l'arabesque.",
+        "Chine = peindre l'esprit du paysage, le vide compte autant que le plein.",
+        "Leçon : il n'y a pas une seule « bonne » façon de faire de l'art."
+      ],
+      "autotest": [
+        "Comment l'interdit islamique de la figure façonne-t-il son art ?",
+        "Quelle est la philosophie de la peinture de paysage chinoise ?",
+        "Quel rôle joue le vide dans la peinture chinoise ?"
+      ]
+    },
+    {
+      "id": "haut-moyen-age",
+      "titre": "L'art occidental dans le creuset",
+      "periode": "≈ 500 – 1000",
+      "couleur": "#5a4a7a",
+      "sous_titre": "Dans le chaos post-romain, l'art survit dans les monastères et fond ensemble entrelacs barbares et signes chrétiens.",
+      "carte": [
+        [
+          "Dates",
+          "~500 – 1000"
+        ],
+        [
+          "Foyers",
+          "Îles britanniques, empire de Charlemagne, Europe du Nord"
+        ],
+        [
+          "Idée-mère",
+          "Fusion entre traditions « barbares » (entrelacs) et héritage chrétien"
+        ],
+        [
+          "Support roi",
+          "Le manuscrit enluminé (l'art se réfugie dans les monastères)"
+        ]
+      ],
+      "bascule": "Après la chute de Rome, l'Occident est morcelé : c'est le haut Moyen Âge. Les arts antiques se perdent largement, mais un creuset se forme : les motifs abstraits et entrelacés des peuples germaniques et celtes rencontrent l'imagerie chrétienne héritée de Rome et de Byzance. L'art se concentre dans les monastères, sur de petits objets précieux et surtout les manuscrits enluminés. Le réalisme antique disparaît presque ; l'image devient ornement et signe, faite de lignes nerveuses et de motifs entrelacés. Charlemagne (~800) tente une « renaissance » en faisant recopier l'art antique.",
+      "phrase": "Dans le chaos post-romain, l'art survit dans les monastères et fond ensemble entrelacs barbares et signes chrétiens.",
+      "probleme": "Comment, après l'effondrement de Rome, fabriquer un art chrétien à partir de traditions ornementales très différentes ?",
+      "caracteristiques": [
+        "Entrelacs d'une complexité extrême (héritage celte/germanique).",
+        "Figures schématiques, peu de réalisme.",
+        "Art précieux et miniature : manuscrits, reliures, orfèvrerie.",
+        "Renaissance carolingienne : retour ponctuel vers l'antique."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Les Évangiles de Lindisfarne",
+          "artiste": "Moines (Lindisfarne)",
+          "annee": "~700",
+          "lieu": "Angleterre",
+          "wiki": "Lindisfarne Gospels",
+          "genie": "Pages-tapis couvertes d'entrelacs vertigineux mêlés de symboles chrétiens. La patience et l'abstraction barbares mises au service de la foi : un sommet d'ornement, sans aucun souci de réalisme."
+        },
+        {
+          "titre": "La chapelle Palatine d'Aix",
+          "artiste": "Anonyme (carolingien)",
+          "annee": "~800",
+          "lieu": "Aix-la-Chapelle",
+          "wiki": "Palatine Chapel, Aachen",
+          "genie": "Architecture qui imite consciemment Rome et Byzance. Charlemagne veut ressusciter l'Empire : première tentative de « renaissance » antique en Occident."
+        }
+      ],
+      "artistes_note": "Moines anonymes, copistes et enlumineurs. L'individu s'efface derrière l'œuvre collective du monastère.",
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Évangiles de Lindisfarne",
+              true,
+              "~700",
+              "Entrelacs + christianisme"
+            ],
+            [
+              "Évangiles de Kells",
+              false,
+              "~800",
+              "Apogée de l'enluminure celte"
+            ],
+            [
+              "Chapelle d'Aix",
+              true,
+              "~800",
+              "Renaissance carolingienne"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Byzance/Rome (ch. 6) + traditions germaniques.",
+        "mene": "L'art roman (ch. 9), quand l'Europe se stabilise et bâtit en pierre."
+      },
+      "memos": [
+        "Haut Moyen Âge = creuset : entrelacs barbares + signes chrétiens.",
+        "L'art se réfugie dans le manuscrit enluminé monastique.",
+        "Charlemagne = première « renaissance » antique."
+      ],
+      "autotest": [
+        "Pourquoi l'art se concentre-t-il dans les monastères ?",
+        "Que mélange le « creuset » du haut Moyen Âge ?",
+        "Que tente Charlemagne sur le plan artistique ?"
+      ]
+    },
+    {
+      "id": "art-roman",
+      "titre": "L'Église militante",
+      "periode": "≈ 1000 – 1150",
+      "couleur": "#7a5c8a",
+      "sous_titre": "L'art roman, ce sont des forteresses de Dieu : la pierre lourde au service d'une foi qui veut impressionner et enseigner.",
+      "carte": [
+        [
+          "Dates",
+          "~1000 – 1150"
+        ],
+        [
+          "Foyers",
+          "France, Allemagne, Italie, Espagne"
+        ],
+        [
+          "Idée-mère",
+          "Une Église forte bâtit en pierre des forteresses de la foi"
+        ],
+        [
+          "Style",
+          "Roman : massif, voûté, sombre, puissant"
+        ]
+      ],
+      "bascule": "Vers l'an mil, l'Europe se stabilise et se christianise en profondeur. L'Église est puissante et conquérante (« militante ») : pèlerinages, croisades, ordres monastiques. Elle a besoin de grandes églises en pierre pour accueillir les foules et impressionner. On revient à l'architecture monumentale (perdue depuis Rome), mais avec des moyens limités : d'où le style roman — murs épais, petites fenêtres, voûtes en berceau lourdes, arcs en plein cintre. Sombre, massif, solide comme une forteresse. La sculpture renaît sur les portails (tympans), au service du message : terrifier et instruire des fidèles illettrés.",
+      "phrase": "L'art roman, ce sont des forteresses de Dieu : la pierre lourde au service d'une foi qui veut impressionner et enseigner.",
+      "probleme": "Comment bâtir de grandes églises de pierre, et y sculpter un message clair pour des fidèles qui ne savent pas lire ?",
+      "caracteristiques": [
+        "Murs épais, fenêtres petites → intérieurs sombres.",
+        "Voûte en berceau, arc en plein cintre (demi-cercle).",
+        "Plan massif, allure de forteresse.",
+        "Sculpture des tympans : expressive, parfois déformée pour le message, pas pour le réalisme."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Cathédrale de Durham",
+          "artiste": "Anonyme (roman)",
+          "annee": "~1100",
+          "lieu": "Angleterre",
+          "wiki": "Durham Cathedral",
+          "genie": "Énormes piliers, voûtes pesantes, masse imposante. L'ingénierie romane : on réapprend à couvrir de grands espaces en pierre, au prix de murs colossaux."
+        },
+        {
+          "titre": "Tympan d'Autun (Jugement dernier)",
+          "artiste": "Gislebertus",
+          "annee": "~1130",
+          "lieu": "Autun",
+          "wiki": "Gislebertus",
+          "genie": "Christ en gloire, damnés tordus de terreur. La sculpture enseigne et effraie : les corps sont allongés, déformés, non par maladresse mais pour frapper l'esprit. L'expression prime sur le réel."
+        }
+      ],
+      "artistes_note": "Majoritairement anonymes. Rare exception : Gislebertus, qui a signé le tympan d'Autun — signe précoce d'une fierté d'artiste.",
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Cathédrale de Durham",
+              true,
+              "~1100",
+              "Ingénierie romane, masse"
+            ],
+            [
+              "Voûte en berceau",
+              true,
+              "XIe-XIIe s.",
+              "Technique de couverture"
+            ],
+            [
+              "Tympan d'Autun (Gislebertus)",
+              true,
+              "~1130",
+              "Sculpture-message, signée"
+            ],
+            [
+              "Vézelay",
+              false,
+              "~1120",
+              "Portail sculpté"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le haut Moyen Âge (ch. 8), quand l'Europe se stabilise et peut bâtir.",
+        "mene": "Le gothique (ch. 10), qui allègera ces murs lourds pour faire entrer la lumière."
+      },
+      "memos": [
+        "Roman = lourd, sombre, voûte en berceau, arc en plein cintre.",
+        "Tympan = la BD de pierre pour fidèles illettrés (instruire + effrayer).",
+        "Gislebertus = l'un des premiers sculpteurs à signer."
+      ],
+      "autotest": [
+        "Pourquoi les églises romanes sont-elles si massives et sombres ?",
+        "À quoi servent les tympans sculptés ?",
+        "Pourquoi les figures romanes sont-elles parfois déformées ?"
+      ]
+    },
+    {
+      "id": "art-gothique",
+      "titre": "L'Église triomphante",
+      "periode": "≈ 1150 – 1300",
+      "couleur": "#8a5ca0",
+      "sous_titre": "Le gothique transforme le mur en lumière : la cathédrale devient une montée vertigineuse vers le ciel.",
+      "carte": [
+        [
+          "Dates",
+          "~1150 – 1300"
+        ],
+        [
+          "Foyer",
+          "France d'abord (Île-de-France), puis toute l'Europe"
+        ],
+        [
+          "Idée-mère",
+          "Faire entrer la lumière divine : des cathédrales de verre et de hauteur"
+        ],
+        [
+          "Style",
+          "Gothique : élancé, lumineux, ajouré"
+        ]
+      ],
+      "bascule": "L'Église n'est plus seulement militante mais triomphante : prospère, sûre d'elle, capable de chantiers colossaux financés par des villes entières. Trois innovations (l'arc brisé, la voûte sur croisée d'ogives, l'arc-boutant extérieur) reportent le poids hors des murs. Résultat : on peut percer les murs de gigantesques fenêtres. L'église romane sombre devient une cage de lumière colorée par les vitraux. On cherche la hauteur (élévation vers Dieu) et la clarté. La sculpture, elle, redevient progressivement plus naturelle et humaine.",
+      "phrase": "Le gothique transforme le mur en lumière : la cathédrale devient une montée vertigineuse vers le ciel.",
+      "probleme": "Comment supprimer les murs porteurs pour faire entrer un maximum de lumière et monter toujours plus haut ?",
+      "caracteristiques": [
+        "Arc brisé, voûte sur croisée d'ogives, arc-boutant.",
+        "Grands vitraux, rosaces : la lumière colorée.",
+        "Verticalité extrême, dentelle de pierre.",
+        "Sculpture qui s'humanise (drapés, visages, émotions)."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Cathédrale de Chartres",
+          "artiste": "Anonyme (gothique)",
+          "annee": "~1200",
+          "lieu": "Chartres",
+          "wiki": "Chartres Cathedral",
+          "genie": "Forêt de piliers élancés, immenses verrières bleues et rouges. Le mur a quasiment disparu au profit du vitrail, et l'espace s'élance vers le haut. Lumière = présence divine."
+        },
+        {
+          "titre": "Statues-colonnes des portails",
+          "artiste": "Anonyme (gothique)",
+          "annee": "~1230",
+          "lieu": "Chartres, Reims",
+          "wiki": "Reims Cathedral",
+          "genie": "Saints d'abord raides, puis de plus en plus naturels, jusqu'à des sourires et des poses vivantes. La sculpture redécouvre l'humain — une marche qui mènera tout droit à Giotto et à la Renaissance."
+        }
+      ],
+      "artistes_note": "Largement anonymes (maîtres d'œuvre, ateliers de tailleurs). Quelques noms émergent, comme Nicola Pisano en Italie, qui ravive l'antique dans la sculpture.",
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Cathédrale de Chartres",
+              true,
+              "~1200",
+              "Vitraux, lumière, hauteur"
+            ],
+            [
+              "Notre-Dame de Paris",
+              false,
+              "~1200",
+              "Gothique parisien"
+            ],
+            [
+              "Arc-boutant / croisée d'ogives",
+              true,
+              "XIIe-XIIIe s.",
+              "La technique-clé"
+            ],
+            [
+              "Statues de Reims/Naumburg",
+              true,
+              "~1230-50",
+              "Sculpture qui s'humanise"
+            ],
+            [
+              "Nicola Pisano",
+              false,
+              "~1260",
+              "Retour à l'antique (Italie)"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "L'art roman (ch. 9), dont il allège les murs lourds.",
+        "mene": "Le XIVe siècle et Giotto (ch. 11), où la peinture reprend cette humanisation et invente l'espace."
+      },
+      "memos": [
+        "Gothique = arc brisé + croisée d'ogives + arc-boutant → mur de verre.",
+        "Vitrail = la lumière divine ; verticalité = montée vers Dieu.",
+        "La sculpture gothique s'humanise → route vers la Renaissance."
+      ],
+      "autotest": [
+        "Quelles trois innovations techniques rendent le gothique possible ?",
+        "Pourquoi les cathédrales gothiques sont-elles si lumineuses ?",
+        "Comment évolue la sculpture au fil du XIIIe siècle ?"
+      ]
+    },
+    {
+      "id": "xive-giotto",
+      "titre": "Courtisans et bourgeois",
+      "periode": "≈ 1300 – 1400",
+      "couleur": "#b07ab0",
+      "sous_titre": "Avec Giotto, les figures peintes cessent d'être des symboles plats pour redevenir des êtres de chair, dans un espace réel.",
+      "carte": [
+        [
+          "Dates",
+          "~1300 – 1400"
+        ],
+        [
+          "Foyers",
+          "Italie (Florence, Sienne) · cours d'Europe"
+        ],
+        [
+          "Idée-mère",
+          "La peinture redécouvre l'émotion, le poids et l'espace : la grande charnière"
+        ],
+        [
+          "Figure centrale",
+          "Giotto, le « grand-père » de la Renaissance"
+        ]
+      ],
+      "bascule": "Le XIVe voit monter les villes marchandes (Florence) et le raffinement des cours. Deux publics, deux goûts : la bourgeoisie urbaine et l'aristocratie courtoise. C'est aussi le siècle de la grande peste (1348) et d'une piété nouvelle, plus humaine (saint François). Giotto rompt avec l'or et la raideur byzantine : ses personnages ont du poids, occupent un espace, éprouvent de vraies émotions — ils pleurent, se détournent, se touchent. Pour la première fois depuis l'Antiquité, une scène peinte semble se passer dans un lieu réel. En parallèle fleurit le gothique international : élégant, raffiné, doré, courtois.",
+      "phrase": "Avec Giotto, les figures peintes cessent d'être des symboles plats pour redevenir des êtres de chair, dans un espace réel.",
+      "probleme": "Comment redonner à la peinture le poids, l'espace et l'émotion perdus depuis l'Antiquité ?",
+      "caracteristiques": [
+        "Giotto : volume, espace, gravité, émotions humaines, sobriété.",
+        "Gothique international (Sienne, cours) : grâce, lignes fluides, or, détail précieux, élégance courtoise."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Fresques de la chapelle des Scrovegni",
+          "artiste": "Giotto",
+          "annee": "~1305",
+          "lieu": "Padoue",
+          "wiki": "Lamentation (Giotto)",
+          "genie": "Scènes où les personnages, massifs et expressifs, réagissent en vrais humains (la Lamentation : douleur retenue, anges qui pleurent). Giotto réinvente l'espace et l'émotion : on lit les sentiments sur les visages. Révolution silencieuse qui fonde tout l'art à venir."
+        },
+        {
+          "titre": "Le gothique international",
+          "artiste": "Simone Martini, Limbourg",
+          "annee": "~1330-1400",
+          "lieu": "Sienne, cours",
+          "wiki": "Très Riches Heures du Duc de Berry",
+          "genie": "Vierges gracieuses sur fond d'or, scènes courtoises au détail exquis (Très Riches Heures du duc de Berry). L'autre voie du siècle : non le poids et le réel, mais la grâce raffinée d'un monde aristocratique."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Giotto",
+          "dates": "~1267-1337",
+          "role": "la charnière",
+          "wiki": "Giotto",
+          "portrait": "LA charnière : poids, espace, émotion. Le grand-père de la Renaissance."
+        },
+        {
+          "niveau": "○",
+          "nom": "Duccio",
+          "dates": "~1255-1319",
+          "role": "Sienne",
+          "wiki": "Duccio",
+          "portrait": "Sienne ; douceur, or, transition (Maestà)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Simone Martini",
+          "dates": "~1284-1344",
+          "role": "gothique int.",
+          "wiki": "Simone Martini",
+          "portrait": "Gothique international, élégance courtoise (Annonciation)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Les frères Lorenzetti",
+          "dates": "XIVe s.",
+          "role": "Sienne",
+          "wiki": "Ambrogio Lorenzetti",
+          "portrait": "Espace et vie civique (fresques du Bon Gouvernement)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Frères Limbourg",
+          "dates": "~1400",
+          "role": "cour",
+          "wiki": "Limbourg brothers",
+          "portrait": "Enluminure de cour (Très Riches Heures)."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Giotto",
+              true,
+              "~1267-1337",
+              "Chapelle des Scrovegni (Padoue)"
+            ],
+            [
+              "Duccio",
+              false,
+              "~1255-1319",
+              "Maestà (Sienne)"
+            ],
+            [
+              "Simone Martini",
+              false,
+              "~1284-1344",
+              "Annonciation"
+            ],
+            [
+              "Lorenzetti",
+              false,
+              "XIVe s.",
+              "Allégorie du Bon Gouvernement"
+            ],
+            [
+              "Frères Limbourg",
+              false,
+              "~1400",
+              "Très Riches Heures du duc de Berry"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le gothique (ch. 10), dont il prolonge l'humanisation de la sculpture, désormais en peinture.",
+        "mene": "Directement la Renaissance (ch. 12-17) — Masaccio, un siècle plus tard, reprendra et systématisera la voie ouverte par Giotto."
+      },
+      "memos": [
+        "Giotto = le grand-père de la Renaissance : poids, espace, émotion.",
+        "Deux goûts au XIVe : Giotto (réel, gravité) vs gothique international (grâce, or).",
+        "La chapelle des Scrovegni = le point de départ de l'art moderne occidental."
+      ],
+      "autotest": [
+        "Pourquoi Giotto est-il une charnière décisive ?",
+        "Qu'apporte-t-il que l'art byzantin avait perdu ?",
+        "Qu'est-ce que le gothique international, et en quoi diffère-t-il de Giotto ?",
+        "Quel lien direct avec Masaccio et la Renaissance ?"
+      ]
     }
   ]
 }

@@ -498,7 +498,8 @@
           "niveau": "",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "rome-byzance"
     },
     {
       "num": 7,
@@ -563,7 +564,8 @@
           "niveau": "",
           "detail": "préfigure le Japon"
         }
-      ]
+      ],
+      "dossier": "islam-chine"
     },
     {
       "num": 8,
@@ -618,7 +620,8 @@
           "niveau": "",
           "detail": "chapelle d'Aix"
         }
-      ]
+      ],
+      "dossier": "haut-moyen-age"
     },
     {
       "num": 9,
@@ -665,7 +668,8 @@
           "niveau": "○",
           "detail": "Autun"
         }
-      ]
+      ],
+      "dossier": "art-roman"
     },
     {
       "num": 10,
@@ -730,7 +734,8 @@
           "niveau": "○",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "art-gothique"
     },
     {
       "num": 11,
@@ -800,7 +805,8 @@
           "niveau": "",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "xive-giotto"
     },
     {
       "num": 12,
