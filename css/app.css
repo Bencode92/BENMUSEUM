@@ -109,6 +109,19 @@ ul.dots li { margin: 4px 0; }
 .quiz .opt.bad { background: #fbe9e7; border-color: #c0392b; }
 .quiz .next { display: block; margin: 18px auto 0; background: var(--gold); color: #fff; border: none; padding: 11px 26px; border-radius: 999px; font: inherit; cursor: pointer; }
 
+/* ---- dossiers (modules riches) ---- */
+.dossier h2.sec { font-family: Georgia, serif; font-size: 22px; margin: 30px 0 8px; border-bottom: 2px solid var(--line); padding-bottom: 6px; }
+.kv { width: 100%; border-collapse: collapse; margin-top: 4px; }
+.kv td { border: 1px solid var(--line); padding: 9px 12px; vertical-align: top; }
+.kv td:first-child { font-weight: 600; width: 28%; background: #faf7f0; }
+.memo { background: #faf3df; border-left: 3px solid var(--gold); padding: 10px 14px; border-radius: 6px; margin: 14px 0; font-style: italic; }
+.phrase { font-family: Georgia, serif; font-size: 18px; line-height: 1.5; background: var(--card); border: 1px solid var(--gold); border-radius: 10px; padding: 16px 18px; margin: 12px 0; box-shadow: var(--shadow); }
+.tbl { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 6px; }
+.tbl th, .tbl td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.tbl th { background: #faf7f0; font-family: Georgia, serif; }
+.star { color: var(--gold); }
+ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
+
 @media (max-width: 820px) {
   #layout { flex-direction: column; }
   #floors { position: static; flex: none; }
