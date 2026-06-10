@@ -72,6 +72,7 @@ h1, h2, h3, .serif { font-family: "Georgia", "Times New Roman", serif; }
 .card .thumb { width: 100%; aspect-ratio: 4/3; background: #ece6d8 center/cover no-repeat; }
 .card .body { padding: 12px 14px; }
 .card .body .t { font-weight: 600; font-family: Georgia, serif; }
+.chapnum { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; color: #fff; font-size: 12px; font-family: -apple-system, sans-serif; vertical-align: middle; }
 .card .body .s { font-size: 13px; color: var(--muted); }
 .card .body .r { font-size: 13px; color: var(--muted); margin-top: 4px; }
 
