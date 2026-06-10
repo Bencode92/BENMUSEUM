@@ -80,6 +80,7 @@ function route() {
   document.querySelectorAll(".tab").forEach(b => b.classList.toggle("active", b.dataset.nav === "#/" + tabKey));
   scrollTo(0, 0);
   if (top === "quiz") { setActiveFloor(-1); return renderQuiz(); }
+  if (top === "parcours") { setActiveFloor(-1); return renderParcours(); }
   if (top === "favoris") { setActiveFloor(-1); return renderFavoris(); }
   if (top === "dossiers") { setActiveFloor(-1); return renderDossiersList(); }
   if (top === "d") { setActiveFloor(-1); return renderDossier(parts[1]); }
@@ -136,6 +137,13 @@ function renderChapitre(ci) {
     <div class="block"><h3>L'idée du chapitre</h3><p>${esc(c.idee)}</p></div>
     ${c.notion ? `<div class="memo"><b>Notion :</b> ${esc(c.notion)}</div>` : ""}
     ${dossier ? `<a class="dossier-link" data-nav="#/d/${dossier.id}">📚 Dossier complet : ${esc(dossier.titre)} →</a>` : ""}
+    ${dossier && (dossier.probleme || dossier.liens) ? `
+      <div class="block fil">
+        <h3>🧵 Le fil</h3>
+        ${dossier.probleme ? `<p><b>Pourquoi on crée :</b> ${esc(dossier.probleme)}</p>` : ""}
+        ${dossier.liens?.d_ou ? `<p><b>← D'où ça vient :</b> ${esc(dossier.liens.d_ou)}</p>` : ""}
+        ${dossier.liens?.mene ? `<p><b>Où ça mène → :</b> ${esc(dossier.liens.mene)}</p>` : ""}
+      </div>` : ""}
     ${roster.length ? `
       <h2 style="margin:22px 0 0;font-size:20px">Qui / quoi couvre ce chapitre <small style="font-weight:normal;color:var(--muted);font-size:13px">(★ central · ○ secondaire — coche ce que tu sais)</small></h2>
       <ul class="roster">${roster.map(it => {
@@ -455,4 +463,60 @@ function wireNotes() {
       addNote(scope, v); ta.value = ""; renderNotesList(box, scope);
     };
   });
+}
+
+/* =========================================================================
+   PARCOURS — le fil rouge accessible (cycles, contexte, mouvements, pourquoi)
+   ========================================================================= */
+const ACTES = [
+  { titre: "Acte I — Aux origines", ch: "1 → 2", chFrom: 1, couleur: "#b06a2c",
+    contexte: "Avant l'État puis avec les premiers grands empires. L'art n'existe pas « pour le beau ».",
+    pourquoi: "On crée pour AGIR sur le monde : magie de la chasse (préhistoire), survie dans l'au-delà (Égypte).",
+    mouvements: ["Art pariétal", "Art égyptien", "Mésopotamie, Crète"],
+    cle: "Représenter ce qu'on SAIT, pas ce qu'on voit." },
+  { titre: "Acte II — Le grand regard", ch: "3 → 5", chFrom: 3, couleur: "#4f7fb5",
+    contexte: "Cités grecques et démocratie, puis l'Empire romain.",
+    pourquoi: "On crée pour COMPRENDRE et idéaliser le monde visible : le corps, le mouvement, la beauté.",
+    mouvements: ["Classicisme grec", "Hellénistique (pathos)", "Art romain"],
+    cle: "L'œil devient juge : on peint enfin ce qu'on VOIT." },
+  { titre: "Acte III — L'âge du sacré", ch: "6 → 11", chFrom: 6, couleur: "#8a5ca0",
+    contexte: "Chute de Rome, Église toute-puissante, Byzance — et en parallèle, l'Islam et la Chine.",
+    pourquoi: "On crée pour CROIRE : l'image devient signe du divin. Le réalisme est volontairement abandonné… puis Giotto le ranime.",
+    mouvements: ["Byzantin", "Islam / Chine", "Roman", "Gothique", "Giotto"],
+    cle: "L'image au service de la foi ; le réalisme se perd, puis renaît." },
+  { titre: "Acte IV — La conquête du réel", ch: "12 → 17", chFrom: 12, couleur: "#2f8f5a",
+    contexte: "Florence des Médicis, Rome des papes, Venise, et la Renaissance du Nord.",
+    pourquoi: "On crée pour MAÎTRISER le monde : perspective, anatomie, lumière. L'artiste devient un génie.",
+    mouvements: ["Première Renaissance", "Haute Renaissance", "Venise (couleur)", "Nord (détail)"],
+    cle: "Le réalisme reconquis et porté à la perfection." },
+  { titre: "Acte V — Le drame et le pouvoir", ch: "18 → 23", chFrom: 18, couleur: "#b5642a",
+    contexte: "Contre-Réforme, monarchies absolues, marché libre hollandais, Lumières.",
+    pourquoi: "On crée pour ÉMOUVOIR et IMPRESSIONNER : après la perfection, on la tord, on frappe, on séduit, on observe.",
+    mouvements: ["Maniérisme", "Baroque", "Hollande", "Rococo", "Âge de raison"],
+    cle: "La perfection acquise : la déformer, l'émouvoir, l'observer." },
+  { titre: "Acte VI — La liberté et l'expérience", ch: "24 → 27", chFrom: 24, couleur: "#c0392b",
+    contexte: "Révolutions politiques et industrielles, invention de la photographie, XXe siècle.",
+    pourquoi: "On crée pour S'EXPRIMER et CHERCHER : la tradition se brise, la photo prend l'imitation, l'art se demande ce qu'il peut être.",
+    mouvements: ["Néoclassicisme / Romantisme", "Réalisme", "Impressionnisme", "Cubisme · Abstraction · Surréalisme · Dada"],
+    cle: "L'artiste libre : l'art n'imite plus, il invente." },
+];
+
+function renderParcours() {
+  crumb([{ label: "Parcours" }]);
+  const chToIndex = n => { const i = CHAPITRES.findIndex(c => c.num === n); return i < 0 ? 0 : i; };
+  $("view").innerHTML = `
+    <div class="pagehead">
+      <h1>Le fil de l'histoire de l'art</h1>
+      <p class="lead">Toute l'histoire de l'art tient en une question qui évolue : <i>comment, et pourquoi, faire une image ?</i> Voici le fil rouge — le contexte, les mouvements et la motivation de chaque grande époque.</p>
+    </div>
+    <div class="phrase">🧵 <b>Le grand cycle :</b> la Grèce apprend à <b>voir</b> (Acte II), le Moyen Âge l'oublie volontairement pour <b>croire</b> (Acte III), la Renaissance <b>reconquiert</b> le réel (Acte IV), et le XXe siècle s'en <b>libère</b> (Acte VI). L'art respire entre <b>représenter</b> et <b>signifier</b>.</div>
+    ${ACTES.map(a => `
+      <div class="acte" style="border-left:5px solid ${a.couleur}">
+        <h2 class="sec" style="border:none;margin:10px 0 4px">${esc(a.titre)} <small style="color:var(--muted);font-weight:normal;font-size:14px">· chapitres ${esc(a.ch)}</small></h2>
+        <p><b>🌍 Contexte —</b> ${esc(a.contexte)}</p>
+        <p><b>🎯 Pourquoi on crée —</b> ${esc(a.pourquoi)}</p>
+        <p><b>🗺 Mouvements —</b> ${a.mouvements.map(m => `<span class="tag">${esc(m)}</span>`).join(" ")}</p>
+        <div class="memo">${esc(a.cle)}</div>
+        <a class="dossier-link" data-nav="#/c/${chToIndex(a.chFrom)}">Entrer dans l'Acte (ch. ${a.chFrom}) →</a>
+      </div>`).join("")}`;
 }
