@@ -70,9 +70,26 @@ function setActiveFloor(ci) {
 addEventListener("hashchange", route);
 document.addEventListener("click", e => {
   if (e.target.closest("[data-fav]")) return; // géré par le handler favoris
+  const z = e.target.closest("[data-zoom]");
+  if (z) { e.preventDefault(); e.stopPropagation(); openZoom(z.dataset.zoom, z.dataset.cap || ""); return; }
   const t = e.target.closest("[data-nav]");
   if (t) { e.preventDefault(); location.hash = t.dataset.nav; }
 });
+
+/* ---------- visionneuse plein écran (zoom immersif) ---------- */
+function openZoom(wiki, cap) {
+  const lb = $("lightbox"); if (!lb) return;
+  $("lbcap").textContent = cap || ""; $("lbimg").src = "";
+  lb.hidden = false;
+  const hi = IMAGES[wiki] && (IMAGES[wiki].url || IMAGES[wiki].thumb);
+  if (hi) $("lbimg").src = hi; else getImageUrl(wiki).then(u => { if (u) $("lbimg").src = u; });
+}
+function closeZoom() { const lb = $("lightbox"); if (lb) { lb.hidden = true; $("lbimg").src = ""; } }
+if ($("lightbox")) {
+  $("lbclose").onclick = closeZoom;
+  $("lightbox").addEventListener("click", e => { if (e.target.id === "lightbox" || e.target.id === "lbclose") closeZoom(); });
+  addEventListener("keydown", e => { if (e.key === "Escape") closeZoom(); });
+}
 function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   const top = parts[0] || "";
@@ -188,7 +205,7 @@ function renderOeuvre(ci, oi) {
   const next = oi < c.oeuvres.length - 1 ? `#/c/${ci}/o/${oi + 1}` : null;
   $("view").innerHTML = `
     <div class="fiche">
-      <img class="img" alt="${esc(o.titre)}" data-wiki="${esc(o.wiki)}" />
+      <img class="img zoomable" alt="${esc(o.titre)}" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}" />
       <div class="info">
         <h1>${esc(o.titre)} ${favBtn(`oeuvre:${ci}:${oi}`, `${o.titre} — ${o.artiste}`, `#/c/${ci}/o/${oi}`, "œuvre")}</h1>
         <div class="meta">${esc(o.artiste)} · ${esc(o.annee)}</div>
@@ -343,16 +360,21 @@ function renderDossier(id) {
   const ul = arr => `<ul class="dots">${arr.map(c => `<li>${esc(c)}</li>`).join("")}</ul>`;
   const P = [];
 
-  P.push(`<div class="pagehead"><div class="ep">${esc(d.periode)}</div>
-    <h1>${esc(d.titre)} ${favBtn(`dossier:${d.id}`, d.titre, `#/d/${d.id}`, "dossier")}</h1>
-    ${d.sous_titre ? `<p class="lead">${esc(d.sous_titre)}</p>` : ""}</div>`);
+  const heroWiki = (d.oeuvres || []).map(o => o.wiki).find(w => IMAGES[w])
+    || (d.artistes || []).map(a => a.wiki).find(w => IMAGES[w]) || "";
+  P.push(`<div class="dossier-hero" ${heroWiki ? `data-wiki="${esc(heroWiki)}"` : ""}>
+    <div class="hero-overlay">
+      <div class="ep">${esc(d.periode)}</div>
+      <h1>${esc(d.titre)} ${favBtn(`dossier:${d.id}`, d.titre, `#/d/${d.id}`, "dossier")}</h1>
+      ${d.sous_titre ? `<p class="lead">${esc(d.sous_titre)}</p>` : ""}
+    </div></div>`);
 
   if (d.recit) P.push(sec("📖 Le récit, à travers les œuvres",
     d.recit.map(s => {
       const o = recitImage(d, (s.h || "") + " " + (s.p || ""));
       return `<div class="recit-block${o ? " illus" : ""}">
-        ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" alt="${esc(o.caption)}" />
-          <figcaption>${esc(o.caption)}</figcaption></figure>` : ""}
+        ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.caption)}" alt="${esc(o.caption)}" />
+          <figcaption>${esc(o.caption)} <span class="zoomhint">🔍 cliquer pour agrandir</span></figcaption></figure>` : ""}
         <div class="recit-txt"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div>
       </div>`;
     }).join("")));
@@ -392,7 +414,7 @@ function renderDossier(id) {
 
   if (d.oeuvres) P.push(sec("🖼 Pourquoi c'est du génie (œuvres décortiquées)",
     `<div class="grid cols">${d.oeuvres.map(o => `
-      <div class="card"><div class="thumb" data-wiki="${esc(o.wiki)}"></div>
+      <div class="card"><div class="thumb zoomable" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}"></div>
         <div class="body"><div class="t">${esc(o.titre)} ${favBtn(`oeuvre-d:${d.id}:${o.titre}`, `${o.titre} — ${o.artiste}`, `#/d/${d.id}`, "œuvre")}</div>
         <div class="s">${esc(o.artiste)} · ${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
         <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p>
@@ -400,7 +422,7 @@ function renderDossier(id) {
 
   if (d.artistes) P.push(sec("👤 Les artistes",
     `<div class="grid cols">${d.artistes.map(a => `
-      <div class="card"><div class="thumb" data-wiki="${esc(a.wiki)}"></div>
+      <div class="card"><div class="thumb zoomable" data-wiki="${esc(a.wiki)}" data-zoom="${esc(a.wiki)}" data-cap="${esc(a.nom)}"></div>
         <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)} ${favBtn(`artiste:${a.nom}`, a.nom, `#/d/${d.id}`, "artiste")}</div>
         <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
         <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p>
