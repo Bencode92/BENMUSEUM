@@ -1294,7 +1294,8 @@
           "annee": "~1680",
           "lieu": "église du Gesù, Rome",
           "wiki": "The Worship of the Holy Name of Jesus",
-          "genie": "Le plafond de l'église semble se déchirer : des figures débordent du cadre, projetant des ombres sur la voûte réelle. L'illusion abolit la frontière entre l'espace peint et l'espace réel."
+          "genie": "Le plafond de l'église semble se déchirer : des figures débordent du cadre, projetant des ombres sur la voûte réelle. L'illusion abolit la frontière entre l'espace peint et l'espace réel.",
+          "analyse": "Gaulli, vers 1680, au plafond de l'église du Gesù à Rome. Le miracle est dans la fusion totale : le cadre architectural peint se prolonge dans le vrai stuc doré, des figures sculptées débordent sur la voûte et y projettent de fausses ombres, si bien que l'œil ne distingue plus le réel du peint. Au centre, un éclat de lumière — le monogramme du Christ — vers lequel montent les élus tandis que les damnés semblent tomber hors du cadre, vers nous. La voûte de l'église s'ouvre littéralement sur le ciel : c'est le sommet de l'illusion baroque."
         },
         {
           "titre": "Fresques de Tiepolo",
@@ -1302,7 +1303,8 @@
           "annee": "~1750",
           "lieu": "Würzburg, Venise",
           "wiki": "Würzburg Residence",
-          "genie": "D'immenses plafonds de cieux lumineux et de scènes flottantes, d'une légèreté inégalée. Sommet et chant du cygne de la grande peinture décorative : après lui, plus personne ne fera mieux."
+          "genie": "D'immenses plafonds de cieux lumineux et de scènes flottantes, d'une légèreté inégalée. Sommet et chant du cygne de la grande peinture décorative : après lui, plus personne ne fera mieux.",
+          "analyse": "À la Résidence de Würzburg (vers 1750), Tiepolo couvre le plafond du grand escalier de la plus vaste fresque du monde. Au-dessus de la tête du visiteur qui monte, un ciel immense et clair où les quatre continents alors connus sont personnifiés, peuplés d'une foule de figures qui flottent dans une lumière dorée. La virtuosité est stupéfiante : tout semble léger, aérien, joyeux. C'est l'apothéose de la peinture décorative — et son adieu : aucun artiste après Tiepolo ne portera ce genre aussi haut."
         },
         {
           "titre": "Vues de Venise",
@@ -1310,7 +1312,8 @@
           "annee": "~1730",
           "lieu": "Venise",
           "wiki": "The Stonemason's Yard",
-          "genie": "Vedute d'une précision quasi photographique, vendues aux aristocrates anglais en voyage. La ville devient sujet : un art profane, documentaire et commercial."
+          "genie": "Vedute d'une précision quasi photographique, vendues aux aristocrates anglais en voyage. La ville devient sujet : un art profane, documentaire et commercial.",
+          "analyse": "Canaletto peint le Grand Canal, la place Saint-Marc, les régates et les fêtes avec une exactitude topographique presque photographique : chaque palais, chaque reflet est à sa place, sous une lumière limpide. Mais c'est une exactitude recomposée, idéalisée, pour séduire l'œil. Vendues aux jeunes aristocrates anglais en Grand Tour, ces vues sont les souvenirs de luxe de l'époque — l'art devient document et commerce. Une grande partie est aujourd'hui en Angleterre, rapportée dans les bagages des voyageurs d'alors."
         }
       ],
       "artistes": [
@@ -1320,7 +1323,8 @@
           "dates": "1696-1770",
           "role": "",
           "wiki": "Giovanni Battista Tiepolo",
-          "portrait": "Le dernier grand maître du plafond baroque ; Venise, puis Würzburg et Madrid. Légèreté solaire."
+          "portrait": "Le dernier grand maître du plafond baroque ; Venise, puis Würzburg et Madrid. Légèreté solaire.",
+          "bio_longue": "Giambattista Tiepolo (1696-1770) est le dernier grand maître de la fresque baroque, et le plus grand décorateur du XVIIIe siècle. Vénitien, d'une facilité prodigieuse, il couvre d'immenses plafonds de cieux lumineux où des dizaines de figures semblent voler. Sa renommée est telle qu'on l'appelle à Würzburg pour décorer la résidence des princes-évêques (son plus vaste chef-d'œuvre), puis à Madrid au service du roi d'Espagne, où il meurt. Avec lui s'achève l'âge d'or de la peinture décorative italienne."
         },
         {
           "niveau": "○",
@@ -1328,7 +1332,8 @@
           "dates": "1639-1709",
           "role": "",
           "wiki": "Giovanni Battista Gaulli",
-          "portrait": "Maître de l'illusion de plafond (Gesù)."
+          "portrait": "Maître de l'illusion de plafond (Gesù).",
+          "bio_longue": "Giovanni Battista Gaulli, dit Baciccio (1639-1709), est le maître de l'illusion de plafond. Protégé du Bernin, il réalise au Gesù de Rome le Triomphe du nom de Jésus, sommet du trompe-l'œil baroque où peinture, stuc et architecture se confondent pour faire éclater la voûte vers le ciel."
         },
         {
           "niveau": "★",
@@ -1336,7 +1341,8 @@
           "dates": "1697-1768",
           "role": "",
           "wiki": "Canaletto",
-          "portrait": "Roi de la veduta vénitienne ; travaille beaucoup pour le marché anglais."
+          "portrait": "Roi de la veduta vénitienne ; travaille beaucoup pour le marché anglais.",
+          "bio_longue": "Canaletto (Giovanni Antonio Canal, 1697-1768) est le roi de la veduta vénitienne. Fils de décorateur de théâtre, il transpose ce sens de la mise en scène dans des vues d'une précision saisissante (il s'aidait peut-être d'une chambre obscure). Sa clientèle est surtout anglaise — les voyageurs du Grand Tour — au point qu'il passe une dizaine d'années à Londres à peindre la Tamise. Ses Venises lumineuses et exactes sont devenues l'image même de la ville."
         },
         {
           "niveau": "○",
@@ -1344,7 +1350,8 @@
           "dates": "1712-1793",
           "role": "",
           "wiki": "Francesco Guardi",
-          "portrait": "Vedute plus libres, atmosphériques, presque pré-impressionnistes."
+          "portrait": "Vedute plus libres, atmosphériques, presque pré-impressionnistes.",
+          "bio_longue": "Francesco Guardi (1712-1793) peint, comme Canaletto, les vues de Venise, mais d'une touche libre, nerveuse, atmosphérique qui annonce l'impressionnisme. Moins exact mais plus poétique, il capte la lumière mouvante de la lagune et la mélancolie d'une cité finissante. Il meurt quatre ans avant la chute de la République : le dernier grand peintre de l'âge d'or vénitien."
         }
       ],
       "index": [
@@ -1391,6 +1398,28 @@
         "Qu'est-ce que la quadratura ? Une veduta ?",
         "Comment le plafond du Gesù abolit-il la frontière peint/réel ?",
         "Pourquoi Canaletto travaillait-il pour les Anglais ?"
+      ],
+      "recit": [
+        {
+          "h": "Après le grand Baroque : éblouir, non plus convertir",
+          "p": "Le grand Baroque héroïque du Bernin et de Caravage a triomphé. Au siècle suivant, l'Italie n'invente plus de rupture : elle pousse l'illusion décorative à son comble. Les commanditaires — Église, princes, riches voyageurs — veulent des intérieurs qui en mettent plein la vue. L'émotion religieuse profonde cède la place à l'enchantement des sens. L'art ne cherche plus à toucher l'âme : il cherche à éblouir l'œil."
+        },
+        {
+          "h": "Le plafond qui déchire le ciel : la quadratura",
+          "p": "L'invention reine, c'est le plafond en trompe-l'œil. Au Gesù de Rome, Gaulli peint une voûte qui semble s'ouvrir sur l'infini : des nuées de figures débordent du cadre architectural, certaines projetant de vraies ombres sur la voûte peinte. On ne sait plus où finit l'architecture réelle et où commence l'illusion. La quadratura — l'architecture peinte qui prolonge l'architecture bâtie — abolit le mur et fait monter le regard vers des cieux peuplés d'anges et de saints."
+        },
+        {
+          "h": "Tiepolo : le dernier sommet de la fresque",
+          "p": "Le génie de cet art, c'est Giambattista Tiepolo. Sur d'immenses plafonds — à Venise, puis au palais de Würzburg en Allemagne, enfin à Madrid — il déploie des cieux lumineux, clairs, peuplés de figures qui flottent dans l'air avec une légèreté et une virtuosité jamais égalées. Couleurs solaires, perspectives vertigineuses, faste joyeux : c'est le chant du cygne de la grande peinture décorative. Après lui, plus personne ne fera mieux dans ce genre, qui s'éteint avec lui."
+        },
+        {
+          "h": "Venise se vend : la naissance de la veduta",
+          "p": "Pendant ce temps naît à Venise un art tout profane et nouveau : la veduta, la vue exacte de la ville. Les jeunes aristocrates anglais qui font leur Grand Tour d'Italie veulent rapporter un souvenir précis et brillant de la Sérénissime. Canaletto le leur fournit avec une précision quasi photographique — le Grand Canal, la place Saint-Marc, les fêtes. L'art devient documentaire, commercial, souvenir de voyage : une première forme de carte postale de luxe."
+        },
+        {
+          "h": "Guardi et la fin d'un monde",
+          "p": "Le neveu spirituel de Canaletto, Francesco Guardi, peint les mêmes vues mais autrement : touche libre, vibrante, atmosphérique, presque pré-impressionniste. Ses Venises se dissolvent dans la lumière et la brume lagunaire. Et c'est aussi la fin d'un monde : la République de Venise, mille ans d'histoire, s'effondre en 1797 sous Bonaparte. Guardi peint le crépuscule d'une cité — et, avec lui, le grand art italien, qui a dominé l'Europe depuis Giotto, passe le relais à la France."
+        }
       ]
     },
     {
@@ -1814,7 +1843,8 @@
           "annee": "1784",
           "lieu": "Paris (Louvre)",
           "wiki": "Oath of the Horatii",
-          "genie": "Trois frères jurent de mourir pour Rome, bras tendus, dans une composition d'une netteté implacable. Manifeste du Néoclassicisme : la ligne, la rigueur et la vertu civique contre les douceurs du Rococo."
+          "genie": "Trois frères jurent de mourir pour Rome, bras tendus, dans une composition d'une netteté implacable. Manifeste du Néoclassicisme : la ligne, la rigueur et la vertu civique contre les douceurs du Rococo.",
+          "analyse": "David, 1784. Trois frères romains tendent le bras vers leur père qui leur remet les épées : ils jurent de vaincre ou mourir pour la patrie. Tout est rigueur : composition claire en trois groupes sous trois arcades, lignes droites et viriles des hommes, courbes molles des femmes qui pleurent à droite (le sentiment cède devant le devoir). Couleurs sobres, espace net, héroïsme moral. Peint cinq ans avant la Révolution, le tableau devient un manifeste : l'art au service de la vertu civique et du sacrifice à la cause — bientôt celle de la République."
         },
         {
           "titre": "Tres de Mayo",
@@ -1822,7 +1852,8 @@
           "annee": "1814",
           "lieu": "Madrid (Prado)",
           "wiki": "The Third of May 1808",
-          "genie": "Un fusillé écarte les bras devant le peloton, lanterne crue dans la nuit. Goya invente la peinture de la barbarie moderne : pas de héros, juste l'horreur de la guerre. Plus d'un siècle en avance."
+          "genie": "Un fusillé écarte les bras devant le peloton, lanterne crue dans la nuit. Goya invente la peinture de la barbarie moderne : pas de héros, juste l'horreur de la guerre. Plus d'un siècle en avance.",
+          "analyse": "Goya, 1814. La nuit du 3 mai 1808, les troupes de Napoléon fusillent des Madrilènes en représailles d'un soulèvement. Au centre, un homme en chemise blanche, agenouillé, écarte les bras (en écho au Christ crucifié), éclairé par une lanterne posée au sol. Face à lui, le peloton : une rangée de dos, de fusils, sans aucun visage — la machine à tuer, anonyme. Pas de héros, pas de gloire militaire : juste la victime et l'horreur. Goya invente ici la peinture de la barbarie moderne, plus d'un siècle avant Guernica."
         },
         {
           "titre": "Pluie, vapeur et vitesse",
@@ -1830,7 +1861,8 @@
           "annee": "~1840",
           "lieu": "Londres",
           "wiki": "Rain, Steam and Speed – The Great Western Railway",
-          "genie": "Tempêtes, brumes, soleils où les formes se dissolvent dans la lumière. Turner pousse le paysage vers une quasi-abstraction : non plus un lieu mais une sensation de lumière et de force. Il anticipe l'impressionnisme."
+          "genie": "Tempêtes, brumes, soleils où les formes se dissolvent dans la lumière. Turner pousse le paysage vers une quasi-abstraction : non plus un lieu mais une sensation de lumière et de force. Il anticipe l'impressionnisme.",
+          "analyse": "Turner, vers 1844. Un train de la jeune compagnie ferroviaire fonce sur un pont, sous une pluie battante. Mais on distingue à peine le train : tout — la machine, le pont, le ciel, l'eau — se fond dans un tourbillon de lumière dorée et de vapeur. Turner ne peint pas un train, il peint la vitesse, la pluie, la lumière, la modernité industrielle qui surgit. Les formes se dissolvent dans la sensation pure : trente ans avant les impressionnistes, et bien au-delà, vers une peinture qui frôle l'abstraction."
         }
       ],
       "artistes": [
@@ -1840,7 +1872,8 @@
           "dates": "1748-1825",
           "role": "France",
           "wiki": "Jacques-Louis David",
-          "portrait": "Chef du Néoclassicisme, peintre de la Révolution puis de Napoléon ; la ligne, la vertu, le pouvoir."
+          "portrait": "Chef du Néoclassicisme, peintre de la Révolution puis de Napoléon ; la ligne, la vertu, le pouvoir.",
+          "bio_longue": "Jacques-Louis David (1748-1825) est le peintre-roi du néoclassicisme et de la Révolution française. Sa rigueur — lignes nettes, sujets antiques, vertu morale — répond au vide laissé par la fin du Rococo. Engagé jusqu'au cou dans la Révolution (il vote la mort du roi, organise les fêtes républicaines), il devient ensuite le peintre officiel de Napoléon, qu'il met en scène en empereur. À la chute de l'Empire, il s'exile à Bruxelles où il meurt. Son atelier forme toute une génération : il domine l'art français pendant trente ans."
         },
         {
           "niveau": "★",
@@ -1848,7 +1881,8 @@
           "dates": "1746-1828",
           "role": "Espagne",
           "wiki": "Francisco Goya",
-          "portrait": "Du brillant portraitiste de cour au visionnaire halluciné (Désastres de la guerre, Peintures noires). Charnière vers le moderne."
+          "portrait": "Du brillant portraitiste de cour au visionnaire halluciné (Désastres de la guerre, Peintures noires). Charnière vers le moderne.",
+          "bio_longue": "Francisco Goya (1746-1828) est l'immense charnière vers l'art moderne. Peintre officiel de la cour d'Espagne, brillant portraitiste, il bascule au tournant du siècle — une maladie le rend sourd, la guerre ravage son pays — vers une œuvre de plus en plus sombre et visionnaire : les Désastres de la guerre (gravures d'une cruauté insoutenable), les terrifiantes Peintures noires de sa maison. Il invente la peinture de la barbarie et de l'angoisse modernes. Il meurt en exil en France, libre et radical jusqu'au bout."
         },
         {
           "niveau": "○",
@@ -1864,7 +1898,8 @@
           "dates": "1776-1837",
           "role": "Angleterre",
           "wiki": "John Constable",
-          "portrait": "Paysages fidèles, ciels étudiés ; influence les Français."
+          "portrait": "Paysages fidèles, ciels étudiés ; influence les Français.",
+          "bio_longue": "John Constable (1776-1837) voue sa vie à peindre la campagne de son enfance, dans le Suffolk : moulins, charrettes, prairies, sous des ciels qu'il étudie avec une précision quasi scientifique (« le ciel est la note dominante »). Contre la nature idéalisée des académies, il peint le réel, l'humble, le familier, avec une fraîcheur de touche nouvelle. Peu reconnu en Angleterre, c'est en France qu'il fait sensation — il influence directement Delacroix et les paysagistes français."
         },
         {
           "niveau": "★",
@@ -1872,7 +1907,8 @@
           "dates": "1775-1851",
           "role": "Angleterre",
           "wiki": "J. M. W. Turner",
-          "portrait": "Lumière et atmosphère portées à l'extrême."
+          "portrait": "Lumière et atmosphère portées à l'extrême.",
+          "bio_longue": "Joseph Mallord William Turner (1775-1851), fils d'un barbier londonien, est un prodige précoce et un génie solitaire. Obsédé par la lumière et les forces de la nature — tempêtes, incendies, brouillards, soleils aveuglants — il pousse le paysage vers une quasi-abstraction stupéfiante pour son époque. On raconte qu'il se fit attacher au mât d'un navire pour peindre une tempête de l'intérieur. Excentrique, secret, il lègue à la nation des milliers d'œuvres. Il anticipe à lui seul l'impressionnisme et l'art moderne."
         },
         {
           "niveau": "○",
@@ -1939,6 +1975,28 @@
         "Oppose Néoclassicisme et Romantisme naissant.",
         "En quoi Tres de Mayo de Goya est-il en avance sur son temps ?",
         "Comment Turner annonce-t-il l'impressionnisme ?"
+      ],
+      "recit": [
+        {
+          "h": "Le moment où la chaîne se brise",
+          "p": "C'est, pour Gombrich, le tournant décisif de toute l'histoire de l'art. Depuis l'Antiquité, chaque génération d'artistes héritait d'un métier, d'un style, d'un savoir-faire transmis comme une chaîne ininterrompue. Avec les révolutions politiques (1789) et industrielles, cette chaîne se rompt. L'artiste se retrouve soudain libre — et seul — face au choix de sa manière. Plus de tradition qui dicte : il faut désormais décider de tout. C'est la naissance de la condition moderne de l'artiste, et de son malaise."
+        },
+        {
+          "h": "David : le retour à l'antique et à la vertu",
+          "p": "Une première réponse à ce vertige est le néoclassicisme : contre la frivolité du Rococo, on revient à la rigueur de l'Antiquité, à la ligne pure, à la vertu civique. Jacques-Louis David en est le chef. Son Serment des Horaces (1784), avec ses trois frères jurant de mourir pour Rome dans une composition d'une netteté implacable, devient un manifeste moral — puis, quand éclate la Révolution, l'art officiel de celle-ci. David peint Marat assassiné comme une icône laïque, met son pinceau au service de la République puis de Napoléon."
+        },
+        {
+          "h": "Goya : la naissance de la barbarie moderne",
+          "p": "À l'autre bout de l'Europe, l'Espagnol Goya ouvre une porte que personne ne refermera. Brillant portraitiste de cour, il bascule, sous le choc de la maladie, de la guerre et de l'invasion napoléonienne, vers une vision noire et hallucinée. Son Tres de Mayo montre un fusillé anonyme, bras écartés, devant un peloton sans visage : pas de héros, pas de gloire, juste l'horreur nue de la guerre. Un siècle avant les autres, Goya peint la violence moderne telle qu'elle est."
+        },
+        {
+          "h": "L'Angleterre découvre le paysage",
+          "p": "Pendant que la France s'agite, l'Angleterre invente un grand art du paysage. Constable peint la campagne anglaise telle qu'elle est, avec une fidélité nouvelle aux nuages et à la lumière changeante — il étudie le ciel comme un savant. Ses paysages, exposés à Paris, frapperont les romantiques français. La nature cesse d'être un décor : elle devient sujet, et miroir du sentiment."
+        },
+        {
+          "h": "Turner : la lumière qui dévore la forme",
+          "p": "Et puis il y a Turner, le plus audacieux. Il pousse le paysage si loin que les formes s'y dissolvent dans la lumière et la tempête : un train lancé dans la pluie n'est plus qu'une traînée de vapeur dorée, une marine n'est plus qu'un tourbillon de soleil et d'eau. Ce n'est plus un lieu qu'il peint, mais une sensation pure de lumière et de force. Turner anticipe, seul, l'impressionnisme et bien au-delà — presque l'abstraction."
+        }
       ]
     },
     {
@@ -1980,7 +2038,8 @@
           "annee": "1819",
           "lieu": "Paris (Louvre)",
           "wiki": "The Raft of the Medusa",
-          "genie": "Un fait divers atroce traité comme une grande scène d'histoire. Le Romantisme fait entrer l'actualité tragique et la chair souffrante dans le grand art ; composition en pyramide vers un mince espoir à l'horizon."
+          "genie": "Un fait divers atroce traité comme une grande scène d'histoire. Le Romantisme fait entrer l'actualité tragique et la chair souffrante dans le grand art ; composition en pyramide vers un mince espoir à l'horizon.",
+          "analyse": "Géricault, 1819. En 1816, la frégate la Méduse fait naufrage ; faute de canots, 150 personnes sont abandonnées sur un radeau de fortune — dix survivront, après des jours d'horreur, de folie et de cannibalisme. Scandale d'État. Géricault, qui a interrogé les survivants et étudié des cadavres à la morgue, en fait une immense toile d'Histoire — un honneur réservé aux rois et aux dieux, ici donné à des anonymes. La composition monte en pyramide depuis les morts du premier plan jusqu'à l'homme qui agite un linge vers un navire minuscule à l'horizon : un mince espoir. Le romantisme fait entrer l'actualité tragique et la chair souffrante dans le grand art."
         },
         {
           "titre": "La Liberté guidant le peuple",
@@ -1988,7 +2047,8 @@
           "annee": "1830",
           "lieu": "Paris (Louvre)",
           "wiki": "Liberty Leading the People",
-          "genie": "La Liberté allégorique mène le peuple sur les barricades, drapeau au poing. La couleur et le mouvement au service de l'élan révolutionnaire ; manifeste du Romantisme contre la ligne académique."
+          "genie": "La Liberté allégorique mène le peuple sur les barricades, drapeau au poing. La couleur et le mouvement au service de l'élan révolutionnaire ; manifeste du Romantisme contre la ligne académique.",
+          "analyse": "Delacroix, 1830. Sur les barricades de la révolution de Juillet, une femme — la Liberté allégorique, mais charnelle, pieds nus, sein nu — brandit le drapeau tricolore et un fusil, entraînant le peuple par-dessus les morts. À ses côtés, un gamin de Paris (futur Gavroche), un bourgeois en haut-de-forme, un ouvrier : tout le peuple soulevé. La couleur et le mouvement, l'élan et le sang : c'est le manifeste du romantisme, la passion politique faite peinture. Devenue icône de la République, elle a figuré sur les billets et les timbres français."
         },
         {
           "titre": "Un enterrement à Ornans",
@@ -1996,7 +2056,8 @@
           "annee": "1850",
           "lieu": "Paris (Orsay)",
           "wiki": "A Burial at Ornans",
-          "genie": "Des villageois ordinaires, grandeur nature, pour un enterrement banal — format réservé jusque-là aux rois et aux saints. Scandale réaliste : le peuple ordinaire mérite la même dignité picturale que l'histoire sainte."
+          "genie": "Des villageois ordinaires, grandeur nature, pour un enterrement banal — format réservé jusque-là aux rois et aux saints. Scandale réaliste : le peuple ordinaire mérite la même dignité picturale que l'histoire sainte.",
+          "analyse": "Courbet, 1850. L'enterrement d'un villageois ordinaire dans le petit bourg d'Ornans : des dizaines de gens du pays, grandeur nature, alignés autour de la fosse, sur une toile de près de sept mètres — le format monumental réservé jusque-là à l'histoire sainte et aux batailles royales. Aucun héros, aucune idéalisation : des visages quelconques, un chien, l'ennui, la banalité de la mort. Scandale immense : Courbet ose affirmer que le peuple ordinaire mérite la même dignité picturale que les rois et les saints. Le réalisme est né, et il est aussi un geste politique."
         }
       ],
       "artistes": [
@@ -2006,7 +2067,8 @@
           "dates": "1780-1867",
           "role": "Néoclassique",
           "wiki": "Jean-Auguste-Dominique Ingres",
-          "portrait": "Le gardien de la ligne néoclassique ; portraits et nus d'une perfection froide ; rival de Delacroix."
+          "portrait": "Le gardien de la ligne néoclassique ; portraits et nus d'une perfection froide ; rival de Delacroix.",
+          "bio_longue": "Jean-Auguste-Dominique Ingres (1780-1867), élève de David, est le grand prêtre de la ligne et du dessin. Pour lui, « le dessin est la probité de l'art » ; la couleur n'est qu'un ornement. Maître du portrait et du nu (La Grande Odalisque, dont il allonge le dos d'invraisemblables vertèbres pour la beauté de la ligne), il défend une perfection froide et idéale contre la fougue colorée de son rival Delacroix. Conservateur acharné, il domine l'enseignement officiel — et fascine pourtant les modernes par ses étranges déformations."
         },
         {
           "niveau": "○",
@@ -2022,7 +2084,8 @@
           "dates": "1798-1863",
           "role": "Romantisme",
           "wiki": "Eugène Delacroix",
-          "portrait": "Chef du Romantisme : couleur, fougue, Orient."
+          "portrait": "Chef du Romantisme : couleur, fougue, Orient.",
+          "bio_longue": "Eugène Delacroix (1798-1863) est le chef du romantisme français. Tout, chez lui, repose sur la couleur, le mouvement, la passion : scènes dramatiques, sujets exotiques rapportés d'un voyage au Maroc, fougue de la touche. Cultivé, mélancolique, grand diariste, il mène une guerre esthétique contre la ligne froide d'Ingres. Ses recherches sur la couleur et les contrastes influenceront directement les impressionnistes. « La peinture, disait-il, n'est qu'un pont jeté entre l'âme du peintre et celle du spectateur. »"
         },
         {
           "niveau": "○",
@@ -2038,7 +2101,8 @@
           "dates": "1814-1875",
           "role": "Réalisme",
           "wiki": "Jean-François Millet",
-          "portrait": "La dignité paysanne (L'Angélus, Les Glaneuses)."
+          "portrait": "La dignité paysanne (L'Angélus, Les Glaneuses).",
+          "bio_longue": "Jean-François Millet (1814-1875), fils de paysans normands, fait des travailleurs de la terre le sujet de grandes toiles graves et dignes. L'Angélus (un couple de paysans en prière au crépuscule), Les Glaneuses (trois femmes ramassant les épis laissés aux pauvres) donnent à l'humble une grandeur quasi religieuse. Membre de l'école de Barbizon, il ouvre la voie au réalisme et touchera profondément Van Gogh, qui le copiera avec vénération."
         },
         {
           "niveau": "★",
@@ -2046,7 +2110,8 @@
           "dates": "1819-1877",
           "role": "Réalisme",
           "wiki": "Gustave Courbet",
-          "portrait": "Chef du Réalisme, provocateur."
+          "portrait": "Chef du Réalisme, provocateur.",
+          "bio_longue": "Gustave Courbet (1819-1877) est le chef provocateur du réalisme. « Montrez-moi un ange et je le peindrai », répond-il à qui lui demande des sujets religieux : il ne peint que ce qu'il voit. Casseurs de pierres, enterrement de village, baigneuses « vulgaires », et même L'Origine du monde : il impose le réel, le quotidien, le populaire, au format monumental réservé jusque-là à l'Histoire — un manifeste politique autant qu'artistique. Communard engagé, il sera emprisonné puis exilé en Suisse, où il meurt."
         },
         {
           "niveau": "○",
@@ -2148,6 +2213,28 @@
         "Oppose Ingres et Delacroix.",
         "Pourquoi Un enterrement à Ornans a-t-il choqué ?",
         "Quel défi la photographie pose-t-elle aux peintres ?"
+      ],
+      "recit": [
+        {
+          "h": "Le siècle des batailles de styles",
+          "p": "La tradition rompue (chapitre précédent), le XIXe devient un champ de bataille. L'Académie et le Salon officiel imposent un goût — sujets nobles, dessin léché, fini lisse — et distribuent la reconnaissance. Les artistes novateurs s'y heurtent, s'en détachent, se font refuser. S'installe alors la dynamique qui définira tout l'art moderne : chaque génération rejette la précédente. D'où le titre de Gombrich, « révolution permanente » : l'art ne progresse plus en ligne droite, il avance par crises et par ruptures."
+        },
+        {
+          "h": "Ingres contre Delacroix : la ligne contre la couleur",
+          "p": "Tout le siècle se cristallise dans un duel. D'un côté Ingres, héritier de David, gardien de la ligne pure, du dessin, de la perfection froide et idéale. De l'autre Delacroix, chef du romantisme, qui fait tout reposer sur la couleur, le mouvement, la passion. Dessin contre couleur : c'est la vieille querelle de Florence contre Venise qui resurgit, et qui structure les débats de l'époque. Deux visions de ce qu'est peindre."
+        },
+        {
+          "h": "Le romantisme : la passion et l'actualité",
+          "p": "Le romantisme fait entrer dans le grand art l'émotion, le drame, l'exotisme — et l'actualité brûlante. Géricault peint un fait divers atroce (le naufrage de la Méduse, des naufragés abandonnés sur un radeau) au format jusque-là réservé à l'Histoire et aux dieux. Delacroix peint La Liberté guidant le peuple sur les barricades de 1830. L'art quitte l'Antiquité pour le présent, la raison pour la passion, la ligne pour la couleur déchaînée."
+        },
+        {
+          "h": "Le réalisme : le peuple grandeur nature",
+          "p": "Une autre révolte monte : le réalisme. Pourquoi peindre des dieux et des héros quand le monde réel — les paysans, les ouvriers, les pauvres — est là ? Courbet peint des casseurs de pierres et un enterrement de villageois ordinaires au format monumental, celui des rois et des saints : scandale. Millet donne aux paysans une dignité quasi sacrée (L'Angélus, Les Glaneuses). On ne veut plus idéaliser ni raconter : on veut montrer le monde tel qu'il est, sans le farder."
+        },
+        {
+          "h": "La photographie change tout",
+          "p": "Au milieu de tout cela, une invention bouleverse la donne : la photographie (vers 1840). Si une machine reproduit le réel mieux et plus vite que n'importe quel peintre, à quoi sert encore la peinture ? La question hante désormais tous les artistes. Elle pousse à chercher ailleurs : non plus l'imitation (que la photo fait), mais la sensation, l'émotion, la touche, le regard personnel. C'est cette question qui, à la génération suivante, fera naître l'impressionnisme."
+        }
       ]
     },
     {
