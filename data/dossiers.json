@@ -507,28 +507,44 @@
       ],
       "recit": [
         {
-          "h": "Giotto, le réveil (vers 1300)",
-          "p": "Tout commence un peu avant la Renaissance « officielle », avec un berger toscan devenu peintre : Giotto. Pendant des siècles, l'art médiéval avait peint des symboles plats sur fond d'or — des figures sans poids, sans espace, hors du temps. Giotto, lui, redonne aux personnages un corps lourd, une place dans un vrai décor, et surtout des émotions humaines : ses figures pleurent, se détournent, se touchent. Pour la première fois depuis l'Antiquité, une scène peinte semble se passer ici, entre des êtres de chair. C'est l'étincelle : deux siècles plus tard, toute la Renaissance se réclamera de lui."
+          "h": "Le point de départ : un monde qui bascule",
+          "p": "Pour comprendre la Renaissance, il faut d'abord saisir un renversement des mentalités. Au Moyen Âge, l'artiste était un artisan anonyme qui peignait le monde tel que la religion l'enseignait — des symboles plats sur fond d'or, où une figure est grande parce qu'elle est sainte, pas parce qu'elle est proche. Puis, à Florence, tout change : on redécouvre l'Antiquité, les banquiers Médicis financent les artistes comme une recherche de pointe, et l'humanisme remet l'homme au centre. Naît alors une idée neuve : peindre non plus ce qu'on SAIT, mais ce qu'on VOIT. Restait à trouver qui, le premier, oserait. Ce pionnier était arrivé deux siècles plus tôt, et il s'appelait Giotto."
         },
         {
-          "h": "La double révolution : la perspective et l'huile",
-          "p": "Au début du XVe siècle, deux outils changent tout. À Florence, l'architecte Brunelleschi découvre les lois de la perspective linéaire — des lignes qui fuient vers un point unique — et Masaccio l'applique le premier en peinture : son mur peint semble se creuser en vraie chapelle. La peinture devient une fenêtre ouverte sur un monde cohérent. Au même moment, au Nord, dans les Flandres, Van Eyck perfectionne la peinture à l'huile : elle permet des transparences, une minutie quasi photographique, trois siècles avant la photo. Deux voies, un même but : conquérir le réel."
+          "h": "Giotto rouvre les yeux (vers 1300)",
+          "p": "Giotto est le grand-père de toute la Renaissance. Avant lui, les personnages flottaient, plats et raides ; lui leur redonne un poids, une place dans un vrai espace, et surtout de vraies émotions — ses figures pleurent, se détournent, se touchent. Pour la première fois depuis l'Antiquité, une scène peinte semble se passer ici, entre des êtres de chair. Mais Giotto, seul, ne pouvait pas tout : il manquait encore deux outils décisifs pour conquérir le réel. Un siècle après lui, à Florence, un très jeune homme allait forger le premier de ces outils."
         },
         {
-          "h": "Florence et le mécénat : l'argent fait la beauté",
-          "p": "Sans les Médicis, pas de Renaissance. Cette famille de banquiers florentins finance les artistes comme on financerait aujourd'hui la recherche de pointe. Botticelli peint pour eux des mythologies païennes d'une grâce inédite (La Naissance de Vénus). C'est l'humanisme : on redécouvre les textes et les statues de l'Antiquité, on remet l'humain — sa raison, sa beauté, sa dignité — au centre, là où le Moyen Âge ne voyait qu'un pécheur tourné vers Dieu."
+          "h": "Masaccio invente l'espace (vers 1427)",
+          "p": "Ce jeune homme, c'est Masaccio, mort à 27 ans, mais qui change tout. S'appuyant sur les découvertes de l'architecte Brunelleschi, il applique le premier la perspective mathématique : dans sa Trinité, le mur plat de l'église semble se creuser en une vraie chapelle, les lignes fuyant vers un point unique à hauteur de notre regard. La peinture devient une fenêtre ouverte sur un monde cohérent. Florence tenait son premier outil : l'espace. Mais au même moment, à l'autre bout de l'Europe, dans les Flandres, un autre génie forgeait l'outil complémentaire — non plus l'espace, mais la matière des choses."
         },
         {
-          "h": "La Haute Renaissance : l'apogée (vers 1500)",
-          "p": "Trois génies portent l'art à un sommet d'équilibre, à Florence puis à Rome sous le mécénat des papes. Léonard de Vinci invente le sfumato (des contours fondus dans l'ombre) et cherche à comprendre le monde autant qu'à le peindre. Michel-Ange, sculpteur dans l'âme, donne au corps humain une puissance quasi divine, au burin comme au pinceau. Raphaël réalise la synthèse parfaite : la science nouvelle, la beauté antique et l'harmonie réunies sans effort apparent. En vingt ans, l'Occident atteint un point que la génération suivante jugera indépassable — et c'est précisément ce qui la mettra en crise."
+          "h": "Van Eyck et le miroir du monde (1434)",
+          "p": "Ce génie du Nord, c'est Jan van Eyck, qui perfectionne la peinture à l'huile. Dans Les Époux Arnolfini, chaque texture — la fourrure, le laiton, les oranges — est rendue avec une précision quasi photographique, trois siècles avant la photo ; au fond, un miroir convexe reflète toute la scène, peintre compris. L'huile permet ce que la fresque ne pouvait pas : la minutie, les transparences, la lumière. Florence avait l'espace, le Nord avait la matière. Tous les moyens étaient réunis. Restait à les transformer en pure beauté — ce que fit, sous le mécénat des Médicis, un rêveur nommé Botticelli."
+        },
+        {
+          "h": "Botticelli et la grâce antique",
+          "p": "Botticelli ne cherche pas le réalisme, mais la grâce. Dans La Naissance de Vénus, sa ligne sinueuse, presque musicale, ressuscite la beauté idéale de l'Antiquité, portée par la philosophie néoplatonicienne de son cercle florentin. C'est l'autre versant de la Renaissance : non la conquête du réel, mais le rêve d'une beauté parfaite. Désormais tout était en place — perspective, huile, anatomie, idéal antique. Il ne manquait plus que les génies capables de tout réunir d'un seul coup. Ils arrivèrent presque ensemble, autour de 1500. Le premier d'entre eux se nommait Léonard de Vinci."
+        },
+        {
+          "h": "Léonard, le premier des géants",
+          "p": "Léonard de Vinci incarne le génie universel : peintre, mais aussi anatomiste, ingénieur, inventeur, dévoré d'une curiosité qui l'empêchait souvent de finir ses œuvres. Sa découverte, le sfumato, fond les contours dans une ombre vaporeuse — d'où le sourire insaisissable de la Joconde. Dans La Cène, il saisit l'instant psychologique exact où le Christ annonce la trahison, et toute la géométrie de la salle converge vers son visage. L'art apprend à peindre l'intérieur des êtres. Mais là où Léonard cherchait le mystère et la douceur, un autre, au même moment, cherchait la puissance brute : Michel-Ange."
+        },
+        {
+          "h": "Michel-Ange, la force",
+          "p": "Michel-Ange se voulait avant tout sculpteur — il disait « libérer » la figure prisonnière du marbre. Son David, cinq mètres taillés dans un bloc abandonné, saisit le héros à l'instant d'avant le combat : tension contenue, regard concentré, le nu héroïque porté à la perfection. Quand le pape le force à peindre le plafond de la chapelle Sixtine, il y déploie, seul et sur le dos pendant quatre ans, une puissance du corps quasi divine, une intensité — la « terribilità » — qui dépasse la sérénité de ses contemporains et annonce déjà le Baroque. Restait un troisième homme, plus jeune, plus serein, capable de faire la synthèse de tous : Raphaël."
+        },
+        {
+          "h": "Raphaël, l'harmonie accomplie",
+          "p": "Raphaël est l'équilibre même, là où Léonard est mystère et Michel-Ange tourment. Dans L'École d'Athènes, il rassemble tous les penseurs de l'Antiquité sous une architecture en parfaite perspective, orchestrant des dizaines de figures sans le moindre effort apparent — et leur donne en secret les traits de Léonard et de Michel-Ange. Science, beauté antique et harmonie y sont enfin réunies : c'est le sommet de la Haute Renaissance. Cet équilibre semblait indépassable. Mais pendant qu'on l'atteignait à Rome, un autre monde s'épanouissait, à Venise, qui ne jurait plus par le dessin mais par la couleur."
         },
         {
           "h": "Venise : la couleur contre le dessin",
-          "p": "Pendant que Florence et Rome cultivent le dessin (disegno), la ligne, la rigueur, Venise — cité marchande, humide, baignée de lumière — mise sur la couleur (colorito). Giorgione puis Titien construisent leurs tableaux par taches colorées et atmosphère plutôt que par contours nets. Titien, qui dominera la peinture pendant soixante ans, peint d'une touche de plus en plus libre, presque moderne, dans sa vieillesse. Cette querelle dessin/couleur traversera ensuite tout l'art occidental, jusqu'à Ingres contre Delacroix."
+          "p": "Là où Florence et Rome cultivent la ligne, le dessin, la rigueur, Venise — cité marchande baignée de lumière et d'eau — mise tout sur la couleur et l'atmosphère. Titien, qui règne sur la peinture pendant soixante ans, construit ses tableaux par taches colorées plutôt que par contours nets, et sa touche se libère avec l'âge jusqu'à devenir presque moderne. Cette querelle du dessin contre la couleur traversera ensuite tout l'art occidental, jusqu'à Ingres contre Delacroix. Et tandis que l'Italie rayonnait ainsi, par-delà les Alpes, le Nord faisait entrer la Renaissance à sa façon — par le détail minutieux et par la gravure, avec Albrecht Dürer."
         },
         {
-          "h": "Le Nord et l'artiste-génie",
-          "p": "Au nord des Alpes, pas de retour à l'Antiquité, mais un réalisme du détail poussé à l'extrême (Van Eyck, puis l'imagination fiévreuse de Bosch). Dürer fait le pont : il rapporte d'Italie la science des proportions et la diffuse par la gravure, reproductible en masse — premier artiste « star » internationale. Car c'est là le vrai bouleversement de la Renaissance : l'artiste cesse d'être un artisan anonyme. Il signe, on connaît sa vie, son caractère, ses caprices ; il devient un créateur, comparable au poète. Le mot « génie » prend son sens moderne."
+          "h": "Le Nord, et la naissance de l'artiste-génie",
+          "p": "Dürer rapporte d'Italie la science des proportions et la fond avec le génie nordique du détail ; surtout, il est un maître de la gravure, un art reproductible qui le rend célèbre dans toute l'Europe — le premier artiste véritablement « star » de l'histoire. Dans ses autoportraits, il se peint en personnage noble, presque christique : c'est là le vrai bouleversement de la Renaissance, par-delà les techniques. L'artiste cesse d'être un artisan anonyme ; il signe, on connaît sa vie, son caractère ; le mot « génie » prend son sens moderne. Mais cette perfection avait un prix : à la mort de Raphaël, en 1520, elle deviendra un héritage écrasant. La génération suivante, incapable de faire mieux, choisira de la tordre volontairement — et ce sera le maniérisme, la prochaine étape de notre histoire."
         }
       ]
     },
@@ -2948,7 +2964,8 @@
           "annee": "~17 000 av. J.-C.",
           "lieu": "France / Espagne",
           "wiki": "Lascaux",
-          "genie": "Des troupeaux peints au fond de grottes obscures, presque inaccessibles. Si on les cache si loin, c'est qu'elles ne sont pas faites pour être vues mais pour agir : magie de la chasse. La vivacité du trait montre une observation déjà aiguë."
+          "genie": "Des troupeaux peints au fond de grottes obscures, presque inaccessibles. Si on les cache si loin, c'est qu'elles ne sont pas faites pour être vues mais pour agir : magie de la chasse. La vivacité du trait montre une observation déjà aiguë.",
+          "analyse": "Découvertes en 1940 par des adolescents, les peintures de Lascaux (vers 17 000 av. J.-C.) couvrent les parois d'une grotte du Périgord d'aurochs, de chevaux et de cerfs d'un dynamisme saisissant. Surnommées « la chapelle Sixtine de la préhistoire », elles ne sont pas une décoration mais sans doute un dispositif magique lié à la chasse — peintes là où personne ne vivait, dans le noir. La vivacité du trait, le sens du mouvement et du volume (en jouant des bosses de la roche) révèlent une observation déjà extraordinairement aiguë."
         },
         {
           "titre": "Masques et statues tribaux",
@@ -3017,6 +3034,24 @@
         "Pourquoi les peintures de Lascaux sont-elles au fond des grottes ?",
         "Quel contresens faut-il éviter face à l'art primitif ?",
         "Quel lien avec Picasso et l'art du XXe siècle ?"
+      ],
+      "recit": [
+        {
+          "h": "L'art avant l'« art » : agir sur le monde",
+          "p": "Quand on entre dans cette première salle, il faut oublier nos réflexes : ces images ne sont pas faites pour être belles, ni même pour être vues. Elles ont une fonction. Peindre un bison, c'est tenter de capter sa puissance, d'assurer la chasse ; sculpter un corps de femme, c'est appeler la fécondité. L'image est un acte magique, un outil de pouvoir sur un monde dangereux. C'est le tout premier geste de l'humanité créatrice — et il est utilitaire, pas décoratif."
+        },
+        {
+          "h": "Lascaux : des chefs-d'œuvre cachés dans le noir",
+          "p": "Les grands troupeaux de Lascaux ou de Chauvet sont peints au plus profond de grottes obscures, parfois presque inaccessibles. C'est la preuve qu'ils ne sont pas faits pour être admirés : on les cache pour qu'ils agissent, à la lueur de lampes à graisse. Et pourtant, quelle maîtrise : le trait saisit le mouvement, le galop, la vie de l'animal, en jouant même des reliefs de la roche. L'humain de la dernière glaciation observait déjà avec une acuité stupéfiante."
+        },
+        {
+          "h": "Les Vénus : le corps réduit à son pouvoir",
+          "p": "À côté des animaux, de petites figures féminines comme la Vénus de Willendorf. Là, aucun réalisme : le corps est réduit à ses signes de fécondité, exagérés, tandis que le visage et les membres disparaissent. Ce n'est pas un portrait, c'est une amplification du vital, un objet magique tenant dans la main. L'art primitif ne copie pas le réel : il en concentre la force."
+        },
+        {
+          "h": "Un art sans nom",
+          "p": "Aucun de ces artistes n'a de nom — et c'est précisément ce qui distingue tout cet âge de ce qui suivra. L'art est collectif, rituel, transmis de génération en génération comme un savoir sacré. Il « marche » s'il remplit sa fonction, pas s'il plaît à un individu. Cette logique — l'image comme rite, non comme expression personnelle — on la retrouvera, sous d'autres formes, en Égypte, à Byzance, dans l'art tribal qui fascinera Picasso."
+        }
       ]
     },
     {
@@ -3135,6 +3170,24 @@
         "Pourquoi la figure égyptienne combine-t-elle profil et face ?",
         "Qu'est-ce que la hiérarchie d'échelle ?",
         "Que prouve la rupture d'Akhenaton ?"
+      ],
+      "recit": [
+        {
+          "h": "Un art conçu pour l'éternité",
+          "p": "En Égypte, l'art sert d'abord les morts. Une peinture de tombe doit assurer au défunt une vie éternelle complète : il faut donc tout y représenter, clairement, durablement, pour toujours. C'est pourquoi l'art égyptien ne cherche pas à plaire ni à imiter l'instant, mais à conserver le savoir intact. Et c'est pourquoi il reste presque inchangé pendant trois mille ans : non par incapacité, mais par choix — la stabilité est une valeur."
+        },
+        {
+          "h": "Peindre ce qu'on sait, pas ce qu'on voit",
+          "p": "D'où la règle la plus célèbre de l'art égyptien : on représente chaque chose sous son angle le plus reconnaissable, et non tel qu'on la verrait d'un point de vue unique. La tête de profil (plus claire), mais l'œil de face ; le buste de face, mais les jambes de profil. Ce n'est pas une maladresse : c'est un système rigoureux et délibéré, pensé pour livrer l'information la plus complète et la plus durable possible."
+        },
+        {
+          "h": "La hiérarchie d'échelle : la taille dit l'importance",
+          "p": "Autre code : la taille des figures n'obéit pas à la distance mais à l'importance. Le pharaon est immense parce qu'il est puissant, pas parce qu'il serait au premier plan ; ses ennemis ou ses serviteurs sont minuscules. Dès la Palette de Narmer, aux origines de l'Égypte, tout le langage est déjà fixé : registres superposés qui se lisent comme des lignes, hiérarchie d'échelle, frontalité. Un code visuel d'une puissance et d'une longévité uniques."
+        },
+        {
+          "h": "La parenthèse d'Amarna",
+          "p": "Une seule fois, le canon millénaire se brise. Sous le pharaon Akhenaton (vers 1350 av. J.-C.), à Amarna, l'art se fait soudain plus naturel, plus intime, plus sensible : scènes familiales tendres, corps assouplis, et ce buste de Néfertiti d'une élégance et d'un naturalisme inouïs. Cette rupture, vite refermée après la mort du pharaon hérétique, prouve une chose essentielle : si les Égyptiens ont peint « raide » pendant trois mille ans, c'était un choix, pas une incapacité."
+        }
       ]
     },
     {
@@ -3176,7 +3229,8 @@
           "annee": "~450 av. J.-C.",
           "lieu": "(copie romaine)",
           "wiki": "Discobolus",
-          "genie": "Un lanceur de disque figé à l'instant de tension maximale. L'art capte enfin le mouvement : tout le corps est ressort bandé, mais l'ensemble reste équilibré et lisible."
+          "genie": "Un lanceur de disque figé à l'instant de tension maximale. L'art capte enfin le mouvement : tout le corps est ressort bandé, mais l'ensemble reste équilibré et lisible.",
+          "analyse": "Myron, vers 450 av. J.-C. (copie romaine en marbre d'un bronze perdu). Le lanceur de disque est saisi à l'instant le plus instable : le bras armé en arrière au sommet de son élan, le corps tordu en arc tendu, juste avant la détente. Et pourtant, l'ensemble tient en un équilibre parfait, presque géométrique, et le visage reste étrangement serein. C'est la grande conquête grecque : capter le mouvement vivant tout en gardant la clarté et l'harmonie. Un défi que l'art égyptien ne s'était jamais posé."
         },
         {
           "titre": "Le Parthénon & Phidias",
@@ -3184,7 +3238,8 @@
           "annee": "~440 av. J.-C.",
           "lieu": "Athènes",
           "wiki": "Parthenon",
-          "genie": "Temple et frise d'une harmonie parfaite. Sommet du classicisme : les corps sont à la fois réels (drapés vivants, mouvement) et idéalisés (beauté parfaite). L'observation au service d'un idéal."
+          "genie": "Temple et frise d'une harmonie parfaite. Sommet du classicisme : les corps sont à la fois réels (drapés vivants, mouvement) et idéalisés (beauté parfaite). L'observation au service d'un idéal.",
+          "analyse": "Bâti vers 438 av. J.-C. sur l'Acropole, sous Périclès, par Ictinos et Callicratès avec le décor sculpté de Phidias, le Parthénon est le sommet de l'art grec. Son secret : des corrections optiques invisibles. Les colonnes se renflent légèrement en leur milieu (entasis) et s'inclinent imperceptiblement vers l'intérieur, le soubassement est très légèrement bombé — autant d'ajustements pour corriger les illusions de l'œil et donner une impression de perfection absolue. L'art ne copie pas la nature : il la corrige pour la rendre plus parfaite que le réel."
         },
         {
           "titre": "Le contrapposto (Kritios)",
@@ -3202,7 +3257,8 @@
           "dates": "Ve s. av.",
           "role": "",
           "wiki": "Myron",
-          "portrait": "Le Discobole : capter le mouvement à son point de tension."
+          "portrait": "Le Discobole : capter le mouvement à son point de tension.",
+          "bio_longue": "Myron (Ve siècle av. J.-C.) est le sculpteur du mouvement. Son Discobole, connu seulement par des copies romaines (les bronzes grecs ont presque tous disparu), fige le lanceur de disque à l'instant de bascule, dans une torsion parfaitement équilibrée. Il résout le problème que les Égyptiens n'avaient jamais posé : représenter un corps vivant, en action, et non figé pour l'éternité."
         },
         {
           "niveau": "★",
@@ -3210,7 +3266,8 @@
           "dates": "~480-430 av.",
           "role": "",
           "wiki": "Phidias",
-          "portrait": "Sculptures du Parthénon, sommet du classicisme grec."
+          "portrait": "Sculptures du Parthénon, sommet du classicisme grec.",
+          "bio_longue": "Phidias (vers 480-430 av. J.-C.) est le plus grand sculpteur de la Grèce classique et le maître d'œuvre du programme de Périclès sur l'Acropole d'Athènes. Il dirige le décor sculpté du Parthénon et réalise les colossales statues chryséléphantines (or et ivoire) d'Athéna et de Zeus, comptées parmi les merveilles du monde antique. Son art incarne l'équilibre suprême entre l'observation du réel et l'idéal de beauté — le classicisme même."
         },
         {
           "niveau": "○",
@@ -3218,7 +3275,8 @@
           "dates": "Ve s. av.",
           "role": "",
           "wiki": "Polykleitos",
-          "portrait": "Théorise les proportions idéales du corps (le Canon, le Doryphore)."
+          "portrait": "Théorise les proportions idéales du corps (le Canon, le Doryphore).",
+          "bio_longue": "Polyclète (Ve siècle av. J.-C.) est le théoricien du corps idéal. Dans son Doryphore (le « porteur de lance »), il applique un canon — un système précis de proportions — qu'il expose aussi dans un traité écrit. Pour lui, la beauté n'est pas une intuition mais un équilibre mesurable, un rapport juste entre les parties. C'est la naissance de l'idée que l'art peut reposer sur des règles rationnelles."
         }
       ],
       "index": [
@@ -3277,6 +3335,24 @@
         "De quel modèle la Grèce part-elle, et qu'en fait-elle ?",
         "Qu'est-ce que le raccourci ? Le contrapposto ?",
         "Pourquoi le Parthénon incarne-t-il le classicisme ?"
+      ],
+      "recit": [
+        {
+          "h": "Le grand éveil : l'art ouvre les yeux",
+          "p": "Voici, pour Gombrich, le moment décisif. La Grèce part du modèle égyptien — figures rigides, frontales, codifiées. Puis, en quelques générations seulement, fait unique dans l'histoire, les artistes grecs brisent le canon et se mettent à observer. Liberté des cités, esprit de débat et de compétition : tout pousse au progrès. Pour la première fois, on ne demande plus « que sais-je de ce corps ? » mais « comment le vois-je vraiment ? »."
+        },
+        {
+          "h": "Saisir le mouvement",
+          "p": "La grande conquête, c'est le mouvement et le raccourci : oser dessiner un membre vu de face, un corps en action. Le Discobole de Myron fige le lanceur de disque à l'instant de tension maximale : tout le corps est un ressort bandé, et pourtant l'ensemble reste équilibré, lisible. L'art ne représente plus une pose figée pour l'éternité, mais un instant vivant arraché au temps."
+        },
+        {
+          "h": "Le canon et le contrapposto",
+          "p": "Les Grecs cherchent aussi la beauté idéale par la mesure. Polyclète théorise les proportions parfaites du corps dans son Doryphore — un véritable traité en marbre. Et l'on découvre le contrapposto : le poids du corps repose sur une jambe, l'autre est détendue, ce qui fait « respirer » la figure, lui donne une vie naturelle. Cette invention restera la base de la figure occidentale jusqu'à Michel-Ange et au-delà."
+        },
+        {
+          "h": "Le Parthénon : observation et idéal réunis",
+          "p": "Le sommet, c'est le Parthénon et les sculptures de Phidias, à l'Athènes de Périclès. Les corps y sont à la fois réels (drapés vivants, mouvement vrai) et idéalisés (beauté parfaite) : l'observation se met au service d'un idéal. Le temple lui-même intègre des corrections optiques invisibles — colonnes légèrement galbées et inclinées — pour que l'œil en perçoive la perfection. L'art grec ne copie pas la nature : il la corrige pour la rendre plus juste que vraie."
+        }
       ]
     },
     {
@@ -3325,7 +3401,8 @@
           "annee": "~Iᵉʳ s. av. J.-C.",
           "lieu": "Rome (Vatican)",
           "wiki": "Laocoön and His Sons",
-          "genie": "Un prêtre et ses fils étouffés par des serpents, visages tordus de douleur, corps en torsion. Sommet du pathos hellénistique. Redécouverte en 1506, elle bouleversera Michel-Ange."
+          "genie": "Un prêtre et ses fils étouffés par des serpents, visages tordus de douleur, corps en torsion. Sommet du pathos hellénistique. Redécouverte en 1506, elle bouleversera Michel-Ange.",
+          "analyse": "Sculpté vers le Ier siècle av. J.-C. par trois artistes de Rhodes, le Laocoon montre le prêtre troyen et ses deux fils étouffés par des serpents envoyés par les dieux : visages tordus de douleur, muscles tendus, corps en torsion désespérée. C'est le sommet du pathos hellénistique — l'art qui met en scène la souffrance avec un réalisme théâtral. Redécouvert à Rome en 1506, exhumé sous les yeux émerveillés des artistes de la Renaissance, il bouleverse Michel-Ange et inspirera tout le tragique du Baroque. Une œuvre antique qui relance, deux mille ans plus tard, l'histoire de l'art."
         },
         {
           "titre": "La Vénus de Milo",
@@ -3333,7 +3410,8 @@
           "annee": "~130 av. J.-C.",
           "lieu": "Paris (Louvre)",
           "wiki": "Venus de Milo",
-          "genie": "Grâce idéalisée et drapé vivant. Avec l'autel de Pergame (combat de géants tourmenté), elle illustre les deux pôles de l'hellénistique : beauté sereine et drame théâtral."
+          "genie": "Grâce idéalisée et drapé vivant. Avec l'autel de Pergame (combat de géants tourmenté), elle illustre les deux pôles de l'hellénistique : beauté sereine et drame théâtral.",
+          "analyse": "Découverte en 1820 sur l'île grecque de Milos, datée vers 130 av. J.-C., elle est devenue l'emblème du Louvre et un idéal universel de beauté. Tout y est mouvement contenu : la spirale douce du corps, le déhanchement, le drapé qui glisse et semble sur le point de tomber des hanches, jouant du contraste entre la peau lisse et l'étoffe. Ses bras manquants, loin de la diminuer, ajoutent au mystère. Elle résume la grâce hellénistique : la perfection technique mise au service du charme et de la sensualité."
         }
       ],
       "artistes": [
@@ -3343,7 +3421,8 @@
           "dates": "IVe s. av.",
           "role": "",
           "wiki": "Praxiteles",
-          "portrait": "La grâce, la sensualité, le nu féminin."
+          "portrait": "La grâce, la sensualité, le nu féminin.",
+          "bio_longue": "Praxitèle (IVe siècle av. J.-C.) est le sculpteur de la grâce. Il assouplit le corps héroïque du Ve siècle, lui donne des poses alanguies, sensuelles, et ose le premier grand nu féminin (l'Aphrodite de Cnide, scandale et merveille de l'Antiquité). Sa douceur, son modelé fondu marquent le passage de l'idéal sévère du classicisme à la sensibilité plus humaine et charmeuse de l'âge hellénistique."
         },
         {
           "niveau": "○",
@@ -3351,7 +3430,8 @@
           "dates": "IVe s. av.",
           "role": "",
           "wiki": "Lysippos",
-          "portrait": "Sculpteur d'Alexandre, nouvelles proportions plus élancées."
+          "portrait": "Sculpteur d'Alexandre, nouvelles proportions plus élancées.",
+          "bio_longue": "Lysippe (IVe siècle av. J.-C.) fut le sculpteur attitré d'Alexandre le Grand — le seul autorisé, dit-on, à faire son portrait. Il renouvelle le canon de Polyclète en allongeant les proportions, en affinant les corps, et en multipliant les points de vue, donnant à ses figures plus d'élan et de naturel. Son art accompagne et diffuse, avec les conquêtes d'Alexandre, l'idéal grec dans tout le monde antique."
         },
         {
           "niveau": "○",
@@ -3411,6 +3491,24 @@
         "Comment l'art grec évolue-t-il après le classicisme du Ve s. ?",
         "Qu'est-ce que le pathos hellénistique ? Exemple ?",
         "Pourquoi le Laocoon a-t-il marqué la Renaissance ?"
+      ],
+      "recit": [
+        {
+          "h": "Après l'idéal, charmer puis bouleverser",
+          "p": "Au IVe siècle, le métier est total : les artistes grecs savent tout représenter. La question change donc : ce n'est plus « comment rendre le réel ? » mais « comment émouvoir, comment séduire ? ». Avec les conquêtes d'Alexandre, l'art grec se répand dans tout l'Orient — c'est l'âge hellénistique, plus théâtral, plus pathétique. On passe de l'idéal serein du Ve siècle à la recherche de la grâce, puis de l'émotion intense."
+        },
+        {
+          "h": "La grâce et la sensualité",
+          "p": "D'abord la douceur. Praxitèle assouplit le corps classique : moins de rigueur héroïque, plus de grâce humaine, des déhanchements alanguis, les premiers grands nus féminins de l'histoire. La beauté se fait sensuelle, presque tendre. La Vénus de Milo, plus tardive, en garde l'esprit : la spirale du corps, le drapé qui glisse sur les hanches, un idéal de beauté devenu universel."
+        },
+        {
+          "h": "Le souffle et le mouvement",
+          "p": "L'hellénistique adore aussi le mouvement spectaculaire. La Victoire de Samothrace se dresse sur une proue de navire, les ailes déployées, le drapé plaqué par le vent comme si elle venait de se poser dans la tempête. Ce n'est plus une figure posée : c'est un instant d'élan, de souffle, de force capté en plein vol. La sculpture devient pur mouvement."
+        },
+        {
+          "h": "Le pathos : la souffrance mise en scène",
+          "p": "Enfin, l'émotion extrême. Le Laocoon montre un prêtre et ses fils étouffés par des serpents, les visages tordus de douleur, les corps en torsion désespérée. C'est le sommet du pathos hellénistique : l'art met en scène la souffrance physique avec un réalisme spectaculaire. Redécouverte à Rome en 1506, cette œuvre bouleversera Michel-Ange et nourrira le Baroque : la boucle de l'histoire de l'art passe par elle."
+        }
       ]
     },
     {
@@ -3451,7 +3549,8 @@
           "annee": "~125 apr. J.-C.",
           "lieu": "Rome",
           "wiki": "Pantheon, Rome",
-          "genie": "Énorme coupole percée d'un oculus, espace intérieur parfait. Prouesse d'ingénierie (béton, coupole) : Rome crée des espaces intérieurs monumentaux, ce que la Grèce ne faisait pas."
+          "genie": "Énorme coupole percée d'un oculus, espace intérieur parfait. Prouesse d'ingénierie (béton, coupole) : Rome crée des espaces intérieurs monumentaux, ce que la Grèce ne faisait pas.",
+          "analyse": "Reconstruit vers 125 apr. J.-C. sous Hadrien, le Panthéon de Rome est le chef-d'œuvre de l'ingénierie antique. Sa coupole de béton, longtemps la plus grande du monde, dessine une sphère parfaite, percée en son sommet d'un oculus de 9 mètres ouvert sur le ciel — seule source de lumière, qui se déplace dans l'espace au fil du jour comme un cadran solaire. Là où la Grèce posait des colonnes à l'extérieur, Rome crée un espace intérieur monumental et sphérique, une expérience spatiale inédite. Resté presque intact, il a inspiré l'architecture pendant deux mille ans."
         },
         {
           "titre": "La colonne Trajane",
@@ -3459,7 +3558,8 @@
           "annee": "~113 apr. J.-C.",
           "lieu": "Rome",
           "wiki": "Trajan's Column",
-          "genie": "Une bande sculptée en spirale racontant une campagne militaire. L'art au service de la propagande impériale : un récit continu, détaillé, glorifiant l'empereur."
+          "genie": "Une bande sculptée en spirale racontant une campagne militaire. L'art au service de la propagande impériale : un récit continu, détaillé, glorifiant l'empereur.",
+          "analyse": "Érigée vers 113 apr. J.-C. à Rome, cette colonne de près de 30 mètres déroule autour de son fût, en une spirale continue de plus de 200 mètres, le récit sculpté des guerres de l'empereur Trajan contre les Daces. Des milliers de figures, des scènes de marche, de combat, de construction : c'est un reportage de pierre, détaillé et glorifiant, une véritable bande dessinée à la gloire de l'Empire. L'art s'y fait propagande et narration — une fonction qu'on retrouvera à travers toute l'histoire."
         },
         {
           "titre": "Peintures des catacombes",
@@ -3467,7 +3567,8 @@
           "annee": "~IIIᵉ s.",
           "lieu": "Rome",
           "wiki": "Catacombs of Rome",
-          "genie": "Images simples et schématiques (bon pasteur, orant). L'art chrétien naissant ne cherche pas la beauté mais à transmettre un message de salut. Début du glissement vers l'art symbolique médiéval."
+          "genie": "Images simples et schématiques (bon pasteur, orant). L'art chrétien naissant ne cherche pas la beauté mais à transmettre un message de salut. Début du glissement vers l'art symbolique médiéval.",
+          "analyse": "Dans les galeries souterraines où les premiers chrétiens enterraient leurs morts (à partir du IIIe siècle), apparaissent des peintures simples, presque maladroites : le bon pasteur portant sa brebis, l'orant aux bras levés, des symboles comme le poisson. Aux antipodes du réalisme romain, ces images ne cherchent ni la beauté ni la ressemblance : elles transmettent un message d'espérance et de salut. L'art y redevient signe, symbole — et ce glissement annonce tout le Moyen Âge, où l'image servira la foi avant de servir l'œil."
         }
       ],
       "artistes_note": "Largement anonymes : l'art romain est collectif et fonctionnel ; l'art chrétien naissant aussi.",
@@ -3533,6 +3634,28 @@
         "Que Rome ajoute-t-elle à l'héritage grec ?",
         "Pourquoi le Panthéon est-il une prouesse ?",
         "En quoi l'art des catacombes annonce-t-il le Moyen Âge ?"
+      ],
+      "recit": [
+        {
+          "h": "Rome hérite de la Grèce — et l'utilise",
+          "p": "Rome conquiert le monde grec et tombe amoureuse de son art : elle copie ses statues par milliers (c'est grâce à ces copies qu'on connaît la sculpture grecque perdue), emploie ses artistes. Mais Rome n'est pas la Grèce : elle est pragmatique, impériale. Elle prend la beauté grecque et la met au service de deux choses très romaines — le pouvoir et l'utile."
+        },
+        {
+          "h": "Le réalisme du portrait",
+          "p": "Là où le Grec idéalisait, le Romain veut la ressemblance. Le portrait romain montre les rides, les verrues, les calvities, les visages durs des sénateurs et des empereurs : on veut reconnaître l'homme, pas un dieu. C'est une conquête — la vérité individuelle du visage — qui ne reviendra avec cette force qu'à la Renaissance."
+        },
+        {
+          "h": "Le génie de l'architecture",
+          "p": "Le vrai chef-d'œuvre de Rome, c'est son architecture. Grâce à l'arc, à la voûte, à la coupole et surtout au béton, les Romains créent des espaces intérieurs immenses, ce que la Grèce ne faisait pas. Le Panthéon, avec sa coupole parfaite percée d'un oculus ouvert sur le ciel, le Colisée et ses arcs en série, les aqueducs : Rome bâtit pour les foules et pour la durée. Son ingénierie structure encore nos villes."
+        },
+        {
+          "h": "L'art comme propagande",
+          "p": "L'art romain raconte aussi la gloire de l'Empire. La colonne Trajane déroule en spirale, sur près de 200 mètres, le récit continu et détaillé d'une campagne militaire — une bande dessinée de pierre à la gloire de l'empereur. L'Auguste de Prima Porta met le réalisme grec au service de l'image du pouvoir : un empereur idéalisé mais reconnaissable, éternellement jeune, en chef qui harangue."
+        },
+        {
+          "h": "Les premières images chrétiennes : le tournant",
+          "p": "Dans l'Empire tardif, de nouvelles religions cherchent leurs images. Et avec l'art chrétien naissant des catacombes, quelque chose bascule : ces peintures simples, schématiques (le bon pasteur, l'orant) ne cherchent plus du tout la beauté ou le réalisme — elles veulent transmettre un message de salut. L'image redevient symbole. C'est l'amorce du grand renversement médiéval : on quitte le réel grec pour le signe sacré."
+        }
       ]
     },
     {
