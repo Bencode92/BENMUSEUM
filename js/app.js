@@ -9,7 +9,7 @@ let DOSSIERS = [];
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "11"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "12"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -65,6 +65,7 @@ function setActiveFloor(ci) {
 /* ---------- routage ---------- */
 addEventListener("hashchange", route);
 document.addEventListener("click", e => {
+  if (e.target.closest("[data-fav]")) return; // géré par le handler favoris
   const t = e.target.closest("[data-nav]");
   if (t) { e.preventDefault(); location.hash = t.dataset.nav; }
 });
@@ -75,6 +76,7 @@ function route() {
   document.querySelectorAll(".tab").forEach(b => b.classList.toggle("active", b.dataset.nav === "#/" + tabKey));
   scrollTo(0, 0);
   if (top === "quiz") { setActiveFloor(-1); return renderQuiz(); }
+  if (top === "favoris") { setActiveFloor(-1); return renderFavoris(); }
   if (top === "dossiers") { setActiveFloor(-1); return renderDossiersList(); }
   if (top === "d") { setActiveFloor(-1); return renderDossier(parts[1]); }
   if (top === "c") {
@@ -124,7 +126,7 @@ function renderChapitre(ci) {
   $("view").innerHTML = `
     <div class="pagehead">
       <div class="ep">Chapitre ${c.num} · p. ${c.page} · ${esc(c.titre_en)}</div>
-      <h1>${esc(c.titre)}</h1>
+      <h1>${esc(c.titre)} ${favBtn(`chapitre:${c.num}`, `Ch. ${c.num} — ${c.titre}`, `#/c/${ci}`, "chapitre")}</h1>
       <p class="lead">${esc(c.portee)}</p>
     </div>
     <div class="block"><h3>L'idée du chapitre</h3><p>${esc(c.idee)}</p></div>
@@ -145,9 +147,11 @@ function renderChapitre(ci) {
         <div class="card" data-nav="#/c/${ci}/o/${oi}">
           <div class="thumb" data-wiki="${esc(o.wiki)}"></div>
           <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.artiste)} · ${esc(o.annee)}</div></div>
-        </div>`).join("")}</div>` : ""}`;
+        </div>`).join("")}</div>` : ""}
+    ${notesBlock("chap:" + c.num)}`;
   loadImages($("view"));
   wireChecklist();
+  wireNotes();
 }
 
 function wireChecklist() {
@@ -173,7 +177,7 @@ function renderOeuvre(ci, oi) {
     <div class="fiche">
       <img class="img" alt="${esc(o.titre)}" data-wiki="${esc(o.wiki)}" />
       <div class="info">
-        <h1>${esc(o.titre)}</h1>
+        <h1>${esc(o.titre)} ${favBtn(`oeuvre:${ci}:${oi}`, `${o.titre} — ${o.artiste}`, `#/c/${ci}/o/${oi}`, "œuvre")}</h1>
         <div class="meta">${esc(o.artiste)} · ${esc(o.annee)}</div>
         <div class="tagline">
           <span class="tag gold" data-nav="#/c/${ci}">Ch. ${c.num} — ${esc(c.titre)}</span>
@@ -189,6 +193,7 @@ function renderOeuvre(ci, oi) {
           <button class="ask" id="gask">Envoyer</button>
           <div class="answer" id="gans"></div>
         </div>
+        ${notesBlock(`oeuvre:${ci}:${oi}`)}
         <div class="navworks">
           <button ${prev ? `data-nav="${prev}"` : "disabled"}>← Œuvre précédente</button>
           <button ${next ? `data-nav="${next}"` : "disabled"}>Œuvre suivante →</button>
@@ -196,10 +201,11 @@ function renderOeuvre(ci, oi) {
       </div>
     </div>`;
   loadImages($("view"));
-  wireGuide(c, o);
+  wireGuide(c, o, `oeuvre:${ci}:${oi}`);
+  wireNotes();
 }
 
-function wireGuide(c, o) {
+function wireGuide(c, o, scope) {
   const btn = $("gask"), ans = $("gans");
   btn.onclick = async () => {
     const q = $("gq").value.trim(); if (!q) return;
@@ -217,6 +223,16 @@ function wireGuide(c, o) {
       if (!r.ok) throw new Error();
       const j = await r.json();
       ans.className = "answer"; ans.textContent = j.answer;
+      // enrichir la fiche : ajouter la réponse à mes notes
+      const add = document.createElement("button");
+      add.className = "addnotebtn"; add.style.marginTop = "8px"; add.textContent = "+ Ajouter aux notes";
+      add.onclick = () => {
+        addNote(scope, `Q : ${q}\nGuide : ${j.answer}`);
+        const box = $("view").querySelector(`.notes[data-scope="${scope}"]`);
+        if (box) renderNotesList(box, scope);
+        add.textContent = "✓ Ajouté"; add.disabled = true;
+      };
+      ans.after(add);
     } catch {
       ans.className = "answer dim";
       ans.textContent = "⚠️ Guide hors ligne. Active-le en local : ANTHROPIC_API_KEY=... node server.js (voir README).";
@@ -290,7 +306,8 @@ function renderDossier(id) {
   const ul = arr => `<ul class="dots">${arr.map(c => `<li>${esc(c)}</li>`).join("")}</ul>`;
   const P = [];
 
-  P.push(`<div class="pagehead"><div class="ep">${esc(d.periode)}</div><h1>${esc(d.titre)}</h1>
+  P.push(`<div class="pagehead"><div class="ep">${esc(d.periode)}</div>
+    <h1>${esc(d.titre)} ${favBtn(`dossier:${d.id}`, d.titre, `#/d/${d.id}`, "dossier")}</h1>
     ${d.sous_titre ? `<p class="lead">${esc(d.sous_titre)}</p>` : ""}</div>`);
 
   if (d.carte) P.push(sec("🪪 Carte d'identité",
@@ -329,14 +346,14 @@ function renderDossier(id) {
   if (d.oeuvres) P.push(sec("🖼 Pourquoi c'est du génie (œuvres décortiquées)",
     `<div class="grid cols">${d.oeuvres.map(o => `
       <div class="card"><div class="thumb" data-wiki="${esc(o.wiki)}"></div>
-        <div class="body"><div class="t">${esc(o.titre)}</div>
+        <div class="body"><div class="t">${esc(o.titre)} ${favBtn(`oeuvre-d:${d.id}:${o.titre}`, `${o.titre} — ${o.artiste}`, `#/d/${d.id}`, "œuvre")}</div>
         <div class="s">${esc(o.artiste)} · ${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
         <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p></div></div>`).join("")}</div>`));
 
   if (d.artistes) P.push(sec("👤 Les artistes",
     `<div class="grid cols">${d.artistes.map(a => `
       <div class="card"><div class="thumb" data-wiki="${esc(a.wiki)}"></div>
-        <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)}</div>
+        <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)} ${favBtn(`artiste:${a.nom}`, a.nom, `#/d/${d.id}`, "artiste")}</div>
         <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
         <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p></div></div>`).join("")}</div>`));
 
@@ -360,4 +377,78 @@ function renderDossier(id) {
 
   $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
   loadImages($("view"));
+  wireNotes();
+}
+
+/* =========================================================================
+   FAVORIS (référence) — étoile sur œuvres, artistes, dossiers
+   ========================================================================= */
+function favs() { try { return JSON.parse(localStorage.getItem("museum:favs")) || {}; } catch { return {}; } }
+function isFav(key) { return !!favs()[key]; }
+function favBtn(key, label, nav, type) {
+  return `<button class="fav ${isFav(key) ? "on" : ""}" data-fav="${esc(key)}" data-fav-label="${esc(label)}" data-fav-nav="${esc(nav)}" data-fav-type="${esc(type)}" title="Mettre en favori">${isFav(key) ? "★" : "☆"}</button>`;
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-fav]"); if (!b) return;
+  e.preventDefault(); e.stopPropagation();
+  const f = favs(); const k = b.dataset.fav;
+  if (f[k]) delete f[k];
+  else f[k] = { label: b.dataset.favLabel, nav: b.dataset.favNav, type: b.dataset.favType };
+  localStorage.setItem("museum:favs", JSON.stringify(f));
+  const on = !!favs()[k]; b.classList.toggle("on", on); b.textContent = on ? "★" : "☆";
+});
+
+function renderFavoris() {
+  crumb([{ label: "Favoris" }]);
+  const f = favs(); const keys = Object.keys(f);
+  if (!keys.length) {
+    $("view").innerHTML = `<div class="pagehead"><h1>Mes favoris</h1>
+      <p class="lead">Aucun favori pour l'instant. Clique l'étoile ☆ sur une œuvre, un artiste ou un dossier pour le retrouver ici.</p></div>`;
+    return;
+  }
+  const groups = {};
+  keys.forEach(k => { const it = f[k]; (groups[it.type] ||= []).push({ k, ...it }); });
+  const labels = { "œuvre": "Œuvres", "artiste": "Artistes", "dossier": "Dossiers", "chapitre": "Chapitres" };
+  $("view").innerHTML = `<div class="pagehead"><h1>Mes favoris</h1>
+    <p class="lead">${keys.length} élément${keys.length > 1 ? "s" : ""} mis de côté.</p></div>
+    ${Object.entries(groups).map(([type, items]) => `
+      <h2 style="margin:18px 0 6px;font-size:20px">${labels[type] || type}</h2>
+      <ul class="favlist">${items.map(it => `
+        <li><a data-nav="${esc(it.nav)}">${esc(it.label)}</a>
+        <button class="fav on" data-fav="${esc(it.k)}" data-fav-label="${esc(it.label)}" data-fav-nav="${esc(it.nav)}" data-fav-type="${esc(type)}" title="Retirer">★</button></li>`).join("")}</ul>`).join("")}`;
+}
+
+/* =========================================================================
+   MES NOTES (archivage) — la fiche s'enrichit
+   ========================================================================= */
+function notesKey(scope) { return "museum:notes:" + scope; }
+function userNotes(scope) { try { return JSON.parse(localStorage.getItem(notesKey(scope))) || []; } catch { return []; } }
+function notesBlock(scope) {
+  return `<div class="block notes" data-scope="${esc(scope)}">
+    <h3>📝 Mes notes — la fiche s'enrichit</h3>
+    <ul class="usernotes"></ul>
+    <div class="addnote"><textarea class="noteinput" placeholder="Ajoute une info, une remarque, ce que t'a dit le guide…"></textarea>
+    <button class="addnotebtn">Ajouter</button></div>
+  </div>`;
+}
+function renderNotesList(box, scope) {
+  const arr = userNotes(scope);
+  box.querySelector(".usernotes").innerHTML = arr.map((n, i) =>
+    `<li>${esc(n)} <button class="delnote" data-i="${i}" title="Supprimer">×</button></li>`).join("");
+  box.querySelectorAll(".delnote").forEach(b => b.onclick = () => {
+    const a = userNotes(scope); a.splice(+b.dataset.i, 1); localStorage.setItem(notesKey(scope), JSON.stringify(a)); renderNotesList(box, scope);
+  });
+}
+function addNote(scope, text) {
+  const a = userNotes(scope); a.push(text); localStorage.setItem(notesKey(scope), JSON.stringify(a));
+}
+function wireNotes() {
+  $("view").querySelectorAll(".notes").forEach(box => {
+    const scope = box.dataset.scope;
+    renderNotesList(box, scope);
+    box.querySelector(".addnotebtn").onclick = () => {
+      const ta = box.querySelector(".noteinput"); const v = ta.value.trim(); if (!v) return;
+      addNote(scope, v); ta.value = ""; renderNotesList(box, scope);
+    };
+  });
 }
