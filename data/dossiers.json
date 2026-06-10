@@ -2197,6 +2197,359 @@
         "Que reprochent les post-impressionnistes à l'impressionnisme ?",
         "Relie chacun des trois grands post-impressionnistes au mouvement du XXe qu'il annonce."
       ]
+    },
+    {
+      "id": "xxe-experimental",
+      "titre": "L'art expérimental : le XXᵉ",
+      "periode": "≈ 1905 – milieu du XXᵉ s.",
+      "couleur": "#34495e",
+      "sous_titre": "L'art cesse de répondre « à quoi ça ressemble ? » pour répondre « qu'est-ce que ça peut être ? ».",
+      "carte": [
+        [
+          "Dates",
+          "~1905 – milieu du XXᵉ s."
+        ],
+        [
+          "Foyers",
+          "Paris, puis Allemagne, Russie ; plus tard New York"
+        ],
+        [
+          "Idée-mère",
+          "L'art se libère de l'imitation : la forme, la couleur et l'idée deviennent autonomes"
+        ],
+        [
+          "Logique",
+          "Une succession rapide de mouvements (« -ismes »), chacun rompant avec le précédent"
+        ]
+      ],
+      "bascule": "Les post-impressionnistes (ch. 26) ont libéré la couleur (Van Gogh), la structure (Cézanne) et le symbole (Gauguin). Le XXe pousse ces libertés à l'extrême. La photographie ayant pris le rôle d'imiter le réel, le peintre se demande : à quoi bon copier le monde ? L'art n'a plus besoin de représenter quoi que ce soit : la couleur peut exister pour elle-même (Fauvisme), la forme être décomposée (Cubisme) ou devenir pure abstraction (Kandinsky, Mondrian), l'œuvre naître du rêve (Surréalisme) ou n'être qu'une idée (Dada, ready-made). Le rythme s'accélère : les mouvements se succèdent en quelques années.",
+      "phrase": "Au XXe siècle, l'art cesse de répondre « à quoi ça ressemble ? » pour répondre « qu'est-ce que ça peut être ? ».",
+      "probleme": "Si l'art ne doit plus imiter le réel, que doit-il être ? → autant de réponses que de mouvements.",
+      "mouvements": [
+        [
+          "Fauvisme",
+          "1905",
+          "La couleur pure, libérée du réel",
+          "Matisse, Derain"
+        ],
+        [
+          "Expressionnisme",
+          "1905-20",
+          "Déformer pour exprimer l'angoisse",
+          "Munch (source), Kirchner, Kokoschka"
+        ],
+        [
+          "Cubisme",
+          "1907-14",
+          "Décomposer la forme en facettes / multiples points de vue",
+          "Picasso, Braque"
+        ],
+        [
+          "Futurisme",
+          "1909-16",
+          "Le mouvement, la vitesse, la machine",
+          "Boccioni"
+        ],
+        [
+          "Abstraction",
+          "années 1910",
+          "Supprimer tout sujet (couleur/forme pures)",
+          "Kandinsky, Mondrian, Malevitch"
+        ],
+        [
+          "Dada",
+          "1916-22",
+          "Anti-art, provocation, hasard, ready-made",
+          "Duchamp, Arp"
+        ],
+        [
+          "Surréalisme",
+          "1924-40",
+          "Le rêve, l'inconscient, l'irrationnel",
+          "Dalí, Magritte, Ernst, Miró, Chagall"
+        ],
+        [
+          "Bauhaus",
+          "1919-33",
+          "Design et architecture : la forme suit la fonction",
+          "Gropius"
+        ]
+      ],
+      "oeuvres": [
+        {
+          "titre": "Les Demoiselles d'Avignon",
+          "artiste": "Picasso",
+          "annee": "1907",
+          "lieu": "New York (MoMA)",
+          "wiki": "Les Demoiselles d'Avignon",
+          "genie": "Cinq figures aux corps anguleux, visages inspirés des masques africains, fragmentés sous plusieurs angles. Acte de naissance du Cubisme : on abandonne le point de vue unique de la Renaissance, vieux de 500 ans. La forme est analysée et reconstruite, pas imitée."
+        },
+        {
+          "titre": "La Danse",
+          "artiste": "Matisse",
+          "annee": "~1910",
+          "lieu": "Saint-Pétersbourg (Ermitage)",
+          "wiki": "Dance (Matisse)",
+          "genie": "Des corps en aplats de couleurs vives, formes simplifiées, joie pure. Le Fauvisme : la couleur n'a plus à être « juste », elle exprime et organise le tableau pour elle-même. La libération chromatique totale."
+        },
+        {
+          "titre": "Composition VII",
+          "artiste": "Kandinsky",
+          "annee": "1913",
+          "lieu": "Moscou (Tretiakov)",
+          "wiki": "Composition VII",
+          "genie": "Plus aucun objet reconnaissable : seulement des formes et des couleurs en mouvement, « comme une musique ». Naissance de l'art abstrait : un tableau peut ne renvoyer à rien du monde visible et rester de l'art."
+        },
+        {
+          "titre": "Fontaine",
+          "artiste": "Duchamp",
+          "annee": "1917",
+          "lieu": "(ready-made)",
+          "wiki": "Fountain (Duchamp)",
+          "genie": "Un urinoir industriel signé et exposé comme une sculpture. Dada et le ready-made : l'œuvre n'est plus un objet fabriqué mais un geste, une idée. « Qu'est-ce que l'art ? » devient le sujet — la racine de tout l'art conceptuel."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Matisse",
+          "dates": "1869-1954",
+          "role": "Fauvisme",
+          "wiki": "Henri Matisse",
+          "portrait": "Chef du Fauvisme, maître de la couleur et de la ligne ; fin de vie : les gouaches découpées."
+        },
+        {
+          "niveau": "★",
+          "nom": "Picasso",
+          "dates": "1881-1973",
+          "role": "Cubisme",
+          "wiki": "Pablo Picasso",
+          "portrait": "Le géant du siècle : co-invente le Cubisme, traverse tous les styles (Guernica, 1937)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Braque",
+          "dates": "1882-1963",
+          "role": "Cubisme",
+          "wiki": "Georges Braque",
+          "portrait": "Co-inventeur du Cubisme avec Picasso."
+        },
+        {
+          "niveau": "○",
+          "nom": "Munch",
+          "dates": "1863-1944",
+          "role": "Expressionnisme",
+          "wiki": "Edvard Munch",
+          "portrait": "Le Cri, source de l'Expressionnisme."
+        },
+        {
+          "niveau": "○",
+          "nom": "Kokoschka",
+          "dates": "1886-1980",
+          "role": "Expressionnisme",
+          "wiki": "Oskar Kokoschka",
+          "portrait": "Expressionnisme autrichien."
+        },
+        {
+          "niveau": "★",
+          "nom": "Kandinsky",
+          "dates": "1866-1944",
+          "role": "Abstraction",
+          "wiki": "Wassily Kandinsky",
+          "portrait": "Pionnier de l'abstraction ; la couleur comme musique."
+        },
+        {
+          "niveau": "○",
+          "nom": "Mondrian",
+          "dates": "1872-1944",
+          "role": "Abstraction géométrique",
+          "wiki": "Piet Mondrian",
+          "portrait": "Abstraction géométrique pure (grilles, rouge/bleu/jaune)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Klee",
+          "dates": "1879-1940",
+          "role": "Bauhaus",
+          "wiki": "Paul Klee",
+          "portrait": "Poésie, signes, humour ; enseignant au Bauhaus."
+        },
+        {
+          "niveau": "★",
+          "nom": "Dalí",
+          "dates": "1904-1989",
+          "role": "Surréalisme",
+          "wiki": "Salvador Dalí",
+          "portrait": "Surréalisme, rêve hyperréaliste (La Persistance de la mémoire)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Chagall",
+          "dates": "1887-1985",
+          "role": "Rêve/symbole",
+          "wiki": "Marc Chagall",
+          "portrait": "Rêve, folklore, couleur lyrique."
+        },
+        {
+          "niveau": "○",
+          "nom": "Feininger",
+          "dates": "1871-1956",
+          "role": "Cubisme/Bauhaus",
+          "wiki": "Lyonel Feininger",
+          "portrait": "Cubisme cristallin, Bauhaus."
+        },
+        {
+          "niveau": "★",
+          "nom": "Henry Moore",
+          "dates": "1898-1986",
+          "role": "Sculpture",
+          "wiki": "Henry Moore",
+          "portrait": "Sculpteur, formes organiques creusées."
+        },
+        {
+          "niveau": "○",
+          "nom": "Giacometti",
+          "dates": "1901-1966",
+          "role": "Sculpture",
+          "wiki": "Alberto Giacometti",
+          "portrait": "Figures filiformes, l'homme réduit à l'essentiel."
+        },
+        {
+          "niveau": "○",
+          "nom": "Gropius / Bauhaus",
+          "dates": "dès 1919",
+          "role": "Design/archi",
+          "wiki": "Walter Gropius",
+          "portrait": "Design et architecture modernes."
+        },
+        {
+          "niveau": "○",
+          "nom": "Frank Lloyd Wright",
+          "dates": "1867-1959",
+          "role": "Architecture",
+          "wiki": "Frank Lloyd Wright",
+          "portrait": "Architecture organique (Maison sur la cascade)."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Matisse",
+              true,
+              "1869-1954",
+              "Fauvisme — La Danse"
+            ],
+            [
+              "Picasso",
+              true,
+              "1881-1973",
+              "Cubisme — Les Demoiselles d'Avignon ; Guernica"
+            ],
+            [
+              "Braque",
+              false,
+              "1882-1963",
+              "Cubisme — Natures mortes cubistes"
+            ],
+            [
+              "Munch",
+              false,
+              "1863-1944",
+              "Expressionnisme — Le Cri"
+            ],
+            [
+              "Kokoschka",
+              false,
+              "1886-1980",
+              "Expressionnisme — Portraits"
+            ],
+            [
+              "Kandinsky",
+              true,
+              "1866-1944",
+              "Abstraction — Compositions"
+            ],
+            [
+              "Mondrian",
+              false,
+              "1872-1944",
+              "Abstraction géom. — Compositions en rouge/bleu/jaune"
+            ],
+            [
+              "Klee",
+              true,
+              "1879-1940",
+              "Bauhaus — Œuvres-signes"
+            ],
+            [
+              "Duchamp",
+              false,
+              "1887-1968",
+              "Dada — Fontaine"
+            ],
+            [
+              "Dalí",
+              true,
+              "1904-1989",
+              "Surréalisme — La Persistance de la mémoire"
+            ],
+            [
+              "Chagall",
+              false,
+              "1887-1985",
+              "Rêve/symbole — Compositions oniriques"
+            ],
+            [
+              "Feininger",
+              false,
+              "1871-1956",
+              "Cubisme/Bauhaus — Architectures cristallines"
+            ],
+            [
+              "Henry Moore",
+              true,
+              "1898-1986",
+              "Sculpture — Figures couchées"
+            ],
+            [
+              "Giacometti",
+              false,
+              "1901-1966",
+              "Sculpture — L'Homme qui marche"
+            ],
+            [
+              "Gropius / Bauhaus",
+              false,
+              "dès 1919",
+              "Design/archi — Bauhaus (Dessau)"
+            ],
+            [
+              "Frank Lloyd Wright",
+              false,
+              "1867-1959",
+              "Architecture — Maison sur la cascade"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le Post-impressionnisme (ch. 26) — Cézanne → cubisme, Van Gogh → expressionnisme/fauvisme, Gauguin → symbole.",
+        "mene": "L'après-guerre (hors périmètre de Gombrich) — expressionnisme abstrait (Pollock, Rothko), Pop Art (Warhol), art conceptuel. New York remplace Paris."
+      },
+      "memos": [
+        "Photo prend l'imitation → l'art invente autre chose.",
+        "Fauvisme = couleur ; Cubisme = forme décomposée ; Abstraction = plus de sujet ; Dada = l'idée ; Surréalisme = le rêve.",
+        "Picasso = le géant qui traverse tout ; Duchamp = celui qui change la question même."
+      ],
+      "autotest": [
+        "Pourquoi l'art du XXe abandonne-t-il l'imitation du réel ?",
+        "En quoi Les Demoiselles d'Avignon rompt-il avec 500 ans de tradition ?",
+        "Qu'est-ce qu'un ready-made et pourquoi est-ce une révolution ?",
+        "Relie chaque post-impressionniste au mouvement du XXe qu'il a engendré.",
+        "Cite un mouvement et son idée centrale : Fauvisme, Cubisme, Abstraction, Dada, Surréalisme."
+      ]
     }
   ]
 }
