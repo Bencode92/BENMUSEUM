@@ -285,61 +285,72 @@ function renderDossiersList() {
 function renderDossier(id) {
   const d = DOSSIERS.find(x => x.id === id); if (!d) return renderDossiersList();
   crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre }]);
-  const sec = (title, html) => `<h2 class="sec">${title}</h2>${html}`;
+  const sec = (title, html) => html ? `<h2 class="sec">${title}</h2>${html}` : "";
+  const ul = arr => `<ul class="dots">${arr.map(c => `<li>${esc(c)}</li>`).join("")}</ul>`;
+  const P = [];
 
-  const carte = `<table class="kv">${d.carte.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>`;
-  const contexte = `<ul class="dots">${d.contexte.map(c => `<li>${esc(c)}</li>`).join("")}</ul>`;
-  const mentalites = `
-    <div class="block"><h3>Avant — le Moyen Âge</h3><p>${esc(d.mentalites.avant)}</p></div>
-    <p style="margin:6px 0"><b>Les renversements :</b></p>
-    <ol class="rev">${d.mentalites.renversements.map(r => `<li>${esc(r)}</li>`).join("")}</ol>
-    <div class="phrase">${esc(d.mentalites.phrase)}</div>`;
-  const probleme = `<div class="phrase">${esc(d.probleme)}</div>`;
-  const innovations = `<table class="tbl"><tr><th>Innovation</th><th>Qui / quand</th><th>Ce que ça résout</th></tr>
-    ${d.innovations.map(([n, q, r]) => `<tr><td><b>${esc(n)}</b></td><td>${esc(q)}</td><td>${esc(r)}</td></tr>`).join("")}</table>
-    <div class="memo">${esc(d.memo_outils)}</div>`;
-  const courants = `${d.courants.map(([n, desc]) => `<div class="block"><h3>${esc(n)}</h3><p>${esc(desc)}</p></div>`).join("")}
-    <div class="memo">${esc(d.memo_geo)}</div>`;
-  const oeuvres = `<div class="grid cols">${d.oeuvres.map(o => `
-      <div class="card">
-        <div class="thumb" data-wiki="${esc(o.wiki)}"></div>
-        <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.artiste)} · ${esc(o.annee)} · ${esc(o.lieu)}</div>
-        <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p></div>
-      </div>`).join("")}</div>`;
-  const artistes = `<div class="grid cols">${d.artistes.map(a => `
-      <div class="card">
-        <div class="thumb" data-wiki="${esc(a.wiki)}"></div>
-        <div class="body"><div class="t">${esc(a.nom)}</div><div class="s">${esc(a.dates)} — ${esc(a.role)}</div>
-        <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p></div>
-      </div>`).join("")}</div>`;
-  const index = d.index.map(g => `
-    <h3 style="font-family:Georgia;margin:16px 0 6px">${esc(g.ecole)}</h3>
-    <table class="tbl"><tr><th></th><th>Artiste</th><th>Dates</th><th>Œuvres-clés</th></tr>
-    ${g.items.map(([n, star, dates, oeuv]) => `<tr><td>${star ? '<span class="star">★</span>' : "○"}</td><td><b>${esc(n)}</b></td><td>${esc(dates)}</td><td>${esc(oeuv)}</td></tr>`).join("")}</table>`).join("");
-  const incont = `<table class="tbl"><tr><th>Œuvre</th><th>Artiste</th><th>Où la voir</th></tr>
-    ${d.incontournables.map(([o, a, w]) => `<tr><td><b>${esc(o)}</b></td><td>${esc(a)}</td><td>${esc(w)}</td></tr>`).join("")}</table>`;
-  const memos = `<ul class="dots">${d.memos.map(m => `<li><i>${esc(m)}</i></li>`).join("")}</ul>`;
-  const liens = `<div class="block"><h3>D'où ça vient</h3><p>${esc(d.liens.d_ou)}</p></div>
-    <div class="block"><h3>Où ça mène</h3><p>${esc(d.liens.mene)}</p></div>`;
-  const autotest = `<ol class="rev">${d.autotest.map(q => `<li>${esc(q)}</li>`).join("")}</ol>`;
+  P.push(`<div class="pagehead"><div class="ep">${esc(d.periode)}</div><h1>${esc(d.titre)}</h1>
+    ${d.sous_titre ? `<p class="lead">${esc(d.sous_titre)}</p>` : ""}</div>`);
 
-  $("view").innerHTML = `
-    <div class="dossier">
-      <div class="pagehead"><div class="ep">${esc(d.periode)}</div><h1>${esc(d.titre)}</h1>
-        <p class="lead">${esc(d.sous_titre)}</p></div>
-      ${sec("🪪 Carte d'identité", carte)}
-      ${sec("🌍 Le contexte", contexte)}
-      ${sec("🔄 La bascule des mentalités", mentalites)}
-      ${sec("🎯 Le problème central", probleme)}
-      ${sec("🛠 Les innovations techniques", innovations)}
-      ${sec("🗺 Les courants", courants)}
-      ${sec("🖼 Pourquoi c'est du génie (œuvres décortiquées)", oeuvres)}
-      ${sec("👤 Les artistes", artistes)}
-      ${sec("📑 Index de référence", index)}
-      ${sec("⭐ Les incontournables", incont)}
-      ${sec("🔗 Relier", liens)}
-      ${sec("🧠 Mémos", memos)}
-      ${sec("✅ Auto-test", autotest)}
-    </div>`;
+  if (d.carte) P.push(sec("🪪 Carte d'identité",
+    `<table class="kv">${d.carte.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>`));
+
+  // contexte : bullets et/ou prose + phrase-clé
+  let ctx = "";
+  if (Array.isArray(d.contexte)) ctx += ul(d.contexte);
+  if (d.bascule) ctx += `<p>${esc(d.bascule)}</p>`;
+  if (d.phrase) ctx += `<div class="phrase">${esc(d.phrase)}</div>`;
+  P.push(sec("🌍 Contexte & mentalités", ctx));
+
+  if (d.mentalites) P.push(sec("🔄 La bascule des mentalités",
+    `<div class="block"><h3>Avant — le Moyen Âge</h3><p>${esc(d.mentalites.avant)}</p></div>
+     <p style="margin:6px 0"><b>Les renversements :</b></p>
+     <ol class="rev">${d.mentalites.renversements.map(r => `<li>${esc(r)}</li>`).join("")}</ol>
+     ${d.mentalites.phrase ? `<div class="phrase">${esc(d.mentalites.phrase)}</div>` : ""}`));
+
+  if (d.probleme) P.push(sec("🎯 Le problème central", `<div class="phrase">${esc(d.probleme)}</div>`));
+  if (d.caracteristiques) P.push(sec("👁 Caractéristiques visuelles", ul(d.caracteristiques)));
+  if (d.genres) P.push(sec("🎭 Les genres", ul(d.genres)));
+
+  if (d.innovations) P.push(sec("🛠 Les innovations techniques",
+    `<table class="tbl"><tr><th>Innovation</th><th>Qui / quand</th><th>Ce que ça résout</th></tr>
+     ${d.innovations.map(([n, q, r]) => `<tr><td><b>${esc(n)}</b></td><td>${esc(q)}</td><td>${esc(r)}</td></tr>`).join("")}</table>
+     ${d.memo_outils ? `<div class="memo">${esc(d.memo_outils)}</div>` : ""}`));
+
+  if (d.courants) P.push(sec("🗺 Les courants",
+    `${d.courants.map(([n, desc]) => `<div class="block"><h3>${esc(n)}</h3><p>${esc(desc)}</p></div>`).join("")}
+     ${d.memo_geo ? `<div class="memo">${esc(d.memo_geo)}</div>` : ""}`));
+
+  if (d.oeuvres) P.push(sec("🖼 Pourquoi c'est du génie (œuvres décortiquées)",
+    `<div class="grid cols">${d.oeuvres.map(o => `
+      <div class="card"><div class="thumb" data-wiki="${esc(o.wiki)}"></div>
+        <div class="body"><div class="t">${esc(o.titre)}</div>
+        <div class="s">${esc(o.artiste)} · ${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
+        <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p></div></div>`).join("")}</div>`));
+
+  if (d.artistes) P.push(sec("👤 Les artistes",
+    `<div class="grid cols">${d.artistes.map(a => `
+      <div class="card"><div class="thumb" data-wiki="${esc(a.wiki)}"></div>
+        <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)}</div>
+        <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
+        <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p></div></div>`).join("")}</div>`));
+
+  if (d.index) P.push(sec("📑 Index de référence",
+    d.index.map(g => `${g.ecole ? `<h3 style="font-family:Georgia;margin:16px 0 6px">${esc(g.ecole)}</h3>` : ""}
+      <table class="tbl"><tr><th></th><th>Artiste</th><th>Dates</th><th>Œuvres & repères</th></tr>
+      ${g.items.map(([n, star, dates, det]) => `<tr><td>${star ? '<span class="star">★</span>' : "○"}</td><td><b>${esc(n)}</b></td><td>${esc(dates)}</td><td>${esc(det)}</td></tr>`).join("")}</table>`).join("")));
+
+  if (d.incontournables) P.push(sec("⭐ Les incontournables",
+    `<table class="tbl"><tr><th>Œuvre</th><th>Artiste</th><th>Où la voir</th></tr>
+     ${d.incontournables.map(([o, a, w]) => `<tr><td><b>${esc(o)}</b></td><td>${esc(a)}</td><td>${esc(w)}</td></tr>`).join("")}</table>`));
+
+  if (d.liens) P.push(sec("🔗 Relier",
+    `${d.liens.d_ou ? `<div class="block"><h3>D'où ça vient</h3><p>${esc(d.liens.d_ou)}</p></div>` : ""}
+     ${d.liens.mene ? `<div class="block"><h3>Où ça mène</h3><p>${esc(d.liens.mene)}</p></div>` : ""}`));
+
+  if (d.memos) P.push(sec("🧠 Mémos", `<ul class="dots">${d.memos.map(m => `<li><i>${esc(m)}</i></li>`).join("")}</ul>`));
+  if (d.autotest) P.push(sec("✅ Auto-test", `<ol class="rev">${d.autotest.map(q => `<li>${esc(q)}</li>`).join("")}</ol>`));
+
+  $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
   loadImages($("view"));
 }

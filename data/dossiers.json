@@ -7,11 +7,26 @@
       "couleur": "#3fa07a",
       "sous_titre": "L'humain cesse d'être un figurant du divin pour devenir le héros de sa propre image.",
       "carte": [
-        ["Dates", "~1400 – 1520 (annoncée dès ~1300 par Giotto)"],
-        ["Foyers", "Florence → Rome → Venise · en parallèle : Renaissance du Nord"],
-        ["Idée-mère", "L'homme et le monde visible deviennent dignes d'être représentés pour eux-mêmes"],
-        ["Mot-clé", "Rinascita = « renaissance » de l'Antiquité gréco-romaine"],
-        ["Rupture", "On passe de « peindre ce qu'on SAIT » à « peindre ce qu'on VOIT »"]
+        [
+          "Dates",
+          "~1400 – 1520 (annoncée dès ~1300 par Giotto)"
+        ],
+        [
+          "Foyers",
+          "Florence → Rome → Venise · en parallèle : Renaissance du Nord"
+        ],
+        [
+          "Idée-mère",
+          "L'homme et le monde visible deviennent dignes d'être représentés pour eux-mêmes"
+        ],
+        [
+          "Mot-clé",
+          "Rinascita = « renaissance » de l'Antiquité gréco-romaine"
+        ],
+        [
+          "Rupture",
+          "On passe de « peindre ce qu'on SAIT » à « peindre ce qu'on VOIT »"
+        ]
       ],
       "contexte": [
         "L'humanisme : les lettrés redécouvrent les textes antiques et replacent l'humain — sa raison, sa beauté, sa dignité — au centre, là où le Moyen Âge centrait tout sur Dieu.",
@@ -33,92 +48,432 @@
       },
       "probleme": "Comment faire qu'une surface plate donne l'illusion convaincante du monde réel — l'espace, le volume, la lumière, la chair, l'émotion ? Chaque innovation est une réponse à cette question.",
       "innovations": [
-        ["Perspective linéaire", "Brunelleschi (~1420), Alberti la théorise (1435)", "La profondeur : lignes de fuite vers un point unique"],
-        ["Anatomie / proportions", "Léonard, Michel-Ange (dissections)", "Le volume et la crédibilité des corps"],
-        ["Contrapposto", "Repris de l'Antiquité", "Posture naturelle, appui sur une jambe, torsion vivante"],
-        ["Sfumato", "Léonard de Vinci", "Fondu vaporeux des contours → réel « brumeux »"],
-        ["Clair-obscur", "Généralisé au Cinquecento", "Modeler le volume par le contraste ombre/lumière"],
-        ["Peinture à l'huile", "Venue des Flandres (Van Eyck)", "Couleurs profondes, transparences, détail inédit"]
+        [
+          "Perspective linéaire",
+          "Brunelleschi (~1420), Alberti la théorise (1435)",
+          "La profondeur : lignes de fuite vers un point unique"
+        ],
+        [
+          "Anatomie / proportions",
+          "Léonard, Michel-Ange (dissections)",
+          "Le volume et la crédibilité des corps"
+        ],
+        [
+          "Contrapposto",
+          "Repris de l'Antiquité",
+          "Posture naturelle, appui sur une jambe, torsion vivante"
+        ],
+        [
+          "Sfumato",
+          "Léonard de Vinci",
+          "Fondu vaporeux des contours → réel « brumeux »"
+        ],
+        [
+          "Clair-obscur",
+          "Généralisé au Cinquecento",
+          "Modeler le volume par le contraste ombre/lumière"
+        ],
+        [
+          "Peinture à l'huile",
+          "Venue des Flandres (Van Eyck)",
+          "Couleurs profondes, transparences, détail inédit"
+        ]
       ],
       "memo_outils": "Perspective (espace) + anatomie/contrapposto (corps) + sfumato/clair-obscur (lumière) + huile (matière).",
       "courants": [
-        ["Pré-Renaissance (~1300)", "Giotto rompt avec le style byzantin figé : poids, émotion, espace. Le grand-père de tout."],
-        ["Quattrocento (~1400-1490)", "L'invention, à Florence : on forge les outils, énergie d'expérimentation. Brunelleschi, Donatello, Masaccio, Botticelli."],
-        ["Cinquecento / Haute Renaissance (~1490-1520)", "L'apogée, à Rome : synthèse parfaite. Léonard, Michel-Ange, Raphaël."],
-        ["École vénitienne (~1450-1576)", "La couleur et la lumière (colorito) plutôt que le dessin (disegno). Atmosphère, sensualité. Bellini, Giorgione, Titien."],
-        ["Renaissance du Nord", "Pas de redécouverte de l'Antiquité, mais un réalisme minutieux porté par l'huile et le détail microscopique. Van Eyck, Dürer, Bosch, Bruegel."]
+        [
+          "Pré-Renaissance (~1300)",
+          "Giotto rompt avec le style byzantin figé : poids, émotion, espace. Le grand-père de tout."
+        ],
+        [
+          "Quattrocento (~1400-1490)",
+          "L'invention, à Florence : on forge les outils, énergie d'expérimentation. Brunelleschi, Donatello, Masaccio, Botticelli."
+        ],
+        [
+          "Cinquecento / Haute Renaissance (~1490-1520)",
+          "L'apogée, à Rome : synthèse parfaite. Léonard, Michel-Ange, Raphaël."
+        ],
+        [
+          "École vénitienne (~1450-1576)",
+          "La couleur et la lumière (colorito) plutôt que le dessin (disegno). Atmosphère, sensualité. Bellini, Giorgione, Titien."
+        ],
+        [
+          "Renaissance du Nord",
+          "Pas de redécouverte de l'Antiquité, mais un réalisme minutieux porté par l'huile et le détail microscopique. Van Eyck, Dürer, Bosch, Bruegel."
+        ]
       ],
       "memo_geo": "Florence = le dessin · Venise = la couleur · le Nord = le détail.",
       "oeuvres": [
-        { "titre": "La Trinité", "artiste": "Masaccio", "annee": "~1427", "lieu": "Florence", "wiki": "Holy Trinity (Masaccio)", "genie": "Première application rigoureuse de la perspective en peinture : le mur plat semble se creuser en vraie chapelle. La peinture devient une fenêtre sur un monde cohérent." },
-        { "titre": "Les Époux Arnolfini", "artiste": "Van Eyck", "annee": "1434", "lieu": "Londres", "wiki": "Arnolfini Portrait", "genie": "Maîtrise inouïe de l'huile : chaque texture rendue avec une précision quasi photographique, 3 siècles avant la photo. Le miroir du fond reflète la scène par-derrière, peintre compris. Le quotidien d'un couple de marchands mérite l'attention du sacré." },
-        { "titre": "La Cène", "artiste": "Léonard de Vinci", "annee": "~1495-98", "lieu": "Milan", "wiki": "The Last Supper (Leonardo)", "genie": "Saisit l'instant psychologique où le Christ annonce la trahison ; chaque apôtre réagit, la géométrie pointe vers sa tête. L'art peint l'intérieur des gens, pas seulement l'apparence." },
-        { "titre": "David", "artiste": "Michel-Ange", "annee": "1501-04", "lieu": "Florence", "wiki": "David (Michelangelo)", "genie": "L'instant avant le combat : tension, concentration. Anatomie parfaite, contrapposto antique, charge psychologique neuve. Le corps nu redevient expression suprême de dignité ; symbole d'une Florence libre." },
-        { "titre": "L'École d'Athènes", "artiste": "Raphaël", "annee": "1509-11", "lieu": "Vatican", "wiki": "The School of Athens", "genie": "Synthèse parfaite de tous les acquis ; les philosophes ont les traits de Léonard et Michel-Ange. Dans un palais du pape, on célèbre des penseurs païens : savoir antique et foi réconciliés." }
+        {
+          "titre": "La Trinité",
+          "artiste": "Masaccio",
+          "annee": "~1427",
+          "lieu": "Florence",
+          "wiki": "Holy Trinity (Masaccio)",
+          "genie": "Première application rigoureuse de la perspective en peinture : le mur plat semble se creuser en vraie chapelle. La peinture devient une fenêtre sur un monde cohérent."
+        },
+        {
+          "titre": "Les Époux Arnolfini",
+          "artiste": "Van Eyck",
+          "annee": "1434",
+          "lieu": "Londres",
+          "wiki": "Arnolfini Portrait",
+          "genie": "Maîtrise inouïe de l'huile : chaque texture rendue avec une précision quasi photographique, 3 siècles avant la photo. Le miroir du fond reflète la scène par-derrière, peintre compris. Le quotidien d'un couple de marchands mérite l'attention du sacré."
+        },
+        {
+          "titre": "La Cène",
+          "artiste": "Léonard de Vinci",
+          "annee": "~1495-98",
+          "lieu": "Milan",
+          "wiki": "The Last Supper (Leonardo)",
+          "genie": "Saisit l'instant psychologique où le Christ annonce la trahison ; chaque apôtre réagit, la géométrie pointe vers sa tête. L'art peint l'intérieur des gens, pas seulement l'apparence."
+        },
+        {
+          "titre": "David",
+          "artiste": "Michel-Ange",
+          "annee": "1501-04",
+          "lieu": "Florence",
+          "wiki": "David (Michelangelo)",
+          "genie": "L'instant avant le combat : tension, concentration. Anatomie parfaite, contrapposto antique, charge psychologique neuve. Le corps nu redevient expression suprême de dignité ; symbole d'une Florence libre."
+        },
+        {
+          "titre": "L'École d'Athènes",
+          "artiste": "Raphaël",
+          "annee": "1509-11",
+          "lieu": "Vatican",
+          "wiki": "The School of Athens",
+          "genie": "Synthèse parfaite de tous les acquis ; les philosophes ont les traits de Léonard et Michel-Ange. Dans un palais du pape, on célèbre des penseurs païens : savoir antique et foi réconciliés."
+        }
       ],
       "artistes": [
-        { "nom": "Giotto", "dates": "~1267-1337", "role": "le grand-père", "wiki": "Giotto", "portrait": "Premier à donner poids, émotion et espace, rompant avec l'or byzantin. Sans lui, pas de Renaissance. → Chapelle des Scrovegni (Padoue)." },
-        { "nom": "Masaccio", "dates": "1401-1428", "role": "le pionnier foudroyé", "wiki": "Masaccio", "portrait": "Mort à 27 ans, il change tout : fusionne perspective, volume et observation. Tous les grands Florentins iront étudier ses fresques." },
-        { "nom": "Donatello", "dates": "~1386-1466", "role": "le sculpteur révolutionnaire", "wiki": "Donatello", "portrait": "Ramène le nu autonome et l'émotion intense. Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité." },
-        { "nom": "Botticelli", "dates": "1445-1510", "role": "la grâce, puis le doute", "wiki": "Sandro Botticelli", "portrait": "Mythologies païennes d'une grâce linéaire unique sous les Médicis. Fin de vie troublée sous l'influence de Savonarole." },
-        { "nom": "Léonard de Vinci", "dates": "1452-1519", "role": "le génie universel", "wiki": "Leonardo da Vinci", "portrait": "Peintre, anatomiste, ingénieur. Obsédé par l'observation, finissait peu d'œuvres. Invente le sfumato. Meurt en France auprès de François Iᵉʳ. Pour lui, peindre = comprendre le monde." },
-        { "nom": "Michel-Ange", "dates": "1475-1564", "role": "la force et le tourment", "wiki": "Michelangelo", "portrait": "Se voulait avant tout sculpteur. Solitaire, exigeant. Peint seul, sur le dos, le plafond Sixtine en 4 ans. Donne au corps une puissance quasi divine. Vit 88 ans." },
-        { "nom": "Raphaël", "dates": "1483-1520", "role": "l'harmonie incarnée", "wiki": "Raphael", "portrait": "Le plus jeune des trois géants, mort à 37 ans. Génie de l'équilibre et de la composition. Serein là où Léonard est mystérieux et Michel-Ange tourmenté." },
-        { "nom": "Titien", "dates": "~1488-1576", "role": "le roi de la couleur (Venise)", "wiki": "Titian", "portrait": "Domine 60 ans. Maître de la couleur et de la matière, touche de plus en plus libre avec l'âge. Peintre des rois et des papes." },
-        { "nom": "Albrecht Dürer", "dates": "1471-1528", "role": "le pont Nord-Sud", "wiki": "Albrecht Dürer", "portrait": "Allemand, ramène la Renaissance au Nord. Génie de la gravure diffusée en masse. Se peint en personnage noble : la nouvelle fierté de l'artiste." }
+        {
+          "nom": "Giotto",
+          "dates": "~1267-1337",
+          "role": "le grand-père",
+          "wiki": "Giotto",
+          "portrait": "Premier à donner poids, émotion et espace, rompant avec l'or byzantin. Sans lui, pas de Renaissance. → Chapelle des Scrovegni (Padoue)."
+        },
+        {
+          "nom": "Masaccio",
+          "dates": "1401-1428",
+          "role": "le pionnier foudroyé",
+          "wiki": "Masaccio",
+          "portrait": "Mort à 27 ans, il change tout : fusionne perspective, volume et observation. Tous les grands Florentins iront étudier ses fresques."
+        },
+        {
+          "nom": "Donatello",
+          "dates": "~1386-1466",
+          "role": "le sculpteur révolutionnaire",
+          "wiki": "Donatello",
+          "portrait": "Ramène le nu autonome et l'émotion intense. Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité."
+        },
+        {
+          "nom": "Botticelli",
+          "dates": "1445-1510",
+          "role": "la grâce, puis le doute",
+          "wiki": "Sandro Botticelli",
+          "portrait": "Mythologies païennes d'une grâce linéaire unique sous les Médicis. Fin de vie troublée sous l'influence de Savonarole."
+        },
+        {
+          "nom": "Léonard de Vinci",
+          "dates": "1452-1519",
+          "role": "le génie universel",
+          "wiki": "Leonardo da Vinci",
+          "portrait": "Peintre, anatomiste, ingénieur. Obsédé par l'observation, finissait peu d'œuvres. Invente le sfumato. Meurt en France auprès de François Iᵉʳ. Pour lui, peindre = comprendre le monde."
+        },
+        {
+          "nom": "Michel-Ange",
+          "dates": "1475-1564",
+          "role": "la force et le tourment",
+          "wiki": "Michelangelo",
+          "portrait": "Se voulait avant tout sculpteur. Solitaire, exigeant. Peint seul, sur le dos, le plafond Sixtine en 4 ans. Donne au corps une puissance quasi divine. Vit 88 ans."
+        },
+        {
+          "nom": "Raphaël",
+          "dates": "1483-1520",
+          "role": "l'harmonie incarnée",
+          "wiki": "Raphael",
+          "portrait": "Le plus jeune des trois géants, mort à 37 ans. Génie de l'équilibre et de la composition. Serein là où Léonard est mystérieux et Michel-Ange tourmenté."
+        },
+        {
+          "nom": "Titien",
+          "dates": "~1488-1576",
+          "role": "le roi de la couleur (Venise)",
+          "wiki": "Titian",
+          "portrait": "Domine 60 ans. Maître de la couleur et de la matière, touche de plus en plus libre avec l'âge. Peintre des rois et des papes."
+        },
+        {
+          "nom": "Albrecht Dürer",
+          "dates": "1471-1528",
+          "role": "le pont Nord-Sud",
+          "wiki": "Albrecht Dürer",
+          "portrait": "Allemand, ramène la Renaissance au Nord. Génie de la gravure diffusée en masse. Se peint en personnage noble : la nouvelle fierté de l'artiste."
+        }
       ],
       "index": [
-        { "ecole": "École florentine / romaine — le dessin", "items": [
-          ["Giotto", true, "~1267-1337", "Chapelle des Scrovegni"],
-          ["Brunelleschi", true, "1377-1446", "Coupole de Florence ; Hôpital des Innocents"],
-          ["Ghiberti", false, "1378-1455", "Portes du Paradis (Baptistère)"],
-          ["Donatello", true, "~1386-1466", "David (bronze) ; Gattamelata"],
-          ["Fra Angelico", false, "~1395-1455", "Annonciation (San Marco)"],
-          ["Masaccio", true, "1401-1428", "La Trinité ; chapelle Brancacci"],
-          ["Filippo Lippi", false, "~1406-1469", "Madones"],
-          ["Piero della Francesca", true, "~1415-1492", "La Flagellation ; portraits d'Urbino"],
-          ["Mantegna", false, "~1431-1506", "Le Christ mort"],
-          ["Verrocchio", false, "~1435-1488", "Le Baptême du Christ (maître de Léonard)"],
-          ["Botticelli", true, "1445-1510", "La Naissance de Vénus ; Le Printemps"],
-          ["Ghirlandaio", false, "1448-1494", "Fresques Santa Maria Novella"],
-          ["Le Pérugin", false, "~1446-1523", "Remise des clés (maître de Raphaël)"],
-          ["Léonard de Vinci", true, "1452-1519", "La Joconde ; La Cène ; Vitruve ; La Vierge aux rochers"],
-          ["Michel-Ange", true, "1475-1564", "David ; Sixtine ; Jugement dernier ; Pietà ; Moïse"],
-          ["Raphaël", true, "1483-1520", "L'École d'Athènes ; Madones ; La Transfiguration"],
-          ["Bramante", false, "1444-1514", "Saint-Pierre ; Tempietto"]
-        ]},
-        { "ecole": "École vénitienne — la couleur", "items": [
-          ["Giovanni Bellini", false, "~1430-1516", "Retables, Madones"],
-          ["Giorgione", false, "~1477-1510", "La Tempête ; Vénus endormie"],
-          ["Titien", true, "~1488-1576", "Vénus d'Urbin ; L'Assomption"],
-          ["Tintoret", false, "1518-1594", "La Cène (dynamique)"],
-          ["Véronèse", false, "1528-1588", "Les Noces de Cana"]
-        ]},
-        { "ecole": "Renaissance du Nord — le détail", "items": [
-          ["Jan van Eyck", true, "~1390-1441", "Les Époux Arnolfini ; Retable de Gand"],
-          ["Van der Weyden", false, "~1400-1464", "La Descente de croix"],
-          ["Memling", false, "~1430-1494", "Portraits, retables"],
-          ["Jérôme Bosch", true, "~1450-1516", "Le Jardin des délices"],
-          ["Albrecht Dürer", true, "1471-1528", "Autoportraits ; Melencolia I ; gravures"],
-          ["Grünewald", false, "~1470-1528", "Retable d'Issenheim"],
-          ["Cranach", false, "1472-1553", "Portraits, nus, Réforme"],
-          ["Holbein le Jeune", false, "~1497-1543", "Les Ambassadeurs ; Henri VIII"],
-          ["Bruegel l'Ancien", true, "~1525-1569", "Les Chasseurs dans la neige"]
-        ]}
+        {
+          "ecole": "École florentine / romaine — le dessin",
+          "items": [
+            [
+              "Giotto",
+              true,
+              "~1267-1337",
+              "Chapelle des Scrovegni"
+            ],
+            [
+              "Brunelleschi",
+              true,
+              "1377-1446",
+              "Coupole de Florence ; Hôpital des Innocents"
+            ],
+            [
+              "Ghiberti",
+              false,
+              "1378-1455",
+              "Portes du Paradis (Baptistère)"
+            ],
+            [
+              "Donatello",
+              true,
+              "~1386-1466",
+              "David (bronze) ; Gattamelata"
+            ],
+            [
+              "Fra Angelico",
+              false,
+              "~1395-1455",
+              "Annonciation (San Marco)"
+            ],
+            [
+              "Masaccio",
+              true,
+              "1401-1428",
+              "La Trinité ; chapelle Brancacci"
+            ],
+            [
+              "Filippo Lippi",
+              false,
+              "~1406-1469",
+              "Madones"
+            ],
+            [
+              "Piero della Francesca",
+              true,
+              "~1415-1492",
+              "La Flagellation ; portraits d'Urbino"
+            ],
+            [
+              "Mantegna",
+              false,
+              "~1431-1506",
+              "Le Christ mort"
+            ],
+            [
+              "Verrocchio",
+              false,
+              "~1435-1488",
+              "Le Baptême du Christ (maître de Léonard)"
+            ],
+            [
+              "Botticelli",
+              true,
+              "1445-1510",
+              "La Naissance de Vénus ; Le Printemps"
+            ],
+            [
+              "Ghirlandaio",
+              false,
+              "1448-1494",
+              "Fresques Santa Maria Novella"
+            ],
+            [
+              "Le Pérugin",
+              false,
+              "~1446-1523",
+              "Remise des clés (maître de Raphaël)"
+            ],
+            [
+              "Léonard de Vinci",
+              true,
+              "1452-1519",
+              "La Joconde ; La Cène ; Vitruve ; La Vierge aux rochers"
+            ],
+            [
+              "Michel-Ange",
+              true,
+              "1475-1564",
+              "David ; Sixtine ; Jugement dernier ; Pietà ; Moïse"
+            ],
+            [
+              "Raphaël",
+              true,
+              "1483-1520",
+              "L'École d'Athènes ; Madones ; La Transfiguration"
+            ],
+            [
+              "Bramante",
+              false,
+              "1444-1514",
+              "Saint-Pierre ; Tempietto"
+            ]
+          ]
+        },
+        {
+          "ecole": "École vénitienne — la couleur",
+          "items": [
+            [
+              "Giovanni Bellini",
+              false,
+              "~1430-1516",
+              "Retables, Madones"
+            ],
+            [
+              "Giorgione",
+              false,
+              "~1477-1510",
+              "La Tempête ; Vénus endormie"
+            ],
+            [
+              "Titien",
+              true,
+              "~1488-1576",
+              "Vénus d'Urbin ; L'Assomption"
+            ],
+            [
+              "Tintoret",
+              false,
+              "1518-1594",
+              "La Cène (dynamique)"
+            ],
+            [
+              "Véronèse",
+              false,
+              "1528-1588",
+              "Les Noces de Cana"
+            ]
+          ]
+        },
+        {
+          "ecole": "Renaissance du Nord — le détail",
+          "items": [
+            [
+              "Jan van Eyck",
+              true,
+              "~1390-1441",
+              "Les Époux Arnolfini ; Retable de Gand"
+            ],
+            [
+              "Van der Weyden",
+              false,
+              "~1400-1464",
+              "La Descente de croix"
+            ],
+            [
+              "Memling",
+              false,
+              "~1430-1494",
+              "Portraits, retables"
+            ],
+            [
+              "Jérôme Bosch",
+              true,
+              "~1450-1516",
+              "Le Jardin des délices"
+            ],
+            [
+              "Albrecht Dürer",
+              true,
+              "1471-1528",
+              "Autoportraits ; Melencolia I ; gravures"
+            ],
+            [
+              "Grünewald",
+              false,
+              "~1470-1528",
+              "Retable d'Issenheim"
+            ],
+            [
+              "Cranach",
+              false,
+              "1472-1553",
+              "Portraits, nus, Réforme"
+            ],
+            [
+              "Holbein le Jeune",
+              false,
+              "~1497-1543",
+              "Les Ambassadeurs ; Henri VIII"
+            ],
+            [
+              "Bruegel l'Ancien",
+              true,
+              "~1525-1569",
+              "Les Chasseurs dans la neige"
+            ]
+          ]
+        }
       ],
       "incontournables": [
-        ["Chapelle des Scrovegni", "Giotto", "Padoue"],
-        ["La Trinité", "Masaccio", "Florence (Santa Maria Novella)"],
-        ["Les Époux Arnolfini", "Van Eyck", "Londres (National Gallery)"],
-        ["La Naissance de Vénus", "Botticelli", "Florence (Offices)"],
-        ["La Cène", "Léonard", "Milan"],
-        ["La Joconde", "Léonard", "Paris (Louvre)"],
-        ["David", "Michel-Ange", "Florence (Accademia)"],
-        ["Plafond Sixtine", "Michel-Ange", "Vatican"],
-        ["L'École d'Athènes", "Raphaël", "Vatican"],
-        ["Vénus d'Urbin", "Titien", "Florence (Offices)"],
-        ["Le Jardin des délices", "Bosch", "Madrid (Prado)"],
-        ["Melencolia I", "Dürer", "(gravure)"]
+        [
+          "Chapelle des Scrovegni",
+          "Giotto",
+          "Padoue"
+        ],
+        [
+          "La Trinité",
+          "Masaccio",
+          "Florence (Santa Maria Novella)"
+        ],
+        [
+          "Les Époux Arnolfini",
+          "Van Eyck",
+          "Londres (National Gallery)"
+        ],
+        [
+          "La Naissance de Vénus",
+          "Botticelli",
+          "Florence (Offices)"
+        ],
+        [
+          "La Cène",
+          "Léonard",
+          "Milan"
+        ],
+        [
+          "La Joconde",
+          "Léonard",
+          "Paris (Louvre)"
+        ],
+        [
+          "David",
+          "Michel-Ange",
+          "Florence (Accademia)"
+        ],
+        [
+          "Plafond Sixtine",
+          "Michel-Ange",
+          "Vatican"
+        ],
+        [
+          "L'École d'Athènes",
+          "Raphaël",
+          "Vatican"
+        ],
+        [
+          "Vénus d'Urbin",
+          "Titien",
+          "Florence (Offices)"
+        ],
+        [
+          "Le Jardin des délices",
+          "Bosch",
+          "Madrid (Prado)"
+        ],
+        [
+          "Melencolia I",
+          "Dürer",
+          "(gravure)"
+        ]
       ],
       "memos": [
         "Quattrocento = on invente (Florence) ; Cinquecento = on perfectionne (Rome).",
@@ -138,6 +493,634 @@
         "Pourquoi L'École d'Athènes est-elle audacieuse vu son emplacement ?",
         "Oppose en une phrase Léonard, Michel-Ange et Raphaël.",
         "Différence Florence / Venise / Nord ?"
+      ]
+    },
+    {
+      "id": "manierisme",
+      "titre": "Le Maniérisme",
+      "periode": "≈ 1520 – 1600",
+      "couleur": "#8a6a3a",
+      "sous_titre": "L'art qui, ne pouvant dépasser la perfection, choisit de la déformer avec élégance.",
+      "carte": [
+        [
+          "Dates",
+          "~1520 – 1600"
+        ],
+        [
+          "Foyers",
+          "Florence, Rome, puis Venise, Espagne, Europe du Nord"
+        ],
+        [
+          "Idée-mère",
+          "Après la perfection, l'art devient conscient de lui-même : style, virtuosité, tension"
+        ],
+        [
+          "Mot-clé",
+          "Maniera = « la manière », le style cultivé pour lui-même"
+        ],
+        [
+          "Charnière",
+          "Mort de Raphaël (1520) + sac de Rome (1527) : fin de la sérénité"
+        ]
+      ],
+      "bascule": "La Haute Renaissance avait atteint un sommet : équilibre, harmonie, naturel parfait. Que faire après la perfection ? Impossible de faire « plus harmonieux ». Alors les jeunes artistes prennent le contre-pied. S'ajoute une angoisse réelle : le sac de Rome (1527) traumatise l'Italie, et la Réforme protestante déchire la chrétienté. Le monde n'est plus stable et confiant. On quitte l'harmonie naturelle pour l'artifice assumé : corps étirés, poses impossibles (figura serpentinata, le corps en spirale), espaces ambigus, couleurs acides. L'art ne cherche plus à imiter la nature mais à épater par sa virtuosité et exprimer une inquiétude.",
+      "phrase": "Le Maniérisme, c'est l'art qui, ne pouvant dépasser la perfection, choisit de la déformer avec élégance.",
+      "probleme": "Comment être original quand tout semble déjà parfaitement résolu ? → en cultivant la difficulté, la grâce étrange, le style personnel.",
+      "caracteristiques": [
+        "Corps allongés, cous et membres étirés.",
+        "Poses complexes, contorsionnées (figura serpentinata).",
+        "Couleurs froides, métalliques, irréelles.",
+        "Espaces instables, perspectives ambiguës, compositions surchargées.",
+        "Virtuosité technique ostentatoire."
+      ],
+      "oeuvres": [
+        {
+          "titre": "La Madone au long cou",
+          "artiste": "Parmesan",
+          "annee": "~1535",
+          "lieu": "Florence (Offices)",
+          "wiki": "Madonna with the Long Neck",
+          "genie": "Vierge au cou de cygne, doigts interminables, enfant anormalement grand, colonne sans fonction au fond. Rupture assumée avec le naturel : la beauté devient élégance irréelle. L'artifice est le sujet."
+        },
+        {
+          "titre": "L'Enterrement du comte d'Orgaz",
+          "artiste": "El Greco",
+          "annee": "1586",
+          "lieu": "Tolède",
+          "wiki": "The Burial of the Count of Orgaz",
+          "genie": "Deux mondes superposés : en bas les nobles terrestres (réalistes), en haut le ciel (corps étirés, flammes de couleur). L'art exprime une expérience mystique, pas le réel. El Greco invente une langue visuelle unique, incomprise jusqu'au XXe s."
+        },
+        {
+          "titre": "L'Enlèvement des Sabines",
+          "artiste": "Giambologna",
+          "annee": "1583",
+          "lieu": "Florence (sculpture)",
+          "wiki": "Abduction of a Sabine Woman",
+          "genie": "Trois figures enlacées en spirale ascendante, conçues pour être belles sous tous les angles. La sculpture devient une prouesse pure : pas de « bon » point de vue, le mouvement tourne sans fin."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Pontormo",
+          "dates": "1494-1557",
+          "role": "",
+          "wiki": "Pontormo",
+          "portrait": "Couleurs acides, émotion troublée (Déposition)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Bronzino",
+          "dates": "1503-1572",
+          "role": "",
+          "wiki": "Agnolo Bronzino",
+          "portrait": "Portraits glacés, raffinés, distants ; peintre de cour des Médicis."
+        },
+        {
+          "niveau": "★",
+          "nom": "Parmesan (Parmigianino)",
+          "dates": "1503-1540",
+          "role": "",
+          "wiki": "Parmigianino",
+          "portrait": "L'élégance étirée portée à l'extrême ; mort jeune, obsédé d'alchimie."
+        },
+        {
+          "niveau": "○",
+          "nom": "Cellini",
+          "dates": "1500-1571",
+          "role": "",
+          "wiki": "Benvenuto Cellini",
+          "portrait": "Orfèvre/sculpteur, aventurier ; Persée, salière de François Iᵉʳ ; a laissé une autobiographie célèbre."
+        },
+        {
+          "niveau": "○",
+          "nom": "Giambologna",
+          "dates": "1529-1608",
+          "role": "",
+          "wiki": "Giambologna",
+          "portrait": "Maître de la sculpture en spirale."
+        },
+        {
+          "niveau": "★",
+          "nom": "Tintoret (Tintoretto)",
+          "dates": "1518-1594",
+          "role": "",
+          "wiki": "Tintoretto",
+          "portrait": "Venise ; énergie dramatique, lumières violentes, vitesse d'exécution."
+        },
+        {
+          "niveau": "★",
+          "nom": "Le Greco (El Greco)",
+          "dates": "1541-1614",
+          "role": "",
+          "wiki": "El Greco",
+          "portrait": "Crétois formé à Venise, installé à Tolède ; le plus visionnaire, redécouvert seulement vers 1900."
+        },
+        {
+          "niveau": "★",
+          "nom": "Bruegel l'Ancien",
+          "dates": "~1525-1569",
+          "role": "",
+          "wiki": "Pieter Bruegel the Elder",
+          "portrait": "Cas à part au Nord : scènes paysannes, proverbes, foules grouillantes. Contemporain et tout aussi singulier."
+        },
+        {
+          "niveau": "○",
+          "nom": "Vasari",
+          "dates": "1511-1574",
+          "role": "",
+          "wiki": "Giorgio Vasari",
+          "portrait": "Peintre médiocre mais premier historien de l'art (Les Vies des meilleurs peintres), source majeure."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Pontormo",
+              true,
+              "1494-1557",
+              "Déposition"
+            ],
+            [
+              "Bronzino",
+              true,
+              "1503-1572",
+              "Allégorie (Vénus, Cupidon)"
+            ],
+            [
+              "Parmesan",
+              true,
+              "1503-1540",
+              "La Madone au long cou"
+            ],
+            [
+              "Cellini",
+              false,
+              "1500-1571",
+              "Persée ; salière"
+            ],
+            [
+              "Giambologna",
+              false,
+              "1529-1608",
+              "L'Enlèvement des Sabines"
+            ],
+            [
+              "Tintoret",
+              true,
+              "1518-1594",
+              "La Cène (dynamique)"
+            ],
+            [
+              "El Greco",
+              true,
+              "1541-1614",
+              "L'Enterrement du comte d'Orgaz ; Vue de Tolède"
+            ],
+            [
+              "Bruegel l'Ancien",
+              true,
+              "~1525-1569",
+              "Les Chasseurs dans la neige"
+            ],
+            [
+              "Vasari",
+              false,
+              "1511-1574",
+              "(historien de l'art)"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "La Haute Renaissance (ch. 15-16), dont il déforme volontairement la perfection.",
+        "mene": "Le Baroque (ch. 19), qui abandonne l'artifice maniériste pour retrouver une force directe et émotionnelle."
+      },
+      "memos": [
+        "Le Maniérisme = la perfection tordue avec élégance.",
+        "Figura serpentinata = le corps en spirale, signature du style.",
+        "El Greco = le visionnaire incompris, redécouvert au XXe s."
+      ],
+      "autotest": [
+        "Pourquoi le Maniérisme naît-il juste après la Haute Renaissance ?",
+        "Qu'est-ce que la figura serpentinata ?",
+        "En quoi La Madone au long cou rompt-elle avec le naturel ?",
+        "Pourquoi El Greco a-t-il été incompris jusqu'au XXe siècle ?"
+      ]
+    },
+    {
+      "id": "baroque-catholique",
+      "titre": "Le Baroque catholique",
+      "periode": "≈ 1600 – 1650",
+      "couleur": "#b5642a",
+      "sous_titre": "L'art qui veut te saisir aux tripes, pas te faire admirer un équilibre.",
+      "carte": [
+        [
+          "Dates",
+          "~1600 – 1650"
+        ],
+        [
+          "Foyers",
+          "Rome, Flandres, Espagne, France"
+        ],
+        [
+          "Idée-mère",
+          "Émouvoir, saisir, convaincre par le drame, la lumière et le mouvement"
+        ],
+        [
+          "Mot-clé",
+          "Baroque (à l'origine péjoratif : « bizarre, irrégulier »)"
+        ],
+        [
+          "Moteur",
+          "La Contre-Réforme : l'Église catholique veut un art qui touche les fidèles au cœur"
+        ]
+      ],
+      "bascule": "Face au protestantisme qui se méfie des images, l'Église catholique fait le pari inverse : un art spectaculaire, émotionnel, immersif pour ramener et galvaniser les fidèles. Parallèlement, les monarchies absolues veulent un art de prestige et de puissance. Après l'artifice froid du Maniérisme, retour à une force directe. L'art ne raisonne plus, il frappe : clair-obscur violent, mouvements emportés, instants de tension maximale, illusion qui déborde le cadre. Le spectateur n'est plus un observateur distant, il est happé dans la scène.",
+      "phrase": "Le Baroque, c'est l'art qui veut te saisir aux tripes, pas te faire admirer un équilibre.",
+      "probleme": "Comment faire vivre au spectateur l'émotion d'une scène, l'y plonger physiquement ? → drame, lumière, mouvement, illusion.",
+      "caracteristiques": [
+        "Clair-obscur / ténébrisme : lumière crue jaillissant du noir.",
+        "Mouvement, diagonales, instabilité dynamique.",
+        "Instant de tension maximale (le moment décisif).",
+        "Réalisme cru chez les uns (Caravage), opulence chez les autres (Rubens).",
+        "L'art déborde le cadre : plafonds en trompe-l'œil, sculptures qui sortent du mur."
+      ],
+      "oeuvres": [
+        {
+          "titre": "La Vocation de saint Matthieu",
+          "artiste": "Caravage",
+          "annee": "~1600",
+          "lieu": "Rome",
+          "wiki": "The Calling of Saint Matthew",
+          "genie": "Un rayon de lumière traverse une salle sombre et « désigne » Matthieu, attablé comme des joueurs. Le sacré surgit dans le quotidien le plus banal ; la lumière fait tout le drame. Caravage invente une religiosité brute, populaire, bouleversante."
+        },
+        {
+          "titre": "L'Extase de sainte Thérèse",
+          "artiste": "Le Bernin",
+          "annee": "1652",
+          "lieu": "Rome",
+          "wiki": "Ecstasy of Saint Teresa",
+          "genie": "La sainte transpercée par la flèche d'un ange, en extase mystique. Marbre qui semble chair et nuée, lumière dorée tombant d'une fenêtre cachée. La sculpture devient théâtre total : architecture, lumière et marbre fusionnent."
+        },
+        {
+          "titre": "Les Ménines",
+          "artiste": "Vélasquez",
+          "annee": "1656",
+          "lieu": "Madrid",
+          "wiki": "Las Meninas",
+          "genie": "L'infante, ses suivantes, le peintre lui-même, le couple royal reflété dans un miroir. Vertige sur le regard : qui regarde qui ? Le spectateur prend la place du roi. Sommet de la peinture occidentale."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Caravage",
+          "dates": "1571-1610",
+          "role": "",
+          "wiki": "Caravaggio",
+          "portrait": "Révolutionnaire et violent (meurtrier en fuite). Invente le ténébrisme et le réalisme sacré. Influence toute l'Europe."
+        },
+        {
+          "niveau": "○",
+          "nom": "Annibal Carrache",
+          "dates": "1560-1609",
+          "role": "",
+          "wiki": "Annibale Carracci",
+          "portrait": "Voie classique et noble du baroque (galerie Farnèse)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Le Bernin",
+          "dates": "1598-1680",
+          "role": "",
+          "wiki": "Gian Lorenzo Bernini",
+          "portrait": "Génie total du baroque romain : sculpteur, architecte, scénographe. Colonnade de Saint-Pierre, baldaquin."
+        },
+        {
+          "niveau": "○",
+          "nom": "Borromini",
+          "dates": "1599-1667",
+          "role": "",
+          "wiki": "Francesco Borromini",
+          "portrait": "Architecte rival du Bernin, murs ondulants, géométrie audacieuse."
+        },
+        {
+          "niveau": "★",
+          "nom": "Rubens",
+          "dates": "1577-1640",
+          "role": "",
+          "wiki": "Peter Paul Rubens",
+          "portrait": "Flandre ; énergie, chair, couleur, immense atelier ; aussi diplomate. Le baroque triomphant."
+        },
+        {
+          "niveau": "○",
+          "nom": "Van Dyck",
+          "dates": "1599-1641",
+          "role": "",
+          "wiki": "Anthony van Dyck",
+          "portrait": "Élève de Rubens, portraitiste des cours (Charles Iᵉʳ d'Angleterre)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Vélasquez",
+          "dates": "1599-1660",
+          "role": "",
+          "wiki": "Diego Velázquez",
+          "portrait": "Peintre du roi d'Espagne ; réalisme souverain, touche libre."
+        },
+        {
+          "niveau": "○",
+          "nom": "Zurbarán · Ribera · Murillo",
+          "dates": "XVIIᵉ",
+          "role": "",
+          "wiki": "Bartolomé Esteban Murillo",
+          "portrait": "École espagnole, intensité mystique."
+        },
+        {
+          "niveau": "★",
+          "nom": "Poussin",
+          "dates": "1594-1665",
+          "role": "",
+          "wiki": "Nicolas Poussin",
+          "portrait": "Français à Rome ; baroque classique et intellectuel : raison, ordre, antiquité."
+        },
+        {
+          "niveau": "○",
+          "nom": "Le Lorrain (Claude)",
+          "dates": "1600-1682",
+          "role": "",
+          "wiki": "Claude Lorrain",
+          "portrait": "Paysages idéaux baignés de lumière dorée."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Caravage",
+              true,
+              "1571-1610",
+              "Italie — La Vocation de saint Matthieu"
+            ],
+            [
+              "Annibal Carrache",
+              false,
+              "1560-1609",
+              "Italie — Galerie Farnèse"
+            ],
+            [
+              "Le Bernin",
+              true,
+              "1598-1680",
+              "Italie — Extase de sainte Thérèse ; colonnade St-Pierre"
+            ],
+            [
+              "Borromini",
+              false,
+              "1599-1667",
+              "Italie — San Carlo alle Quattro Fontane"
+            ],
+            [
+              "Rubens",
+              true,
+              "1577-1640",
+              "Flandres — La Descente de croix ; cycle de Médicis"
+            ],
+            [
+              "Van Dyck",
+              false,
+              "1599-1641",
+              "Flandres — Charles Iᵉʳ à la chasse"
+            ],
+            [
+              "Vélasquez",
+              true,
+              "1599-1660",
+              "Espagne — Les Ménines"
+            ],
+            [
+              "Murillo",
+              false,
+              "1617-1682",
+              "Espagne — Immaculées"
+            ],
+            [
+              "Poussin",
+              true,
+              "1594-1665",
+              "France — Les Bergers d'Arcadie"
+            ],
+            [
+              "Le Lorrain",
+              false,
+              "1600-1682",
+              "France — Paysages portuaires"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le Maniérisme (ch. 18), dont il rejette l'artifice pour une force directe.",
+        "mene": "La Hollande du XVIIe (ch. 20, version protestante et bourgeoise) et le Rococo (ch. 21-22, version allégée et décorative)."
+      },
+      "memos": [
+        "Baroque = saisir et émouvoir ; le spectateur est happé.",
+        "Caravage = la lumière qui fait le drame ; le sacré dans le banal.",
+        "Bernin = le théâtre total en marbre.",
+        "Poussin = le baroque qui pense (classicisme français)."
+      ],
+      "autotest": [
+        "Quel rôle joue la Contre-Réforme dans la naissance du Baroque ?",
+        "En quoi La Vocation de saint Matthieu est-elle révolutionnaire ?",
+        "Pourquoi parle-t-on de « théâtre total » pour Sainte Thérèse du Bernin ?",
+        "Oppose Caravage et Poussin en une phrase."
+      ]
+    },
+    {
+      "id": "hollande",
+      "titre": "La Hollande au XVIIᵉ siècle",
+      "periode": "≈ 1600 – 1680",
+      "couleur": "#9a5a2a",
+      "sous_titre": "Quand l'art doit se vendre à des bourgeois plutôt qu'à l'Église, il devient le miroir de leur vie.",
+      "carte": [
+        [
+          "Dates",
+          "~1600 – 1680 (le « Siècle d'or » hollandais)"
+        ],
+        [
+          "Foyer",
+          "Provinces-Unies (Pays-Bas protestants) : Amsterdam, Haarlem, Delft"
+        ],
+        [
+          "Idée-mère",
+          "Peindre le monde réel et quotidien comme un miroir, pour des particuliers"
+        ],
+        [
+          "Particularité",
+          "Pas d'Église ni de roi mécène → un marché de l'art libre"
+        ]
+      ],
+      "bascule": "La Hollande protestante du XVIIe est riche (commerce maritime), bourgeoise et calviniste. Pas de grandes commandes religieuses ni royales : les acheteurs sont des marchands et bourgeois qui veulent des tableaux pour leur maison. Naît un marché libre : les peintres produisent et vendent comme des artisans. L'art se sécularise et se spécialise : plus de grands sujets sacrés, mais le monde tel qu'il est — portraits, paysages, scènes de genre, natures mortes, marines. Chaque peintre se fait une spécialité pour se distinguer.",
+      "phrase": "Quand l'art doit se vendre à des bourgeois plutôt qu'à l'Église, il devient le miroir de leur vie.",
+      "probleme": "Comment vivre de son art sur un marché libre, et comment rendre noble le banal ? → spécialisation + génie du regard sur l'ordinaire.",
+      "genres": [
+        "Portrait (individuel et de groupe — corporations, gardes).",
+        "Scène de genre (vie quotidienne, intérieurs, tavernes).",
+        "Paysage (campagne, ciels immenses, moulins).",
+        "Nature morte (tables dressées, fleurs, vanités).",
+        "Marine (mer, navires — fierté maritime)."
+      ],
+      "oeuvres": [
+        {
+          "titre": "La Ronde de nuit",
+          "artiste": "Rembrandt",
+          "annee": "1642",
+          "lieu": "Amsterdam",
+          "wiki": "The Night Watch",
+          "genie": "Portrait de groupe d'une compagnie de gardes, mais Rembrandt refuse la photo de classe figée : il les saisit en mouvement, dans une lumière dramatique, comme une scène vivante. Il transforme un genre commercial banal en drame théâtral."
+        },
+        {
+          "titre": "Autoportraits de Rembrandt",
+          "artiste": "Rembrandt",
+          "annee": "toute sa vie",
+          "lieu": "(divers)",
+          "wiki": "Self-Portrait with Two Circles",
+          "genie": "Des dizaines, de la jeunesse triomphante à la vieillesse ruinée. Une autobiographie en peinture, d'une honnêteté psychologique inédite. Personne avant lui ne s'est ainsi scruté vieillir."
+        },
+        {
+          "titre": "La Laitière",
+          "artiste": "Vermeer",
+          "annee": "~1660",
+          "lieu": "Delft",
+          "wiki": "The Milkmaid (Vermeer)",
+          "genie": "Une servante versant du lait, baignée d'une lumière douce venue d'une fenêtre. Rien ne se passe, et tout est là. Le silence et la lumière élevés au sublime : Vermeer fait du plus humble instant une éternité suspendue."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Rembrandt",
+          "dates": "1606-1669",
+          "role": "",
+          "wiki": "Rembrandt",
+          "portrait": "Le géant : lumière intérieure, profondeur psychologique, maître de la gravure aussi. Gloire puis faillite ; ses dernières œuvres, plus sombres, sont les plus profondes."
+        },
+        {
+          "niveau": "★",
+          "nom": "Vermeer",
+          "dates": "1632-1675",
+          "role": "",
+          "wiki": "Johannes Vermeer",
+          "portrait": "Delft ; peu d'œuvres (~35), intimité et lumière ; oublié puis redécouvert au XIXe s."
+        },
+        {
+          "niveau": "★",
+          "nom": "Frans Hals",
+          "dates": "~1582-1666",
+          "role": "",
+          "wiki": "Frans Hals",
+          "portrait": "Haarlem ; portraits éclatants de vie, touche rapide et libre (Le Cavalier riant)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Jacob van Ruisdael",
+          "dates": "1628-1682",
+          "role": "",
+          "wiki": "Jacob van Ruisdael",
+          "portrait": "Le grand paysagiste, ciels dramatiques."
+        },
+        {
+          "niveau": "○",
+          "nom": "Jan Steen",
+          "dates": "1626-1679",
+          "role": "",
+          "wiki": "Jan Steen",
+          "portrait": "Scènes de genre pleines d'humour et de désordre."
+        },
+        {
+          "niveau": "○",
+          "nom": "Pieter de Hooch",
+          "dates": "1629-1684",
+          "role": "",
+          "wiki": "Pieter de Hooch",
+          "portrait": "Intérieurs paisibles, lumière (proche de Vermeer)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Willem Kalf",
+          "dates": "1619-1693",
+          "role": "",
+          "wiki": "Willem Kalf",
+          "portrait": "Natures mortes somptueuses."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Rembrandt",
+              true,
+              "1606-1669",
+              "Tout — La Ronde de nuit ; autoportraits"
+            ],
+            [
+              "Vermeer",
+              true,
+              "1632-1675",
+              "Intérieurs — La Laitière ; Vue de Delft"
+            ],
+            [
+              "Frans Hals",
+              true,
+              "~1582-1666",
+              "Portrait — Le Cavalier riant"
+            ],
+            [
+              "Ruisdael",
+              false,
+              "1628-1682",
+              "Paysage — Le Moulin de Wijk"
+            ],
+            [
+              "Jan Steen",
+              false,
+              "1626-1679",
+              "Scène de genre — Le Monde à l'envers"
+            ],
+            [
+              "Pieter de Hooch",
+              false,
+              "1629-1684",
+              "Intérieurs — Cours et intérieurs"
+            ],
+            [
+              "Willem Kalf",
+              false,
+              "1619-1693",
+              "Nature morte"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le Baroque (ch. 19), dont c'est la version protestante, bourgeoise et intime (pas d'Église ni de roi).",
+        "mene": "Une influence durable sur le réalisme et l'intimisme ; Vermeer inspirera les modernes, Rembrandt restera une référence absolue."
+      },
+      "memos": [
+        "Pas d'Église ni de roi → marché libre → spécialisation par genres.",
+        "Rembrandt = la lumière intérieure et l'âme ; Vermeer = la lumière et le silence ; Hals = la vie qui jaillit.",
+        "L'art hollandais = le miroir de la vie ordinaire."
+      ],
+      "autotest": [
+        "Pourquoi l'absence de mécène religieux/royal a-t-elle façonné l'art hollandais ?",
+        "Qu'est-ce qu'une « scène de genre » ? Une « vanité » ?",
+        "En quoi La Ronde de nuit sort-elle des codes du portrait de groupe ?",
+        "Oppose en une phrase Rembrandt, Vermeer et Frans Hals."
       ]
     }
   ]

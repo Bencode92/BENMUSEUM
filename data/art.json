@@ -1367,7 +1367,8 @@
           "niveau": "○",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "manierisme"
     },
     {
       "num": 19,
@@ -1501,7 +1502,8 @@
           "niveau": "○",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "baroque-catholique"
     },
     {
       "num": 20,
@@ -1589,7 +1591,8 @@
           "niveau": "○",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "hollande"
     },
     {
       "num": 21,
