@@ -110,8 +110,8 @@
           "annee": "~1427",
           "lieu": "Florence",
           "wiki": "Holy Trinity (Masaccio)",
-          "genie": "Première application rigoureuse de la perspective en peinture : le mur plat semble se creuser en vraie chapelle. La peinture devient une fenêtre sur un monde cohérent.",
-          "analyse": "Peinte vers 1427 dans une église de Florence, c'est la première application rigoureuse de la perspective en peinture. Masaccio y crée l'illusion parfaite d'une chapelle creusée dans le mur plat : les lignes fuient vers un point unique situé à hauteur du regard du spectateur, si bien qu'on croit voir une vraie voûte. En bas, un squelette dans un tombeau porte une inscription glaçante : « J'étais ce que vous êtes, vous serez ce que je suis. » L'œuvre réunit la prouesse technique (l'espace mathématique) et le vertige spirituel (la mort, la Trinité) : tout le programme de la Renaissance en un seul tableau."
+          "genie": "La première perspective rigoureuse de l'histoire de la peinture : un mur plat qui se creuse en vraie chapelle.",
+          "analyse": "Le problème : depuis mille ans, la peinture était plate, sans profondeur crédible. La solution de Masaccio : appliquer, le premier, la perspective mathématique que venait de découvrir l'architecte Brunelleschi. Toutes les lignes de la voûte peinte fuient vers un point unique placé exactement à hauteur des yeux du spectateur — si bien qu'en entrant dans l'église, on croit voir une vraie chapelle creusée dans le mur. Le détail à voir : la voûte à caissons, dont le raccourci est calculé au millimètre, et dont on peut littéralement reconstituer le plan géométrique. Plus bas, hors de l'espace sacré, un squelette dans un tombeau porte cette inscription glaçante : « J'étais ce que vous êtes, vous serez ce que je suis. » L'héritage : la peinture devient une fenêtre ouverte sur un monde cohérent et mesurable. Tous les peintres après lui, pendant cinq siècles, partiront de cette découverte. Masaccio meurt à 27 ans, mais il a ouvert la Renaissance."
         },
         {
           "titre": "Les Époux Arnolfini",
@@ -119,8 +119,26 @@
           "annee": "1434",
           "lieu": "Londres",
           "wiki": "Arnolfini Portrait",
-          "genie": "Maîtrise inouïe de l'huile : chaque texture rendue avec une précision quasi photographique, 3 siècles avant la photo. Le miroir du fond reflète la scène par-derrière, peintre compris. Le quotidien d'un couple de marchands mérite l'attention du sacré.",
-          "analyse": "Van Eyck, 1434. Un riche marchand italien installé à Bruges et son épouse, dans une chambre où chaque objet est rendu avec une précision hallucinante : la fourrure, le laiton du lustre, le petit chien, les oranges (signe de richesse). Au fond, un miroir convexe reflète toute la scène par-derrière — et deux silhouettes sur le seuil, dont le peintre lui-même : au-dessus, il a écrit « Jan van Eyck fut ici ». Tableau-énigme (contrat de mariage ? mémorial ?), il prouve surtout une chose : grâce à l'huile, le quotidien d'un couple de bourgeois mérite désormais la même attention minutieuse que les saints."
+          "genie": "La peinture à l'huile poussée à une perfection quasi photographique, trois siècles avant la photo.",
+          "analyse": "Le problème : la fresque et la détrempe ne permettaient ni les transparences, ni les détails infimes, ni la profondeur des couleurs. La solution de Van Eyck : il perfectionne la peinture à l'huile, qu'on peut travailler en couches translucides. Le résultat est stupéfiant — chaque texture est rendue à la perfection : la fourrure du manteau, le laiton du lustre où brûle une seule bougie, les oranges (signe de richesse), les poils du petit chien. Le détail à voir : au fond, un miroir convexe reflète toute la pièce par-derrière, y compris deux silhouettes sur le seuil — dont le peintre lui-même ; au-dessus, il a calligraphié « Jan van Eyck fut ici, 1434 ». Tableau-énigme (contrat de mariage ? mémorial d'une épouse morte ?), il affirme surtout une révolution silencieuse : le quotidien d'un couple de marchands flamands mérite désormais une attention aussi minutieuse qu'une scène sacrée. Le Nord venait de conquérir, par la matière, ce que Florence conquérait par la géométrie."
+        },
+        {
+          "titre": "La Naissance de Vénus",
+          "artiste": "Botticelli",
+          "annee": "~1485",
+          "lieu": "Florence (Offices)",
+          "wiki": "The Birth of Venus",
+          "genie": "La beauté antique ressuscitée par la pure grâce de la ligne, contre le simple réalisme.",
+          "analyse": "Le problème : fallait-il, une fois la perspective acquise, tout soumettre au réalisme ? Botticelli répond non. La solution : il privilégie la ligne, le rythme, la grâce, quitte à fausser le réel. La solution : Vénus naît de l'écume sur une conque, poussée vers le rivage par le souffle des vents enlacés, accueillie par une nymphe qui tend un manteau fleuri. Le détail à voir : le cou anormalement long, les épaules tombantes, la pose impossible mais d'une élégance souveraine — et la chevelure dorée traitée comme une arabesque décorative. Rien n'est « vrai », tout est beau. Le contexte : peinte pour les Médicis, l'œuvre traduit la philosophie néoplatonicienne de leur cercle, où la beauté terrestre est le reflet de la beauté divine. L'héritage : Botticelli incarne l'autre versant de la Renaissance — non la conquête du réel, mais le rêve d'un idéal antique. Oublié après sa mort (il renia ses œuvres païennes sous l'influence de Savonarole), il sera adoré par les préraphaélites au XIXe siècle."
+        },
+        {
+          "titre": "La Joconde",
+          "artiste": "Léonard de Vinci",
+          "annee": "~1503",
+          "lieu": "Paris (Louvre)",
+          "wiki": "Mona Lisa",
+          "genie": "Le sfumato : des contours fondus dans l'ombre, qui rendent le sourire — et la vie — insaisissables.",
+          "analyse": "Le problème : comment rendre, sur une surface fixe, la vie mouvante d'un visage, son ambiguïté, son mystère ? La solution de Léonard : le sfumato (de fumo, « fumée ») — il abolit les contours nets, fond les passages de l'ombre à la lumière en un voile imperceptible, surtout aux coins de la bouche et des yeux. Le détail à voir : justement, ces coins « flous » — c'est pourquoi le sourire semble apparaître puis se dérober selon l'endroit où l'on regarde ; notre œil ne peut jamais le fixer. Derrière, un paysage atmosphérique brumeux, aux deux horizons décalés, accentue l'étrangeté. Le contexte : Léonard, génie universel et perfectionniste, garda ce portrait toute sa vie sans jamais le « finir », le retravaillant pendant des années. L'héritage : c'est le tableau le plus célèbre du monde, mais sa vraie révolution est technique et psychologique — peindre non un visage, mais une présence vivante et insaisissable."
         },
         {
           "titre": "La Cène",
@@ -128,17 +146,26 @@
           "annee": "~1495-98",
           "lieu": "Milan",
           "wiki": "The Last Supper (Leonardo)",
-          "genie": "Saisit l'instant psychologique où le Christ annonce la trahison ; chaque apôtre réagit, la géométrie pointe vers sa tête. L'art peint l'intérieur des gens, pas seulement l'apparence.",
-          "analyse": "Léonard, vers 1495-98, sur le mur d'un réfectoire à Milan. Il choisit l'instant le plus dramatique : celui où le Christ vient de dire « l'un de vous me trahira ». Onze apôtres réagissent — stupeur, indignation, déni — tandis que Judas, isolé, recule dans l'ombre en serrant sa bourse. Toute la géométrie de la salle (les lignes de fuite du plafond) converge vers la tête calme du Christ, point de paix au centre de l'agitation. Léonard ne peint pas une scène figée mais un moment psychologique : l'art apprend à montrer l'intérieur des êtres. Hélas, sa technique expérimentale s'est dégradée presque aussitôt."
+          "genie": "L'instant psychologique de la trahison, saisi dans la réaction de chacun — et une géométrie qui pointe vers le Christ.",
+          "analyse": "Le problème : les Cènes médiévales alignaient les apôtres comme des figurants. La solution de Léonard : choisir le moment le plus dramatique — celui où le Christ vient de dire « l'un de vous me trahira » — et montrer la vague de stupeur qui le traverse. Le détail à voir : les douze apôtres réagissent en quatre groupes de trois (indignation, déni, effroi), et Judas, lui, recule dans l'ombre, serrant sa bourse, le seul à ne pas s'agiter. Toute la géométrie de la salle — les lignes de fuite du plafond et des murs — converge vers un point unique : la tête du Christ, calme au centre de la tempête. L'héritage : l'art apprend à peindre l'intérieur des êtres, leurs émotions et leur psychologie, pas seulement leur apparence. Drame : Léonard a peint à l'huile sur un mur sec (au lieu de la fresque), si bien que l'œuvre a commencé à se dégrader de son vivant — ce que nous voyons est un fantôme miraculeusement sauvé."
         },
         {
           "titre": "David",
           "artiste": "Michel-Ange",
           "annee": "1501-04",
-          "lieu": "Florence",
+          "lieu": "Florence (Accademia)",
           "wiki": "David (Michelangelo)",
-          "genie": "L'instant avant le combat : tension, concentration. Anatomie parfaite, contrapposto antique, charge psychologique neuve. Le corps nu redevient expression suprême de dignité ; symbole d'une Florence libre.",
-          "analyse": "Michel-Ange, 1501-04. Plus de cinq mètres de marbre, taillés dans un bloc que d'autres sculpteurs avaient abandonné comme inutilisable. Il ne représente pas David vainqueur, la tête de Goliath à ses pieds (comme la tradition), mais l'instant d'AVANT : le berger qui jauge l'adversaire, la fronde sur l'épaule, le corps en tension contenue, le regard concentré et inquiet. Mains et tête sont volontairement surdimensionnées, pour être lues d'en bas. Symbole de la petite république de Florence défiant les puissants, ce nu héroïque est devenu l'image même de la perfection du corps humain."
+          "genie": "Cinq mètres de marbre saisis à l'instant d'avant le combat : la tension contenue, le nu héroïque parfait.",
+          "analyse": "Le problème : représenter David, le berger qui terrasse le géant Goliath, sans tomber dans le cliché du vainqueur (la tête tranchée à ses pieds). La solution de Michel-Ange : choisir l'instant d'AVANT — David jauge l'adversaire du regard, la fronde sur l'épaule, le corps en apparence détendu mais traversé d'une tension intérieure. Le détail à voir : la main droite et la tête sont volontairement surdimensionnées — d'abord parce que la statue devait être vue d'en bas, et pour concentrer le regard sur la décision et le geste à venir ; les veines de la main, les sourcils froncés, tout dit la concentration. Prouesse : il a sculpté ce colosse dans un bloc de marbre que d'autres avaient abandonné comme inutilisable. Le contexte : symbole de la petite république de Florence défiant les puissants, le David fut placé devant le palais du gouvernement. L'héritage : le nu masculin redevient, comme dans l'Antiquité, l'expression suprême de la dignité et de la force humaines."
+        },
+        {
+          "titre": "La Pietà",
+          "artiste": "Michel-Ange",
+          "annee": "1499",
+          "lieu": "Rome (Saint-Pierre)",
+          "wiki": "Pietà (Michelangelo)",
+          "genie": "À 24 ans : la douleur sublimée, un drapé miraculeux, et la jeunesse intemporelle de Marie.",
+          "analyse": "Le problème : montrer une mère tenant le corps de son fils adulte mort, sans que la composition ne soit ni instable ni macabre. La solution de Michel-Ange : il dispose le corps du Christ en travers des genoux de Marie, l'ensemble formant une pyramide d'une stabilité absolue, enveloppée d'un immense drapé. Le détail à voir : la virtuosité du marbre — les plis de l'étoffe, la chair morte du Christ, la délicatesse des mains ; et le visage de Marie, étonnamment jeune. À ceux qui s'en étonnaient, Michel-Ange répondait que la pureté préserve de l'âge. C'est aussi la seule œuvre qu'il ait jamais signée : ayant entendu qu'on l'attribuait à un autre, il grava de nuit son nom sur la bandoulière de la Vierge. L'héritage : à 24 ans, il prouvait qu'on pouvait égaler, voire dépasser, la sculpture antique."
         },
         {
           "titre": "L'École d'Athènes",
@@ -146,8 +173,26 @@
           "annee": "1509-11",
           "lieu": "Vatican",
           "wiki": "The School of Athens",
-          "genie": "Synthèse parfaite de tous les acquis ; les philosophes ont les traits de Léonard et Michel-Ange. Dans un palais du pape, on célèbre des penseurs païens : savoir antique et foi réconciliés.",
-          "analyse": "Raphaël, vers 1510, sur un mur des appartements du pape au Vatican. Sous une immense architecture en perspective, il rassemble tous les grands penseurs de l'Antiquité. Au centre, Platon (qui pointe le ciel, les idées) et Aristote (la main vers le sol, le réel) — et Raphaël leur donne, en secret, les traits de ses contemporains : Platon ressemble à Léonard, le penseur isolé sur les marches à Michel-Ange, et le jeune homme qui nous regarde, à droite, c'est Raphaël lui-même. Audace suprême : dans le palais du pape, on célèbre des païens. Foi chrétienne et raison antique, enfin réconciliées."
+          "genie": "La synthèse parfaite de tous les acquis : science, beauté et pensée orchestrées sans effort apparent.",
+          "analyse": "Le problème : rassembler des dizaines de figures dans une composition claire, signifiante et harmonieuse. La solution de Raphaël : une vaste architecture en perspective (inspirée des plans de Bramante pour Saint-Pierre) dont toutes les lignes convergent vers les deux personnages centraux. Le détail à voir : au centre, Platon lève le doigt vers le ciel (le monde des Idées) tandis qu'Aristote tend la main vers le sol (le monde réel) — tout le tableau s'organise autour de cette opposition. Et Raphaël y glisse un jeu : il donne aux philosophes antiques les traits de ses contemporains — Platon a le visage de Léonard de Vinci, le penseur solitaire et boudeur assis sur les marches est Michel-Ange, et le jeune homme qui nous regarde à droite est Raphaël lui-même. Audace suprême : dans le palais du pape, on célèbre des penseurs païens. L'héritage : foi chrétienne et raison antique enfin réconciliées, dans le tableau qui résume l'idéal d'équilibre de toute la Haute Renaissance."
+        },
+        {
+          "titre": "La Vénus d'Urbin",
+          "artiste": "Titien",
+          "annee": "1538",
+          "lieu": "Florence (Offices)",
+          "wiki": "Venus of Urbino",
+          "genie": "À Venise, la couleur et la chair l'emportent sur le dessin : un nu sensuel, terrestre, vibrant de lumière.",
+          "analyse": "Le problème : comment peindre la beauté du corps non plus comme un idéal froid (à la florentine) mais comme une présence vivante et sensuelle ? La solution de Titien : tout par la couleur et la lumière, à la vénitienne — la chair semble tiède, l'étoffe rouge du lit vibre, l'espace s'approfondit par des accords colorés plus que par des lignes. Le détail à voir : le regard direct de la femme, qui nous fixe sans pudeur ; le petit chien endormi (la fidélité), les servantes au fond qui sortent des vêtements d'un coffre — autant de signes d'un cadre domestique, presque conjugal, qui ancre la déesse dans le réel. L'héritage : ce nu allongé deviendra un modèle pour des siècles (jusqu'à l'Olympia de Manet, qui le citera pour faire scandale). Il incarne la grande leçon de Venise : le colorito contre le disegno, la couleur sensuelle contre la ligne pure."
+        },
+        {
+          "titre": "Le Jardin des délices",
+          "artiste": "Jérôme Bosch",
+          "annee": "~1500",
+          "lieu": "Madrid (Prado)",
+          "wiki": "The Garden of Earthly Delights",
+          "genie": "L'imagination du Nord déchaînée : un triptyque foisonnant de créatures, entre rêve, plaisir et cauchemar.",
+          "analyse": "Le problème : le Nord ne cherche pas l'idéal antique, mais l'expression d'une vision morale et imaginaire. La solution de Bosch : un immense triptyque qui se lit comme un récit. À gauche, le paradis terrestre, calme et étrange ; au centre, un « jardin des délices » où une multitude de corps nus s'adonnent aux plaisirs parmi des fruits géants et des créatures impossibles ; à droite, un enfer glaçant peuplé de machines de torture et de monstres. Le détail à voir : la profusion inépuisable d'inventions — un homme-arbre, des oiseaux géants, des hybrides — que l'œil ne finit jamais d'explorer ; et l'absence de toute idéalisation. Le sens reste débattu (avertissement contre le péché ? secte ? pur délire ?). L'héritage : par sa liberté visionnaire, Bosch fascinera quatre siècles plus tard les surréalistes, qui le reconnaîtront comme un ancêtre. Le Nord montre qu'au-delà de la mesure italienne, l'art peut aussi être rêve et vertige."
         }
       ],
       "artistes": [
