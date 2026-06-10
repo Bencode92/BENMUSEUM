@@ -9,7 +9,7 @@ let DOSSIERS = [];
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "9"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "10"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -339,6 +339,8 @@ function renderDossier(id) {
         <div class="body"><div class="t">${a.niveau ? `<span class="lvl ${a.niveau === "★" ? "star" : ""}">${a.niveau}</span> ` : ""}${esc(a.nom)}</div>
         <div class="s">${esc(a.dates)}${a.role ? ` — ${esc(a.role)}` : ""}</div>
         <p style="font-size:13px;margin-top:8px">${esc(a.portrait)}</p></div></div>`).join("")}</div>`));
+
+  if (!d.artistes && d.artistes_note) P.push(sec("👤 Les artistes", `<p>${esc(d.artistes_note)}</p>`));
 
   if (d.index) P.push(sec("📑 Index de référence",
     d.index.map(g => `${g.ecole ? `<h3 style="font-family:Georgia;margin:16px 0 6px">${esc(g.ecole)}</h3>` : ""}

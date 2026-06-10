@@ -2550,6 +2550,632 @@
         "Relie chaque post-impressionniste au mouvement du XXe qu'il a engendré.",
         "Cite un mouvement et son idée centrale : Fauvisme, Cubisme, Abstraction, Dada, Surréalisme."
       ]
+    },
+    {
+      "id": "prehistoire",
+      "titre": "Étranges débuts",
+      "periode": "≈ 40 000 – 3 000 av. J.-C.",
+      "couleur": "#b06a2c",
+      "sous_titre": "Au commencement, faire une image, c'est exercer un pouvoir sur le monde, pas le décorer.",
+      "carte": [
+        [
+          "Dates",
+          "~40 000 – 3 000 av. J.-C. (et arts « primitifs » de toutes époques)"
+        ],
+        [
+          "Foyers",
+          "Grottes d'Europe ; Afrique, Océanie ; Amériques précolombiennes"
+        ],
+        [
+          "Idée-mère",
+          "L'image n'est pas décor : elle est pouvoir, magie, fonction"
+        ],
+        [
+          "Particularité",
+          "Art anonyme et collectif"
+        ]
+      ],
+      "bascule": "Avant toute civilisation, l'humain fabrique déjà des images. Mais attention au contresens : ces œuvres ne sont pas faites pour être belles ni admirées. Elles ont une fonction — capturer la puissance d'un animal pour réussir la chasse, assurer la fertilité, relier au monde des esprits. La leçon de Gombrich : pour comprendre ces arts, il faut oublier nos catégories (beau, original, signature). Un masque africain ou une peinture rupestre obéit à des règles rituelles précises ; il « marche » s'il remplit sa fonction magique, pas s'il plaît.",
+      "phrase": "Au commencement, faire une image, c'est exercer un pouvoir sur le monde, pas le décorer.",
+      "probleme": "Comment fixer une force invisible (l'animal, l'esprit, la fertilité) dans une image qui agit ?",
+      "caracteristiques": [
+        "Peintures rupestres : animaux d'une vie saisissante, peu de scènes, pas de décor.",
+        "Art tribal : masques, statues, formes codifiées au service du rite.",
+        "Pas de perspective ni de réalisme « occidental » : autre logique, pas une logique inférieure."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Grottes de Lascaux & Altamira",
+          "artiste": "Anonyme",
+          "annee": "~17 000 av. J.-C.",
+          "lieu": "France / Espagne",
+          "wiki": "Lascaux",
+          "genie": "Des troupeaux peints au fond de grottes obscures, presque inaccessibles. Si on les cache si loin, c'est qu'elles ne sont pas faites pour être vues mais pour agir : magie de la chasse. La vivacité du trait montre une observation déjà aiguë."
+        },
+        {
+          "titre": "Masques et statues tribaux",
+          "artiste": "Anonyme",
+          "annee": "toutes époques",
+          "lieu": "Afrique, Océanie",
+          "wiki": "Traditional African masks",
+          "genie": "Visages stylisés, géométriques, parfois effrayants. La forme n'imite pas un visage, elle incarne un esprit. Ces objets fascineront plus tard Picasso et les modernes."
+        },
+        {
+          "titre": "Art précolombien",
+          "artiste": "Anonyme",
+          "annee": "av. 1500",
+          "lieu": "Amériques",
+          "wiki": "Pre-Columbian art",
+          "genie": "Architecture monumentale, sculptures puissantes et codifiées (Aztèques, Mayas, Incas) : des civilisations entières avec leur propre langage visuel, sans contact avec l'Europe."
+        }
+      ],
+      "artistes_note": "Aucun nom : l'art est collectif, rituel, transmis. C'est justement ce qui le distingue de tout ce qui suivra.",
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Lascaux",
+              true,
+              "France, ~17 000 av.",
+              "Magie de la chasse"
+            ],
+            [
+              "Altamira",
+              true,
+              "Espagne, ~15 000 av.",
+              "Plafond peint"
+            ],
+            [
+              "Vénus paléolithiques",
+              false,
+              "Europe",
+              "Fertilité"
+            ],
+            [
+              "Masques africains/océaniens",
+              true,
+              "toutes époques",
+              "Incarner l'esprit"
+            ],
+            [
+              "Art aztèque/maya/inca",
+              false,
+              "Amérique préc.",
+              "Civilisations parallèles"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "mene": "Les premières grandes civilisations (ch. 2, Égypte), où l'art se met au service de l'État et de l'au-delà."
+      },
+      "memos": [
+        "L'image primitive = un outil de pouvoir, pas un décor.",
+        "Oublier « beau/laid » : juger par la fonction.",
+        "Lascaux est caché → fait pour agir, pas pour être vu."
+      ],
+      "autotest": [
+        "Pourquoi les peintures de Lascaux sont-elles au fond des grottes ?",
+        "Quel contresens faut-il éviter face à l'art primitif ?",
+        "Quel lien avec Picasso et l'art du XXe siècle ?"
+      ]
+    },
+    {
+      "id": "egypte-mesopotamie",
+      "titre": "L'art pour l'éternité",
+      "periode": "≈ 3 000 – 500 av. J.-C.",
+      "couleur": "#c9a23a",
+      "sous_titre": "L'art égyptien ne cherche pas à tromper l'œil mais à conserver le savoir, intact, pour l'éternité.",
+      "carte": [
+        [
+          "Dates",
+          "~3 000 – 500 av. J.-C."
+        ],
+        [
+          "Foyers",
+          "Égypte (Nil), Mésopotamie, Crète"
+        ],
+        [
+          "Idée-mère",
+          "L'art fixe pour l'éternité ce qui doit durer après la mort"
+        ],
+        [
+          "Loi égyptienne",
+          "Représenter chaque chose sous son angle le plus clair, pas tel qu'on la voit"
+        ]
+      ],
+      "bascule": "En Égypte, l'art sert le culte des morts et le pouvoir des pharaons. Une peinture de tombe doit assurer au défunt une vie éternelle complète : il faut tout montrer, clairement et complètement. D'où la règle célèbre : on ne peint pas ce qu'on voit d'un point de vue, mais ce qu'on sait être là. La tête de profil, l'œil de face, le buste de face, les jambes de profil. Pas une maladresse : un système rigoureux, voulu, stable pendant 3 000 ans.",
+      "phrase": "L'art égyptien ne cherche pas à tromper l'œil mais à conserver le savoir, intact, pour l'éternité.",
+      "probleme": "Comment représenter une chose de la façon la plus durable et la plus complète, pour qu'elle survive à la mort ?",
+      "caracteristiques": [
+        "Frontalité et profil combinés (tête de profil, œil et torse de face).",
+        "Hiérarchie d'échelle : le pharaon est grand parce qu'important, pas parce que proche.",
+        "Lignes claires, couleurs plates, registres superposés.",
+        "Stabilité extrême : très peu d'évolution sur des millénaires."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Peintures et reliefs de tombes",
+          "artiste": "Anonyme",
+          "annee": "tous Empires",
+          "lieu": "Égypte",
+          "wiki": "Ancient Egyptian art",
+          "genie": "Scènes de la vie, du travail, des offrandes, en registres. Système de représentation fonctionnel : chaque élément montré sous son angle le plus lisible, pour « équiper » le défunt dans l'au-delà."
+        },
+        {
+          "titre": "La révolution d'Akhenaton / Amarna",
+          "artiste": "Anonyme",
+          "annee": "~1350 av. J.-C.",
+          "lieu": "Amarna",
+          "wiki": "Amarna art",
+          "genie": "Akhenaton impose un style plus naturel, intime, sensible (scènes familiales tendres). Brève rupture du canon millénaire — preuve que les règles égyptiennes étaient un choix, pas une incapacité."
+        },
+        {
+          "titre": "Fresques de Knossos",
+          "artiste": "Anonyme",
+          "annee": "~1500 av. J.-C.",
+          "lieu": "Crète",
+          "wiki": "Knossos",
+          "genie": "Fresques vives et libres (dauphins, danseurs). Une exception joyeuse et naturelle au monde rigide du Proche-Orient."
+        }
+      ],
+      "artistes_note": "Quasi anonymes. Imhotep (architecte de la première pyramide) est l'un des rares noms ; Akhenaton est un pharaon-réformateur, pas un artiste.",
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Pyramides de Gizeh",
+              true,
+              "~2 500 av.",
+              "Architecture pour l'éternité"
+            ],
+            [
+              "Peinture de tombe",
+              true,
+              "tous Empires",
+              "Représenter ce qu'on sait"
+            ],
+            [
+              "Akhenaton / Amarna",
+              true,
+              "~1350 av.",
+              "Rupture naturaliste"
+            ],
+            [
+              "Toutânkhamon",
+              false,
+              "~1325 av.",
+              "Trésor funéraire"
+            ],
+            [
+              "Art assyrien/sumérien",
+              false,
+              "Mésopotamie",
+              "Pouvoir, guerre"
+            ],
+            [
+              "Fresques de Knossos",
+              false,
+              "Crète, ~1500 av.",
+              "Liberté, vie"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "L'art primitif (ch. 1), mais désormais au service d'un État et d'une religion organisés.",
+        "mene": "La Grèce (ch. 3), qui héritera des Égyptiens puis brisera leur système pour regarder le réel."
+      },
+      "memos": [
+        "Égypte = représenter ce qu'on SAIT (système), pour l'éternité.",
+        "Hiérarchie d'échelle : grand = important.",
+        "Amarna = la preuve que le canon était un choix."
+      ],
+      "autotest": [
+        "Pourquoi la figure égyptienne combine-t-elle profil et face ?",
+        "Qu'est-ce que la hiérarchie d'échelle ?",
+        "Que prouve la rupture d'Akhenaton ?"
+      ]
+    },
+    {
+      "id": "grece-classique",
+      "titre": "Le grand éveil",
+      "periode": "≈ 700 – 400 av. J.-C.",
+      "couleur": "#4f7fb5",
+      "sous_titre": "Les Grecs sont les premiers à demander non « que sais-je de ce corps ? » mais « comment le vois-je bouger ? ».",
+      "carte": [
+        [
+          "Dates",
+          "~700 – 400 av. J.-C."
+        ],
+        [
+          "Foyer",
+          "Cités grecques (Athènes)"
+        ],
+        [
+          "Idée-mère",
+          "L'art ouvre les yeux : on commence à peindre ce qu'on voit vraiment"
+        ],
+        [
+          "Tournant",
+          "Le « raccourci » (foreshortening) : oser dessiner un pied vu de face"
+        ]
+      ],
+      "bascule": "La Grèce part du modèle égyptien (figures rigides, frontales). Puis, en quelques générations — fait unique dans l'histoire — les artistes grecs brisent le canon et se mettent à observer. Liberté politique, curiosité, esprit de compétition : tout pousse au progrès. Un sculpteur ose représenter le corps tel qu'il apparaît — un pied de face en raccourci, un poids reposant sur une jambe (contrapposto). Pour la première fois, l'image ne suit plus une règle fixe mais l'œil et le mouvement réel.",
+      "phrase": "Les Grecs sont les premiers à demander non « que sais-je de ce corps ? » mais « comment le vois-je bouger ? ».",
+      "probleme": "Comment représenter le corps humain vivant, en mouvement, tel que l'œil le perçoit ?",
+      "caracteristiques": [
+        "Style géométrique (~800 av.) : figures schématiques.",
+        "Archaïque (~600 av.) : kouroi raides, hérités d'Égypte, mais le fameux « sourire archaïque ».",
+        "Classique (~480-400 av.) : équilibre, mouvement maîtrisé, idéal du corps."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Le Discobole",
+          "artiste": "Myron",
+          "annee": "~450 av. J.-C.",
+          "lieu": "(copie romaine)",
+          "wiki": "Discobolus",
+          "genie": "Un lanceur de disque figé à l'instant de tension maximale. L'art capte enfin le mouvement : tout le corps est ressort bandé, mais l'ensemble reste équilibré et lisible."
+        },
+        {
+          "titre": "Le Parthénon & Phidias",
+          "artiste": "Phidias",
+          "annee": "~440 av. J.-C.",
+          "lieu": "Athènes",
+          "wiki": "Parthenon",
+          "genie": "Temple et frise d'une harmonie parfaite. Sommet du classicisme : les corps sont à la fois réels (drapés vivants, mouvement) et idéalisés (beauté parfaite). L'observation au service d'un idéal."
+        },
+        {
+          "titre": "Le contrapposto (Kritios)",
+          "artiste": "Anonyme",
+          "annee": "Ve s. av. J.-C.",
+          "lieu": "Athènes",
+          "wiki": "Kritios Boy",
+          "genie": "Le poids sur une jambe, l'autre détendue → la figure « respire ». Innovation qui restera la base de la figure occidentale jusqu'à Michel-Ange et au-delà."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Myron",
+          "dates": "Ve s. av.",
+          "role": "",
+          "wiki": "Myron",
+          "portrait": "Le Discobole : capter le mouvement à son point de tension."
+        },
+        {
+          "niveau": "★",
+          "nom": "Phidias",
+          "dates": "~480-430 av.",
+          "role": "",
+          "wiki": "Phidias",
+          "portrait": "Sculptures du Parthénon, sommet du classicisme grec."
+        },
+        {
+          "niveau": "○",
+          "nom": "Polyclète",
+          "dates": "Ve s. av.",
+          "role": "",
+          "wiki": "Polykleitos",
+          "portrait": "Théorise les proportions idéales du corps (le Canon, le Doryphore)."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Style géométrique",
+              false,
+              "~800 av.",
+              "Schématique"
+            ],
+            [
+              "Kouros archaïque",
+              false,
+              "~600 av.",
+              "Hérité d'Égypte + sourire"
+            ],
+            [
+              "Le Discobole (Myron)",
+              true,
+              "~450 av.",
+              "Le mouvement"
+            ],
+            [
+              "Parthénon / Phidias",
+              true,
+              "~440 av.",
+              "Classicisme, idéal"
+            ],
+            [
+              "Doryphore (Polyclète)",
+              false,
+              "~440 av.",
+              "Canon des proportions"
+            ],
+            [
+              "Contrapposto",
+              true,
+              "Ve s. av.",
+              "La figure « vivante »"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "L'Égypte (ch. 2), dont les Grecs héritent puis brisent le système.",
+        "mene": "La Grèce du IVe s. et le monde hellénistique (ch. 4), qui ajoutent grâce, émotion et virtuosité."
+      },
+      "memos": [
+        "Le « grand éveil » = passer de « ce qu'on sait » à « ce qu'on voit ».",
+        "Raccourci + contrapposto = les deux clés de la révolution grecque.",
+        "Classicisme = observation + idéal réunis (Phidias)."
+      ],
+      "autotest": [
+        "De quel modèle la Grèce part-elle, et qu'en fait-elle ?",
+        "Qu'est-ce que le raccourci ? Le contrapposto ?",
+        "Pourquoi le Parthénon incarne-t-il le classicisme ?"
+      ]
+    },
+    {
+      "id": "grece-hellenistique",
+      "titre": "Le royaume de la beauté",
+      "periode": "≈ 400 av. – Iᵉʳ s. apr. J.-C.",
+      "couleur": "#5a86b8",
+      "sous_titre": "La perfection technique acquise, l'art grec cherche désormais à charmer puis à bouleverser.",
+      "carte": [
+        [
+          "Dates",
+          "~400 av. – Iᵉʳ s. apr. J.-C."
+        ],
+        [
+          "Foyers",
+          "Grèce, puis tout le monde conquis par Alexandre"
+        ],
+        [
+          "Idée-mère",
+          "La maîtrise acquise se met au service de la grâce, puis de l'émotion"
+        ],
+        [
+          "Évolution",
+          "Du calme idéal (Praxitèle) au pathos spectaculaire (hellénistique)"
+        ]
+      ],
+      "bascule": "Le métier est désormais total : les artistes savent tout faire. La question n'est plus « comment représenter le réel ? » mais « comment émouvoir et séduire ? ». Avec les conquêtes d'Alexandre, l'art grec se répand dans tout l'Orient : c'est l'âge hellénistique, plus théâtral, plus pathétique. On passe de l'idéal serein du Ve siècle à une recherche de grâce sensuelle (Praxitèle), puis d'émotion intense, de souffrance, de dramatisme (Laocoon, Pergame).",
+      "phrase": "La perfection technique acquise, l'art grec cherche désormais à charmer puis à bouleverser.",
+      "probleme": "Une fois qu'on sait tout représenter, comment toucher : par la grâce, ou par le pathos ?",
+      "caracteristiques": [
+        "Classicisme tardif : douceur, sensualité, premiers grands nus féminins.",
+        "Hellénistique : mouvement violent, émotion extrême, vieillesse, douleur, réalisme du laid aussi."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Hermès portant Dionysos",
+          "artiste": "Praxitèle",
+          "annee": "~340 av. J.-C.",
+          "lieu": "Olympie",
+          "wiki": "Hermes and the Infant Dionysus",
+          "genie": "Corps souple, déhanché, expression douce. Le classicisme s'adoucit : moins de rigueur héroïque, plus de grâce humaine et sensuelle."
+        },
+        {
+          "titre": "Le Laocoon",
+          "artiste": "Hagésandros, Athénodore, Polydore",
+          "annee": "~Iᵉʳ s. av. J.-C.",
+          "lieu": "Rome (Vatican)",
+          "wiki": "Laocoön and His Sons",
+          "genie": "Un prêtre et ses fils étouffés par des serpents, visages tordus de douleur, corps en torsion. Sommet du pathos hellénistique. Redécouverte en 1506, elle bouleversera Michel-Ange."
+        },
+        {
+          "titre": "La Vénus de Milo",
+          "artiste": "Alexandros d'Antioche",
+          "annee": "~130 av. J.-C.",
+          "lieu": "Paris (Louvre)",
+          "wiki": "Venus de Milo",
+          "genie": "Grâce idéalisée et drapé vivant. Avec l'autel de Pergame (combat de géants tourmenté), elle illustre les deux pôles de l'hellénistique : beauté sereine et drame théâtral."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Praxitèle",
+          "dates": "IVe s. av.",
+          "role": "",
+          "wiki": "Praxiteles",
+          "portrait": "La grâce, la sensualité, le nu féminin."
+        },
+        {
+          "niveau": "○",
+          "nom": "Lysippe",
+          "dates": "IVe s. av.",
+          "role": "",
+          "wiki": "Lysippos",
+          "portrait": "Sculpteur d'Alexandre, nouvelles proportions plus élancées."
+        },
+        {
+          "niveau": "○",
+          "nom": "Hagésandros, Athénodore, Polydore",
+          "dates": "Iᵉʳ s. av.",
+          "role": "",
+          "wiki": "Laocoön and His Sons",
+          "portrait": "Auteurs présumés du Laocoon."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Hermès",
+              true,
+              "Praxitèle, ~340 av.",
+              "Grâce, sensualité"
+            ],
+            [
+              "Apollon du Belvédère",
+              false,
+              "(copie)",
+              "Idéal classique tardif"
+            ],
+            [
+              "Laocoon",
+              true,
+              "~Iᵉʳ s. av.",
+              "Pathos, souffrance"
+            ],
+            [
+              "Vénus de Milo",
+              true,
+              "~130 av.",
+              "Beauté idéale"
+            ],
+            [
+              "Autel de Pergame",
+              false,
+              "~180 av.",
+              "Drame, combat"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le classicisme du Ve s. (ch. 3).",
+        "mene": "Rome (ch. 5), qui copie, diffuse et adapte l'art grec à sa propre puissance."
+      },
+      "memos": [
+        "IVe s. = la grâce (Praxitèle) ; hellénistique = le pathos (Laocoon).",
+        "Le Laocoon (redécouvert en 1506) influencera Michel-Ange et le Baroque."
+      ],
+      "autotest": [
+        "Comment l'art grec évolue-t-il après le classicisme du Ve s. ?",
+        "Qu'est-ce que le pathos hellénistique ? Exemple ?",
+        "Pourquoi le Laocoon a-t-il marqué la Renaissance ?"
+      ]
+    },
+    {
+      "id": "rome-chretiens",
+      "titre": "Les conquérants du monde",
+      "periode": "≈ Iᵉʳ – IVᵉ s. apr. J.-C.",
+      "couleur": "#7a8ba0",
+      "sous_titre": "Rome met la beauté grecque au service du pouvoir ; les nouvelles religions vont la mettre au service du sacré.",
+      "carte": [
+        [
+          "Dates",
+          "~Iᵉʳ – IVᵉ s. apr. J.-C."
+        ],
+        [
+          "Foyers",
+          "Empire romain, Inde bouddhiste, premières communautés juives et chrétiennes"
+        ],
+        [
+          "Idée-mère",
+          "L'héritage grec se met au service de la puissance (Rome) et bientôt de la foi"
+        ],
+        [
+          "Apports romains",
+          "Le réalisme du portrait et une architecture révolutionnaire"
+        ]
+      ],
+      "bascule": "Rome conquiert le monde grec et adopte son art — copie ses statues, emploie ses artistes. Mais Rome y ajoute deux choses majeures : un portrait d'un réalisme cru (rides, verrues : on veut la ressemblance, pas l'idéal) et une architecture de génie (l'arc, la voûte, le béton, la coupole → Panthéon, Colisée). Puis, dans l'Empire tardif, de nouvelles religions cherchent leurs images : art bouddhique (Gandhara), art juif (Doura-Europos), et surtout art chrétien naissant (catacombes). Là s'amorce un tournant : l'image redevient symbole plus qu'imitation.",
+      "phrase": "Rome met la beauté grecque au service du pouvoir ; les nouvelles religions vont la mettre au service du sacré.",
+      "probleme": "Comment l'art sert-il un Empire (puissance, réalisme) puis une foi nouvelle (symbole, message) ?",
+      "caracteristiques": [
+        "Romain : portrait réaliste, relief narratif (colonne Trajane), architecture monumentale (arc, voûte, coupole, béton).",
+        "Premier art chrétien : simple, symbolique (le poisson, le bon pasteur), dans les catacombes ; l'idée prime sur la beauté."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Le Panthéon",
+          "artiste": "Anonyme (romain)",
+          "annee": "~125 apr. J.-C.",
+          "lieu": "Rome",
+          "wiki": "Pantheon, Rome",
+          "genie": "Énorme coupole percée d'un oculus, espace intérieur parfait. Prouesse d'ingénierie (béton, coupole) : Rome crée des espaces intérieurs monumentaux, ce que la Grèce ne faisait pas."
+        },
+        {
+          "titre": "La colonne Trajane",
+          "artiste": "Anonyme (romain)",
+          "annee": "~113 apr. J.-C.",
+          "lieu": "Rome",
+          "wiki": "Trajan's Column",
+          "genie": "Une bande sculptée en spirale racontant une campagne militaire. L'art au service de la propagande impériale : un récit continu, détaillé, glorifiant l'empereur."
+        },
+        {
+          "titre": "Peintures des catacombes",
+          "artiste": "Anonyme",
+          "annee": "~IIIᵉ s.",
+          "lieu": "Rome",
+          "wiki": "Catacombs of Rome",
+          "genie": "Images simples et schématiques (bon pasteur, orant). L'art chrétien naissant ne cherche pas la beauté mais à transmettre un message de salut. Début du glissement vers l'art symbolique médiéval."
+        }
+      ],
+      "artistes_note": "Largement anonymes : l'art romain est collectif et fonctionnel ; l'art chrétien naissant aussi.",
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Portrait romain réaliste",
+              true,
+              "Iᵉʳ-IIᵉ s.",
+              "Ressemblance, pas idéal"
+            ],
+            [
+              "Panthéon",
+              true,
+              "~125 apr.",
+              "Coupole, espace intérieur"
+            ],
+            [
+              "Colisée",
+              false,
+              "~80 apr.",
+              "Architecture de masse"
+            ],
+            [
+              "Colonne Trajane",
+              true,
+              "~113 apr.",
+              "Récit/propagande"
+            ],
+            [
+              "Art du Gandhara",
+              false,
+              "Iᵉʳ-IIIᵉ s.",
+              "Bouddha à la grecque"
+            ],
+            [
+              "Doura-Europos",
+              false,
+              "~IIIᵉ s.",
+              "Premier art juif figuré"
+            ],
+            [
+              "Catacombes",
+              true,
+              "~IIIᵉ s.",
+              "Premier art chrétien, symbolique"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "La Grèce hellénistique (ch. 4), héritée et adaptée par Rome.",
+        "mene": "La séparation Rome/Byzance (ch. 6), où l'art chrétien s'épanouit en images sacrées."
+      },
+      "memos": [
+        "Rome = beauté grecque + réalisme du portrait + génie de l'architecture (arc, voûte, coupole).",
+        "Colonne Trajane = l'art comme propagande.",
+        "Catacombes = l'image redevient symbole : le tournant médiéval s'amorce."
+      ],
+      "autotest": [
+        "Que Rome ajoute-t-elle à l'héritage grec ?",
+        "Pourquoi le Panthéon est-il une prouesse ?",
+        "En quoi l'art des catacombes annonce-t-il le Moyen Âge ?"
+      ]
     }
   ]
 }

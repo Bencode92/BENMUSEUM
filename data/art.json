@@ -98,7 +98,8 @@
           "niveau": "",
           "detail": "Aztèques, Mayas, Incas"
         }
-      ]
+      ],
+      "dossier": "prehistoire"
     },
     {
       "num": 2,
@@ -215,7 +216,8 @@
           "niveau": "",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "egypte-mesopotamie"
     },
     {
       "num": 3,
@@ -283,7 +285,8 @@
           "niveau": "○",
           "detail": "canon des proportions"
         }
-      ]
+      ],
+      "dossier": "grece-classique"
     },
     {
       "num": 4,
@@ -366,7 +369,8 @@
           "niveau": "",
           "detail": "hellénistique"
         }
-      ]
+      ],
+      "dossier": "grece-hellenistique"
     },
     {
       "num": 5,
@@ -438,7 +442,8 @@
           "niveau": "",
           "detail": "premier art chrétien"
         }
-      ]
+      ],
+      "dossier": "rome-chretiens"
     },
     {
       "num": 6,
