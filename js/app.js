@@ -9,9 +9,10 @@ let DOSSIERS = [];
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
+const DV = "7"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
-  fetch("data/art.json").then(r => r.json()),
-  fetch("data/dossiers.json").then(r => r.json()).catch(() => ({ dossiers: [] })),
+  fetch("data/art.json?v=" + DV).then(r => r.json()),
+  fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
 ])
   .then(([art, dos]) => {
     CHAPITRES = art.chapitres;
