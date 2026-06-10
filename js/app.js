@@ -80,6 +80,7 @@ function route() {
   document.querySelectorAll(".tab").forEach(b => b.classList.toggle("active", b.dataset.nav === "#/" + tabKey));
   scrollTo(0, 0);
   if (top === "quiz") { setActiveFloor(-1); return renderQuiz(); }
+  if (top === "session") { setActiveFloor(-1); return startSession(); }
   if (top === "parcours") { setActiveFloor(-1); return renderParcours(); }
   if (top === "favoris") { setActiveFloor(-1); return renderFavoris(); }
   if (top === "dossiers") { setActiveFloor(-1); return renderDossiersList(); }
@@ -504,7 +505,13 @@ const ACTES = [
 function renderParcours() {
   crumb([{ label: "Parcours" }]);
   const chToIndex = n => { const i = CHAPITRES.findIndex(c => c.num === n); return i < 0 ? 0 : i; };
+  const due = sessionStats();
   $("view").innerHTML = `
+    <div class="session-cta">
+      <div><h2>🎬 Session du jour</h2>
+      <p>~10 min : une œuvre racontée, une observation, tes cartes à revoir, un cliffhanger.${due ? ` <b>${due} carte${due > 1 ? "s" : ""} à revoir aujourd'hui.</b>` : ""}</p></div>
+      <button class="big" data-nav="#/session">▶ Continuer</button>
+    </div>
     <div class="pagehead">
       <h1>Le fil de l'histoire de l'art</h1>
       <p class="lead">Toute l'histoire de l'art tient en une question qui évolue : <i>comment, et pourquoi, faire une image ?</i> Voici le fil rouge — le contexte, les mouvements et la motivation de chaque grande époque.</p>
@@ -519,4 +526,148 @@ function renderParcours() {
         <div class="memo">${esc(a.cle)}</div>
         <a class="dossier-link" data-nav="#/c/${chToIndex(a.chFrom)}">Entrer dans l'Acte (ch. ${a.chFrom}) →</a>
       </div>`).join("")}`;
+}
+
+/* =========================================================================
+   SESSION DU JOUR — récit + observation + répétition espacée (Leitner)
+   « On ne choisit pas, on continue. »
+   ========================================================================= */
+const SRS_INTERVALS = [1, 3, 7, 16, 35]; // jours par boîte (1→5)
+const today = () => new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+const addDays = n => new Date(Date.now() + n * 86400000 - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+function srsStore() { try { return JSON.parse(localStorage.getItem("museum:srs")) || {}; } catch { return {}; } }
+function srsSave(s) { localStorage.setItem("museum:srs", JSON.stringify(s)); }
+
+// cartes = œuvres en fiche qui ont une image
+function buildCards() {
+  const cards = [];
+  CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) => {
+    if (IMAGES[o.wiki]) cards.push({ id: `w:${ci}:${oi}`, ci, oi, titre: o.titre, artiste: o.artiste, wiki: o.wiki, expl: o.explication, ctx: o.contexte, chNum: c.num, chTitre: c.titre });
+  }));
+  return cards;
+}
+function introduceCard(id) {
+  const s = srsStore(); if (s[id]) return; s[id] = { box: 1, due: addDays(1), seen: 1 }; srsSave(s);
+}
+function gradeCard(id, good) {
+  const s = srsStore(); const cur = s[id] || { box: 1, seen: 0 };
+  const box = good ? Math.min((cur.box || 1) + 1, 5) : 1;
+  s[id] = { box, due: addDays(SRS_INTERVALS[box - 1]), seen: (cur.seen || 0) + 1 };
+  srsSave(s);
+}
+function sessionStats() {
+  const s = srsStore(), t = today();
+  return buildCards().filter(c => s[c.id] && s[c.id].due <= t).length;
+}
+
+let SESSION = null;
+function buildSession() {
+  const cards = buildCards(); const s = srsStore(); const t = today();
+  const seen = cards.filter(c => s[c.id]);
+  const newCard = cards.find(c => !s[c.id]) || null;
+  const due = seen.filter(c => s[c.id].due <= t).slice(0, 6);
+  const steps = [];
+  if (newCard) { steps.push({ type: "story", card: newCard }); steps.push({ type: "observe", card: newCard }); }
+  due.forEach(card => steps.push({ type: "flash", card }));
+  // si rien de neuf ni de dû, on révise quand même quelques cartes vues (ou un aperçu)
+  if (!steps.length) {
+    const pool = (seen.length ? seen : cards).sort(() => Math.random() - 0.5).slice(0, 5);
+    pool.forEach(card => steps.push({ type: "flash", card }));
+  }
+  steps.push({ type: "end", card: newCard || due[0] || cards[0] });
+  return steps;
+}
+function startSession() { SESSION = { steps: buildSession(), i: 0 }; renderSession(); }
+
+function cliffhanger(card) {
+  if (!card) return "";
+  const c = CHAPITRES[card.ci]; const d = c && c.dossier && DOSSIERS.find(x => x.id === c.dossier);
+  if (d && d.liens && d.liens.mene) return d.liens.mene;
+  const nextCh = CHAPITRES.find(x => x.num === c.chNum + 1);
+  return nextCh ? `Et après ? ${nextCh.num}. ${nextCh.titre} — ${nextCh.idee}` : "Tu as parcouru jusqu'au bout du fil.";
+}
+
+function renderSession() {
+  if (!SESSION) return startSession();
+  crumb([{ label: "Session du jour" }]);
+  const step = SESSION.steps[SESSION.i];
+  const n = SESSION.steps.length;
+  const prog = `<div class="sess-prog">Étape ${Math.min(SESSION.i + 1, n)} / ${n}</div>`;
+
+  if (!step || step.type === "end") {
+    const tease = step ? cliffhanger(step.card) : "";
+    $("view").innerHTML = `<div class="session">
+      ${prog}
+      <div class="sess-card">
+        <h2>🎬 À suivre…</h2>
+        <p class="phrase">${esc(tease)}</p>
+        <p style="color:var(--muted)">Session terminée. Reviens demain : tes cartes remonteront au bon moment.</p>
+        <div class="sess-actions">
+          <button class="next" id="sessAgain">Encore une session →</button>
+          <button class="optbtn" data-nav="#/parcours">Retour au parcours</button>
+        </div>
+      </div></div>`;
+    $("sessAgain") && ($("sessAgain").onclick = startSession);
+    return;
+  }
+
+  const card = step.card;
+  const adv = () => { SESSION.i++; renderSession(); };
+
+  if (step.type === "story") {
+    introduceCard(card.id);
+    $("view").innerHTML = `<div class="session">${prog}
+      <div class="sess-card">
+        <div class="ep">Épisode · Chapitre ${card.chNum} — ${esc(card.chTitre)}</div>
+        <img class="sess-img" data-wiki="${esc(card.wiki)}" alt="${esc(card.titre)}" />
+        <h2>${esc(card.titre)}</h2><div class="meta">${esc(card.artiste)}</div>
+        <p>${esc(card.expl)}</p><p style="color:var(--muted)">${esc(card.ctx)}</p>
+        <div class="sess-actions"><button class="next" id="cont">Continuer →</button></div>
+      </div></div>`;
+    loadImages($("view")); $("cont").onclick = adv; return;
+  }
+
+  if (step.type === "observe") {
+    const c = CHAPITRES[card.ci]; const o = c.oeuvres[card.oi];
+    $("view").innerHTML = `<div class="session">${prog}
+      <div class="sess-card">
+        <img class="sess-img" data-wiki="${esc(card.wiki)}" alt="" />
+        <h2>Que remarques-tu ?</h2>
+        <p style="color:var(--muted)">Observe l'œuvre quelques secondes avant de dévoiler.</p>
+        <ul class="dots" id="obs" hidden>${(o.elements || []).map(e => `<li>${esc(e)}</li>`).join("")}</ul>
+        <div class="sess-actions">
+          <button class="optbtn" id="reveal">👁 Ce qu'il faut repérer</button>
+          <button class="next" id="cont" hidden>Continuer →</button>
+        </div>
+      </div></div>`;
+    loadImages($("view"));
+    $("reveal").onclick = () => { $("obs").hidden = false; $("reveal").hidden = true; $("cont").hidden = false; };
+    $("cont").onclick = adv; return;
+  }
+
+  if (step.type === "flash") {
+    $("view").innerHTML = `<div class="session">${prog}
+      <div class="sess-card">
+        <div class="ep">Carte à réviser</div>
+        <img class="sess-img" data-wiki="${esc(card.wiki)}" alt="" />
+        <h2>Quelle est cette œuvre ? De quel chapitre ?</h2>
+        <div id="verso" hidden>
+          <p><b>${esc(card.titre)}</b> — ${esc(card.artiste)}</p>
+          <p style="color:var(--muted)">Chapitre ${card.chNum} — ${esc(card.chTitre)}</p>
+          <p>${esc(card.expl)}</p>
+        </div>
+        <div class="sess-actions">
+          <button class="next" id="flip">Retourner la carte</button>
+          <div id="grade" hidden>
+            <button class="optbtn bad" id="again">↻ À revoir</button>
+            <button class="optbtn good" id="known">✓ Je savais</button>
+          </div>
+        </div>
+      </div></div>`;
+    loadImages($("view"));
+    $("flip").onclick = () => { $("verso").hidden = false; $("flip").hidden = true; $("grade").hidden = false; };
+    $("again").onclick = () => { gradeCard(card.id, false); adv(); };
+    $("known").onclick = () => { gradeCard(card.id, true); adv(); };
+    return;
+  }
 }

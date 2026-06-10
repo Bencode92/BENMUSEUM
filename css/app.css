@@ -135,6 +135,28 @@ ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 .dossier-link { display: inline-block; background: var(--gold); color: #fff; padding: 10px 16px; border-radius: 8px; text-decoration: none; cursor: pointer; margin: 8px 0; }
 .dossier-link:hover { filter: brightness(1.08); }
 
+/* ---- session du jour ---- */
+.session-cta { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  background: linear-gradient(120deg, #2e2620, #3a2f24); color: #f5efe2; border-radius: 14px; padding: 20px 24px; margin-bottom: 22px; box-shadow: var(--shadow); }
+.session-cta h2 { color: var(--gold); font-size: 22px; margin-bottom: 4px; }
+.session-cta p { opacity: .9; font-size: 14px; max-width: 520px; }
+.session-cta .big { font-size: 18px; padding: 14px 28px; border-radius: 999px; background: var(--gold); color: #1c1408; border: none; cursor: pointer; }
+.session-cta .big:hover { filter: brightness(1.1); }
+.session { max-width: 640px; margin: 0 auto; }
+.sess-prog { text-align: center; color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+.sess-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; box-shadow: var(--shadow); }
+.sess-card h2 { font-family: Georgia, serif; font-size: 24px; margin: 6px 0; }
+.sess-card .meta { color: var(--muted); font-style: italic; margin-bottom: 10px; }
+.sess-card p { margin: 8px 0; line-height: 1.6; }
+.sess-img { width: 100%; max-height: 420px; object-fit: contain; background: #ece6d8; border-radius: 10px; margin-bottom: 12px; }
+.sess-actions { display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 18px; flex-wrap: wrap; }
+.sess-actions .next { background: var(--gold); color: #fff; border: none; border-radius: 999px; padding: 12px 26px; font: inherit; cursor: pointer; }
+.optbtn { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 11px 20px; font: inherit; cursor: pointer; color: var(--ink); }
+.optbtn:hover { border-color: var(--gold); }
+.optbtn.good { background: #e6f4ea; border-color: #3a9a5d; }
+.optbtn.bad { background: #fbe9e7; border-color: #c0392b; }
+#grade { display: flex; gap: 10px; }
+
 /* ---- parcours (fil rouge) ---- */
 .acte { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 20px; margin: 16px 0; box-shadow: var(--shadow); }
 .acte p { margin: 6px 0; }
