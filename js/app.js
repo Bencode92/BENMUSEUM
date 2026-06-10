@@ -248,6 +248,7 @@ function renderOeuvre(ci, oi) {
           <button class="ask" id="eask">Comparer & intégrer</button>
           <div class="answer" id="eans"></div>
         </div>
+        ${aiQuizBlock("oeuvre")}
         ${notesBlock(`oeuvre:${ci}:${oi}`)}
         <div class="navworks">
           <button ${prev ? `data-nav="${prev}"` : "disabled"}>← Œuvre précédente</button>
@@ -258,6 +259,7 @@ function renderOeuvre(ci, oi) {
   loadImages($("view"));
   wireGuide(c, o, `oeuvre:${ci}:${oi}`);
   wireEnrich(c, o, `oeuvre:${ci}:${oi}`);
+  wireAiQuiz("oeuvre", `« ${o.titre} » — ${o.artiste}, ${o.annee}. ${o.explication} ${o.contexte} Éléments : ${(o.elements || []).join(" ; ")}. Chapitre ${c.num} (${c.titre}) : ${c.idee}`);
   wireNotes();
 }
 
@@ -289,6 +291,55 @@ function wireEnrich(c, o, scope) {
       ans.className = "answer dim";
       ans.innerHTML = "⚠️ IA hors ligne. <button id='aicfg2' class='linkbtn'>Configurer l'IA en ligne</button> (Cloudflare Worker).";
       const cfg = document.getElementById("aicfg2"); if (cfg) cfg.onclick = setAiUrl;
+    }
+  };
+}
+
+/* ---------- QCM généré par l'IA (à partir du contenu d'une fiche/section) ---------- */
+function parseQuizJSON(t) { try { const m = (t || "").match(/\{[\s\S]*\}/); return JSON.parse(m ? m[0] : t); } catch { return null; } }
+function aiQuizBlock(id) {
+  return `<div class="block aiquiz" id="aq-${id}">
+    <h3>🧠 Teste-toi (QCM généré par l'IA)</h3>
+    <button class="ask aqgen">Générer un QCM</button>
+    <div class="aqout"></div>
+  </div>`;
+}
+function renderMCQ(box, questions) {
+  box.innerHTML = questions.map((q, qi) => `
+    <div class="mcq" data-qi="${qi}">
+      <div class="mcq-q">${qi + 1}. ${esc(q.q)}</div>
+      <div class="mcq-opts">${(q.options || []).map((op, oi) => `<button class="opt" data-oi="${oi}">${esc(op)}</button>`).join("")}</div>
+      <div class="mcq-exp" hidden>💡 ${esc(q.explication || "")}</div>
+    </div>`).join("");
+  box.querySelectorAll(".mcq").forEach((m, qi) => {
+    const q = questions[qi]; let done = false;
+    m.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+      if (done) return; done = true;
+      m.querySelectorAll(".opt").forEach((x, oi) => { if (oi === q.answer) x.classList.add("good"); else if (x === b) x.classList.add("bad"); x.disabled = true; });
+      m.querySelector(".mcq-exp").hidden = false;
+    });
+  });
+}
+function wireAiQuiz(id, contenu) {
+  const block = $(`aq-${id}`); if (!block) return;
+  const btn = block.querySelector(".aqgen"), out = block.querySelector(".aqout");
+  btn.onclick = async () => {
+    btn.disabled = true; btn.textContent = "Génération…"; out.innerHTML = "";
+    try {
+      const r = await fetch(aiEndpoint(), {
+        method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ mode: "quiz", contenu, n: 5 }),
+      });
+      if (!r.ok) throw new Error();
+      const j = await r.json();
+      const data = parseQuizJSON(j.answer);
+      if (!data || !Array.isArray(data.questions) || !data.questions.length) throw new Error("format");
+      renderMCQ(out, data.questions);
+      btn.textContent = "↻ Regénérer"; btn.disabled = false;
+    } catch {
+      out.innerHTML = `<p class="answer dim">⚠️ IA hors ligne ou réponse illisible. <button class="linkbtn aqcfg">Configurer l'IA en ligne</button></p>`;
+      const c = out.querySelector(".aqcfg"); if (c) c.onclick = setAiUrl;
+      btn.textContent = "Générer un QCM"; btn.disabled = false;
     }
   };
 }
@@ -580,9 +631,15 @@ function renderDossier(id) {
   if (d.memos) P.push(sec("🧠 Mémos", `<ul class="dots">${d.memos.map(m => `<li><i>${esc(m)}</i></li>`).join("")}</ul>`));
   if (d.autotest) P.push(sec("✅ Auto-test", `<ol class="rev">${d.autotest.map(q => `<li>${esc(q)}</li>`).join("")}</ol>`));
 
+  P.push(aiQuizBlock("dossier"));
+
   $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
   loadImages($("view"));
   wireNotes();
+  const contenu = `${d.titre} (${d.periode}). ${d.sous_titre || ""} ${d.probleme || ""} `
+    + (d.recit || []).map(s => `${s.h} : ${s.p}`).join(" ")
+    + " " + (d.memos || []).join(" ");
+  wireAiQuiz("dossier", contenu);
 }
 
 /* =========================================================================

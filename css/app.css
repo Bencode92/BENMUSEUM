@@ -144,6 +144,20 @@ ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 
 .seemore { display: inline-block; margin-top: 8px; font-size: 13px; color: var(--gold); }
 
+/* ---- QCM généré par l'IA ---- */
+.aiquiz .aqgen { background: var(--gold); color: #fff; border: none; padding: 9px 16px; border-radius: 8px; cursor: pointer; font: inherit; }
+.aiquiz .aqgen:hover { filter: brightness(1.08); }
+.aqout { margin-top: 12px; }
+.mcq { margin: 12px 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.mcq:first-child { border-top: none; }
+.mcq-q { font-weight: 600; margin-bottom: 8px; }
+.mcq-opts { display: grid; gap: 8px; }
+.mcq-opts .opt { font: inherit; text-align: left; padding: 9px 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); cursor: pointer; }
+.mcq-opts .opt:hover:not(:disabled) { border-color: var(--gold); }
+.mcq-opts .opt.good { background: #e6f4ea; border-color: #3a9a5d; }
+.mcq-opts .opt.bad { background: #fbe9e7; border-color: #c0392b; }
+.mcq-exp { margin-top: 8px; font-size: 14px; color: var(--muted); font-style: italic; }
+
 /* ---- groupes d'artistes (écoles) ---- */
 .grp { font-family: Georgia, serif; font-size: 18px; color: var(--ink); margin: 20px 0 8px; padding-bottom: 6px; border-bottom: 2px solid var(--gold); }
 

@@ -41,7 +41,18 @@ export default {
 
     let system, messages, maxTokens = 700;
 
-    if (mode === "enrich") {
+    if (mode === "quiz") {
+      // QCM généré à partir du contenu d'une fiche / section
+      const n = Math.min(Math.max(parseInt(b.n) || 4, 2), 8);
+      system =
+        "Tu es un professeur d'histoire de l'art. À partir du CONTENU fourni, rédige " + n + " questions de QCM en français, " +
+        "portant uniquement sur des faits présents dans le contenu, claires et non ambiguës. Chaque question a 4 options dont UNE seule correcte. " +
+        "Réponds UNIQUEMENT par un JSON valide, sans aucun texte autour, de la forme exacte : " +
+        '{"questions":[{"q":"…","options":["…","…","…","…"],"answer":0,"explication":"…"}]} ' +
+        "où answer est l'index (0-3) de la bonne option.";
+      messages = [{ role: "user", content: "CONTENU :\n" + (b.contenu || "") }];
+      maxTokens = 1400;
+    } else if (mode === "enrich") {
       // studyforge : comparer un texte à la fiche et signaler ce qui est nouveau / à corriger
       system =
         "Tu es un vérificateur de contenu d'histoire de l'art. On te donne le CONTENU EXISTANT d'une fiche, puis un TEXTE proposé par l'utilisateur. " +
