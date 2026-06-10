@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "15"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "16"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -312,6 +312,22 @@ function renderDossiersList() {
   loadImages($("view"));
 }
 
+// trouve l'œuvre du dossier évoquée dans un passage du récit (pour l'illustrer)
+function recitImage(d, text) {
+  const t = text.toLowerCase(); let best = null, bestLen = 0;
+  (d.oeuvres || []).forEach(o => {
+    if (!IMAGES[o.wiki]) return;
+    const needles = [o.titre];
+    const nom = (o.artiste || "").replace(/\(.*?\)/g, "").replace(/^(Le |La |Les |L')/, "").trim();
+    if (nom) { needles.push(nom); nom.split(/\s+/).forEach(w => { if (w.length >= 4) needles.push(w); }); }
+    needles.forEach(nd => {
+      const n = (nd || "").toLowerCase().trim();
+      if (n.length >= 4 && t.includes(n) && n.length > bestLen) { best = o; bestLen = n.length; }
+    });
+  });
+  return best;
+}
+
 function renderDossier(id) {
   const d = DOSSIERS.find(x => x.id === id); if (!d) return renderDossiersList();
   crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre }]);
@@ -323,8 +339,15 @@ function renderDossier(id) {
     <h1>${esc(d.titre)} ${favBtn(`dossier:${d.id}`, d.titre, `#/d/${d.id}`, "dossier")}</h1>
     ${d.sous_titre ? `<p class="lead">${esc(d.sous_titre)}</p>` : ""}</div>`);
 
-  if (d.recit) P.push(sec("📖 Le récit",
-    d.recit.map(s => `<div class="block recit"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div>`).join("")));
+  if (d.recit) P.push(sec("📖 Le récit, à travers les œuvres",
+    d.recit.map(s => {
+      const o = recitImage(d, (s.h || "") + " " + (s.p || ""));
+      return `<div class="recit-block${o ? " illus" : ""}">
+        ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" alt="${esc(o.titre)}" />
+          <figcaption>${esc(o.titre)} — ${esc(o.artiste)}</figcaption></figure>` : ""}
+        <div class="recit-txt"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div>
+      </div>`;
+    }).join("")));
 
   if (d.carte) P.push(sec("🪪 Carte d'identité",
     `<table class="kv">${d.carte.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>`));

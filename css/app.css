@@ -135,10 +135,16 @@ ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 .dossier-link { display: inline-block; background: var(--gold); color: #fff; padding: 10px 16px; border-radius: 8px; text-decoration: none; cursor: pointer; margin: 8px 0; }
 .dossier-link:hover { filter: brightness(1.08); }
 
-/* ---- récit profond & sections dépliables ---- */
-.block.recit { margin: 12px 0; }
-.block.recit h3 { font-family: Georgia, serif; font-size: 18px; color: var(--gold); text-transform: none; letter-spacing: 0; margin-bottom: 8px; }
-.block.recit p { font-size: 15.5px; line-height: 1.7; }
+/* ---- récit illustré (le texte déroule à travers les œuvres) ---- */
+.recit-block { display: flex; gap: 22px; align-items: flex-start; margin: 26px 0; }
+.recit-block.illus:nth-child(even) { flex-direction: row-reverse; }
+.recit-fig { flex: 0 0 40%; margin: 0; }
+.recit-img { width: 100%; border-radius: 10px; background: #ece6d8; box-shadow: var(--shadow); display: block; }
+.recit-fig figcaption { font-size: 12px; color: var(--muted); font-style: italic; margin-top: 6px; text-align: center; }
+.recit-txt { flex: 1; }
+.recit-txt h3 { font-family: Georgia, serif; font-size: 19px; color: var(--gold); text-transform: none; letter-spacing: 0; margin-bottom: 8px; }
+.recit-txt p { font-size: 15.5px; line-height: 1.75; }
+@media (max-width: 700px) { .recit-block, .recit-block.illus:nth-child(even) { flex-direction: column; } .recit-fig { flex: none; width: 100%; } }
 details.deep { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
 details.deep summary { cursor: pointer; color: var(--gold); font-size: 13px; list-style: none; }
 details.deep summary::-webkit-details-marker { display: none; }

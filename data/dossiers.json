@@ -577,7 +577,8 @@
           "annee": "~1535",
           "lieu": "Florence (Offices)",
           "wiki": "Madonna with the Long Neck",
-          "genie": "Vierge au cou de cygne, doigts interminables, enfant anormalement grand, colonne sans fonction au fond. Rupture assumée avec le naturel : la beauté devient élégance irréelle. L'artifice est le sujet."
+          "genie": "Vierge au cou de cygne, doigts interminables, enfant anormalement grand, colonne sans fonction au fond. Rupture assumée avec le naturel : la beauté devient élégance irréelle. L'artifice est le sujet.",
+          "analyse": "Le Parmesan, vers 1535. Tout y est délibérément « faux » et sublime : le cou de la Vierge s'étire comme celui d'un cygne, ses doigts sont interminables, l'Enfant Jésus est anormalement grand et glisse de ses genoux comme inanimé. À droite, une colonne isolée ne soutient rien et un personnage minuscule semble perdu dans un espace incohérent. Ce ne sont pas des maladresses : c'est le programme maniériste, l'élégance irréelle érigée en idéal. La beauté n'imite plus la nature, elle la raffine jusqu'à l'artifice assumé."
         },
         {
           "titre": "L'Enterrement du comte d'Orgaz",
@@ -585,7 +586,8 @@
           "annee": "1586",
           "lieu": "Tolède",
           "wiki": "The Burial of the Count of Orgaz",
-          "genie": "Deux mondes superposés : en bas les nobles terrestres (réalistes), en haut le ciel (corps étirés, flammes de couleur). L'art exprime une expérience mystique, pas le réel. El Greco invente une langue visuelle unique, incomprise jusqu'au XXe s."
+          "genie": "Deux mondes superposés : en bas les nobles terrestres (réalistes), en haut le ciel (corps étirés, flammes de couleur). L'art exprime une expérience mystique, pas le réel. El Greco invente une langue visuelle unique, incomprise jusqu'au XXe s.",
+          "analyse": "El Greco, 1586, Tolède. Le tableau se divise en deux mondes. En bas, l'enterrement terrestre : des saints descendus du ciel déposent le corps du comte, entourés de nobles tolédans aux visages réalistes, en noir et fraise blanche. En haut, le ciel s'ouvre : les corps s'étirent comme des flammes, les couleurs deviennent irréelles, l'âme du défunt monte vers un Christ glorieux. C'est l'art comme vision mystique, pas comme description : El Greco invente une langue visuelle si personnelle qu'elle restera incomprise jusqu'au XXe siècle."
         },
         {
           "titre": "L'Enlèvement des Sabines",
@@ -593,7 +595,8 @@
           "annee": "1583",
           "lieu": "Florence (sculpture)",
           "wiki": "Abduction of a Sabine Woman",
-          "genie": "Trois figures enlacées en spirale ascendante, conçues pour être belles sous tous les angles. La sculpture devient une prouesse pure : pas de « bon » point de vue, le mouvement tourne sans fin."
+          "genie": "Trois figures enlacées en spirale ascendante, conçues pour être belles sous tous les angles. La sculpture devient une prouesse pure : pas de « bon » point de vue, le mouvement tourne sans fin.",
+          "analyse": "Giambologna, 1583, Florence — sculpture taillée dans un seul bloc de marbre. Trois figures (un vieillard à terre, un homme enlevant une femme) s'enroulent en une spirale ascendante vertigineuse, la figura serpentinata poussée à son maximum. Prouesse absolue : il n'y a aucun « bon » point de vue, aucune face principale — l'œuvre se découvre en tournant autour, le mouvement ne s'arrête jamais. La sculpture devient pure démonstration de virtuosité, l'exploit pour l'exploit, signature même du Maniérisme."
         }
       ],
       "artistes": [
@@ -611,7 +614,8 @@
           "dates": "1503-1572",
           "role": "",
           "wiki": "Agnolo Bronzino",
-          "portrait": "Portraits glacés, raffinés, distants ; peintre de cour des Médicis."
+          "portrait": "Portraits glacés, raffinés, distants ; peintre de cour des Médicis.",
+          "bio_longue": "Agnolo Bronzino (1503-1572), élève de Pontormo, est le portraitiste glacé de la cour des Médicis à Florence. Ses modèles, figés dans une élégance hautaine, semblent de marbre ou de porcelaine ; ses allégories sont d'une froideur précieuse et énigmatique. Le sommet d'un maniérisme aristocratique, distant, raffiné à l'extrême."
         },
         {
           "niveau": "★",
@@ -619,7 +623,8 @@
           "dates": "1503-1540",
           "role": "",
           "wiki": "Parmigianino",
-          "portrait": "L'élégance étirée portée à l'extrême ; mort jeune, obsédé d'alchimie."
+          "portrait": "L'élégance étirée portée à l'extrême ; mort jeune, obsédé d'alchimie.",
+          "bio_longue": "Le Parmesan (Parmigianino, 1503-1540), de Parme, porte l'élégance maniériste à son comble : des figures d'une grâce étirée, irréelle, aristocratique. Enfant prodige, il fascina ses contemporains au point qu'on dit que des soldats du sac de Rome, entrés dans son atelier, restèrent saisis devant ses toiles. Obsédé à la fin de sa vie par l'alchimie, négligeant la peinture pour chercher à faire de l'or, il meurt à 37 ans, ruiné et un peu fou."
         },
         {
           "niveau": "○",
@@ -643,7 +648,8 @@
           "dates": "1518-1594",
           "role": "",
           "wiki": "Tintoretto",
-          "portrait": "Venise ; énergie dramatique, lumières violentes, vitesse d'exécution."
+          "portrait": "Venise ; énergie dramatique, lumières violentes, vitesse d'exécution.",
+          "bio_longue": "Le Tintoret (Tintoretto, 1518-1594) règne sur Venise après le Titien. Surnommé « Il Furioso » pour sa fougue et sa vitesse d'exécution, il peint d'immenses toiles dramatiques, aux raccourcis vertigineux et aux éclairages violents. Sa devise affichée à l'atelier : « le dessin de Michel-Ange et la couleur de Titien ». Il décore presque seul l'immense Scuola di San Rocco — la « chapelle Sixtine de Venise »."
         },
         {
           "niveau": "★",
@@ -651,7 +657,8 @@
           "dates": "1541-1614",
           "role": "",
           "wiki": "El Greco",
-          "portrait": "Crétois formé à Venise, installé à Tolède ; le plus visionnaire, redécouvert seulement vers 1900."
+          "portrait": "Crétois formé à Venise, installé à Tolède ; le plus visionnaire, redécouvert seulement vers 1900.",
+          "bio_longue": "Doménikos Theotokópoulos (1541-1614), dit El Greco (« le Grec »), naît en Crète, se forme à Venise auprès du Titien, passe par Rome, puis s'installe à Tolède en Espagne où il déploie un art sans équivalent : corps immenses et flammés, couleurs acides, ciels d'orage mystiques. Trop étrange pour son temps, jugé presque fou, il sombre dans l'oubli pendant trois siècles. Sa redécouverte vers 1900 fait de lui un héros de la modernité : Cézanne, Picasso et les expressionnistes le reconnaîtront comme un frère."
         },
         {
           "niveau": "★",
@@ -659,7 +666,8 @@
           "dates": "~1525-1569",
           "role": "",
           "wiki": "Pieter Bruegel the Elder",
-          "portrait": "Cas à part au Nord : scènes paysannes, proverbes, foules grouillantes. Contemporain et tout aussi singulier."
+          "portrait": "Cas à part au Nord : scènes paysannes, proverbes, foules grouillantes. Contemporain et tout aussi singulier.",
+          "bio_longue": "Pieter Bruegel l'Ancien (vers 1525-1569) est l'inclassable du Nord. Loin des contorsions italiennes, il peint la vie paysanne — noces, danses, moissons, jeux d'enfants, proverbes illustrés — et de grands paysages où l'humain est minuscule (Les Chasseurs dans la neige). Sous l'apparence pittoresque se cache souvent une morale grave sur la folie et la petitesse humaines. Il fonde une dynastie de peintres et reste l'un des regards les plus profonds sur la condition ordinaire."
         },
         {
           "niveau": "○",
@@ -667,7 +675,8 @@
           "dates": "1511-1574",
           "role": "",
           "wiki": "Giorgio Vasari",
-          "portrait": "Peintre médiocre mais premier historien de l'art (Les Vies des meilleurs peintres), source majeure."
+          "portrait": "Peintre médiocre mais premier historien de l'art (Les Vies des meilleurs peintres), source majeure.",
+          "bio_longue": "Giorgio Vasari (1511-1574) fut un peintre et architecte honnête, mais il doit sa gloire à sa plume : ses Vies des meilleurs peintres, sculpteurs et architectes (1550) sont le premier grand livre d'histoire de l'art. C'est lui qui invente le récit — de Giotto à Michel-Ange, son héros — d'un progrès continu de l'art, et qui nous transmet la plupart des anecdotes que l'on connaît encore. Sans Vasari, la Renaissance n'aurait pas sa mémoire."
         }
       ],
       "index": [
@@ -745,6 +754,28 @@
         "Qu'est-ce que la figura serpentinata ?",
         "En quoi La Madone au long cou rompt-elle avec le naturel ?",
         "Pourquoi El Greco a-t-il été incompris jusqu'au XXe siècle ?"
+      ],
+      "recit": [
+        {
+          "h": "Que faire après la perfection ?",
+          "p": "Vers 1520, la Haute Renaissance vient d'atteindre un sommet absolu : équilibre, harmonie, naturel parfait avec Léonard, Raphaël et Michel-Ange. Mais Raphaël meurt en 1520, et une question angoissante se pose à la génération suivante : comment faire mieux que la perfection ? On ne peut pas faire « plus harmonieux ». Alors les jeunes artistes font le choix inverse : puisqu'on ne peut dépasser la règle, on va la tordre, avec élégance et virtuosité. C'est le Maniérisme — de maniera, « la manière », le style cultivé pour lui-même."
+        },
+        {
+          "h": "Une époque d'angoisse",
+          "p": "Ce n'est pas qu'un jeu formel : le monde de 1520-1600 a peur. En 1527, le sac de Rome par les troupes impériales traumatise l'Italie ; la Réforme protestante déchire la chrétienté ; les guerres de religion ensanglantent l'Europe. La sérénité confiante du temps de Raphaël a disparu. L'art tendu, instable, inquiet du Maniérisme est aussi le miroir de cette anxiété."
+        },
+        {
+          "h": "Les codes du maniérisme",
+          "p": "On reconnaît un maniériste à ses partis pris : corps anormalement allongés, cous de cygne, membres étirés ; poses complexes et contorsionnées (la figura serpentinata, le corps en spirale, conçu pour être beau sous tous les angles) ; couleurs froides, acides, métalliques, irréelles ; espaces ambigus, compositions surchargées et instables. La virtuosité technique s'affiche pour elle-même. L'art ne cherche plus à imiter la nature mais à épater et à troubler."
+        },
+        {
+          "h": "El Greco, le visionnaire",
+          "p": "Le plus extrême est un Crétois formé à Venise et installé à Tolède : Le Greco. Ses figures s'étirent comme des flammes, ses couleurs deviennent surnaturelles, ses ciels s'embrasent. Il ne peint pas le réel mais une expérience mystique, une vision intérieure. Si singulier qu'il fut incompris pendant trois siècles — il faudra attendre vers 1900, et l'arrivée de l'art moderne, pour qu'on redécouvre en lui un précurseur génial de l'expressionnisme."
+        },
+        {
+          "h": "Tintoret, Bruegel, et la naissance de l'histoire de l'art",
+          "p": "À Venise, Tintoret combine le dessin de Michel-Ange et la couleur de Titien dans des compositions d'une énergie électrique, peintes à toute vitesse. Au Nord, Bruegel l'Ancien — cas à part — peint des foules paysannes grouillantes, des proverbes, des paysages d'hiver, avec un regard d'une humanité unique. Et c'est dans cette époque qu'un peintre médiocre mais immense écrivain, Giorgio Vasari, publie Les Vies des meilleurs peintres : le premier grand livre d'histoire de l'art, source de presque tout ce qu'on sait des artistes de la Renaissance."
+        }
       ]
     },
     {
@@ -1052,7 +1083,8 @@
           "annee": "1642",
           "lieu": "Amsterdam",
           "wiki": "The Night Watch",
-          "genie": "Portrait de groupe d'une compagnie de gardes, mais Rembrandt refuse la photo de classe figée : il les saisit en mouvement, dans une lumière dramatique, comme une scène vivante. Il transforme un genre commercial banal en drame théâtral."
+          "genie": "Portrait de groupe d'une compagnie de gardes, mais Rembrandt refuse la photo de classe figée : il les saisit en mouvement, dans une lumière dramatique, comme une scène vivante. Il transforme un genre commercial banal en drame théâtral.",
+          "analyse": "Rembrandt, 1642. Une compagnie de gardes civiques d'Amsterdam avait commandé un portrait de groupe — d'ordinaire, une rangée de visages bien alignés, chacun ayant payé pour être vu. Rembrandt refuse la photo de classe : il les saisit en pleine action, le capitaine donnant l'ordre de se mettre en marche, dans un clair-obscur théâtral où la lumière choisit qui éclairer. Certains commanditaires, relégués dans l'ombre, auraient protesté. Le titre est d'ailleurs faux (un vernis assombri a fait croire à une scène nocturne). Mais Rembrandt avait transformé un genre commercial en chef-d'œuvre dramatique."
         },
         {
           "titre": "Autoportraits de Rembrandt",
@@ -1060,7 +1092,8 @@
           "annee": "toute sa vie",
           "lieu": "(divers)",
           "wiki": "Self-Portrait with Two Circles",
-          "genie": "Des dizaines, de la jeunesse triomphante à la vieillesse ruinée. Une autobiographie en peinture, d'une honnêteté psychologique inédite. Personne avant lui ne s'est ainsi scruté vieillir."
+          "genie": "Des dizaines, de la jeunesse triomphante à la vieillesse ruinée. Une autobiographie en peinture, d'une honnêteté psychologique inédite. Personne avant lui ne s'est ainsi scruté vieillir.",
+          "analyse": "Pendant quarante ans, Rembrandt se peint et se grave : près d'une centaine d'autoportraits, de l'insolence du jeune homme à succès jusqu'au visage ravagé et lucide du vieillard ruiné. Aucun artiste avant lui ne s'était ainsi scruté vieillir, sans complaisance, dans la lumière qui creuse les rides. Ce n'est pas de la vanité mais une exploration : peindre la vérité d'un visage et, à travers lui, le passage du temps et la condition humaine. Une autobiographie en peinture, unique dans l'histoire."
         },
         {
           "titre": "La Laitière",
@@ -1068,7 +1101,8 @@
           "annee": "~1660",
           "lieu": "Delft",
           "wiki": "The Milkmaid (Vermeer)",
-          "genie": "Une servante versant du lait, baignée d'une lumière douce venue d'une fenêtre. Rien ne se passe, et tout est là. Le silence et la lumière élevés au sublime : Vermeer fait du plus humble instant une éternité suspendue."
+          "genie": "Une servante versant du lait, baignée d'une lumière douce venue d'une fenêtre. Rien ne se passe, et tout est là. Le silence et la lumière élevés au sublime : Vermeer fait du plus humble instant une éternité suspendue.",
+          "analyse": "Vermeer, vers 1660. Une servante, seule dans une pièce simple, verse un filet de lait d'une cruche. C'est tout. Et pourtant : la lumière qui entre par la fenêtre de gauche caresse le pain, le pichet, le bras solide de la femme ; les couleurs (le jaune, le bleu) sont d'une pureté de pierre précieuse ; les petits points de lumière sur le pain semblent vibrer. Vermeer accomplit le miracle hollandais à son sommet : faire du geste le plus humble, du plus banal des instants, une chose grave, suspendue, presque sacrée."
         }
       ],
       "artistes": [
@@ -1078,7 +1112,8 @@
           "dates": "1606-1669",
           "role": "",
           "wiki": "Rembrandt",
-          "portrait": "Le géant : lumière intérieure, profondeur psychologique, maître de la gravure aussi. Gloire puis faillite ; ses dernières œuvres, plus sombres, sont les plus profondes."
+          "portrait": "Le géant : lumière intérieure, profondeur psychologique, maître de la gravure aussi. Gloire puis faillite ; ses dernières œuvres, plus sombres, sont les plus profondes.",
+          "bio_longue": "Rembrandt van Rijn (1606-1669) est le géant de l'âge d'or hollandais. Jeune, il connaît la gloire et la fortune à Amsterdam, peintre couru, marié à l'aimée Saskia. Puis tout s'effondre : Saskia meurt, les goûts changent, ses dépenses le ruinent, il fait faillite et finit dans une relative misère. Mais ses œuvres tardives, plus sombres, plus libres, plus profondes, sont les plus grandes. Maître aussi de l'eau-forte (la gravure), il scrute son propre visage toute sa vie en une centaine d'autoportraits, sans jamais se flatter : le peintre de l'âme humaine."
         },
         {
           "niveau": "★",
@@ -1086,7 +1121,8 @@
           "dates": "1632-1675",
           "role": "",
           "wiki": "Johannes Vermeer",
-          "portrait": "Delft ; peu d'œuvres (~35), intimité et lumière ; oublié puis redécouvert au XIXe s."
+          "portrait": "Delft ; peu d'œuvres (~35), intimité et lumière ; oublié puis redécouvert au XIXe s.",
+          "bio_longue": "Johannes Vermeer (1632-1675), de Delft, est un mystère. Il peint très peu — une trentaine de toiles connues — lentement, peut-être à l'aide d'une chambre obscure pour saisir la lumière. Marchand de tableaux par ailleurs, père de nombreux enfants, il meurt jeune, endetté, et tombe dans un oubli total pendant deux siècles. Redécouvert au XIXe siècle, il est aujourd'hui adoré pour cette chose presque impossible : faire de l'instant le plus humble (une fille qui verse du lait) une éternité de silence et de lumière."
         },
         {
           "niveau": "★",
@@ -1094,7 +1130,8 @@
           "dates": "~1582-1666",
           "role": "",
           "wiki": "Frans Hals",
-          "portrait": "Haarlem ; portraits éclatants de vie, touche rapide et libre (Le Cavalier riant)."
+          "portrait": "Haarlem ; portraits éclatants de vie, touche rapide et libre (Le Cavalier riant).",
+          "bio_longue": "Frans Hals (vers 1582-1666), de Haarlem, est le peintre de la vie qui jaillit. Sa touche rapide, libre, presque esquissée, saisit le sourire, le rire, le mouvement — c'est le contraire du portrait figé. Ses gardes civiques attablés débordent d'énergie et de bonhomie. Très demandé puis passé de mode, il finit pauvre, secouru par la ville ; ses derniers portraits, gris et graves, sont d'une profondeur saisissante."
         },
         {
           "niveau": "○",
@@ -1102,7 +1139,8 @@
           "dates": "1628-1682",
           "role": "",
           "wiki": "Jacob van Ruisdael",
-          "portrait": "Le grand paysagiste, ciels dramatiques."
+          "portrait": "Le grand paysagiste, ciels dramatiques.",
+          "bio_longue": "Jacob van Ruisdael (1628-1682) est le plus grand paysagiste hollandais. Sous d'immenses ciels mouvants qui occupent les deux tiers de la toile, il peint la campagne, les moulins, les forêts et les ruines avec une gravité presque mélancolique. Il élève le paysage — genre jusque-là mineur — au rang de grand art, et influencera profondément les romantiques anglais comme Constable."
         },
         {
           "niveau": "○",
@@ -1192,6 +1230,28 @@
         "Qu'est-ce qu'une « scène de genre » ? Une « vanité » ?",
         "En quoi La Ronde de nuit sort-elle des codes du portrait de groupe ?",
         "Oppose en une phrase Rembrandt, Vermeer et Frans Hals."
+      ],
+      "recit": [
+        {
+          "h": "Un pays sans roi ni Église pour commander",
+          "p": "Au XVIIe siècle, les Provinces-Unies (la Hollande protestante) sont une anomalie en Europe : pas de monarque absolu, pas d'Église catholique commanditaire. Le calvinisme se méfie des images dans les temples. Conséquence décisive : les deux grands payeurs traditionnels de l'art (le roi, l'Église) disparaissent. Mais le pays est riche — commerce maritime, Bourse d'Amsterdam, première puissance commerciale du monde — et une bourgeoisie nombreuse veut des tableaux pour décorer sa maison."
+        },
+        {
+          "h": "Le premier marché libre de l'art",
+          "p": "Il naît donc quelque chose d'inédit : un véritable marché de l'art. Les peintres produisent des toiles de format modeste et les vendent comme des artisans, souvent par l'intermédiaire de marchands, parfois sur les foires. La conséquence est immense : pour se vendre et se distinguer, chaque peintre se fait une spécialité — l'un fait les portraits, l'autre les paysages, un troisième les natures mortes ou les marines. L'art se sécularise et se diversifie en « genres »."
+        },
+        {
+          "h": "Le quotidien devient digne d'être peint",
+          "p": "Plus de grandes scènes sacrées : on peint le monde tel qu'il est. Des intérieurs paisibles, des servantes au travail, des tavernes joyeuses, des plats sur une table, des moulins sous de grands ciels, des bateaux. C'est l'art comme « miroir de la nature » et de la vie ordinaire — la fierté tranquille d'une société bourgeoise qui se regarde elle-même. Derrière l'anecdote se cache souvent un sens caché : les natures mortes rappellent la fragilité de la vie (les vanités)."
+        },
+        {
+          "h": "Rembrandt : la lumière de l'âme",
+          "p": "Au-dessus de tous : Rembrandt. Il prend les genres commerciaux (portrait de groupe, scène biblique) et les transfigure par une lumière dramatique venue de l'ombre, et surtout par une profondeur psychologique inédite. Personne n'a peint l'intériorité humaine comme lui. Ses dizaines d'autoportraits, de la jeunesse triomphante à la vieillesse ruinée, forment une autobiographie en peinture d'une honnêteté bouleversante."
+        },
+        {
+          "h": "Vermeer : le silence et la lumière",
+          "p": "À l'opposé du tumulte de Rembrandt, Vermeer, à Delft, peint le silence. Quelques dizaines de petites toiles seulement, presque toutes des intérieurs où une femme lit une lettre, verse du lait, ou rêve près d'une fenêtre. Une lumière douce, des couleurs d'une pureté de joyau, un instant suspendu où rien ne se passe et où tout est là. Oublié pendant deux siècles, il est redécouvert au XIXe et reconnu comme l'un des plus grands."
+        }
       ]
     },
     {
@@ -1372,7 +1432,8 @@
           "annee": "~1660-1710",
           "lieu": "Versailles",
           "wiki": "Palace of Versailles",
-          "genie": "Un système total où chaque allée, fontaine et salle converge vers le roi. L'art comme mise en scène du pouvoir : on ne décore pas un palais, on construit une démonstration de puissance."
+          "genie": "Un système total où chaque allée, fontaine et salle converge vers le roi. L'art comme mise en scène du pouvoir : on ne décore pas un palais, on construit une démonstration de puissance.",
+          "analyse": "Plus qu'un palais, un système. Sur d'anciens marais, Louis XIV fait bâtir par Le Vau et Hardouin-Mansart, et dessiner par Le Nôtre, un ensemble où tout converge vers le roi : les allées des jardins, les perspectives, les fontaines, les appartements. La galerie des Glaces, longue de 73 mètres, reflète la lumière et les jardins dans dix-sept arcades de miroirs — un luxe inouï pour l'époque. La cour entière y vit selon une étiquette minutieuse, véritable mise en scène quotidienne du pouvoir absolu. On ne décore pas Versailles : on y construit l'image d'un roi-dieu."
         },
         {
           "titre": "L'Embarquement pour Cythère",
@@ -1380,7 +1441,8 @@
           "annee": "1717",
           "lieu": "Paris (Louvre)",
           "wiki": "The Embarkation for Cythera",
-          "genie": "Des couples élégants quittent l'île de l'amour, dans une lumière dorée et mélancolique. Watteau invente la fête galante : un genre doux-amer où le plaisir est teinté de la conscience qu'il passe."
+          "genie": "Des couples élégants quittent l'île de l'amour, dans une lumière dorée et mélancolique. Watteau invente la fête galante : un genre doux-amer où le plaisir est teinté de la conscience qu'il passe.",
+          "analyse": "Watteau, 1717. Des couples élégants, dans un parc doré au crépuscule, s'apprêtent à embarquer pour (ou reviennent de ?) Cythère, l'île mythique de l'amour. L'ambiguïté est volontaire : départ joyeux ou retour mélancolique ? Tout est mouvement en guirlande, lumière tendre, touche frémissante. C'est l'œuvre fondatrice de la fête galante, et elle vaut à Watteau son admission à l'Académie dans une catégorie créée pour lui. Sous la grâce, le sentiment poignant que ce bonheur est déjà en train de s'enfuir."
         },
         {
           "titre": "Églises rococo d'Europe centrale",
@@ -1388,7 +1450,8 @@
           "annee": "~1740",
           "lieu": "Vierzehnheiligen",
           "wiki": "Basilica of the Fourteen Holy Helpers",
-          "genie": "Espaces ondulants, blancs et or, où murs, autels et plafonds semblent flotter. L'architecture devient musique visuelle, un tourbillon de lumière et de courbes."
+          "genie": "Espaces ondulants, blancs et or, où murs, autels et plafonds semblent flotter. L'architecture devient musique visuelle, un tourbillon de lumière et de courbes.",
+          "analyse": "À Vierzehnheiligen (Bavière, vers 1740), Balthasar Neumann réalise le rêve rococo : entrer dans l'église, c'est entrer dans un tourbillon. Plus de murs droits, plus d'angles : tout ondule, courbes contre courbes, dans une blancheur rehaussée d'or et de pastels. L'autel central, en forme de carrosse de fête, semble flotter ; les plafonds peints ouvrent sur des cieux lumineux. L'architecture devient pure musique visuelle — la dévotion par l'enchantement des sens."
         }
       ],
       "artistes": [
@@ -1398,7 +1461,8 @@
           "dates": "1684-1721",
           "role": "",
           "wiki": "Antoine Watteau",
-          "portrait": "Inventeur de la fête galante ; grâce et mélancolie ; mort jeune, tuberculeux."
+          "portrait": "Inventeur de la fête galante ; grâce et mélancolie ; mort jeune, tuberculeux.",
+          "bio_longue": "Antoine Watteau (1684-1721) est le peintre le plus délicat du XVIIIe siècle. Venu des Flandres, de santé fragile, mélancolique, il invente la fête galante : des scènes de plaisir aristocratique baignées d'une lumière tendre et d'un sentiment de fuite du temps. Sa touche légère, vibrante, ses harmonies subtiles annoncent presque l'impressionnisme. Tuberculeux, il meurt à 36 ans. Sous la grâce de son monde de soie perce toujours une douce tristesse : le bonheur y est déjà un souvenir."
         },
         {
           "niveau": "○",
@@ -1406,7 +1470,8 @@
           "dates": "1703-1770",
           "role": "",
           "wiki": "François Boucher",
-          "portrait": "Rococo sensuel et décoratif, peintre de Madame de Pompadour."
+          "portrait": "Rococo sensuel et décoratif, peintre de Madame de Pompadour.",
+          "bio_longue": "François Boucher (1703-1770) est le Rococo dans sa version la plus sensuelle et décorative. Peintre favori de Madame de Pompadour, maîtresse de Louis XV, il produit des Vénus roses et potelées, des bergères galantes, des pastorales charmantes, dans des tons de pastel acidulés. Virtuose et infatigable décorateur, il incarne le goût d'une cour qui ne veut que plaire — ce que les Lumières lui reprocheront bientôt amèrement."
         },
         {
           "niveau": "○",
@@ -1414,7 +1479,8 @@
           "dates": "1687-1753",
           "role": "architecte",
           "wiki": "Balthasar Neumann",
-          "portrait": "Vierzehnheiligen, Würzburg : maître de l'architecture rococo d'Europe centrale."
+          "portrait": "Vierzehnheiligen, Würzburg : maître de l'architecture rococo d'Europe centrale.",
+          "bio_longue": "Balthasar Neumann (1687-1753) est le grand architecte du Rococo d'Europe centrale. À la Résidence de Würzburg et à l'église de pèlerinage de Vierzehnheiligen, il crée des espaces d'une audace et d'une légèreté inouïes : des voûtes ondulantes, des plans courbes et entrelacés, une lumière qui inonde des intérieurs blancs et or. L'architecture y cesse d'être statique pour devenir mouvement et musique."
         },
         {
           "niveau": "○",
@@ -1489,6 +1555,28 @@
         "Comment Versailles met-il l'art au service du pouvoir ?",
         "Qu'est-ce qu'une « fête galante » ? Qui l'invente ?",
         "Qu'est-ce qui distingue le Rococo du Baroque qui le précède ?"
+      ],
+      "recit": [
+        {
+          "h": "Versailles : l'art comme machine de pouvoir",
+          "p": "Sous Louis XIV, l'art devient un instrument politique total. Le Roi-Soleil transforme un pavillon de chasse en l'immense palais de Versailles : architecture, jardins dessinés au cordeau par Le Nôtre, fontaines, peinture, sculpture, tout est orchestré pour glorifier un seul homme. La galerie des Glaces, les perspectives qui filent à l'infini, l'étiquette réglée comme un ballet — rien n'est décoratif, tout est démonstration de puissance. L'État, c'est lui, et l'art le proclame."
+        },
+        {
+          "h": "1715 : la mort du Roi-Soleil, et le ton change",
+          "p": "À la mort de Louis XIV, l'aristocratie, lassée de la pompe solennelle et de l'étiquette pesante, quitte Versailles pour des hôtels particuliers plus intimes à Paris. Le goût bascule : on ne veut plus impressionner par la grandeur, mais charmer, séduire, jouir. Naît le Rococo (de rocaille) : léger, sinueux, ornemental, tout en courbes, coquillages, couleurs pastel et asymétries gracieuses."
+        },
+        {
+          "h": "Watteau et la fête galante",
+          "p": "Le génie de ce moment, c'est Antoine Watteau. Il invente un genre nouveau : la fête galante — des couples élégants qui flânent, dansent, s'aiment dans des parcs baignés d'une lumière dorée. Mais sous le charme perce une mélancolie : ces plaisirs sont fragiles, le bonheur passe, et Watteau, tuberculeux, mort à 36 ans, le sait. Cette douceur teintée de tristesse le hisse bien au-dessus du Rococo purement décoratif."
+        },
+        {
+          "h": "Le Rococo d'Europe centrale : l'architecture en fête",
+          "p": "Le goût rococo explose surtout dans les églises et palais d'Allemagne et d'Autriche. Des architectes comme Balthasar Neumann créent des espaces ondulants, blancs et or, où murs, autels et plafonds peints semblent flotter et se dissoudre dans la lumière. L'architecture devient une musique visuelle, un tourbillon de courbes et de stucs. C'est la dernière grande flambée de l'art « total » baroque, transposée en grâce et en légèreté."
+        },
+        {
+          "h": "L'envers du décor",
+          "p": "Cette grâce sera bientôt jugée frivole. La génération des Lumières, puis la Révolution, reprocheront au Rococo sa futilité aristocratique et lui opposeront la rigueur morale du néoclassicisme (David). La fête galante de Watteau apparaîtra rétrospectivement comme le chant du cygne d'un monde — celui de l'aristocratie d'Ancien Régime, qui dansait au bord du gouffre."
+        }
       ]
     },
     {
@@ -1531,7 +1619,8 @@
           "annee": "~1728",
           "lieu": "Paris (Louvre)",
           "wiki": "The Ray (Chardin)",
-          "genie": "Des objets ordinaires — du pain, un verre, du gibier — peints avec une gravité et une matière somptueuses. Chardin ennoblit le banal : pas de sujet noble, juste la vérité tranquille des choses. À contre-courant du Rococo brillant."
+          "genie": "Des objets ordinaires — du pain, un verre, du gibier — peints avec une gravité et une matière somptueuses. Chardin ennoblit le banal : pas de sujet noble, juste la vérité tranquille des choses. À contre-courant du Rococo brillant.",
+          "analyse": "Chardin, vers 1728 — la toile qui le fit recevoir à l'Académie. Le sujet est presque répugnant : une raie éventrée, pendue, aux chairs roses et luisantes, à côté de quelques poissons, d'un chat qui s'avance et d'ustensiles de cuisine. Et pourtant c'est sublime : la matière de la peinture épouse celle des choses, la lumière joue sur les écailles et le cuivre, l'humble devient grave et beau. Chardin prouve qu'il n'y a pas de sujet bas — seulement des regards justes. Un manifeste silencieux contre la frivolité de son siècle."
         },
         {
           "titre": "Mariage à la mode",
@@ -1539,7 +1628,8 @@
           "annee": "~1743",
           "lieu": "Londres (série)",
           "wiki": "Marriage A-la-Mode (Hogarth)",
-          "genie": "Une suite de tableaux qui racontent, scène par scène, la déchéance d'un mariage arrangé. Hogarth invente la peinture-récit morale et satirique : l'art devient critique sociale, lisible comme une histoire."
+          "genie": "Une suite de tableaux qui racontent, scène par scène, la déchéance d'un mariage arrangé. Hogarth invente la peinture-récit morale et satirique : l'art devient critique sociale, lisible comme une histoire.",
+          "analyse": "Hogarth, vers 1743 — une série de six tableaux qui se lisent comme un roman. Un comte ruiné marie son fils à la fille d'un riche bourgeois : mariage d'argent, sans amour. Scène après scène, Hogarth déroule la catastrophe — ennui, infidélités, dettes, duel, mort — avec une foule de détails satiriques (tableaux au mur, objets, postures) qui commentent l'action. C'est de l'art comme critique sociale et morale, narratif et populaire grâce aux gravures. Une invention proprement anglaise, ancêtre de la bande dessinée et du roman illustré."
         },
         {
           "titre": "Portraits de Gainsborough",
@@ -1547,7 +1637,8 @@
           "annee": "~1770",
           "lieu": "Angleterre",
           "wiki": "Mr and Mrs Andrews",
-          "genie": "Des aristocrates et bourgeois saisis avec naturel, souvent dans un paysage anglais vaporeux. Le portrait n'est plus apparat figé mais présence vivante et élégante, fondue dans la nature."
+          "genie": "Des aristocrates et bourgeois saisis avec naturel, souvent dans un paysage anglais vaporeux. Le portrait n'est plus apparat figé mais présence vivante et élégante, fondue dans la nature.",
+          "analyse": "Qu'il peigne M. et Mme Andrews assis devant leurs terres, ou le célèbre Blue Boy, Gainsborough renouvelle le portrait : ses modèles ne posent plus raides dans un décor d'apparat, mais respirent dans un paysage anglais, sous une lumière changeante, saisis d'une touche vive et aérée. La fierté tranquille de la propriété terrienne, l'élégance naturelle d'une société sûre d'elle — et déjà une sensibilité au paysage qui annonce le grand siècle anglais de Constable et Turner."
         }
       ],
       "artistes": [
@@ -1557,7 +1648,8 @@
           "dates": "1699-1779",
           "role": "France",
           "wiki": "Jean-Baptiste-Siméon Chardin",
-          "portrait": "Maître de la nature morte et de la scène intime ; la dignité du quotidien."
+          "portrait": "Maître de la nature morte et de la scène intime ; la dignité du quotidien.",
+          "bio_longue": "Jean-Siméon Chardin (1699-1779) est le grand peintre du silence et du quotidien français. À rebours du Rococo brillant de son époque, il peint des natures mortes (du gibier, des ustensiles, un verre d'eau) et des scènes intimes (une mère, une gouvernante) avec une matière épaisse, une lumière douce et une gravité émouvante. Diderot le célèbre. Il ennoblit le banal sans jamais l'idéaliser, et reste l'un des plus purs coloristes de l'histoire — un peintre de peintres, redécouvert et adoré par Cézanne et Matisse."
         },
         {
           "niveau": "★",
@@ -1565,7 +1657,8 @@
           "dates": "1732-1806",
           "role": "France",
           "wiki": "Jean-Honoré Fragonard",
-          "portrait": "Dernier grand du Rococo galant (L'Escarpolette), virtuose de la fougue légère."
+          "portrait": "Dernier grand du Rococo galant (L'Escarpolette), virtuose de la fougue légère.",
+          "bio_longue": "Jean-Honoré Fragonard (1732-1806) est le dernier grand virtuose du Rococo galant. Sa touche fougueuse, rapide, pleine de verve, anime des scènes d'amour et de plaisir (L'Escarpolette, où une jeune femme perd sa chaussure en se balançant sous le regard d'un amant). Adulé sous l'Ancien Régime, il est ruiné par la Révolution qui balaie son monde de fêtes galantes ; il meurt oublié. Son brio et sa liberté de pinceau seront réhabilités bien plus tard."
         },
         {
           "niveau": "○",
@@ -1573,7 +1666,8 @@
           "dates": "1697-1764",
           "role": "Angleterre",
           "wiki": "William Hogarth",
-          "portrait": "Satire morale en séries, père de l'art anglais."
+          "portrait": "Satire morale en séries, père de l'art anglais.",
+          "bio_longue": "William Hogarth (1697-1764) est le père de l'art anglais. Esprit indépendant et mordant, il invente la « comédie morale peinte » : des séries de tableaux qui racontent et critiquent les mœurs de son temps (Mariage à la mode, La Carrière d'un libertin). Diffusées par la gravure, ses séries touchent un large public et font de l'art un instrument de satire sociale. Il se bat aussi pour les droits des artistes et une école anglaise indépendante de l'Italie."
         },
         {
           "niveau": "○",
@@ -1589,7 +1683,8 @@
           "dates": "1727-1788",
           "role": "Angleterre",
           "wiki": "Thomas Gainsborough",
-          "portrait": "Portraits naturels et paysages, rival de Reynolds."
+          "portrait": "Portraits naturels et paysages, rival de Reynolds.",
+          "bio_longue": "Thomas Gainsborough (1727-1788) est, avec son rival Reynolds, le grand portraitiste anglais. Mais il aurait préféré peindre des paysages — et c'est justement ce qui fait son charme : il saisit ses modèles aristocratiques avec un naturel élégant, souvent fondus dans une campagne anglaise vaporeuse, peinte d'une touche légère et libre. Le portrait, chez lui, respire l'air, la lumière et une grâce sans raideur."
         },
         {
           "niveau": "○",
@@ -1657,6 +1752,28 @@
         "En quoi Chardin s'oppose-t-il au Rococo ?",
         "Qu'invente Hogarth avec ses séries ?",
         "Oppose Chardin et Fragonard en une phrase."
+      ],
+      "recit": [
+        {
+          "h": "Le siècle des Lumières change le public de l'art",
+          "p": "Le XVIIIe siècle est celui de la raison, de la science, de la critique (Voltaire, Diderot, l'Encyclopédie). Une classe moyenne prospère, surtout en Angleterre, devient acheteuse d'art — et elle ne veut ni plafonds mystiques ni allégories royales. Elle veut des sujets proches de sa vie : des portraits dignes, des scènes morales, des paysages, des natures mortes honnêtes. Le goût se déplace de la cour vers la ville, de l'aristocratie vers la bourgeoisie."
+        },
+        {
+          "h": "Chardin : la dignité du banal",
+          "p": "En France, à côté du Rococo brillant et frivole, un homme peint exactement l'inverse : Jean-Siméon Chardin. Du pain, un verre d'eau, une raie pendue, une mère et son enfant — des choses ordinaires, peintes avec une gravité, une matière et un silence somptueux. Pas de sujet noble, juste la vérité tranquille des objets et des gestes humbles. Diderot l'admire ; il annonce, un siècle à l'avance, le réalisme."
+        },
+        {
+          "h": "Hogarth : l'art qui raconte et qui juge",
+          "p": "En Angleterre, William Hogarth invente une chose neuve : la peinture-récit morale, en séries. Comme un romancier ou un auteur de bande dessinée avant l'heure, il déroule scène par scène la déchéance d'un mariage arrangé (Mariage à la mode) ou la chute d'un débauché. L'art devient satire sociale, lisible comme une histoire, diffusée par la gravure auprès d'un large public. C'est le début d'un art proprement anglais."
+        },
+        {
+          "h": "L'âge d'or du portrait anglais",
+          "p": "L'Angleterre prospère invente surtout un grand art du portrait. Reynolds, premier président de la Royal Academy, en fait un genre savant et noble. Son rival Gainsborough préfère le naturel : il saisit ses modèles avec aisance, souvent fondus dans un paysage anglais vaporeux. Le portrait n'est plus apparat figé mais présence vivante et élégante."
+        },
+        {
+          "h": "Vers la rupture",
+          "p": "Le siècle se termine sous tension. Fragonard prolonge encore la grâce rococo galante (L'Escarpolette), mais le vent tourne : la sobriété de Chardin, la morale de Hogarth, et bientôt le retour à l'antique et à la vertu (le néoclassicisme de David) annoncent que la frivolité aristocratique a fait son temps. La Révolution n'est pas loin."
+        }
       ]
     },
     {
