@@ -1587,6 +1587,616 @@
         "Qu'invente Hogarth avec ses séries ?",
         "Oppose Chardin et Fragonard en une phrase."
       ]
+    },
+    {
+      "id": "rupture-tradition",
+      "titre": "La rupture de la tradition",
+      "periode": "≈ 1760 – 1830",
+      "couleur": "#b03b2c",
+      "sous_titre": "Ici l'artiste perd son fil conducteur hérité ; il devient libre, donc responsable de tout.",
+      "carte": [
+        [
+          "Dates",
+          "~1760 – 1830"
+        ],
+        [
+          "Foyers",
+          "Paris, Londres, Espagne, Amérique naissante"
+        ],
+        [
+          "Idée-mère",
+          "La chaîne des traditions se brise : l'artiste choisit désormais son style"
+        ],
+        [
+          "Contexte",
+          "Révolution française (1789), Révolution industrielle, Lumières"
+        ]
+      ],
+      "bascule": "C'est le moment-clé du livre : pour Gombrich, la tradition continue qui reliait les artistes depuis l'Antiquité se rompt ici. Jusque-là, chaque génération héritait d'un métier et d'un style ; désormais, avec les révolutions politiques et industrielles, l'artiste se retrouve libre — et seul — face au choix de sa manière. Deux réponses opposées surgissent : le Néoclassicisme (retour à la rigueur antique, à la vertu civique, à la ligne pure) et le premier Romantisme (émotion, imagination, nature, sublime). L'art cesse d'être un langage commun transmis ; il devient un choix personnel.",
+      "phrase": "Ici l'artiste perd son fil conducteur hérité ; il devient libre, donc responsable de tout.",
+      "probleme": "Quand la tradition ne dicte plus rien, quel style choisir ? → rigueur antique (néoclassiques) ou liberté de l'émotion (romantiques).",
+      "caracteristiques": [
+        "Néoclassicisme : ligne nette, composition claire, sujets antiques, héroïsme moral, couleur sobre.",
+        "Romantisme naissant : drame, mouvement, nature sublime, fantastique, couleur expressive."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Le Serment des Horaces",
+          "artiste": "David",
+          "annee": "1784",
+          "lieu": "Paris (Louvre)",
+          "wiki": "Oath of the Horatii",
+          "genie": "Trois frères jurent de mourir pour Rome, bras tendus, dans une composition d'une netteté implacable. Manifeste du Néoclassicisme : la ligne, la rigueur et la vertu civique contre les douceurs du Rococo."
+        },
+        {
+          "titre": "Tres de Mayo",
+          "artiste": "Goya",
+          "annee": "1814",
+          "lieu": "Madrid (Prado)",
+          "wiki": "The Third of May 1808",
+          "genie": "Un fusillé écarte les bras devant le peloton, lanterne crue dans la nuit. Goya invente la peinture de la barbarie moderne : pas de héros, juste l'horreur de la guerre. Plus d'un siècle en avance."
+        },
+        {
+          "titre": "Pluie, vapeur et vitesse",
+          "artiste": "Turner",
+          "annee": "~1840",
+          "lieu": "Londres",
+          "wiki": "Rain, Steam and Speed – The Great Western Railway",
+          "genie": "Tempêtes, brumes, soleils où les formes se dissolvent dans la lumière. Turner pousse le paysage vers une quasi-abstraction : non plus un lieu mais une sensation de lumière et de force. Il anticipe l'impressionnisme."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "David",
+          "dates": "1748-1825",
+          "role": "France",
+          "wiki": "Jacques-Louis David",
+          "portrait": "Chef du Néoclassicisme, peintre de la Révolution puis de Napoléon ; la ligne, la vertu, le pouvoir."
+        },
+        {
+          "niveau": "★",
+          "nom": "Goya",
+          "dates": "1746-1828",
+          "role": "Espagne",
+          "wiki": "Francisco Goya",
+          "portrait": "Du brillant portraitiste de cour au visionnaire halluciné (Désastres de la guerre, Peintures noires). Charnière vers le moderne."
+        },
+        {
+          "niveau": "○",
+          "nom": "Blake",
+          "dates": "1757-1827",
+          "role": "Angleterre",
+          "wiki": "William Blake",
+          "portrait": "Poète-graveur visionnaire et mystique."
+        },
+        {
+          "niveau": "★",
+          "nom": "Constable",
+          "dates": "1776-1837",
+          "role": "Angleterre",
+          "wiki": "John Constable",
+          "portrait": "Paysages fidèles, ciels étudiés ; influence les Français."
+        },
+        {
+          "niveau": "★",
+          "nom": "Turner",
+          "dates": "1775-1851",
+          "role": "Angleterre",
+          "wiki": "J. M. W. Turner",
+          "portrait": "Lumière et atmosphère portées à l'extrême."
+        },
+        {
+          "niveau": "○",
+          "nom": "Copley, West",
+          "dates": "XVIIIᵉ",
+          "role": "Amérique",
+          "wiki": "John Singleton Copley",
+          "portrait": "Grandes scènes d'histoire contemporaine."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "David",
+              true,
+              "1748-1825",
+              "France — Le Serment des Horaces ; Marat assassiné"
+            ],
+            [
+              "Goya",
+              true,
+              "1746-1828",
+              "Espagne — Tres de Mayo ; Peintures noires"
+            ],
+            [
+              "Blake",
+              false,
+              "1757-1827",
+              "Angleterre — Gravures visionnaires"
+            ],
+            [
+              "Constable",
+              true,
+              "1776-1837",
+              "Angleterre — La Charrette de foin"
+            ],
+            [
+              "Turner",
+              true,
+              "1775-1851",
+              "Angleterre — Pluie, vapeur et vitesse"
+            ],
+            [
+              "Copley / West",
+              false,
+              "XVIIIᵉ",
+              "Amérique — Scènes d'histoire"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "L'Âge de raison (ch. 23) — le Néoclassicisme rejette la frivolité du siècle.",
+        "mene": "Le grand XIXe siècle (ch. 25), où Romantisme et Réalisme prolongent cette liberté nouvelle."
+      },
+      "memos": [
+        "Ici se brise la tradition continue : l'artiste devient libre et seul.",
+        "David = ligne + vertu antique ; Goya = l'horreur moderne ; Turner = la lumière qui dissout la forme."
+      ],
+      "autotest": [
+        "Pourquoi Gombrich place-t-il « la rupture » à ce moment précis ?",
+        "Oppose Néoclassicisme et Romantisme naissant.",
+        "En quoi Tres de Mayo de Goya est-il en avance sur son temps ?",
+        "Comment Turner annonce-t-il l'impressionnisme ?"
+      ]
+    },
+    {
+      "id": "xixe-romantisme-realisme",
+      "titre": "Révolution permanente : le XIXᵉ",
+      "periode": "≈ 1820 – 1880",
+      "couleur": "#c0392b",
+      "sous_titre": "L'art qui se cherche par crises successives, entre académie à renverser et réel à conquérir.",
+      "carte": [
+        [
+          "Dates",
+          "~1820 – 1880"
+        ],
+        [
+          "Foyer",
+          "Paris surtout (et Angleterre)"
+        ],
+        [
+          "Idée-mère",
+          "Plus de style commun : chaque artiste mène sa propre révolution"
+        ],
+        [
+          "Contexte",
+          "Industrialisation, Salon officiel et académies, photographie (vers 1840)"
+        ]
+      ],
+      "bascule": "La tradition rompue (ch. 24), le XIXe devient un siècle de batailles de styles. L'Académie et le Salon officiel imposent un goût (sujets nobles, fini léché) ; les artistes novateurs s'y heurtent et s'en détachent. Chaque génération rejette la précédente — d'où « révolution permanente ». Deux grands courants s'opposent : le Romantisme (couleur, mouvement, passion, exotisme — Delacroix) contre la ligne froide des néoclassiques (Ingres) ; et le Réalisme (peindre le monde tel qu'il est, y compris les pauvres et le travail — Courbet, Millet). L'invention de la photographie (vers 1840) bouleverse tout : si une machine reproduit le réel, à quoi sert le peintre ?",
+      "phrase": "Le XIXe, c'est l'art qui se cherche par crises successives, entre académie à renverser et réel à conquérir.",
+      "probleme": "Que peindre, et comment, dans un monde sans style imposé — et bientôt concurrencé par la photo ?",
+      "caracteristiques": [
+        "Romantisme : émotion, couleur, drame, Orient, nature sublime.",
+        "Réalisme : vie ordinaire, travail, pauvreté, sans héroïsation.",
+        "En marge : préraphaélites anglais (retour rêvé au Moyen Âge), Whistler (l'art pour l'art)."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Le Radeau de la Méduse",
+          "artiste": "Géricault",
+          "annee": "1819",
+          "lieu": "Paris (Louvre)",
+          "wiki": "The Raft of the Medusa",
+          "genie": "Un fait divers atroce traité comme une grande scène d'histoire. Le Romantisme fait entrer l'actualité tragique et la chair souffrante dans le grand art ; composition en pyramide vers un mince espoir à l'horizon."
+        },
+        {
+          "titre": "La Liberté guidant le peuple",
+          "artiste": "Delacroix",
+          "annee": "1830",
+          "lieu": "Paris (Louvre)",
+          "wiki": "Liberty Leading the People",
+          "genie": "La Liberté allégorique mène le peuple sur les barricades, drapeau au poing. La couleur et le mouvement au service de l'élan révolutionnaire ; manifeste du Romantisme contre la ligne académique."
+        },
+        {
+          "titre": "Un enterrement à Ornans",
+          "artiste": "Courbet",
+          "annee": "1850",
+          "lieu": "Paris (Orsay)",
+          "wiki": "A Burial at Ornans",
+          "genie": "Des villageois ordinaires, grandeur nature, pour un enterrement banal — format réservé jusque-là aux rois et aux saints. Scandale réaliste : le peuple ordinaire mérite la même dignité picturale que l'histoire sainte."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Ingres",
+          "dates": "1780-1867",
+          "role": "Néoclassique",
+          "wiki": "Jean-Auguste-Dominique Ingres",
+          "portrait": "Le gardien de la ligne néoclassique ; portraits et nus d'une perfection froide ; rival de Delacroix."
+        },
+        {
+          "niveau": "○",
+          "nom": "Géricault",
+          "dates": "1791-1824",
+          "role": "Romantisme",
+          "wiki": "Théodore Géricault",
+          "portrait": "Pionnier romantique, mort jeune."
+        },
+        {
+          "niveau": "★",
+          "nom": "Delacroix",
+          "dates": "1798-1863",
+          "role": "Romantisme",
+          "wiki": "Eugène Delacroix",
+          "portrait": "Chef du Romantisme : couleur, fougue, Orient."
+        },
+        {
+          "niveau": "○",
+          "nom": "Corot",
+          "dates": "1796-1875",
+          "role": "Paysage",
+          "wiki": "Jean-Baptiste-Camille Corot",
+          "portrait": "Paysagiste de transition, lumière argentée."
+        },
+        {
+          "niveau": "★",
+          "nom": "Millet",
+          "dates": "1814-1875",
+          "role": "Réalisme",
+          "wiki": "Jean-François Millet",
+          "portrait": "La dignité paysanne (L'Angélus, Les Glaneuses)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Courbet",
+          "dates": "1819-1877",
+          "role": "Réalisme",
+          "wiki": "Gustave Courbet",
+          "portrait": "Chef du Réalisme, provocateur."
+        },
+        {
+          "niveau": "○",
+          "nom": "Daumier",
+          "dates": "1808-1879",
+          "role": "Réalisme/satire",
+          "wiki": "Honoré Daumier",
+          "portrait": "Caricaturiste et peintre de la vie populaire."
+        },
+        {
+          "niveau": "○",
+          "nom": "Préraphaélites",
+          "dates": "~1850",
+          "role": "Angleterre",
+          "wiki": "Pre-Raphaelite Brotherhood",
+          "portrait": "Rossetti, Millais : retour au Moyen Âge idéalisé."
+        },
+        {
+          "niveau": "○",
+          "nom": "Whistler",
+          "dates": "1834-1903",
+          "role": "Art pour l'art",
+          "wiki": "James McNeill Whistler",
+          "portrait": "« L'art pour l'art », arrangements de tons."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Ingres",
+              true,
+              "1780-1867",
+              "Néoclassique — La Grande Odalisque"
+            ],
+            [
+              "Géricault",
+              false,
+              "1791-1824",
+              "Romantisme — Le Radeau de la Méduse"
+            ],
+            [
+              "Delacroix",
+              true,
+              "1798-1863",
+              "Romantisme — La Liberté guidant le peuple"
+            ],
+            [
+              "Corot",
+              false,
+              "1796-1875",
+              "Paysage — Souvenirs"
+            ],
+            [
+              "Millet",
+              true,
+              "1814-1875",
+              "Réalisme — L'Angélus ; Les Glaneuses"
+            ],
+            [
+              "Courbet",
+              true,
+              "1819-1877",
+              "Réalisme — Un enterrement à Ornans"
+            ],
+            [
+              "Daumier",
+              false,
+              "1808-1879",
+              "Réalisme/satire — Le Wagon de troisième classe"
+            ],
+            [
+              "Préraphaélites",
+              false,
+              "~1850",
+              "Angleterre — Rossetti, Millais"
+            ],
+            [
+              "Whistler",
+              false,
+              "1834-1903",
+              "Art pour l'art — Portrait de la mère de l'artiste"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "La rupture (ch. 24) — Romantisme et Réalisme prolongent la liberté nouvelle.",
+        "mene": "L'Impressionnisme (ch. 26), qui pousse plus loin le réalisme (peindre la sensation) et la rupture avec l'Académie."
+      },
+      "memos": [
+        "Ingres = la ligne ; Delacroix = la couleur : leur duel structure le siècle.",
+        "Réalisme = le peuple ordinaire mérite le grand format.",
+        "La photo (1840) force la peinture à se réinventer."
+      ],
+      "autotest": [
+        "Pourquoi parle-t-on de « révolution permanente » au XIXe ?",
+        "Oppose Ingres et Delacroix.",
+        "Pourquoi Un enterrement à Ornans a-t-il choqué ?",
+        "Quel défi la photographie pose-t-elle aux peintres ?"
+      ]
+    },
+    {
+      "id": "impressionnisme",
+      "titre": "En quête de nouveaux critères",
+      "periode": "≈ 1860 – 1905",
+      "couleur": "#c75a3a",
+      "sous_titre": "L'impressionnisme peint ce que l'œil voit ; le post-impressionnisme cherche ce qu'il y a derrière.",
+      "carte": [
+        [
+          "Dates",
+          "~1860 – 1905"
+        ],
+        [
+          "Foyer",
+          "Paris"
+        ],
+        [
+          "Idée-mère",
+          "Peindre la sensation de l'œil, puis la dépasser vers la structure et l'émotion"
+        ],
+        [
+          "Contexte",
+          "Rejet du Salon, peinture en tube (peindre dehors), influence de l'estampe japonaise et de la photo"
+        ]
+      ],
+      "bascule": "Les jeunes peintres, refusés au Salon, montent leurs propres expositions (1874 : naissance de l'« impressionnisme », d'abord une moquerie). Deux innovations matérielles comptent : la peinture en tube (on peint dehors) et la diffusion des estampes japonaises (cadrages audacieux, aplats). On ne peint plus l'objet connu mais l'impression visuelle d'un instant — la lumière changeante, le reflet, l'atmosphère. Puis une génération suivante juge l'impressionnisme trop superficiel : Cézanne cherche la structure solide, Van Gogh l'émotion par la couleur, Gauguin le symbole, Seurat la science. Ce sont les pères de tout l'art du XXe siècle.",
+      "phrase": "L'impressionnisme peint ce que l'œil voit ; le post-impressionnisme cherche ce qu'il y a derrière.",
+      "probleme": "Impressionnistes : comment fixer la sensation fugitive de la lumière ? · Post-impressionnistes : comment retrouver structure, sens et émotion sans renier cette liberté ?",
+      "caracteristiques": [
+        "Impressionnisme : touches visibles et fragmentées, couleurs claires, plein-air, instants, ombres colorées.",
+        "Post-impressionnisme : retour de la construction (Cézanne), couleur expressive (Van Gogh), aplats symboliques (Gauguin), points (Seurat)."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Impression, soleil levant",
+          "artiste": "Monet",
+          "annee": "1872",
+          "lieu": "Paris (Marmottan)",
+          "wiki": "Impression, Sunrise",
+          "genie": "Un port dans la brume, le soleil orange, tout en touches rapides — le tableau qui donne son nom au mouvement. On peint la lumière elle-même, pas les choses ; l'esquisse devient l'œuvre."
+        },
+        {
+          "titre": "La Montagne Sainte-Victoire",
+          "artiste": "Cézanne",
+          "annee": "~1890s",
+          "lieu": "Aix-en-Provence",
+          "wiki": "Mont Sainte-Victoire (Cézanne)",
+          "genie": "La même montagne peinte sans cesse, en plans de couleur qui construisent l'espace comme une architecture. Cézanne cherche la structure permanente sous l'apparence : il ouvre directement la porte au cubisme."
+        },
+        {
+          "titre": "La Nuit étoilée",
+          "artiste": "Van Gogh",
+          "annee": "1889",
+          "lieu": "New York (MoMA)",
+          "wiki": "The Starry Night",
+          "genie": "Un ciel en tourbillons de couleur, des étoiles qui vibrent. La couleur et la touche ne décrivent plus le monde mais l'état intérieur du peintre. Naissance de l'expressionnisme."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Manet",
+          "dates": "1832-1883",
+          "role": "Précurseur",
+          "wiki": "Édouard Manet",
+          "portrait": "Le précurseur scandaleux (Le Déjeuner sur l'herbe, Olympia) ; pont entre réalisme et impressionnisme."
+        },
+        {
+          "niveau": "★",
+          "nom": "Monet",
+          "dates": "1840-1926",
+          "role": "Impressionnisme",
+          "wiki": "Claude Monet",
+          "portrait": "Le plus pur impressionniste ; séries (cathédrales, meules, Nymphéas)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Renoir",
+          "dates": "1841-1919",
+          "role": "Impressionnisme",
+          "wiki": "Pierre-Auguste Renoir",
+          "portrait": "La joie, la lumière, les chairs (Bal du moulin de la Galette)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Degas",
+          "dates": "1834-1917",
+          "role": "Impressionnisme",
+          "wiki": "Edgar Degas",
+          "portrait": "Danseuses, courses, cadrages photographiques et japonisants."
+        },
+        {
+          "niveau": "○",
+          "nom": "Pissarro",
+          "dates": "1830-1903",
+          "role": "Impressionnisme",
+          "wiki": "Camille Pissarro",
+          "portrait": "Le pilier généreux du groupe."
+        },
+        {
+          "niveau": "★",
+          "nom": "Cézanne",
+          "dates": "1839-1906",
+          "role": "Post-impr. (structure)",
+          "wiki": "Paul Cézanne",
+          "portrait": "La structure ; le « père de l'art moderne »."
+        },
+        {
+          "niveau": "★",
+          "nom": "Van Gogh",
+          "dates": "1853-1890",
+          "role": "Post-impr. (émotion)",
+          "wiki": "Vincent van Gogh",
+          "portrait": "L'émotion par la couleur ; vie tragique, gloire posthume."
+        },
+        {
+          "niveau": "★",
+          "nom": "Gauguin",
+          "dates": "1848-1903",
+          "role": "Post-impr. (symbole)",
+          "wiki": "Paul Gauguin",
+          "portrait": "Le symbole, l'aplat, la fuite à Tahiti."
+        },
+        {
+          "niveau": "○",
+          "nom": "Seurat",
+          "dates": "1859-1891",
+          "role": "Pointillisme",
+          "wiki": "Georges Seurat",
+          "portrait": "Le pointillisme (Un dimanche à la Grande Jatte)."
+        },
+        {
+          "niveau": "○",
+          "nom": "Toulouse-Lautrec",
+          "dates": "1864-1901",
+          "role": "Affiche",
+          "wiki": "Henri de Toulouse-Lautrec",
+          "portrait": "Montmartre, l'affiche moderne."
+        },
+        {
+          "niveau": "★",
+          "nom": "Rodin",
+          "dates": "1840-1917",
+          "role": "Sculpture",
+          "wiki": "Auguste Rodin",
+          "portrait": "La sculpture renouvelée (Le Penseur, Le Baiser)."
+        }
+      ],
+      "index": [
+        {
+          "ecole": "",
+          "items": [
+            [
+              "Manet",
+              true,
+              "1832-1883",
+              "Précurseur — Le Déjeuner sur l'herbe ; Olympia"
+            ],
+            [
+              "Monet",
+              true,
+              "1840-1926",
+              "Impressionnisme — Impression, soleil levant ; Nymphéas"
+            ],
+            [
+              "Renoir",
+              true,
+              "1841-1919",
+              "Impressionnisme — Bal du moulin de la Galette"
+            ],
+            [
+              "Degas",
+              true,
+              "1834-1917",
+              "Impressionnisme — Danseuses"
+            ],
+            [
+              "Pissarro",
+              false,
+              "1830-1903",
+              "Impressionnisme — Paysages"
+            ],
+            [
+              "Cézanne",
+              true,
+              "1839-1906",
+              "Post-impr. (structure) — Sainte-Victoire ; Les Joueurs de cartes"
+            ],
+            [
+              "Van Gogh",
+              true,
+              "1853-1890",
+              "Post-impr. (émotion) — La Nuit étoilée ; Les Tournesols"
+            ],
+            [
+              "Gauguin",
+              true,
+              "1848-1903",
+              "Post-impr. (symbole) — Tableaux tahitiens"
+            ],
+            [
+              "Seurat",
+              false,
+              "1859-1891",
+              "Pointillisme — Un dimanche à la Grande Jatte"
+            ],
+            [
+              "Toulouse-Lautrec",
+              false,
+              "1864-1901",
+              "Affiche — Moulin Rouge"
+            ],
+            [
+              "Rodin",
+              true,
+              "1840-1917",
+              "Sculpture — Le Penseur ; Le Baiser"
+            ]
+          ]
+        }
+      ],
+      "liens": {
+        "d_ou": "Le Réalisme (ch. 25), poussé jusqu'à la sensation pure.",
+        "mene": "Tout le XXe siècle (ch. 27) — Cézanne → cubisme, Van Gogh/Gauguin → expressionnisme et fauvisme. Le tournant décisif vers l'art moderne."
+      },
+      "memos": [
+        "Impressionnisme = peindre la lumière de l'instant, touche visible, plein-air.",
+        "Cézanne = structure (→ cubisme) ; Van Gogh = émotion (→ expressionnisme) ; Gauguin = symbole ; Seurat = points.",
+        "Les post-impressionnistes = les pères de l'art du XXe siècle."
+      ],
+      "autotest": [
+        "Quelle innovation matérielle permet de peindre en plein-air ?",
+        "Pourquoi Impression, soleil levant est-il révolutionnaire ?",
+        "Que reprochent les post-impressionnistes à l'impressionnisme ?",
+        "Relie chacun des trois grands post-impressionnistes au mouvement du XXe qu'il annonce."
+      ]
     }
   ]
 }

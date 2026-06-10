@@ -1855,7 +1855,8 @@
           "niveau": "○",
           "detail": "Amérique"
         }
-      ]
+      ],
+      "dossier": "rupture-tradition"
     },
     {
       "num": 25,
@@ -1979,7 +1980,8 @@
           "niveau": "○",
           "detail": ""
         }
-      ]
+      ],
+      "dossier": "xixe-romantisme-realisme"
     },
     {
       "num": 26,
@@ -2105,7 +2107,8 @@
           "niveau": "○",
           "detail": "arts & crafts"
         }
-      ]
+      ],
+      "dossier": "impressionnisme"
     },
     {
       "num": 27,
