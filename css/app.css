@@ -9,6 +9,12 @@
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { height: 100%; }
+html { scroll-behavior: smooth; }
+
+/* apparitions au défilement (cinématique léger) */
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .65s ease, transform .65s cubic-bezier(.2,.7,.2,1); }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1 !important; transform: none !important; transition: none; } .dossier-hero .hero-img { animation: none !important; } }
 body {
   font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
   background: var(--bg); color: var(--ink); line-height: 1.6;
@@ -146,9 +152,11 @@ ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 .zoomable, .recit-img { cursor: zoom-in; }
 .zoomhint { font-size: 11px; color: var(--gold); opacity: .8; white-space: nowrap; }
 
-/* ---- bannière d'entrée du dossier ---- */
-.dossier-hero { position: relative; min-height: 300px; border-radius: 14px; overflow: hidden; background: #2a2620 center/cover no-repeat; margin-bottom: 10px; box-shadow: var(--shadow); }
-.dossier-hero .hero-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 26px 28px; background: linear-gradient(0deg, rgba(14,11,7,.92), rgba(14,11,7,.4) 50%, rgba(14,11,7,.12)); }
+/* ---- bannière d'entrée du dossier (Ken Burns) ---- */
+.dossier-hero { position: relative; min-height: 320px; border-radius: 14px; overflow: hidden; background: #2a2620; margin-bottom: 10px; box-shadow: var(--shadow); }
+.dossier-hero .hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; animation: kenburns 22s ease-out both; }
+@keyframes kenburns { from { transform: scale(1.0); } to { transform: scale(1.12); } }
+.dossier-hero .hero-overlay { position: absolute; inset: 0; z-index: 1; display: flex; flex-direction: column; justify-content: flex-end; padding: 26px 28px; background: linear-gradient(0deg, rgba(14,11,7,.92), rgba(14,11,7,.4) 50%, rgba(14,11,7,.12)); }
 .dossier-hero .ep { color: #e8d6a8; font-size: 14px; letter-spacing: .5px; }
 .dossier-hero h1 { color: #fff; font-size: 32px; margin: 4px 0; }
 .dossier-hero .lead { color: #f1e9d8; font-style: italic; max-width: 640px; }

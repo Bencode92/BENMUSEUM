@@ -90,6 +90,20 @@ if ($("lightbox")) {
   $("lightbox").addEventListener("click", e => { if (e.target.id === "lightbox" || e.target.id === "lbclose") closeZoom(); });
   addEventListener("keydown", e => { if (e.key === "Escape") closeZoom(); });
 }
+
+/* ---------- apparitions au défilement (cinématique léger) ---------- */
+const revealIO = new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); revealIO.unobserve(en.target); } });
+}, { threshold: 0.06, rootMargin: "0px 0px -8% 0px" });
+function armReveals() {
+  $("view").querySelectorAll(".dossier-hero, .pagehead, .recit-block, .acte, .block, .grid > .card, .sess-card, h2.sec, .session-cta")
+    .forEach(el => {
+      if (el.dataset.rev) return; el.dataset.rev = "1"; el.classList.add("reveal");
+      revealIO.observe(el);
+      setTimeout(() => el.classList.add("in"), 1400); // filet de sécurité : jamais invisible
+    });
+}
+if ($("view")) { new MutationObserver(armReveals).observe($("view"), { childList: true, subtree: true }); }
 function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   const top = parts[0] || "";
@@ -362,7 +376,8 @@ function renderDossier(id) {
 
   const heroWiki = (d.oeuvres || []).map(o => o.wiki).find(w => IMAGES[w])
     || (d.artistes || []).map(a => a.wiki).find(w => IMAGES[w]) || "";
-  P.push(`<div class="dossier-hero" ${heroWiki ? `data-wiki="${esc(heroWiki)}"` : ""}>
+  P.push(`<div class="dossier-hero">
+    ${heroWiki ? `<img class="hero-img" data-wiki="${esc(heroWiki)}" alt="" />` : ""}
     <div class="hero-overlay">
       <div class="ep">${esc(d.periode)}</div>
       <h1>${esc(d.titre)} ${favBtn(`dossier:${d.id}`, d.titre, `#/d/${d.id}`, "dossier")}</h1>
