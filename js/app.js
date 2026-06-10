@@ -237,6 +237,13 @@ function renderOeuvre(ci, oi) {
           <button class="ask" id="gask">Envoyer</button>
           <div class="answer" id="gans"></div>
         </div>
+        <div class="block guide enrich">
+          <h3>✨ Enrichir cette fiche</h3>
+          <p class="guidehint">Colle un texte (un passage, tes notes) : l'IA le compare à la fiche et te dit ce qui est nouveau, déjà couvert ou à vérifier.</p>
+          <textarea id="eq" placeholder="Colle un texte à intégrer…"></textarea>
+          <button class="ask" id="eask">Comparer & intégrer</button>
+          <div class="answer" id="eans"></div>
+        </div>
         ${notesBlock(`oeuvre:${ci}:${oi}`)}
         <div class="navworks">
           <button ${prev ? `data-nav="${prev}"` : "disabled"}>← Œuvre précédente</button>
@@ -246,7 +253,40 @@ function renderOeuvre(ci, oi) {
     </div>`;
   loadImages($("view"));
   wireGuide(c, o, `oeuvre:${ci}:${oi}`);
+  wireEnrich(c, o, `oeuvre:${ci}:${oi}`);
   wireNotes();
+}
+
+function wireEnrich(c, o, scope) {
+  const btn = $("eask"), ans = $("eans"); if (!btn) return;
+  const fiche = `« ${o.titre} » — ${o.artiste}, ${o.annee}. ${o.explication} ${o.contexte} `
+    + `Éléments à repérer : ${(o.elements || []).join(" ; ")}. Idée du chapitre : ${c.idee}`;
+  btn.onclick = async () => {
+    const texte = $("eq").value.trim(); if (!texte) return;
+    ans.className = "answer dim"; ans.textContent = "…";
+    try {
+      const r = await fetch(aiEndpoint(), {
+        method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ mode: "enrich", fiche, texte }),
+      });
+      if (!r.ok) throw new Error();
+      const j = await r.json();
+      ans.className = "answer"; ans.textContent = j.answer;
+      const add = document.createElement("button");
+      add.className = "addnotebtn"; add.style.marginTop = "8px"; add.textContent = "+ Ajouter ce que j'ai appris aux notes";
+      add.onclick = () => {
+        addNote(scope, `Enrichissement :\n${texte}\n\nAnalyse IA :\n${j.answer}`);
+        const box = $("view").querySelector(`.notes[data-scope="${scope}"]`);
+        if (box) renderNotesList(box, scope);
+        add.textContent = "✓ Ajouté"; add.disabled = true;
+      };
+      ans.after(add);
+    } catch {
+      ans.className = "answer dim";
+      ans.innerHTML = "⚠️ IA hors ligne. <button id='aicfg2' class='linkbtn'>Configurer l'IA en ligne</button> (Cloudflare Worker).";
+      const cfg = document.getElementById("aicfg2"); if (cfg) cfg.onclick = setAiUrl;
+    }
+  };
 }
 
 // endpoint IA : ton Cloudflare Worker (en ligne) sinon le serveur local
