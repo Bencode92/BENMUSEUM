@@ -64,6 +64,10 @@ function buildFloors() {
 }
 function setActiveFloor(ci) {
   document.querySelectorAll("#floorList li").forEach(li => li.classList.toggle("active", li.dataset.floor == ci));
+  const c = CHAPITRES[ci];
+  document.documentElement.style.setProperty("--chap", c ? c.couleur : "var(--accent)");
+  const active = document.querySelector("#floorList li.active");
+  if (active) active.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
 }
 
 /* ---------- routage ---------- */

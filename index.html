@@ -4,11 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Histoire de l'Art — apprendre par périodes, styles et œuvres</title>
-  <link rel="stylesheet" href="css/app.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/app.css?v=30" />
 </head>
 <body>
   <header id="top">
-    <div class="brand" data-nav="#/">🏛 <span>Histoire de l'Art</span></div>
+    <div class="brand" data-nav="#/"><span>Histoire de l'Art</span></div>
     <nav class="tabs">
       <button data-nav="#/parcours" class="tab">Parcours</button>
       <button data-nav="#/" class="tab">Explorer</button>
@@ -18,10 +21,10 @@
     </nav>
   </header>
 
-  <div id="layout">
-    <!-- Rail des étages (périodes) -->
-    <aside id="floors"><h2>Les étages</h2><ul id="floorList"></ul></aside>
+  <!-- Frise chronologique : les 27 chapitres, du plus ancien au plus récent -->
+  <aside id="floors"><h2>Frise chronologique</h2><ul id="floorList"></ul></aside>
 
+  <div id="layout">
     <main id="main">
       <nav id="breadcrumb"></nav>
       <div id="view"></div>
@@ -33,6 +36,6 @@
     <figure><img id="lbimg" alt="" /><figcaption id="lbcap"></figcaption></figure>
   </div>
 
-  <script type="module" src="js/app.js?v=29"></script>
+  <script type="module" src="js/app.js?v=30"></script>
 </body>
 </html>
