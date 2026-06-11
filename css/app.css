@@ -144,6 +144,11 @@ ol.rev { margin: 8px 0 0 22px; } ol.rev li { margin: 7px 0; }
 
 .seemore { display: inline-block; margin-top: 8px; font-size: 13px; color: var(--gold); }
 
+/* ---- config quiz (cible) ---- */
+.quizcfg { display: flex; gap: 18px; flex-wrap: wrap; margin: 8px 0 14px; }
+.quizcfg label { font-size: 13px; color: var(--muted); }
+.quizcfg select { display: block; margin-top: 4px; min-width: 220px; padding: 9px 11px; border: 1px solid var(--line); border-radius: 8px; font: inherit; background: var(--card); color: var(--ink); }
+
 /* ---- QCM généré par l'IA ---- */
 .aiquiz .aqgen { background: var(--gold); color: #fff; border: none; padding: 9px 16px; border-radius: 8px; cursor: pointer; font: inherit; }
 .aiquiz .aqgen:hover { filter: brightness(1.08); }

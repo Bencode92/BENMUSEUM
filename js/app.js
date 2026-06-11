@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "21"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "22"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -394,41 +394,85 @@ function pick(arr, n, exclude) {
   while (out.length < n && pool.length) out.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
   return out;
 }
+// page Réviser : choisir la cible (chapitre / artiste / tout) puis le type de quiz
 function renderQuiz() {
   crumb([{ label: "Réviser" }]);
-  const item = FLAT[Math.floor(Math.random() * FLAT.length)];
-  const types = [
-    { q: "À quel chapitre se rattache cette œuvre ?", val: x => x.chap.titre, all: () => [...new Set(FLAT.map(x => x.chap.titre))] },
-    { q: "Qui en est l'auteur ?", val: x => x.oeuvre.artiste, all: () => [...new Set(FLAT.map(x => x.oeuvre.artiste))] },
-  ];
+  quizState = { score: 0, total: 0 };
+  const chapters = [...new Set(FLAT.map(x => x.chap.titre))];
+  const artists = [...new Set(FLAT.map(x => x.oeuvre.artiste))]
+    .filter(a => a && !/anonyme|atelier|moines|bâtisseurs|artisans|maîtres|sculpteurs/i.test(a)).sort((a, b) => a.localeCompare(b, "fr"));
+  $("view").innerHTML = `
+    <div class="pagehead"><h1>Réviser</h1>
+      <p class="lead">Choisis ta cible, puis lance un quiz. « Quiz éclair » = deviner à partir d'images. « QCM IA » = questions générées sur le sujet choisi.</p></div>
+    <div class="block">
+      <h3>🎯 Cible</h3>
+      <div class="quizcfg">
+        <label>Chapitre / époque<br><select id="qchap"><option value="">Tout le musée</option>${chapters.map(c => `<option>${esc(c)}</option>`).join("")}</select></label>
+        <label>Focus artiste<br><select id="qart"><option value="">— Aucun —</option>${artists.map(a => `<option>${esc(a)}</option>`).join("")}</select></label>
+      </div>
+      <div class="sess-actions">
+        <button class="next" id="qflash">⚡ Quiz éclair (images)</button>
+        <button class="optbtn" id="qai">🧠 QCM généré par l'IA</button>
+      </div>
+    </div>
+    <div id="quizarea"></div>`;
+  $("qflash").onclick = () => flashQuiz();
+  $("qai").onclick = () => aiScopeQuiz();
+}
+function quizScope() {
+  const chap = $("qchap") ? $("qchap").value : "";
+  const art = $("qart") ? $("qart").value : "";
+  let pool = FLAT;
+  if (chap) pool = pool.filter(x => x.chap.titre === chap);
+  if (art) pool = pool.filter(x => x.oeuvre.artiste === art);
+  return { chap, art, pool };
+}
+function flashQuiz() {
+  const { pool } = quizScope();
+  const box = $("quizarea"); if (!box) return;
+  if (!pool.length) { box.innerHTML = `<p class="lead">Aucune œuvre pour cette cible.</p>`; return; }
+  const item = pool[Math.floor(Math.random() * pool.length)];
+  const sameAuthor = new Set(pool.map(x => x.oeuvre.artiste)).size <= 1;
+  const types = [{ q: "À quel chapitre se rattache cette œuvre ?", val: x => x.chap.titre, all: () => [...new Set(FLAT.map(x => x.chap.titre))] }];
+  if (!sameAuthor) types.push({ q: "Qui en est l'auteur ?", val: x => x.oeuvre.artiste, all: () => [...new Set(FLAT.map(x => x.oeuvre.artiste))] });
   const type = types[Math.floor(Math.random() * types.length)];
   const correct = type.val(item);
   const options = [correct, ...pick(type.all(), 3, correct)].sort(() => Math.random() - 0.5);
-  $("view").innerHTML = `
+  box.innerHTML = `
     <div class="quiz">
       <div class="score">Score : ${quizState.score} / ${quizState.total}</div>
       <img class="qimg" data-wiki="${esc(item.oeuvre.wiki)}" alt="œuvre à deviner" />
       <div class="q">${type.q}</div>
       <div class="opts">${options.map(op => `<button class="opt">${esc(op)}</button>`).join("")}</div>
     </div>`;
-  loadImages($("view"));
+  loadImages(box);
   let answered = false;
-  $("view").querySelectorAll(".opt").forEach(b => b.onclick = () => {
+  box.querySelectorAll(".opt").forEach(b => b.onclick = () => {
     if (answered) return; answered = true; quizState.total++;
     if (b.textContent === correct) quizState.score++;
-    $("view").querySelectorAll(".opt").forEach(x => {
-      if (x.textContent === correct) x.classList.add("good");
-      else if (x === b) x.classList.add("bad");
-      x.disabled = true;
-    });
+    box.querySelectorAll(".opt").forEach(x => { if (x.textContent === correct) x.classList.add("good"); else if (x === b) x.classList.add("bad"); x.disabled = true; });
     const reveal = document.createElement("div");
     reveal.style.cssText = "text-align:center;margin-top:14px;color:var(--muted)";
     reveal.innerHTML = `<b>${esc(item.oeuvre.titre)}</b> — ${esc(item.oeuvre.artiste)}, ${esc(item.oeuvre.annee)}.
       <a data-nav="#/c/${item.ci}/o/${item.oi}" style="color:var(--gold);cursor:pointer">voir la fiche →</a>`;
-    $("view").querySelector(".quiz").appendChild(reveal);
+    box.querySelector(".quiz").appendChild(reveal);
     const nb = document.createElement("button"); nb.className = "next"; nb.textContent = "Question suivante →";
-    nb.onclick = renderQuiz; $("view").querySelector(".quiz").appendChild(nb);
+    nb.onclick = flashQuiz; box.querySelector(".quiz").appendChild(nb);
   });
+}
+async function aiScopeQuiz() {
+  const { chap, art, pool } = quizScope();
+  const box = $("quizarea"); if (!box) return;
+  if (!chap && !art) { box.innerHTML = `<p class="lead">Choisis un <b>chapitre</b> ou un <b>artiste</b> pour générer un QCM ciblé.</p>`; return; }
+  if (!pool.length) { box.innerHTML = `<p class="lead">Aucune œuvre pour cette cible.</p>`; return; }
+  const label = [art, chap].filter(Boolean).join(" — ");
+  const contenu = `Sujet : ${label}.\n` + pool.slice(0, 14).map(x =>
+    `« ${x.oeuvre.titre} » (${x.oeuvre.artiste}, ${x.oeuvre.annee}) : ${x.oeuvre.explication} ${x.oeuvre.contexte}`).join("\n")
+    + "\n" + [...new Set(pool.map(x => x.chap.idee))].join(" ");
+  box.innerHTML = `<div class="block aiquiz" id="aq-scope"><h3>🧠 QCM IA — ${esc(label)}</h3>
+    <button class="ask aqgen">Générer le QCM</button><div class="aqout"></div></div>`;
+  wireAiQuiz("scope", contenu);
+  $("aq-scope").querySelector(".aqgen").click(); // génère tout de suite
 }
 
 /* ---------- DOSSIERS (modules d'apprentissage riches) ---------- */
@@ -583,12 +627,17 @@ function renderDossier(id) {
      ${d.memo_geo ? `<div class="memo">${esc(d.memo_geo)}</div>` : ""}`));
 
   if (d.oeuvres) P.push(sec("🖼 Pourquoi c'est du génie (œuvres décortiquées)",
-    `<div class="grid cols">${d.oeuvres.map(o => `
-      <div class="card"><div class="thumb zoomable" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}"></div>
-        <div class="body"><div class="t">${esc(o.titre)} ${favBtn(`oeuvre-d:${d.id}:${o.titre}`, `${o.titre} — ${o.artiste}`, `#/d/${d.id}`, "œuvre")}</div>
-        <div class="s">${esc(o.artiste)} · ${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
-        <p style="font-size:13px;margin-top:8px">${esc(o.genie)}</p>
-        ${o.analyse ? `<details class="deep"><summary>📖 Analyse approfondie</summary><p>${esc(o.analyse)}</p></details>` : ""}</div></div>`).join("")}</div>`));
+    d.oeuvres.map(o => `
+      <div class="recit-block illus oeuvre-grande">
+        <figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}" alt="${esc(o.titre)}" />
+          <figcaption>🔍 cliquer pour agrandir</figcaption></figure>
+        <div class="recit-txt">
+          <h3>${esc(o.titre)} ${favBtn(`oeuvre-d:${d.id}:${o.titre}`, `${o.titre} — ${o.artiste}`, `#/d/${d.id}`, "œuvre")}</h3>
+          <div class="s" style="color:var(--muted);font-style:italic;margin-bottom:8px">${esc(o.artiste)} · ${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
+          <p style="font-weight:600">${esc(o.genie)}</p>
+          ${o.analyse ? `<p>${esc(o.analyse)}</p>` : ""}
+        </div>
+      </div>`).join("")));
 
   if (d.artistes) {
     const aCard = a => {

@@ -2267,5 +2267,15 @@
     "h": 3312,
     "format": "jpg",
     "file": "Hans_Holbein_the_Younger,_self-portrait.jpg"
+  },
+  "Antonio da Correggio": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Antonio_Allegri_da_Correggio.jpg",
+    "thumb_w": 415,
+    "thumb_h": 545,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Antonio_Allegri_da_Correggio.jpg",
+    "w": 415,
+    "h": 545,
+    "format": "jpg",
+    "file": "Antonio_Allegri_da_Correggio.jpg"
   }
 }
