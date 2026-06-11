@@ -43,10 +43,15 @@ export default {
 
     if (mode === "quiz") {
       // QCM généré à partir du contenu d'une fiche / section
-      const n = Math.min(Math.max(parseInt(b.n) || 4, 2), 8);
+      const n = Math.min(Math.max(parseInt(b.n) || 4, 2), 10);
       system =
         "Tu es un professeur d'histoire de l'art. À partir du CONTENU fourni, rédige " + n + " questions de QCM en français, " +
-        "portant uniquement sur des faits présents dans le contenu, claires et non ambiguës. Chaque question a 4 options dont UNE seule correcte. " +
+        "VARIÉES, couvrant plusieurs angles : le CONTEXTE de l'époque (ce qui se passait, le mécénat, le pourquoi), " +
+        "les ARTISTES (qui ils sont, leur rôle, leur vie), les ŒUVRES (description, détails à repérer), " +
+        "l'ATTRIBUTION (« Qui a peint / sculpté telle œuvre ? », « De quel artiste est… ? ») " +
+        "et la COMPRÉHENSION (« Pourquoi… ? », « Qu'est-ce que cette œuvre change ? », l'enjeu, le problème résolu). " +
+        "Mélange les niveaux (faciles et plus fins). Questions claires et non ambiguës, portant uniquement sur des faits présents dans le contenu. " +
+        "Chaque question a 4 options dont UNE seule correcte, et une courte explication. " +
         "Réponds UNIQUEMENT par un JSON valide, sans aucun texte autour, de la forme exacte : " +
         '{"questions":[{"q":"…","options":["…","…","…","…"],"answer":0,"explication":"…"}]} ' +
         "où answer est l'index (0-3) de la bonne option.";
