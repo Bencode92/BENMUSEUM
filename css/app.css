@@ -114,6 +114,14 @@ ul.dots li { margin: 4px 0; }
 .quiz .opt:hover { border-color: var(--gold); }
 .quiz .opt.good { background: #e6f4ea; border-color: #3a9a5d; }
 .quiz .opt.bad { background: #fbe9e7; border-color: #c0392b; }
+.quiz .opt:disabled, .imgopt:disabled { cursor: default; }
+.grid4 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.imgopt { border: 3px solid var(--line); border-radius: 12px; background: var(--card); cursor: pointer; padding: 0; overflow: hidden; }
+.imgopt .thumb { display: block; width: 100%; aspect-ratio: 4/3; background: #ece6d8 center/cover no-repeat; }
+.imgopt:hover { border-color: var(--gold); }
+.imgopt.good { border-color: #3a9a5d; }
+.imgopt.bad { border-color: #c0392b; }
+.qexp { margin-top: 14px; text-align: center; color: var(--muted); font-size: 14px; line-height: 1.5; }
 .quiz .next { display: block; margin: 18px auto 0; background: var(--gold); color: #fff; border: none; padding: 11px 26px; border-radius: 999px; font: inherit; cursor: pointer; }
 
 /* ---- dossiers (modules riches) ---- */

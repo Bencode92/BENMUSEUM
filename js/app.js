@@ -395,15 +395,18 @@ function pick(arr, n, exclude) {
   return out;
 }
 // page Réviser : choisir la cible (chapitre / artiste / tout) puis le type de quiz
+const ANON = /anonyme|atelier|moines|bâtisseurs|artisans|maîtres|sculpteurs|carolingien|byzantin|gothique|roman|romain|magdalénien|song|omeyyade|islamique|thoutmôsis|antioche|rhodes|callicratès/i;
+const shuffle = a => a.slice().sort(() => Math.random() - 0.5);
+let QZ = null;
+
 function renderQuiz() {
   crumb([{ label: "Réviser" }]);
-  quizState = { score: 0, total: 0 };
   const chapters = [...new Set(FLAT.map(x => x.chap.titre))];
   const artists = [...new Set(FLAT.map(x => x.oeuvre.artiste))]
-    .filter(a => a && !/anonyme|atelier|moines|bâtisseurs|artisans|maîtres|sculpteurs/i.test(a)).sort((a, b) => a.localeCompare(b, "fr"));
+    .filter(a => a && !ANON.test(a)).sort((a, b) => a.localeCompare(b, "fr"));
   $("view").innerHTML = `
     <div class="pagehead"><h1>Réviser</h1>
-      <p class="lead">Choisis ta cible, puis lance un quiz. « Quiz éclair » = deviner à partir d'images. « QCM IA » = questions générées sur le sujet choisi.</p></div>
+      <p class="lead">Choisis ta cible, puis lance un quiz d'une vingtaine de questions : reconnaître les œuvres, leurs auteurs, l'inverse (trouver le bon tableau), et des questions sur le style, l'artiste, l'époque.</p></div>
     <div class="block">
       <h3>🎯 Cible</h3>
       <div class="quizcfg">
@@ -411,13 +414,11 @@ function renderQuiz() {
         <label>Focus artiste<br><select id="qart"><option value="">— Aucun —</option>${artists.map(a => `<option>${esc(a)}</option>`).join("")}</select></label>
       </div>
       <div class="sess-actions">
-        <button class="next" id="qflash">⚡ Quiz éclair (images)</button>
-        <button class="optbtn" id="qai">🧠 QCM généré par l'IA</button>
+        <button class="next" id="qstart">▶ Lancer le quiz (≈ 20 questions)</button>
       </div>
     </div>
     <div id="quizarea"></div>`;
-  $("qflash").onclick = () => flashQuiz();
-  $("qai").onclick = () => aiScopeQuiz();
+  $("qstart").onclick = () => startQuiz();
 }
 function quizScope() {
   const chap = $("qchap") ? $("qchap").value : "";
@@ -427,52 +428,95 @@ function quizScope() {
   if (art) pool = pool.filter(x => x.oeuvre.artiste === art);
   return { chap, art, pool };
 }
-function flashQuiz() {
-  const { pool } = quizScope();
-  const box = $("quizarea"); if (!box) return;
-  if (!pool.length) { box.innerHTML = `<p class="lead">Aucune œuvre pour cette cible.</p>`; return; }
-  const item = pool[Math.floor(Math.random() * pool.length)];
-  const sameAuthor = new Set(pool.map(x => x.oeuvre.artiste)).size <= 1;
-  const types = [{ q: "À quel chapitre se rattache cette œuvre ?", val: x => x.chap.titre, all: () => [...new Set(FLAT.map(x => x.chap.titre))] }];
-  if (!sameAuthor) types.push({ q: "Qui en est l'auteur ?", val: x => x.oeuvre.artiste, all: () => [...new Set(FLAT.map(x => x.oeuvre.artiste))] });
-  const type = types[Math.floor(Math.random() * types.length)];
-  const correct = type.val(item);
-  const options = [correct, ...pick(type.all(), 3, correct)].sort(() => Math.random() - 0.5);
-  box.innerHTML = `
-    <div class="quiz">
-      <div class="score">Score : ${quizState.score} / ${quizState.total}</div>
-      <img class="qimg" data-wiki="${esc(item.oeuvre.wiki)}" alt="œuvre à deviner" />
-      <div class="q">${type.q}</div>
-      <div class="opts">${options.map(op => `<button class="opt">${esc(op)}</button>`).join("")}</div>
-    </div>`;
-  loadImages(box);
-  let answered = false;
-  box.querySelectorAll(".opt").forEach(b => b.onclick = () => {
-    if (answered) return; answered = true; quizState.total++;
-    if (b.textContent === correct) quizState.score++;
-    box.querySelectorAll(".opt").forEach(x => { if (x.textContent === correct) x.classList.add("good"); else if (x === b) x.classList.add("bad"); x.disabled = true; });
-    const reveal = document.createElement("div");
-    reveal.style.cssText = "text-align:center;margin-top:14px;color:var(--muted)";
-    reveal.innerHTML = `<b>${esc(item.oeuvre.titre)}</b> — ${esc(item.oeuvre.artiste)}, ${esc(item.oeuvre.annee)}.
-      <a data-nav="#/c/${item.ci}/o/${item.oi}" style="color:var(--gold);cursor:pointer">voir la fiche →</a>`;
-    box.querySelector(".quiz").appendChild(reveal);
-    const nb = document.createElement("button"); nb.className = "next"; nb.textContent = "Question suivante →";
-    nb.onclick = flashQuiz; box.querySelector(".quiz").appendChild(nb);
-  });
+// questions visuelles, fabriquées à partir des données (fiable, sans IA)
+function buildVisualQuestions(pool, n) {
+  const wp = pool.filter(x => IMAGES[x.oeuvre.wiki]);
+  const allWithImg = FLAT.filter(x => IMAGES[x.oeuvre.wiki]);
+  const allArtists = [...new Set(FLAT.map(x => x.oeuvre.artiste))].filter(a => a && !ANON.test(a));
+  const allChapters = [...new Set(FLAT.map(x => x.chap.titre))];
+  const qs = [], used = new Set(); let guard = 0;
+  while (qs.length < n && guard++ < n * 10 && wp.length) {
+    const it = wp[Math.floor(Math.random() * wp.length)];
+    const known = it.oeuvre.artiste && !ANON.test(it.oeuvre.artiste);
+    const kinds = ["titre", "periode"];
+    if (known) kinds.push("auteur", "inverse");
+    const kind = kinds[Math.floor(Math.random() * kinds.length)];
+    const key = kind + ":" + it.oeuvre.wiki; if (used.has(key)) continue; used.add(key);
+    if (kind === "auteur") {
+      const opts = shuffle([it.oeuvre.artiste, ...pick(allArtists.filter(a => a !== it.oeuvre.artiste), 3)]);
+      qs.push({ kind: "img", img: it.oeuvre.wiki, q: "Qui a réalisé cette œuvre ?", options: opts, answer: opts.indexOf(it.oeuvre.artiste), meta: it });
+    } else if (kind === "titre") {
+      const opts = shuffle([it.oeuvre.titre, ...pick(allWithImg.map(x => x.oeuvre.titre).filter(t => t !== it.oeuvre.titre), 3)]);
+      qs.push({ kind: "img", img: it.oeuvre.wiki, q: "Quelle est cette œuvre ?", options: opts, answer: opts.indexOf(it.oeuvre.titre), meta: it });
+    } else if (kind === "periode") {
+      const opts = shuffle([it.chap.titre, ...pick(allChapters.filter(c => c !== it.chap.titre), 3)]);
+      qs.push({ kind: "img", img: it.oeuvre.wiki, q: "À quelle période / chapitre appartient-elle ?", options: opts, answer: opts.indexOf(it.chap.titre), meta: it });
+    } else {
+      const others = pick(allWithImg.filter(x => x.oeuvre.artiste !== it.oeuvre.artiste && x.oeuvre.wiki !== it.oeuvre.wiki), 3);
+      if (others.length < 3) continue;
+      const grid = shuffle([it, ...others]);
+      qs.push({ kind: "grid", q: `Laquelle de ces œuvres est de ${it.oeuvre.artiste} ?`, options: grid.map(x => ({ wiki: x.oeuvre.wiki, cap: x.oeuvre.titre })), answer: grid.indexOf(it), meta: it });
+    }
+  }
+  return qs;
 }
-async function aiScopeQuiz() {
+async function startQuiz() {
   const { chap, art, pool } = quizScope();
   const box = $("quizarea"); if (!box) return;
-  if (!chap && !art) { box.innerHTML = `<p class="lead">Choisis un <b>chapitre</b> ou un <b>artiste</b> pour générer un QCM ciblé.</p>`; return; }
   if (!pool.length) { box.innerHTML = `<p class="lead">Aucune œuvre pour cette cible.</p>`; return; }
-  const label = [art, chap].filter(Boolean).join(" — ");
-  const contenu = `Sujet : ${label}.\n` + pool.slice(0, 14).map(x =>
-    `« ${x.oeuvre.titre} » (${x.oeuvre.artiste}, ${x.oeuvre.annee}) : ${x.oeuvre.explication} ${x.oeuvre.contexte}`).join("\n")
-    + "\n" + [...new Set(pool.map(x => x.chap.idee))].join(" ");
-  box.innerHTML = `<div class="block aiquiz" id="aq-scope"><h3>🧠 QCM IA — ${esc(label)}</h3>
-    <button class="ask aqgen">Générer le QCM</button><div class="aqout"></div></div>`;
-  wireAiQuiz("scope", contenu);
-  $("aq-scope").querySelector(".aqgen").click(); // génère tout de suite
+  box.innerHTML = `<p class="lead">Préparation du quiz…</p>`;
+  let qs = buildVisualQuestions(pool, 15);
+  // questions de compréhension générées par l'IA (si le Worker est branché)
+  try {
+    const label = [art, chap].filter(Boolean).join(" — ") || "l'histoire de l'art";
+    const contenu = `Sujet : ${label}.\n` + pool.slice(0, 14).map(x =>
+      `« ${x.oeuvre.titre} » (${x.oeuvre.artiste}, ${x.oeuvre.annee}) : ${x.oeuvre.explication} ${x.oeuvre.contexte}`).join("\n")
+      + "\n" + [...new Set(pool.map(x => x.chap.idee))].join(" ");
+    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "quiz", contenu, n: 7 }) });
+    if (r.ok) { const d = parseQuizJSON((await r.json()).answer); if (d && Array.isArray(d.questions)) d.questions.forEach(q => qs.push({ kind: "text", q: q.q, options: q.options, answer: q.answer, explication: q.explication })); }
+  } catch {}
+  qs = shuffle(qs).slice(0, 20);
+  if (!qs.length) { box.innerHTML = `<p class="lead">Pas assez de contenu illustré pour un quiz ici.</p>`; return; }
+  QZ = { qs, i: 0, score: 0 };
+  playQuestion();
+}
+function playQuestion() {
+  const box = $("quizarea"); if (!box) return;
+  const q = QZ.qs[QZ.i];
+  if (!q) {
+    const pct = Math.round(100 * QZ.score / QZ.qs.length);
+    box.innerHTML = `<div class="quiz"><div class="q">Terminé !</div>
+      <div class="score" style="font-size:24px;color:var(--gold)">${QZ.score} / ${QZ.qs.length} <small>(${pct}%)</small></div>
+      <button class="next" id="qreplay">↻ Rejouer</button></div>`;
+    $("qreplay").onclick = startQuiz; return;
+  }
+  let body;
+  if (q.kind === "grid") {
+    body = `<div class="q">${esc(q.q)}</div><div class="grid4">${q.options.map((o, oi) =>
+      `<button class="imgopt" data-oi="${oi}"><span class="thumb" data-wiki="${esc(o.wiki)}"></span></button>`).join("")}</div>`;
+  } else {
+    body = `${q.kind === "img" ? `<img class="qimg" data-wiki="${esc(q.img)}" alt="" />` : ""}
+      <div class="q">${esc(q.q)}</div>
+      <div class="opts">${q.options.map(o => `<button class="opt">${esc(o)}</button>`).join("")}</div>`;
+  }
+  box.innerHTML = `<div class="quiz"><div class="score">Question ${QZ.i + 1} / ${QZ.qs.length} · score ${QZ.score}</div>${body}<div class="qexp" hidden></div></div>`;
+  loadImages(box);
+  let done = false;
+  const opts = box.querySelectorAll(".opt, .imgopt");
+  opts.forEach((b, oi) => b.onclick = () => {
+    if (done) return; done = true;
+    if (oi === q.answer) QZ.score++;
+    opts.forEach((x, xi) => { if (xi === q.answer) x.classList.add("good"); else if (xi === oi) x.classList.add("bad"); x.disabled = true; });
+    const exp = box.querySelector(".qexp"); exp.hidden = false;
+    let txt = oi === q.answer ? "✓ Bonne réponse." : "✗ Raté.";
+    if (q.explication) txt += " " + q.explication;
+    if (q.meta) txt += `  — ${q.meta.oeuvre.titre}, ${q.meta.oeuvre.artiste} (${q.meta.oeuvre.annee}).`;
+    exp.textContent = txt;
+    const nb = document.createElement("button"); nb.className = "next";
+    nb.textContent = QZ.i + 1 < QZ.qs.length ? "Suivante →" : "Voir le score →";
+    nb.onclick = () => { QZ.i++; playQuestion(); };
+    box.querySelector(".quiz").appendChild(nb);
+  });
 }
 
 /* ---------- DOSSIERS (modules d'apprentissage riches) ---------- */
