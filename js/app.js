@@ -95,6 +95,122 @@ if ($("lightbox")) {
   addEventListener("keydown", e => { if (e.key === "Escape") closeZoom(); });
 }
 
+/* ---------- DISCUSSION IA flottante (toujours accessible) ---------- */
+let chatMsgs = [];        // historique de la discussion en cours
+let CHATCTX = null;        // contexte de la page (sujet + fiche + scope)
+
+function generic() { return { label: "Histoire de l'art", scope: "general", fiche: "", ask: { floorName: "Histoire de l'art" } }; }
+function pageContext() {
+  const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
+  if (parts[0] === "c") {
+    const ci = +parts[1], c = CHAPITRES[ci]; if (!c) return generic();
+    if (parts[2] === "o") {
+      const o = c.oeuvres && c.oeuvres[+parts[3]]; if (o) return {
+        label: `${o.titre} — ${o.artiste}`, scope: `oeuvre:${ci}:${+parts[3]}`,
+        fiche: `« ${o.titre} » — ${o.artiste}, ${o.annee}. ${o.explication} ${o.contexte} Éléments : ${(o.elements || []).join(" ; ")}. Chapitre ${c.num} (${c.titre}) : ${c.idee}`,
+        ask: { floorName: `${c.titre} (chap. ${c.num})`, epoque: c.portee, salle: { nom: c.titre, presentation: c.idee }, work: { titre: o.titre, artiste: o.artiste, annee: o.annee, note: o.explication + " " + o.contexte } },
+      };
+    }
+    return { label: `Chapitre ${c.num} — ${c.titre}`, scope: `chap:${c.num}`,
+      fiche: `Chapitre ${c.num} — ${c.titre}. ${c.idee} ${c.notion || ""}`,
+      ask: { floorName: `${c.titre} (chap. ${c.num})`, epoque: c.portee, salle: { nom: c.titre, presentation: c.idee } } };
+  }
+  if (parts[0] === "d") {
+    const d = DOSSIERS.find(x => x.id === parts[1]); if (!d) return generic();
+    if (parts[2] === "a") {
+      const a = d.artistes && d.artistes[+parts[3]]; if (a) return {
+        label: a.nom, scope: `artiste:${d.id}:${+parts[3]}`,
+        fiche: `${a.nom} (${a.dates}). ${a.portrait || ""} ${(a.bio_sections || []).map(s => `${s.h} : ${s.p}`).join(" ") || a.bio_longue || ""}`,
+        ask: { floorName: d.titre, salle: { nom: a.nom, presentation: a.portrait || "" } } };
+    }
+    return { label: d.titre, scope: `dossier:${d.id}`,
+      fiche: `${d.titre} (${d.periode}). ${d.sous_titre || ""} ${d.probleme || ""} ` + (d.recit || []).map(s => `${s.h} : ${s.p}`).join(" "),
+      ask: { floorName: d.titre, epoque: d.periode, salle: { nom: d.titre, presentation: d.sous_titre || d.probleme || "" } } };
+  }
+  return generic();
+}
+function initChat() {
+  if ($("chatfab")) return;
+  const fab = document.createElement("button");
+  fab.id = "chatfab"; fab.textContent = "💬 Discuter"; document.body.appendChild(fab);
+  const dr = document.createElement("aside");
+  dr.id = "chatdrawer"; dr.hidden = true;
+  dr.innerHTML = `
+    <header><span id="chattitle">Discuter</span><button id="chatclose" aria-label="Fermer">×</button></header>
+    <div id="chatlog2"></div>
+    <form id="chatform2"><input id="chatin" autocomplete="off" placeholder="Discute du sujet de cette page…" /><button type="submit">→</button></form>
+    <div id="chatanalyse"><button id="chatanalyze">🔎 Analyser les points clés à ajouter à la fiche</button><div id="chatares"></div></div>`;
+  document.body.appendChild(dr);
+  fab.onclick = openChat;
+  $("chatclose").onclick = () => { dr.hidden = true; };
+  $("chatform2").onsubmit = e => { e.preventDefault(); sendChat(); };
+  $("chatanalyze").onclick = analyseChat;
+}
+function addCmsg(role, text) {
+  const log = $("chatlog2"); const div = document.createElement("div");
+  div.className = "cmsg " + (role === "me" ? "me" : "bot"); div.textContent = text;
+  log.appendChild(div); log.scrollTop = log.scrollHeight; return div;
+}
+function openChat() {
+  CHATCTX = pageContext();
+  $("chattitle").textContent = "Discuter — " + CHATCTX.label;
+  $("chatdrawer").hidden = false;
+  if (!chatMsgs.length && !$("chatlog2").children.length)
+    addCmsg("bot", `Parlons de « ${CHATCTX.label} ». Pose une question, demande une précision, ou lance une idée — puis « Analyser les points clés » pour enrichir la fiche.`).classList.add("dim");
+  $("chatin").focus();
+}
+function resetChat() {
+  chatMsgs = []; CHATCTX = null;
+  if ($("chatlog2")) $("chatlog2").innerHTML = "";
+  if ($("chatares")) $("chatares").innerHTML = "";
+}
+async function sendChat() {
+  const inp = $("chatin"); const q = inp.value.trim(); if (!q) return;
+  const ctx = CHATCTX || (CHATCTX = pageContext());
+  inp.value = ""; addCmsg("me", q);
+  const thinking = addCmsg("bot", "…"); thinking.classList.add("dim");
+  const history = chatMsgs.map(m => ({ role: m.role, text: m.text }));
+  try {
+    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ ...ctx.ask, question: q, history }) });
+    if (!r.ok) throw new Error();
+    const j = await r.json();
+    thinking.classList.remove("dim"); thinking.textContent = j.answer;
+    chatMsgs.push({ role: "user", text: q }, { role: "assistant", text: j.answer });
+  } catch {
+    thinking.classList.remove("dim");
+    thinking.innerHTML = "⚠️ IA hors ligne. <button class='linkbtn' id='cfgc'>Configurer l'IA en ligne</button>";
+    const b = $("cfgc"); if (b) b.onclick = setAiUrl;
+  }
+}
+async function analyseChat() {
+  const ctx = CHATCTX || (CHATCTX = pageContext());
+  const res = $("chatares");
+  if (!chatMsgs.length) { res.textContent = "Discute d'abord un peu, puis lance l'analyse."; return; }
+  res.textContent = "Analyse en cours…";
+  const transcript = chatMsgs.map(m => (m.role === "user" ? "Moi : " : "Guide : ") + m.text).join("\n");
+  try {
+    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ mode: "enrich", fiche: ctx.fiche, texte: transcript }) });
+    if (!r.ok) throw new Error();
+    const j = await r.json();
+    res.textContent = j.answer;
+    const add = document.createElement("button");
+    add.className = "optbtn"; add.style.marginTop = "10px"; add.textContent = "➕ Ajouter ces points à la fiche";
+    add.onclick = () => {
+      addNote(ctx.scope, `Issu d'une discussion :\n${j.answer}`);
+      const box = $("view").querySelector(`.notes[data-scope="${ctx.scope}"]`);
+      if (box) renderNotesList(box, ctx.scope);
+      add.textContent = "✓ Ajouté à la fiche"; add.disabled = true;
+    };
+    res.after(add);
+  } catch {
+    res.innerHTML = "⚠️ IA hors ligne. <button class='linkbtn' id='cfgc2'>Configurer l'IA en ligne</button>";
+    const b = $("cfgc2"); if (b) b.onclick = setAiUrl;
+  }
+}
+initChat();
+
 /* ---------- apparitions au défilement (cinématique léger) ---------- */
 const revealIO = new IntersectionObserver(entries => {
   entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); revealIO.unobserve(en.target); } });
@@ -109,6 +225,7 @@ function armReveals() {
 }
 if ($("view")) { new MutationObserver(armReveals).observe($("view"), { childList: true, subtree: true }); }
 function route() {
+  resetChat();
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   const top = parts[0] || "";
   const tabKey = top === "c" ? "" : (top === "d" ? "dossiers" : top);

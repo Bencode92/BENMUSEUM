@@ -478,3 +478,24 @@ details.deep p { font-size: 14px; line-height: 1.7; }
 .imgopt.bad { border-color: var(--bad); }
 .imgopt:disabled { cursor: default; }
 .qexp { margin-top: 14px; text-align: center; color: var(--muted); font-size: 14px; line-height: 1.5; }
+
+/* ============ Discussion IA flottante ============ */
+#chatfab { position: fixed; right: 20px; bottom: 20px; z-index: 60; background: var(--accent); color: #fff; border: none; border-radius: 999px; padding: 12px 18px; font-family: "Archivo", sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; box-shadow: var(--shadow); }
+#chatfab:hover { background: var(--accent-dark); }
+#chatdrawer { position: fixed; inset: 0 0 0 auto; width: min(420px, 96vw); z-index: 80; background: var(--paper); border-left: 1px solid var(--line); display: flex; flex-direction: column; box-shadow: -10px 0 50px rgba(0,0,0,.18); }
+#chatdrawer[hidden] { display: none; }
+#chatdrawer header { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 16px; background: var(--chrome); color: var(--chrome-ink); }
+#chattitle { font-family: "Fraunces", serif; font-size: 15px; }
+#chatclose { background: none; border: none; color: #fff; font-size: 26px; line-height: 1; cursor: pointer; }
+#chatlog2 { flex: 1; overflow-y: auto; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.cmsg { padding: 9px 12px; border-radius: 12px; font-size: 14px; line-height: 1.5; max-width: 90%; white-space: pre-wrap; }
+.cmsg.me { align-self: flex-end; background: var(--chap); color: #fff; }
+.cmsg.bot { align-self: flex-start; background: #fff; border: 1px solid var(--line); }
+.cmsg.dim { font-style: italic; color: var(--muted); background: transparent; border: none; }
+#chatform2 { display: flex; gap: 8px; padding: 10px 12px; border-top: 1px solid var(--line); }
+#chatin { flex: 1; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; font: inherit; }
+#chatform2 button { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 0 16px; cursor: pointer; font-size: 18px; }
+#chatanalyse { border-top: 1px solid var(--line); padding: 12px; background: var(--card); }
+#chatanalyze { width: 100%; background: var(--chrome); color: var(--chrome-ink); border: none; border-radius: 8px; padding: 11px; cursor: pointer; font: inherit; font-weight: 600; }
+#chatares { margin-top: 10px; font-size: 14px; line-height: 1.55; white-space: pre-wrap; }
+@media (max-width: 600px) { #chatdrawer { width: 100vw; } #chatfab { right: 14px; bottom: 14px; } }
