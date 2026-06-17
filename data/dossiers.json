@@ -1543,7 +1543,25 @@
           "role": "",
           "wiki": "Rembrandt",
           "portrait": "Le géant : lumière intérieure, profondeur psychologique, maître de la gravure aussi. Gloire puis faillite ; ses dernières œuvres, plus sombres, sont les plus profondes.",
-          "bio_longue": "Rembrandt van Rijn (1606-1669) est le géant de l'âge d'or hollandais. Jeune, il connaît la gloire et la fortune à Amsterdam, peintre couru, marié à l'aimée Saskia. Puis tout s'effondre : Saskia meurt, les goûts changent, ses dépenses le ruinent, il fait faillite et finit dans une relative misère. Mais ses œuvres tardives, plus sombres, plus libres, plus profondes, sont les plus grandes. Maître aussi de l'eau-forte (la gravure), il scrute son propre visage toute sa vie en une centaine d'autoportraits, sans jamais se flatter : le peintre de l'âme humaine."
+          "bio_longue": "Rembrandt van Rijn (1606-1669) est le géant de l'âge d'or hollandais. Jeune, il connaît la gloire et la fortune à Amsterdam, peintre couru, marié à l'aimée Saskia. Puis tout s'effondre : Saskia meurt, les goûts changent, ses dépenses le ruinent, il fait faillite et finit dans une relative misère. Mais ses œuvres tardives, plus sombres, plus libres, plus profondes, sont les plus grandes. Maître aussi de l'eau-forte (la gravure), il scrute son propre visage toute sa vie en une centaine d'autoportraits, sans jamais se flatter : le peintre de l'âme humaine.",
+          "bio_sections": [
+            {
+              "h": "Amsterdam, la gloire précoce",
+              "p": "Rembrandt van Rijn connaît jeune le succès et la fortune à Amsterdam : peintre couru, marié à l'aimée Saskia, collectionneur fastueux. Tout semble lui réussir."
+            },
+            {
+              "h": "La lumière de l'âme",
+              "p": "Il prend les genres commerciaux — portrait de groupe, scène biblique — et les transfigure par une lumière dramatique venue de l'ombre, et surtout par une profondeur psychologique inédite. La Ronde de nuit en est l'exemple éclatant."
+            },
+            {
+              "h": "La chute",
+              "p": "Puis tout s'effondre : Saskia meurt, les goûts changent, ses dépenses le ruinent, il fait faillite. Mais ses œuvres tardives, plus sombres et dépouillées, sont les plus profondes."
+            },
+            {
+              "h": "Les autoportraits et l'eau-forte",
+              "p": "Maître aussi de la gravure (l'eau-forte), il scrute son propre visage toute sa vie en une centaine d'autoportraits, sans jamais se flatter — une autobiographie en peinture, unique dans l'histoire de l'art."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1552,7 +1570,25 @@
           "role": "",
           "wiki": "Johannes Vermeer",
           "portrait": "Delft ; peu d'œuvres (~35), intimité et lumière ; oublié puis redécouvert au XIXe s.",
-          "bio_longue": "Johannes Vermeer (1632-1675), de Delft, est un mystère. Il peint très peu — une trentaine de toiles connues — lentement, peut-être à l'aide d'une chambre obscure pour saisir la lumière. Marchand de tableaux par ailleurs, père de nombreux enfants, il meurt jeune, endetté, et tombe dans un oubli total pendant deux siècles. Redécouvert au XIXe siècle, il est aujourd'hui adoré pour cette chose presque impossible : faire de l'instant le plus humble (une fille qui verse du lait) une éternité de silence et de lumière."
+          "bio_longue": "Johannes Vermeer (1632-1675), de Delft, est un mystère. Il peint très peu — une trentaine de toiles connues — lentement, peut-être à l'aide d'une chambre obscure pour saisir la lumière. Marchand de tableaux par ailleurs, père de nombreux enfants, il meurt jeune, endetté, et tombe dans un oubli total pendant deux siècles. Redécouvert au XIXe siècle, il est aujourd'hui adoré pour cette chose presque impossible : faire de l'instant le plus humble (une fille qui verse du lait) une éternité de silence et de lumière.",
+          "bio_sections": [
+            {
+              "h": "Le mystère de Delft",
+              "p": "Johannes Vermeer est une énigme : on sait peu de chose de lui, sinon qu'il vit à Delft, marchand de tableaux par ailleurs, père de nombreux enfants. Il peint très peu — une trentaine de toiles connues — et lentement."
+            },
+            {
+              "h": "Le silence et la lumière",
+              "p": "Ses intérieurs — une femme qui lit une lettre, verse du lait (La Laitière), rêve près d'une fenêtre — élèvent l'instant le plus humble au sublime. Une lumière douce, des couleurs d'une pureté de joyau, un temps suspendu."
+            },
+            {
+              "h": "Une vie obscure",
+              "p": "Il aurait peut-être utilisé une chambre obscure pour capter la lumière. Il meurt jeune, endetté, dans l'oubli — laissant une œuvre minuscule mais parfaite."
+            },
+            {
+              "h": "La redécouverte",
+              "p": "Oublié pendant deux siècles, Vermeer est redécouvert au XIXe siècle et reconnu comme l'un des plus grands. Faire d'un geste banal une éternité de silence : personne n'a égalé cela."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1561,7 +1597,25 @@
           "role": "",
           "wiki": "Frans Hals",
           "portrait": "Haarlem ; portraits éclatants de vie, touche rapide et libre (Le Cavalier riant).",
-          "bio_longue": "Frans Hals (vers 1582-1666), de Haarlem, est le peintre de la vie qui jaillit. Sa touche rapide, libre, presque esquissée, saisit le sourire, le rire, le mouvement — c'est le contraire du portrait figé. Ses gardes civiques attablés débordent d'énergie et de bonhomie. Très demandé puis passé de mode, il finit pauvre, secouru par la ville ; ses derniers portraits, gris et graves, sont d'une profondeur saisissante."
+          "bio_longue": "Frans Hals (vers 1582-1666), de Haarlem, est le peintre de la vie qui jaillit. Sa touche rapide, libre, presque esquissée, saisit le sourire, le rire, le mouvement — c'est le contraire du portrait figé. Ses gardes civiques attablés débordent d'énergie et de bonhomie. Très demandé puis passé de mode, il finit pauvre, secouru par la ville ; ses derniers portraits, gris et graves, sont d'une profondeur saisissante.",
+          "bio_sections": [
+            {
+              "h": "Haarlem, la touche libre",
+              "p": "Frans Hals, de Haarlem, est le peintre de la vie qui jaillit. Sa touche est rapide, large, presque esquissée — révolutionnaire pour l'époque, où l'on attendait un fini lisse."
+            },
+            {
+              "h": "Le rire et le mouvement",
+              "p": "Là où le portrait était figé, Hals saisit le sourire, le rire, le geste suspendu (Le Cavalier riant). Ses gardes civiques attablés débordent d'énergie et de bonhomie."
+            },
+            {
+              "h": "Le déclin",
+              "p": "Très demandé puis passé de mode, il finit pauvre, secouru par la ville de Haarlem qui lui verse une petite pension."
+            },
+            {
+              "h": "La gravité finale",
+              "p": "Ses derniers portraits, gris et graves, atteignent une profondeur saisissante. Sa touche audacieuse fascinera les modernes, de Manet aux impressionnistes."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2735,7 +2789,25 @@
           "role": "Précurseur",
           "wiki": "Édouard Manet",
           "portrait": "Le précurseur scandaleux (Le Déjeuner sur l'herbe, Olympia) ; pont entre réalisme et impressionnisme.",
-          "bio_longue": "Édouard Manet (1832-1883), fils de la grande bourgeoisie parisienne, voulait être reconnu par le Salon officiel — et passa sa vie à le scandaliser malgré lui. Élégant, cultivé, il admire les maîtres anciens (Vélasquez, Goya) mais peint la vie moderne : cafés, courses, demi-mondaines. Son refus d'idéaliser et sa peinture en aplats francs en font le pivot entre le réalisme et l'impressionnisme. Plus âgé que Monet ou Renoir, il leur sert de modèle et de chef de file involontaire, sans jamais exposer avec eux. La reconnaissance officielle ne viendra qu'à la toute fin de sa vie."
+          "bio_longue": "Édouard Manet (1832-1883), fils de la grande bourgeoisie parisienne, voulait être reconnu par le Salon officiel — et passa sa vie à le scandaliser malgré lui. Élégant, cultivé, il admire les maîtres anciens (Vélasquez, Goya) mais peint la vie moderne : cafés, courses, demi-mondaines. Son refus d'idéaliser et sa peinture en aplats francs en font le pivot entre le réalisme et l'impressionnisme. Plus âgé que Monet ou Renoir, il leur sert de modèle et de chef de file involontaire, sans jamais exposer avec eux. La reconnaissance officielle ne viendra qu'à la toute fin de sa vie.",
+          "bio_sections": [
+            {
+              "h": "Un bourgeois qui rêve du Salon",
+              "p": "Édouard Manet naît dans la grande bourgeoisie parisienne et veut, plus que tout, la reconnaissance officielle du Salon. Cultivé, élégant, il admire les maîtres anciens — Vélasquez, Goya — mais choisit de peindre la vie de son temps : cafés, courses, demi-mondaines."
+            },
+            {
+              "h": "Le scandale",
+              "p": "Son Déjeuner sur l'herbe (un nu banalisé en plein jour) puis son Olympia (une prostituée qui nous fixe sans pudeur) font scandale. Non pour le nu, banal en peinture, mais parce qu'il refuse de l'ennoblir : c'est une femme d'aujourd'hui, peinte en à-plats francs, qui assume d'être de la peinture."
+            },
+            {
+              "h": "Le père malgré lui",
+              "p": "Plus âgé que Monet ou Renoir, Manet leur sert de modèle et de chef de file — sans jamais exposer avec eux, car il continue d'espérer le Salon. C'est lui qui a fait sauter le verrou : peindre librement, sans idéaliser."
+            },
+            {
+              "h": "La reconnaissance tardive",
+              "p": "La gloire officielle ne vient qu'à la toute fin de sa vie. Malade, il meurt en 1883, laissant l'image du pivot exact entre le réalisme et l'impressionnisme — le père de la peinture moderne."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2744,7 +2816,25 @@
           "role": "Impressionnisme",
           "wiki": "Claude Monet",
           "portrait": "Le plus pur impressionniste ; séries (cathédrales, meules, Nymphéas).",
-          "bio_longue": "Claude Monet (1840-1926) est l'âme et le plus tenace des impressionnistes — celui qui restera fidèle au mouvement toute sa vie quand les autres s'en éloigneront. Sa jeunesse est misérable (il aurait tenté de se suicider, sa première femme Camille meurt jeune dans la pauvreté). Obsédé par la lumière, il peint en séries la même chose à toute heure. Riche et célèbre à la fin, il aménage son jardin d'eau à Giverny comme un motif vivant et y peint les immenses Nymphéas, quasi abstraits, malgré une vue déclinante. Il meurt en patriarche de la peinture moderne."
+          "bio_longue": "Claude Monet (1840-1926) est l'âme et le plus tenace des impressionnistes — celui qui restera fidèle au mouvement toute sa vie quand les autres s'en éloigneront. Sa jeunesse est misérable (il aurait tenté de se suicider, sa première femme Camille meurt jeune dans la pauvreté). Obsédé par la lumière, il peint en séries la même chose à toute heure. Riche et célèbre à la fin, il aménage son jardin d'eau à Giverny comme un motif vivant et y peint les immenses Nymphéas, quasi abstraits, malgré une vue déclinante. Il meurt en patriarche de la peinture moderne.",
+          "bio_sections": [
+            {
+              "h": "Le Havre et le plein air",
+              "p": "Claude Monet grandit au Havre, où le peintre Boudin l'initie à peindre dehors, sur le motif. Sa jeunesse est misérable — la pauvreté, la maladie, la mort précoce de sa première femme Camille. Mais une obsession le tient : la lumière."
+            },
+            {
+              "h": "Le tableau qui nomme un mouvement",
+              "p": "En 1872, il peint Impression, soleil levant — un port dans la brume, tout en touches rapides. Exposée en 1874, elle vaut au groupe son nom moqueur d'« impressionnistes ». On peint désormais la sensation lumineuse de l'instant, pas l'objet connu."
+            },
+            {
+              "h": "Les séries",
+              "p": "Monet pousse l'idée à l'extrême : il peint la même chose encore et encore — meules, cathédrale de Rouen, peupliers — à différentes heures, pour saisir non la chose mais la lumière changeante qui la baigne."
+            },
+            {
+              "h": "Giverny et les Nymphéas",
+              "p": "Riche et célèbre à la fin, il aménage son jardin d'eau à Giverny et y peint les immenses Nymphéas : plus d'horizon, plus de rive, l'eau et le reflet confondus en pure couleur. Sans le vouloir, il arrive aux portes de l'abstraction."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2753,7 +2843,25 @@
           "role": "Impressionnisme",
           "wiki": "Pierre-Auguste Renoir",
           "portrait": "La joie, la lumière, les chairs (Bal du moulin de la Galette).",
-          "bio_longue": "Pierre-Auguste Renoir (1841-1919), ancien peintre sur porcelaine, est l'impressionniste de la joie : bals, déjeuners, baigneuses, lumière qui danse à travers les feuilles, chairs roses et chaleureuses. « La peinture est faite pour être agréable », disait-il. Vieillissant, perclus de rhumatismes, il continue de peindre les pinceaux attachés à ses doigts déformés."
+          "bio_longue": "Pierre-Auguste Renoir (1841-1919), ancien peintre sur porcelaine, est l'impressionniste de la joie : bals, déjeuners, baigneuses, lumière qui danse à travers les feuilles, chairs roses et chaleureuses. « La peinture est faite pour être agréable », disait-il. Vieillissant, perclus de rhumatismes, il continue de peindre les pinceaux attachés à ses doigts déformés.",
+          "bio_sections": [
+            {
+              "h": "Du décor de porcelaine à la peinture",
+              "p": "Pierre-Auguste Renoir débute comme peintre sur porcelaine, métier qui lui donne le goût des couleurs claires et des sujets aimables. Il rejoint le groupe impressionniste dans la fièvre des années 1870."
+            },
+            {
+              "h": "Le peintre de la joie",
+              "p": "« La peinture est faite pour être agréable », disait-il. Bals, déjeuners, baigneuses, lumière qui danse à travers les feuilles, chairs roses et chaleureuses : son Bal du moulin de la Galette respire le bonheur d'un dimanche."
+            },
+            {
+              "h": "Le retour à la forme",
+              "p": "Inquiet d'avoir « perdu le dessin », il revient plus tard à des formes plus pleines, plus sculpturales, sans rien perdre de sa chaleur."
+            },
+            {
+              "h": "La main déformée",
+              "p": "Vieillissant, perclus de rhumatismes, Renoir continue de peindre les pinceaux attachés à ses doigts noués — image bouleversante d'un homme qui ne vit que pour la couleur."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2762,7 +2870,25 @@
           "role": "Impressionnisme",
           "wiki": "Edgar Degas",
           "portrait": "Danseuses, courses, cadrages photographiques et japonisants.",
-          "bio_longue": "Edgar Degas (1834-1917) est l'impressionniste à part : bourgeois solitaire et caustique, il déteste peindre dehors et se dit « réaliste ». Maître du dessin, fasciné par le mouvement, il saisit les danseuses à l'entraînement, les courses de chevaux, les blanchisseuses, avec des cadrages coupés, en plongée, hérités de la photographie et de l'estampe japonaise. Sa vue baissant, il se tourne vers le pastel et la sculpture."
+          "bio_longue": "Edgar Degas (1834-1917) est l'impressionniste à part : bourgeois solitaire et caustique, il déteste peindre dehors et se dit « réaliste ». Maître du dessin, fasciné par le mouvement, il saisit les danseuses à l'entraînement, les courses de chevaux, les blanchisseuses, avec des cadrages coupés, en plongée, hérités de la photographie et de l'estampe japonaise. Sa vue baissant, il se tourne vers le pastel et la sculpture.",
+          "bio_sections": [
+            {
+              "h": "L'impressionniste à part",
+              "p": "Edgar Degas, bourgeois cultivé et solitaire, expose avec les impressionnistes mais se dit « réaliste » : il déteste peindre dehors et ne croit qu'au travail d'atelier et au dessin."
+            },
+            {
+              "h": "Le mouvement saisi",
+              "p": "Fasciné par le corps en action, il guette les danseuses à l'entraînement, les courses de chevaux, les blanchisseuses — avec des cadrages coupés, en plongée, hérités de la photographie et de l'estampe japonaise."
+            },
+            {
+              "h": "Le maître du dessin",
+              "p": "Là où les autres dissolvent la forme dans la lumière, Degas la cerne d'un trait magistral. La ligne reste, chez lui, l'ossature de tout."
+            },
+            {
+              "h": "Vers le pastel et la sculpture",
+              "p": "Sa vue baissant avec l'âge, il se tourne vers le pastel, plus tactile, et vers la sculpture (sa Petite danseuse de quatorze ans). Misanthrope, il s'éteint presque aveugle."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2779,7 +2905,25 @@
           "role": "Post-impr. (structure)",
           "wiki": "Paul Cézanne",
           "portrait": "La structure ; le « père de l'art moderne ».",
-          "bio_longue": "Paul Cézanne (1839-1906), fils d'un riche banquier d'Aix-en-Provence, travaille longtemps dans l'incompréhension et la solitude. Il cherche obstinément la structure géométrique cachée sous l'apparence — il peint la montagne Sainte-Victoire des dizaines de fois, en plans de couleur qui construisent l'espace. Raté de son vivant, il devient après sa mort « le père de nous tous » (Picasso, Matisse) : son analyse de la forme ouvre directement le cubisme."
+          "bio_longue": "Paul Cézanne (1839-1906), fils d'un riche banquier d'Aix-en-Provence, travaille longtemps dans l'incompréhension et la solitude. Il cherche obstinément la structure géométrique cachée sous l'apparence — il peint la montagne Sainte-Victoire des dizaines de fois, en plans de couleur qui construisent l'espace. Raté de son vivant, il devient après sa mort « le père de nous tous » (Picasso, Matisse) : son analyse de la forme ouvre directement le cubisme.",
+          "bio_sections": [
+            {
+              "h": "Aix, l'incompris",
+              "p": "Paul Cézanne, fils d'un riche banquier d'Aix-en-Provence, travaille des décennies dans l'incompréhension et la solitude, loin de Paris. Ami d'enfance de Zola, rugueux, acharné, il cherche autre chose que ses amis impressionnistes."
+            },
+            {
+              "h": "Au-delà de la sensation",
+              "p": "Il juge l'impressionnisme trop superficiel — « rien que de la sensation ». Lui veut retrouver la structure solide, durable, cachée sous l'apparence changeante."
+            },
+            {
+              "h": "La montagne Sainte-Victoire",
+              "p": "Il peint la même montagne des dizaines de fois, en plans de couleur juxtaposés qui construisent l'espace comme une architecture. Sa devise : « traiter la nature par le cylindre, la sphère, le cône »."
+            },
+            {
+              "h": "« Le père de nous tous »",
+              "p": "Raté de son vivant, il devient après sa mort la référence des modernes : Picasso et Matisse l'appelleront « le père de nous tous ». Son analyse de la forme ouvre directement la porte du cubisme."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2788,7 +2932,25 @@
           "role": "Post-impr. (émotion)",
           "wiki": "Vincent van Gogh",
           "portrait": "L'émotion par la couleur ; vie tragique, gloire posthume.",
-          "bio_longue": "Vincent van Gogh (1853-1890) ne peint que dix ans, et ne vend presque rien de son vivant. Ancien prédicateur raté, écorché vif, il met dans la couleur et la touche tourbillonnante toute sa souffrance et sa ferveur. À Arles, rêvant d'une communauté d'artistes, il se brouille violemment avec Gauguin et se mutile l'oreille. Interné, il peint dans des crises ses chefs-d'œuvre (La Nuit étoilée), puis se tire une balle à 37 ans. Sa correspondance avec son frère Theo est l'un des plus bouleversants témoignages sur l'acte de créer. Gloire posthume immense."
+          "bio_longue": "Vincent van Gogh (1853-1890) ne peint que dix ans, et ne vend presque rien de son vivant. Ancien prédicateur raté, écorché vif, il met dans la couleur et la touche tourbillonnante toute sa souffrance et sa ferveur. À Arles, rêvant d'une communauté d'artistes, il se brouille violemment avec Gauguin et se mutile l'oreille. Interné, il peint dans des crises ses chefs-d'œuvre (La Nuit étoilée), puis se tire une balle à 37 ans. Sa correspondance avec son frère Theo est l'un des plus bouleversants témoignages sur l'acte de créer. Gloire posthume immense.",
+          "bio_sections": [
+            {
+              "h": "L'écorché vif",
+              "p": "Vincent van Gogh, Hollandais, est d'abord marchand d'art, puis prédicateur raté auprès des mineurs. Écorché, mystique, il ne se met à peindre que vers 27 ans — et ne peindra que dix ans."
+            },
+            {
+              "h": "La couleur comme cri",
+              "p": "Il met dans la couleur et la touche tourbillonnante toute sa ferveur et sa souffrance. Ce n'est plus le monde qu'il peint, mais ce qu'il ressent — la naissance de l'expressionnisme."
+            },
+            {
+              "h": "Arles, Gauguin, la crise",
+              "p": "À Arles, il rêve d'une communauté d'artistes et fait venir Gauguin ; leur cohabitation tourne au drame, Van Gogh se mutile l'oreille. Interné à Saint-Rémy, il peint dans ses crises ses plus grands chefs-d'œuvre, dont La Nuit étoilée."
+            },
+            {
+              "h": "Mort à 37 ans, gloire posthume",
+              "p": "Il se tire une balle en 1890, n'ayant presque rien vendu de son vivant. Sa correspondance bouleversante avec son frère Theo, et la force de son œuvre, en feront l'un des artistes les plus aimés au monde."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2797,7 +2959,25 @@
           "role": "Post-impr. (symbole)",
           "wiki": "Paul Gauguin",
           "portrait": "Le symbole, l'aplat, la fuite à Tahiti.",
-          "bio_longue": "Paul Gauguin (1848-1903) était un agent de change prospère ; à 35 ans, il quitte tout — métier, femme, enfants — pour peindre. En quête d'un art plus « pur » et plus spirituel, il fuit la civilisation occidentale jusqu'à Tahiti, où il peint des aplats de couleurs vives et des figures symboliques. Sa vie là-bas est trouble et misérable, mais son refus du réalisme, sa couleur libérée et son goût du « primitif » influenceront profondément le fauvisme et tout l'art du XXe siècle."
+          "bio_longue": "Paul Gauguin (1848-1903) était un agent de change prospère ; à 35 ans, il quitte tout — métier, femme, enfants — pour peindre. En quête d'un art plus « pur » et plus spirituel, il fuit la civilisation occidentale jusqu'à Tahiti, où il peint des aplats de couleurs vives et des figures symboliques. Sa vie là-bas est trouble et misérable, mais son refus du réalisme, sa couleur libérée et son goût du « primitif » influenceront profondément le fauvisme et tout l'art du XXe siècle.",
+          "bio_sections": [
+            {
+              "h": "L'agent de change qui plaque tout",
+              "p": "Paul Gauguin mène d'abord une vie rangée d'agent de change prospère. À 35 ans, il quitte tout — métier, femme, enfants — pour devenir peintre. Un pari radical et un peu fou."
+            },
+            {
+              "h": "L'aplat et le symbole",
+              "p": "Il rejette le réalisme et l'impressionnisme au profit d'aplats de couleurs vives cernés de contours, et de figures chargées de symboles. La couleur n'imite plus, elle exprime et signifie."
+            },
+            {
+              "h": "La fuite à Tahiti",
+              "p": "En quête d'un art plus « pur » et plus spirituel, il fuit la civilisation occidentale jusqu'à Tahiti. Sa vie là-bas est trouble et misérable, mais il y peint des chefs-d'œuvre lumineux et énigmatiques."
+            },
+            {
+              "h": "Le père du fauvisme",
+              "p": "Sa couleur libérée et son goût du « primitif » influenceront profondément Matisse, les fauves et tout l'art du XXe siècle. Il meurt isolé aux Marquises, en 1903."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2822,7 +3002,25 @@
           "role": "Sculpture",
           "wiki": "Auguste Rodin",
           "portrait": "La sculpture renouvelée (Le Penseur, Le Baiser).",
-          "bio_longue": "Auguste Rodin (1840-1917) fait pour la sculpture ce que les impressionnistes font pour la peinture : il la rend vivante, frémissante, expressive. Recalé trois fois aux Beaux-Arts, il s'impose par la seule force de son travail (Le Penseur, Le Baiser, Les Bourgeois de Calais). Ses surfaces vibrantes, ses figures inachevées émergeant du bloc, son intensité dramatique font de lui le plus grand sculpteur depuis Michel-Ange et le passeur vers la sculpture moderne."
+          "bio_longue": "Auguste Rodin (1840-1917) fait pour la sculpture ce que les impressionnistes font pour la peinture : il la rend vivante, frémissante, expressive. Recalé trois fois aux Beaux-Arts, il s'impose par la seule force de son travail (Le Penseur, Le Baiser, Les Bourgeois de Calais). Ses surfaces vibrantes, ses figures inachevées émergeant du bloc, son intensité dramatique font de lui le plus grand sculpteur depuis Michel-Ange et le passeur vers la sculpture moderne.",
+          "bio_sections": [
+            {
+              "h": "Le mal-aimé des écoles",
+              "p": "Auguste Rodin est recalé trois fois aux Beaux-Arts. Il s'impose par la seule force de son travail acharné, après des années de galère comme praticien pour d'autres sculpteurs."
+            },
+            {
+              "h": "La sculpture rendue vivante",
+              "p": "Avec Le Penseur, Le Baiser ou Les Bourgeois de Calais, il fait pour la sculpture ce que les impressionnistes font pour la peinture : il la rend frémissante, expressive, palpitante de vie."
+            },
+            {
+              "h": "Surfaces vibrantes, figures inachevées",
+              "p": "Ses surfaces accrochent la lumière, ses figures émergent parfois à demi du bloc brut — l'inachevé devient une force. Le scandale (on l'accuse d'avoir moulé sur le vif) accompagne sa gloire."
+            },
+            {
+              "h": "Le plus grand depuis Michel-Ange",
+              "p": "Considéré comme le plus grand sculpteur depuis Michel-Ange, il est le passeur vers la sculpture moderne, qu'il libère de l'académisme."
+            }
+          ]
         }
       ],
       "index": [
