@@ -257,20 +257,54 @@
           "dates": "1401-1428",
           "role": "le pionnier foudroyé",
           "wiki": "Masaccio",
-          "portrait": "Mort à 27 ans, il change tout : fusionne perspective, volume et observation. Tous les grands Florentins iront étudier ses fresques.",
+          "portrait": "Masaccio (1401-1428) est le jeune génie qui, mort à 27 ans, a fait entrer la peinture dans la Renaissance. En quelques années, il a appliqué à la peinture la perspective de Brunelleschi et la solidité de Giotto, donnant à ses figures un poids, une lumière et un espace réels — point de départ de tout le Quattrocento.",
           "groupe": "École de Florence & Rome — le dessin",
           "bio_sections": [
             {
-              "h": "Le pionnier mort jeune",
-              "p": "Masaccio meurt vers 27 ans, mais en quelques années il fait pour la peinture ce que Brunelleschi fait pour l'architecture : il y introduit la perspective et la lumière réelles."
+              "h": "L'enfance : un surnom révélateur",
+              "p": "Né en 1401 dans un village de Toscane, Tommaso di Ser Giovanni est surnommé « Masaccio » — Thomas le négligé, le balourd — parce qu'il ne pensait qu'à son art, indifférent à tout le reste. Cette concentration absolue sur la peinture, dès la jeunesse, dit déjà l'intensité de ce talent foudroyant et bref."
             },
             {
-              "h": "La chapelle Brancacci",
-              "p": "Ses fresques (l'Adam et Ève chassés du Paradis, le Paiement du tribut) montrent des corps massifs, modelés par une vraie lumière, occupant un vrai espace. Adam et Ève y pleurent comme de vrais êtres."
+              "h": "Le déclic : Brunelleschi et Donatello",
+              "p": "À Florence, le jeune Masaccio fréquente l'architecte Brunelleschi (inventeur de la perspective) et le sculpteur Donatello (maître du corps solide). De ces deux aînés il tire l'essentiel : il va peindre l'espace selon les lois mathématiques de la perspective, et les corps avec le poids et la dignité de la sculpture antique."
             },
             {
-              "h": "La Trinité",
-              "p": "Sa Trinité de Santa Maria Novella ouvre, par la perspective, une chapelle illusoire dans le mur de l'église : le spectateur croit voir un espace réel. Toute la Renaissance peinte commence là."
+              "h": "La perspective et la lumière vraies",
+              "p": "Sa Trinité de Santa Maria Novella ouvre, par une perspective parfaite, une chapelle illusoire dans le mur de l'église : les fidèles croient voir un espace réel se creuser devant eux. C'est la première application rigoureuse de la perspective scientifique en peinture — une révolution qui change tout."
+            },
+            {
+              "h": "Son moteur : la vérité du corps et de l'émotion",
+              "p": "Dans la chapelle Brancacci, son Adam et Ève chassés du paradis montre deux corps nus, lourds, accablés, dont la douleur est bouleversante de vérité : Ève hurle, Adam se cache le visage. Le Paiement du tribut déploie des apôtres massifs, modelés par une vraie lumière, occupant un vrai sol. La gravité humaine fait son entrée."
+            },
+            {
+              "h": "Le message : la dignité monumentale",
+              "p": "Masaccio rcompose comme un sculpteur : peu de figures, mais graves, monumentales, occupant pleinement l'espace, baignées d'une lumière qui vient d'une direction précise. Il abandonne le joli détail gothique pour la force et la simplicité. La peinture devient sérieuse, humaine, grandiose."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Masaccio le véritable point de départ de la peinture de la Renaissance : ce que Giotto avait amorcé un siècle plus tôt, il le systématise et le fonde scientifiquement. Tous les grands Florentins étudieront la chapelle Brancacci, de Léonard à Michel-Ange. Gombrich en fait l'un des plus grands révolutionnaires de l'art, malgré sa vie d'à peine 27 ans."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains restent attachés à la grâce gothique et au détail précieux, Masaccio choisit, seul et d'emblée, la force, l'espace et la vérité. Mort si jeune, à Rome, dans des circonstances obscures (empoisonné, dit la rumeur), il laisse une œuvre minuscule mais décisive : sans lui, la Renaissance n'aurait pas eu son socle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Paiement du tribut",
+              "artiste": "Masaccio",
+              "annee": "v. 1425",
+              "lieu": "Chapelle Brancacci, Florence",
+              "wiki": "The Tribute Money",
+              "analyse": "Trois moments du récit (le percepteur, Pierre pêchant la pièce, le paiement) se déroulent dans un paysage où la lumière vient d'une direction unique. Apôtres massifs et graves, espace réel : la chapelle qu'étudieront tous les grands Florentins."
+            },
+            {
+              "titre": "Adam et Ève chassés du paradis",
+              "artiste": "Masaccio",
+              "annee": "v. 1425",
+              "lieu": "Chapelle Brancacci, Florence",
+              "wiki": "The Expulsion from the Garden of Eden",
+              "analyse": "Adam se cache le visage de honte, Ève hurle, bouche grande ouverte, en quittant l'Éden. Deux corps nus, lourds et vrais, écrasés de douleur : la première grande expression de la souffrance humaine de la Renaissance, d'une intensité bouleversante."
             }
           ]
         },
@@ -279,20 +313,70 @@
           "dates": "~1386-1466",
           "role": "le sculpteur révolutionnaire",
           "wiki": "Donatello",
-          "portrait": "Ramène le nu autonome et l'émotion intense. Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité.",
+          "portrait": "Donatello (v. 1386-1466) est le plus grand sculpteur du Quattrocento florentin et l'un des fondateurs de l'art de la Renaissance. Inventif, audacieux, capable de tendresse comme de violence expressive, il a ressuscité le nu antique, l'émotion vraie et la statue équestre — préparant la voie à Michel-Ange.",
           "groupe": "École de Florence & Rome — le dessin",
           "bio_sections": [
             {
-              "h": "Le sculpteur révolutionnaire",
-              "p": "Donatello est le grand sculpteur du Quattrocento florentin, ami de Brunelleschi."
+              "h": "L'enfance : l'atelier de Florence",
+              "p": "Né vers 1386 à Florence, fils d'un cardeur de laine, Donato di Niccolò — Donatello — se forme dans les ateliers d'orfèvrerie et de sculpture, notamment auprès de Ghiberti. Ami de l'architecte Brunelleschi, avec qui il voyage à Rome étudier les ruines antiques, il puise dès sa jeunesse aux deux sources : l'Antiquité et l'observation du réel."
             },
             {
-              "h": "Le nu retrouvé",
-              "p": "Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité — audace inouïe. Il ramène aussi l'émotion intense et le relief « écrasé » (rilievo schiacciato)."
+              "h": "Le déclic : ressusciter l'antique",
+              "p": "À Rome, Donatello étudie les statues romaines et veut retrouver leur puissance. Mais il ne copie pas : il invente. Son Saint Georges, jeune chevalier alerte et résolu, ou ses prophètes au réalisme presque brutal (le « Zuccone ») rompent avec le gothique pour une vérité humaine nouvelle, nourrie de l'antique."
             },
             {
-              "h": "Le Gattamelata",
-              "p": "Sa statue équestre du condottiere Gattamelata, à Padoue, ressuscite la grande statuaire équestre romaine. Il ouvre la voie à tous les sculpteurs qui suivront, jusqu'à Michel-Ange."
+              "h": "Le David, premier nu depuis l'Antiquité",
+              "p": "Son David en bronze est un événement : le premier nu masculin grandeur nature depuis mille ans. Jeune, lisse, ambigu, coiffé d'un chapeau de berger, le pied posé sur la tête de Goliath, il ressuscite la sculpture antique en ronde-bosse autonome, faite pour être vue de tous côtés. Une audace inouïe."
+            },
+            {
+              "h": "Son moteur : l'expression et l'audace",
+              "p": "Donatello ne recule devant rien : la tendresse de ses Vierges, la fureur de ses prophètes, l'horreur de sa Marie-Madeleine pénitente — vieille femme décharnée, en haillons, rongée par le jeûne — d'un réalisme expressif saisissant. Il invente aussi le relief « écrasé » (rilievo schiacciato), où quelques millimètres suggèrent une profondeur infinie."
+            },
+            {
+              "h": "Le message : la statue équestre retrouvée",
+              "p": "Son Gattamelata, à Padoue, est la première grande statue équestre en bronze depuis l'Antiquité : un condottiere impassible sur son cheval, image de l'autorité et de la gloire militaire, directement inspirée des empereurs romains. Il rend à la sculpture sa fonction monumentale et publique."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Donatello le plus grand sculpteur avant Michel-Ange et l'un des piliers de la Renaissance, au même titre que Masaccio en peinture et Brunelleschi en architecture. Gombrich souligne son extraordinaire variété — du charme à la terreur — et son rôle dans la résurrection du nu et de la grande statuaire."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où d'autres cherchent la beauté idéale, Donatello cherche d'abord la vérité expressive, fût-elle rude ou troublante. D'une longévité et d'une fécondité rares, toujours en recherche, il a ouvert presque toutes les voies que la sculpture de la Renaissance allait explorer. Michel-Ange lui doit son David et bien plus."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "David",
+              "artiste": "Donatello",
+              "annee": "v. 1440",
+              "lieu": "Musée du Bargello, Florence",
+              "wiki": "David (Donatello)",
+              "analyse": "Premier nu masculin grandeur nature depuis l'Antiquité : un jeune David lisse et rêveur, coiffé d'un chapeau de berger, le pied sur la tête de Goliath. Sensuel, ambigu, fait pour être contemplé de tous côtés — la statue antique ressuscitée."
+            },
+            {
+              "titre": "Le Gattamelata",
+              "artiste": "Donatello",
+              "annee": "1453",
+              "lieu": "Piazza del Santo, Padoue",
+              "wiki": "Equestrian statue of Gattamelata",
+              "analyse": "Première grande statue équestre en bronze depuis l'Antiquité romaine : le condottiere, impassible et puissant sur son cheval, incarne l'autorité militaire. Donatello rend à la sculpture sa grandeur monumentale et publique, modèle de tous les monuments équestres à venir."
+            },
+            {
+              "titre": "Marie-Madeleine pénitente",
+              "artiste": "Donatello",
+              "annee": "v. 1455",
+              "lieu": "Museo dell'Opera del Duomo, Florence",
+              "wiki": "Penitent Magdalene (Donatello)",
+              "analyse": "Loin de toute beauté idéale : une vieille femme décharnée, en haillons, les cheveux comme une crinière, ravagée par les jeûnes et la pénitence. Un réalisme expressif bouleversant, presque expressionniste, œuvre de la vieillesse de Donatello."
+            },
+            {
+              "titre": "Saint Georges",
+              "artiste": "Donatello",
+              "annee": "v. 1416",
+              "lieu": "Musée du Bargello, Florence",
+              "wiki": "Saint George (Donatello)",
+              "analyse": "Un jeune chevalier debout, alerte, le regard fixe et résolu, prêt au combat. Réalisée pour une niche d'Orsanmichele, la statue exprime la vigilance et le courage : déjà toute la dignité humaine de la Renaissance dans un corps tendu."
             }
           ]
         },
@@ -2783,19 +2867,61 @@
           "dates": "1599-1641",
           "role": "",
           "wiki": "Anthony van Dyck",
-          "portrait": "Élève de Rubens, portraitiste des cours (Charles Iᵉʳ d'Angleterre).",
+          "portrait": "Antoon van Dyck (1599-1641) est le plus brillant élève de Rubens et le créateur du portrait aristocratique moderne. Peintre de la cour de Charles Ier d'Angleterre, il a fixé l'image d'une noblesse élégante, hautaine et mélancolique qui marquera le portrait européen pour deux siècles.",
           "bio_sections": [
             {
-              "h": "L'élève de Rubens",
-              "p": "Antoon van Dyck, prodige flamand, est le plus brillant collaborateur de Rubens avant de voler de ses propres ailes."
+              "h": "L'enfance : le prodige d'Anvers",
+              "p": "Né en 1599 à Anvers dans une famille aisée de marchands de soie, Van Dyck est un enfant prodige : il peint avec maîtrise dès l'adolescence et ouvre son propre atelier très jeune. Doué, ambitieux, raffiné, il a tout pour réussir vite — et il réussira, plus vite que personne de sa génération."
             },
             {
-              "h": "Le portraitiste des rois",
-              "p": "Peintre de la cour de Charles Ier d'Angleterre, il crée le portrait aristocratique par excellence : élégance hautaine, mains fines, étoffes soyeuses, mélancolie distinguée."
+              "h": "Le déclic : l'atelier de Rubens",
+              "p": "Van Dyck devient le principal collaborateur de Rubens, qui le tient pour son meilleur élève. Il en assimile la couleur, l'énergie, la maîtrise — mais cherche très tôt sa propre voie, plus élégante et plus retenue. Puis il part en Italie étudier Titien, dont la noblesse et la couleur le marquent durablement."
             },
             {
-              "h": "Le modèle anglais",
-              "p": "Son image du gentleman raffiné marquera durablement tout le portrait anglais, de Reynolds à Gainsborough."
+              "h": "Le portraitiste de l'élégance",
+              "p": "Van Dyck trouve sa vocation dans le portrait : il sait, mieux que quiconque, magnifier ses modèles, allonger leurs silhouettes, affiner leurs mains, draper leurs soieries, leur donner une grâce hautaine et une distinction naturelles. Sous son pinceau, l'aristocrate devient l'image même de la noblesse."
+            },
+            {
+              "h": "Son moteur : la distinction et la grâce",
+              "p": "Ce qui guide Van Dyck, c'est l'élégance : la pose nonchalante, le regard distant, l'allure raffinée. Il flatte sans vulgarité, idéalise avec mesure. Une légère mélancolie traverse ses portraits, qui leur donne une profondeur et une poésie particulières, au-delà du simple apparat."
+            },
+            {
+              "h": "Le message : l'image du pouvoir Stuart",
+              "p": "Devenu peintre de la cour de Charles Ier d'Angleterre, anobli, Van Dyck crée l'iconographie de la monarchie Stuart : le roi à cheval, le roi à la chasse, élégant et souverain. Ces images si nobles contribueront à la légende du roi — qui sera pourtant décapité quelques années après la mort du peintre."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Van Dyck le fondateur de la grande tradition du portrait anglais : son modèle du gentleman raffiné inspirera directement Reynolds, Gainsborough et tout le XVIIIe siècle britannique. Gombrich souligne qu'il a inventé une formule du portrait aristocratique d'une élégance si parfaite qu'elle est devenue un standard européen."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Rubens, son maître, déborde d'énergie et de chair, Van Dyck offre la retenue, la grâce, la distinction mélancolique. Mort à seulement 42 ans à Londres, au sommet de la gloire, il a, en une carrière brève mais éclatante, redéfini ce qu'un portrait aristocratique pouvait être."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Charles Ier à la chasse",
+              "artiste": "Van Dyck",
+              "annee": "v. 1635",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Charles I at the Hunt",
+              "analyse": "Le roi, en tenue de chasse élégante, pose nonchalamment près de son cheval, le coude appuyé, regard hautain et lointain. Sans aucun attribut royal, il incarne pourtant la majesté par sa seule allure. Le chef-d'œuvre du portrait aristocratique."
+            },
+            {
+              "titre": "Charles Ier sous trois angles",
+              "artiste": "Van Dyck",
+              "annee": "1635-1636",
+              "lieu": "Royal Collection, Windsor",
+              "wiki": "Charles I in Three Positions",
+              "analyse": "Le roi peint de face et de profil sur la même toile, destinée à servir de modèle à un buste sculpté. Tour de force virtuose et image triple d'un souverain élégant, dont le visage mélancolique semble déjà pressentir un destin tragique."
+            },
+            {
+              "titre": "Portrait équestre de Charles Ier",
+              "artiste": "Van Dyck",
+              "annee": "v. 1638",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Equestrian Portrait of Charles I",
+              "analyse": "Le roi en armure, sur un cheval immense, sous un arbre majestueux : l'image du monarque souverain, dans la lignée du Charles Quint de Titien. La propagande royale Stuart portée à son sommet d'élégance."
             }
           ]
         },
@@ -3545,24 +3671,46 @@
           "dates": "1696-1770",
           "role": "",
           "wiki": "Giovanni Battista Tiepolo",
-          "portrait": "Le dernier grand maître du plafond baroque ; Venise, puis Würzburg et Madrid. Légèreté solaire.",
+          "portrait": "Giambattista Tiepolo (1696-1770) est le dernier grand maître de la fresque décorative et le génie du plafond lumineux. Vénitien d'une virtuosité et d'une rapidité prodigieuses, il a couvert palais et églises d'Europe de cieux clairs et de figures flottantes — le chant du cygne éblouissant de la grande peinture italienne.",
           "bio_longue": "Giambattista Tiepolo (1696-1770) est le dernier grand maître de la fresque baroque, et le plus grand décorateur du XVIIIe siècle. Vénitien, d'une facilité prodigieuse, il couvre d'immenses plafonds de cieux lumineux où des dizaines de figures semblent voler. Sa renommée est telle qu'on l'appelle à Würzburg pour décorer la résidence des princes-évêques (son plus vaste chef-d'œuvre), puis à Madrid au service du roi d'Espagne, où il meurt. Avec lui s'achève l'âge d'or de la peinture décorative italienne.",
           "bio_sections": [
             {
-              "h": "Le dernier maître du plafond",
-              "p": "Giambattista Tiepolo, Vénitien d'une facilité prodigieuse, est le dernier grand maître de la fresque décorative baroque."
+              "h": "L'enfance : Venise au crépuscule de sa gloire",
+              "p": "Né en 1696 à Venise, Tiepolo grandit dans une cité encore somptueuse mais sur le déclin politique. Fils d'un marchand mort tôt, il se forme vite et s'impose jeune par une facilité et une invention décoratives stupéfiantes. La grande tradition vénitienne de Véronèse, dont il se réclame, revit en lui une dernière fois."
             },
             {
-              "h": "Des cieux lumineux",
-              "p": "Il couvre d'immenses plafonds de cieux clairs et de figures flottantes, d'une légèreté et d'une virtuosité jamais égalées."
+              "h": "Le déclic : la lumière de Véronèse",
+              "p": "Tiepolo se nourrit de Véronèse : la couleur claire, la lumière argentée, le faste des architectures, les foules élégantes. Mais il allège tout, fait monter ses figures dans des cieux lumineux, et porte l'illusionnisme de plafond — ouvrir la voûte sur le ciel — à une perfection aérienne jamais atteinte."
             },
             {
-              "h": "Würzburg et Madrid",
-              "p": "Sa renommée l'appelle à Würzburg, en Allemagne, pour son plus vaste chef-d'œuvre, puis à Madrid au service du roi d'Espagne, où il meurt."
+              "h": "La maîtrise du plafond",
+              "p": "Sur d'immenses voûtes, Tiepolo déploie des cieux clairs où dieux, allégories et nuées flottent dans une lumière dorée, vus en raccourci depuis le bas. Sa rapidité d'exécution est légendaire : il couvre des surfaces colossales avec une aisance et une fraîcheur que personne n'égale. La fresque décorative atteint son sommet."
             },
             {
-              "h": "Le chant du cygne",
-              "p": "Avec lui s'achève l'âge d'or de la grande peinture décorative italienne : après lui, plus personne ne fera mieux dans ce genre."
+              "h": "Son moteur : l'invention et la légèreté",
+              "p": "Ce qui anime Tiepolo, c'est le plaisir de l'invention décorative : composer des scènes vastes et joyeuses, faire flotter les corps, jouer de la lumière et de la couleur claire. Sa peinture respire la facilité heureuse, l'élégance, le faste — un art du bonheur visuel et du spectacle."
+            },
+            {
+              "h": "Le message : la gloire célébrée",
+              "p": "Au service des princes, des évêques et des rois, Tiepolo met son art au service de la célébration : gloire des familles, triomphe de la foi, apothéoses. Sa renommée l'appelle à Würzburg, en Allemagne, pour son plus vaste chef-d'œuvre (un plafond célébrant les continents), puis à Madrid, au service du roi d'Espagne, où il meurt."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Tiepolo le dernier grand décorateur de la tradition italienne et l'un des plus grands fresquistes de tous les temps. Gombrich souligne qu'avec lui s'achève l'âge d'or de la grande peinture décorative : après lui, plus personne ne fera aussi bien dans ce genre, balayé par le néoclassicisme."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le siècle va vers la gravité néoclassique, Tiepolo offre une dernière fête de lumière et de couleur, héritière de la Renaissance vénitienne. Son génie aérien, sa virtuosité de la fresque, sa joie décorative font de lui une apothéose et une fin : le crépuscule éblouissant d'une tradition de trois siècles."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Banquet de Cléopâtre",
+              "artiste": "Tiepolo",
+              "annee": "1743-1744",
+              "lieu": "National Gallery of Victoria, Melbourne",
+              "wiki": "The Banquet of Cleopatra (Tiepolo)",
+              "analyse": "Cléopâtre dissout une perle dans le vinaigre pour gagner son pari avec Marc Antoine, dans un décor d'architectures somptueuses et de costumes vénitiens éclatants. Faste, lumière claire et élégance : l'héritage de Véronèse magnifié par la légèreté de Tiepolo."
             }
           ]
         },
@@ -3591,20 +3739,46 @@
           "dates": "1697-1768",
           "role": "",
           "wiki": "Canaletto",
-          "portrait": "Roi de la veduta vénitienne ; travaille beaucoup pour le marché anglais.",
+          "portrait": "Canaletto (1697-1768) est le maître de la veduta, la vue de ville : ses Venises lumineuses et minutieuses sont devenues l'image même de la Sérénissime. Mêlant exactitude topographique et mise en scène théâtrale, il a comblé les voyageurs du Grand Tour et fixé pour l'éternité le visage de sa cité.",
           "bio_longue": "Canaletto (Giovanni Antonio Canal, 1697-1768) est le roi de la veduta vénitienne. Fils de décorateur de théâtre, il transpose ce sens de la mise en scène dans des vues d'une précision saisissante (il s'aidait peut-être d'une chambre obscure). Sa clientèle est surtout anglaise — les voyageurs du Grand Tour — au point qu'il passe une dizaine d'années à Londres à peindre la Tamise. Ses Venises lumineuses et exactes sont devenues l'image même de la ville.",
           "bio_sections": [
             {
-              "h": "Le roi de la veduta",
-              "p": "Canaletto, fils de décorateur de théâtre, transpose ce sens de la mise en scène dans des vues de Venise d'une précision saisissante (peut-être aidé d'une chambre obscure)."
+              "h": "L'enfance : fils de décorateur de théâtre",
+              "p": "Né en 1697 à Venise, Giovanni Antonio Canal, dit Canaletto, est le fils d'un peintre de décors de théâtre, qu'il assiste dans sa jeunesse. Ce métier lui apprend la perspective spectaculaire, le sens de la mise en scène et de l'effet — qu'il transposera dans ses vues de la ville, traitées comme des décors grandioses."
             },
             {
-              "h": "Le marché anglais",
-              "p": "Sa clientèle est surtout anglaise — les voyageurs du Grand Tour qui veulent un souvenir de la Sérénissime — au point qu'il passe une dizaine d'années à Londres à peindre la Tamise."
+              "h": "Le déclic : la veduta",
+              "p": "Canaletto se tourne vers la veduta, la vue de ville précise et étendue, alors très demandée. Il parcourt Venise carnet en main, et l'on pense qu'il s'aida d'une chambre obscure pour saisir l'exactitude des perspectives. Le résultat : des vues d'une précision topographique stupéfiante, baignées d'une lumière limpide."
             },
             {
-              "h": "L'image de Venise",
-              "p": "Ses Venises lumineuses et exactes sont devenues l'image même de la ville ; une grande partie est aujourd'hui en Angleterre, rapportée dans les bagages des voyageurs."
+              "h": "L'exactitude et la lumière",
+              "p": "Ses Venises montrent chaque palais, chaque pont, chaque reflet sur l'eau avec une netteté minutieuse, sous un ciel clair et une lumière de beau temps. Mais Canaletto compose et arrange parfois la réalité pour la rendre plus belle : l'exactitude se met au service d'une Venise idéale, éclatante et ordonnée."
+            },
+            {
+              "h": "Son moteur : satisfaire le Grand Tour",
+              "p": "Sa clientèle est surtout étrangère : les riches voyageurs anglais du Grand Tour, qui veulent rapporter un souvenir éclatant de Venise. Son agent, le marchand Joseph Smith, lui assure ce marché. Canaletto produit donc des vues lumineuses et reconnaissables, taillées pour le goût de ces collectionneurs."
+            },
+            {
+              "h": "Le message : l'image éternelle de Venise",
+              "p": "Quand la guerre tarit le flux des touristes, Canaletto passe une dizaine d'années à Londres, peignant la Tamise avec le même œil. Mais c'est Venise qui reste son sujet : ses vues, dont une grande partie est aujourd'hui en Angleterre, sont devenues, pour le monde entier, l'image même de la ville."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Canaletto le maître de la veduta et un témoin précieux de la Venise du XVIIIe siècle. Gombrich souligne son extraordinaire maîtrise de la perspective et de la lumière, qui élève le « tableau-souvenir » au rang d'art véritable, et son influence sur le paysage urbain."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où son neveu et rival Guardi peint une Venise atmosphérique et poétique, presque impressionniste, Canaletto choisit l'exactitude lumineuse et l'ordre. Sa précision, sa clarté et son sens du grand spectacle urbain en font le portraitiste officiel d'une ville, dont il a figé à jamais la splendeur."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Chantier du tailleur de pierre",
+              "artiste": "Canaletto",
+              "annee": "v. 1725",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Stonemason's Yard",
+              "analyse": "Vue d'un chantier au bord du Grand Canal, avec ses tas de pierres, son linge qui sèche et ses Vénitiens au travail, sous une lumière douce du matin. Moins une carte postale qu'une scène de vie vraie : sans doute le plus beau et le plus humain des Canaletto."
             }
           ]
         },
@@ -3764,24 +3938,62 @@
           "dates": "1684-1721",
           "role": "",
           "wiki": "Antoine Watteau",
-          "portrait": "Inventeur de la fête galante ; grâce et mélancolie ; mort jeune, tuberculeux.",
+          "portrait": "Antoine Watteau (1684-1721) est l'inventeur de la fête galante et l'âme du Rococo naissant. Peintre de la grâce mélancolique, des parcs au crépuscule et des amours fragiles, il a, en une vie brève, créé un monde poétique unique où le plaisir est toujours teinté de tristesse.",
           "bio_longue": "Antoine Watteau (1684-1721) est le peintre le plus délicat du XVIIIe siècle. Venu des Flandres, de santé fragile, mélancolique, il invente la fête galante : des scènes de plaisir aristocratique baignées d'une lumière tendre et d'un sentiment de fuite du temps. Sa touche légère, vibrante, ses harmonies subtiles annoncent presque l'impressionnisme. Tuberculeux, il meurt à 36 ans. Sous la grâce de son monde de soie perce toujours une douce tristesse : le bonheur y est déjà un souvenir.",
           "bio_sections": [
             {
-              "h": "Venu des Flandres",
-              "p": "Antoine Watteau, de santé fragile et d'âme mélancolique, monte des Flandres à Paris où il invente un genre entièrement neuf."
+              "h": "L'enfance : les Flandres et la fragilité",
+              "p": "Né en 1684 à Valenciennes, ville récemment devenue française, Watteau est d'origine flamande — d'où son goût de la couleur et de la touche. De santé fragile, d'âme mélancolique, il monte jeune à Paris, pauvre, et y survit d'abord en peignant des images religieuses en série avant de trouver sa voie."
             },
             {
-              "h": "La fête galante",
-              "p": "Des couples élégants qui flânent, dansent, s'aiment dans des parcs dorés au crépuscule (L'Embarquement pour Cythère) : c'est la fête galante, un genre créé pour lui par l'Académie."
+              "h": "Le déclic : le théâtre et Rubens",
+              "p": "Watteau se nourrit de deux sources : le théâtre italien (la commedia dell'arte, ses Pierrots et Arlequins) et les Rubens du palais du Luxembourg, dont il copie la couleur et la liberté. De ce mélange naît son univers : des personnages costumés, comme sortis d'une scène, dans des jardins enchantés."
             },
             {
-              "h": "La grâce doux-amère",
-              "p": "Sous le charme perce une tristesse : ces plaisirs sont fragiles, le bonheur passe — et Watteau, tuberculeux, le sait. Sa touche frémissante annonce presque l'impressionnisme."
+              "h": "L'invention de la fête galante",
+              "p": "Watteau crée un genre entièrement neuf : la fête galante. Des couples élégants flânent, dansent, se courtisent et rêvent dans des parcs dorés au crépuscule. L'Embarquement pour Cythère, son morceau de réception à l'Académie — qui crée pour lui cette catégorie nouvelle — en est le sommet : un départ vers l'île de l'amour, déjà nostalgique."
             },
             {
-              "h": "Mort à 36 ans",
-              "p": "Il meurt jeune, en 1721, laissant l'image du peintre le plus délicat du siècle — celui qui peignait le bonheur déjà comme un souvenir."
+              "h": "Son moteur : la grâce doux-amère",
+              "p": "Sous le charme de ses scènes perce toujours une tristesse : ces plaisirs sont fragiles, le bonheur passe, l'amour est éphémère. Watteau, tuberculeux, le sait mieux que personne. Sa touche frémissante, ses couleurs délicates, ses regards lointains expriment cette mélancolie au cœur de la fête."
+            },
+            {
+              "h": "Le message : le bonheur comme un souvenir",
+              "p": "Watteau peint le plaisir déjà comme un souvenir, teinté de regret. Pierrot (Gilles), figure de comédien isolé, désarmé, fixant le vide, est l'image même de cette solitude derrière le divertissement. Sa dernière œuvre, l'Enseigne de Gersaint, peinte malade, est un chef-d'œuvre de grâce et d'élégance crépusculaire."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Watteau le créateur d'un genre et l'inaugurateur du goût Rococo, mais aussi un peintre d'une profondeur rare, bien au-delà de la frivolité. Gombrich souligne la subtilité de sa touche et l'émotion qui affleure sous le charme : l'un des peintres les plus délicats de toute l'histoire."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Boucher et Fragonard, ses successeurs, cultiveront la légèreté joyeuse et sensuelle, Watteau garde toujours cette mélancolie qui le distingue. Mort à 36 ans de la tuberculose, il laisse une œuvre brève et précieuse — celle d'un poète de l'éphémère, qui a su peindre la beauté fragile du bonheur qui s'enfuit."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Embarquement pour Cythère",
+              "artiste": "Watteau",
+              "annee": "1717",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Pilgrimage to Cythera",
+              "analyse": "Des couples élégants quittent l'île de l'amour au crépuscule doré, à regret, entourés d'amours volant. Son morceau de réception à l'Académie, qui inventa pour lui le genre de la « fête galante ». La grâce et la mélancolie du Rococo réunies."
+            },
+            {
+              "titre": "Pierrot (Gilles)",
+              "artiste": "Watteau",
+              "annee": "v. 1719",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Pierrot (Watteau)",
+              "analyse": "Un comédien en costume blanc de Pierrot se tient seul, debout, les bras ballants, fixant le vide, tandis que d'autres personnages s'agitent en bas. Image de la solitude et du désarroi derrière le rire : un portrait étrangement émouvant et moderne."
+            },
+            {
+              "titre": "L'Enseigne de Gersaint",
+              "artiste": "Watteau",
+              "annee": "1720-1721",
+              "lieu": "Château de Charlottenbourg, Berlin",
+              "wiki": "L'Enseigne de Gersaint",
+              "analyse": "Peinte malade, peu avant sa mort, comme enseigne pour la boutique d'un marchand d'art : on emballe un portrait de Louis XIV tandis que des clients élégants admirent les tableaux. Un adieu plein de grâce, d'esprit et de modernité."
             }
           ]
         },
@@ -4013,20 +4225,70 @@
           "dates": "1699-1779",
           "role": "France",
           "wiki": "Jean-Baptiste-Siméon Chardin",
-          "portrait": "Maître de la nature morte et de la scène intime ; la dignité du quotidien.",
+          "portrait": "Jean-Siméon Chardin (1699-1779) est le maître du silence et de l'humble vérité, à contre-courant du Rococo brillant. Peintre de natures mortes et de scènes intimes — un verre d'eau, du pain, une mère et son enfant — il a, par une matière épaisse et une lumière douce, ennobli l'ordinaire et fasciné Diderot, Cézanne et Matisse.",
           "bio_longue": "Jean-Siméon Chardin (1699-1779) est le grand peintre du silence et du quotidien français. À rebours du Rococo brillant de son époque, il peint des natures mortes (du gibier, des ustensiles, un verre d'eau) et des scènes intimes (une mère, une gouvernante) avec une matière épaisse, une lumière douce et une gravité émouvante. Diderot le célèbre. Il ennoblit le banal sans jamais l'idéaliser, et reste l'un des plus purs coloristes de l'histoire — un peintre de peintres, redécouvert et adoré par Cézanne et Matisse.",
           "bio_sections": [
             {
-              "h": "Le silence des choses",
-              "p": "Jean-Siméon Chardin peint, à contre-courant du Rococo brillant, des natures mortes et des scènes intimes : du pain, un verre d'eau, une mère et son enfant."
+              "h": "L'enfance : le fils du menuisier",
+              "p": "Né en 1699 à Paris, fils d'un maître menuisier, Chardin reste toute sa vie un homme du peuple parisien, modeste et discret. Peu instruit, mauvais dessinateur dit-on, il n'ira jamais en Italie et ne peindra jamais d'histoire antique ni de grands sujets : il restera fidèle à son monde, celui des objets et des gens simples."
             },
             {
-              "h": "La dignité du banal",
-              "p": "Avec une matière épaisse, une lumière douce et une gravité émouvante, il ennoblit l'ordinaire sans jamais l'idéaliser. Diderot le célèbre."
+              "h": "Le déclic : peindre ce qu'il voit",
+              "p": "Contre la mode du Rococo galant et léger (Boucher, Fragonard), Chardin choisit l'humble réel : une raie suspendue, des ustensiles de cuisine, des fruits. Sa Raie, présentée à l'Académie, le fait remarquer aussitôt. Il sera, toute sa vie, le peintre du quotidien silencieux."
             },
             {
-              "h": "Le peintre des peintres",
-              "p": "L'un des plus purs coloristes de l'histoire, il sera redécouvert et adoré par Cézanne et Matisse — un peintre de peintres, annonçant le réalisme un siècle à l'avance."
+              "h": "La matière et la lumière",
+              "p": "La magie de Chardin est dans la matière : il pose la couleur en touches épaisses, granuleuses, qui de près semblent informes et de loin deviennent du pain, du velours, un reflet sur l'étain. Sa lumière douce caresse les objets et les enveloppe d'un silence et d'une dignité presque sacrés."
+            },
+            {
+              "h": "Son moteur : la dignité de l'ordinaire",
+              "p": "Ce qui guide Chardin, c'est l'attention amoureuse aux choses humbles : un gobelet, une bouilloire, une mère qui dit le bénédicité avec ses enfants. Sans anecdote, sans morale appuyée, il révèle la beauté et la gravité de la vie ordinaire. « On se sert des couleurs, mais on peint avec le sentiment », disait-il."
+            },
+            {
+              "h": "Le message : le silence et la vérité",
+              "p": "Chardin peint le calme, la concentration, le recueillement : une jeune fille appliquée à sa leçon, des bulles de savon qu'un enfant souffle. Ses scènes intimes, comme ses natures mortes, dégagent une paix et une vérité qui touchent profondément. Diderot le célèbre comme le plus grand coloriste de son temps."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Chardin l'un des plus purs peintres de l'histoire et un précurseur du réalisme. Cézanne et Matisse l'ont adoré et étudié : un « peintre de peintres ». Gombrich souligne qu'il a su, par la seule matière picturale et la lumière, donner aux objets les plus banals une présence et une émotion inégalées."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains cherchent le brillant, le galant, l'esprit, Chardin choisit le silence, l'humilité, la matière. Sa modestie même est sa grandeur. À la fin de sa vie, la vue baissant, il se tourne vers le pastel et peint des autoportraits d'une franchise bouleversante. Un sommet discret de l'art français."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Raie",
+              "artiste": "Chardin",
+              "annee": "1728",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Ray (Chardin)",
+              "analyse": "Une raie éventrée pend, livide et presque humaine de visage, près d'un chat hérissé et d'ustensiles de cuisine. Morceau de réception à l'Académie : la matière de la chair, des écailles et de l'étain est rendue avec une virtuosité qui fascina Matisse. Le banal sublimé."
+            },
+            {
+              "titre": "Les Bulles de savon",
+              "artiste": "Chardin",
+              "annee": "v. 1734",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "Soap Bubbles (Chardin)",
+              "analyse": "Un jeune homme souffle, concentré, une bulle de savon à la fenêtre. Image de la fragilité et de la vanité du temps (la bulle qui va éclater), mais surtout pur instant de silence et d'attention. La gravité du quotidien chez Chardin."
+            },
+            {
+              "titre": "Le Bénédicité",
+              "artiste": "Chardin",
+              "annee": "1740",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Saying Grace (Chardin)",
+              "analyse": "Une mère et ses deux petites filles avant le repas ; l'une récite la prière. Scène d'intimité familiale modeste, baignée d'une lumière douce, d'une tendresse et d'une dignité sans pathos. Louis XV lui-même en acquit une version."
+            },
+            {
+              "titre": "La Jeune Maîtresse d'école",
+              "artiste": "Chardin",
+              "annee": "v. 1737",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Young Schoolmistress",
+              "analyse": "Une fillette joue à enseigner la lecture à un plus petit, désignant les lettres avec un sérieux touchant. Silence, concentration, lumière douce : Chardin fait d'un jeu d'enfants une scène d'une gravité et d'une beauté tranquilles."
             }
           ]
         },
@@ -4036,20 +4298,70 @@
           "dates": "1732-1806",
           "role": "France",
           "wiki": "Jean-Honoré Fragonard",
-          "portrait": "Dernier grand du Rococo galant (L'Escarpolette), virtuose de la fougue légère.",
+          "portrait": "Jean-Honoré Fragonard (1732-1806) est le dernier grand feu du Rococo galant : un virtuose à la touche fougueuse, peintre du plaisir, du désir et de l'esprit léger de l'Ancien Régime. Sa verve et sa liberté de pinceau, longtemps méprisées, en font aujourd'hui l'un des plus brillants peintres français.",
           "bio_longue": "Jean-Honoré Fragonard (1732-1806) est le dernier grand virtuose du Rococo galant. Sa touche fougueuse, rapide, pleine de verve, anime des scènes d'amour et de plaisir (L'Escarpolette, où une jeune femme perd sa chaussure en se balançant sous le regard d'un amant). Adulé sous l'Ancien Régime, il est ruiné par la Révolution qui balaie son monde de fêtes galantes ; il meurt oublié. Son brio et sa liberté de pinceau seront réhabilités bien plus tard.",
           "bio_sections": [
             {
-              "h": "Le dernier feu du Rococo",
-              "p": "Jean-Honoré Fragonard est le dernier grand virtuose du Rococo galant, à la touche fougueuse et pleine de verve."
+              "h": "L'enfance : de Grasse à Paris",
+              "p": "Né en 1732 à Grasse, en Provence, Fragonard monte enfant à Paris. Repéré pour son talent, il entre dans l'atelier de Chardin puis de Boucher, le maître du Rococo, dont il devient le brillant disciple. Lauréat du prix de Rome, il part en Italie où il s'éprend des jardins, des fontaines et de la lumière, qu'il croquera sans fin."
             },
             {
-              "h": "L'Escarpolette",
-              "p": "Sa scène la plus célèbre montre une jeune femme qui perd sa chaussure en se balançant sous le regard d'un amant — l'esprit de plaisir de l'Ancien Régime à son comble."
+              "h": "Le déclic : choisir le plaisir plutôt que la gloire",
+              "p": "Promis à une carrière officielle de peintre d'histoire, Fragonard fait un choix surprenant : il renonce aux grands sujets sérieux et à l'Académie pour travailler directement pour des clients privés et amateurs, qui lui commandent des scènes galantes, libertines et charmantes. Il choisit le plaisir et la liberté contre les honneurs."
             },
             {
-              "h": "Ruiné par la Révolution",
-              "p": "La Révolution balaie son monde de fêtes galantes ; Fragonard, dépassé, meurt oublié. Son brio sera réhabilité bien plus tard."
+              "h": "La touche fougueuse",
+              "p": "Fragonard peint vite, avec une fougue et une liberté de pinceau éblouissantes : feuillages bouillonnants, étoffes froissées, chairs roses, lumière vibrante. Sa virtuosité est telle qu'il aurait peint certaines toiles en une heure. Cette spontanéité, cette énergie de la touche, annoncent presque l'impressionnisme."
+            },
+            {
+              "h": "Son moteur : la verve et le désir",
+              "p": "Ce qui anime Fragonard, c'est la célébration du désir, du jeu amoureux, du plaisir des sens, avec esprit et malice. L'Escarpolette, où une jeune femme perd sa chaussure en se balançant sous le regard d'un amant caché, résume tout son art : sensualité, espièglerie, virtuosité et joie de vivre."
+            },
+            {
+              "h": "Le message : le crépuscule d'un monde",
+              "p": "Fragonard incarne l'esprit de l'Ancien Régime finissant — frivole, raffiné, voué au plaisir. Mais la Révolution balaie ce monde et ses commanditaires : sa peinture galante devient suspecte, démodée. Dépassé, ruiné, Fragonard meurt en 1806 dans l'oubli quasi total, vestige d'une époque disparue."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Longtemps réduit à un peintre frivole, Fragonard est aujourd'hui célébré comme un immense virtuose : sa liberté de touche et son énergie fascinent. Gombrich et les historiens soulignent que sous la légèreté du sujet se cache une maîtrise picturale exceptionnelle, qui en fait l'un des sommets de l'art français du XVIIIe siècle."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Chardin, son maître, choisit le silence et la matière, Fragonard choisit la fougue et le plaisir. Dernier grand représentant du Rococo, il en porte la flamme jusqu'au bout — jusqu'à ce que la Révolution éteigne son monde. Sa réhabilitation tardive a révélé un peintre d'une liberté toute moderne."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Escarpolette (Les Hasards heureux de l'escarpolette)",
+              "artiste": "Fragonard",
+              "annee": "v. 1767",
+              "lieu": "Wallace Collection, Londres",
+              "wiki": "The Swing (Fragonard)",
+              "analyse": "Une jeune femme se balance, robe rose envolée, lançant sa chaussure ; en bas, un amant caché dans les buissons regarde sous ses jupes, tandis qu'un vieux mari pousse la balançoire sans rien voir. L'esprit galant et coquin de l'Ancien Régime à son comble."
+            },
+            {
+              "titre": "Le Verrou",
+              "artiste": "Fragonard",
+              "annee": "v. 1777",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Bolt (Fragonard)",
+              "analyse": "Dans une chambre en désordre, un homme pousse le verrou d'une main tout en enlaçant une femme qui se débat mollement. Toute la scène converge, en diagonale, vers ce geste. Sensualité, tension et virtuosité dramatique : un sommet du genre galant."
+            },
+            {
+              "titre": "Jeune fille lisant",
+              "artiste": "Fragonard",
+              "annee": "v. 1769",
+              "lieu": "National Gallery of Art, Washington",
+              "wiki": "Young Girl Reading",
+              "analyse": "Une jeune femme de profil, en robe jaune lumineuse, absorbée par son livre. Peinte d'une touche large et libre, presque enlevée, elle dégage un calme et une grâce qui tranchent avec les scènes galantes : la virtuosité de Fragonard au service de l'intime."
+            },
+            {
+              "titre": "Le Baiser à la dérobée",
+              "artiste": "Fragonard",
+              "annee": "v. 1788",
+              "lieu": "Musée de l'Ermitage, Saint-Pétersbourg",
+              "wiki": "The Stolen Kiss (Fragonard)",
+              "analyse": "Une jeune femme, surprise, reçoit un baiser furtif d'un jeune homme à la porte, jetant un œil vers le salon voisin. Lisse et précis, contrastant avec sa touche habituelle : l'instant volé du désir, capté avec une délicatesse exquise."
             }
           ]
         },
@@ -5847,19 +6159,69 @@
           "dates": "1859-1891",
           "role": "Pointillisme",
           "wiki": "Georges Seurat",
-          "portrait": "Le pointillisme (Un dimanche à la Grande Jatte).",
+          "portrait": "Georges Seurat (1859-1891) est l'inventeur du pointillisme et le théoricien qui voulut donner à l'impressionnisme la rigueur d'une science. Mort à 31 ans, il a, en quelques grandes toiles construites point par point, ouvert la voie à l'art moderne, de l'abstraction au cubisme.",
           "bio_sections": [
             {
-              "h": "La science de la couleur",
-              "p": "Georges Seurat veut donner à l'impressionnisme une rigueur scientifique : c'est le pointillisme (ou divisionnisme)."
+              "h": "L'enfance : un bourgeois discret et méthodique",
+              "p": "Né en 1859 à Paris dans une famille bourgeoise aisée, Seurat est un jeune homme réservé, secret, méthodique, presque maniaque d'ordre. Formé aux Beaux-Arts dans la tradition du dessin, il garde toute sa vie ce goût de la construction rigoureuse et de l'étude, à l'opposé de la spontanéité impressionniste."
             },
             {
-              "h": "Un Dimanche à la Grande Jatte",
-              "p": "Il juxtapose de minuscules touches de couleurs pures que l'œil mélange à distance. Le résultat, monumental et figé, transforme une scène de loisir en composition d'une étrange solennité."
+              "h": "Le déclic : la science des couleurs",
+              "p": "Seurat se passionne pour les théories scientifiques de la couleur et de la perception (Chevreul, Rood). Il veut fonder une méthode : au lieu de mélanger les couleurs sur la palette, juxtaposer de minuscules touches de couleurs pures que l'œil mélangera à distance, pour un éclat maximal. C'est le divisionnisme, ou pointillisme."
             },
             {
-              "h": "Mort à 31 ans",
-              "p": "Mort très jeune, il ouvre pourtant la voie à un art construit et théorique qui mènera, par-delà l'impressionnisme, vers l'abstraction."
+              "h": "La construction point par point",
+              "p": "Sa Grande Jatte est le manifeste de cette méthode : des centaines de milliers de petits points de couleur composent une scène de loisir au bord de la Seine, peuplée de figures immobiles, monumentales, presque hiératiques. Le résultat, construit pendant deux ans, transforme un dimanche ordinaire en composition d'une étrange solennité intemporelle."
+            },
+            {
+              "h": "Son moteur : l'ordre et la permanence",
+              "p": "Là où les impressionnistes saisissent l'instant fugitif, Seurat cherche le durable, le stable, l'éternel. Ses figures sont figées comme des hiéroglyphes égyptiens ; ses compositions, régies par des lois (lignes, proportions, harmonies). Il veut une beauté construite, scientifique, hors du temps."
+            },
+            {
+              "h": "Le message : la peinture comme système",
+              "p": "Seurat pousse l'idée jusqu'à théoriser l'expression par les lignes et les couleurs (lignes montantes et tons chauds = gaieté ; descendantes et froids = tristesse). Ses dernières toiles, comme Le Cirque ou Le Chahut, appliquent ces lois au mouvement et au spectacle. La peinture devient un système rationnel, presque une démonstration."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Seurat un pivot du post-impressionnisme et un précurseur de l'art moderne : sa construction rigoureuse mène vers l'abstraction et le cubisme. Gombrich souligne qu'en voulant rendre l'impressionnisme « scientifique », il a, paradoxalement, rouvert la voie à un art réfléchi, intellectuel et construit."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'impressionnisme est sensation et spontanéité, Seurat est calcul, théorie et permanence. Sa peinture, à la fois moderne par le sujet et classique par la construction, est unique. Mort brutalement à 31 ans, il laisse une œuvre rare mais décisive, qui a profondément marqué les générations suivantes."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Un dimanche après-midi à l'île de la Grande Jatte",
+              "artiste": "Seurat",
+              "annee": "1884-1886",
+              "lieu": "Art Institute of Chicago",
+              "wiki": "A Sunday Afternoon on the Island of La Grande Jatte",
+              "analyse": "Des Parisiens en promenade dominicale au bord de la Seine, composés de centaines de milliers de petits points de couleurs pures. Les figures, immobiles et solennelles, semblent figées hors du temps. Le manifeste du pointillisme, fruit de deux ans de travail."
+            },
+            {
+              "titre": "Une baignade à Asnières",
+              "artiste": "Seurat",
+              "annee": "1884",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Bathers at Asnières",
+              "analyse": "Des ouvriers se baignent et se reposent au bord de la Seine, dans la lumière chaude d'un après-midi, avec les fumées d'usine au fond. Grande composition calme et monumentale, à la frontière de l'impressionnisme et du divisionnisme naissant."
+            },
+            {
+              "titre": "Le Cirque",
+              "artiste": "Seurat",
+              "annee": "1890-1891",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Circus (Seurat)",
+              "analyse": "Une écuyère et un clown dans un cirque, tout en lignes montantes et tons chauds pour exprimer la gaieté et le mouvement, selon la théorie de Seurat. Sa dernière œuvre, laissée inachevée à sa mort : la peinture comme système de l'expression."
+            },
+            {
+              "titre": "Le Chahut",
+              "artiste": "Seurat",
+              "annee": "1889-1890",
+              "lieu": "Kröller-Müller Museum, Otterlo",
+              "wiki": "Le Chahut",
+              "analyse": "Des danseuses de cancan, jambes levées en rythme, sous les lumières d'un cabaret. Lignes ascendantes, sourires relevés : Seurat applique sa théorie de l'expression joyeuse par les lignes montantes. Le spectacle moderne traité comme une démonstration."
             }
           ]
         },
@@ -5869,19 +6231,61 @@
           "dates": "1864-1901",
           "role": "Affiche",
           "wiki": "Henri de Toulouse-Lautrec",
-          "portrait": "Montmartre, l'affiche moderne.",
+          "portrait": "Henri de Toulouse-Lautrec (1864-1901) est le peintre de la vie nocturne parisienne et le génie de l'affiche moderne. Aristocrate infirme devenu chroniqueur du Moulin Rouge et des maisons closes, il a porté sur le monde du spectacle et de la marge un regard à la fois cruel et profondément humain.",
           "bio_sections": [
             {
-              "h": "L'aristocrate de Montmartre",
-              "p": "Henri de Toulouse-Lautrec, aristocrate infirme par une maladie des os, fait de Montmartre son royaume."
+              "h": "L'enfance : l'aristocrate brisé",
+              "p": "Né en 1864 dans une des plus vieilles familles nobles de France, Henri est un enfant fragile : ses os, affaiblis par la consanguinité de ses parents (cousins germains), se brisent à l'adolescence et cessent de croître. Resté de petite taille, infirme, il renonce à la vie aristocratique de chasse et d'équitation pour le dessin, qui devient son refuge et sa revanche."
             },
             {
-              "h": "Cabarets et affiches",
-              "p": "Il peint la vie nocturne — le Moulin Rouge, danseuses, chanteuses, maisons closes — d'un trait incisif et sans complaisance, et révolutionne l'affiche en art majeur."
+              "h": "Le déclic : Montmartre",
+              "p": "Monté à Paris pour apprendre la peinture, Toulouse-Lautrec s'installe à Montmartre, alors capitale de la fête et de la bohème. Il en fait son royaume et son sujet : cabarets, bals, cafés-concerts, théâtres et maisons closes. Il y vit, y boit, et y observe sans relâche un monde de noctambules, de danseuses et de prostituées."
             },
             {
-              "h": "Le regard tendre et cruel",
-              "p": "Marqué par l'estampe japonaise, son art lucide et compatissant fait le lien entre Degas et l'avenir de l'affiche moderne."
+              "h": "Le trait incisif",
+              "p": "Marqué par Degas et par l'estampe japonaise, Toulouse-Lautrec développe un style d'une efficacité incisive : cadrages coupés, lignes nerveuses, aplats de couleur, silhouettes saisies en quelques traits. Il croque le mouvement d'une danseuse, l'attitude d'un chanteur, la fatigue d'une fille, avec une rapidité et une justesse de caricaturiste de génie."
+            },
+            {
+              "h": "Son moteur : peindre la marge sans la juger",
+              "p": "Ce qui anime Toulouse-Lautrec, c'est l'observation lucide et compatissante des êtres de la nuit et de la marge. Il vit parfois dans les maisons closes, peignant les prostituées dans leur quotidien — non comme des objets de désir, mais comme des femmes lasses, tendres, humaines. Son regard est cru, jamais méprisant."
+            },
+            {
+              "h": "Le message : l'affiche devenue art",
+              "p": "Toulouse-Lautrec révolutionne l'affiche : ses placards pour le Moulin Rouge (La Goulue), Aristide Bruant ou Jane Avril, aux aplats audacieux et aux silhouettes percutantes, transforment la réclame en art majeur, placardé dans les rues de Paris. Il invente, de fait, le langage de l'affiche moderne."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Toulouse-Lautrec le grand chroniqueur de la Belle Époque et le père de l'affiche artistique. Gombrich souligne son rôle de passeur entre Degas et le XXe siècle : son trait, ses cadrages et son art de l'aplat marqueront la modernité, jusqu'aux Nabis et au-delà."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'impressionnisme aime la lumière et la nature, Toulouse-Lautrec plonge dans la nuit artificielle des cabarets et la vie des marges. Aristocrate déchu vivant parmi les saltimbanques et les filles, alcoolique, mort épuisé à 36 ans, il a transformé sa douleur et sa marginalité en un regard d'une humanité et d'une modernité rares."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Au Moulin Rouge",
+              "artiste": "Toulouse-Lautrec",
+              "annee": "1892-1895",
+              "lieu": "Art Institute of Chicago",
+              "wiki": "At the Moulin Rouge",
+              "analyse": "Autour d'une table, des noctambules ; au premier plan, un visage de femme surgit, blafard sous l'éclairage électrique vert. Cadrage coupé, lumière artificielle crue : Toulouse-Lautrec capte l'atmosphère trouble et fascinante de la vie nocturne parisienne."
+            },
+            {
+              "titre": "Moulin Rouge : La Goulue",
+              "artiste": "Toulouse-Lautrec",
+              "annee": "1891",
+              "lieu": "affiche (nombreux musées)",
+              "wiki": "Moulin Rouge: La Goulue",
+              "analyse": "Affiche pour le célèbre cabaret : la danseuse La Goulue lève la jambe au centre, devant la silhouette noire d'un danseur et une foule en ombres chinoises. Aplats audacieux, typographie intégrée : l'acte de naissance de l'affiche moderne."
+            },
+            {
+              "titre": "Jane Avril",
+              "artiste": "Toulouse-Lautrec",
+              "annee": "1893",
+              "lieu": "affiche (nombreux musées)",
+              "wiki": "Jane Avril (Toulouse-Lautrec)",
+              "analyse": "Affiche pour la danseuse Jane Avril, saisie dans un déhanché, le manche d'une contrebasse encadrant la scène d'une trouvaille graphique audacieuse. L'élégance nerveuse et l'invention de cadrage qui font de Lautrec un maître de l'affiche."
             }
           ]
         },
