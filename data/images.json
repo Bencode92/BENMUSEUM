@@ -2287,5 +2287,65 @@
     "h": 2050,
     "format": "jpg",
     "file": "Man_Ray,_1920-21,_Portrait_of_Marcel_Duchamp,_gelatin_silver_print,_Yale_University_Art_Gallery.jpg"
+  },
+  "Science and Charity": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/d/d6/Science_and_Charity_by_Picasso.jpg",
+    "thumb_w": 950,
+    "thumb_h": 755,
+    "url": "https://upload.wikimedia.org/wikipedia/en/d/d6/Science_and_Charity_by_Picasso.jpg",
+    "w": 950,
+    "h": 755,
+    "format": "jpg",
+    "file": "Science_and_Charity_by_Picasso.jpg"
+  },
+  "The Old Guitarist": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Old_guitarist_chicago.jpg/1280px-Old_guitarist_chicago.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1490,
+    "url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Old_guitarist_chicago.jpg",
+    "w": 5363,
+    "h": 7989,
+    "format": "jpg",
+    "file": "Old_guitarist_chicago.jpg"
+  },
+  "Family of Saltimbanques": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Family_of_Saltimbanques.JPG/1280px-Family_of_Saltimbanques.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 933,
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/ca/Family_of_Saltimbanques.JPG",
+    "w": 6311,
+    "h": 5887,
+    "format": "jpg",
+    "file": "Family_of_Saltimbanques.JPG"
+  },
+  "Portrait of Gertrude Stein": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/GertrudeStein.JPG/1280px-GertrudeStein.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 1236,
+    "url": "https://upload.wikimedia.org/wikipedia/en/d/d6/GertrudeStein.JPG",
+    "w": 1497,
+    "h": 1851,
+    "format": "jpg",
+    "file": "GertrudeStein.JPG"
+  },
+  "Girl with a Mandolin": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/1/1c/Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin_%28Fanny_Tellier%29%2C_oil_on_canvas%2C_100.3_x_73.6_cm%2C_Museum_of_Modern_Art_New_York..jpg",
+    "thumb_w": 1280,
+    "thumb_h": 1770,
+    "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin_%28Fanny_Tellier%29%2C_oil_on_canvas%2C_100.3_x_73.6_cm%2C_Museum_of_Modern_Art_New_York..jpg",
+    "w": 1280,
+    "h": 1770,
+    "format": "jpg",
+    "file": "Pablo_Picasso,_1910,_Girl_with_a_Mandolin_(Fanny_Tellier),_oil_on_canvas,_100.3_x_73.6_cm,_Museum_of_Modern_Art_New_York..jpg"
+  },
+  "Le Moulin de la Galette (Picasso)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Picasso_-_Le_Moulin_de_la_Galette_%281900%29.jpg/1280px-Picasso_-_Le_Moulin_de_la_Galette_%281900%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 761,
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/33/Picasso_-_Le_Moulin_de_la_Galette_%281900%29.jpg",
+    "w": 4096,
+    "h": 3118,
+    "format": "jpg",
+    "file": "Picasso_-_Le_Moulin_de_la_Galette_(1900).jpg"
   }
 }

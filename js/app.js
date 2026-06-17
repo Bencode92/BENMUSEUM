@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "31"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "32"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -694,7 +694,11 @@ function renderArtiste(id, ai) {
   const a = d && d.artistes && d.artistes[ai];
   if (!a) return d ? renderDossier(id) : renderDossiersList();
   crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre, nav: `#/d/${id}` }, { label: a.nom }]);
-  const works = (d.oeuvres || []).filter(o => sameArtist(o.artiste, a.nom));
+  // œuvres : celles du dossier signées par lui + ses œuvres propres (a.oeuvres), dédoublonnées par titre
+  const merged = [...(d.oeuvres || []).filter(o => sameArtist(o.artiste, a.nom)), ...(a.oeuvres || [])];
+  const seen = new Set();
+  const works = merged.filter(o => { const k = (o.titre || "").toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+  const bioD = { oeuvres: works.map(o => ({ ...o, artiste: o.artiste || a.nom })), artistes: [a] };
   const P = [];
 
   P.push(`<div class="pagehead">
@@ -710,7 +714,7 @@ function renderArtiste(id, ai) {
   // biographie : sections riches (bio_sections), illustrées par ses œuvres ; sinon le paragraphe
   if (Array.isArray(a.bio_sections)) {
     P.push(`<h2 class="sec">📖 Sa vie, son évolution</h2>` + a.bio_sections.map(s => {
-      const o = recitImage(d, (s.h || "") + " " + (s.p || ""));
+      const o = recitImage(bioD, (s.h || "") + " " + (s.p || "")) || recitImage(d, (s.h || "") + " " + (s.p || ""));
       return `<div class="recit-block${o ? " illus" : ""}">
         ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.caption)}" alt="${esc(o.caption)}" /><figcaption>${esc(o.caption)} <span class="zoomhint">🔍</span></figcaption></figure>` : ""}
         <div class="recit-txt"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div></div>`;
@@ -720,7 +724,7 @@ function renderArtiste(id, ai) {
   }
 
   // ses œuvres dans ce dossier
-  if (works.length) P.push(`<h2 class="sec">🖼 Ses œuvres ici</h2>
+  if (works.length) P.push(`<h2 class="sec">🖼 Ses œuvres (${works.length})</h2>
     <div class="grid cols">${works.map(o => `
       <div class="card"><div class="thumb zoomable" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}"></div>
         <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
