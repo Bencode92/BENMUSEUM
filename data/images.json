@@ -2090,8 +2090,7 @@
     "w": 3463,
     "h": 1978,
     "format": "jpg",
-    "file": "Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
-    "via": "Water Lilies (Monet series)"
+    "file": "Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg"
   },
   "Agnolo Bronzino": {
     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Alessandro_Allori%2C_santissima_trinit%C3%A0%2C_1567-1571_circa%2C_ritratto_dei_maestri%2C_bronzino_%28cropped%29.jpg/1280px-Alessandro_Allori%2C_santissima_trinit%C3%A0%2C_1567-1571_circa%2C_ritratto_dei_maestri%2C_bronzino_%28cropped%29.jpg",
@@ -2767,5 +2766,505 @@
     "h": 5000,
     "format": "jpg",
     "file": "Johannes_Vermeer_-_The_Astronomer_-_1668.jpg"
+  },
+  "The Death of Marat": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/1280px-Death_of_Marat_by_David.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1287,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Death_of_Marat_by_David.jpg",
+    "w": 4045,
+    "h": 5205,
+    "format": "jpg",
+    "file": "Death_of_Marat_by_David.jpg"
+  },
+  "The Coronation of Napoleon": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/1280px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 629,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
+    "w": 6000,
+    "h": 3773,
+    "format": "jpg",
+    "file": "Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg"
+  },
+  "Napoleon Crossing the Alps": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg/1280px-David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1218,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg",
+    "w": 3394,
+    "h": 4134,
+    "format": "jpg",
+    "file": "David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg"
+  },
+  "The Death of Socrates": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/David_-_The_Death_of_Socrates.jpg/1280px-David_-_The_Death_of_Socrates.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 657,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/David_-_The_Death_of_Socrates.jpg",
+    "w": 3896,
+    "h": 2559,
+    "format": "jpg",
+    "file": "David_-_The_Death_of_Socrates.jpg"
+  },
+  "Saturn Devouring His Son": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/1280px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1837,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
+    "w": 1661,
+    "h": 3051,
+    "format": "jpg",
+    "file": "Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg"
+  },
+  "La maja desnuda": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Goya_Maja_naga2.jpg/1280px-Goya_Maja_naga2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 507,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Goya_Maja_naga2.jpg",
+    "w": 4724,
+    "h": 2396,
+    "format": "jpg",
+    "file": "Goya_Maja_naga2.jpg"
+  },
+  "La maja vestida": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Goya_Maja_ubrana2.jpg/1280px-Goya_Maja_ubrana2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 503,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Goya_Maja_ubrana2.jpg",
+    "w": 4724,
+    "h": 2375,
+    "format": "jpg",
+    "file": "Goya_Maja_ubrana2.jpg"
+  },
+  "Charles IV of Spain and His Family": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/La_familia_de_Carlos_IV.jpg/1280px-La_familia_de_Carlos_IV.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 815,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/La_familia_de_Carlos_IV.jpg",
+    "w": 2869,
+    "h": 2339,
+    "format": "jpg",
+    "file": "La_familia_de_Carlos_IV.jpg"
+  },
+  "The Sleep of Reason Produces Monsters": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_%28No._43%29%2C_from_Los_Caprichos_-_Google_Art_Project.jpg/1280px-Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_%28No._43%29%2C_from_Los_Caprichos_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1512,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_%28No._43%29%2C_from_Los_Caprichos_-_Google_Art_Project.jpg",
+    "w": 2645,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Francisco_José_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_(No._43),_from_Los_Caprichos_-_Google_Art_Project.jpg"
+  },
+  "The Hay Wain": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/John_Constable_-_The_Hay_Wain_%281821%29.jpg/1280px-John_Constable_-_The_Hay_Wain_%281821%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 690,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/John_Constable_-_The_Hay_Wain_%281821%29.jpg",
+    "w": 6128,
+    "h": 4226,
+    "format": "jpg",
+    "file": "John_Constable_-_The_Hay_Wain_(1821).jpg"
+  },
+  "Salisbury Cathedral from the Bishop's Grounds": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/John_Constable_-_Salisbury_Cathedral_from_the_Bishop%27s_Grounds.jpg/1280px-John_Constable_-_Salisbury_Cathedral_from_the_Bishop%27s_Grounds.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 778,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/John_Constable_-_Salisbury_Cathedral_from_the_Bishop%27s_Grounds.jpg",
+    "w": 3176,
+    "h": 2472,
+    "format": "jpg",
+    "file": "John_Constable_-_Salisbury_Cathedral_from_the_Bishop's_Grounds.jpg"
+  },
+  "The Fighting Temeraire": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/1280px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 743,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+    "w": 5684,
+    "h": 4223,
+    "format": "jpg",
+    "file": "The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg"
+  },
+  "The Slave Ship": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Slave-ship.jpg/1280px-Slave-ship.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 751,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Slave-ship.jpg",
+    "w": 2152,
+    "h": 1616,
+    "format": "jpg",
+    "file": "Slave-ship.jpg"
+  },
+  "Norham Castle, Sunrise": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Joseph_Mallord_William_Turner_-_Norham_Castle%2C_Sunrise_-_WGA23182.jpg/1280px-Joseph_Mallord_William_Turner_-_Norham_Castle%2C_Sunrise_-_WGA23182.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 738,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Joseph_Mallord_William_Turner_-_Norham_Castle%2C_Sunrise_-_WGA23182.jpg",
+    "w": 1536,
+    "h": 1133,
+    "format": "jpg",
+    "file": "Joseph_Mallord_William_Turner_-_Norham_Castle,_Sunrise_-_WGA23182.jpg"
+  },
+  "Grande Odalisque": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg/1280px-La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 558,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg",
+    "w": 9311,
+    "h": 5196,
+    "format": "jpg",
+    "file": "La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Musée_du_Louvre_Peintures_RF_1158.jpg"
+  },
+  "The Turkish Bath": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Le_Bain_Turc%2C_by_Jean_Auguste_Dominique_Ingres%2C_from_C2RMFFXD.jpg/1280px-Le_Bain_Turc%2C_by_Jean_Auguste_Dominique_Ingres%2C_from_C2RMFFXD.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 996,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Le_Bain_Turc%2C_by_Jean_Auguste_Dominique_Ingres%2C_from_C2RMFFXD.jpg",
+    "w": 5000,
+    "h": 4978,
+    "format": "jpg",
+    "file": "Le_Bain_Turc,_by_Jean_Auguste_Dominique_Ingres,_from_C2RMFFXD.jpg"
+  },
+  "The Source (Ingres)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Jean_Auguste_Dominique_Ingres_-_The_Spring_-_Google_Art_Project_2.jpg/1280px-Jean_Auguste_Dominique_Ingres_-_The_Spring_-_Google_Art_Project_2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1997,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Jean_Auguste_Dominique_Ingres_-_The_Spring_-_Google_Art_Project_2.jpg",
+    "w": 3099,
+    "h": 6190,
+    "format": "jpg",
+    "file": "Jean_Auguste_Dominique_Ingres_-_The_Spring_-_Google_Art_Project_2.jpg"
+  },
+  "The Charging Chasseur": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GericaultHorseman.jpg/1280px-GericaultHorseman.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1304,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/GericaultHorseman.jpg",
+    "w": 4489,
+    "h": 5853,
+    "format": "jpg",
+    "file": "GericaultHorseman.jpg"
+  },
+  "The Barque of Dante": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Eug%C3%A8ne_Delacroix_-_The_Barque_of_Dante.jpg/1280px-Eug%C3%A8ne_Delacroix_-_The_Barque_of_Dante.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 748,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Eug%C3%A8ne_Delacroix_-_The_Barque_of_Dante.jpg",
+    "w": 3626,
+    "h": 2713,
+    "format": "jpg",
+    "file": "Eugène_Delacroix_-_The_Barque_of_Dante.jpg"
+  },
+  "The Massacre at Chios": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sc%C3%A8ne_des_massacres_de_Scio%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3823_%3B_C3.jpg/1280px-Sc%C3%A8ne_des_massacres_de_Scio%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3823_%3B_C3.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1188,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sc%C3%A8ne_des_massacres_de_Scio%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3823_%3B_C3.jpg",
+    "w": 6807,
+    "h": 8084,
+    "format": "jpg",
+    "file": "Scène_des_massacres_de_Scio,_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_INV_3823_;_C3.jpg"
+  },
+  "The Painter's Studio": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Courbet_LAtelier_du_peintre.jpg/1280px-Courbet_LAtelier_du_peintre.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 589,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Courbet_LAtelier_du_peintre.jpg",
+    "w": 16951,
+    "h": 9989,
+    "format": "jpg",
+    "file": "Courbet_LAtelier_du_peintre.jpg"
+  },
+  "The Meeting (Courbet)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Gustave_Courbet_-_Bonjour_Monsieur_Courbet_-_Mus%C3%A9e_Fabre.jpg/1280px-Gustave_Courbet_-_Bonjour_Monsieur_Courbet_-_Mus%C3%A9e_Fabre.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 866,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Gustave_Courbet_-_Bonjour_Monsieur_Courbet_-_Mus%C3%A9e_Fabre.jpg",
+    "w": 3000,
+    "h": 2597,
+    "format": "jpg",
+    "file": "Gustave_Courbet_-_Bonjour_Monsieur_Courbet_-_Musée_Fabre.jpg"
+  },
+  "A Bar at the Folies-Bergère": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg/1280px-%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 734,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg",
+    "w": 12580,
+    "h": 9236,
+    "format": "jpg",
+    "file": "\"Un_Bar_aux_Folies-Bergère\"_by_Édouard_Manet_(1882).jpg"
+  },
+  "The Fifer": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Manet%2C_Edouard_-_Young_Flautist%2C_or_The_Fifer%2C_1866_%282%29.jpg/1280px-Manet%2C_Edouard_-_Young_Flautist%2C_or_The_Fifer%2C_1866_%282%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1706,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Manet%2C_Edouard_-_Young_Flautist%2C_or_The_Fifer%2C_1866_%282%29.jpg",
+    "w": 2071,
+    "h": 3534,
+    "format": "jpg",
+    "file": "Manet,_Edouard_-_Young_Flautist,_or_The_Fifer,_1866_(2).jpg"
+  },
+  "The Balcony (Manet)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg/1280px-Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1390,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg",
+    "w": 5804,
+    "h": 8066,
+    "format": "jpg",
+    "file": "Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg"
+  },
+  "Rouen Cathedral (Monet series)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/30/RouenCathedral_Monet_1894.jpg",
+    "thumb_w": 559,
+    "thumb_h": 874,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/RouenCathedral_Monet_1894.jpg",
+    "w": 559,
+    "h": 874,
+    "format": "jpg",
+    "file": "RouenCathedral_Monet_1894.jpg"
+  },
+  "Women in the Garden": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Claude_Monet_024.jpg/1280px-Claude_Monet_024.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1230,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Claude_Monet_024.jpg",
+    "w": 2024,
+    "h": 2490,
+    "format": "jpg",
+    "file": "Claude_Monet_024.jpg"
+  },
+  "Bal du moulin de la Galette": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg/1280px-Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 743,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg",
+    "w": 40869,
+    "h": 30379,
+    "format": "jpg",
+    "file": "Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876.jpg"
+  },
+  "Luncheon of the Boating Party": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg/1280px-Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 741,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg",
+    "w": 9025,
+    "h": 6684,
+    "format": "jpg",
+    "file": "Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg"
+  },
+  "The Swing (Renoir)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Swing-Renoir.jpeg/1280px-Swing-Renoir.jpeg",
+    "thumb_w": 1000,
+    "thumb_h": 1308,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Swing-Renoir.jpeg",
+    "w": 7648,
+    "h": 10000,
+    "format": "jpeg",
+    "file": "Swing-Renoir.jpeg"
+  },
+  "L'Absinthe": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg/1280px-Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1372,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg",
+    "w": 3936,
+    "h": 5400,
+    "format": "jpg",
+    "file": "Edgar_Degas_-_In_a_Café_-_Google_Art_Project_2.jpg"
+  },
+  "The Card Players": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg/1280px-Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 820,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg",
+    "w": 6048,
+    "h": 4961,
+    "format": "jpg",
+    "file": "Les_Joueurs_de_cartes,_par_Paul_Cézanne.jpg"
+  },
+  "Bedroom in Arles": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 793,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
+    "w": 30000,
+    "h": 23803,
+    "format": "jpg",
+    "file": "Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg"
+  },
+  "The Potato Eaters": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg/1280px-De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 707,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg",
+    "w": 7695,
+    "h": 5441,
+    "format": "jpg",
+    "file": "De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg"
+  },
+  "The Night Café": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vincent_Willem_van_Gogh_076.jpg/1280px-Vincent_Willem_van_Gogh_076.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 789,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vincent_Willem_van_Gogh_076.jpg",
+    "w": 3000,
+    "h": 2368,
+    "format": "jpg",
+    "file": "Vincent_Willem_van_Gogh_076.jpg"
+  },
+  "Wheatfield with Crows": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg/1280px-Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 479,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg",
+    "w": 7762,
+    "h": 3718,
+    "format": "jpg",
+    "file": "Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg"
+  },
+  "The Yellow Christ": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg/1280px-Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1258,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg",
+    "w": 3152,
+    "h": 3965,
+    "format": "jpg",
+    "file": "Paul_Gauguin_-_The_Yellow_Christ_(Le_Christ_jaune)_1889.jpg"
+  },
+  "Tahitian Women on the Beach": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Paul_Gauguin_056.jpg/1280px-Paul_Gauguin_056.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 746,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Paul_Gauguin_056.jpg",
+    "w": 3176,
+    "h": 2369,
+    "format": "jpg",
+    "file": "Paul_Gauguin_056.jpg"
+  },
+  "Arearea": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Paul_Gauguin_-_Arearea_-_Google_Art_Project.jpg/1280px-Paul_Gauguin_-_Arearea_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 788,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Paul_Gauguin_-_Arearea_-_Google_Art_Project.jpg",
+    "w": 7441,
+    "h": 5860,
+    "format": "jpg",
+    "file": "Paul_Gauguin_-_Arearea_-_Google_Art_Project.jpg"
+  },
+  "Rain, Steam and Speed": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Turner_-_Rain%2C_Steam_and_Speed_-_National_Gallery_file.jpg/1280px-Turner_-_Rain%2C_Steam_and_Speed_-_National_Gallery_file.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 747,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Turner_-_Rain%2C_Steam_and_Speed_-_National_Gallery_file.jpg",
+    "w": 5661,
+    "h": 4226,
+    "format": "jpg",
+    "file": "Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg"
+  },
+  "Snow Storm: Hannibal and His Army Crossing the Alps": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Joseph_Mallord_William_Turner_081.jpg/1280px-Joseph_Mallord_William_Turner_081.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 613,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Joseph_Mallord_William_Turner_081.jpg",
+    "w": 1536,
+    "h": 942,
+    "format": "jpg",
+    "file": "Joseph_Mallord_William_Turner_081.jpg"
+  },
+  "Madame Moitessier": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Dominique_Ingres_-_Mme_Moitessier.jpg/1280px-Dominique_Ingres_-_Mme_Moitessier.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1311,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dominique_Ingres_-_Mme_Moitessier.jpg",
+    "w": 4577,
+    "h": 6000,
+    "format": "jpg",
+    "file": "Dominique_Ingres_-_Mme_Moitessier.jpg"
+  },
+  "Insane Woman": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/25/Th%C3%A9odore_G%C3%A9ricault_-_Portrait_of_a_Kleptomaniac_-_WGA08636.jpg",
+    "thumb_w": 810,
+    "thumb_h": 1028,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Th%C3%A9odore_G%C3%A9ricault_-_Portrait_of_a_Kleptomaniac_-_WGA08636.jpg",
+    "w": 810,
+    "h": 1028,
+    "format": "jpg",
+    "file": "Théodore_Géricault_-_Portrait_of_a_Kleptomaniac_-_WGA08636.jpg"
+  },
+  "The Women of Algiers": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Femmes_d%27Alger_dans_leur_appartement%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3824.jpg/1280px-Femmes_d%27Alger_dans_leur_appartement%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3824.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 777,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Femmes_d%27Alger_dans_leur_appartement%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3824.jpg",
+    "w": 10342,
+    "h": 8036,
+    "format": "jpg",
+    "file": "Femmes_d'Alger_dans_leur_appartement,_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_INV_3824.jpg"
+  },
+  "The Little Dancer of Fourteen Years": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg/1280px-The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1386,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg",
+    "w": 2887,
+    "h": 4000,
+    "format": "jpg",
+    "file": "The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg"
+  },
+  "Mont Sainte-Victoire": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Paul_C%C3%A9zanne_-_Montagne_Saint-victoire_-_Google_Art_Project.jpg/1280px-Paul_C%C3%A9zanne_-_Montagne_Saint-victoire_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 660,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Paul_C%C3%A9zanne_-_Montagne_Saint-victoire_-_Google_Art_Project.jpg",
+    "w": 2618,
+    "h": 1729,
+    "format": "jpg",
+    "file": "Paul_Cézanne_-_Montagne_Saint-victoire_-_Google_Art_Project.jpg"
+  },
+  "The Large Bathers (Cézanne)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg/1280px-Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 836,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg",
+    "w": 6385,
+    "h": 5337,
+    "format": "jpg",
+    "file": "Paul_Cézanne,_French_-_The_Large_Bathers_-_Google_Art_Project.jpg"
+  },
+  "Sunflowers": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/1280px-Vincent_Willem_van_Gogh_127.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1262,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vincent_Willem_van_Gogh_127.jpg",
+    "w": 3349,
+    "h": 4226,
+    "format": "jpg",
+    "file": "Vincent_Willem_van_Gogh_127.jpg"
+  },
+  "Self-Portrait (Van Gogh, September 1889)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg/1280px-Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1216,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg",
+    "w": 2536,
+    "h": 3083,
+    "format": "jpg",
+    "file": "Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_(1889,_Courtauld_Institute).jpg"
+  },
+  "The Basket of Apples": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg/1280px-Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 800,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
+    "w": 2811,
+    "h": 2250,
+    "format": "jpg",
+    "file": "Paul_Cézanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg"
   }
 }

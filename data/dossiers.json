@@ -3532,24 +3532,78 @@
           "dates": "1748-1825",
           "role": "France",
           "wiki": "Jacques-Louis David",
-          "portrait": "Chef du Néoclassicisme, peintre de la Révolution puis de Napoléon ; la ligne, la vertu, le pouvoir.",
+          "portrait": "Jacques-Louis David (1748-1825) est le maître du néoclassicisme et le peintre de la Révolution française puis de Napoléon. Il a fait de la peinture une arme politique et morale, imposant un art sévère, héroïque, inspiré de Rome antique, contre la frivolité du Rococo.",
           "bio_longue": "Jacques-Louis David (1748-1825) est le peintre-roi du néoclassicisme et de la Révolution française. Sa rigueur — lignes nettes, sujets antiques, vertu morale — répond au vide laissé par la fin du Rococo. Engagé jusqu'au cou dans la Révolution (il vote la mort du roi, organise les fêtes républicaines), il devient ensuite le peintre officiel de Napoléon, qu'il met en scène en empereur. À la chute de l'Empire, il s'exile à Bruxelles où il meurt. Son atelier forme toute une génération : il domine l'art français pendant trente ans.",
           "bio_sections": [
             {
-              "h": "Le peintre-roi du néoclassicisme",
-              "p": "Jacques-Louis David impose, contre la frivolité du Rococo, un retour à la rigueur antique : ligne nette, sujets romains, vertu civique (Le Serment des Horaces)."
+              "h": "L'enfance : un orphelin marqué au visage",
+              "p": "Né en 1748 à Paris, David perd son père tué en duel à neuf ans et porte au visage une tumeur qui l'empêche de bien parler — il en gardera un caractère ombrageux. Confié à des oncles architectes, il s'oriente très tôt vers la peinture, déterminé à réussir malgré les échecs répétés au prix de Rome, qu'il finit par décrocher."
+            },
+            {
+              "h": "Le déclic : Rome et l'antique",
+              "p": "Le séjour à Rome est une révélation : devant les ruines et les statues antiques, David rejette la grâce légère du Rococo pour un art de la ligne pure, de la gravité et de la vertu. Il revient avec Le Serment des Horaces (1784) : trois frères jurant de mourir pour la patrie, bras tendus, dans une composition d'une rigueur sculpturale. C'est un manifeste."
             },
             {
               "h": "Le peintre de la Révolution",
-              "p": "Engagé jusqu'au cou — il vote la mort du roi, organise les fêtes républicaines — il peint Marat assassiné comme une icône laïque de la Révolution."
+              "p": "Acquis aux idées nouvelles, David devient le metteur en scène de la Révolution : il organise ses fêtes, vote la mort du roi, et peint La Mort de Marat — l'ami du peuple assassiné dans sa baignoire, transfiguré en martyr laïque d'une sobriété déchirante. La peinture sert directement la cause politique."
             },
             {
-              "h": "Le peintre de Napoléon",
-              "p": "Il devient ensuite le peintre officiel de l'Empereur, qu'il met en scène en majesté. À la chute de l'Empire, il s'exile à Bruxelles."
+              "h": "Son moteur : la vertu et l'exemple",
+              "p": "Pour David, l'art n'est pas fait pour plaire mais pour édifier : il doit donner des modèles de courage, de sacrifice, de devoir civique, comme les héros de Rome. Chaque tableau est une leçon de morale publique, dépouillée de tout ornement inutile, où le dessin et la clarté priment sur la couleur."
             },
             {
-              "h": "Le maître d'une génération",
-              "p": "Son atelier forme toute une génération (dont Ingres) ; il domine l'art français pendant trente ans et fonde la situation moderne de l'artiste libre de choisir son style."
+              "h": "Le peintre de l'Empereur",
+              "p": "Après la chute de Robespierre et un emprisonnement, David se rallie à Napoléon, dont il devient le peintre officiel. Bonaparte franchissant le Grand-Saint-Bernard le montre en héros sur un cheval cabré ; Le Sacre, toile immense, met en scène le couronnement avec une majesté antique. L'art au service de la légende impériale."
+            },
+            {
+              "h": "Pourquoi il est un pilier, selon les experts",
+              "p": "Les historiens font de David le fondateur du néoclassicisme et le plus grand peintre français de sa génération. Son atelier forme toute une école (Ingres, Gros, Girodet). Gombrich souligne qu'il a rendu à la peinture une fonction morale et publique, et imposé un style qui dominera l'Europe pendant un demi-siècle."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses prédécesseurs cherchaient le charme, David cherche la grandeur et la leçon. Engagé jusqu'au bout, il finit exilé à Bruxelles après la chute de Napoléon, fidèle à ses choix. Peu d'artistes ont autant lié leur art au destin politique de leur pays — au point d'en payer le prix par l'exil."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Serment des Horaces",
+              "artiste": "David",
+              "annee": "1784",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Oath of the Horatii",
+              "analyse": "Trois frères tendent le bras vers les épées que leur père brandit, jurant de vaincre ou mourir pour Rome, tandis que les femmes s'effondrent. Lignes droites des hommes contre courbes des femmes, vertu contre sentiment : le manifeste du néoclassicisme."
+            },
+            {
+              "titre": "La Mort de Marat",
+              "artiste": "David",
+              "annee": "1793",
+              "lieu": "Musées royaux, Bruxelles",
+              "wiki": "The Death of Marat",
+              "analyse": "Le révolutionnaire assassiné gît dans sa baignoire, la plume encore à la main, dans une lumière de pietà laïque. Le vide sombre du haut du tableau accentue le silence. Un martyr de la Révolution transfiguré, d'une sobriété bouleversante."
+            },
+            {
+              "titre": "Le Sacre de Napoléon",
+              "artiste": "David",
+              "annee": "1805-1807",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Coronation of Napoleon",
+              "analyse": "Toile gigantesque : Napoléon, déjà couronné, couronne lui-même Joséphine, sous le regard du pape réduit à témoin. David met en scène la légende impériale avec une majesté antique et un sens du portrait de groupe inégalé."
+            },
+            {
+              "titre": "Bonaparte franchissant le Grand-Saint-Bernard",
+              "artiste": "David",
+              "annee": "1801",
+              "lieu": "Château de Malmaison",
+              "wiki": "Napoleon Crossing the Alps",
+              "analyse": "Le général, cape au vent, désigne le sommet sur un cheval cabré — image idéalisée (il avait passé le col à dos de mule). Propagande sublime : la fabrication peinte du mythe Napoléon."
+            },
+            {
+              "titre": "La Mort de Socrate",
+              "artiste": "David",
+              "annee": "1787",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "The Death of Socrates",
+              "analyse": "Socrate, condamné, saisit la coupe de ciguë tout en continuant d'enseigner, le doigt levé vers le ciel, serein face à la mort. La leçon stoïcienne du devoir et du courage, mise en scène avec une clarté de bas-relief antique."
             }
           ]
         },
@@ -3559,24 +3613,78 @@
           "dates": "1746-1828",
           "role": "Espagne",
           "wiki": "Francisco Goya",
-          "portrait": "Du brillant portraitiste de cour au visionnaire halluciné (Désastres de la guerre, Peintures noires). Charnière vers le moderne.",
+          "portrait": "Francisco de Goya (1746-1828) est le grand maître espagnol qui fait le pont entre l'ancien monde et l'art moderne. Peintre de cour devenu témoin halluciné de la guerre et de la folie humaine, il a ouvert, par ses œuvres noires, des territoires que l'art n'avait jamais osé explorer.",
           "bio_longue": "Francisco Goya (1746-1828) est l'immense charnière vers l'art moderne. Peintre officiel de la cour d'Espagne, brillant portraitiste, il bascule au tournant du siècle — une maladie le rend sourd, la guerre ravage son pays — vers une œuvre de plus en plus sombre et visionnaire : les Désastres de la guerre (gravures d'une cruauté insoutenable), les terrifiantes Peintures noires de sa maison. Il invente la peinture de la barbarie et de l'angoisse modernes. Il meurt en exil en France, libre et radical jusqu'au bout.",
           "bio_sections": [
             {
-              "h": "Le portraitiste de cour",
-              "p": "Francisco Goya commence comme brillant portraitiste de la cour d'Espagne, peignant la famille royale sans complaisance."
+              "h": "L'enfance et l'ascension : d'Aragon à la cour",
+              "p": "Né en 1746 dans un village d'Aragon, fils d'un maître doreur, Goya gravit lentement les échelons. Doté d'une ambition féroce, il monte à Madrid, dessine des cartons pour la manufacture royale de tapisserie, et devient peu à peu peintre du roi, au sommet de la société. La première moitié de sa vie est une réussite éclatante."
             },
             {
-              "h": "La bascule",
-              "p": "Une maladie le rend sourd ; la guerre et l'invasion napoléonienne ravagent son pays. Son art bascule vers le noir et la vision : les Désastres de la guerre, le Tres de Mayo, sans héros, juste l'horreur nue."
+              "h": "Le déclic : la surdité et la nuit intérieure",
+              "p": "Vers 1792, une maladie grave le laisse définitivement sourd. Coupé du monde des sons, replié sur lui-même, Goya bascule : son art se charge d'ironie, d'angoisse et de vision. Il commence les Caprices, gravures où il dénonce les superstitions et les vices, sous la devise « le sommeil de la raison engendre des monstres »."
             },
             {
-              "h": "Les Peintures noires",
-              "p": "Vieux, isolé, il couvre les murs de sa maison de fresques terrifiantes (Saturne dévorant son fils) — un cauchemar privé, génial et désespéré."
+              "h": "Le peintre lucide de la cour",
+              "p": "Même comme portraitiste officiel, Goya ne flatte pas : sa Famille de Charles IV montre les souverains tels qu'ils sont, sans grâce, presque cruels de vérité. Ses deux Maja — l'une habillée, l'autre nue — scandalisent et fascinent : c'est l'un des premiers nus réalistes, non mythologiques, de la peinture occidentale."
             },
             {
-              "h": "La charnière du moderne",
-              "p": "Mort en exil en France, libre et radical jusqu'au bout, Goya invente la peinture de la barbarie et de l'angoisse modernes — un siècle avant tout le monde."
+              "h": "Le témoin de la guerre",
+              "p": "Quand les armées de Napoléon envahissent l'Espagne, Goya peint l'horreur sans héroïsme : Le Tres de Mayo montre des civils fusillés au petit matin, l'homme en chemise blanche bras écartés comme un Christ, face à un peloton sans visage. C'est l'acte de naissance de la peinture moderne de guerre — la barbarie regardée en face."
+            },
+            {
+              "h": "Son moteur : dire la vérité de l'homme, jusqu'au noir",
+              "p": "Vieux, malade, retiré dans sa maison de campagne, Goya couvre ses murs des Peintures noires : Saturne dévorant son fils, sabbats de sorcières, processions hagardes. Sans commande, pour lui seul, il plonge dans les cauchemars de l'humanité. Personne avant lui n'avait peint d'aussi noir, d'aussi libre, d'aussi désespéré."
+            },
+            {
+              "h": "Pourquoi il est une charnière, selon les experts",
+              "p": "Les historiens voient en Goya le dernier des anciens maîtres et le premier des modernes. Son refus d'idéaliser, sa liberté de touche, sa plongée dans l'irrationnel annoncent le romantisme, le réalisme, l'expressionnisme et le surréalisme. Gombrich souligne qu'il a libéré l'imagination du peintre de toute contrainte extérieure."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où David impose l'ordre et la raison, Goya explore le chaos, la peur, le rêve. Sourd, isolé, indépendant des modes, il a peint pour témoigner et pour exorciser. Il meurt exilé à Bordeaux, toujours en train d'expérimenter. Son œuvre, immense et inégale, est l'une des plus libres et des plus modernes de tout l'art ancien."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Tres de Mayo (Le 3 mai 1808)",
+              "artiste": "Goya",
+              "annee": "1814",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Third of May 1808",
+              "analyse": "Au petit matin, un peloton français fusille des civils madrilènes ; l'homme en chemise blanche, bras écartés comme crucifié, hurle dans la lumière d'une lanterne. La première grande dénonciation moderne de la guerre, sans gloire ni héros."
+            },
+            {
+              "titre": "Saturne dévorant son fils",
+              "artiste": "Goya",
+              "annee": "1819-1823",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "Saturn Devouring His Son",
+              "analyse": "Peinture noire de sa maison : le vieux dieu, yeux fous, dévore le corps de son enfant. Image de cauchemar peinte sans commande, pour lui seul. La plongée la plus brutale de l'art ancien dans l'horreur et la folie."
+            },
+            {
+              "titre": "La Famille de Charles IV",
+              "artiste": "Goya",
+              "annee": "1800-1801",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "Charles IV of Spain and His Family",
+              "analyse": "Portrait de groupe royal d'une franchise stupéfiante : visages lourds, regards vides, sans la moindre flatterie. Goya se peint lui-même dans l'ombre, à gauche, comme Velázquez dans Les Ménines. La vérité plutôt que la majesté."
+            },
+            {
+              "titre": "La Maja desnuda",
+              "artiste": "Goya",
+              "annee": "v. 1797-1800",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "La maja desnuda",
+              "analyse": "L'un des premiers nus féminins de la peinture occidentale sans prétexte mythologique : une vraie femme, qui regarde le spectateur en face. Le scandale lui valut une enquête de l'Inquisition. La modernité du nu commence ici."
+            },
+            {
+              "titre": "Le Sommeil de la raison engendre des monstres",
+              "artiste": "Goya",
+              "annee": "1799",
+              "lieu": "gravure, série des Caprices",
+              "wiki": "The Sleep of Reason Produces Monsters",
+              "analyse": "Un homme endormi sur sa table est assailli de hiboux et de chauves-souris. Devise des Caprices : quand la raison s'endort, les monstres de la superstition surgissent. Le programme de toute la part visionnaire de Goya."
             }
           ]
         },
@@ -3604,20 +3712,54 @@
           "dates": "1776-1837",
           "role": "Angleterre",
           "wiki": "John Constable",
-          "portrait": "Paysages fidèles, ciels étudiés ; influence les Français.",
+          "portrait": "John Constable (1776-1837) est, avec Turner, le grand maître du paysage anglais. Là où d'autres peignaient des paysages idéaux et composés, lui a peint sa campagne natale telle qu'il la voyait — les nuages, l'humidité, la lumière changeante — avec une fraîcheur qui bouleversera la peinture française.",
           "bio_longue": "John Constable (1776-1837) voue sa vie à peindre la campagne de son enfance, dans le Suffolk : moulins, charrettes, prairies, sous des ciels qu'il étudie avec une précision quasi scientifique (« le ciel est la note dominante »). Contre la nature idéalisée des académies, il peint le réel, l'humble, le familier, avec une fraîcheur de touche nouvelle. Peu reconnu en Angleterre, c'est en France qu'il fait sensation — il influence directement Delacroix et les paysagistes français.",
           "bio_sections": [
             {
-              "h": "La campagne anglaise",
-              "p": "John Constable voue sa vie à peindre la campagne de son enfance, dans le Suffolk : moulins, charrettes, prairies."
+              "h": "L'enfance : la vallée de la Stour",
+              "p": "Né en 1776 dans le Suffolk, fils d'un riche meunier, Constable grandit au bord de la rivière Stour, parmi les moulins, les écluses et les prairies humides. Cette campagne paisible sera le sujet de presque toute son œuvre : « Ces scènes ont fait de moi un peintre », dira-t-il. Il peint ce qu'il aime et ce qu'il connaît intimement."
             },
             {
-              "h": "L'étude des ciels",
-              "p": "Il étudie les nuages avec une précision quasi scientifique — « le ciel est la note dominante » — et peint le réel, l'humble, le familier, avec une fraîcheur de touche nouvelle."
+              "h": "Le déclic : peindre sur le motif",
+              "p": "Contre l'enseignement académique qui prônait le paysage composé en atelier d'après les maîtres, Constable sort peindre en plein air, devant le motif, par tous les temps. Il étudie inlassablement les nuages, notant l'heure et la direction du vent au dos de ses esquisses. Le ciel, dit-il, est « la note dominante » de tout paysage."
             },
             {
-              "h": "L'influence française",
-              "p": "Peu reconnu en Angleterre, c'est en France qu'il fait sensation : il influence directement Delacroix et les paysagistes français."
+              "h": "La science du naturel",
+              "p": "Constable observe que l'herbe et les feuilles ne sont pas d'un vert uniforme mais scintillent de touches claires — il pique ses verts de petites taches blanches, ce qu'on appellera « la neige de Constable ». Il cherche la vérité de l'instant, de la lumière mouillée d'Angleterre, de l'eau et de l'air."
+            },
+            {
+              "h": "Son moteur : la fidélité au lieu aimé",
+              "p": "Pas d'exotisme, pas d'histoire antique : Constable peint encore et encore la même vallée, La Charrette de foin, la cathédrale de Salisbury, parce qu'il les aime. Son ambition n'est pas le sublime mais le vrai, l'attachement profond à un coin de terre familier rendu avec émotion et exactitude."
+            },
+            {
+              "h": "Le message : la beauté de l'ordinaire",
+              "p": "Pour Constable, nul besoin de montagnes grandioses ou de ruines : une mare, une charrette, un ciel d'averse suffisent à émouvoir. Il élève le paysage humble et quotidien à la dignité du grand art, et y met une tendresse, une nostalgie de l'enfance, qui touchent universellement."
+            },
+            {
+              "h": "Pourquoi il est décisif, selon les experts",
+              "p": "Peu reconnu en Angleterre de son vivant, Constable triomphe à Paris : La Charrette de foin, exposée au Salon de 1824, bouleverse les jeunes peintres français et influence directement Delacroix et, plus tard, l'école de Barbizon et les impressionnistes. Gombrich en fait l'un des pères de la peinture de plein air moderne."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Turner cherche le sublime et la catastrophe, Constable cherche le calme et l'intime. L'un peint les tempêtes du monde, l'autre la paix d'une vallée. Sa révolution est discrète mais immense : avoir osé peindre le banal avec une honnêteté de regard qui ouvre la voie à tout le paysage moderne."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Charrette de foin",
+              "artiste": "Constable",
+              "annee": "1821",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Hay Wain",
+              "analyse": "Une charrette traverse un gué devant un cottage, sous un ciel d'été chargé de nuages mouvants. Exposée à Paris en 1824, elle stupéfia les peintres français par sa fraîcheur et déclencha la révolution du paysage de plein air."
+            },
+            {
+              "titre": "La Cathédrale de Salisbury",
+              "artiste": "Constable",
+              "annee": "1823",
+              "lieu": "Victoria and Albert Museum, Londres",
+              "wiki": "Salisbury Cathedral from the Bishop's Grounds",
+              "analyse": "La flèche de la cathédrale apparaît entre les arbres, encadrée par un arche de feuillage, sous un ciel pommelé. La nature et l'architecture en harmonie, baignées de la lumière humide et changeante de l'Angleterre."
             }
           ]
         },
@@ -3627,24 +3769,78 @@
           "dates": "1775-1851",
           "role": "Angleterre",
           "wiki": "J. M. W. Turner",
-          "portrait": "Lumière et atmosphère portées à l'extrême.",
+          "portrait": "Joseph Mallord William Turner (1775-1851) est le plus grand peintre anglais et le génie de la lumière et de l'atmosphère. Au fil de sa vie, il a dissous les formes dans des tourbillons de couleur et de vapeur, allant si loin vers l'abstraction qu'il anticipe, seul, la peinture moderne.",
           "bio_longue": "Joseph Mallord William Turner (1775-1851), fils d'un barbier londonien, est un prodige précoce et un génie solitaire. Obsédé par la lumière et les forces de la nature — tempêtes, incendies, brouillards, soleils aveuglants — il pousse le paysage vers une quasi-abstraction stupéfiante pour son époque. On raconte qu'il se fit attacher au mât d'un navire pour peindre une tempête de l'intérieur. Excentrique, secret, il lègue à la nation des milliers d'œuvres. Il anticipe à lui seul l'impressionnisme et l'art moderne.",
           "bio_sections": [
             {
-              "h": "Le fils du barbier",
-              "p": "Joseph Mallord William Turner, fils d'un barbier londonien, est un prodige précoce admis très jeune à la Royal Academy."
+              "h": "L'enfance : le fils du barbier de Londres",
+              "p": "Né en 1775 à Londres, fils d'un barbier de Covent Garden, Turner est un enfant prodige du dessin : son père expose ses aquarelles dans sa boutique. Issu d'un milieu modeste, peu instruit, bourru et solitaire toute sa vie, il compense par un travail acharné et une ambition immense, entrant très jeune à la Royal Academy."
             },
             {
-              "h": "La lumière et les forces",
-              "p": "Obsédé par la lumière et les forces de la nature — tempêtes, incendies, brouillards, soleils aveuglants — il se serait fait attacher au mât d'un navire pour peindre une tempête de l'intérieur."
+              "h": "Le déclic : le sublime et les maîtres",
+              "p": "Turner admire Claude Lorrain, dont il veut égaler les ports lumineux, et il est saisi par l'idée romantique du sublime : la nature écrasante, terrifiante et magnifique. Il voyage sans cesse, carnet en main, par les Alpes, l'Italie, les côtes, accumulant croquis de tempêtes, de montagnes et de couchers de soleil."
             },
             {
-              "h": "Vers l'abstraction",
-              "p": "Il pousse le paysage si loin que les formes s'y dissolvent : un train n'est plus qu'une traînée de vapeur dorée (Pluie, vapeur et vitesse). Il anticipe l'impressionnisme et bien au-delà."
+              "h": "La dissolution de la forme",
+              "p": "Au fil des décennies, Turner cesse de peindre les choses pour peindre la lumière et l'air qui les enveloppent. Bateaux, montagnes, trains se dissolvent dans des nappes de jaune, d'orange et de blanc. Dans Pluie, Vapeur et Vitesse, une locomotive surgit d'un brouillard lumineux : la vapeur du progrès devient pure peinture."
             },
             {
-              "h": "Le legs à la nation",
-              "p": "Excentrique et secret, il lègue à son pays des milliers d'œuvres. Génie solitaire, il reste le plus audacieux des peintres de son siècle."
+              "h": "Son moteur : capter l'élément, la force pure",
+              "p": "On raconte que Turner se fit attacher au mât d'un navire en pleine tempête pour en éprouver la fureur et la peindre de mémoire (Tempête de neige). Ce qui l'obsède, ce n'est pas l'objet mais l'énergie — l'eau, le feu, la lumière, le déchaînement des éléments. Il peint le sublime de l'intérieur."
+            },
+            {
+              "h": "Le message : l'homme face à l'immensité",
+              "p": "Le Téméraire remorqué montre un glorieux vaisseau de guerre traîné à la casse par un petit remorqueur fumant, au soleil couchant : élégie sur la fin d'un monde, le passage de la voile à la vapeur. Le Négrier dénonce, dans une mer d'apocalypse, le crime de l'esclavage. Turner mêle l'émotion morale au spectacle des éléments."
+            },
+            {
+              "h": "Pourquoi il est visionnaire, selon les experts",
+              "p": "Pour les historiens, Turner pousse la peinture plus loin que quiconque de son temps : ses dernières œuvres, presque abstraites, déconcertent ses contemporains et annoncent l'impressionnisme (Monet l'étudiera à Londres) et même l'art abstrait. Gombrich y voit un solitaire en avance d'un demi-siècle sur son époque."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Constable peint la paix d'une vallée, Turner peint la fureur du monde et la magie de la lumière. Avare, secret, vivant sous un faux nom à la fin de sa vie, il lègue toute son œuvre à la nation anglaise. Aucun peintre n'est allé aussi loin, aussi tôt, dans la libération de la couleur."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Téméraire remorqué à son dernier mouillage",
+              "artiste": "Turner",
+              "annee": "1839",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Fighting Temeraire",
+              "analyse": "Un glorieux vaisseau de Trafalgar, spectral et blanc, est traîné à la casse par un petit remorqueur noir crachant sa fumée, sous un coucher de soleil flamboyant. Élégie sublime sur la fin de l'âge de la voile. Le tableau préféré des Britanniques."
+            },
+            {
+              "titre": "Pluie, Vapeur et Vitesse",
+              "artiste": "Turner",
+              "annee": "1844",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Rain, Steam and Speed",
+              "analyse": "Une locomotive fonce vers nous, surgissant d'un brouillard lumineux où ciel, pluie et rails se confondent. Turner peint la vitesse et la modernité comme une dissolution de la matière dans la lumière. Presque abstrait, en 1844."
+            },
+            {
+              "titre": "Le Négrier",
+              "artiste": "Turner",
+              "annee": "1840",
+              "lieu": "Museum of Fine Arts, Boston",
+              "wiki": "The Slave Ship",
+              "analyse": "Dans une mer d'incendie et de tempête, un navire jette par-dessus bord ses esclaves mourants pour toucher l'assurance. La nature en apocalypse devient le tribunal moral du crime. Couleur déchaînée au service de l'indignation."
+            },
+            {
+              "titre": "Tempête de neige : Hannibal franchissant les Alpes",
+              "artiste": "Turner",
+              "annee": "1812",
+              "lieu": "Tate Britain, Londres",
+              "wiki": "Snow Storm: Hannibal and His Army Crossing the Alps",
+              "analyse": "L'armée d'Hannibal est écrasée par un tourbillon de neige et de nuées noires qui occupe presque toute la toile. L'homme et l'histoire réduits à des fourmis sous la puissance des éléments. Le sublime romantique à son comble."
+            },
+            {
+              "titre": "Norham Castle, lever de soleil",
+              "artiste": "Turner",
+              "annee": "v. 1845",
+              "lieu": "Tate Britain, Londres",
+              "wiki": "Norham Castle, Sunrise",
+              "analyse": "Le château n'est plus qu'une ombre bleue noyée dans un brouillard de jaune lumineux ; tout se dissout dans la lumière du matin. Œuvre tardive, presque abstraite, qui anticipe de plusieurs décennies l'art moderne."
             }
           ]
         },
@@ -3815,20 +4011,70 @@
           "dates": "1780-1867",
           "role": "Néoclassique",
           "wiki": "Jean-Auguste-Dominique Ingres",
-          "portrait": "Le gardien de la ligne néoclassique ; portraits et nus d'une perfection froide ; rival de Delacroix.",
+          "portrait": "Jean-Auguste-Dominique Ingres (1780-1867) est l'héritier de David et le champion du dessin et de la ligne pure, contre la couleur des romantiques. Maître du portrait et du nu, il a poussé la déformation gracieuse des corps jusqu'à une étrangeté qui fascinera les modernes, de Picasso à Matisse.",
           "bio_longue": "Jean-Auguste-Dominique Ingres (1780-1867), élève de David, est le grand prêtre de la ligne et du dessin. Pour lui, « le dessin est la probité de l'art » ; la couleur n'est qu'un ornement. Maître du portrait et du nu (La Grande Odalisque, dont il allonge le dos d'invraisemblables vertèbres pour la beauté de la ligne), il défend une perfection froide et idéale contre la fougue colorée de son rival Delacroix. Conservateur acharné, il domine l'enseignement officiel — et fascine pourtant les modernes par ses étranges déformations.",
           "bio_sections": [
             {
-              "h": "Le gardien de la ligne",
-              "p": "Jean-Auguste-Dominique Ingres, élève de David, est le grand prêtre du dessin. Pour lui, « le dessin est la probité de l'art » ; la couleur n'est qu'un ornement."
+              "h": "L'enfance : Montauban et le violon",
+              "p": "Né en 1780 à Montauban, fils d'un artiste-artisan, Ingres reçoit une formation de dessin et de musique : il sera bon violoniste (d'où l'expression « le violon d'Ingres » pour un passe-temps sérieux). Doué d'une main prodigieuse, il entre jeune dans l'atelier de David, à Paris, dont il devient l'élève le plus brillant."
             },
             {
-              "h": "La perfection froide",
-              "p": "Maître du portrait et du nu, il allonge le dos de sa Grande Odalisque d'invraisemblables vertèbres pour la pure beauté de la ligne — déformations qui fascineront plus tard les modernes."
+              "h": "Le déclic : Rome et la ligne",
+              "p": "Lauréat du prix de Rome, Ingres part en Italie où il restera dix-huit ans. Il y voue un culte à Raphaël et à la pureté de la ligne. Pour lui, « le dessin est la probité de l'art » : tout est dans le contour, juste, élégant, sensuel. Il y peint des portraits d'une précision photographique et des nus aux courbes infinies."
             },
             {
-              "h": "Le duel avec Delacroix",
-              "p": "Conservateur acharné, il mène toute sa vie une guerre esthétique contre la fougue colorée de Delacroix : la ligne contre la couleur, querelle qui structure le siècle."
+              "h": "Les déformations sublimes",
+              "p": "Ingres n'hésite pas à allonger un dos, ajouter des vertèbres, étirer un cou pour la beauté de la ligne : sa Grande Odalisque a un dos invraisemblablement long, mais d'une grâce parfaite. La vérité anatomique cède devant l'harmonie de l'arabesque. Ces libertés, jugées scandaleuses, sont calculées pour le plaisir des yeux."
+            },
+            {
+              "h": "Son moteur : la perfection de la ligne",
+              "p": "Toute sa vie, Ingres défend le primat du dessin contre la couleur, menant une querelle célèbre avec Delacroix. Il reprend ses toiles pendant des années, polit chaque contour. Sa quête est celle d'une beauté lisse, intemporelle, presque abstraite, où la chair devient surface parfaite."
+            },
+            {
+              "h": "Le message : la beauté idéale et sensuelle",
+              "p": "Ingres rêve d'un Orient fantasmé de bains, d'odalisques et de harems (Le Bain turc, peint à plus de 80 ans) où il peut multiplier les nus féminins. Mais cette sensualité est toujours maîtrisée par la pureté du trait : le désir y est filtré, refroidi, sublimé en pur dessin."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font d'Ingres le dernier grand classique et, paradoxalement, un précurseur de la modernité : ses déformations au service de la composition annoncent Picasso et Matisse, qui le vénéraient. Gombrich note que sa froideur apparente cache une étrangeté et une audace formelle profondes."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Face au romantisme fougueux et coloré de Delacroix, Ingres incarne la ligne, le calme, la perfection léchée. Conservateur en théorie, révolutionnaire en pratique par ses libertés anatomiques, il a déconcerté son siècle. Sa quête obsessionnelle de la ligne juste en fait un maître que les avant-gardes redécouvriront."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Grande Odalisque",
+              "artiste": "Ingres",
+              "annee": "1814",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Grande Odalisque",
+              "analyse": "Une odalisque nue, allongée de dos, tourne vers nous un visage impassible. Son dos est anatomiquement impossible — trop long de plusieurs vertèbres — mais la ligne est d'une grâce parfaite. La beauté de l'arabesque l'emporte sur la vérité du corps."
+            },
+            {
+              "titre": "Le Bain turc",
+              "artiste": "Ingres",
+              "annee": "1862",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Turkish Bath",
+              "analyse": "Tableau rond peint à plus de 80 ans : un entassement de nus féminins dans un harem fantasmé. L'obsession de toute une vie pour le corps féminin et l'arabesque, concentrée dans un cercle. Une sensualité tardive et hypnotique."
+            },
+            {
+              "titre": "La Source",
+              "artiste": "Ingres",
+              "annee": "1820-1856",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Source (Ingres)",
+              "analyse": "Une jeune fille nue tient une cruche d'où s'écoule l'eau, dans une pose d'une pureté antique. Commencée vers 1820, achevée 36 ans plus tard : l'idéal de beauté lisse et intemporelle d'Ingres, hors du temps et de tout réalisme."
+            },
+            {
+              "titre": "Madame Moitessier",
+              "artiste": "Ingres",
+              "annee": "1856",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Madame Moitessier",
+              "analyse": "Une bourgeoise opulente en robe à fleurs, dont le reflet rêveur apparaît dans le miroir. Précision des étoffes, perfection de la ligne, présence hypnotique : un sommet du portrait, mûri pendant douze ans."
             }
           ]
         },
@@ -3838,19 +4084,61 @@
           "dates": "1791-1824",
           "role": "Romantisme",
           "wiki": "Théodore Géricault",
-          "portrait": "Pionnier romantique, mort jeune.",
+          "portrait": "Théodore Géricault (1791-1824) est le météore du romantisme français. Mort à 32 ans, il a, en une poignée d'œuvres, fait entrer dans la grande peinture le fait divers contemporain, la folie et la souffrance réelle, ouvrant la voie à Delacroix et à tout l'art moderne du drame humain.",
           "bio_sections": [
             {
-              "h": "Le pionnier romantique",
-              "p": "Théodore Géricault, fougueux et passionné de chevaux, est l'un des premiers grands romantiques français."
+              "h": "L'enfance : un fils de bonne famille passionné de chevaux",
+              "p": "Né en 1791 à Rouen dans une famille aisée, Géricault grandit à Paris. Fortuné, indépendant, il n'a pas à plaire à des commanditaires : il peut peindre ce qu'il veut. Sa passion dévorante pour les chevaux — qu'il monte, dessine et peint sans cesse — traverse toute son œuvre et causera sa mort, des suites de chutes répétées."
+            },
+            {
+              "h": "Le déclic : la fougue contre l'académie",
+              "p": "Formé brièvement, il préfère copier au Louvre Rubens, Titien et les maîtres de la couleur et du mouvement. Dès ses premières œuvres — un Officier de chasseurs cabré dans la fumée de la bataille — il rompt avec la froideur néoclassique pour une énergie passionnée, une matière vibrante : le romantisme s'annonce."
             },
             {
               "h": "Le Radeau de la Méduse",
-              "p": "Il transforme un fait divers atroce — des naufragés abandonnés, la folie, le cannibalisme — en une immense toile d'Histoire, format réservé jusque-là aux rois et aux dieux. Il a interrogé les survivants et étudié des cadavres à la morgue."
+              "p": "En 1819, il s'empare d'un scandale d'actualité : le naufrage de la frégate la Méduse, dont les survivants, abandonnés sur un radeau, sombrèrent dans la folie et le cannibalisme. Géricault enquête, interroge les rescapés, dessine des cadavres à la morgue, et peint une immense toile d'agonie et d'espoir — un fait divers élevé au rang de tragédie universelle."
             },
             {
-              "h": "Mort à 32 ans",
-              "p": "Il meurt jeune des suites de chutes de cheval, laissant une œuvre brève mais incandescente qui ouvre le romantisme français."
+              "h": "Son moteur : la vérité de la souffrance",
+              "p": "Ce qui anime Géricault, c'est la volonté de peindre l'homme dans ses extrémités : la mort, la peur, la démence. Il refuse l'héroïsme convenu pour la chair réelle, le désespoir vrai. Sa peinture est une plongée fiévreuse dans la condition humaine la plus crue."
+            },
+            {
+              "h": "Le message : regarder la folie en face",
+              "p": "À la fin de sa courte vie, il peint une série de portraits d'aliénés (Insane Woman), pour un médecin aliéniste : des fous saisis avec une dignité et une compassion bouleversantes, ni caricaturés ni idéalisés. C'est l'un des premiers regards modernes, humains et lucides, sur la maladie mentale."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Géricault le déclencheur du romantisme pictural français. Le Radeau de la Méduse, par son sujet contemporain et son intensité, ouvre la voie à Delacroix (qui posa pour lui). Gombrich souligne qu'il a libéré la peinture du sujet noble obligatoire : désormais, l'actualité et la souffrance ordinaire peuvent être grand art."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Mort à 32 ans d'une chute de cheval, Géricault laisse une œuvre brève mais explosive. Là où David ordonnait, lui bouleverse ; là où Ingres polit, lui peint la fièvre. Riche et libre, il a pu être le premier peintre vraiment indépendant, choisissant ses sujets contre le goût officiel — figure annonciatrice de l'artiste moderne."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Radeau de la Méduse",
+              "artiste": "Géricault",
+              "annee": "1818-1819",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Raft of the Medusa",
+              "analyse": "Immense toile : les survivants d'un naufrage, entre cadavres et mourants, aperçoivent un navire à l'horizon et tendent leurs bras dans un dernier espoir. Un fait divers récent élevé en tragédie universelle. L'acte de naissance du romantisme français."
+            },
+            {
+              "titre": "Officier de chasseurs à cheval chargeant",
+              "artiste": "Géricault",
+              "annee": "1812",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Charging Chasseur",
+              "analyse": "Un officier sur son cheval cabré se retourne dans la fumée et le feu de la bataille, sabre levé. Énergie, mouvement, couleur fougueuse : à 21 ans, Géricault tourne déjà le dos à la froideur néoclassique."
+            },
+            {
+              "titre": "La Monomane de l'envie (Insensée)",
+              "artiste": "Géricault",
+              "annee": "1822",
+              "lieu": "Musée des Beaux-Arts, Lyon",
+              "wiki": "Insane Woman",
+              "analyse": "Portrait d'une vieille femme internée, peint pour un médecin aliéniste. Le regard fuyant, la dignité douloureuse : Géricault peint la folie sans caricature ni mépris. Un des premiers regards humains et modernes sur la maladie mentale."
             }
           ]
         },
@@ -3860,20 +4148,78 @@
           "dates": "1798-1863",
           "role": "Romantisme",
           "wiki": "Eugène Delacroix",
-          "portrait": "Chef du Romantisme : couleur, fougue, Orient.",
+          "portrait": "Eugène Delacroix (1798-1863) est le chef de file du romantisme en peinture et le maître de la couleur et du mouvement. Contre la ligne froide d'Ingres, il a défendu la passion, l'énergie et la touche libre, devenant le grand inspirateur des impressionnistes et de toute la peinture-couleur moderne.",
           "bio_longue": "Eugène Delacroix (1798-1863) est le chef du romantisme français. Tout, chez lui, repose sur la couleur, le mouvement, la passion : scènes dramatiques, sujets exotiques rapportés d'un voyage au Maroc, fougue de la touche. Cultivé, mélancolique, grand diariste, il mène une guerre esthétique contre la ligne froide d'Ingres. Ses recherches sur la couleur et les contrastes influenceront directement les impressionnistes. « La peinture, disait-il, n'est qu'un pont jeté entre l'âme du peintre et celle du spectateur. »",
           "bio_sections": [
             {
-              "h": "Le chef du romantisme",
-              "p": "Eugène Delacroix fait tout reposer sur la couleur, le mouvement, la passion. Cultivé, mélancolique, il tient un Journal qui est un chef-d'œuvre littéraire."
+              "h": "L'enfance : un mystère de naissance",
+              "p": "Né en 1798 près de Paris, Delacroix grandit dans un milieu cultivé et puissant ; une rumeur tenace fait de Talleyrand son vrai père. Orphelin assez jeune, doué pour la musique et les lettres autant que pour la peinture, il garde toute sa vie une élégance d'homme du monde et une immense culture littéraire, qui nourrira ses sujets."
             },
             {
-              "h": "La couleur et l'Orient",
-              "p": "Un voyage au Maroc lui révèle la lumière et l'exotisme. La Liberté guidant le peuple, sur les barricades de 1830, est le manifeste du romantisme contre la ligne académique."
+              "h": "Le déclic : Géricault et la couleur",
+              "p": "Marqué par Géricault (pour qui il pose sur le Radeau de la Méduse), Delacroix se passionne pour Rubens, Véronèse, et la couleur vénitienne. Dès La Barque de Dante puis le Massacre de Scio — où il dénonce les atrocités de la guerre d'indépendance grecque — il s'impose comme le rival fougueux et coloré du camp néoclassique."
             },
             {
-              "h": "L'héritage",
-              "p": "Ses recherches sur la couleur et les contrastes influenceront directement les impressionnistes. « La peinture, disait-il, n'est qu'un pont jeté entre l'âme du peintre et celle du spectateur. »"
+              "h": "La liberté et l'histoire",
+              "p": "En 1830, il peint La Liberté guidant le peuple : une femme allégorique, drapeau au poing, mène le peuple sur les barricades, par-dessus les morts. Allégorie et réalité crue mêlées, c'est l'image même de la révolution, devenue icône universelle de la liberté."
+            },
+            {
+              "h": "Le déclic oriental : le Maroc",
+              "p": "Un voyage au Maroc en 1832 est une révélation : la lumière, les couleurs, la vie quotidienne d'un Orient bien réel. Il en rapporte des carnets éblouissants et des toiles comme Femmes d'Alger, qui fascineront Renoir, Cézanne et plus tard Picasso. L'Orient cesse d'être un fantasme pour devenir une expérience de couleur."
+            },
+            {
+              "h": "Son moteur : la passion et la touche",
+              "p": "Pour Delacroix, la peinture doit transmettre l'émotion par la couleur, le mouvement, la composition tourbillonnante. Il étudie les contrastes de tons (le vert fait vibrer le rouge), pose des touches juxtaposées plutôt que des aplats lisses. « La couleur pense par elle-même », et c'est elle, non le dessin, qui touche l'âme."
+            },
+            {
+              "h": "Pourquoi il est un pivot, selon les experts",
+              "p": "Les historiens font de Delacroix le grand libérateur de la couleur. Ses recherches sur les tons complémentaires, consignées dans son célèbre Journal, sont étudiées par Van Gogh, Seurat et les impressionnistes, qui le revendiquent comme père. Gombrich souligne qu'il a rouvert, après le règne du dessin, la grande voie vénitienne de la peinture."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Face à Ingres et à la ligne, Delacroix incarne la couleur, la fougue, le drame. Cultivé, mondain mais solitaire, dandy et travailleur acharné, il a couvert plafonds et églises de Paris de vastes décors. Son Journal, chef-d'œuvre littéraire, fait de lui l'un des artistes les plus intelligents et influents du XIXe siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Liberté guidant le peuple",
+              "artiste": "Delacroix",
+              "annee": "1830",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Liberty Leading the People",
+              "analyse": "Une femme allégorique, sein nu et drapeau tricolore au poing, enjambe les morts pour mener le peuple — gamin de Paris, bourgeois, ouvrier — à l'assaut des barricades. L'allégorie et la rue crue mêlées : l'icône universelle de la révolution."
+            },
+            {
+              "titre": "La Mort de Sardanapale",
+              "artiste": "Delacroix",
+              "annee": "1827",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Death of Sardanapalus",
+              "analyse": "Le roi assyrien, vaincu, fait massacrer ses femmes, ses chevaux et ses trésors sous ses yeux avant de mourir. Tourbillon de chairs, d'or et de rouge sang : l'orgie de couleur et de violence du romantisme à son paroxysme."
+            },
+            {
+              "titre": "Femmes d'Alger dans leur appartement",
+              "artiste": "Delacroix",
+              "annee": "1834",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Women of Algiers",
+              "analyse": "Trois femmes alanguies dans un intérieur orientalisant, baignées d'une lumière douce et d'harmonies de couleurs raffinées. Fruit de son voyage au Maroc, elle fascinera Renoir, Cézanne et Picasso, qui en fera toute une série."
+            },
+            {
+              "titre": "La Barque de Dante",
+              "artiste": "Delacroix",
+              "annee": "1822",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Barque of Dante",
+              "analyse": "Dante et Virgile traversent en barque le fleuve des Enfers, assaillis par les damnés. Première grande toile de Delacroix : déjà la fougue, le drame et la matière colorée qui annoncent tout son romantisme."
+            },
+            {
+              "titre": "Scènes des massacres de Scio",
+              "artiste": "Delacroix",
+              "annee": "1824",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Massacre at Chios",
+              "analyse": "Des Grecs hagards attendent la mort ou l'esclavage après le massacre ottoman de l'île de Chios. Sujet d'actualité brûlante, peint avec une couleur et un désespoir qui scandalisèrent l'académie — « le massacre de la peinture », dit-on alors."
             }
           ]
         },
@@ -3924,20 +4270,70 @@
           "dates": "1819-1877",
           "role": "Réalisme",
           "wiki": "Gustave Courbet",
-          "portrait": "Chef du Réalisme, provocateur.",
+          "portrait": "Gustave Courbet (1819-1877) est le chef de file du réalisme et l'un des premiers artistes vraiment révoltés. Refusant l'idéal comme la fantaisie romantique, il a proclamé qu'il ne peindrait que le réel — les paysans, les ouvriers, le quotidien — et fait de cette franchise un acte politique.",
           "bio_longue": "Gustave Courbet (1819-1877) est le chef provocateur du réalisme. « Montrez-moi un ange et je le peindrai », répond-il à qui lui demande des sujets religieux : il ne peint que ce qu'il voit. Casseurs de pierres, enterrement de village, baigneuses « vulgaires », et même L'Origine du monde : il impose le réel, le quotidien, le populaire, au format monumental réservé jusque-là à l'Histoire — un manifeste politique autant qu'artistique. Communard engagé, il sera emprisonné puis exilé en Suisse, où il meurt.",
           "bio_sections": [
             {
-              "h": "Le chef du réalisme",
-              "p": "Gustave Courbet ne peint que ce qu'il voit : « Montrez-moi un ange et je le peindrai », répond-il à qui lui demande des sujets religieux."
+              "h": "L'enfance : la terre d'Ornans",
+              "p": "Né en 1819 à Ornans, dans le Doubs, fils d'un propriétaire terrien aisé, Courbet grandit dans la campagne franc-comtoise dont il restera profondément marqué. Solide, sûr de lui, hâbleur, il garde toute sa vie un fort accent et une fierté de provincial qui n'a peur de personne, y compris du milieu artistique parisien."
             },
             {
-              "h": "Le scandale d'Ornans",
-              "p": "Avec Un enterrement à Ornans, il représente des villageois ordinaires au format monumental réservé aux rois et aux saints. Scandale : c'est un manifeste, le peuple mérite la même dignité picturale que l'Histoire sainte."
+              "h": "Le déclic : ne peindre que le réel",
+              "p": "Autodidacte formé en copiant au Louvre, Courbet refuse à la fois le néoclassicisme et le romantisme : « Je ne peux peindre un ange, je n'en ai jamais vu. » Il décide de ne représenter que ce qu'il voit, son époque, son milieu, sans idéaliser. C'est une révolution : le réel ordinaire, dans sa banalité, devient le seul sujet légitime."
             },
             {
-              "h": "Le révolté",
-              "p": "Provocateur (L'Origine du monde), communard engagé, il sera emprisonné après la chute de la Commune puis exilé en Suisse, où il meurt ruiné."
+              "h": "Le scandale des grandes toiles",
+              "p": "En 1850, il expose Un enterrement à Ornans : des villageois ordinaires, grandeur nature, autour d'une fosse — un format jusque-là réservé aux rois et aux saints. Le public est outré qu'on traite des paysans comme des héros. Avec Les Casseurs de pierres, il montre crûment la misère du travail manuel. La peinture devient sociale."
+            },
+            {
+              "h": "Son moteur : la liberté et l'orgueil",
+              "p": "Courbet est mû par un orgueil et une indépendance farouches : il refuse les honneurs, défie les jurys, organise sa propre exposition quand le Salon le rejette. « Savoir pour pouvoir, telle fut ma pensée. » Il revendique le droit de l'artiste à peindre sa vérité, sans permission, contre l'ordre établi."
+            },
+            {
+              "h": "Le message : l'art au service du peuple et du présent",
+              "p": "Proche des idées socialistes de Proudhon, Courbet veut un art démocratique, ancré dans le présent et le travail réel. Dans L'Atelier du peintre, vaste « allégorie réelle », il se peint au centre, entouré du monde de son temps. Engagé jusqu'au bout, il participe à la Commune de Paris, ce qui lui vaudra prison et exil."
+            },
+            {
+              "h": "Pourquoi il est décisif, selon les experts",
+              "p": "Les historiens font de Courbet le fondateur du réalisme moderne et un jalon vers l'impressionnisme et l'art engagé. Sa liberté de sujet et de touche, son refus du Salon, son indépendance ouvrent la voie à Manet et aux avant-gardes. Gombrich souligne qu'il a fait de la peinture une affaire de conviction, non de convention."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le romantisme rêvait d'ailleurs et d'autrefois, Courbet plante son chevalet dans l'ici et maintenant, sans fard. Provocateur, politiquement engagé, condamné après la Commune à payer la reconstruction de la colonne Vendôme, il meurt ruiné en exil en Suisse. L'archétype de l'artiste révolté, libre et conséquent."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Un enterrement à Ornans",
+              "artiste": "Courbet",
+              "annee": "1849-1850",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "A Burial at Ornans",
+              "analyse": "Une cinquantaine de villageois ordinaires, grandeur nature, entourent une fosse ouverte. Le format monumental réservé aux héros et aux saints, accordé à de simples paysans : un scandale et le manifeste du réalisme."
+            },
+            {
+              "titre": "L'Atelier du peintre",
+              "artiste": "Courbet",
+              "annee": "1854-1855",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Painter's Studio",
+              "analyse": "Vaste « allégorie réelle » : Courbet se peint au centre, en train de peindre un paysage, entouré à gauche du monde de la misère, à droite de ses amis et soutiens. Un bilan de sa vie et un manifeste de l'artiste au cœur de la société."
+            },
+            {
+              "titre": "Les Casseurs de pierres",
+              "artiste": "Courbet",
+              "annee": "1849",
+              "lieu": "détruit en 1945 (connu par photo)",
+              "wiki": "The Stone Breakers",
+              "analyse": "Un vieil homme et un jeune garçon brisent des cailloux sur le bord d'une route, de dos, anonymes, écrasés par leur tâche. Sans pathos ni leçon : la dure réalité du travail manuel, montrée pour elle-même. Œuvre détruite pendant la guerre."
+            },
+            {
+              "titre": "Bonjour Monsieur Courbet (La Rencontre)",
+              "artiste": "Courbet",
+              "annee": "1854",
+              "lieu": "Musée Fabre, Montpellier",
+              "wiki": "The Meeting (Courbet)",
+              "analyse": "Courbet, sac au dos, salue son mécène qui le croise sur un chemin. L'artiste, fier et libre, marche tête haute, plus digne que le bourgeois qui le finance. L'orgueil de Courbet résumé en une scène de plein air ensoleillée."
             }
           ]
         },
@@ -4166,24 +4562,78 @@
           "dates": "1832-1883",
           "role": "Précurseur",
           "wiki": "Édouard Manet",
-          "portrait": "Le précurseur scandaleux (Le Déjeuner sur l'herbe, Olympia) ; pont entre réalisme et impressionnisme.",
+          "portrait": "Édouard Manet (1832-1883) est le père de la peinture moderne. Sans jamais se vouloir révolutionnaire, ce bourgeois élégant a, par deux tableaux scandaleux, fait basculer l'art dans la modernité : en peignant son époque sans détour et en assumant la peinture comme peinture, il a ouvert la voie aux impressionnistes.",
           "bio_longue": "Édouard Manet (1832-1883), fils de la grande bourgeoisie parisienne, voulait être reconnu par le Salon officiel — et passa sa vie à le scandaliser malgré lui. Élégant, cultivé, il admire les maîtres anciens (Vélasquez, Goya) mais peint la vie moderne : cafés, courses, demi-mondaines. Son refus d'idéaliser et sa peinture en aplats francs en font le pivot entre le réalisme et l'impressionnisme. Plus âgé que Monet ou Renoir, il leur sert de modèle et de chef de file involontaire, sans jamais exposer avec eux. La reconnaissance officielle ne viendra qu'à la toute fin de sa vie.",
           "bio_sections": [
             {
-              "h": "Un bourgeois qui rêve du Salon",
-              "p": "Édouard Manet naît dans la grande bourgeoisie parisienne et veut, plus que tout, la reconnaissance officielle du Salon. Cultivé, élégant, il admire les maîtres anciens — Vélasquez, Goya — mais choisit de peindre la vie de son temps : cafés, courses, demi-mondaines."
+              "h": "L'enfance : un fils de la grande bourgeoisie",
+              "p": "Né en 1832 à Paris dans une famille aisée de magistrats, Manet est destiné au droit ou à la marine. Après avoir échoué à l'examen naval et navigué jusqu'au Brésil, il impose à sa famille son choix de la peinture. Il restera toute sa vie un homme du monde raffiné, fréquentant les cafés et les salons, cherchant la reconnaissance officielle plus que la rupture."
             },
             {
-              "h": "Le scandale",
-              "p": "Son Déjeuner sur l'herbe (un nu banalisé en plein jour) puis son Olympia (une prostituée qui nous fixe sans pudeur) font scandale. Non pour le nu, banal en peinture, mais parce qu'il refuse de l'ennoblir : c'est une femme d'aujourd'hui, peinte en à-plats francs, qui assume d'être de la peinture."
+              "h": "Le déclic : les maîtres espagnols et le présent",
+              "p": "Formé chez Couture mais surtout au Louvre, Manet admire Vélasquez, Goya, Hals — leur touche libre, leurs noirs profonds. Il veut peindre « son temps » avec cette franchise des anciens maîtres : non des dieux ou des héros, mais les Parisiens d'aujourd'hui, dans leurs vêtements et leurs lieux, sans déguisement antique."
             },
             {
-              "h": "Le père malgré lui",
-              "p": "Plus âgé que Monet ou Renoir, Manet leur sert de modèle et de chef de file — sans jamais exposer avec eux, car il continue d'espérer le Salon. C'est lui qui a fait sauter le verrou : peindre librement, sans idéaliser."
+              "h": "Le double scandale de 1863-1865",
+              "p": "Le Déjeuner sur l'herbe — une femme nue pique-niquant avec des hommes habillés — fait scandale au Salon des refusés. Puis Olympia, une prostituée qui fixe le spectateur sans pudeur, déclenche un tollé. Le public ne supporte ni le sujet contemporain et cru, ni la touche plate, sans modelé doux : Manet est traité de barbare."
             },
             {
-              "h": "La reconnaissance tardive",
-              "p": "La gloire officielle ne vient qu'à la toute fin de sa vie. Malade, il meurt en 1883, laissant l'image du pivot exact entre le réalisme et l'impressionnisme — le père de la peinture moderne."
+              "h": "Son moteur : la peinture comme surface assumée",
+              "p": "Manet ne cherche pas l'illusion du relief : il peint par grands aplats clairs, supprime les demi-teintes, assume la toile comme une surface plane couverte de couleurs. Cette franchise — peindre la peinture autant que le sujet — est sa révolution silencieuse, celle dont sortira tout l'art moderne."
+            },
+            {
+              "h": "Le message : peindre la vie moderne",
+              "p": "Manet peint le Paris de son temps : les cafés, les courses, les bars, les chanteuses, comme dans Un bar aux Folies Bergère, où une serveuse mélancolique nous fait face devant un miroir ambigu. Ami des impressionnistes, il les pousse à peindre la ville et le présent, devenant leur aîné et leur modèle, sans jamais exposer avec eux."
+            },
+            {
+              "h": "Pourquoi il est le père des modernes, selon les experts",
+              "p": "Les historiens font de Manet la charnière entre la tradition et l'art moderne. En osant le sujet contemporain et la touche plate, il libère la peinture de l'illusion et du récit. Gombrich souligne que tout part de lui : Monet, Degas, puis Cézanne et au-delà se réclament de son audace tranquille."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Manet n'est pas un rebelle de tempérament : il rêve de gloire officielle et souffre des refus. Mais son œil et sa main sont en avance sur tous. Bourgeois jusqu'au bout, élégant, spirituel, miné par la maladie, il meurt à 51 ans, enfin reconnu, en ayant changé le cours de la peinture sans jamais l'avoir vraiment cherché."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Déjeuner sur l'herbe",
+              "artiste": "Manet",
+              "annee": "1863",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "Le Déjeuner sur l'herbe",
+              "analyse": "Une femme nue pique-nique tranquillement avec deux hommes en costume, dans un bois. Le mélange du nu et des habits contemporains, la touche claire et plate firent scandale au Salon des refusés. Acte fondateur de la peinture moderne."
+            },
+            {
+              "titre": "Olympia",
+              "artiste": "Manet",
+              "annee": "1863",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "Olympia (Manet)",
+              "analyse": "Une courtisane nue, allongée, fixe le spectateur sans pudeur, une servante noire lui apportant des fleurs. Reprise de la Vénus de Titien, mais ramenée à une prostituée d'aujourd'hui. Le regard direct et la touche plate déclenchèrent un tollé."
+            },
+            {
+              "titre": "Un bar aux Folies Bergère",
+              "artiste": "Manet",
+              "annee": "1882",
+              "lieu": "Courtauld Gallery, Londres",
+              "wiki": "A Bar at the Folies-Bergère",
+              "analyse": "Une serveuse mélancolique nous fait face derrière son comptoir ; le miroir derrière elle reflète, de façon impossible, la foule et un client. Sa dernière grande œuvre : la vie nocturne moderne et un trouble du regard énigmatique."
+            },
+            {
+              "titre": "Le Fifre",
+              "artiste": "Manet",
+              "annee": "1866",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Fifer",
+              "analyse": "Un jeune musicien militaire se détache sur un fond gris vide, sans décor ni profondeur, en aplats francs hérités de Vélasquez et de l'estampe japonaise. La modernité de la surface plane, sans illusion d'espace."
+            },
+            {
+              "titre": "Le Balcon",
+              "artiste": "Manet",
+              "annee": "1868-1869",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Balcony (Manet)",
+              "analyse": "Trois figures élégantes sur un balcon aux volets verts éclatants, dont la peintre Berthe Morisot au regard intense. Inspiré de Goya, le tableau juxtapose des présences distantes les unes des autres, dans une atmosphère énigmatique."
             }
           ]
         },
@@ -4193,24 +4643,70 @@
           "dates": "1840-1926",
           "role": "Impressionnisme",
           "wiki": "Claude Monet",
-          "portrait": "Le plus pur impressionniste ; séries (cathédrales, meules, Nymphéas).",
+          "portrait": "Claude Monet (1840-1926) est le cœur de l'impressionnisme — c'est l'un de ses tableaux qui donna son nom au mouvement. Toute sa vie, il a poursuivi une seule quête : peindre non les choses, mais la lumière et l'atmosphère changeantes qui les enveloppent, jusqu'à frôler l'abstraction dans ses derniers Nymphéas.",
           "bio_longue": "Claude Monet (1840-1926) est l'âme et le plus tenace des impressionnistes — celui qui restera fidèle au mouvement toute sa vie quand les autres s'en éloigneront. Sa jeunesse est misérable (il aurait tenté de se suicider, sa première femme Camille meurt jeune dans la pauvreté). Obsédé par la lumière, il peint en séries la même chose à toute heure. Riche et célèbre à la fin, il aménage son jardin d'eau à Giverny comme un motif vivant et y peint les immenses Nymphéas, quasi abstraits, malgré une vue déclinante. Il meurt en patriarche de la peinture moderne.",
           "bio_sections": [
             {
-              "h": "Le Havre et le plein air",
-              "p": "Claude Monet grandit au Havre, où le peintre Boudin l'initie à peindre dehors, sur le motif. Sa jeunesse est misérable — la pauvreté, la maladie, la mort précoce de sa première femme Camille. Mais une obsession le tient : la lumière."
+              "h": "L'enfance : Le Havre et les caricatures",
+              "p": "Né en 1840 à Paris mais élevé au Havre, Monet est dans sa jeunesse un caricaturiste doué et déjà connu localement. Sa rencontre décisive est celle du peintre Boudin, qui l'emmène peindre en plein air sur les plages normandes. « Si je suis devenu peintre, c'est à Boudin que je le dois », dira-t-il : il y prend le goût du ciel, de la mer et de la lumière vraie."
             },
             {
-              "h": "Le tableau qui nomme un mouvement",
-              "p": "En 1872, il peint Impression, soleil levant — un port dans la brume, tout en touches rapides. Exposée en 1874, elle vaut au groupe son nom moqueur d'« impressionnistes ». On peint désormais la sensation lumineuse de l'instant, pas l'objet connu."
+              "h": "Le déclic : peindre dehors, l'instant",
+              "p": "Montaché à Paris à Renoir, Sisley, Bazille, Monet fait le choix radical de peindre dehors, vite, pour saisir l'impression fugitive d'un moment et d'une lumière. En 1874, il expose Impression, soleil levant ; un critique moqueur en tire le mot « impressionnistes » — l'insulte devient le nom d'un mouvement."
             },
             {
-              "h": "Les séries",
-              "p": "Monet pousse l'idée à l'extrême : il peint la même chose encore et encore — meules, cathédrale de Rouen, peupliers — à différentes heures, pour saisir non la chose mais la lumière changeante qui la baigne."
+              "h": "La lumière comme seul sujet",
+              "p": "Monet comprend qu'un même motif change totalement selon l'heure et le temps. Il peint alors des séries : la cathédrale de Rouen à toutes les lumières, les meules, les peupliers, où ce n'est plus l'objet qui compte mais la lumière qui se pose dessus. La couleur des ombres, le reflet, la vibration de l'air deviennent le vrai sujet."
             },
             {
-              "h": "Giverny et les Nymphéas",
-              "p": "Riche et célèbre à la fin, il aménage son jardin d'eau à Giverny et y peint les immenses Nymphéas : plus d'horizon, plus de rive, l'eau et le reflet confondus en pure couleur. Sans le vouloir, il arrive aux portes de l'abstraction."
+              "h": "Son moteur : la sensation pure, sans relâche",
+              "p": "Monet veut peindre « ce qu'il voit », la pure sensation visuelle, en oubliant ce qu'il sait des choses. Obstiné, il travaille dehors par tous les temps, court d'une toile à l'autre quand la lumière change, gratte et recommence. Cette quête acharnée de l'instant le pousse toujours plus loin dans la dissolution de la forme."
+            },
+            {
+              "h": "Le message : Giverny et l'immersion",
+              "p": "Installé à Giverny, il crée un jardin d'eau qu'il peindra obsessionnellement à la fin de sa vie. Les grands Nymphéas, panneaux immenses sans horizon ni rive, plongent le spectateur dans un univers flottant de reflets et de fleurs. Presque aveugle, il y atteint une peinture proche de l'abstraction, offerte à la nation française."
+            },
+            {
+              "h": "Pourquoi il est central, selon les experts",
+              "p": "Les historiens font de Monet l'incarnation la plus pure de l'impressionnisme et un précurseur de l'abstraction. Ses séries posent l'idée moderne que le sujet importe moins que la perception et le traitement. Gombrich souligne qu'il a, plus que tout autre, appris à l'œil moderne à voir la couleur de la lumière."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Degas dessine et Renoir aime les figures, Monet est tout entier dans le paysage et la lumière, indifférent au récit et presque à la forme. D'une longévité et d'une ténacité exceptionnelles, passé de la misère à la gloire, il a poussé son unique idée — peindre la lumière — jusqu'à ses ultimes conséquences."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Impression, soleil levant",
+              "artiste": "Monet",
+              "annee": "1872",
+              "lieu": "Musée Marmottan-Monet, Paris",
+              "wiki": "Impression, Sunrise",
+              "analyse": "Le port du Havre au lever du jour : un soleil orange, son reflet tremblant sur l'eau, des barques fantômes dans la brume. Esquissé en quelques touches rapides. C'est le titre de cette toile qui, par dérision, donna son nom à l'impressionnisme."
+            },
+            {
+              "titre": "La Cathédrale de Rouen (série)",
+              "artiste": "Monet",
+              "annee": "1892-1894",
+              "lieu": "Musée d'Orsay et al.",
+              "wiki": "Rouen Cathedral (Monet series)",
+              "analyse": "Monet peint la même façade plus de trente fois, à toutes les heures et tous les temps. Ce n'est plus la pierre qui compte mais la lumière qui s'y pose, du bleu du matin à l'or du couchant. La démonstration que le vrai sujet est la lumière elle-même."
+            },
+            {
+              "titre": "Les Nymphéas",
+              "artiste": "Monet",
+              "annee": "v. 1916-1926",
+              "lieu": "Musée de l'Orangerie, Paris",
+              "wiki": "Water Lilies",
+              "analyse": "Immenses panneaux du bassin de Giverny, sans ciel ni rive : rien que l'eau, les reflets et les fleurs flottantes. Le spectateur est immergé dans un univers de couleur presque abstrait. L'aboutissement ultime de toute sa vie de peintre."
+            },
+            {
+              "titre": "Femmes au jardin",
+              "artiste": "Monet",
+              "annee": "1866",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "Women in the Garden",
+              "analyse": "Grande toile peinte entièrement en plein air (il creusa une tranchée pour atteindre le haut). Des robes claires éclaboussées de soleil et d'ombres colorées sous les arbres : déjà, à 26 ans, toute la quête impressionniste de la lumière naturelle."
             }
           ]
         },
@@ -4220,24 +4716,62 @@
           "dates": "1841-1919",
           "role": "Impressionnisme",
           "wiki": "Pierre-Auguste Renoir",
-          "portrait": "La joie, la lumière, les chairs (Bal du moulin de la Galette).",
+          "portrait": "Pierre-Auguste Renoir (1841-1919) est le peintre du bonheur et de la joie de vivre impressionniste. Maître de la lumière tachetée sur les chairs et les visages, il a célébré la beauté féminine, les bals, les déjeuners au bord de l'eau, avant de revenir, en fin de carrière, à une peinture plus charnelle et classique.",
           "bio_longue": "Pierre-Auguste Renoir (1841-1919), ancien peintre sur porcelaine, est l'impressionniste de la joie : bals, déjeuners, baigneuses, lumière qui danse à travers les feuilles, chairs roses et chaleureuses. « La peinture est faite pour être agréable », disait-il. Vieillissant, perclus de rhumatismes, il continue de peindre les pinceaux attachés à ses doigts déformés.",
           "bio_sections": [
             {
-              "h": "Du décor de porcelaine à la peinture",
-              "p": "Pierre-Auguste Renoir débute comme peintre sur porcelaine, métier qui lui donne le goût des couleurs claires et des sujets aimables. Il rejoint le groupe impressionniste dans la fièvre des années 1870."
+              "h": "L'enfance : un ouvrier porcelainier",
+              "p": "Né en 1841 à Limoges dans une famille modeste, Renoir commence à treize ans comme peintre sur porcelaine, décorant des tasses de petits bouquets. Cet apprentissage de la touche légère et du joli motif marquera tout son art. Quand la machine remplace les peintres, il économise pour entrer aux Beaux-Arts et devenir artiste."
+            },
+            {
+              "h": "Le déclic : l'atelier Gleyre et les amis",
+              "p": "Dans l'atelier Gleyre, il rencontre Monet, Sisley, Bazille. Ensemble, ils vont peindre en forêt de Fontainebleau et au bord de la Seine. Renoir adopte la touche fragmentée et la palette claire de l'impressionnisme, mais garde toujours un amour des figures, des visages et des corps que Monet, lui, néglige au profit du paysage."
             },
             {
               "h": "Le peintre de la joie",
-              "p": "« La peinture est faite pour être agréable », disait-il. Bals, déjeuners, baigneuses, lumière qui danse à travers les feuilles, chairs roses et chaleureuses : son Bal du moulin de la Galette respire le bonheur d'un dimanche."
+              "p": "Renoir peint le plaisir : le Bal du moulin de la Galette, où la lumière du soleil filtrée par les arbres tache de taches dorées les danseurs ; le Déjeuner des canotiers, fête amicale au bord de l'eau. Il assume vouloir faire une peinture « aimable, joyeuse et jolie » : « Il y a assez de choses ennuyeuses dans la vie. »"
             },
             {
-              "h": "Le retour à la forme",
-              "p": "Inquiet d'avoir « perdu le dessin », il revient plus tard à des formes plus pleines, plus sculpturales, sans rien perdre de sa chaleur."
+              "h": "Son moteur : le plaisir des yeux et de la chair",
+              "p": "Ce qui guide Renoir, c'est la sensualité : la peau nacrée des femmes, la lumière sur une joue, le velouté d'une fleur. Il peint avec gourmandise, par petites touches caressantes. Pour lui, un tableau doit être « une chose aimable, joyeuse et jolie » — un plaisir offert à l'œil, sans message ni drame."
             },
             {
-              "h": "La main déformée",
-              "p": "Vieillissant, perclus de rhumatismes, Renoir continue de peindre les pinceaux attachés à ses doigts noués — image bouleversante d'un homme qui ne vit que pour la couleur."
+              "h": "Le message : revenir au corps et aux maîtres",
+              "p": "Vers 1880, inquiet d'avoir, dit-il, « atteint le bout de l'impressionnisme », Renoir voyage en Italie, étudie Raphaël et Ingres, et raffermit son dessin : c'est sa période « ingresque ». Plus tard, perclus de rhumatismes, le pinceau attaché à la main, il peint des baigneuses opulentes, chair rose et chaude, dans un retour à la grande tradition du nu."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Renoir l'un des grands de l'impressionnisme et un pont vers la peinture du XXe siècle : ses dernières baigneuses charnelles influenceront Bonnard, Matisse et même Picasso. Gombrich souligne sa maîtrise unique de la lumière vivante sur les visages et les corps, et son refus assumé de la laideur."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Monet dissout tout dans la lumière du paysage, Renoir reste fidèle à l'homme, à la femme, au visage, à la chair. Peintre du bonheur quand d'autres cherchent le drame, il a connu la misère puis la gloire, et travaillé jusqu'au bout malgré la maladie. Sa joie de peindre est restée intacte toute sa vie."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Bal du moulin de la Galette",
+              "artiste": "Renoir",
+              "annee": "1876",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "Bal du moulin de la Galette",
+              "analyse": "Une guinguette de Montmartre un dimanche : on danse, on bavarde, sous les arbres qui mouchettent la foule de taches de soleil et d'ombres bleutées. Le chef-d'œuvre de la joie impressionniste, où la lumière vibre sur chaque visage."
+            },
+            {
+              "titre": "Le Déjeuner des canotiers",
+              "artiste": "Renoir",
+              "annee": "1880-1881",
+              "lieu": "Phillips Collection, Washington",
+              "wiki": "Luncheon of the Boating Party",
+              "analyse": "Des amis attablés sur une terrasse au bord de la Seine, après le canotage : rires, verres, lumière chaude. Renoir y réunit ses proches dans une célébration de l'amitié et du plaisir de vivre, sommet de sa manière claire."
+            },
+            {
+              "titre": "La Balançoire",
+              "artiste": "Renoir",
+              "annee": "1876",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Swing (Renoir)",
+              "analyse": "Une jeune femme sur une balançoire, dans un jardin où le soleil tombe en taches mauves et dorées à travers les feuilles. L'étude de la lumière tachetée, la « tache solaire », poussée à un raffinement délicat."
             }
           ]
         },
@@ -4247,24 +4781,54 @@
           "dates": "1834-1917",
           "role": "Impressionnisme",
           "wiki": "Edgar Degas",
-          "portrait": "Danseuses, courses, cadrages photographiques et japonisants.",
+          "portrait": "Edgar Degas (1834-1917) est l'impressionniste qui se voulait classique : maître du dessin, fasciné par le mouvement, il a peint les danseuses, les courses et les femmes au travail avec un œil de photographe et de moraliste. Sous l'apparente spontanéité, tout chez lui est composition savante et observation impitoyable.",
           "bio_longue": "Edgar Degas (1834-1917) est l'impressionniste à part : bourgeois solitaire et caustique, il déteste peindre dehors et se dit « réaliste ». Maître du dessin, fasciné par le mouvement, il saisit les danseuses à l'entraînement, les courses de chevaux, les blanchisseuses, avec des cadrages coupés, en plongée, hérités de la photographie et de l'estampe japonaise. Sa vue baissant, il se tourne vers le pastel et la sculpture.",
           "bio_sections": [
             {
-              "h": "L'impressionniste à part",
-              "p": "Edgar Degas, bourgeois cultivé et solitaire, expose avec les impressionnistes mais se dit « réaliste » : il déteste peindre dehors et ne croit qu'au travail d'atelier et au dessin."
+              "h": "L'enfance : un fils de banquier cultivé",
+              "p": "Né en 1834 à Paris dans une riche famille de banquiers, Degas reçoit une éducation classique et raffinée. Destiné au droit, il y renonce pour la peinture avec l'accord de son père amateur d'art. Cette aisance lui donne une liberté : il peut, longtemps, peindre sans vendre, en perfectionniste exigeant et indépendant."
             },
             {
-              "h": "Le mouvement saisi",
-              "p": "Fasciné par le corps en action, il guette les danseuses à l'entraînement, les courses de chevaux, les blanchisseuses — avec des cadrages coupés, en plongée, hérités de la photographie et de l'estampe japonaise."
+              "h": "Le déclic : Ingres et le dessin",
+              "p": "Le jeune Degas vénère Ingres, qui lui aurait dit : « Dessinez des lignes, beaucoup de lignes. » Il restera toute sa vie un dessinateur avant tout, copiant les maîtres anciens en Italie. Contrairement aux autres impressionnistes, il méprise la peinture en plein air et travaille en atelier, de mémoire et d'après croquis : « Aucun art n'est moins spontané que le mien. »"
             },
             {
-              "h": "Le maître du dessin",
-              "p": "Là où les autres dissolvent la forme dans la lumière, Degas la cerne d'un trait magistral. La ligne reste, chez lui, l'ossature de tout."
+              "h": "Le mouvement et l'instant moderne",
+              "p": "Degas se passionne pour les sujets de la vie moderne saisis dans des poses inhabituelles : danseuses à l'exercice, chevaux de course, modistes, blanchisseuses. Influencé par la photographie et l'estampe japonaise, il adopte des cadrages coupés, des points de vue plongeants, des figures tronquées par le bord — comme un instantané pris sur le vif."
             },
             {
-              "h": "Vers le pastel et la sculpture",
-              "p": "Sa vue baissant avec l'âge, il se tourne vers le pastel, plus tactile, et vers la sculpture (sa Petite danseuse de quatorze ans). Misanthrope, il s'éteint presque aveugle."
+              "h": "Son moteur : composer l'apparent hasard",
+              "p": "Sous l'air d'un moment surpris au hasard, chaque tableau de Degas est une construction rigoureuse : équilibre des vides et des pleins, lignes de fuite audacieuses, gestes étudiés. Il refait inlassablement le même motif de danseuse pour en saisir la vérité du mouvement. La spontanéité, chez lui, est le fruit d'un calcul de maître."
+            },
+            {
+              "h": "Le message : le travail et la vérité des corps",
+              "p": "Degas ne flatte pas : ses danseuses ne sont pas des fées mais de jeunes ouvrières du spectacle, bâillant, se grattant, épuisées par l'effort. Ses blanchisseuses peinent, son Absinthe montre la solitude hébétée d'un couple dans un café. Il regarde la condition moderne, surtout celle des femmes au travail, avec une lucidité sans complaisance."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Degas le grand pont entre le dessin classique et la modernité du cadrage. Son influence sur Toulouse-Lautrec et la mise en page moderne est immense. Gombrich souligne qu'il a renouvelé la composition occidentale en y introduisant l'instantané, le décentrement et le point de vue oblique venus du Japon et de la photo."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Solitaire, ironique, misanthrope sur le tard, Degas se tient à l'écart : il expose avec les impressionnistes mais refuse l'étiquette, déteste le plein air, privilégie la ligne. La vue baissant, il se tourne vers le pastel et la sculpture (sa Petite Danseuse de cire). Un classique infiltré dans la modernité."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Absinthe",
+              "artiste": "Degas",
+              "annee": "1875-1876",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "L'Absinthe",
+              "analyse": "Dans un café, un homme et une femme hébétés fixent le vide devant leur verre d'absinthe, décalés sur le côté droit, le premier plan vide de tables. La solitude moderne et l'alcool, saisis dans un cadrage de photographe, sans aucun jugement explicite."
+            },
+            {
+              "titre": "La Petite Danseuse de quatorze ans",
+              "artiste": "Degas",
+              "annee": "1881",
+              "lieu": "sculpture (nombreux musées)",
+              "wiki": "The Little Dancer of Fourteen Years",
+              "analyse": "Sculpture de cire vêtue d'un vrai tutu et d'un ruban : une jeune danseuse, menton levé, mains croisées dans le dos. Le réalisme du costume réel choqua le public. Une vérité du corps adolescent, fragile et fière, sans idéalisation."
             }
           ]
         },
@@ -4296,24 +4860,70 @@
           "dates": "1839-1906",
           "role": "Post-impr. (structure)",
           "wiki": "Paul Cézanne",
-          "portrait": "La structure ; le « père de l'art moderne ».",
+          "portrait": "Paul Cézanne (1839-1906) est le père de l'art du XXe siècle. Parti de l'impressionnisme, il a cherché toute sa vie à en faire « quelque chose de solide et de durable comme l'art des musées », construisant ses toiles par plans de couleur — et ouvrant ainsi, à lui seul, la porte du cubisme et de l'abstraction.",
           "bio_longue": "Paul Cézanne (1839-1906), fils d'un riche banquier d'Aix-en-Provence, travaille longtemps dans l'incompréhension et la solitude. Il cherche obstinément la structure géométrique cachée sous l'apparence — il peint la montagne Sainte-Victoire des dizaines de fois, en plans de couleur qui construisent l'espace. Raté de son vivant, il devient après sa mort « le père de nous tous » (Picasso, Matisse) : son analyse de la forme ouvre directement le cubisme.",
           "bio_sections": [
             {
-              "h": "Aix, l'incompris",
-              "p": "Paul Cézanne, fils d'un riche banquier d'Aix-en-Provence, travaille des décennies dans l'incompréhension et la solitude, loin de Paris. Ami d'enfance de Zola, rugueux, acharné, il cherche autre chose que ses amis impressionnistes."
+              "h": "L'enfance : Aix et l'amitié de Zola",
+              "p": "Né en 1839 à Aix-en-Provence, fils d'un banquier autoritaire, Cézanne grandit sous le soleil et le mont Sainte-Victoire qui domine sa ville. Au collège, il se lie d'une amitié profonde avec le futur écrivain Émile Zola. Contre son père qui le voulait juriste, il s'arrache à la province pour tenter la peinture à Paris, déchiré entre les deux mondes."
             },
             {
-              "h": "Au-delà de la sensation",
-              "p": "Il juge l'impressionnisme trop superficiel — « rien que de la sensation ». Lui veut retrouver la structure solide, durable, cachée sous l'apparence changeante."
+              "h": "Le déclic : Pissarro et l'impressionnisme",
+              "p": "Ses débuts sont sombres, violents, maladroits. C'est le doux Pissarro qui, en travaillant à ses côtés, lui apprend à éclaircir sa palette et à peindre sur le motif, dans la nature. Cézanne adopte alors l'impressionnisme — mais il le trouve trop flou, trop fugitif : il veut retrouver la structure, le poids, la durée que les impressionnistes ont dissous dans la lumière."
             },
             {
-              "h": "La montagne Sainte-Victoire",
-              "p": "Il peint la même montagne des dizaines de fois, en plans de couleur juxtaposés qui construisent l'espace comme une architecture. Sa devise : « traiter la nature par le cylindre, la sphère, le cône »."
+              "h": "Construire avec la couleur",
+              "p": "Cézanne fait une découverte capitale : on peut modeler le volume non par l'ombre et la lumière, mais par la couleur elle-même — les tons chauds avancent, les froids reculent. Il construit ses pommes, ses montagnes, ses corps par petits plans colorés juxtaposés, « traitant la nature par le cylindre, la sphère et le cône ». La forme renaît de la couleur."
             },
             {
-              "h": "« Le père de nous tous »",
-              "p": "Raté de son vivant, il devient après sa mort la référence des modernes : Picasso et Matisse l'appelleront « le père de nous tous ». Son analyse de la forme ouvre directement la porte du cubisme."
+              "h": "Son moteur : la sensation et la structure réunies",
+              "p": "Toute sa vie, retiré à Aix, solitaire et acharné, Cézanne poursuit une « réalisation » impossible : rendre à la fois la sensation vivante devant la nature et l'ordre solide d'une construction. Il peint des dizaines de fois la montagne Sainte-Victoire, les baigneuses, les pommes, doutant sans cesse, recommençant, jamais satisfait."
+            },
+            {
+              "h": "Le message : la peinture comme architecture",
+              "p": "Pour Cézanne, peindre n'est pas copier mais construire un équivalent du monde, un ordre parallèle fait de couleur et de plans. Il assume les déformations — une table qui ne se rejoint pas, un vase de travers — au nom de l'équilibre de l'ensemble. Le tableau devient un objet construit, autonome, qui a ses propres lois."
+            },
+            {
+              "h": "Pourquoi il est le père des modernes, selon les experts",
+              "p": "Les historiens font de Cézanne la source de tout l'art du XXe siècle. « Cézanne est le père de nous tous », diront Picasso et Matisse. Sa construction par plans mène directement au cubisme ; sa libération de la couleur, au fauvisme et à l'abstraction. Gombrich en fait le pivot décisif entre l'impressionnisme et l'art moderne."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'impressionnisme saisit l'instant fugitif, Cézanne cherche l'éternel et le solide. Maladroit en apparence, en réalité d'une rigueur extrême, méconnu jusqu'à la fin, il travaille seul en Provence, loin des modes. Mort en peignant sur le motif, sous l'orage, il lègue le chantier que toute la modernité va poursuivre."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Montagne Sainte-Victoire",
+              "artiste": "Cézanne",
+              "annee": "v. 1885-1906",
+              "lieu": "Plusieurs musées",
+              "wiki": "Mont Sainte-Victoire (Cézanne)",
+              "analyse": "La montagne de son enfance, peinte des dizaines de fois, construite par plans de couleur — verts et ocres au sol, bleus du massif et du ciel se répondant. La structure géométrique du paysage qui ouvre la voie au cubisme."
+            },
+            {
+              "titre": "Les Joueurs de cartes",
+              "artiste": "Cézanne",
+              "annee": "1890-1895",
+              "lieu": "Musée d'Orsay et al.",
+              "wiki": "The Card Players",
+              "analyse": "Deux paysans absorbés par leur partie, de part et d'autre d'une table, monumentaux et immobiles comme des piliers. Cézanne fait d'une scène de café une composition d'une gravité presque architecturale, hors du temps."
+            },
+            {
+              "titre": "Les Grandes Baigneuses",
+              "artiste": "Cézanne",
+              "annee": "1900-1906",
+              "lieu": "Philadelphia Museum of Art",
+              "wiki": "The Large Bathers (Cézanne)",
+              "analyse": "Des baigneuses nues, simplifiées et géométrisées, s'intègrent à l'architecture des arbres penchés qui forment un fronton. La fusion des figures et du paysage en une structure unique : le tableau qui marquera Picasso et les Demoiselles d'Avignon."
+            },
+            {
+              "titre": "Le Panier de pommes",
+              "artiste": "Cézanne",
+              "annee": "v. 1893",
+              "lieu": "Art Institute of Chicago",
+              "wiki": "The Basket of Apples",
+              "analyse": "Une nature morte où la table ne se rejoint pas de part et d'autre de la nappe, où les pommes semblent rouler hors de la perspective. Cézanne sacrifie l'exactitude à l'équilibre de l'ensemble : « avec une pomme, je veux étonner Paris. »"
             }
           ]
         },
@@ -4323,24 +4933,86 @@
           "dates": "1853-1890",
           "role": "Post-impr. (émotion)",
           "wiki": "Vincent van Gogh",
-          "portrait": "L'émotion par la couleur ; vie tragique, gloire posthume.",
+          "portrait": "Vincent van Gogh (1853-1890) est devenu le symbole même de l'artiste : génie incompris, brûlé par sa propre intensité, qui n'a vendu presque aucune toile de son vivant et révolutionné la peinture en dix ans à peine. Sa couleur exaltée et sa touche tourbillonnante font de lui le père de l'expressionnisme.",
           "bio_longue": "Vincent van Gogh (1853-1890) ne peint que dix ans, et ne vend presque rien de son vivant. Ancien prédicateur raté, écorché vif, il met dans la couleur et la touche tourbillonnante toute sa souffrance et sa ferveur. À Arles, rêvant d'une communauté d'artistes, il se brouille violemment avec Gauguin et se mutile l'oreille. Interné, il peint dans des crises ses chefs-d'œuvre (La Nuit étoilée), puis se tire une balle à 37 ans. Sa correspondance avec son frère Theo est l'un des plus bouleversants témoignages sur l'acte de créer. Gloire posthume immense.",
           "bio_sections": [
             {
-              "h": "L'écorché vif",
-              "p": "Vincent van Gogh, Hollandais, est d'abord marchand d'art, puis prédicateur raté auprès des mineurs. Écorché, mystique, il ne se met à peindre que vers 27 ans — et ne peindra que dix ans."
+              "h": "L'enfance : le fils du pasteur hollandais",
+              "p": "Né en 1853 dans un village du Brabant, fils d'un pasteur protestant, Vincent est un enfant solitaire et intense. Avant la peinture, il cherche sa voie dans la religion : il devient prédicateur auprès des mineurs pauvres du Borinage, partageant leur misère avec une ferveur extrême. Cet élan de compassion et d'absolu ne le quittera jamais."
             },
             {
-              "h": "La couleur comme cri",
-              "p": "Il met dans la couleur et la touche tourbillonnante toute sa ferveur et sa souffrance. Ce n'est plus le monde qu'il peint, mais ce qu'il ressent — la naissance de l'expressionnisme."
+              "h": "Le déclic tardif : peindre à 27 ans",
+              "p": "C'est seulement vers 27 ans que Van Gogh, soutenu financièrement et moralement par son frère Théo, marchand de tableaux, se consacre à la peinture. Ses débuts sont sombres et terriens (Les Mangeurs de pommes de terre), tout entiers tournés vers les paysans et les humbles, dans la lignée de Millet qu'il vénère."
             },
             {
-              "h": "Arles, Gauguin, la crise",
-              "p": "À Arles, il rêve d'une communauté d'artistes et fait venir Gauguin ; leur cohabitation tourne au drame, Van Gogh se mutile l'oreille. Interné à Saint-Rémy, il peint dans ses crises ses plus grands chefs-d'œuvre, dont La Nuit étoilée."
+              "h": "La révélation de la couleur",
+              "p": "Arrivé à Paris auprès de Théo, il découvre les impressionnistes et l'estampe japonaise : sa palette explose de couleurs pures. Puis il descend dans le Sud, à Arles, ébloui par la lumière : tournesols éclatants, champs de blé d'or, ciels de nuit étoilée. La couleur n'imite plus la nature, elle exprime l'émotion : « j'emploie la couleur pour m'exprimer fortement »."
             },
             {
-              "h": "Mort à 37 ans, gloire posthume",
-              "p": "Il se tire une balle en 1890, n'ayant presque rien vendu de son vivant. Sa correspondance bouleversante avec son frère Theo, et la force de son œuvre, en feront l'un des artistes les plus aimés au monde."
+              "h": "Son moteur : l'émotion poussée à l'incandescence",
+              "p": "Van Gogh peint vite, dans une fièvre, avec des empâtements épais et des touches qui tourbillonnent comme des flammes. Chaque toile est une décharge d'émotion. Il rêve d'une communauté d'artistes, fait venir Gauguin à Arles — mais leur cohabitation tourne au drame : c'est la crise où il se mutile l'oreille."
+            },
+            {
+              "h": "Le message : la peinture comme cri d'amour et de détresse",
+              "p": "Pour Van Gogh, la peinture est un moyen de consoler et de communier avec le monde et les humbles. Ses lettres bouleversantes à Théo disent ce désir d'aimer et d'être compris. Interné, luttant contre la maladie mentale, il peint à Saint-Rémy La Nuit étoilée, ciel en spirales cosmiques, avant de mourir à 37 ans, d'une balle, désespéré."
+            },
+            {
+              "h": "Pourquoi il est immense, selon les experts",
+              "p": "Méconnu de son vivant (une seule toile vendue), Van Gogh devient après sa mort l'un des artistes les plus aimés et les plus chers du monde. Les historiens en font le père de l'expressionnisme : libérer la couleur et la touche pour exprimer l'intérieur. Gombrich souligne qu'il a fait de la sensation et de l'émotion la matière même du tableau."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains analysent la lumière, Van Gogh y projette son âme entière. Sa sincérité brûlante, sa souffrance, sa mort tragique ont créé le mythe de l'artiste maudit. Mais au-delà de la légende, il y a une œuvre d'une cohérence et d'une puissance rares, accomplie en une décennie de travail acharné et lumineux."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Nuit étoilée",
+              "artiste": "Van Gogh",
+              "annee": "1889",
+              "lieu": "MoMA, New York",
+              "wiki": "The Starry Night",
+              "analyse": "Peinte depuis l'asile de Saint-Rémy : un ciel nocturne en spirales tourbillonnantes, une lune et des étoiles en halos, un cyprès noir comme une flamme, un village paisible en bas. La nuit devient une vision cosmique et bouleversée. Sans doute le tableau le plus célèbre du monde."
+            },
+            {
+              "titre": "Les Tournesols",
+              "artiste": "Van Gogh",
+              "annee": "1888",
+              "lieu": "National Gallery, Londres et al.",
+              "wiki": "Sunflowers",
+              "analyse": "Un bouquet de tournesols dans un vase, du jaune sur du jaune, en empâtements épais et vibrants. Peints à Arles pour décorer la chambre de Gauguin, ils sont une explosion de lumière et de vie : « le tournesol est à moi », disait-il."
+            },
+            {
+              "titre": "La Chambre à Arles",
+              "artiste": "Van Gogh",
+              "annee": "1888",
+              "lieu": "Van Gogh Museum, Amsterdam",
+              "wiki": "Bedroom in Arles",
+              "analyse": "Sa propre chambre, peinte en aplats de couleurs vives, aux perspectives volontairement faussées pour suggérer le repos. Un lieu intime et modeste élevé en image de paix recherchée, à la veille de l'arrivée de Gauguin."
+            },
+            {
+              "titre": "Autoportrait à l'oreille bandée",
+              "artiste": "Van Gogh",
+              "annee": "1889",
+              "lieu": "Courtauld Gallery, Londres",
+              "wiki": "Self-Portrait (Van Gogh, September 1889)",
+              "analyse": "Après s'être mutilé l'oreille lors de la crise qui suivit la rupture avec Gauguin, Van Gogh se peint, calme et grave, le pansement visible, devant une estampe japonaise. La lucidité bouleversante d'un homme face à sa propre détresse."
+            },
+            {
+              "titre": "Les Mangeurs de pommes de terre",
+              "artiste": "Van Gogh",
+              "annee": "1885",
+              "lieu": "Van Gogh Museum, Amsterdam",
+              "wiki": "The Potato Eaters",
+              "analyse": "Cinq paysans aux visages rudes partagent des pommes de terre sous une lampe, dans des tons sombres et terreux. Œuvre de jeunesse qu'il jugeait l'une de ses meilleures : la dignité des humbles, peinte avec la compassion du fils de pasteur."
+            },
+            {
+              "titre": "Champ de blé aux corbeaux",
+              "artiste": "Van Gogh",
+              "annee": "1890",
+              "lieu": "Van Gogh Museum, Amsterdam",
+              "wiki": "Wheatfield with Crows",
+              "analyse": "Un ciel d'orage bleu nuit pèse sur un champ de blé d'or que traversent des corbeaux noirs et trois chemins qui ne mènent nulle part. Peinte peu avant sa mort, elle dégage une beauté et une angoisse extrêmes — un sommet de l'expression par la couleur."
             }
           ]
         },
@@ -4350,24 +5022,70 @@
           "dates": "1848-1903",
           "role": "Post-impr. (symbole)",
           "wiki": "Paul Gauguin",
-          "portrait": "Le symbole, l'aplat, la fuite à Tahiti.",
+          "portrait": "Paul Gauguin (1848-1903) a tout quitté — métier, famille, Europe — pour chercher un paradis perdu et une peinture neuve. En posant de grands aplats de couleurs pures cernés de contours, loin de toute imitation, il a ouvert la voie au symbolisme, au fauvisme et à tout l'art moderne de la couleur libérée.",
           "bio_longue": "Paul Gauguin (1848-1903) était un agent de change prospère ; à 35 ans, il quitte tout — métier, femme, enfants — pour peindre. En quête d'un art plus « pur » et plus spirituel, il fuit la civilisation occidentale jusqu'à Tahiti, où il peint des aplats de couleurs vives et des figures symboliques. Sa vie là-bas est trouble et misérable, mais son refus du réalisme, sa couleur libérée et son goût du « primitif » influenceront profondément le fauvisme et tout l'art du XXe siècle.",
           "bio_sections": [
             {
-              "h": "L'agent de change qui plaque tout",
-              "p": "Paul Gauguin mène d'abord une vie rangée d'agent de change prospère. À 35 ans, il quitte tout — métier, femme, enfants — pour devenir peintre. Un pari radical et un peu fou."
+              "h": "L'enfance : le Pérou et l'appel du lointain",
+              "p": "Né en 1848 à Paris, Gauguin passe sa petite enfance au Pérou, dans la famille de sa mère, parmi les couleurs et les objets d'un ailleurs exotique. Cette enfance lointaine laisse en lui une nostalgie des terres « primitives » et ensoleillées. Jeune homme, il est marin, puis agent de change prospère, marié, père de cinq enfants : une vie toute tracée."
             },
             {
-              "h": "L'aplat et le symbole",
-              "p": "Il rejette le réalisme et l'impressionnisme au profit d'aplats de couleurs vives cernés de contours, et de figures chargées de symboles. La couleur n'imite plus, elle exprime et signifie."
+              "h": "Le déclic : tout quitter pour peindre",
+              "p": "D'abord peintre du dimanche et collectionneur, Gauguin se prend de passion pour l'art. À 35 ans, le krach boursier lui en donne le prétexte : il abandonne la banque, puis sa famille, pour se consacrer entièrement à la peinture, dans une misère croissante. Le confort bourgeois contre le rêve de l'art : un choix radical et sans retour."
             },
             {
-              "h": "La fuite à Tahiti",
-              "p": "En quête d'un art plus « pur » et plus spirituel, il fuit la civilisation occidentale jusqu'à Tahiti. Sa vie là-bas est trouble et misérable, mais il y peint des chefs-d'œuvre lumineux et énigmatiques."
+              "h": "Pont-Aven : l'aplat et le cerne",
+              "p": "En Bretagne, à Pont-Aven, Gauguin invente avec ses amis une peinture nouvelle : le synthétisme. Finis le modelé et la perspective ; place à de grands aplats de couleur pure, cernés d'un trait sombre comme un vitrail (Vision après le sermon, Le Christ jaune). La couleur n'imite plus le réel, elle exprime une idée, un rêve, une émotion."
             },
             {
-              "h": "Le père du fauvisme",
-              "p": "Sa couleur libérée et son goût du « primitif » influenceront profondément Matisse, les fauves et tout l'art du XXe siècle. Il meurt isolé aux Marquises, en 1903."
+              "h": "Son moteur : fuir la civilisation, retrouver l'origine",
+              "p": "Gauguin est habité par le rêve d'échapper à l'Europe « pourrie » et à l'art trop savant pour retrouver une innocence « primitive », des sensations fortes et vraies. Cette quête le pousse toujours plus loin : la Martinique, puis Tahiti, puis les îles Marquises, où il cherche un éden qu'il ne trouvera jamais tout à fait."
+            },
+            {
+              "h": "Le message : Tahiti et la grande question",
+              "p": "À Tahiti, malgré la maladie et la misère, il peint des Tahitiennes aux couleurs somptueuses, dans un paradis rêvé plus que réel. Sa toile-testament, immense, porte une inscription : « D'où venons-nous ? Que sommes-nous ? Où allons-nous ? » — méditation sur la naissance, la vie et la mort, peinte avant une tentative de suicide."
+            },
+            {
+              "h": "Pourquoi il est décisif, selon les experts",
+              "p": "Les historiens font de Gauguin l'un des grands libérateurs de la couleur et de la forme. Son aplat coloré et expressif influence directement les Nabis, les fauves (Matisse) et l'expressionnisme allemand. Gombrich souligne qu'il a, avec Cézanne et Van Gogh, formé le trio post-impressionniste d'où sort tout l'art du XXe siècle."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Van Gogh exprime son âme et Cézanne construit, Gauguin rêve et symbolise : il cherche le sens caché, le mythe, le « primitif ». Personnage orgueilleux et égoïste, il a sacrifié les siens à son art et mythifié sa propre légende d'artiste évadé. Mort isolé aux Marquises, il laisse une œuvre qui a déplacé l'art vers l'imaginaire et la couleur pure."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?",
+              "artiste": "Gauguin",
+              "annee": "1897-1898",
+              "lieu": "Museum of Fine Arts, Boston",
+              "wiki": "Where Do We Come From? What Are We? Where Are We Going?",
+              "analyse": "Immense frise tahitienne se lisant de droite (un nourrisson) à gauche (une vieille femme mourante) : tout le cycle de la vie humaine. Sa toile-testament, peinte dans la misère et la maladie, avant une tentative de suicide. Une méditation peinte sur l'existence."
+            },
+            {
+              "titre": "Le Christ jaune",
+              "artiste": "Gauguin",
+              "annee": "1889",
+              "lieu": "Albright-Knox Gallery, Buffalo",
+              "wiki": "The Yellow Christ",
+              "analyse": "Un Christ en croix jaune vif domine des paysannes bretonnes en prière dans un paysage d'automne. Grands aplats cernés, couleur arbitraire et spirituelle : le synthétisme de Pont-Aven, où la couleur exprime le sacré plutôt qu'elle ne décrit."
+            },
+            {
+              "titre": "Femmes de Tahiti",
+              "artiste": "Gauguin",
+              "annee": "1891",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "Tahitian Women on the Beach",
+              "analyse": "Deux Tahitiennes assises sur la plage, monumentales et graves, en aplats de couleurs chaudes. Le rêve d'un paradis « primitif » et d'une humanité plus proche de l'origine, peint dès sa première arrivée dans les îles."
+            },
+            {
+              "titre": "Arearea (Joyeusetés)",
+              "artiste": "Gauguin",
+              "annee": "1892",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "Arearea",
+              "analyse": "Sous des arbres, deux Tahitiennes et un chien rouge dans un paysage d'aplats verts, jaunes et orangés ; au fond, une idole et des danseuses. Le chien rouge résume sa liberté : la couleur n'obéit qu'à l'harmonie et au rêve, jamais au réel."
             }
           ]
         },
