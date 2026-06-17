@@ -2277,5 +2277,15 @@
     "h": 545,
     "format": "jpg",
     "file": "Antonio_Allegri_da_Correggio.jpg"
+  },
+  "Marcel Duchamp": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg/1280px-Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1274,
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg",
+    "w": 1609,
+    "h": 2050,
+    "format": "jpg",
+    "file": "Man_Ray,_1920-21,_Portrait_of_Marcel_Duchamp,_gelatin_silver_print,_Yale_University_Art_Gallery.jpg"
   }
 }
