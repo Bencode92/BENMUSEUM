@@ -202,7 +202,21 @@
           "role": "le grand-père",
           "wiki": "Giotto",
           "portrait": "Premier à donner poids, émotion et espace, rompant avec l'or byzantin. Sans lui, pas de Renaissance. → Chapelle des Scrovegni (Padoue).",
-          "groupe": "Le précurseur"
+          "groupe": "Le précurseur",
+          "bio_sections": [
+            {
+              "h": "Le grand-père de la Renaissance",
+              "p": "Giotto, berger toscan devenu peintre selon la légende, rompt avec l'or et la raideur byzantine pour redonner aux figures un poids et une émotion vraie."
+            },
+            {
+              "h": "La chapelle des Scrovegni",
+              "p": "À Padoue, ses fresques (la Lamentation) montrent des êtres de chair qui pleurent, se détournent, se touchent, dans un espace réel. Une révolution silencieuse."
+            },
+            {
+              "h": "La porte de l'art moderne",
+              "p": "Deux siècles avant Masaccio, il ouvre la voie : sans Giotto, pas de Renaissance. C'est le point de départ de tout l'art occidental moderne."
+            }
+          ]
         },
         {
           "nom": "Masaccio",
@@ -210,7 +224,21 @@
           "role": "le pionnier foudroyé",
           "wiki": "Masaccio",
           "portrait": "Mort à 27 ans, il change tout : fusionne perspective, volume et observation. Tous les grands Florentins iront étudier ses fresques.",
-          "groupe": "École de Florence & Rome — le dessin"
+          "groupe": "École de Florence & Rome — le dessin",
+          "bio_sections": [
+            {
+              "h": "Le pionnier mort jeune",
+              "p": "Masaccio meurt vers 27 ans, mais en quelques années il fait pour la peinture ce que Brunelleschi fait pour l'architecture : il y introduit la perspective et la lumière réelles."
+            },
+            {
+              "h": "La chapelle Brancacci",
+              "p": "Ses fresques (l'Adam et Ève chassés du Paradis, le Paiement du tribut) montrent des corps massifs, modelés par une vraie lumière, occupant un vrai espace. Adam et Ève y pleurent comme de vrais êtres."
+            },
+            {
+              "h": "La Trinité",
+              "p": "Sa Trinité de Santa Maria Novella ouvre, par la perspective, une chapelle illusoire dans le mur de l'église : le spectateur croit voir un espace réel. Toute la Renaissance peinte commence là."
+            }
+          ]
         },
         {
           "nom": "Donatello",
@@ -218,7 +246,21 @@
           "role": "le sculpteur révolutionnaire",
           "wiki": "Donatello",
           "portrait": "Ramène le nu autonome et l'émotion intense. Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité.",
-          "groupe": "École de Florence & Rome — le dessin"
+          "groupe": "École de Florence & Rome — le dessin",
+          "bio_sections": [
+            {
+              "h": "Le sculpteur révolutionnaire",
+              "p": "Donatello est le grand sculpteur du Quattrocento florentin, ami de Brunelleschi."
+            },
+            {
+              "h": "Le nu retrouvé",
+              "p": "Son David en bronze est le premier nu masculin grandeur nature depuis l'Antiquité — audace inouïe. Il ramène aussi l'émotion intense et le relief « écrasé » (rilievo schiacciato)."
+            },
+            {
+              "h": "Le Gattamelata",
+              "p": "Sa statue équestre du condottiere Gattamelata, à Padoue, ressuscite la grande statuaire équestre romaine. Il ouvre la voie à tous les sculpteurs qui suivront, jusqu'à Michel-Ange."
+            }
+          ]
         },
         {
           "nom": "Botticelli",
@@ -389,7 +431,21 @@
           "role": "architecte",
           "wiki": "Filippo Brunelleschi",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Orfèvre devenu architecte, il invente les lois de la perspective et coiffe la cathédrale de Florence d'une coupole colossale qu'on jugeait impossible. Le véritable point de départ technique de la Renaissance."
+          "portrait": "Orfèvre devenu architecte, il invente les lois de la perspective et coiffe la cathédrale de Florence d'une coupole colossale qu'on jugeait impossible. Le véritable point de départ technique de la Renaissance.",
+          "bio_sections": [
+            {
+              "h": "L'orfèvre devenu architecte",
+              "p": "Filippo Brunelleschi, d'abord orfèvre, se tourne vers l'architecture après avoir perdu le concours des portes du Baptistère de Florence face à Ghiberti."
+            },
+            {
+              "h": "La coupole impossible",
+              "p": "Il coiffe la cathédrale de Florence d'une coupole colossale qu'on jugeait irréalisable, sans cintrage, par une technique de pose des briques restée légendaire."
+            },
+            {
+              "h": "L'invention de la perspective",
+              "p": "Surtout, il découvre les lois de la perspective linéaire — l'outil qui permettra à toute la peinture de la Renaissance de creuser l'espace. Le véritable point de départ technique de l'époque."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -398,7 +454,21 @@
           "role": "",
           "wiki": "Fra Angelico",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Moine dominicain et peintre, il met la science nouvelle de l'espace au service d'une douceur mystique. Ses fresques du couvent San Marco, peintes pour la prière des moines, sont d'une pureté lumineuse."
+          "portrait": "Moine dominicain et peintre, il met la science nouvelle de l'espace au service d'une douceur mystique. Ses fresques du couvent San Marco, peintes pour la prière des moines, sont d'une pureté lumineuse.",
+          "bio_sections": [
+            {
+              "h": "Le moine peintre",
+              "p": "Fra Angelico, frère dominicain, met la science nouvelle de l'espace au service d'une foi sereine et lumineuse."
+            },
+            {
+              "h": "Les fresques de San Marco",
+              "p": "Au couvent San Marco de Florence, il peint, dans la cellule de chaque moine, des scènes d'une pureté et d'une douceur faites pour la prière, non pour l'effet."
+            },
+            {
+              "h": "La douceur lumineuse",
+              "p": "Sa peinture concilie la perspective moderne et une tendresse mystique : la Renaissance mise au service de la dévotion."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -407,7 +477,21 @@
           "role": "",
           "wiki": "Piero della Francesca",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Peintre et mathématicien, il unit la perspective la plus rigoureuse à une lumière claire et une gravité sereine, presque abstraite. Longtemps oublié, il est aujourd'hui adoré pour sa géométrie silencieuse."
+          "portrait": "Peintre et mathématicien, il unit la perspective la plus rigoureuse à une lumière claire et une gravité sereine, presque abstraite. Longtemps oublié, il est aujourd'hui adoré pour sa géométrie silencieuse.",
+          "bio_sections": [
+            {
+              "h": "Le peintre-mathématicien",
+              "p": "Piero della Francesca unit le métier de peintre à celui de mathématicien : il écrit des traités de perspective et de géométrie."
+            },
+            {
+              "h": "Lumière et géométrie",
+              "p": "Ses fresques (La Légende de la Vraie Croix) et ses portraits d'Urbin allient une perspective d'une rigueur absolue à une lumière claire et une gravité silencieuse, presque abstraite."
+            },
+            {
+              "h": "Oublié puis adoré",
+              "p": "Longtemps négligé, il est aujourd'hui adoré pour cette sérénité géométrique qui parle directement à l'œil moderne."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -416,7 +500,21 @@
           "role": "",
           "wiki": "Andrea Mantegna",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Passionné de l'Antiquité romaine et virtuose du raccourci, il ose des audaces stupéfiantes — comme son Christ mort vu en perspective brutale depuis les pieds. La pierre et l'archéologie faites peinture."
+          "portrait": "Passionné de l'Antiquité romaine et virtuose du raccourci, il ose des audaces stupéfiantes — comme son Christ mort vu en perspective brutale depuis les pieds. La pierre et l'archéologie faites peinture.",
+          "bio_sections": [
+            {
+              "h": "La passion de l'antique",
+              "p": "Andrea Mantegna, formé à Padoue, est passionné par l'Antiquité romaine, qu'il étudie comme un archéologue."
+            },
+            {
+              "h": "Le raccourci audacieux",
+              "p": "Son Christ mort, vu en perspective brutale depuis les pieds, est l'un des raccourcis les plus saisissants de l'histoire de la peinture. La pierre et l'antique deviennent chair peinte."
+            },
+            {
+              "h": "La cour de Mantoue",
+              "p": "Peintre de la cour des Gonzague à Mantoue, il y réalise la Chambre des époux, premier décor en trompe-l'œil ouvrant un plafond sur le ciel."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -425,7 +523,17 @@
           "role": "architecte",
           "wiki": "Donato Bramante",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Le grand architecte de la Haute Renaissance : il dessine les premiers plans de la nouvelle basilique Saint-Pierre de Rome et réalise le Tempietto, petit temple d'une perfection classique absolue."
+          "portrait": "Le grand architecte de la Haute Renaissance : il dessine les premiers plans de la nouvelle basilique Saint-Pierre de Rome et réalise le Tempietto, petit temple d'une perfection classique absolue.",
+          "bio_sections": [
+            {
+              "h": "L'architecte de la Haute Renaissance",
+              "p": "Donato Bramante est le grand architecte du tournant de 1500, qui impose le retour à la pureté classique antique."
+            },
+            {
+              "h": "Saint-Pierre et le Tempietto",
+              "p": "Il dessine les premiers plans de la nouvelle basilique Saint-Pierre de Rome et réalise le Tempietto, petit temple circulaire d'une perfection classique absolue, modèle pour des siècles."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -434,7 +542,21 @@
           "role": "",
           "wiki": "Giovanni Bellini",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Le père de l'école vénitienne. Le premier à faire de la lumière et de la couleur, plus que du dessin, le cœur de la peinture. Maître de Giorgione et de Titien, il ouvre la voie à tout le génie vénitien."
+          "portrait": "Le père de l'école vénitienne. Le premier à faire de la lumière et de la couleur, plus que du dessin, le cœur de la peinture. Maître de Giorgione et de Titien, il ouvre la voie à tout le génie vénitien.",
+          "bio_sections": [
+            {
+              "h": "Le père de Venise",
+              "p": "Giovanni Bellini est le père de l'école vénitienne, le premier à faire de la lumière et de la couleur, plus que du dessin, le cœur de la peinture."
+            },
+            {
+              "h": "La lumière douce",
+              "p": "Ses Madones et ses retables baignent dans une lumière atmosphérique d'une douceur nouvelle, qui adoucit les contours."
+            },
+            {
+              "h": "Le maître des maîtres",
+              "p": "Il forme Giorgione et Titien : tout le génie vénitien à venir sort de son atelier."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -443,7 +565,21 @@
           "role": "",
           "wiki": "Giorgione",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Mystérieux et mort jeune de la peste, il invente le « paysage d'âme » : des scènes énigmatiques (La Tempête) où l'atmosphère et la lumière comptent plus que le sujet. Une poésie sans équivalent."
+          "portrait": "Mystérieux et mort jeune de la peste, il invente le « paysage d'âme » : des scènes énigmatiques (La Tempête) où l'atmosphère et la lumière comptent plus que le sujet. Une poésie sans équivalent.",
+          "bio_sections": [
+            {
+              "h": "Le mystère",
+              "p": "Giorgione, élève de Bellini, est un personnage énigmatique, mort jeune de la peste vers 33 ans, laissant très peu d'œuvres sûres."
+            },
+            {
+              "h": "Le paysage d'âme",
+              "p": "Avec La Tempête, il invente une peinture où l'atmosphère et la lumière comptent plus que le sujet, volontairement obscur : une poésie pure, sans équivalent."
+            },
+            {
+              "h": "L'influence",
+              "p": "Sa douceur et son mystère marqueront durablement Titien et toute la peinture vénitienne."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -452,7 +588,21 @@
           "role": "",
           "wiki": "Paolo Veronese",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Le peintre du faste vénitien : d'immenses banquets somptueux, des architectures lumineuses, des couleurs éclatantes. Convoqué par l'Inquisition pour avoir mis des chiens et des bouffons dans une Cène, il rebaptisa simplement la toile."
+          "portrait": "Le peintre du faste vénitien : d'immenses banquets somptueux, des architectures lumineuses, des couleurs éclatantes. Convoqué par l'Inquisition pour avoir mis des chiens et des bouffons dans une Cène, il rebaptisa simplement la toile.",
+          "bio_sections": [
+            {
+              "h": "Le peintre du faste",
+              "p": "Paolo Veronese est le peintre du faste vénitien : architectures lumineuses, couleurs éclatantes, foules somptueuses."
+            },
+            {
+              "h": "Les grands banquets",
+              "p": "Ses immenses scènes de banquets (Les Noces de Cana) débordent de personnages, de soieries et d'animaux."
+            },
+            {
+              "h": "Le procès de l'Inquisition",
+              "p": "Convoqué par l'Inquisition pour avoir mis chiens, bouffons et ivrognes dans une Cène, il rebaptise simplement la toile « Le Repas chez Lévi » — anecdote célèbre sur la liberté de l'artiste."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -488,7 +638,21 @@
           "role": "",
           "wiki": "Rogier van der Weyden",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le maître flamand de l'émotion. Sa Descente de croix, aux figures alignées comme un bas-relief douloureux, atteint une intensité de chagrin que peu d'œuvres égalent."
+          "portrait": "Le maître flamand de l'émotion. Sa Descente de croix, aux figures alignées comme un bas-relief douloureux, atteint une intensité de chagrin que peu d'œuvres égalent.",
+          "bio_sections": [
+            {
+              "h": "Le maître de l'émotion",
+              "p": "Rogier van der Weyden est, après Van Eyck, le grand maître flamand — mais là où Van Eyck montre le monde, lui montre la douleur."
+            },
+            {
+              "h": "La Descente de croix",
+              "p": "Ses figures alignées comme un bas-relief douloureux, aux visages ravagés de chagrin, atteignent une intensité émotionnelle que peu d'œuvres égalent."
+            },
+            {
+              "h": "L'influence du Nord",
+              "p": "Très copié et diffusé, il marque profondément la peinture religieuse de toute l'Europe du Nord."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -524,7 +688,21 @@
           "role": "",
           "wiki": "Hans Holbein the Younger",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le plus grand portraitiste du Nord, peintre de la cour d'Henri VIII d'Angleterre. Ses visages d'une vérité saisissante et ses détails virtuoses (le crâne anamorphique des Ambassadeurs) le placent au sommet."
+          "portrait": "Le plus grand portraitiste du Nord, peintre de la cour d'Henri VIII d'Angleterre. Ses visages d'une vérité saisissante et ses détails virtuoses (le crâne anamorphique des Ambassadeurs) le placent au sommet.",
+          "bio_sections": [
+            {
+              "h": "Le portraitiste du Nord",
+              "p": "Hans Holbein le Jeune, d'Augsbourg, est le plus grand portraitiste de la Renaissance du Nord."
+            },
+            {
+              "h": "La cour d'Henri VIII",
+              "p": "Peintre de la cour d'Angleterre, il fixe pour l'éternité les visages d'Henri VIII et de ses proches, avec une vérité et un rendu des matières saisissants."
+            },
+            {
+              "h": "Les Ambassadeurs",
+              "p": "Son chef-d'œuvre allie le portrait du savoir et du pouvoir à un crâne anamorphique caché en travers du tableau : un memento mori dissimulé, virtuose."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -533,7 +711,21 @@
           "role": "",
           "wiki": "Pieter Bruegel the Elder",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le grand regard sur la vie ordinaire : noces, danses, proverbes, foules paysannes et grands paysages d'hiver (Les Chasseurs dans la neige). Sous le pittoresque, une morale grave sur la condition humaine."
+          "portrait": "Le grand regard sur la vie ordinaire : noces, danses, proverbes, foules paysannes et grands paysages d'hiver (Les Chasseurs dans la neige). Sous le pittoresque, une morale grave sur la condition humaine.",
+          "bio_sections": [
+            {
+              "h": "Le peintre des paysans",
+              "p": "Pieter Bruegel l'Ancien, flamand, délaisse les héros pour la vie des paysans : noces, moissons, jeux d'enfants, fêtes de village, vus avec tendresse et lucidité."
+            },
+            {
+              "h": "Les saisons",
+              "p": "Sa série des mois (Les Chasseurs dans la neige) embrasse l'homme dans le grand cycle de la nature, du minuscule villageois à l'immense paysage d'hiver."
+            },
+            {
+              "h": "La sagesse cachée",
+              "p": "Sous l'anecdote (proverbes, Tour de Babel) court une réflexion grave sur la folie et la petitesse humaines. Un esprit profond déguisé en peintre populaire."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -542,7 +734,21 @@
           "role": "",
           "wiki": "Antonio da Correggio",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Antonio Allegri, dit Le Corrège, travaille à Parme, loin des grands centres, et invente pourtant l'avenir. Ses coupoles peintes en trompe-l'œil — comme l'Assomption de la cathédrale de Parme, où les figures semblent monter au ciel au-dessus du spectateur — et la douceur sensuelle de son sfumato annoncent directement le Baroque et le Rococo, près d'un siècle en avance."
+          "portrait": "Antonio Allegri, dit Le Corrège, travaille à Parme, loin des grands centres, et invente pourtant l'avenir. Ses coupoles peintes en trompe-l'œil — comme l'Assomption de la cathédrale de Parme, où les figures semblent monter au ciel au-dessus du spectateur — et la douceur sensuelle de son sfumato annoncent directement le Baroque et le Rococo, près d'un siècle en avance.",
+          "bio_sections": [
+            {
+              "h": "Le génie de Parme",
+              "p": "Antonio Allegri, dit Le Corrège, travaille à Parme, loin des grands centres, et invente pourtant l'avenir."
+            },
+            {
+              "h": "Les coupoles qui s'ouvrent",
+              "p": "Ses coupoles peintes en trompe-l'œil (l'Assomption de la cathédrale de Parme), où les figures semblent monter au ciel au-dessus du spectateur, sont une prouesse inouïe."
+            },
+            {
+              "h": "L'annonce du Baroque",
+              "p": "La douceur sensuelle de son sfumato et ses audaces illusionnistes annoncent directement le Baroque et le Rococo, près d'un siècle en avance."
+            }
+          ]
         }
       ],
       "index": [
@@ -1349,7 +1555,21 @@
           "dates": "1560-1609",
           "role": "",
           "wiki": "Annibale Carracci",
-          "portrait": "Voie classique et noble du baroque (galerie Farnèse)."
+          "portrait": "Voie classique et noble du baroque (galerie Farnèse).",
+          "bio_sections": [
+            {
+              "h": "Le réformateur de Bologne",
+              "p": "Annibal Carrache, avec sa famille, fonde à Bologne une académie pour régénérer la peinture par l'étude de la nature et des grands maîtres."
+            },
+            {
+              "h": "La galerie Farnèse",
+              "p": "Son plafond du palais Farnèse à Rome, foisonnant d'amours mythologiques, devient un modèle de la grande décoration baroque, étudié par tous."
+            },
+            {
+              "h": "Les deux voies du Baroque",
+              "p": "Face au réalisme brutal du Caravage, il incarne la voie idéale et classique : ensemble, les deux ouvrent tout le XVIIe siècle."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1384,7 +1604,21 @@
           "dates": "1599-1667",
           "role": "",
           "wiki": "Francesco Borromini",
-          "portrait": "Architecte rival du Bernin, murs ondulants, géométrie audacieuse."
+          "portrait": "Architecte rival du Bernin, murs ondulants, géométrie audacieuse.",
+          "bio_sections": [
+            {
+              "h": "L'architecte tourmenté",
+              "p": "Francesco Borromini, rival du Bernin, est le génie inquiet de l'architecture baroque romaine."
+            },
+            {
+              "h": "Les murs qui ondulent",
+              "p": "À San Carlo alle Quattro Fontane, il fait onduler les murs comme une matière vivante, joue de la lumière et de la géométrie complexe : l'architecture devient mouvement pur."
+            },
+            {
+              "h": "Une fin sombre",
+              "p": "D'un caractère sombre et solitaire, il finit par se suicider — mais son audace formelle nourrira l'architecture pour des siècles."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1419,7 +1653,21 @@
           "dates": "1599-1641",
           "role": "",
           "wiki": "Anthony van Dyck",
-          "portrait": "Élève de Rubens, portraitiste des cours (Charles Iᵉʳ d'Angleterre)."
+          "portrait": "Élève de Rubens, portraitiste des cours (Charles Iᵉʳ d'Angleterre).",
+          "bio_sections": [
+            {
+              "h": "L'élève de Rubens",
+              "p": "Antoon van Dyck, prodige flamand, est le plus brillant collaborateur de Rubens avant de voler de ses propres ailes."
+            },
+            {
+              "h": "Le portraitiste des rois",
+              "p": "Peintre de la cour de Charles Ier d'Angleterre, il crée le portrait aristocratique par excellence : élégance hautaine, mains fines, étoffes soyeuses, mélancolie distinguée."
+            },
+            {
+              "h": "Le modèle anglais",
+              "p": "Son image du gentleman raffiné marquera durablement tout le portrait anglais, de Reynolds à Gainsborough."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1454,7 +1702,21 @@
           "dates": "XVIIᵉ",
           "role": "",
           "wiki": "Bartolomé Esteban Murillo",
-          "portrait": "École espagnole, intensité mystique."
+          "portrait": "École espagnole, intensité mystique.",
+          "bio_sections": [
+            {
+              "h": "Le Siècle d'or espagnol",
+              "p": "Zurbarán, Ribera et Murillo forment, avec Vélasquez, le grand siècle de la peinture espagnole, profondément catholique."
+            },
+            {
+              "h": "Trois tempéraments",
+              "p": "Zurbarán peint le silence mystique des moines en méditation ; Ribera, le réalisme âpre et ténébreux des martyrs ; Murillo, la douceur tendre des Vierges et des enfants des rues."
+            },
+            {
+              "h": "La foi peinte",
+              "p": "Tous mettent l'intensité réaliste héritée du Caravage au service d'une dévotion fervente, pour toucher le cœur des fidèles."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1489,7 +1751,21 @@
           "dates": "1600-1682",
           "role": "",
           "wiki": "Claude Lorrain",
-          "portrait": "Paysages idéaux baignés de lumière dorée."
+          "portrait": "Paysages idéaux baignés de lumière dorée.",
+          "bio_sections": [
+            {
+              "h": "Le poète de la lumière",
+              "p": "Claude Gellée, dit Le Lorrain, installé à Rome, invente le paysage idéal classique."
+            },
+            {
+              "h": "Le soleil dans le tableau",
+              "p": "Ports antiques, lumière dorée du couchant, ruines et arbres équilibrés : il est le premier à oser peindre le soleil lui-même au cœur de la toile, baignant tout d'or."
+            },
+            {
+              "h": "L'idéal du paysage",
+              "p": "Sa sérénité lumineuse fascinera les Anglais et marquera profondément Turner, qui voulut rivaliser avec lui."
+            }
+          ]
         }
       ],
       "index": [
@@ -1754,7 +2030,17 @@
           "role": "",
           "wiki": "Jacob van Ruisdael",
           "portrait": "Le grand paysagiste, ciels dramatiques.",
-          "bio_longue": "Jacob van Ruisdael (1628-1682) est le plus grand paysagiste hollandais. Sous d'immenses ciels mouvants qui occupent les deux tiers de la toile, il peint la campagne, les moulins, les forêts et les ruines avec une gravité presque mélancolique. Il élève le paysage — genre jusque-là mineur — au rang de grand art, et influencera profondément les romantiques anglais comme Constable."
+          "bio_longue": "Jacob van Ruisdael (1628-1682) est le plus grand paysagiste hollandais. Sous d'immenses ciels mouvants qui occupent les deux tiers de la toile, il peint la campagne, les moulins, les forêts et les ruines avec une gravité presque mélancolique. Il élève le paysage — genre jusque-là mineur — au rang de grand art, et influencera profondément les romantiques anglais comme Constable.",
+          "bio_sections": [
+            {
+              "h": "Le grand paysagiste",
+              "p": "Jacob van Ruisdael est le maître du paysage hollandais, genre nouveau né de la fierté d'un pays gagné sur les eaux."
+            },
+            {
+              "h": "Le ciel comme sujet",
+              "p": "Ciels immenses et changeants, moulins, forêts sombres, cimetières : il donne au paysage une gravité et une mélancolie presque romantiques, bien avant l'heure."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1762,7 +2048,17 @@
           "dates": "1626-1679",
           "role": "",
           "wiki": "Jan Steen",
-          "portrait": "Scènes de genre pleines d'humour et de désordre."
+          "portrait": "Scènes de genre pleines d'humour et de désordre.",
+          "bio_sections": [
+            {
+              "h": "Le conteur joyeux",
+              "p": "Jan Steen peint des intérieurs animés, tavernes et fêtes de famille pleines de désordre joyeux."
+            },
+            {
+              "h": "La morale en riant",
+              "p": "Sous l'humour (« un ménage de Jan Steen » est resté un dicton du désordre) se cache une leçon de morale sur les excès — instruire en amusant."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1770,7 +2066,17 @@
           "dates": "1629-1684",
           "role": "",
           "wiki": "Pieter de Hooch",
-          "portrait": "Intérieurs paisibles, lumière (proche de Vermeer)."
+          "portrait": "Intérieurs paisibles, lumière (proche de Vermeer).",
+          "bio_sections": [
+            {
+              "h": "L'intimité de la maison",
+              "p": "Pieter de Hooch, proche de Vermeer à Delft, peint la paix des intérieurs bourgeois et des cours hollandaises."
+            },
+            {
+              "h": "La lumière des seuils",
+              "p": "Sa spécialité : enfilades de pièces et portes ouvertes où la lumière passe de salle en salle, jusqu'à la cour ensoleillée — un art tendre de l'espace domestique."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1778,7 +2084,17 @@
           "dates": "1619-1693",
           "role": "",
           "wiki": "Willem Kalf",
-          "portrait": "Natures mortes somptueuses."
+          "portrait": "Natures mortes somptueuses.",
+          "bio_sections": [
+            {
+              "h": "Le luxe en nature morte",
+              "p": "Willem Kalf est le maître de la nature morte somptueuse."
+            },
+            {
+              "h": "L'éclat des matières",
+              "p": "Coupes d'argent, porcelaines de Chine, verres de cristal et citrons épluchés surgissent de l'ombre dans une lumière chaude : un éloge du rendu des matières — et un discret rappel de la vanité des biens terrestres."
+            }
+          ]
         }
       ],
       "index": [
@@ -3109,7 +3425,21 @@
           "dates": "~1850",
           "role": "Angleterre",
           "wiki": "Pre-Raphaelite Brotherhood",
-          "portrait": "Rossetti, Millais : retour au Moyen Âge idéalisé."
+          "portrait": "Rossetti, Millais : retour au Moyen Âge idéalisé.",
+          "bio_sections": [
+            {
+              "h": "Le retour à l'avant-Raphaël",
+              "p": "Les Préraphaélites, jeunes Anglais (Rossetti, Millais, Hunt), veulent rompre avec l'académisme et retrouver la fraîcheur des peintres d'avant Raphaël."
+            },
+            {
+              "h": "Couleur et détail",
+              "p": "Couleurs vives, détail botanique minutieux, sujets médiévaux, bibliques ou littéraires (l'Ophélie de Millais) : une beauté à la fois archaïque et intense."
+            },
+            {
+              "h": "Le pont vers les arts décoratifs",
+              "p": "Leur idéal nourrira le mouvement Arts and Crafts de William Morris et tout le renouveau décoratif anglais."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3404,7 +3734,21 @@
           "dates": "1830-1903",
           "role": "Impressionnisme",
           "wiki": "Camille Pissarro",
-          "portrait": "Le pilier généreux du groupe."
+          "portrait": "Le pilier généreux du groupe.",
+          "bio_sections": [
+            {
+              "h": "Le doyen du groupe",
+              "p": "Camille Pissarro est l'aîné et la conscience morale des impressionnistes — le seul à participer à leurs huit expositions."
+            },
+            {
+              "h": "La terre et la ville",
+              "p": "Il peint les chemins de campagne, les paysannes, puis les grands boulevards de Paris vus d'en haut, toujours avec une touche fidèle à la lumière du plein air."
+            },
+            {
+              "h": "Le passeur",
+              "p": "Généreux, il conseille Cézanne et Gauguin, et essaie même un temps la technique pointilliste de Seurat : un pont vivant entre les générations."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -3493,7 +3837,21 @@
           "dates": "1859-1891",
           "role": "Pointillisme",
           "wiki": "Georges Seurat",
-          "portrait": "Le pointillisme (Un dimanche à la Grande Jatte)."
+          "portrait": "Le pointillisme (Un dimanche à la Grande Jatte).",
+          "bio_sections": [
+            {
+              "h": "La science de la couleur",
+              "p": "Georges Seurat veut donner à l'impressionnisme une rigueur scientifique : c'est le pointillisme (ou divisionnisme)."
+            },
+            {
+              "h": "Un Dimanche à la Grande Jatte",
+              "p": "Il juxtapose de minuscules touches de couleurs pures que l'œil mélange à distance. Le résultat, monumental et figé, transforme une scène de loisir en composition d'une étrange solennité."
+            },
+            {
+              "h": "Mort à 31 ans",
+              "p": "Mort très jeune, il ouvre pourtant la voie à un art construit et théorique qui mènera, par-delà l'impressionnisme, vers l'abstraction."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3501,7 +3859,21 @@
           "dates": "1864-1901",
           "role": "Affiche",
           "wiki": "Henri de Toulouse-Lautrec",
-          "portrait": "Montmartre, l'affiche moderne."
+          "portrait": "Montmartre, l'affiche moderne.",
+          "bio_sections": [
+            {
+              "h": "L'aristocrate de Montmartre",
+              "p": "Henri de Toulouse-Lautrec, aristocrate infirme par une maladie des os, fait de Montmartre son royaume."
+            },
+            {
+              "h": "Cabarets et affiches",
+              "p": "Il peint la vie nocturne — le Moulin Rouge, danseuses, chanteuses, maisons closes — d'un trait incisif et sans complaisance, et révolutionne l'affiche en art majeur."
+            },
+            {
+              "h": "Le regard tendre et cruel",
+              "p": "Marqué par l'estampe japonaise, son art lucide et compatissant fait le lien entre Degas et l'avenir de l'affiche moderne."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -3872,7 +4244,17 @@
           "dates": "1886-1980",
           "role": "Expressionnisme",
           "wiki": "Oskar Kokoschka",
-          "portrait": "Expressionnisme autrichien."
+          "portrait": "Expressionnisme autrichien.",
+          "bio_sections": [
+            {
+              "h": "L'expressionniste viennois",
+              "p": "Oskar Kokoschka, autrichien, est l'un des grands de l'expressionnisme."
+            },
+            {
+              "h": "Le portrait de l'âme",
+              "p": "Ses portraits nerveux, comme écorchés, cherchent moins la ressemblance que la tension intérieure et l'angoisse de ses modèles — peindre le dedans, pas le dehors."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -3984,7 +4366,21 @@
           "dates": "1887-1985",
           "role": "Rêve/symbole",
           "wiki": "Marc Chagall",
-          "portrait": "Rêve, folklore, couleur lyrique."
+          "portrait": "Rêve, folklore, couleur lyrique.",
+          "bio_sections": [
+            {
+              "h": "Le rêveur de Vitebsk",
+              "p": "Marc Chagall, né dans une famille juive de Russie, garde toute sa vie la nostalgie de son village natal de Vitebsk."
+            },
+            {
+              "h": "Un monde flottant",
+              "p": "Mariés qui volent, violonistes sur les toits, animaux bleus : il invente un univers poétique où la gravité n'existe plus, mêlant souvenirs, folklore et amour."
+            },
+            {
+              "h": "La couleur-rêve",
+              "p": "Sa couleur lumineuse et sa liberté onirique, proches du surréalisme sans en être, en font l'un des peintres les plus aimés du siècle, jusqu'à ses vitraux et plafonds."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3992,7 +4388,17 @@
           "dates": "1871-1956",
           "role": "Cubisme/Bauhaus",
           "wiki": "Lyonel Feininger",
-          "portrait": "Cubisme cristallin, Bauhaus."
+          "portrait": "Cubisme cristallin, Bauhaus.",
+          "bio_sections": [
+            {
+              "h": "Le cubisme cristallin",
+              "p": "Lyonel Feininger, Américain installé en Allemagne, enseigne au Bauhaus."
+            },
+            {
+              "h": "Lumière en facettes",
+              "p": "Il décompose villes, cathédrales et voiliers en plans transparents et lumineux, comme du cristal ou du vitrail : un cubisme poétique baigné de lumière."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -4023,7 +4429,21 @@
           "dates": "1901-1966",
           "role": "Sculpture",
           "wiki": "Alberto Giacometti",
-          "portrait": "Figures filiformes, l'homme réduit à l'essentiel."
+          "portrait": "Figures filiformes, l'homme réduit à l'essentiel.",
+          "bio_sections": [
+            {
+              "h": "L'homme réduit à l'essentiel",
+              "p": "Alberto Giacometti, sculpteur suisse, est hanté par une question : comment saisir une présence humaine vue de loin ?"
+            },
+            {
+              "h": "Les figures filiformes",
+              "p": "Ses hommes et femmes étirés, grêles, érodés comme par le regard et la distance, semblent à la fois fragiles et indestructibles — l'image même de la condition humaine d'après-guerre."
+            },
+            {
+              "h": "L'ami des existentialistes",
+              "p": "Proche de Sartre et Beckett, il incarne en sculpture la solitude et la persévérance de l'homme moderne."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -4031,7 +4451,21 @@
           "dates": "dès 1919",
           "role": "Design/archi",
           "wiki": "Walter Gropius",
-          "portrait": "Design et architecture modernes."
+          "portrait": "Design et architecture modernes.",
+          "bio_sections": [
+            {
+              "h": "Le fondateur du Bauhaus",
+              "p": "Walter Gropius fonde en 1919 le Bauhaus, école qui veut réunir art, artisanat et industrie pour repenser tout le cadre de vie moderne."
+            },
+            {
+              "h": "La forme suit la fonction",
+              "p": "Verre, acier, lignes pures, refus de l'ornement : le bâtiment du Bauhaus à Dessau devient le manifeste de l'architecture moderne."
+            },
+            {
+              "h": "Une influence mondiale",
+              "p": "Chassé par les nazis, le Bauhaus se disperse — et essaime ses idées dans le monde entier, fondant le design tel que nous le connaissons."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -4039,7 +4473,21 @@
           "dates": "1867-1959",
           "role": "Architecture",
           "wiki": "Frank Lloyd Wright",
-          "portrait": "Architecture organique (Maison sur la cascade)."
+          "portrait": "Architecture organique (Maison sur la cascade).",
+          "bio_sections": [
+            {
+              "h": "Le génie américain",
+              "p": "Frank Lloyd Wright est le plus grand architecte américain, apôtre d'une architecture « organique » née du paysage."
+            },
+            {
+              "h": "La maison sur la cascade",
+              "p": "Sa Fallingwater, en porte-à-faux au-dessus d'une chute d'eau, fond la maison dans la nature : pierre, eau et béton ne font qu'un."
+            },
+            {
+              "h": "Espaces qui coulent",
+              "p": "Plans ouverts, horizontales étirées, continuité du dedans et du dehors : il invente une manière d'habiter l'espace, jusqu'à la spirale du musée Guggenheim de New York."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -4561,7 +5009,17 @@
           "role": "",
           "wiki": "Myron",
           "portrait": "Le Discobole : capter le mouvement à son point de tension.",
-          "bio_longue": "Myron (Ve siècle av. J.-C.) est le sculpteur du mouvement. Son Discobole, connu seulement par des copies romaines (les bronzes grecs ont presque tous disparu), fige le lanceur de disque à l'instant de bascule, dans une torsion parfaitement équilibrée. Il résout le problème que les Égyptiens n'avaient jamais posé : représenter un corps vivant, en action, et non figé pour l'éternité."
+          "bio_longue": "Myron (Ve siècle av. J.-C.) est le sculpteur du mouvement. Son Discobole, connu seulement par des copies romaines (les bronzes grecs ont presque tous disparu), fige le lanceur de disque à l'instant de bascule, dans une torsion parfaitement équilibrée. Il résout le problème que les Égyptiens n'avaient jamais posé : représenter un corps vivant, en action, et non figé pour l'éternité.",
+          "bio_sections": [
+            {
+              "h": "Le sculpteur du mouvement",
+              "p": "Myron, au Ve siècle av. J.-C., est le premier à capter le mouvement vivant dans la sculpture."
+            },
+            {
+              "h": "Le Discobole",
+              "p": "Son lanceur de disque, figé à l'instant de tension maximale, résout un problème que les Égyptiens n'avaient jamais posé : représenter un corps en pleine action, équilibré et lisible."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -4570,7 +5028,21 @@
           "role": "",
           "wiki": "Phidias",
           "portrait": "Sculptures du Parthénon, sommet du classicisme grec.",
-          "bio_longue": "Phidias (vers 480-430 av. J.-C.) est le plus grand sculpteur de la Grèce classique et le maître d'œuvre du programme de Périclès sur l'Acropole d'Athènes. Il dirige le décor sculpté du Parthénon et réalise les colossales statues chryséléphantines (or et ivoire) d'Athéna et de Zeus, comptées parmi les merveilles du monde antique. Son art incarne l'équilibre suprême entre l'observation du réel et l'idéal de beauté — le classicisme même."
+          "bio_longue": "Phidias (vers 480-430 av. J.-C.) est le plus grand sculpteur de la Grèce classique et le maître d'œuvre du programme de Périclès sur l'Acropole d'Athènes. Il dirige le décor sculpté du Parthénon et réalise les colossales statues chryséléphantines (or et ivoire) d'Athéna et de Zeus, comptées parmi les merveilles du monde antique. Son art incarne l'équilibre suprême entre l'observation du réel et l'idéal de beauté — le classicisme même.",
+          "bio_sections": [
+            {
+              "h": "Le maître du classicisme",
+              "p": "Phidias est le plus grand sculpteur de la Grèce classique, maître d'œuvre du programme de Périclès sur l'Acropole d'Athènes."
+            },
+            {
+              "h": "Le Parthénon",
+              "p": "Il dirige le décor sculpté du Parthénon et réalise les colossales statues d'or et d'ivoire d'Athéna et de Zeus, comptées parmi les merveilles du monde antique."
+            },
+            {
+              "h": "L'équilibre suprême",
+              "p": "Son art incarne l'équilibre parfait entre l'observation du réel et l'idéal de beauté — le classicisme même."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -4579,7 +5051,17 @@
           "role": "",
           "wiki": "Polykleitos",
           "portrait": "Théorise les proportions idéales du corps (le Canon, le Doryphore).",
-          "bio_longue": "Polyclète (Ve siècle av. J.-C.) est le théoricien du corps idéal. Dans son Doryphore (le « porteur de lance »), il applique un canon — un système précis de proportions — qu'il expose aussi dans un traité écrit. Pour lui, la beauté n'est pas une intuition mais un équilibre mesurable, un rapport juste entre les parties. C'est la naissance de l'idée que l'art peut reposer sur des règles rationnelles."
+          "bio_longue": "Polyclète (Ve siècle av. J.-C.) est le théoricien du corps idéal. Dans son Doryphore (le « porteur de lance »), il applique un canon — un système précis de proportions — qu'il expose aussi dans un traité écrit. Pour lui, la beauté n'est pas une intuition mais un équilibre mesurable, un rapport juste entre les parties. C'est la naissance de l'idée que l'art peut reposer sur des règles rationnelles.",
+          "bio_sections": [
+            {
+              "h": "Le théoricien du corps",
+              "p": "Polyclète, contemporain de Phidias, est le théoricien des proportions idéales du corps humain."
+            },
+            {
+              "h": "Le canon",
+              "p": "Dans son Doryphore, il applique un système précis de rapports, qu'il expose aussi dans un traité écrit : la beauté devient un équilibre mesurable, une affaire de raison."
+            }
+          ]
         }
       ],
       "index": [
@@ -4726,7 +5208,21 @@
           "role": "",
           "wiki": "Praxiteles",
           "portrait": "La grâce, la sensualité, le nu féminin.",
-          "bio_longue": "Praxitèle (IVe siècle av. J.-C.) est le sculpteur de la grâce. Il assouplit le corps héroïque du Ve siècle, lui donne des poses alanguies, sensuelles, et ose le premier grand nu féminin (l'Aphrodite de Cnide, scandale et merveille de l'Antiquité). Sa douceur, son modelé fondu marquent le passage de l'idéal sévère du classicisme à la sensibilité plus humaine et charmeuse de l'âge hellénistique."
+          "bio_longue": "Praxitèle (IVe siècle av. J.-C.) est le sculpteur de la grâce. Il assouplit le corps héroïque du Ve siècle, lui donne des poses alanguies, sensuelles, et ose le premier grand nu féminin (l'Aphrodite de Cnide, scandale et merveille de l'Antiquité). Sa douceur, son modelé fondu marquent le passage de l'idéal sévère du classicisme à la sensibilité plus humaine et charmeuse de l'âge hellénistique.",
+          "bio_sections": [
+            {
+              "h": "Le sculpteur de la grâce",
+              "p": "Praxitèle, au IVe siècle av. J.-C., assouplit le corps héroïque du classicisme : poses alanguies, courbe en S, modelé fondu."
+            },
+            {
+              "h": "Le premier grand nu féminin",
+              "p": "Son Aphrodite de Cnide, premier grand nu féminin de l'histoire, fut à la fois scandale et merveille de l'Antiquité."
+            },
+            {
+              "h": "Vers l'hellénistique",
+              "p": "Sa douceur sensuelle marque le passage de l'idéal sévère du Ve siècle à la sensibilité plus humaine de l'âge hellénistique."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -4735,7 +5231,17 @@
           "role": "",
           "wiki": "Lysippos",
           "portrait": "Sculpteur d'Alexandre, nouvelles proportions plus élancées.",
-          "bio_longue": "Lysippe (IVe siècle av. J.-C.) fut le sculpteur attitré d'Alexandre le Grand — le seul autorisé, dit-on, à faire son portrait. Il renouvelle le canon de Polyclète en allongeant les proportions, en affinant les corps, et en multipliant les points de vue, donnant à ses figures plus d'élan et de naturel. Son art accompagne et diffuse, avec les conquêtes d'Alexandre, l'idéal grec dans tout le monde antique."
+          "bio_longue": "Lysippe (IVe siècle av. J.-C.) fut le sculpteur attitré d'Alexandre le Grand — le seul autorisé, dit-on, à faire son portrait. Il renouvelle le canon de Polyclète en allongeant les proportions, en affinant les corps, et en multipliant les points de vue, donnant à ses figures plus d'élan et de naturel. Son art accompagne et diffuse, avec les conquêtes d'Alexandre, l'idéal grec dans tout le monde antique.",
+          "bio_sections": [
+            {
+              "h": "Le sculpteur d'Alexandre",
+              "p": "Lysippe fut le sculpteur attitré d'Alexandre le Grand — le seul, dit-on, autorisé à faire son portrait."
+            },
+            {
+              "h": "Les nouvelles proportions",
+              "p": "Il renouvelle le canon en allongeant les corps, en les affinant, et en multipliant les points de vue. Son art accompagne, avec les conquêtes d'Alexandre, la diffusion de l'idéal grec dans tout le monde antique."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -4743,7 +5249,17 @@
           "dates": "Iᵉʳ s. av.",
           "role": "",
           "wiki": "Laocoön and His Sons",
-          "portrait": "Auteurs présumés du Laocoon."
+          "portrait": "Auteurs présumés du Laocoon.",
+          "bio_sections": [
+            {
+              "h": "Le sommet du pathos",
+              "p": "Trois sculpteurs de Rhodes signent le Laocoon, redécouvert à Rome en 1506 sous les yeux de Michel-Ange."
+            },
+            {
+              "h": "La souffrance en marbre",
+              "p": "Le prêtre Laocoon et ses fils étouffés par les serpents, muscles noués et visages tordus de douleur, portent à son comble l'expression dramatique de l'art hellénistique — l'exact opposé du calme classique."
+            }
+          ]
         }
       ],
       "index": [
@@ -5120,7 +5636,17 @@
           "dates": "~344-406",
           "role": "Chine",
           "wiki": "Gu Kaizhi",
-          "portrait": "L'un des premiers grands peintres chinois nommés."
+          "portrait": "L'un des premiers grands peintres chinois nommés.",
+          "bio_sections": [
+            {
+              "h": "L'un des premiers noms",
+              "p": "Ku K'ai-chi (Gu Kaizhi) est l'un des premiers grands peintres chinois dont le nom nous soit parvenu, dès le IVe siècle."
+            },
+            {
+              "h": "Le rouleau narratif",
+              "p": "On lui attribue de longs rouleaux peints où figures et paysages se déroulent comme un récit, posant les bases d'une tradition millénaire."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -5128,7 +5654,17 @@
           "dates": "Song",
           "role": "Chine",
           "wiki": "Ma Yuan (painter)",
-          "portrait": "Maître du paysage Song, compositions « à un coin »."
+          "portrait": "Maître du paysage Song, compositions « à un coin ».",
+          "bio_sections": [
+            {
+              "h": "Le maître du paysage Song",
+              "p": "Ma Yuan est l'un des grands paysagistes de la dynastie Song, l'âge d'or de la peinture chinoise."
+            },
+            {
+              "h": "La composition « à un coin »",
+              "p": "Il concentre le motif dans un angle de la toile et laisse le reste au vide brumeux — le vide n'est pas un manque mais du souffle, l'espace de la méditation."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -5136,7 +5672,13 @@
           "dates": "Song/Yuan",
           "role": "Chine",
           "wiki": "Gao Kegong",
-          "portrait": "Paysagiste de brumes et de montagnes."
+          "portrait": "Paysagiste de brumes et de montagnes.",
+          "bio_sections": [
+            {
+              "h": "Brumes et montagnes",
+              "p": "Kao K'o-kung (Gao Kegong) est un paysagiste de brumes et de montagnes, héritier de l'esprit Song : saisir, d'un trait juste et de lavis subtils, non l'apparence mais l'âme de la nature."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -5144,7 +5686,21 @@
           "dates": "—",
           "role": "anonyme",
           "wiki": "Islamic art",
-          "portrait": "Largement anonyme, collectif et artisanal : la gloire est à l'ornement, pas à l'individu."
+          "portrait": "Largement anonyme, collectif et artisanal : la gloire est à l'ornement, pas à l'individu.",
+          "bio_sections": [
+            {
+              "h": "L'interdit de l'image",
+              "p": "L'art islamique, écartant largement la figure dans le domaine sacré, déploie son génie dans l'ornement, la calligraphie et la géométrie."
+            },
+            {
+              "h": "L'infini des motifs",
+              "p": "Arabesques, entrelacs, étoiles qui se répètent à l'infini (l'Alhambra) : ces décors sans centre ni fin évoquent l'illimité divin et invitent à la contemplation."
+            },
+            {
+              "h": "Un legs à l'Occident",
+              "p": "Cette science du motif et de la surface, transmise par l'Espagne et l'Orient, nourrira durablement les arts décoratifs européens."
+            }
+          ]
         }
       ],
       "index": [
@@ -5551,7 +6107,21 @@
           "dates": "~1267-1337",
           "role": "la charnière",
           "wiki": "Giotto",
-          "portrait": "LA charnière : poids, espace, émotion. Le grand-père de la Renaissance."
+          "portrait": "LA charnière : poids, espace, émotion. Le grand-père de la Renaissance.",
+          "bio_sections": [
+            {
+              "h": "La charnière",
+              "p": "Giotto rompt avec l'or et la raideur byzantine pour redonner aux figures un poids, une place dans l'espace, et de vraies émotions."
+            },
+            {
+              "h": "La chapelle des Scrovegni",
+              "p": "À Padoue, dans la Lamentation, ses personnages massifs réagissent en vrais humains et les anges eux-mêmes pleurent dans le ciel. On lit les sentiments sur les visages."
+            },
+            {
+              "h": "Le point de départ",
+              "p": "Révolution silencieuse, c'est l'amorce directe de la Renaissance : un siècle plus tard, Masaccio reprendra et systématisera la voie qu'il a ouverte."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -5559,7 +6129,17 @@
           "dates": "~1255-1319",
           "role": "Sienne",
           "wiki": "Duccio",
-          "portrait": "Sienne ; douceur, or, transition (Maestà)."
+          "portrait": "Sienne ; douceur, or, transition (Maestà).",
+          "bio_sections": [
+            {
+              "h": "Le maître de Sienne",
+              "p": "Duccio est, à Sienne, le pendant de Giotto — mais dans une autre veine : douceur, or, lignes raffinées, héritées de Byzance et assouplies."
+            },
+            {
+              "h": "La Maestà",
+              "p": "Son immense Maestà, retable de la cathédrale de Sienne, fut portée en procession dans la ville entière. Il ouvre la voie à la délicate école siennoise."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -5567,7 +6147,17 @@
           "dates": "~1284-1344",
           "role": "gothique int.",
           "wiki": "Simone Martini",
-          "portrait": "Gothique international, élégance courtoise (Annonciation)."
+          "portrait": "Gothique international, élégance courtoise (Annonciation).",
+          "bio_sections": [
+            {
+              "h": "L'élégance courtoise",
+              "p": "Simone Martini, Siennois, incarne le gothique international : élégance des lignes, fonds d'or, raffinement courtois."
+            },
+            {
+              "h": "L'Annonciation",
+              "p": "Son Annonciation, toute en courbes gracieuses et en or, est un sommet de ce style précieux. Ami de Pétrarque, il travailla aussi pour la cour des papes en Avignon."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -5575,7 +6165,17 @@
           "dates": "XIVe s.",
           "role": "Sienne",
           "wiki": "Ambrogio Lorenzetti",
-          "portrait": "Espace et vie civique (fresques du Bon Gouvernement)."
+          "portrait": "Espace et vie civique (fresques du Bon Gouvernement).",
+          "bio_sections": [
+            {
+              "h": "Sienne et la cité",
+              "p": "Les frères Lorenzetti, à Sienne, donnent au XIVe siècle un art de l'espace et de la vie civique."
+            },
+            {
+              "h": "Le Bon Gouvernement",
+              "p": "L'Allégorie du Bon et du Mauvais Gouvernement, vaste fresque du palais communal, déroule la ville et la campagne siennoises — l'un des premiers grands paysages et tableaux politiques de l'art occidental."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -5583,7 +6183,17 @@
           "dates": "~1400",
           "role": "cour",
           "wiki": "Limbourg brothers",
-          "portrait": "Enluminure de cour (Très Riches Heures)."
+          "portrait": "Enluminure de cour (Très Riches Heures).",
+          "bio_sections": [
+            {
+              "h": "L'enluminure de cour",
+              "p": "Les frères de Limbourg sont les plus grands enlumineurs du gothique international, au service du duc de Berry."
+            },
+            {
+              "h": "Les Très Riches Heures",
+              "p": "Leur livre d'heures, avec ses calendriers des saisons d'un détail et d'une couleur précieux (or et outremer), est le chef-d'œuvre absolu de l'enluminure — entre élégance courtoise et premières scènes de la vie réelle."
+            }
+          ]
         }
       ],
       "index": [
