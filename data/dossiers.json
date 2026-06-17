@@ -3261,7 +3261,25 @@
           "role": "Fauvisme",
           "wiki": "Henri Matisse",
           "portrait": "Chef du Fauvisme, maître de la couleur et de la ligne ; fin de vie : les gouaches découpées.",
-          "bio_longue": "Henri Matisse (1869-1954) se destinait au droit ; c'est une boîte de couleurs offerte pendant une convalescence à 21 ans qui décide de tout — « comme une révélation ». Chef du fauvisme, il fait scandale puis devient le grand maître de la couleur et de la ligne pure, cherchant toute sa vie un art « d'équilibre, de calme », « comme un bon fauteuil » pour l'esprit fatigué. Sa rivalité-amitié avec Picasso structure tout le siècle : Picasso le démolisseur anguleux, Matisse l'enchanteur de la couleur — « personne d'autre que lui ne mérite qu'on le regarde », disait Picasso. Cloué au lit et à la chaise roulante à la fin de sa vie, ne pouvant plus tenir le pinceau, il invente les gouaches découpées : il « dessine avec des ciseaux » dans des feuilles peintes. La contrainte devient un nouveau sommet."
+          "bio_longue": "Henri Matisse (1869-1954) se destinait au droit ; c'est une boîte de couleurs offerte pendant une convalescence à 21 ans qui décide de tout — « comme une révélation ». Chef du fauvisme, il fait scandale puis devient le grand maître de la couleur et de la ligne pure, cherchant toute sa vie un art « d'équilibre, de calme », « comme un bon fauteuil » pour l'esprit fatigué. Sa rivalité-amitié avec Picasso structure tout le siècle : Picasso le démolisseur anguleux, Matisse l'enchanteur de la couleur — « personne d'autre que lui ne mérite qu'on le regarde », disait Picasso. Cloué au lit et à la chaise roulante à la fin de sa vie, ne pouvant plus tenir le pinceau, il invente les gouaches découpées : il « dessine avec des ciseaux » dans des feuilles peintes. La contrainte devient un nouveau sommet.",
+          "bio_sections": [
+            {
+              "h": "Le droit abandonné",
+              "p": "Henri Matisse se destinait au droit ; c'est une boîte de couleurs offerte pendant une convalescence à 21 ans qui décide de tout — « comme une révélation ». Il abandonne tout pour la peinture."
+            },
+            {
+              "h": "Le chef des fauves",
+              "p": "En 1905, au Salon d'automne, ses toiles aux couleurs « sauvages » font scandale : un critique parle d'une « cage aux fauves ». Matisse en est le chef. Pour lui, la couleur n'a plus à être juste — elle exprime et organise le tableau pour elle-même (La Danse)."
+            },
+            {
+              "h": "La rivalité avec Picasso",
+              "p": "Toute sa vie, une rivalité-amitié l'oppose à Picasso : l'un démolisseur anguleux, l'autre enchanteur de la couleur. « Personne d'autre que lui ne mérite qu'on le regarde », disait Picasso."
+            },
+            {
+              "h": "Dessiner avec des ciseaux",
+              "p": "Cloué au lit et à la chaise roulante à la fin de sa vie, ne pouvant plus tenir le pinceau, il invente les gouaches découpées : il « dessine avec des ciseaux » dans des feuilles peintes. La contrainte devient un nouveau sommet."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -3270,7 +3288,25 @@
           "role": "Cubisme",
           "wiki": "Pablo Picasso",
           "portrait": "Le géant du siècle : co-invente le Cubisme, traverse tous les styles (Guernica, 1937).",
-          "bio_longue": "Né à Málaga en 1881, fils d'un professeur de dessin qui, dit la légende, lui aurait donné ses pinceaux en reconnaissant l'élève dépasser le maître. Prodige précoce, il s'installe à Paris dans la misère de Montmartre. Sa « période bleue » (1901-04), née du suicide d'un ami, baigne mendiants et solitudes dans un bleu glacé ; la « période rose » l'adoucit avec ses saltimbanques. Puis, en 1907, le coup de tonnerre des Demoiselles d'Avignon, et l'aventure cubiste avec Braque. Picasso ne s'arrêtera jamais : il traverse tous les styles, change de manière comme de maîtresse, peint la guerre civile espagnole dans Guernica (1937), sculpte, grave, fait de la céramique. Mort en 1973 à 91 ans, il laisse des dizaines de milliers d'œuvres. Sa vraie signature n'est pas un style mais une énergie : la réinvention permanente. « Je ne cherche pas, je trouve. »"
+          "bio_longue": "Né à Málaga en 1881, fils d'un professeur de dessin qui, dit la légende, lui aurait donné ses pinceaux en reconnaissant l'élève dépasser le maître. Prodige précoce, il s'installe à Paris dans la misère de Montmartre. Sa « période bleue » (1901-04), née du suicide d'un ami, baigne mendiants et solitudes dans un bleu glacé ; la « période rose » l'adoucit avec ses saltimbanques. Puis, en 1907, le coup de tonnerre des Demoiselles d'Avignon, et l'aventure cubiste avec Braque. Picasso ne s'arrêtera jamais : il traverse tous les styles, change de manière comme de maîtresse, peint la guerre civile espagnole dans Guernica (1937), sculpte, grave, fait de la céramique. Mort en 1973 à 91 ans, il laisse des dizaines de milliers d'œuvres. Sa vraie signature n'est pas un style mais une énergie : la réinvention permanente. « Je ne cherche pas, je trouve. »",
+          "bio_sections": [
+            {
+              "h": "Le prodige de Málaga",
+              "p": "Pablo Picasso naît à Málaga, fils d'un professeur de dessin. Prodige précoce — son père lui aurait donné ses pinceaux en se reconnaissant dépassé — il s'installe dans la misère de Montmartre. Sa « période bleue », née du suicide d'un ami, baigne mendiants et solitudes dans un bleu glacé ; la « rose » l'adoucit avec ses saltimbanques."
+            },
+            {
+              "h": "Les Demoiselles et le cubisme",
+              "p": "En 1907, coup de tonnerre : Les Demoiselles d'Avignon, sous l'influence des masques africains. Avec Braque, il invente le cubisme — ils travaillent si serrés qu'ils se disent « encordés comme des alpinistes ». La perspective unique de la Renaissance vole en éclats."
+            },
+            {
+              "h": "Guernica et l'engagement",
+              "p": "En 1937, il peint Guernica, immense cri pacifiste en noir et blanc, en réaction au bombardement de la ville basque. L'art devient arme politique et conscience d'un siècle de violence."
+            },
+            {
+              "h": "La réinvention permanente",
+              "p": "Picasso ne s'arrête jamais : il traverse tous les styles, change de manière comme de muse, sculpte, grave, fait de la céramique. Mort en 1973 à 91 ans, il laisse des dizaines de milliers d'œuvres. « Je ne cherche pas, je trouve. »"
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3279,7 +3315,25 @@
           "role": "Cubisme",
           "wiki": "Georges Braque",
           "portrait": "Co-inventeur du Cubisme avec Picasso.",
-          "bio_longue": "Georges Braque (1882-1963), fils de peintre en bâtiment, apporte au cubisme la rigueur et le métier (faux bois, lettres au pochoir, papiers collés qu'il invente en 1912). Avec Picasso, entre 1908 et 1914, leur collaboration est si fusionnelle qu'ils cessent parfois de signer pour qu'on ne sache plus qui a peint quoi. La Première Guerre les sépare : Braque part au front, y est gravement blessé à la tête. Il reviendra à un cubisme plus serein, plus musical, mais l'aventure héroïque à deux est finie."
+          "bio_longue": "Georges Braque (1882-1963), fils de peintre en bâtiment, apporte au cubisme la rigueur et le métier (faux bois, lettres au pochoir, papiers collés qu'il invente en 1912). Avec Picasso, entre 1908 et 1914, leur collaboration est si fusionnelle qu'ils cessent parfois de signer pour qu'on ne sache plus qui a peint quoi. La Première Guerre les sépare : Braque part au front, y est gravement blessé à la tête. Il reviendra à un cubisme plus serein, plus musical, mais l'aventure héroïque à deux est finie.",
+          "bio_sections": [
+            {
+              "h": "Le métier dans le sang",
+              "p": "Georges Braque, fils de peintre en bâtiment, apporte au cubisme la rigueur et le métier : faux bois, lettres au pochoir, sens de la matière."
+            },
+            {
+              "h": "Encordé avec Picasso",
+              "p": "Entre 1908 et 1914, sa collaboration avec Picasso est si fusionnelle qu'ils cessent parfois de signer pour qu'on ne sache plus qui a peint quoi. Ensemble, ils inventent le cubisme."
+            },
+            {
+              "h": "Les papiers collés",
+              "p": "C'est Braque qui invente, en 1912, le papier collé — coller de vrais fragments de réel sur la toile. Une révolution qui ouvre la voie au collage et à l'art moderne."
+            },
+            {
+              "h": "Après la guerre",
+              "p": "La Première Guerre les sépare : Braque part au front, y est gravement blessé à la tête. Il reviendra à un cubisme plus serein, plus musical — l'aventure héroïque à deux est finie."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3288,7 +3342,21 @@
           "role": "Expressionnisme",
           "wiki": "Edvard Munch",
           "portrait": "Le Cri, source de l'Expressionnisme.",
-          "bio_longue": "Edvard Munch (1863-1944), Norvégien marqué par la mort de sa mère et de sa sœur, peint l'angoisse à l'état pur. Le Cri (1893) — une silhouette qui hurle sous un ciel sang, les mains sur les oreilles — est devenu l'icône universelle de l'anxiété moderne. Il est la source de l'expressionnisme : déformer le visible pour exprimer le ressenti."
+          "bio_longue": "Edvard Munch (1863-1944), Norvégien marqué par la mort de sa mère et de sa sœur, peint l'angoisse à l'état pur. Le Cri (1893) — une silhouette qui hurle sous un ciel sang, les mains sur les oreilles — est devenu l'icône universelle de l'anxiété moderne. Il est la source de l'expressionnisme : déformer le visible pour exprimer le ressenti.",
+          "bio_sections": [
+            {
+              "h": "L'enfance et la mort",
+              "p": "Edvard Munch, Norvégien, est marqué très tôt par la maladie et la mort — celle de sa mère, puis de sa sœur. L'angoisse irrigue toute son œuvre."
+            },
+            {
+              "h": "Le Cri",
+              "p": "Le Cri (1893) — une silhouette qui hurle sous un ciel sang, les mains sur les oreilles — est devenu l'icône universelle de l'anxiété moderne."
+            },
+            {
+              "h": "La source de l'expressionnisme",
+              "p": "Déformer le visible pour exprimer le ressenti : Munch ouvre la voie à l'expressionnisme, qui marquera tout l'art allemand du XXe siècle."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3305,7 +3373,25 @@
           "role": "Abstraction",
           "wiki": "Wassily Kandinsky",
           "portrait": "Pionnier de l'abstraction ; la couleur comme musique.",
-          "bio_longue": "Wassily Kandinsky (1866-1944) est d'abord juriste à Moscou ; il abandonne une chaire de professeur à 30 ans pour devenir peintre, après deux chocs : un tableau de Monet où il ne reconnaît pas le sujet (une meule) mais ressent une force, et une représentation de Wagner. Il croit que la couleur, comme la musique, agit directement sur l'âme — il dit « entendre » les couleurs (synesthésie). Vers 1910, il peint les premières aquarelles sans aucun sujet : l'art abstrait est né. Théoricien (Du spirituel dans l'art), fondateur du Cavalier bleu, il enseignera au Bauhaus avant de fuir les nazis pour Paris."
+          "bio_longue": "Wassily Kandinsky (1866-1944) est d'abord juriste à Moscou ; il abandonne une chaire de professeur à 30 ans pour devenir peintre, après deux chocs : un tableau de Monet où il ne reconnaît pas le sujet (une meule) mais ressent une force, et une représentation de Wagner. Il croit que la couleur, comme la musique, agit directement sur l'âme — il dit « entendre » les couleurs (synesthésie). Vers 1910, il peint les premières aquarelles sans aucun sujet : l'art abstrait est né. Théoricien (Du spirituel dans l'art), fondateur du Cavalier bleu, il enseignera au Bauhaus avant de fuir les nazis pour Paris.",
+          "bio_sections": [
+            {
+              "h": "Le juriste devenu peintre",
+              "p": "Wassily Kandinsky est d'abord juriste à Moscou. Il abandonne une chaire de professeur à 30 ans pour devenir peintre, après deux chocs : un tableau de Monet où il ne reconnaît pas le sujet mais ressent une force, et une représentation de Wagner."
+            },
+            {
+              "h": "La couleur comme musique",
+              "p": "Il croit que la couleur, comme la musique, agit directement sur l'âme — il dit « entendre » les couleurs (synesthésie). La peinture peut donc se passer d'objet, comme une symphonie n'imite aucun bruit."
+            },
+            {
+              "h": "La naissance de l'abstraction",
+              "p": "Vers 1910, il peint les premières œuvres sans aucun sujet reconnaissable : l'art abstrait est né. Sa Composition VII, tourbillon de formes et de couleurs, en est le sommet."
+            },
+            {
+              "h": "Le Bauhaus et l'exil",
+              "p": "Théoricien (Du spirituel dans l'art), fondateur du Cavalier bleu, il enseigne au Bauhaus jusqu'à sa fermeture par les nazis, puis s'exile à Paris où il meurt en 1944."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3314,7 +3400,21 @@
           "role": "Abstraction géométrique",
           "wiki": "Piet Mondrian",
           "portrait": "Abstraction géométrique pure (grilles, rouge/bleu/jaune).",
-          "bio_longue": "Piet Mondrian (1872-1944), Hollandais, part de paysages d'arbres qu'il épure d'année en année jusqu'à ce qu'il n'en reste que des lignes. Il aboutit au néoplasticisme : uniquement des lignes noires horizontales et verticales, et les trois couleurs primaires sur fond blanc. Pour lui, ce n'est pas de la décoration mais une quête quasi mystique : l'ordre universel et l'équilibre des forces sous le désordre du monde. Exilé à New York à la fin de sa vie, fasciné par le jazz et la ville, il fait vibrer sa grille dans Broadway Boogie-Woogie."
+          "bio_longue": "Piet Mondrian (1872-1944), Hollandais, part de paysages d'arbres qu'il épure d'année en année jusqu'à ce qu'il n'en reste que des lignes. Il aboutit au néoplasticisme : uniquement des lignes noires horizontales et verticales, et les trois couleurs primaires sur fond blanc. Pour lui, ce n'est pas de la décoration mais une quête quasi mystique : l'ordre universel et l'équilibre des forces sous le désordre du monde. Exilé à New York à la fin de sa vie, fasciné par le jazz et la ville, il fait vibrer sa grille dans Broadway Boogie-Woogie.",
+          "bio_sections": [
+            {
+              "h": "Des arbres à la grille",
+              "p": "Piet Mondrian, Hollandais, part de paysages et d'arbres qu'il épure d'année en année, jusqu'à ce qu'il n'en reste que des lignes. Une lente marche vers l'essentiel."
+            },
+            {
+              "h": "Le néoplasticisme",
+              "p": "Il aboutit à un art radical : uniquement des lignes noires horizontales et verticales, et les trois couleurs primaires sur fond blanc. Ce n'est pas décoratif, mais une quête quasi mystique de l'ordre universel sous le chaos du monde."
+            },
+            {
+              "h": "New York et le jazz",
+              "p": "Exilé à New York à la fin de sa vie, fasciné par la ville et le boogie-woogie, il fait vibrer sa grille en pulsations colorées (Broadway Boogie-Woogie). L'austérité se met à danser."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -3323,7 +3423,25 @@
           "role": "Bauhaus",
           "wiki": "Paul Klee",
           "portrait": "Poésie, signes, humour ; enseignant au Bauhaus.",
-          "bio_longue": "Paul Klee (1879-1940), Suisse-allemand, musicien autant que peintre, crée un monde de signes, de flèches, de poissons et de lettres, d'une poésie et d'un humour uniques. « Le dessin, c'est prendre une ligne pour une promenade. » Professeur au Bauhaus, il bâtit une véritable théorie de la forme et de la couleur. Déclaré « dégénéré » par les nazis, malade, il peint ses dernières œuvres, plus sombres et graves, comme des hiéroglyphes face à la mort."
+          "bio_longue": "Paul Klee (1879-1940), Suisse-allemand, musicien autant que peintre, crée un monde de signes, de flèches, de poissons et de lettres, d'une poésie et d'un humour uniques. « Le dessin, c'est prendre une ligne pour une promenade. » Professeur au Bauhaus, il bâtit une véritable théorie de la forme et de la couleur. Déclaré « dégénéré » par les nazis, malade, il peint ses dernières œuvres, plus sombres et graves, comme des hiéroglyphes face à la mort.",
+          "bio_sections": [
+            {
+              "h": "Le peintre-musicien",
+              "p": "Paul Klee, Suisse-allemand, est musicien autant que peintre. Son art, d'une poésie et d'un humour uniques, ressemble à un journal intime de signes et de couleurs. « Le dessin, c'est prendre une ligne pour une promenade. »"
+            },
+            {
+              "h": "Un monde de signes",
+              "p": "Flèches, poissons, lettres, petits personnages : Klee invente un alphabet visuel à mi-chemin du rêve et de l'enfance, jamais naïf, toujours réfléchi."
+            },
+            {
+              "h": "Le théoricien du Bauhaus",
+              "p": "Professeur au Bauhaus, il bâtit une véritable théorie de la forme et de la couleur, transmise à des générations d'artistes et de designers."
+            },
+            {
+              "h": "La fin sous l'ombre",
+              "p": "Déclaré « dégénéré » par les nazis, malade, il peint ses dernières œuvres — plus sombres, plus graves, comme des hiéroglyphes face à la mort."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -3332,7 +3450,25 @@
           "role": "Surréalisme",
           "wiki": "Salvador Dalí",
           "portrait": "Surréalisme, rêve hyperréaliste (La Persistance de la mémoire).",
-          "bio_longue": "Salvador Dalí (1904-1989), Catalan génial et cabotin, se fait le showman du surréalisme : moustache en guidon, provocations calculées, amour de l'argent (Breton l'anagramme en « Avida Dollars »). Mais derrière le clown, un technicien hors pair qui peint ses rêves avec une précision hallucinante — c'est ce réalisme minutieux qui rend ses montres molles si troublantes. Il invente la méthode « paranoïaque-critique » : provoquer en soi un délire pour y voir des images doubles. Sa muse et femme Gala est au centre de tout. Génie ou imposteur ? Les deux, sans doute — et c'est très surréaliste."
+          "bio_longue": "Salvador Dalí (1904-1989), Catalan génial et cabotin, se fait le showman du surréalisme : moustache en guidon, provocations calculées, amour de l'argent (Breton l'anagramme en « Avida Dollars »). Mais derrière le clown, un technicien hors pair qui peint ses rêves avec une précision hallucinante — c'est ce réalisme minutieux qui rend ses montres molles si troublantes. Il invente la méthode « paranoïaque-critique » : provoquer en soi un délire pour y voir des images doubles. Sa muse et femme Gala est au centre de tout. Génie ou imposteur ? Les deux, sans doute — et c'est très surréaliste.",
+          "bio_sections": [
+            {
+              "h": "Le showman catalan",
+              "p": "Salvador Dalí, Catalan génial et cabotin, se fait la vitrine du surréalisme : moustache en guidon, provocations calculées, amour de l'argent (Breton l'anagramme en « Avida Dollars »)."
+            },
+            {
+              "h": "La méthode paranoïaque-critique",
+              "p": "Il invente une méthode pour provoquer en lui un délire contrôlé et y voir des images doubles, des métamorphoses — la logique du rêve mise en système."
+            },
+            {
+              "h": "Le technicien du rêve",
+              "p": "Derrière le clown, un peintre d'une virtuosité hallucinante : c'est ce réalisme minutieux qui rend ses montres molles si troublantes. Il peint l'impossible comme s'il était réel."
+            },
+            {
+              "h": "Gala et la légende",
+              "p": "Sa muse et femme Gala est au centre de tout. Génie ou imposteur ? Les deux, sans doute — et c'est très surréaliste. Il meurt en 1989, icône mondiale."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -3357,7 +3493,21 @@
           "role": "Sculpture",
           "wiki": "Henry Moore",
           "portrait": "Sculpteur, formes organiques creusées.",
-          "bio_longue": "Henry Moore (1898-1986), fils de mineur anglais, révolutionne la sculpture avec ses grandes figures couchées aux formes organiques creusées de vides — le trou, l'absence, devient aussi important que la matière. Inspiré par les galets, les os, les paysages, il rend la sculpture moderne à la fois monumentale et étrangement vivante."
+          "bio_longue": "Henry Moore (1898-1986), fils de mineur anglais, révolutionne la sculpture avec ses grandes figures couchées aux formes organiques creusées de vides — le trou, l'absence, devient aussi important que la matière. Inspiré par les galets, les os, les paysages, il rend la sculpture moderne à la fois monumentale et étrangement vivante.",
+          "bio_sections": [
+            {
+              "h": "Le fils de mineur",
+              "p": "Henry Moore, fils de mineur anglais, révolutionne la sculpture du XXe siècle après avoir découvert l'art « primitif » et les formes naturelles."
+            },
+            {
+              "h": "Les figures couchées",
+              "p": "Ses grandes figures couchées, aux formes organiques, sont creusées de vides : le trou, l'absence, devient aussi important que la matière elle-même."
+            },
+            {
+              "h": "La nature pour modèle",
+              "p": "Inspiré par les galets, les os, les paysages, il rend la sculpture moderne à la fois monumentale et étrangement vivante, à mi-chemin du corps et du roc."
+            }
+          ]
         },
         {
           "niveau": "○",
