@@ -3532,6 +3532,32 @@
           "role": "Architecture",
           "wiki": "Frank Lloyd Wright",
           "portrait": "Architecture organique (Maison sur la cascade)."
+        },
+        {
+          "niveau": "★",
+          "nom": "Duchamp",
+          "dates": "1887-1968",
+          "role": "Dada / readymade",
+          "wiki": "Marcel Duchamp",
+          "portrait": "Marcel Duchamp est l'homme qui a changé la question même de l'art : de « est-ce beau ? » à « est-ce de l'art ? ».",
+          "bio_sections": [
+            {
+              "h": "Le peintre cubiste",
+              "p": "Marcel Duchamp se révèle bon peintre cubiste : son Nu descendant un escalier fait scandale à l'Armory Show de New York en 1913. Mais il va vite tourner le dos à la peinture."
+            },
+            {
+              "h": "Contre l'art « rétinien »",
+              "p": "Il juge la peinture trop « rétinienne », trop affaire d'œil. Il veut un art de l'idée, de l'intelligence — pas seulement du plaisir visuel."
+            },
+            {
+              "h": "Les readymades",
+              "p": "Il décrète œuvres d'art des objets ordinaires : une roue de bicyclette, un porte-bouteilles, un urinoir (Fontaine, signé « R. Mutt »). « Il l'a choisi » : le geste de désignation devient l'acte créateur."
+            },
+            {
+              "h": "Les échecs et l'héritage",
+              "p": "Il consacre des années aux échecs, dont il devient joueur de niveau international, et travaille en secret vingt ans à une dernière œuvre énigmatique. Discret, ironique, il a fait plus que quiconque pour ouvrir l'art conceptuel : depuis lui, l'idée peut valoir plus que la main."
+            }
+          ]
         }
       ],
       "index": [
