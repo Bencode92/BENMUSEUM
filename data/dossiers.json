@@ -201,20 +201,54 @@
           "dates": "~1267-1337",
           "role": "le grand-père",
           "wiki": "Giotto",
-          "portrait": "Premier à donner poids, émotion et espace, rompant avec l'or byzantin. Sans lui, pas de Renaissance. → Chapelle des Scrovegni (Padoue).",
+          "portrait": "Giotto di Bondone (v. 1267-1337) est le grand-père de toute la peinture occidentale moderne. Deux siècles avant la Renaissance, il a rompu avec la raideur dorée du Moyen Âge pour redonner aux figures un poids, un espace et des émotions vraies — ouvrant la voie que Masaccio, puis Léonard, suivront.",
           "groupe": "Le précurseur",
           "bio_sections": [
             {
-              "h": "Le grand-père de la Renaissance",
-              "p": "Giotto, berger toscan devenu peintre selon la légende, rompt avec l'or et la raideur byzantine pour redonner aux figures un poids et une émotion vraie."
+              "h": "L'enfance : le berger devenu peintre",
+              "p": "Né vers 1267 dans la campagne toscane, Giotto serait, selon la légende rapportée par Vasari, un petit berger que le peintre Cimabue surprit en train de dessiner ses moutons sur une pierre, si bien qu'il l'emmena dans son atelier. Vraie ou non, l'anecdote dit l'essentiel : Giotto regarde la nature, et non plus seulement les modèles figés de la tradition."
+            },
+            {
+              "h": "Le déclic : rompre avec Byzance",
+              "p": "L'art de son temps, hérité de Byzance, est fait de figures plates, dorées, hiératiques. Giotto ose autre chose : il donne à ses personnages du volume, du poids, une place dans un espace réel, et surtout des émotions humaines. C'est une révolution silencieuse mais totale dans la manière de peindre."
             },
             {
               "h": "La chapelle des Scrovegni",
-              "p": "À Padoue, ses fresques (la Lamentation) montrent des êtres de chair qui pleurent, se détournent, se touchent, dans un espace réel. Une révolution silencieuse."
+              "p": "À Padoue, vers 1305, Giotto couvre la chapelle des Scrovegni d'un cycle de fresques sur la vie du Christ et de la Vierge. Dans la Lamentation, les personnages massifs pleurent, se penchent, se détournent comme de vrais êtres, et les anges eux-mêmes se tordent de douleur dans le ciel. On lit les sentiments sur les visages."
             },
             {
-              "h": "La porte de l'art moderne",
-              "p": "Deux siècles avant Masaccio, il ouvre la voie : sans Giotto, pas de Renaissance. C'est le point de départ de tout l'art occidental moderne."
+              "h": "Son moteur : l'émotion vraie et l'espace",
+              "p": "Ce qui guide Giotto, c'est la volonté de rendre le drame sacré humainement crédible : que le spectateur croie à la scène, s'y reconnaisse, soit ému. Il invente pour cela des gestes parlants, des regards, des corps qui occupent l'espace et projettent des ombres. La peinture cesse d'être un signe pour devenir une présence."
+            },
+            {
+              "h": "Le message : le divin rendu humain",
+              "p": "En donnant aux figures sacrées chair et émotion, Giotto rapproche le divin du fidèle : la souffrance de Marie devient celle de toute mère, le drame du Christ celui de tout homme. Cette humanité nouvelle, en accord avec la spiritualité de saint François, transforme le rapport du croyant à l'image."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font unanimement de Giotto le point de départ de la peinture occidentale moderne. « Sans Giotto, pas de Renaissance », résume-t-on. Gombrich lui consacre une place charnière : il est le premier, depuis l'Antiquité, à avoir donné l'illusion de la profondeur et de la vie réelle aux figures peintes."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Giotto surgit, seul, deux siècles trop tôt : ce qu'il invente ne sera vraiment repris qu'avec Masaccio, vers 1425. Admiré dès son vivant (Dante le cite), célébré par Vasari comme le rénovateur de l'art, il est la grande charnière entre le monde médiéval et le monde moderne — l'homme par qui la peinture recommence."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Lamentation sur le Christ mort",
+              "artiste": "Giotto",
+              "annee": "v. 1305",
+              "lieu": "Chapelle des Scrovegni, Padoue",
+              "wiki": "Lamentation (Giotto)",
+              "analyse": "Autour du corps du Christ, les figures massives se penchent, s'étreignent et pleurent ; des anges se tordent de douleur dans le ciel ; un rocher nu conduit le regard vers le drame. L'émotion humaine vraie fait son entrée dans la peinture. Une révolution."
+            },
+            {
+              "titre": "La Madone d'Ognissanti",
+              "artiste": "Giotto",
+              "annee": "v. 1310",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Ognissanti Madonna",
+              "analyse": "La Vierge en majesté, sur un trône qui occupe un vrai espace en profondeur, a un corps qui pèse sous sa robe. Comparée aux madones plates et dorées de ses prédécesseurs, elle marque le passage de Byzance au monde réel et tangible."
             }
           ]
         },
@@ -267,25 +301,71 @@
           "dates": "1445-1510",
           "role": "la grâce, puis le doute",
           "wiki": "Sandro Botticelli",
-          "portrait": "Mythologies païennes d'une grâce linéaire unique sous les Médicis. Fin de vie troublée sous l'influence de Savonarole.",
+          "portrait": "Sandro Botticelli (1445-1510) est le peintre de la grâce linéaire et de la beauté rêveuse de la Florence des Médicis. Maître de la ligne pure et des figures mélancoliques, il a donné, avec La Naissance de Vénus et Le Printemps, les images les plus enchanteresses de la Renaissance — avant de finir, troublé, dans la dévotion.",
           "bio_longue": "Sandro Botticelli (1445-1510) est le peintre de la grâce florentine sous les Médicis. Sa ligne sinueuse, presque musicale, et ses figures rêveuses (La Naissance de Vénus, Le Printemps) traduisent un idéal de beauté hérité de l'Antiquité et de la philosophie néoplatonicienne de son cercle. Mais sa fin est sombre : tombé sous l'influence du prédicateur fanatique Savonarole, qui faisait brûler les œuvres « vaniteuses » dans des « bûchers des vanités », il aurait lui-même renié et détruit certaines de ses toiles païennes. Oublié à sa mort, il ne sera redécouvert qu'au XIXe siècle.",
           "groupe": "École de Florence & Rome — le dessin",
           "bio_sections": [
             {
-              "h": "Florence, l'atelier et les Médicis",
-              "p": "Sandro Botticelli se forme à Florence, notamment auprès de Filippo Lippi, et devient vite le peintre favori du cercle raffiné des Médicis. Dans cette ville de banquiers et d'humanistes, on redécouvre l'Antiquité et la philosophie de Platon. Botticelli y trouve son génie propre : non le réalisme, mais la grâce de la ligne."
+              "h": "L'enfance : le petit tonneau de Florence",
+              "p": "Né en 1445 à Florence, fils d'un tanneur, Sandro Filipepi est surnommé « Botticelli » (petit tonneau), peut-être d'après son frère. Il se forme auprès de Filippo Lippi, dont il hérite la douceur des visages et la délicatesse du trait. Florence, alors capitale des arts et de la pensée humaniste, est le théâtre de tout son épanouissement."
             },
             {
-              "h": "La grâce païenne",
-              "p": "Avec La Naissance de Vénus et Le Printemps, il ose de grandes scènes mythologiques, presque oubliées depuis l'Antiquité. Ses figures, au cou allongé et à la pose impossible, ne cherchent pas la vérité anatomique mais une beauté idéale, musicale. La philosophie néoplatonicienne de son cercle y voit le reflet terrestre d'une beauté divine."
+              "h": "Le déclic : le cercle des Médicis",
+              "p": "Botticelli entre dans l'orbite de Laurent le Magnifique et du cercle néoplatonicien qui l'entoure — poètes et philosophes qui rêvent de réconcilier l'Antiquité païenne et le christianisme. C'est pour ce milieu raffiné qu'il peint ses grandes allégories mythologiques, nourries de poésie et de philosophie."
             },
             {
-              "h": "Le doute et Savonarole",
-              "p": "À la fin du siècle, le prédicateur fanatique Savonarole enflamme Florence et fait brûler les œuvres « vaniteuses » dans des bûchers. Botticelli, bouleversé, se détourne de ses sujets païens ; sa peinture se fait plus dure, plus religieuse, plus angoissée. On dit qu'il aurait lui-même livré certaines de ses toiles aux flammes."
+              "h": "La ligne qui chante",
+              "p": "Botticelli n'est pas un peintre du volume ni de la perspective : il est le maître de la ligne. Ses contours sinueux, ses chevelures ondoyantes, ses draperies flottantes créent une musique linéaire d'une élégance incomparable. La Naissance de Vénus, déesse glissant sur sa conque, est l'aboutissement de cette grâce."
             },
             {
-              "h": "L'oubli, puis la gloire",
-              "p": "Mort en 1510 dans une relative obscurité, Botticelli est presque oublié pendant trois siècles. Ce sont les préraphaélites anglais, au XIXe, qui le redécouvrent et le hissent au rang des plus grands. Aujourd'hui sa Vénus est une icône universelle de la Renaissance."
+              "h": "Son moteur : la beauté idéale et mélancolique",
+              "p": "Ses figures, même joyeuses, sont empreintes d'une douce mélancolie, comme nostalgiques d'un monde parfait. Botticelli cherche une beauté idéale, presque immatérielle, où le corps compte moins que la grâce du mouvement et l'expression rêveuse du visage. Le Printemps en est le jardin enchanté."
+            },
+            {
+              "h": "Le tournant : Savonarole et la dévotion",
+              "p": "À la fin de sa vie, Botticelli est bouleversé par les sermons enflammés du moine Savonarole, qui dénonce le luxe et le paganisme. Sa peinture se fait alors plus grave, plus religieuse, plus tourmentée. La légende veut qu'il ait jeté certaines de ses œuvres « profanes » au « bûcher des vanités ». Il meurt oublié, dans la pauvreté."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Longtemps éclipsé, Botticelli est redécouvert au XIXe siècle, notamment par les préraphaélites, et devient l'une des images mêmes de la Renaissance. Les historiens admirent sa ligne incomparable et son alliance unique de sensualité et de spiritualité. Gombrich a consacré une étude célèbre à la pensée néoplatonicienne du Printemps."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains conquièrent l'espace et le volume, Botticelli reste fidèle à la beauté du trait et au rêve. Sa grâce linéaire, un peu archaïsante déjà pour son temps, et sa mélancolie en font un cas à part : un poète de la ligne dans un siècle de géomètres, dont les Vénus enchantent encore le monde."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Printemps",
+              "artiste": "Botticelli",
+              "annee": "v. 1480",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Primavera (painting)",
+              "analyse": "Dans un verger, Vénus préside à une ronde allégorique : les trois Grâces dansent, Flore répand ses fleurs, Zéphyr poursuit une nymphe. Énigme néoplatonicienne sur l'amour et le printemps, tout en lignes ondoyantes et grâce mélancolique."
+            },
+            {
+              "titre": "La Madone du Magnificat",
+              "artiste": "Botticelli",
+              "annee": "v. 1483",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Madonna of the Magnificat",
+              "analyse": "Tondo où la Vierge écrit le Magnificat, entourée d'anges, l'Enfant guidant sa main. Composition circulaire d'une douceur parfaite, lignes fluides et or : la grâce religieuse de Botticelli à son sommet."
+            },
+            {
+              "titre": "La Calomnie d'Apelle",
+              "artiste": "Botticelli",
+              "annee": "v. 1495",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "The Calumny of Apelles",
+              "analyse": "Reconstitution d'un tableau antique perdu : la Calomnie, menée par l'Ignorance et le Soupçon, traîne sa victime devant un juge aux oreilles d'âne. Œuvre tardive et inquiète, leçon morale sur l'injustice — l'ombre de Savonarole."
+            },
+            {
+              "titre": "L'Adoration des mages",
+              "artiste": "Botticelli",
+              "annee": "v. 1475",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Adoration of the Magi (Botticelli, 1475)",
+              "analyse": "Les rois mages s'inclinent devant l'Enfant ; parmi l'assistance figurent les Médicis et, à droite, Botticelli lui-même nous regardant. Un portrait de groupe de la Florence des Médicis déguisé en scène sacrée."
             }
           ]
         },
@@ -724,19 +804,53 @@
           "role": "",
           "wiki": "Fra Angelico",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Moine dominicain et peintre, il met la science nouvelle de l'espace au service d'une douceur mystique. Ses fresques du couvent San Marco, peintes pour la prière des moines, sont d'une pureté lumineuse.",
+          "portrait": "Fra Angelico (v. 1395-1455) est le moine-peintre de la première Renaissance florentine, celui qui a mis la science nouvelle de l'espace et de la lumière au service d'une foi sereine et lumineuse. Béatifié par l'Église, surnommé « le peintre angélique », il unit la modernité du métier à la pureté de la prière.",
           "bio_sections": [
             {
-              "h": "Le moine peintre",
-              "p": "Fra Angelico, frère dominicain, met la science nouvelle de l'espace au service d'une foi sereine et lumineuse."
+              "h": "L'enfance et la vocation : du pinceau au cloître",
+              "p": "Né vers 1395 en Toscane, Guido di Pietro est déjà peintre quand il entre, jeune homme, dans l'ordre dominicain sous le nom de Fra Giovanni. Pour lui, peindre est une forme de prière : « celui qui peint les choses du Christ doit vivre avec le Christ », disait-on de lui. Il refusera, dit la légende, de devenir archevêque pour rester moine et peintre."
+            },
+            {
+              "h": "Le déclic : la Renaissance au service de la foi",
+              "p": "Contemporain de Masaccio et de Brunelleschi, Fra Angelico adopte leurs conquêtes — la perspective, la lumière, les volumes — mais sans rien perdre de la douceur et de l'or de la tradition. Il fait dialoguer la modernité florentine et la spiritualité médiévale, créant un art à la fois savant et tendre."
             },
             {
               "h": "Les fresques de San Marco",
-              "p": "Au couvent San Marco de Florence, il peint, dans la cellule de chaque moine, des scènes d'une pureté et d'une douceur faites pour la prière, non pour l'effet."
+              "p": "Dans le couvent San Marco de Florence, il peint dans la cellule de chaque moine une scène sacrée, dépouillée et silencieuse, faite pour la méditation. Son Annonciation, en haut de l'escalier, est d'une simplicité bouleversante : l'ange et la Vierge s'inclinent l'un vers l'autre sous une loggia claire, dans une lumière de prière."
             },
             {
-              "h": "La douceur lumineuse",
-              "p": "Sa peinture concilie la perspective moderne et une tendresse mystique : la Renaissance mise au service de la dévotion."
+              "h": "Son moteur : la peinture comme prière",
+              "p": "Fra Angelico ne peint pas pour la gloire ni pour l'argent, mais pour élever l'âme vers Dieu. Vasari raconte qu'il priait avant de prendre ses pinceaux et pleurait en peignant la Crucifixion. Sa douceur, sa lumière limpide, ses couleurs claires expriment une foi paisible, sans drame ni angoisse."
+            },
+            {
+              "h": "Le message : la douceur du sacré",
+              "p": "Là où d'autres cherchent la grandeur ou le pathos, Fra Angelico offre la sérénité, la tendresse, la clarté. Ses anges aux ailes irisées, ses Vierges paisibles, ses paradis lumineux donnent une image douce et consolante de la foi. La beauté, chez lui, est une voie vers le divin."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Fra Angelico un maître majeur de la première Renaissance, trop souvent réduit à sa piété : il maîtrise parfaitement la perspective et la lumière modernes. Gombrich souligne qu'il a su concilier les nouveautés révolutionnaires de son temps avec la ferveur traditionnelle, sans que l'une trahisse l'autre."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où la Renaissance célèbre l'homme, la gloire et l'Antiquité, Fra Angelico met tout son art au service de la prière et du recueillement. Moine jusqu'au bout, « bienheureux » pour l'Église, il reste le peintre de la douceur lumineuse — la preuve que la modernité du métier pouvait servir la foi la plus pure."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Annonciation",
+              "artiste": "Fra Angelico",
+              "annee": "v. 1440-1445",
+              "lieu": "Couvent San Marco, Florence",
+              "wiki": "Annunciation (Fra Angelico, San Marco)",
+              "analyse": "En haut de l'escalier du couvent, l'ange et la Vierge s'inclinent l'un vers l'autre sous une loggia claire et nue, dans une lumière de silence. Dépouillement, douceur, perspective parfaite : une image faite pour la prière des moines, d'une émotion contenue bouleversante."
+            },
+            {
+              "titre": "Le Couronnement de la Vierge",
+              "artiste": "Fra Angelico",
+              "annee": "v. 1434-1435",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Coronation of the Virgin (Fra Angelico)",
+              "analyse": "Dans un paradis d'or et de lumière, le Christ couronne la Vierge devant une foule de saints et d'anges aux ailes irisées. La science de l'espace mise au service d'une vision céleste rayonnante : la Renaissance au service du ciel."
             }
           ]
         },
@@ -747,19 +861,69 @@
           "role": "",
           "wiki": "Piero della Francesca",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Peintre et mathématicien, il unit la perspective la plus rigoureuse à une lumière claire et une gravité sereine, presque abstraite. Longtemps oublié, il est aujourd'hui adoré pour sa géométrie silencieuse.",
+          "portrait": "Piero della Francesca (v. 1415-1492) est le peintre-mathématicien de la Renaissance, le maître d'une peinture d'une perfection géométrique et d'une sérénité silencieuse. Longtemps oublié, il est aujourd'hui adoré : sa lumière claire, ses volumes purs et son calme presque abstrait parlent directement à l'œil moderne.",
           "bio_sections": [
             {
-              "h": "Le peintre-mathématicien",
-              "p": "Piero della Francesca unit le métier de peintre à celui de mathématicien : il écrit des traités de perspective et de géométrie."
+              "h": "L'enfance : Borgo San Sepolcro",
+              "p": "Né vers 1415 à Borgo San Sepolcro, petite ville de Toscane à laquelle il restera attaché toute sa vie, Piero est fils de marchand. Il se forme en assimilant les nouveautés florentines (perspective, lumière) puis travaille pour diverses cours, notamment celle, raffinée, d'Urbin. Mais il revient toujours dans sa ville natale."
             },
             {
-              "h": "Lumière et géométrie",
-              "p": "Ses fresques (La Légende de la Vraie Croix) et ses portraits d'Urbin allient une perspective d'une rigueur absolue à une lumière claire et une gravité silencieuse, presque abstraite."
+              "h": "Le déclic : la peinture comme géométrie",
+              "p": "Piero est aussi un mathématicien : il écrit des traités savants sur la perspective et les solides géométriques. Pour lui, peindre, c'est construire l'espace selon des lois rigoureuses. Chaque figure, chaque architecture est posée avec une exactitude géométrique qui donne à ses tableaux une stabilité et une harmonie absolues."
             },
             {
-              "h": "Oublié puis adoré",
-              "p": "Longtemps négligé, il est aujourd'hui adoré pour cette sérénité géométrique qui parle directement à l'œil moderne."
+              "h": "La lumière claire et le volume pur",
+              "p": "Ses personnages ont la simplicité et le poids de volumes purs — cylindres, sphères, ovoïdes — baignés d'une lumière diurne, claire et égale, sans ombres dramatiques. Le Baptême du Christ, La Flagellation, déploient une sérénité cristalline où le temps semble suspendu. La beauté naît de l'ordre et du calme."
+            },
+            {
+              "h": "Son moteur : l'ordre et la sérénité",
+              "p": "Ce qui guide Piero, c'est la quête d'une harmonie parfaite, mathématique, presque musicale. Ses figures sont impassibles, graves, immobiles ; ses compositions, d'un équilibre rigoureux. Il ne cherche ni le mouvement ni le pathos, mais une perfection sereine, hors du temps, qui touche par sa pureté même."
+            },
+            {
+              "h": "Le message : la dignité silencieuse",
+              "p": "Chez Piero, le sacré se dit dans le silence et la mesure. Ses Vierges, ses saints, ses princes d'Urbin ont une dignité calme, une présence monumentale. La Légende de la Vraie Croix, à Arezzo, déroule l'histoire sainte comme une suite de tableaux d'une noblesse impassible et lumineuse."
+            },
+            {
+              "h": "Pourquoi il est adoré, selon les experts",
+              "p": "Oublié pendant des siècles, Piero est redécouvert au XXe siècle et célébré comme l'un des plus grands : sa rigueur géométrique et son calme abstrait fascinent les modernes (Seurat, les cubistes, Balthus s'en réclament). Gombrich souligne que son alliance de la perspective scientifique et de la lumière sereine en fait un sommet du Quattrocento."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains cherchent l'expression, le mouvement ou le détail, Piero cherche l'ordre, le silence et la lumière pure. Sa modernité tient à cette abstraction sereine, presque géométrique, qui le rend étrangement proche de nous. Devenu aveugle à la fin de sa vie, il se consacra alors à ses traités de mathématiques."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Baptême du Christ",
+              "artiste": "Piero della Francesca",
+              "annee": "v. 1450",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Baptism of Christ (Piero della Francesca)",
+              "analyse": "Le Christ, d'une pâleur de statue, reçoit le baptême sous une colombe ; un arbre et une figure se dévêtant structurent l'espace. Lumière claire, volumes purs, immobilité solennelle : la sérénité géométrique de Piero à l'état pur."
+            },
+            {
+              "titre": "La Flagellation du Christ",
+              "artiste": "Piero della Francesca",
+              "annee": "v. 1460",
+              "lieu": "Galerie nationale des Marches, Urbin",
+              "wiki": "Flagellation of Christ (Piero della Francesca)",
+              "analyse": "Énigme célèbre : à gauche, le Christ flagellé dans une architecture parfaite ; à droite, au premier plan, trois hommes énigmatiques conversent. Perspective d'une rigueur absolue, sens mystérieux : l'un des tableaux les plus étudiés et les plus parfaits de la Renaissance."
+            },
+            {
+              "titre": "Diptyque des ducs d'Urbin",
+              "artiste": "Piero della Francesca",
+              "annee": "v. 1465-1472",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Diptych of Federico da Montefeltro and Battista Sforza",
+              "analyse": "Federico de Montefeltro et son épouse se font face, de profil comme sur des médailles antiques, devant un vaste paysage lumineux. Le profil net du duc (qui avait perdu un œil) devient une image de pouvoir d'une pureté géométrique inoubliable."
+            },
+            {
+              "titre": "La Résurrection",
+              "artiste": "Piero della Francesca",
+              "annee": "v. 1463-1465",
+              "lieu": "Museo Civico, Sansepolcro",
+              "wiki": "Resurrection (Piero della Francesca)",
+              "analyse": "Le Christ, un pied posé sur le bord du tombeau, se dresse, grave et frontal, au-dessus des soldats endormis, tandis que le paysage passe de l'hiver mort au printemps. Présence monumentale et silencieuse : Aldous Huxley la jugeait « le plus beau tableau du monde »."
             }
           ]
         },
@@ -770,19 +934,61 @@
           "role": "",
           "wiki": "Andrea Mantegna",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Passionné de l'Antiquité romaine et virtuose du raccourci, il ose des audaces stupéfiantes — comme son Christ mort vu en perspective brutale depuis les pieds. La pierre et l'archéologie faites peinture.",
+          "portrait": "Andrea Mantegna (1431-1506) est le peintre savant de la Renaissance du Nord de l'Italie, possédé par la passion de l'Antiquité romaine et par l'audace de la perspective. Rigoureux, sculptural, archéologue autant qu'artiste, il a porté le raccourci et l'illusion à un degré jamais vu.",
           "bio_sections": [
             {
-              "h": "La passion de l'antique",
-              "p": "Andrea Mantegna, formé à Padoue, est passionné par l'Antiquité romaine, qu'il étudie comme un archéologue."
+              "h": "L'enfance : le prodige de Padoue",
+              "p": "Né en 1431 près de Padoue, fils d'un charpentier, Mantegna est adopté très jeune par le peintre Squarcione, passionné d'antiquités, qui en fait son élève vedette — au point qu'il s'émancipera de lui dans un procès. Padoue, ville d'université et de vestiges romains, lui inocule très tôt le culte de l'Antiquité."
             },
             {
-              "h": "Le raccourci audacieux",
-              "p": "Son Christ mort, vu en perspective brutale depuis les pieds, est l'un des raccourcis les plus saisissants de l'histoire de la peinture. La pierre et l'antique deviennent chair peinte."
+              "h": "Le déclic : la passion de l'antique",
+              "p": "Mantegna étudie les ruines, les inscriptions, les statues romaines comme un archéologue. Il veut faire revivre la grandeur de Rome : ses personnages ont la solidité de la pierre, ses architectures sont reconstituées avec une exactitude savante. Il collectionne lui-même les antiques et grave des estampes qui diffusent ce goût dans toute l'Europe."
             },
             {
-              "h": "La cour de Mantoue",
-              "p": "Peintre de la cour des Gonzague à Mantoue, il y réalise la Chambre des époux, premier décor en trompe-l'œil ouvrant un plafond sur le ciel."
+              "h": "L'audace du raccourci",
+              "p": "Sa science de la perspective le conduit à des prouesses : son Christ mort, vu en raccourci violent depuis les pieds, gît devant nous d'une vérité saisissante. Au plafond de la Chambre des époux de Mantoue, il peint un oculus en trompe-l'œil ouvrant sur le ciel, avec des angelots et des femmes penchés au-dessus du vide — le premier plafond illusionniste."
+            },
+            {
+              "h": "Son moteur : la rigueur et le savoir",
+              "p": "Mantegna est un esprit exigeant, presque sévère : tout chez lui est construit, calculé, sculptural. Il ne cherche pas la douceur vénitienne mais la précision, la dignité antique, la maîtrise intellectuelle. Sa peinture est celle d'un humaniste qui pense autant qu'il peint."
+            },
+            {
+              "h": "Le message : ressusciter la grandeur de Rome",
+              "p": "Peintre de la cour des Gonzague à Mantoue, Mantegna met son art au service d'une célébration de la grandeur — celle des princes comme celle de l'Antiquité. Ses Triomphes de César, longue frise de la gloire romaine, et ses décors mythologiques font de la culture antique un modèle de noblesse et de puissance."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Mantegna l'un des grands maîtres du Quattrocento et le passeur décisif de l'esprit antique et de la perspective dans le Nord de l'Italie. Son influence, par la gravure, fut immense (jusqu'à Dürer). Gombrich souligne son audace technique et sa volonté de faire de la peinture une science autant qu'un art."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Bellini, son beau-frère vénitien, choisit la couleur et la douceur, Mantegna choisit la ligne, la pierre et la rigueur. Son monde est dur, archéologique, héroïque. Maître du raccourci et du trompe-l'œil, il a ouvert des voies — l'illusionnisme de plafond — que le Baroque exploitera deux siècles plus tard."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Christ mort (Lamentation)",
+              "artiste": "Mantegna",
+              "annee": "v. 1480",
+              "lieu": "Pinacothèque de Brera, Milan",
+              "wiki": "Lamentation of Christ (Mantegna)",
+              "analyse": "Le corps du Christ est vu en raccourci brutal, depuis les pieds percés, gisant sur une dalle ; à gauche, des visages éplorés. Prouesse de perspective et choc d'humanité : la mort regardée de tout près, sans idéalisation. L'un des raccourcis les plus célèbres de l'art."
+            },
+            {
+              "titre": "La Chambre des époux",
+              "artiste": "Mantegna",
+              "annee": "1465-1474",
+              "lieu": "Palais ducal, Mantoue",
+              "wiki": "Camera degli Sposi",
+              "analyse": "Décor en trompe-l'œil pour les Gonzague : les murs s'ouvrent sur la cour princière, et au plafond un oculus feint laisse voir le ciel, des angelots et des servantes penchés au-dessus du vide. Le premier plafond illusionniste, ancêtre du Baroque."
+            },
+            {
+              "titre": "Retable de San Zeno",
+              "artiste": "Mantegna",
+              "annee": "1457-1460",
+              "lieu": "Basilique San Zeno, Vérone",
+              "wiki": "San Zeno Altarpiece",
+              "analyse": "La Vierge trône parmi les saints dans une architecture antique reconstituée avec une précision d'archéologue, encadrée de guirlandes à la romaine. Mantegna unifie l'espace peint et le cadre sculpté : la Renaissance savante du Nord à son sommet."
             }
           ]
         },
@@ -812,19 +1018,61 @@
           "role": "",
           "wiki": "Giovanni Bellini",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Le père de l'école vénitienne. Le premier à faire de la lumière et de la couleur, plus que du dessin, le cœur de la peinture. Maître de Giorgione et de Titien, il ouvre la voie à tout le génie vénitien.",
+          "portrait": "Giovanni Bellini (v. 1430-1516) est le père de l'école vénitienne et le maître qui a appris à Venise à peindre la lumière. Au fil d'une longue carrière, il a transformé les madones et les retables par une douceur atmosphérique nouvelle, formant Giorgione et Titien — toute la gloire vénitienne descend de lui.",
           "bio_sections": [
             {
-              "h": "Le père de Venise",
-              "p": "Giovanni Bellini est le père de l'école vénitienne, le premier à faire de la lumière et de la couleur, plus que du dessin, le cœur de la peinture."
+              "h": "L'enfance : une dynastie de peintres",
+              "p": "Né vers 1430 à Venise, Giovanni est le fils du peintre Jacopo Bellini et le frère de Gentile : une véritable dynastie. Son beau-frère n'est autre que Mantegna, dont la rigueur l'influence d'abord. Mais là où Mantegna choisit la pierre et la ligne, Giovanni va peu à peu choisir la lumière et la couleur — la voie vénitienne."
             },
             {
-              "h": "La lumière douce",
-              "p": "Ses Madones et ses retables baignent dans une lumière atmosphérique d'une douceur nouvelle, qui adoucit les contours."
+              "h": "Le déclic : la lumière et l'huile",
+              "p": "L'adoption de la peinture à l'huile, venue des Flandres, est pour Bellini une révélation : elle permet des transitions douces, des atmosphères, une lumière qui baigne et unifie la scène. Il abandonne les contours durs pour un modelé fondu, où l'air et la lumière deviennent presque palpables."
             },
             {
-              "h": "Le maître des maîtres",
-              "p": "Il forme Giorgione et Titien : tout le génie vénitien à venir sort de son atelier."
+              "h": "Les madones et les retables",
+              "p": "Bellini peint d'innombrables Vierges à l'Enfant d'une tendresse paisible, et de grands retables (le Retable de San Zaccaria) où les saints baignent dans une lumière dorée et calme, sous des architectures sereines. Il invente une atmosphère de recueillement lumineux qui deviendra la marque de Venise."
+            },
+            {
+              "h": "Son moteur : la sérénité lumineuse",
+              "p": "Ce qui guide Bellini, c'est la quête d'une harmonie douce entre les figures, le paysage et la lumière. Même un saint dans le désert (Saint François) est enveloppé d'une lumière matinale qui sacralise toute la nature. La couleur et la lumière, chez lui, expriment une spiritualité apaisée."
+            },
+            {
+              "h": "Le message : la nature transfigurée",
+              "p": "Bellini est l'un des premiers à donner au paysage une vraie présence spirituelle : la lumière du jour, les collines, les arbres ne sont plus un décor mais participent au sacré. Cette communion de l'homme, de Dieu et de la nature, baignée de lumière, est au cœur de son art et fera école."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Giovanni Bellini le véritable fondateur de la peinture vénitienne et de sa primauté de la couleur sur le dessin. Gombrich souligne que son atelier fut le creuset d'où sortirent Giorgione et Titien : sans lui, pas de Venise triomphante. Dürer, qui le rencontra âgé, le tenait pour le meilleur peintre de la ville."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Mantegna est dur et savant, Bellini est doux et lumineux ; là où Florence dessine, Venise, grâce à lui, peint la lumière. Travailleur infatigable jusqu'à plus de 80 ans, toujours capable d'apprendre de ses propres élèves, il incarne le sage passeur dont toute une école est née."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Retable de San Zaccaria",
+              "artiste": "Bellini",
+              "annee": "1505",
+              "lieu": "Église San Zaccaria, Venise",
+              "wiki": "San Zaccaria Altarpiece",
+              "analyse": "La Vierge trône parmi quatre saints sous une abside dorée, baignée d'une lumière douce et atmosphérique qui semble prolonger l'espace réel de l'église. La sérénité lumineuse vénitienne à son sommet, peinte par un maître de 75 ans."
+            },
+            {
+              "titre": "Le Doge Leonardo Loredan",
+              "artiste": "Bellini",
+              "annee": "v. 1501",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Doge Leonardo Loredan",
+              "analyse": "Le doge de Venise, en habit d'apparat brodé, fixe un point hors champ, d'une dignité impassible. La lumière modèle chaque pli du brocart. Un portrait d'État d'une présence et d'une noblesse rares, miroir de la République sereine."
+            },
+            {
+              "titre": "Saint François dans le désert",
+              "artiste": "Bellini",
+              "annee": "v. 1480",
+              "lieu": "Frick Collection, New York",
+              "wiki": "St Francis in the Desert",
+              "analyse": "François, bras ouverts, reçoit la lumière du matin dans un paysage minutieux et lumineux où chaque rocher, chaque plante vibre. La nature entière participe à l'extase : l'un des premiers grands paysages spirituels de la peinture."
             }
           ]
         },
@@ -835,19 +1083,61 @@
           "role": "",
           "wiki": "Giorgione",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Mystérieux et mort jeune de la peste, il invente le « paysage d'âme » : des scènes énigmatiques (La Tempête) où l'atmosphère et la lumière comptent plus que le sujet. Une poésie sans équivalent.",
+          "portrait": "Giorgione (v. 1477-1510) est le plus mystérieux des grands Vénitiens. Mort jeune de la peste, il n'a laissé qu'une poignée d'œuvres sûres — mais il a inventé une peinture nouvelle, où l'atmosphère, la poésie et le rêve comptent plus que le sujet, et marqué à jamais Titien et toute Venise.",
           "bio_sections": [
             {
-              "h": "Le mystère",
-              "p": "Giorgione, élève de Bellini, est un personnage énigmatique, mort jeune de la peste vers 33 ans, laissant très peu d'œuvres sûres."
+              "h": "Les origines : l'énigme de Castelfranco",
+              "p": "Né vers 1477 à Castelfranco, près de Venise, Giorgione (« le grand Giorgio ») reste un personnage entouré de mystère : on sait peu de sa vie, et l'attribution de ses œuvres est l'un des grands casse-tête de l'histoire de l'art. Élève de Giovanni Bellini, il en prolonge la lumière douce, mais avec une liberté toute neuve."
             },
             {
-              "h": "Le paysage d'âme",
-              "p": "Avec La Tempête, il invente une peinture où l'atmosphère et la lumière comptent plus que le sujet, volontairement obscur : une poésie pure, sans équivalent."
+              "h": "Le déclic : la peinture de l'atmosphère",
+              "p": "Giorgione rompt avec la peinture narrative claire : ses tableaux ne « racontent » pas une histoire identifiable, mais créent une ambiance, une humeur, un mystère. Le paysage, la lumière de l'orage ou du couchant, la rêverie des figures deviennent le vrai sujet. C'est une révolution : la peinture comme poésie pure."
             },
             {
-              "h": "L'influence",
-              "p": "Sa douceur et son mystère marqueront durablement Titien et toute la peinture vénitienne."
+              "h": "La Tempête",
+              "p": "Son œuvre la plus célèbre, La Tempête, montre un soldat et une femme allaitant son enfant, séparés, sous un ciel d'orage zébré d'éclairs, devant une ville. Nul ne sait ce qu'elle signifie — et c'est volontaire. L'atmosphère électrique, la lumière étrange, le silence énigmatique créent une émotion qui se passe de récit."
+            },
+            {
+              "h": "Son moteur : le rêve et la suggestion",
+              "p": "Giorgione ne veut pas expliquer mais suggérer, faire rêver, troubler. Ses figures sont absorbées, lointaines ; ses paysages, baignés d'une lumière dorée ou orageuse, invitent à la contemplation. Il peint pour un public raffiné de lettrés vénitiens qui goûtent ce mystère poétique, ces « poésies » sans clé."
+            },
+            {
+              "h": "Le message : l'émotion avant le sens",
+              "p": "Avec Giorgione, la peinture découvre qu'elle peut émouvoir sans démontrer ni raconter — par la seule magie de la couleur, de la lumière et de l'atmosphère. C'est une idée d'une modernité stupéfiante, qui annonce de loin le romantisme et même l'art pour l'art."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Giorgione l'inventeur du paysage d'âme et du tableau d'atmosphère, malgré le très petit nombre d'œuvres sûres. Son influence sur Titien (qui acheva certaines de ses toiles) et sur toute la peinture vénitienne est immense. Gombrich souligne qu'il fut le premier à faire de l'ambiance le cœur même de l'œuvre."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains peignent des sujets clairs, Giorgione cultive le mystère et le silence. Sa mort précoce, vers 33 ans, emporté par la peste, et la rareté de ses œuvres en font une figure presque légendaire — le génie fugace qui, en quelques tableaux, a changé la direction de la peinture."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Tempête",
+              "artiste": "Giorgione",
+              "annee": "v. 1508",
+              "lieu": "Gallerie dell'Accademia, Venise",
+              "wiki": "The Tempest (Giorgione)",
+              "analyse": "Un soldat et une femme allaitant, séparés, sous un ciel d'orage déchiré d'un éclair, devant une ville. Aucune histoire identifiable : l'atmosphère électrique et le mystère sont le vrai sujet. Le premier grand tableau d'ambiance pure de l'histoire."
+            },
+            {
+              "titre": "Vénus endormie",
+              "artiste": "Giorgione",
+              "annee": "v. 1508-1510",
+              "lieu": "Gemäldegalerie, Dresde",
+              "wiki": "Sleeping Venus",
+              "analyse": "Vénus dort, nue, dans un paysage paisible, sa courbe épousant les collines. Sérénité, sensualité et fusion du corps et de la nature : modèle de tous les nus couchés à venir, de la Vénus d'Urbin de Titien à l'Olympia de Manet."
+            },
+            {
+              "titre": "Les Trois Philosophes",
+              "artiste": "Giorgione",
+              "annee": "v. 1508-1509",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Three Philosophers",
+              "analyse": "Trois hommes d'âges différents, au bord d'une grotte sombre, dans un paysage du soir. Sages, mages ou âges de la vie ? L'énigme reste ouverte. La méditation et la lumière crépusculaire priment, encore une fois, sur le sens explicite."
             }
           ]
         },
@@ -858,19 +1148,53 @@
           "role": "",
           "wiki": "Paolo Veronese",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Le peintre du faste vénitien : d'immenses banquets somptueux, des architectures lumineuses, des couleurs éclatantes. Convoqué par l'Inquisition pour avoir mis des chiens et des bouffons dans une Cène, il rebaptisa simplement la toile.",
+          "portrait": "Paolo Veronese (1528-1588) est, avec Titien et le Tintoret, l'un des trois géants de la Venise du XVIe siècle — le peintre du faste, de la lumière argentée et des grands banquets somptueux. Maître de la couleur claire et des architectures grandioses, il a célébré la splendeur de la Sérénissime comme nul autre.",
           "bio_sections": [
             {
-              "h": "Le peintre du faste",
-              "p": "Paolo Veronese est le peintre du faste vénitien : architectures lumineuses, couleurs éclatantes, foules somptueuses."
+              "h": "L'enfance : Vérone et la pierre",
+              "p": "Né en 1528 à Vérone (d'où son surnom), fils d'un tailleur de pierre, Paolo Caliari se forme dans sa ville natale avant de gagner Venise, où il s'impose rapidement. Ses origines d'artisan de la pierre nourrissent peut-être son goût des grandes architectures peintes, colonnades et palais qui structurent ses compositions."
+            },
+            {
+              "h": "Le déclic : la couleur claire et lumineuse",
+              "p": "À Venise, Veronese développe une palette d'une clarté nouvelle : argents, roses, bleus pâles, ors, dans une lumière diffuse et joyeuse, à l'opposé des ombres dramatiques. Il décore plafonds et palais (le palais des Doges, la villa Barbaro) de fresques éclatantes qui font de l'architecture un théâtre de lumière."
             },
             {
               "h": "Les grands banquets",
-              "p": "Ses immenses scènes de banquets (Les Noces de Cana) débordent de personnages, de soieries et d'animaux."
+              "p": "Sa spécialité est la scène de festin monumentale : Les Noces de Cana, immense toile peuplée de plus de cent personnages, musiciens, serviteurs et convives en costumes vénitiens somptueux. Le sujet religieux devient prétexte à un déploiement de faste, de couleurs et de vie mondaine éblouissant."
             },
             {
-              "h": "Le procès de l'Inquisition",
-              "p": "Convoqué par l'Inquisition pour avoir mis chiens, bouffons et ivrognes dans une Cène, il rebaptise simplement la toile « Le Repas chez Lévi » — anecdote célèbre sur la liberté de l'artiste."
+              "h": "Son moteur : la splendeur et la fête",
+              "p": "Veronese aime la richesse visuelle : soieries, marbres, chiens, nains, perroquets, architectures grandioses. Sa peinture est une célébration sensuelle du monde et de la prospérité vénitienne, sans angoisse ni drame. Il peint le bonheur d'une cité au sommet de sa puissance et de son luxe."
+            },
+            {
+              "h": "Le message : le procès de l'Inquisition",
+              "p": "Ce goût du faste lui vaut un démêlé fameux : convoqué par l'Inquisition pour avoir mis chiens, bouffons, ivrognes et soldats allemands dans une Cène, il défend la liberté du peintre — « nous, les peintres, prenons les mêmes licences que les poètes » — puis rebaptise simplement la toile Le Repas chez Lévi. Un plaidoyer célèbre pour la liberté de l'art."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Veronese le maître de la peinture décorative et de la couleur lumineuse, dont la splendeur influencera Rubens, Tiepolo et tout l'art décoratif jusqu'au XVIIIe siècle. Gombrich souligne sa maîtrise des grandes mises en scène où des dizaines de figures s'organisent dans des architectures somptueuses sans jamais perdre la clarté."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le Tintoret est fièvre et drame sombre, Veronese est lumière, faste et sérénité joyeuse ; là où Titien creuse la psychologie, lui déploie le spectacle. Peintre du bonheur et de l'opulence, il offre l'image la plus éclatante de la Venise triomphante du XVIe siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les Noces de Cana",
+              "artiste": "Véronèse",
+              "annee": "1563",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Wedding at Cana",
+              "analyse": "Immense toile (près de 70 m²) : le miracle du Christ changeant l'eau en vin se perd dans un banquet vénitien fastueux de plus de cent convives, musiciens et serviteurs. Le sacré devient prétexte à un éblouissant spectacle de luxe et de lumière."
+            },
+            {
+              "titre": "Le Repas chez Lévi",
+              "artiste": "Véronèse",
+              "annee": "1573",
+              "lieu": "Gallerie dell'Accademia, Venise",
+              "wiki": "The Feast in the House of Levi",
+              "analyse": "Conçue comme une Cène, la toile fut jugée irrévérencieuse par l'Inquisition (chiens, bouffons, soldats). Plutôt que de la modifier, Veronese la rebaptisa. Sous une triple arcade grandiose, un festin somptueux : et un manifeste pour la liberté du peintre."
             }
           ]
         },
@@ -881,23 +1205,53 @@
           "role": "",
           "wiki": "Jan van Eyck",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le génie flamand de la peinture à l'huile, qu'il porte à une perfection inégalée : un réalisme minutieux, des transparences, une lumière qui semble venir des choses elles-mêmes (Les Époux Arnolfini, le Retable de Gand).",
+          "portrait": "Jan van Eyck (v. 1390-1441) est le génie fondateur de la peinture flamande et l'un des plus grands de tous les temps. Maître inégalé de la peinture à l'huile, il a su rendre le monde visible — la lumière, les matières, le moindre détail — avec une précision et une profondeur que personne n'avait atteintes avant lui.",
           "bio_sections": [
             {
-              "h": "Bruges et la cour de Bourgogne",
-              "p": "Jan van Eyck est peintre et valet de chambre du puissant duc de Bourgogne, à Bruges, riche cité marchande flamande. Homme de confiance, il voyage même en mission diplomatique. Son art naît de ce milieu raffiné et fortuné."
+              "h": "Les origines : un maître de cour",
+              "p": "Né vers 1390 dans les Flandres, Van Eyck devient peintre et valet de chambre du puissant duc de Bourgogne Philippe le Bon, qui l'estime profondément et l'emploie même pour des missions diplomatiques secrètes. Homme cultivé et bien rémunéré, il jouit d'un statut rare pour un peintre de son temps, signe de la considération qu'il inspire."
             },
             {
-              "h": "La révolution de l'huile",
-              "p": "Van Eyck perfectionne la peinture à l'huile, qu'on peut travailler en fines couches translucides. Le résultat est inouï : transparences, profondeur des couleurs, détails infimes. Le Retable de Gand et Les Époux Arnolfini en sont les sommets."
+              "h": "Le déclic : la révolution de l'huile",
+              "p": "On a longtemps crédité Van Eyck de l'invention de la peinture à l'huile. S'il ne l'a pas inventée, il en a porté la maîtrise à un sommet inouï : en superposant de fines couches transparentes (glacis), il obtient une profondeur, un éclat et une minutie des détails impossibles à la détrempe. Une technique qui change la peinture européenne."
             },
             {
               "h": "Le miroir du monde",
-              "p": "Chaque texture — fourrure, métal, fruit, reflet d'un miroir — est rendue avec une précision quasi photographique, trois siècles avant la photo. Ce réalisme minutieux est aussi une forme de dévotion : voir le monde dans le moindre détail, c'est célébrer la création."
+              "p": "Van Eyck peint le réel avec une précision quasi surnaturelle : le reflet dans un miroir convexe, le poil d'un petit chien, la trame d'un tapis, la lumière traversant une vitre. Dans Les Époux Arnolfini, le miroir au fond reflète toute la scène et deux témoins, et l'inscription « Jan van Eyck fut ici » fait de lui le garant du réel."
             },
             {
-              "h": "La voie du Nord",
-              "p": "Là où Florence conquiert le réel par la géométrie (perspective), Van Eyck le conquiert par la matière (l'huile, le détail). Il fonde la grande tradition flamande du détail, qui mènera à Bosch, Bruegel et bien au-delà."
+              "h": "Son moteur : tout rendre visible",
+              "p": "Ce qui anime Van Eyck, c'est l'ambition de tout représenter, jusqu'à l'infime : non pour faire joli, mais parce que chaque détail du monde, créé par Dieu, mérite d'être peint avec amour et exactitude. Sa devise — « Als ich kan » (« Du mieux que je peux ») — dit cette humilité ambitieuse face au visible."
+            },
+            {
+              "h": "Le message : le sacré dans le réel",
+              "p": "Chez Van Eyck, le divin n'est pas dans un ciel doré abstrait, mais incarné dans un monde précis et concret : une chambre, un jardin, une ville. L'immense Agneau mystique de Gand, polyptyque éclatant, déploie tout l'univers chrétien dans une nature et une lumière d'une vérité bouleversante. Le ciel descend sur la terre."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Van Eyck le père de la peinture flamande et l'égal des plus grands. Sa technique de l'huile et son réalisme minutieux ont fasciné toute l'Europe, jusqu'en Italie. Gombrich souligne qu'il a, le premier, fait du tableau une « fenêtre » d'une vérité optique parfaite, ouvrant une voie parallèle à celle de la Renaissance italienne."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où les Italiens conquièrent l'espace par la perspective géométrique et l'idéal, Van Eyck conquiert le réel par l'observation et la lumière, détail après détail. Deux chemins vers la vérité : l'un par la science, l'autre par l'œil amoureux du monde. Van Eyck reste le sommet indépassé de cette seconde voie, celle du Nord."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Agneau mystique (Polyptyque de Gand)",
+              "artiste": "Van Eyck",
+              "annee": "1432",
+              "lieu": "Cathédrale Saint-Bavon, Gand",
+              "wiki": "Ghent Altarpiece",
+              "analyse": "Immense polyptyque : sur le panneau central, l'Agneau adoré par une foule de saints dans un paysage paradisiaque d'une précision botanique stupéfiante. Volets de Dieu, de la Vierge, d'Adam et Ève. Un sommet absolu de la peinture, où tout l'univers chrétien rayonne."
+            },
+            {
+              "titre": "La Vierge au chancelier Rolin",
+              "artiste": "Van Eyck",
+              "annee": "v. 1435",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Madonna of Chancellor Rolin",
+              "analyse": "Le puissant chancelier Rolin prie face à la Vierge, dans un palais ouvert sur un paysage de ville et de fleuve d'une profondeur infinie. Le commanditaire, à genoux, est traité à l'égal du sacré : l'orgueil d'un homme de pouvoir capté à jamais."
             }
           ]
         },
@@ -931,23 +1285,53 @@
           "role": "",
           "wiki": "Hieronymus Bosch",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "L'imagination la plus fiévreuse du Nord : un fourmillement de créatures hybrides, de péchés et de cauchemars (Le Jardin des délices). Entre le rêve et l'enfer, un visionnaire qui fascinera plus tard les surréalistes.",
+          "portrait": "Jérôme Bosch (v. 1450-1516) est le plus énigmatique des peintres flamands : un visionnaire qui a peuplé ses tableaux de monstres, de damnés et de machines infernales, des siècles avant le surréalisme. Derrière ses cauchemars fourmillants se cache une méditation morale sur le péché, la folie et le salut de l'homme.",
           "bio_sections": [
             {
-              "h": "Bois-le-Duc, un peintre énigmatique",
-              "p": "On sait peu de chose de Jérôme Bosch, sinon qu'il passe sa vie dans la petite ville de Bois-le-Duc, aux Pays-Bas, et appartient à une confrérie religieuse. Sa vie obscure contraste avec la folie visionnaire de son œuvre."
+              "h": "L'enfance : 's-Hertogenbosch",
+              "p": "Né vers 1450 dans la ville brabançonne de Bois-le-Duc (’s-Hertogenbosch, dont il tire son nom), Bosch appartient à une dynastie de peintres. Il y passe toute sa vie, membre d'une confrérie religieuse pieuse, marié à une femme fortunée. Cette existence rangée contraste étrangement avec les visions délirantes de sa peinture."
             },
             {
-              "h": "Le Jardin des délices",
-              "p": "Son chef-d'œuvre est un immense triptyque qui se lit comme un récit : à gauche le paradis, au centre un « jardin des délices » où des corps nus s'adonnent aux plaisirs, à droite un enfer glaçant. Une fresque morale d'une inventivité sans égale."
+              "h": "Le déclic : peindre l'invisible et le péché",
+              "p": "À une époque obsédée par le Jugement dernier, l'enfer et le diable, Bosch invente un langage visuel pour rendre le mal et la tentation : non des allégories sages, mais un grouillement de créatures hybrides, d'objets monstrueux, de supplices inventifs. Il donne forme aux terreurs et aux fantasmes de son temps."
             },
             {
-              "h": "Un bestiaire de cauchemar",
-              "p": "Bosch peuple ses panneaux d'un fourmillement de créatures hybrides, de machines absurdes, de monstres — visions du péché et de la damnation. L'œil ne finit jamais d'explorer ces détails ; le sens exact reste débattu (avertissement religieux ? délire ?)."
+              "h": "Le bestiaire infernal",
+              "p": "Ses triptyques fourmillent de détails : hommes-poissons, oiseaux géants, instruments de musique devenus instruments de torture, œufs qui marchent. Le Jardin des délices déploie, du paradis à l'enfer, une humanité livrée au plaisir et au châtiment. Chaque recoin recèle une scène à déchiffrer, drôle et terrifiante."
             },
             {
-              "h": "Le visionnaire redécouvert",
-              "p": "Trop singulier pour son temps, Bosch fascinera quatre siècles plus tard les surréalistes, qui le reconnaîtront comme un ancêtre. Il prouve qu'au-delà de la mesure italienne, le Nord ouvre à l'art les territoires du rêve et du cauchemar."
+              "h": "Son moteur : la peur du péché et le salut",
+              "p": "Profondément religieux, Bosch peint pour avertir : la folie des hommes, leur soif de plaisirs, les mène à la damnation. La Nef des fous, Le Chariot de foin (où l'humanité se dispute des biens éphémères), sont des sermons en images. Son fantastique n'est pas gratuit : c'est une morale chrétienne, sévère et inquiète."
+            },
+            {
+              "h": "Le message : la folie du monde",
+              "p": "Bosch porte un regard désabusé et lucide sur l'humanité : tous, du paysan au pape, courent à leur perte, aveuglés par le désir et la sottise. Mais son pessimisme s'accompagne d'un humour grinçant et d'une imagination débordante qui transforment l'avertissement moral en féerie noire inépuisable."
+            },
+            {
+              "h": "Pourquoi il fascine, selon les experts",
+              "p": "Les historiens voient en Bosch un cas unique : un génie visionnaire dont l'imaginaire n'a aucun précédent ni équivalent avant le XXe siècle. Les surréalistes (Dalí, Ernst) l'ont revendiqué comme un ancêtre. Gombrich souligne qu'il a réussi à peindre l'irréel et le cauchemar avec la même précision que Van Eyck mettait à peindre le réel."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains flamands peignent le monde visible avec amour, Bosch peint l'invisible : l'enfer, la tentation, les monstres de l'âme. Son œuvre, immédiatement reconnaissable, a fait de lui une légende dès le XVIe siècle (Philippe II d'Espagne le collectionnait). Le plus moderne, par son imaginaire, des peintres anciens."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Nef des fous",
+              "artiste": "Bosch",
+              "annee": "v. 1500",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Ship of Fools (painting)",
+              "analyse": "Une barque de fêtards — dont un moine et une nonne — dérive sans gouvernail, chantant et se gavant, un bouffon perché à l'écart. Allégorie de l'humanité folle voguant à sa perte, indifférente au salut. Satire mordante de la sottise du monde."
+            },
+            {
+              "titre": "Le Chariot de foin (triptyque)",
+              "artiste": "Bosch",
+              "annee": "v. 1516",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Haywain Triptych",
+              "analyse": "Une foule se dispute et s'écrase pour arracher un brin à une charrette de foin (les biens éphémères du monde), tirée par des démons vers l'enfer, tandis que le Christ regarde d'en haut. « Le monde est une meule de foin, chacun en prend ce qu'il peut. »"
             }
           ]
         },
@@ -958,19 +1342,53 @@
           "role": "",
           "wiki": "Hans Holbein the Younger",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le plus grand portraitiste du Nord, peintre de la cour d'Henri VIII d'Angleterre. Ses visages d'une vérité saisissante et ses détails virtuoses (le crâne anamorphique des Ambassadeurs) le placent au sommet.",
+          "portrait": "Hans Holbein le Jeune (1497-1543) est le plus grand portraitiste de la Renaissance du Nord. D'une précision et d'une intelligence psychologique inégalées, il a fixé pour l'éternité les visages de l'humanisme et de la cour d'Angleterre — Érasme, Thomas More, Henri VIII — avec une vérité saisissante.",
           "bio_sections": [
             {
-              "h": "Le portraitiste du Nord",
-              "p": "Hans Holbein le Jeune, d'Augsbourg, est le plus grand portraitiste de la Renaissance du Nord."
+              "h": "L'enfance : une famille de peintres à Augsbourg",
+              "p": "Né en 1497 à Augsbourg, riche cité allemande, Hans est le fils d'un peintre réputé qui le forme. Doué d'une main d'une précision extraordinaire, il part jeune à Bâle, foyer de l'humanisme, où il illustre des livres et se lie au monde des lettrés et des imprimeurs. Sa rigueur germanique et son goût du détail sont déjà là."
             },
             {
-              "h": "La cour d'Henri VIII",
-              "p": "Peintre de la cour d'Angleterre, il fixe pour l'éternité les visages d'Henri VIII et de ses proches, avec une vérité et un rendu des matières saisissants."
+              "h": "Le déclic : Érasme et l'Angleterre",
+              "p": "À Bâle, Holbein peint le grand humaniste Érasme, qui devient son protecteur. Quand les troubles de la Réforme tarissent les commandes religieuses, Érasme le recommande en Angleterre à Thomas More : « Ici, les arts sont gelés. » Holbein y trouve sa terre d'élection et finit peintre du roi Henri VIII."
             },
             {
-              "h": "Les Ambassadeurs",
-              "p": "Son chef-d'œuvre allie le portrait du savoir et du pouvoir à un crâne anamorphique caché en travers du tableau : un memento mori dissimulé, virtuose."
+              "h": "Le portrait-vérité",
+              "p": "Holbein peint ses modèles avec une exactitude quasi photographique : chaque ride, chaque étoffe, chaque objet est rendu avec une netteté absolue, dans une lumière égale et froide. Mais au-delà de la ressemblance, il saisit le caractère — l'intelligence d'Érasme, l'inquiétude de More, l'arrogance d'Henri VIII."
+            },
+            {
+              "h": "Son moteur : la précision et l'intelligence",
+              "p": "Ce qui guide Holbein, c'est une exigence de vérité et de maîtrise. Ses portraits sont des constructions d'une rigueur parfaite, où rien n'est laissé au hasard, et où les objets qui entourent le modèle (livres, instruments, symboles) en disent autant que le visage. Une peinture de l'intelligence."
+            },
+            {
+              "h": "Le message : Les Ambassadeurs et la mort cachée",
+              "p": "Son chef-d'œuvre, Les Ambassadeurs, montre deux hommes de pouvoir et de savoir entourés d'instruments scientifiques — mais une forme étrange barre le sol : vue de biais, c'est un crâne (une anamorphose). Sous la gloire du monde et du savoir, Holbein glisse un memento mori : tout est vanité, la mort guette."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Holbein le sommet du portrait nordique et l'un des plus grands portraitistes de tous les temps. Ses images d'Henri VIII et de sa cour sont devenues les visages mêmes de l'histoire anglaise. Gombrich souligne son alliance unique de précision objective et de pénétration psychologique."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'Italie idéalise, Holbein scrute et dit la vérité, fût-elle peu flatteuse. Sa froideur précise et son intelligence font de chaque portrait un document et une œuvre. Mort de la peste à Londres à 45 ans, il laisse une galerie de visages qui sont, pour nous, l'incarnation même de la Renaissance du Nord."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les Ambassadeurs",
+              "artiste": "Holbein",
+              "annee": "1533",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Ambassadors (Holbein)",
+              "analyse": "Deux jeunes dignitaires entourés d'instruments du savoir et du pouvoir ; au sol, une forme floue qui, vue de biais, révèle un crâne (anamorphose). Sous l'apogée de la gloire terrestre, un memento mori caché : tout passe, la mort veille. Sommet du portrait."
+            },
+            {
+              "titre": "Portrait d'Henri VIII",
+              "artiste": "Holbein",
+              "annee": "v. 1537",
+              "lieu": "Collections diverses",
+              "wiki": "Portrait of Henry VIII",
+              "analyse": "Le roi de face, massif, campé sur ses jambes écartées, couvert d'or et de joyaux, le regard dur. Holbein crée l'image officielle et écrasante du pouvoir Tudor, si forte qu'elle est restée, pour toujours, le visage même d'Henri VIII."
             }
           ]
         },
@@ -981,19 +1399,85 @@
           "role": "",
           "wiki": "Pieter Bruegel the Elder",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le grand regard sur la vie ordinaire : noces, danses, proverbes, foules paysannes et grands paysages d'hiver (Les Chasseurs dans la neige). Sous le pittoresque, une morale grave sur la condition humaine.",
+          "portrait": "Pieter Bruegel l'Ancien (v. 1525-1569) est le plus grand peintre flamand du XVIe siècle : celui qui a délaissé les héros et les saints pour la vie des paysans et l'immensité des paysages. Sous l'apparence d'un peintre populaire et truculent se cache un esprit profond, lucide et grave sur la condition humaine.",
           "bio_sections": [
             {
-              "h": "Le peintre des paysans",
-              "p": "Pieter Bruegel l'Ancien, flamand, délaisse les héros pour la vie des paysans : noces, moissons, jeux d'enfants, fêtes de village, vus avec tendresse et lucidité."
+              "h": "Les origines : un mystère",
+              "p": "Né vers 1525, sans doute dans le Brabant, Bruegel reste mal connu dans sa jeunesse. On le surnomma à tort « le Paysan », croyant qu'il en était un — alors qu'il était un homme cultivé, ami d'humanistes et de géographes. Il se forma à Anvers, grande ville marchande, et voyagea jusqu'en Italie, traversant les Alpes qui marquèrent profondément son sens du paysage."
             },
             {
-              "h": "Les saisons",
-              "p": "Sa série des mois (Les Chasseurs dans la neige) embrasse l'homme dans le grand cycle de la nature, du minuscule villageois à l'immense paysage d'hiver."
+              "h": "Le déclic : Bosch et le retour au réel",
+              "p": "Bruegel débute en dessinant des scènes fantastiques dans la veine de Bosch, dont il hérite l'imagination morale. Mais il s'en détourne vite pour observer le monde réel : les villageois, les travaux, les saisons, les fêtes et les misères du peuple flamand, qu'il regarde avec une acuité et une tendresse sans précédent."
             },
             {
-              "h": "La sagesse cachée",
-              "p": "Sous l'anecdote (proverbes, Tour de Babel) court une réflexion grave sur la folie et la petitesse humaines. Un esprit profond déguisé en peintre populaire."
+              "h": "Le grand paysage",
+              "p": "Sa série des Saisons (dont Les Chasseurs dans la neige) est une révolution : l'homme y est minuscule, intégré au grand cycle de la nature et des mois. Les vastes panoramas enneigés ou moissonnés, vus de haut, font du paysage le vrai sujet du tableau. Personne avant lui n'avait peint la nature avec une telle ampleur."
+            },
+            {
+              "h": "Son moteur : observer l'humanité sans illusion",
+              "p": "Bruegel regarde les hommes comme un sage un peu désabusé : leurs noces et leurs danses joyeuses, mais aussi leur aveuglement, leur cruauté, leur folie. Les Proverbes flamands illustre des dizaines de dictons sur la sottise humaine ; La Tour de Babel dit l'orgueil voué à l'échec. Sous la verve, une réflexion grave."
+            },
+            {
+              "h": "Le message : l'homme dans le grand tout",
+              "p": "Chez Bruegel, l'individu ne compte pas plus que la fourmi : dans La Chute d'Icare, le drame mythologique se perd dans un coin du tableau tandis que le laboureur continue son sillon. Le monde suit son cours, indifférent aux malheurs particuliers. Une vision presque philosophique de la petitesse humaine face à la nature et au temps."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Bruegel le sommet de la peinture flamande après Van Eyck et Bosch, et le grand inventeur du paysage moderne et de la scène de genre. Gombrich souligne qu'il a élevé la vie quotidienne et populaire à la dignité du grand art, ouvrant une voie que les Hollandais du Siècle d'or suivront un siècle plus tard."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'art de son temps glorifie les princes et les saints, Bruegel peint les paysans, les saisons, les proverbes. Là où le maniérisme cherche l'élégance, lui cherche la vérité et l'ampleur. Mort jeune, il laisse une œuvre dense et profonde, fondatrice d'une tradition entière — et fonde une dynastie de peintres avec ses fils."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les Chasseurs dans la neige",
+              "artiste": "Bruegel",
+              "annee": "1565",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Hunters in the Snow",
+              "analyse": "Trois chasseurs harassés et leurs chiens descendent vers un village enneigé où l'on patine sur les étangs gelés, sous un ciel vert glacé. Le mois de janvier de la série des Saisons : l'un des plus beaux paysages d'hiver de toute la peinture, l'homme fondu dans la nature."
+            },
+            {
+              "titre": "La Tour de Babel",
+              "artiste": "Bruegel",
+              "annee": "1563",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Tower of Babel (Bruegel)",
+              "analyse": "Une tour colossale, en spirale, monte vers les nuages mais se lézarde déjà, fourmillant de minuscules ouvriers et de machines. L'orgueil humain voué à l'échec, peint avec une précision d'architecte et de géographe. Une vision vertigineuse."
+            },
+            {
+              "titre": "Le Repas de noce",
+              "artiste": "Bruegel",
+              "annee": "v. 1567",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Peasant Wedding",
+              "analyse": "Dans une grange, des paysans festoient ; on apporte les plats sur une porte dégondée, la mariée trône sous une couronne. Truculence, observation tendre et précise des gestes du peuple : la dignité de la vie ordinaire élevée au grand format."
+            },
+            {
+              "titre": "Le Triomphe de la Mort",
+              "artiste": "Bruegel",
+              "annee": "v. 1562",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Triumph of Death",
+              "analyse": "Une armée de squelettes ravage un paysage apocalyptique : rois et paysans, tous fauchés sans distinction. Vision terrifiante héritée de la peste et de Bosch, sur l'égalité de tous devant la mort. Un cauchemar d'une noirceur saisissante."
+            },
+            {
+              "titre": "Paysage avec la chute d'Icare",
+              "artiste": "Bruegel",
+              "annee": "v. 1560",
+              "lieu": "Musées royaux, Bruxelles",
+              "wiki": "Landscape with the Fall of Icarus",
+              "analyse": "Un laboureur, un berger, un pêcheur vaquent à leurs travaux ; dans un coin, deux jambes disparaissent dans la mer — Icare tombé du ciel, que nul ne remarque. Le monde indifférent au drame : une méditation profonde sur la petitesse humaine."
+            },
+            {
+              "titre": "Les Proverbes flamands",
+              "artiste": "Bruegel",
+              "annee": "1559",
+              "lieu": "Gemäldegalerie, Berlin",
+              "wiki": "Netherlandish Proverbs",
+              "analyse": "Un village où une centaine de proverbes sont mis en scène littéralement (« se cogner la tête au mur », « porter le jour dans un panier »). Encyclopédie drôle et grinçante de la folie et de la sottise humaines, à déchiffrer sans fin."
             }
           ]
         },

@@ -2072,15 +2072,14 @@
     "via": "Fan Kuan"
   },
   "Lamentation (Giotto)": {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Padova_Cappella_degli_Scrovegni_Innen_Langhaus_West_5.jpg/1280px-Padova_Cappella_degli_Scrovegni_Innen_Langhaus_West_5.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Compianto_sul_Cristo_morto.jpg/1280px-Compianto_sul_Cristo_morto.jpg",
     "thumb_w": 1000,
-    "thumb_h": 773,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Padova_Cappella_degli_Scrovegni_Innen_Langhaus_West_5.jpg",
-    "w": 4447,
-    "h": 3439,
+    "thumb_h": 941,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Compianto_sul_Cristo_morto.jpg",
+    "w": 10240,
+    "h": 9632,
     "format": "jpg",
-    "file": "Padova_Cappella_degli_Scrovegni_Innen_Langhaus_West_5.jpg",
-    "via": "Scrovegni Chapel"
+    "file": "Compianto_sul_Cristo_morto.jpg"
   },
   "Water Lilies": {
     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg/1280px-Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
@@ -3556,5 +3555,325 @@
     "h": 880,
     "format": "jpg",
     "file": "Jacopo_Pontormo_-_Joseph_in_Egypt_-_WGA18079.jpg"
+  },
+  "Primavera (painting)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/1280px-Botticelli-primavera.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 657,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Botticelli-primavera.jpg",
+    "w": 4926,
+    "h": 3236,
+    "format": "jpg",
+    "file": "Botticelli-primavera.jpg"
+  },
+  "Madonna of the Magnificat": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Magnificat_Madonna_-_Botticelli_%28uffici%29_b.jpg/1280px-Magnificat_Madonna_-_Botticelli_%28uffici%29_b.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 994,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Magnificat_Madonna_-_Botticelli_%28uffici%29_b.jpg",
+    "w": 3090,
+    "h": 3070,
+    "format": "jpg",
+    "file": "Magnificat_Madonna_-_Botticelli_(uffici)_b.jpg"
+  },
+  "Adoration of the Magi (Botticelli, 1475)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Botticelli_-_Adoration_of_the_Magi_%28Zanobi_Altar%29_-_Uffizi.jpg/1280px-Botticelli_-_Adoration_of_the_Magi_%28Zanobi_Altar%29_-_Uffizi.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 815,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Botticelli_-_Adoration_of_the_Magi_%28Zanobi_Altar%29_-_Uffizi.jpg",
+    "w": 5535,
+    "h": 4511,
+    "format": "jpg",
+    "file": "Botticelli_-_Adoration_of_the_Magi_(Zanobi_Altar)_-_Uffizi.jpg"
+  },
+  "Ghent Altarpiece": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ghent_Altarpiece_Google_Art_Project.jpg/1280px-Ghent_Altarpiece_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 737,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ghent_Altarpiece_Google_Art_Project.jpg",
+    "w": 9412,
+    "h": 6938,
+    "format": "jpg",
+    "file": "Ghent_Altarpiece_Google_Art_Project.jpg"
+  },
+  "Portrait of a Man (Self Portrait?)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg/1280px-Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1376,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg",
+    "w": 8889,
+    "h": 12230,
+    "format": "jpg",
+    "file": "Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait?)_1433.jpg"
+  },
+  "Madonna of Chancellor Rolin": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/The_Virgin_with_Chancellor_Rolin_by_Jan_van_Eyck_%28Louvre%29.webp/1280px-The_Virgin_with_Chancellor_Rolin_by_Jan_van_Eyck_%28Louvre%29.webp.png",
+    "thumb_w": 1000,
+    "thumb_h": 1039,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/The_Virgin_with_Chancellor_Rolin_by_Jan_van_Eyck_%28Louvre%29.webp",
+    "w": 2406,
+    "h": 2500,
+    "format": "webp",
+    "file": "The_Virgin_with_Chancellor_Rolin_by_Jan_van_Eyck_(Louvre).webp"
+  },
+  "Ship of Fools (painting)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jheronimus_Bosch_011.jpg/1280px-Jheronimus_Bosch_011.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1866,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Jheronimus_Bosch_011.jpg",
+    "w": 1540,
+    "h": 2874,
+    "format": "jpg",
+    "file": "Jheronimus_Bosch_011.jpg"
+  },
+  "The Haywain Triptych": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Bosch_-_Haywain_Triptych.jpg/1280px-Bosch_-_Haywain_Triptych.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 658,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bosch_-_Haywain_Triptych.jpg",
+    "w": 9843,
+    "h": 6475,
+    "format": "jpg",
+    "file": "Bosch_-_Haywain_Triptych.jpg"
+  },
+  "The Tower of Babel (Bruegel)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 732,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg",
+    "w": 30000,
+    "h": 21952,
+    "format": "jpg",
+    "file": "Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg"
+  },
+  "The Peasant Wedding": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project_2.jpg/1280px-Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project_2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 691,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project_2.jpg",
+    "w": 7678,
+    "h": 5306,
+    "format": "jpg",
+    "file": "Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project_2.jpg"
+  },
+  "The Triumph of Death": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Triumph_of_Death_Brueghel.jpg/1280px-Triumph_of_Death_Brueghel.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 767,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Triumph_of_Death_Brueghel.jpg",
+    "w": 1920,
+    "h": 1473,
+    "format": "jpg",
+    "file": "Triumph_of_Death_Brueghel.jpg"
+  },
+  "Landscape with the Fall of Icarus": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg/1280px-Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 652,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg",
+    "w": 12265,
+    "h": 8000,
+    "format": "jpg",
+    "file": "Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels,_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_&_Culture.jpg"
+  },
+  "Netherlandish Proverbs": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg/1280px-Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 708,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+    "w": 5649,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg"
+  },
+  "Ognissanti Madonna": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Giotto%2C_1267_Around-1337_-_Maest%C3%A0_-_Google_Art_Project.jpg/1280px-Giotto%2C_1267_Around-1337_-_Maest%C3%A0_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1591,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Giotto%2C_1267_Around-1337_-_Maest%C3%A0_-_Google_Art_Project.jpg",
+    "w": 2056,
+    "h": 3272,
+    "format": "jpg",
+    "file": "Giotto,_1267_Around-1337_-_Maestà_-_Google_Art_Project.jpg"
+  },
+  "Lamentation of Christ (Mantegna)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_dead_Christ_and_three_mourners%2C_by_Andrea_Mantegna.jpg/1280px-The_dead_Christ_and_three_mourners%2C_by_Andrea_Mantegna.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 830,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_dead_Christ_and_three_mourners%2C_by_Andrea_Mantegna.jpg",
+    "w": 2500,
+    "h": 2076,
+    "format": "jpg",
+    "file": "The_dead_Christ_and_three_mourners,_by_Andrea_Mantegna.jpg"
+  },
+  "Camera degli Sposi": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Mantegna_-_Camera_degli_Sposi.jpg/1280px-Mantegna_-_Camera_degli_Sposi.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 667,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Mantegna_-_Camera_degli_Sposi.jpg",
+    "w": 6960,
+    "h": 4640,
+    "format": "jpg",
+    "file": "Mantegna_-_Camera_degli_Sposi.jpg"
+  },
+  "San Zeno Altarpiece": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a3/RetableSanZeno.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1256,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/RetableSanZeno.jpg",
+    "w": 1000,
+    "h": 1256,
+    "format": "jpg",
+    "file": "RetableSanZeno.jpg"
+  },
+  "San Zaccaria Altarpiece": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Pala_di_San_Zaccaria_%28Venezia%29.jpg/1280px-Pala_di_San_Zaccaria_%28Venezia%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1790,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Pala_di_San_Zaccaria_%28Venezia%29.jpg",
+    "w": 4293,
+    "h": 7685,
+    "format": "jpg",
+    "file": "Pala_di_San_Zaccaria_(Venezia).jpg"
+  },
+  "Doge Leonardo Loredan": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Giovanni_Bellini%2C_portrait_of_Doge_Leonardo_Loredan.jpg/1280px-Giovanni_Bellini%2C_portrait_of_Doge_Leonardo_Loredan.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1403,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Giovanni_Bellini%2C_portrait_of_Doge_Leonardo_Loredan.jpg",
+    "w": 4278,
+    "h": 6000,
+    "format": "jpg",
+    "file": "Giovanni_Bellini,_portrait_of_Doge_Leonardo_Loredan.jpg"
+  },
+  "The Three Philosophers": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Giorgione_-_Three_Philosophers_-_Google_Art_Project.jpg/1280px-Giorgione_-_Three_Philosophers_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 851,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Giorgione_-_Three_Philosophers_-_Google_Art_Project.jpg",
+    "w": 6425,
+    "h": 5468,
+    "format": "jpg",
+    "file": "Giorgione_-_Three_Philosophers_-_Google_Art_Project.jpg"
+  },
+  "The Wedding at Cana": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kafr_Kanna_BW_1.JPG/1280px-Kafr_Kanna_BW_1.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 1190,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kafr_Kanna_BW_1.JPG",
+    "w": 3960,
+    "h": 4711,
+    "format": "jpg",
+    "file": "Kafr_Kanna_BW_1.JPG"
+  },
+  "The Feast in the House of Levi": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Feast_in_the_House_of_Levi_by_Paolo_Veronese_%28edited_2%29.jpg/1280px-The_Feast_in_the_House_of_Levi_by_Paolo_Veronese_%28edited_2%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 419,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/The_Feast_in_the_House_of_Levi_by_Paolo_Veronese_%28edited_2%29.jpg",
+    "w": 10010,
+    "h": 4197,
+    "format": "jpg",
+    "file": "The_Feast_in_the_House_of_Levi_by_Paolo_Veronese_(edited_2).jpg"
+  },
+  "Portrait of Henry VIII": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Remigius_van_Leemput_-_Whitehall_Mural.jpg/1280px-Remigius_van_Leemput_-_Whitehall_Mural.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 894,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Remigius_van_Leemput_-_Whitehall_Mural.jpg",
+    "w": 2000,
+    "h": 1787,
+    "format": "jpg",
+    "file": "Remigius_van_Leemput_-_Whitehall_Mural.jpg"
+  },
+  "Annunciation (Fra Angelico, San Marco)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fra_Angelico_-_Annunciation.jpg/1280px-Fra_Angelico_-_Annunciation.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 726,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fra_Angelico_-_Annunciation.jpg",
+    "w": 8646,
+    "h": 6273,
+    "format": "jpg",
+    "file": "Fra_Angelico_-_Annunciation.jpg"
+  },
+  "Coronation of the Virgin (Fra Angelico)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Coronation_of_Virgin_Jacopo_di_mino_Montepulciano.jpg",
+    "thumb_w": 1050,
+    "thumb_h": 1754,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Coronation_of_Virgin_Jacopo_di_mino_Montepulciano.jpg",
+    "w": 1050,
+    "h": 1754,
+    "format": "jpg",
+    "file": "Coronation_of_Virgin_Jacopo_di_mino_Montepulciano.jpg"
+  },
+  "The Baptism of Christ (Piero della Francesca)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg/1280px-Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1461,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg",
+    "w": 2893,
+    "h": 4226,
+    "format": "jpg",
+    "file": "Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg"
+  },
+  "Flagellation of Christ (Piero della Francesca)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Piero_della_Francesca_-_Flagelaci%C3%B3n_de_Cristo%2C_1468-1470_%28Galleria_Nazionale_delle_Marche%2C_Urbino%29.png/1280px-Piero_della_Francesca_-_Flagelaci%C3%B3n_de_Cristo%2C_1468-1470_%28Galleria_Nazionale_delle_Marche%2C_Urbino%29.png",
+    "thumb_w": 1000,
+    "thumb_h": 715,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Piero_della_Francesca_-_Flagelaci%C3%B3n_de_Cristo%2C_1468-1470_%28Galleria_Nazionale_delle_Marche%2C_Urbino%29.png",
+    "w": 2800,
+    "h": 2001,
+    "format": "png",
+    "file": "Piero_della_Francesca_-_Flagelación_de_Cristo,_1468-1470_(Galleria_Nazionale_delle_Marche,_Urbino).png"
+  },
+  "Diptych of Federico da Montefeltro and Battista Sforza": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Piero_della_Francesca_044.jpg/1280px-Piero_della_Francesca_044.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 703,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Piero_della_Francesca_044.jpg",
+    "w": 1438,
+    "h": 1011,
+    "format": "jpg",
+    "file": "Piero_della_Francesca_044.jpg"
+  },
+  "Resurrection (Piero della Francesca)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Resurrection.JPG",
+    "thumb_w": 730,
+    "thumb_h": 826,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Resurrection.JPG",
+    "w": 730,
+    "h": 826,
+    "format": "jpg",
+    "file": "Resurrection.JPG"
+  },
+  "The Calumny of Apelles": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sandro_Botticelli_La_calumnia_de_Apeles.jpg/1280px-Sandro_Botticelli_La_calumnia_de_Apeles.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 670,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sandro_Botticelli_La_calumnia_de_Apeles.jpg",
+    "w": 3000,
+    "h": 2009,
+    "format": "jpg",
+    "file": "Sandro_Botticelli_La_calumnia_de_Apeles.jpg"
+  },
+  "St Francis in the Desert": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Giovanni_Bellini_-_Saint_Francis_in_the_Desert_-_Google_Art_Project.jpg/1280px-Giovanni_Bellini_-_Saint_Francis_in_the_Desert_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 877,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Giovanni_Bellini_-_Saint_Francis_in_the_Desert_-_Google_Art_Project.jpg",
+    "w": 30000,
+    "h": 26319,
+    "format": "jpg",
+    "file": "Giovanni_Bellini_-_Saint_Francis_in_the_Desert_-_Google_Art_Project.jpg"
+  },
+  "Sleeping Venus": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Giorgione_-_Sleeping_Venus_-_Google_Art_Project_2.jpg/1280px-Giorgione_-_Sleeping_Venus_-_Google_Art_Project_2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 616,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Giorgione_-_Sleeping_Venus_-_Google_Art_Project_2.jpg",
+    "w": 6128,
+    "h": 3776,
+    "format": "jpg",
+    "file": "Giorgione_-_Sleeping_Venus_-_Google_Art_Project_2.jpg"
   }
 }
