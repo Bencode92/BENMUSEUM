@@ -227,7 +227,25 @@
           "wiki": "Sandro Botticelli",
           "portrait": "Mythologies païennes d'une grâce linéaire unique sous les Médicis. Fin de vie troublée sous l'influence de Savonarole.",
           "bio_longue": "Sandro Botticelli (1445-1510) est le peintre de la grâce florentine sous les Médicis. Sa ligne sinueuse, presque musicale, et ses figures rêveuses (La Naissance de Vénus, Le Printemps) traduisent un idéal de beauté hérité de l'Antiquité et de la philosophie néoplatonicienne de son cercle. Mais sa fin est sombre : tombé sous l'influence du prédicateur fanatique Savonarole, qui faisait brûler les œuvres « vaniteuses » dans des « bûchers des vanités », il aurait lui-même renié et détruit certaines de ses toiles païennes. Oublié à sa mort, il ne sera redécouvert qu'au XIXe siècle.",
-          "groupe": "École de Florence & Rome — le dessin"
+          "groupe": "École de Florence & Rome — le dessin",
+          "bio_sections": [
+            {
+              "h": "Florence, l'atelier et les Médicis",
+              "p": "Sandro Botticelli se forme à Florence, notamment auprès de Filippo Lippi, et devient vite le peintre favori du cercle raffiné des Médicis. Dans cette ville de banquiers et d'humanistes, on redécouvre l'Antiquité et la philosophie de Platon. Botticelli y trouve son génie propre : non le réalisme, mais la grâce de la ligne."
+            },
+            {
+              "h": "La grâce païenne",
+              "p": "Avec La Naissance de Vénus et Le Printemps, il ose de grandes scènes mythologiques, presque oubliées depuis l'Antiquité. Ses figures, au cou allongé et à la pose impossible, ne cherchent pas la vérité anatomique mais une beauté idéale, musicale. La philosophie néoplatonicienne de son cercle y voit le reflet terrestre d'une beauté divine."
+            },
+            {
+              "h": "Le doute et Savonarole",
+              "p": "À la fin du siècle, le prédicateur fanatique Savonarole enflamme Florence et fait brûler les œuvres « vaniteuses » dans des bûchers. Botticelli, bouleversé, se détourne de ses sujets païens ; sa peinture se fait plus dure, plus religieuse, plus angoissée. On dit qu'il aurait lui-même livré certaines de ses toiles aux flammes."
+            },
+            {
+              "h": "L'oubli, puis la gloire",
+              "p": "Mort en 1510 dans une relative obscurité, Botticelli est presque oublié pendant trois siècles. Ce sont les préraphaélites anglais, au XIXe, qui le redécouvrent et le hissent au rang des plus grands. Aujourd'hui sa Vénus est une icône universelle de la Renaissance."
+            }
+          ]
         },
         {
           "nom": "Léonard de Vinci",
@@ -317,7 +335,25 @@
           "wiki": "Titian",
           "portrait": "Domine 60 ans. Maître de la couleur et de la matière, touche de plus en plus libre avec l'âge. Peintre des rois et des papes.",
           "bio_longue": "Tiziano Vecellio (vers 1488-1576) règne sur Venise et sur la peinture européenne pendant soixante ans. Maître absolu de la couleur et de la matière, peintre officiel de l'empereur Charles Quint (qui, dit la légende, se serait baissé pour ramasser son pinceau tombé), il peint rois, papes et déesses. Le plus frappant est son évolution : avec l'âge, sa touche se libère, se fait large, vibrante, presque abstraite de près — annonçant trois siècles à l'avance la peinture moderne.",
-          "groupe": "École de Venise — la couleur"
+          "groupe": "École de Venise — la couleur",
+          "bio_sections": [
+            {
+              "h": "Venise, l'école de la couleur",
+              "p": "Tiziano Vecellio se forme à Venise auprès de Giovanni Bellini, puis aux côtés de Giorgione. Dans cette cité marchande baignée de lumière et d'eau, on ne jure pas par le dessin (comme à Florence) mais par la couleur : le colorito. Titien va en devenir le maître absolu."
+            },
+            {
+              "h": "Le règne de la couleur",
+              "p": "Avec La Vénus d'Urbin ou l'Assomption, il construit ses tableaux par taches colorées et atmosphère plutôt que par contours nets. La chair semble tiède, les étoffes vibrent, l'espace s'approfondit par accords de tons. Il domine la peinture vénitienne et européenne pendant soixante ans."
+            },
+            {
+              "h": "Peintre des rois et des papes",
+              "p": "Sa renommée est telle que l'empereur Charles Quint en fait son peintre attitré et, dit la légende, se baisse un jour pour ramasser son pinceau tombé — un honneur inouï pour un artisan. Titien peint les puissants de toute l'Europe, devenant riche et anobli."
+            },
+            {
+              "h": "La touche libre du grand âge",
+              "p": "Le plus stupéfiant est sa vieillesse : sa touche se libère, devient large, vibrante, presque abstraite vue de près, suggestive de loin. Trois siècles avant l'impressionnisme, il invente une peinture de la matière et de la sensation. Il meurt très âgé, en 1576, légende vivante."
+            }
+          ]
         },
         {
           "nom": "Albrecht Dürer",
@@ -326,7 +362,25 @@
           "wiki": "Albrecht Dürer",
           "portrait": "Allemand, ramène la Renaissance au Nord. Génie de la gravure diffusée en masse. Se peint en personnage noble : la nouvelle fierté de l'artiste.",
           "bio_longue": "Albrecht Dürer (1471-1528), de Nuremberg, est l'homme qui fait entrer la Renaissance en Allemagne. Fasciné par l'Italie, il en rapporte la science des proportions et de la perspective, qu'il fusionne avec le génie nordique du détail. Surtout, il est un maître de la gravure : un art reproductible, diffusé en masse à travers l'Europe — ce qui fait de lui le premier artiste véritablement célèbre de son vivant à l'échelle du continent. Dans ses autoportraits, il se représente en personnage noble, presque christique : l'affirmation éclatante de la nouvelle dignité de l'artiste.",
-          "groupe": "Renaissance du Nord — le détail"
+          "groupe": "Renaissance du Nord — le détail",
+          "bio_sections": [
+            {
+              "h": "Nuremberg, fils d'orfèvre",
+              "p": "Albrecht Dürer naît à Nuremberg, fils d'orfèvre, et hérite très tôt d'une précision de main extraordinaire. Prodige, il se peint lui-même dès l'adolescence — début d'une longue série d'autoportraits, chose neuve à l'époque."
+            },
+            {
+              "h": "Le voyage en Italie",
+              "p": "Fasciné par l'art italien, il franchit les Alpes et en rapporte la science des proportions, de la perspective et de l'anatomie. Il fusionne cette rigueur méridionale avec le génie nordique du détail minutieux — un pont unique entre les deux mondes."
+            },
+            {
+              "h": "Le génie de la gravure",
+              "p": "Sa vraie révolution est la gravure : un art reproductible, diffusé en masse à travers l'Europe. Des chefs-d'œuvre comme Melencolia I circulent partout, faisant de lui le premier artiste véritablement célèbre du continent de son vivant — une « marque » avant l'heure."
+            },
+            {
+              "h": "La fierté de l'artiste",
+              "p": "Dans son autoportrait de 1500, Dürer se représente de face, presque en Christ — affirmation éclatante d'une idée neuve : l'artiste n'est plus un artisan anonyme, mais un créateur, un esprit. Il incarne au Nord la nouvelle dignité de l'artiste que la Renaissance impose."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -407,7 +461,25 @@
           "role": "",
           "wiki": "Jan van Eyck",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le génie flamand de la peinture à l'huile, qu'il porte à une perfection inégalée : un réalisme minutieux, des transparences, une lumière qui semble venir des choses elles-mêmes (Les Époux Arnolfini, le Retable de Gand)."
+          "portrait": "Le génie flamand de la peinture à l'huile, qu'il porte à une perfection inégalée : un réalisme minutieux, des transparences, une lumière qui semble venir des choses elles-mêmes (Les Époux Arnolfini, le Retable de Gand).",
+          "bio_sections": [
+            {
+              "h": "Bruges et la cour de Bourgogne",
+              "p": "Jan van Eyck est peintre et valet de chambre du puissant duc de Bourgogne, à Bruges, riche cité marchande flamande. Homme de confiance, il voyage même en mission diplomatique. Son art naît de ce milieu raffiné et fortuné."
+            },
+            {
+              "h": "La révolution de l'huile",
+              "p": "Van Eyck perfectionne la peinture à l'huile, qu'on peut travailler en fines couches translucides. Le résultat est inouï : transparences, profondeur des couleurs, détails infimes. Le Retable de Gand et Les Époux Arnolfini en sont les sommets."
+            },
+            {
+              "h": "Le miroir du monde",
+              "p": "Chaque texture — fourrure, métal, fruit, reflet d'un miroir — est rendue avec une précision quasi photographique, trois siècles avant la photo. Ce réalisme minutieux est aussi une forme de dévotion : voir le monde dans le moindre détail, c'est célébrer la création."
+            },
+            {
+              "h": "La voie du Nord",
+              "p": "Là où Florence conquiert le réel par la géométrie (perspective), Van Eyck le conquiert par la matière (l'huile, le détail). Il fonde la grande tradition flamande du détail, qui mènera à Bosch, Bruegel et bien au-delà."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -425,7 +497,25 @@
           "role": "",
           "wiki": "Hieronymus Bosch",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "L'imagination la plus fiévreuse du Nord : un fourmillement de créatures hybrides, de péchés et de cauchemars (Le Jardin des délices). Entre le rêve et l'enfer, un visionnaire qui fascinera plus tard les surréalistes."
+          "portrait": "L'imagination la plus fiévreuse du Nord : un fourmillement de créatures hybrides, de péchés et de cauchemars (Le Jardin des délices). Entre le rêve et l'enfer, un visionnaire qui fascinera plus tard les surréalistes.",
+          "bio_sections": [
+            {
+              "h": "Bois-le-Duc, un peintre énigmatique",
+              "p": "On sait peu de chose de Jérôme Bosch, sinon qu'il passe sa vie dans la petite ville de Bois-le-Duc, aux Pays-Bas, et appartient à une confrérie religieuse. Sa vie obscure contraste avec la folie visionnaire de son œuvre."
+            },
+            {
+              "h": "Le Jardin des délices",
+              "p": "Son chef-d'œuvre est un immense triptyque qui se lit comme un récit : à gauche le paradis, au centre un « jardin des délices » où des corps nus s'adonnent aux plaisirs, à droite un enfer glaçant. Une fresque morale d'une inventivité sans égale."
+            },
+            {
+              "h": "Un bestiaire de cauchemar",
+              "p": "Bosch peuple ses panneaux d'un fourmillement de créatures hybrides, de machines absurdes, de monstres — visions du péché et de la damnation. L'œil ne finit jamais d'explorer ces détails ; le sens exact reste débattu (avertissement religieux ? délire ?)."
+            },
+            {
+              "h": "Le visionnaire redécouvert",
+              "p": "Trop singulier pour son temps, Bosch fascinera quatre siècles plus tard les surréalistes, qui le reconnaîtront comme un ancêtre. Il prouve qu'au-delà de la mesure italienne, le Nord ouvre à l'art les territoires du rêve et du cauchemar."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1103,7 +1193,25 @@
           "role": "",
           "wiki": "Caravaggio",
           "portrait": "Révolutionnaire et violent (meurtrier en fuite). Invente le ténébrisme et le réalisme sacré. Influence toute l'Europe.",
-          "bio_longue": "Caravaggio (1571-1610) est le génie maudit de la peinture. Coléreux, bagarreur, il fréquente les bas-fonds de Rome qu'il fait poser comme saints et madones — au grand scandale de l'Église, qui refuse parfois ses toiles trop crues. En 1606, il tue un homme lors d'une rixe et doit fuir : Naples, Malte, la Sicile, toujours en cavale, peignant des chefs-d'œuvre de plus en plus sombres et déchirants. Il meurt à 38 ans sur une plage, dans des circonstances obscures, en tentant de regagner Rome où l'attendait une grâce papale. Son ténébrisme a changé la peinture européenne pour un siècle."
+          "bio_longue": "Caravaggio (1571-1610) est le génie maudit de la peinture. Coléreux, bagarreur, il fréquente les bas-fonds de Rome qu'il fait poser comme saints et madones — au grand scandale de l'Église, qui refuse parfois ses toiles trop crues. En 1606, il tue un homme lors d'une rixe et doit fuir : Naples, Malte, la Sicile, toujours en cavale, peignant des chefs-d'œuvre de plus en plus sombres et déchirants. Il meurt à 38 ans sur une plage, dans des circonstances obscures, en tentant de regagner Rome où l'attendait une grâce papale. Son ténébrisme a changé la peinture européenne pour un siècle.",
+          "bio_sections": [
+            {
+              "h": "Milan, Rome, la rue",
+              "p": "Caravaggio arrive jeune et pauvre à Rome. Coléreux, bagarreur, il fréquente les bas-fonds — et les fait poser. Ses saints et ses madones ont les visages, les pieds sales et les vêtements du peuple, ce qui scandalise autant que cela bouleverse."
+            },
+            {
+              "h": "Le ténébrisme",
+              "p": "Sa révolution tient en un effet : le ténébrisme. Il plonge ses scènes dans le noir et fait jaillir une lumière crue, latérale, comme un projecteur. Dans La Vocation de saint Matthieu, un rayon traverse une taverne et « désigne » l'élu : la lumière fait tout le drame."
+            },
+            {
+              "h": "Le meurtrier en fuite",
+              "p": "En 1606, il tue un homme lors d'une rixe et doit fuir Rome. Commence une cavale — Naples, Malte, la Sicile — où il peint des chefs-d'œuvre de plus en plus sombres et déchirants, traqué et malade."
+            },
+            {
+              "h": "Mort à 38 ans, gloire immense",
+              "p": "Il meurt en 1610 sur une plage, dans des circonstances obscures, en tentant de regagner Rome où l'attendait une grâce. Son réalisme et sa lumière changent la peinture européenne pour un siècle : on parlera de « caravagisme » de Naples à Utrecht."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1120,7 +1228,25 @@
           "role": "",
           "wiki": "Gian Lorenzo Bernini",
           "portrait": "Génie total du baroque romain : sculpteur, architecte, scénographe. Colonnade de Saint-Pierre, baldaquin.",
-          "bio_longue": "Gian Lorenzo Bernini (1598-1680) est au Baroque ce que Michel-Ange fut à la Renaissance : un génie total, adulé, qui domine l'art romain pendant un demi-siècle. Sculpteur prodige (son Apollon et Daphné, où le marbre se transforme en feuillage, est taillé à 24 ans), il est aussi architecte (la colonnade de Saint-Pierre, le baldaquin), scénographe, auteur de comédies. Sa rivalité avec l'architecte Borromini, plus sombre et torturé, alimente la légende. Pour lui, l'art doit émerveiller et émouvoir, fusionner sculpture, architecture et lumière en un spectacle total."
+          "bio_longue": "Gian Lorenzo Bernini (1598-1680) est au Baroque ce que Michel-Ange fut à la Renaissance : un génie total, adulé, qui domine l'art romain pendant un demi-siècle. Sculpteur prodige (son Apollon et Daphné, où le marbre se transforme en feuillage, est taillé à 24 ans), il est aussi architecte (la colonnade de Saint-Pierre, le baldaquin), scénographe, auteur de comédies. Sa rivalité avec l'architecte Borromini, plus sombre et torturé, alimente la légende. Pour lui, l'art doit émerveiller et émouvoir, fusionner sculpture, architecture et lumière en un spectacle total.",
+          "bio_sections": [
+            {
+              "h": "Le prodige romain",
+              "p": "Gian Lorenzo Bernini est un prodige : sculpteur dès l'enfance, il taille à 24 ans un Apollon et Daphné où le marbre se transforme en feuillage et en chair sous nos yeux. Rome n'a pas vu pareil génie depuis Michel-Ange."
+            },
+            {
+              "h": "Le théâtre total",
+              "p": "Son Extase de sainte Thérèse n'est pas qu'une statue : c'est une mise en scène où le marbre devient nuée, où une lumière dorée tombe d'une fenêtre cachée, où des spectateurs sculptés assistent depuis des loges. Le Baroque y devient spectacle immersif."
+            },
+            {
+              "h": "L'architecte du Vatican",
+              "p": "Architecte autant que sculpteur, il dessine la colossale colonnade de la place Saint-Pierre — deux bras de pierre qui « embrassent » les fidèles — et le baldaquin de bronze au cœur de la basilique. Il met en scène la gloire de l'Église."
+            },
+            {
+              "h": "Le maître d'un demi-siècle",
+              "p": "Sa rivalité avec l'architecte Borromini, plus sombre et tourmenté, nourrit la légende. Adulé par les papes, le Bernin domine l'art romain pendant cinquante ans : pour lui, l'art doit émerveiller et émouvoir, en fondant tous les arts en un."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1137,7 +1263,25 @@
           "role": "",
           "wiki": "Peter Paul Rubens",
           "portrait": "Flandre ; énergie, chair, couleur, immense atelier ; aussi diplomate. Le baroque triomphant.",
-          "bio_longue": "Pierre Paul Rubens (1577-1640) est le prince des peintres baroques du Nord, et l'un des hommes les plus brillants de son temps : peintre prodigieux, mais aussi diplomate de haut vol, érudit, collectionneur, parlant six langues. Son atelier d'Anvers fonctionne comme une grande entreprise : il conçoit, ses assistants (dont le jeune Van Dyck) exécutent, lui retouche. Il inonde l'Europe de retables, de cycles royaux et de mythologies sensuelles, peuplés de corps opulents et de couleurs éclatantes. Anobli par deux rois, il meurt riche et comblé."
+          "bio_longue": "Pierre Paul Rubens (1577-1640) est le prince des peintres baroques du Nord, et l'un des hommes les plus brillants de son temps : peintre prodigieux, mais aussi diplomate de haut vol, érudit, collectionneur, parlant six langues. Son atelier d'Anvers fonctionne comme une grande entreprise : il conçoit, ses assistants (dont le jeune Van Dyck) exécutent, lui retouche. Il inonde l'Europe de retables, de cycles royaux et de mythologies sensuelles, peuplés de corps opulents et de couleurs éclatantes. Anobli par deux rois, il meurt riche et comblé.",
+          "bio_sections": [
+            {
+              "h": "Anvers, le peintre-diplomate",
+              "p": "Pierre Paul Rubens est l'un des hommes les plus brillants de son temps : peintre de génie, mais aussi érudit, collectionneur, diplomate de haut vol parlant six langues. Il sert les cours d'Europe autant par ses pinceaux que par ses missions secrètes."
+            },
+            {
+              "h": "Le baroque triomphant",
+              "p": "Sa peinture déborde d'énergie : compositions tourbillonnantes, couleurs chaudes, corps charnels et opulents, mouvement emporté. La Descente de croix ou ses grands cycles allégoriques incarnent le Baroque catholique dans sa version la plus exubérante et sensuelle."
+            },
+            {
+              "h": "L'atelier-entreprise",
+              "p": "Pour répondre à une demande européenne immense, il dirige à Anvers un atelier qui fonctionne comme une industrie : il conçoit et esquisse, des dizaines d'assistants (dont le jeune Van Dyck) exécutent, lui retouche. Une véritable « marque » Rubens."
+            },
+            {
+              "h": "Anobli et comblé",
+              "p": "Anobli par deux rois, riche, heureux en famille, Rubens meurt en 1640 au sommet de la gloire. Il aura fourni toute l'Europe en retables, mythologies et portraits, et incarné le peintre-prince de l'âge baroque."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1154,7 +1298,25 @@
           "role": "",
           "wiki": "Diego Velázquez",
           "portrait": "Peintre du roi d'Espagne ; réalisme souverain, touche libre.",
-          "bio_longue": "Diego Vélasquez (1599-1660) passe presque toute sa carrière au service d'un seul homme : Philippe IV d'Espagne, dont il devient le peintre et l'ami, gravissant les échelons de la cour. Il peint la famille royale, les bouffons et les nains du palais avec une égale et bouleversante dignité. Sa touche, d'une liberté inouïe pour l'époque, fascinera les modernes — Manet le nommera « le peintre des peintres ». Les Ménines, son testament, le montre lui-même au travail, mêlant le réel, le reflet et le regard dans une énigme jamais épuisée."
+          "bio_longue": "Diego Vélasquez (1599-1660) passe presque toute sa carrière au service d'un seul homme : Philippe IV d'Espagne, dont il devient le peintre et l'ami, gravissant les échelons de la cour. Il peint la famille royale, les bouffons et les nains du palais avec une égale et bouleversante dignité. Sa touche, d'une liberté inouïe pour l'époque, fascinera les modernes — Manet le nommera « le peintre des peintres ». Les Ménines, son testament, le montre lui-même au travail, mêlant le réel, le reflet et le regard dans une énigme jamais épuisée.",
+          "bio_sections": [
+            {
+              "h": "Séville, puis la cour du roi",
+              "p": "Diego Vélasquez se révèle jeune à Séville, puis monte à Madrid où il devient le peintre de Philippe IV — et son ami. Il passera presque toute sa carrière au service d'un seul homme, gravissant les échelons de la cour."
+            },
+            {
+              "h": "Le réalisme souverain",
+              "p": "Il peint la famille royale, mais aussi les bouffons et les nains du palais, avec une égale et bouleversante dignité. Sa touche, d'une liberté inouïe pour l'époque, n'est de près qu'un jeu de taches qui, à distance, devient la réalité même."
+            },
+            {
+              "h": "Les Ménines, l'énigme du regard",
+              "p": "Son testament, Les Ménines, le montre lui-même au travail, mêlant l'infante, ses suivantes, le couple royal reflété dans un miroir, et nous, spectateurs, pris dans le jeu. Un sommet d'intelligence sur la peinture et le regard."
+            },
+            {
+              "h": "« Le peintre des peintres »",
+              "p": "Sa modernité fascinera les siècles suivants : Manet le nommera « le peintre des peintres ». Discret, souverain, Vélasquez reste l'un des plus grands de toute l'histoire de l'art."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1171,7 +1333,25 @@
           "role": "",
           "wiki": "Nicolas Poussin",
           "portrait": "Français à Rome ; baroque classique et intellectuel : raison, ordre, antiquité.",
-          "bio_longue": "Nicolas Poussin (1594-1665) est le grand classique français, paradoxalement installé à Rome presque toute sa vie. Cultivé, philosophe, il compose ses tableaux comme on construit une démonstration : équilibre, clarté, références à l'Antiquité et au stoïcisme. Il travaille lentement, pour des amateurs lettrés, loin des grandes commandes spectaculaires. Son art « qui pense » fonde une tradition française de la raison et de l'ordre, opposée à l'exubérance baroque, et qui mènera jusqu'à David et au néoclassicisme."
+          "bio_longue": "Nicolas Poussin (1594-1665) est le grand classique français, paradoxalement installé à Rome presque toute sa vie. Cultivé, philosophe, il compose ses tableaux comme on construit une démonstration : équilibre, clarté, références à l'Antiquité et au stoïcisme. Il travaille lentement, pour des amateurs lettrés, loin des grandes commandes spectaculaires. Son art « qui pense » fonde une tradition française de la raison et de l'ordre, opposée à l'exubérance baroque, et qui mènera jusqu'à David et au néoclassicisme.",
+          "bio_sections": [
+            {
+              "h": "Un Français à Rome",
+              "p": "Nicolas Poussin, Normand, s'installe presque toute sa vie à Rome, au contact des ruines antiques et des collectionneurs lettrés. Loin des grandes commandes spectaculaires, il choisit une voie à part."
+            },
+            {
+              "h": "Le baroque qui pense",
+              "p": "Sa peinture est l'inverse du tumulte : ordre, clarté, équilibre, références à l'Antiquité et au stoïcisme. Il compose ses tableaux comme on construit une démonstration — Les Bergers d'Arcadie méditent sur la mort avec une gravité sereine."
+            },
+            {
+              "h": "Pour les amateurs lettrés",
+              "p": "Il travaille lentement, pour un cercle d'amateurs cultivés capables de lire ses allégories savantes. C'est un peintre-philosophe, qui s'adresse à l'intelligence plus qu'aux sens."
+            },
+            {
+              "h": "Le père du classicisme français",
+              "p": "Sa rigueur fonde une tradition française de la raison et de l'ordre, opposée à l'exubérance baroque, qui traversera les siècles et mènera jusqu'à David et au néoclassicisme. « Poussiniste » deviendra synonyme de classique."
+            }
+          ]
         },
         {
           "niveau": "○",
