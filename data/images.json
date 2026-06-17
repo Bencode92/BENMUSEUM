@@ -2347,5 +2347,425 @@
     "h": 3118,
     "format": "jpg",
     "file": "Picasso_-_Le_Moulin_de_la_Galette_(1900).jpg"
+  },
+  "Virgin of the Rocks": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg/1280px-Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1586,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg",
+    "w": 3460,
+    "h": 5487,
+    "format": "jpg",
+    "file": "Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg"
+  },
+  "The Virgin and Child with Saint Anne (Leonardo)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Leonardo_da_Vinci_-_Virgin_and_Child_with_St_Anne_C2RMF_retouched.jpg/1280px-Leonardo_da_Vinci_-_Virgin_and_Child_with_St_Anne_C2RMF_retouched.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1341,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Leonardo_da_Vinci_-_Virgin_and_Child_with_St_Anne_C2RMF_retouched.jpg",
+    "w": 13295,
+    "h": 17828,
+    "format": "jpg",
+    "file": "Leonardo_da_Vinci_-_Virgin_and_Child_with_St_Anne_C2RMF_retouched.jpg"
+  },
+  "Annunciation (Leonardo)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg/1280px-Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 459,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg",
+    "w": 7776,
+    "h": 3569,
+    "format": "jpg",
+    "file": "Annunciation_(Leonardo_c._1472–1476).jpg"
+  },
+  "The Last Judgment (Michelangelo)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/1280px-Last_Judgement_%28Michelangelo%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1101,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Last_Judgement_%28Michelangelo%29.jpg",
+    "w": 3991,
+    "h": 4395,
+    "format": "jpg",
+    "file": "Last_Judgement_(Michelangelo).jpg"
+  },
+  "Moses (Michelangelo)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Michelangelo%27s_Moses_%28Rome%29.jpg/1280px-Michelangelo%27s_Moses_%28Rome%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1203,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Michelangelo%27s_Moses_%28Rome%29.jpg",
+    "w": 2862,
+    "h": 3443,
+    "format": "jpg",
+    "file": "Michelangelo's_Moses_(Rome).jpg"
+  },
+  "Doni Tondo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tondo_Doni_2015.png/1280px-Tondo_Doni_2015.png",
+    "thumb_w": 1000,
+    "thumb_h": 1030,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tondo_Doni_2015.png",
+    "w": 2318,
+    "h": 2387,
+    "format": "png",
+    "file": "Tondo_Doni_2015.png"
+  },
+  "Portrait of Baldassare Castiglione": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg/1280px-Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1244,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg",
+    "w": 15566,
+    "h": 19363,
+    "format": "jpg",
+    "file": "Baldassare_Castiglione,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg"
+  },
+  "Transfiguration (Raphael)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/Transfiguration_Raphael.jpg",
+    "thumb_w": 1067,
+    "thumb_h": 1608,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Transfiguration_Raphael.jpg",
+    "w": 1067,
+    "h": 1608,
+    "format": "jpg",
+    "file": "Transfiguration_Raphael.jpg"
+  },
+  "Assumption of the Virgin (Titian)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tizian_041.jpg",
+    "thumb_w": 1050,
+    "thumb_h": 1932,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tizian_041.jpg",
+    "w": 1050,
+    "h": 1932,
+    "format": "jpg",
+    "file": "Tizian_041.jpg"
+  },
+  "Sacred and Profane Love": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Amor_sacro_e_amor_profano_02.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1364,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Amor_sacro_e_amor_profano_02.jpg",
+    "w": 1000,
+    "h": 1364,
+    "format": "jpg",
+    "file": "Amor_sacro_e_amor_profano_02.jpg"
+  },
+  "Bacchus and Ariadne": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Titian_Bacchus_and_Ariadne.jpg/1280px-Titian_Bacchus_and_Ariadne.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 905,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Titian_Bacchus_and_Ariadne.jpg",
+    "w": 4670,
+    "h": 4226,
+    "format": "jpg",
+    "file": "Titian_Bacchus_and_Ariadne.jpg"
+  },
+  "Equestrian Portrait of Charles V": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Carlos_V_en_M%C3%BChlberg%2C_by_Titian%2C_from_Prado_in_Google_Earth.jpg/1280px-Carlos_V_en_M%C3%BChlberg%2C_by_Titian%2C_from_Prado_in_Google_Earth.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1187,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Carlos_V_en_M%C3%BChlberg%2C_by_Titian%2C_from_Prado_in_Google_Earth.jpg",
+    "w": 25284,
+    "h": 30000,
+    "format": "jpg",
+    "file": "Carlos_V_en_Mühlberg,_by_Titian,_from_Prado_in_Google_Earth.jpg"
+  },
+  "Diana and Actaeon (Titian)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Titian_-_Diana_and_Actaeon_-_Google_Art_Project.jpg/1280px-Titian_-_Diana_and_Actaeon_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 917,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Titian_-_Diana_and_Actaeon_-_Google_Art_Project.jpg",
+    "w": 3000,
+    "h": 2750,
+    "format": "jpg",
+    "file": "Titian_-_Diana_and_Actaeon_-_Google_Art_Project.jpg"
+  },
+  "Melencolia I": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28_AGDdr3EHmNGyA%29.jpg/1280px-Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28_AGDdr3EHmNGyA%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1264,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28_AGDdr3EHmNGyA%29.jpg",
+    "w": 3562,
+    "h": 4501,
+    "format": "jpg",
+    "file": "Albrecht_Dürer_-_Melencolia_I_-_Google_Art_Project_(_AGDdr3EHmNGyA).jpg"
+  },
+  "Knight, Death and the Devil": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Albrecht_D%C3%BCrer%2C_Knight%2C_Death_and_Devil%2C_1513%2C_NGA_6637.jpg/1280px-Albrecht_D%C3%BCrer%2C_Knight%2C_Death_and_Devil%2C_1513%2C_NGA_6637.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1296,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Albrecht_D%C3%BCrer%2C_Knight%2C_Death_and_Devil%2C_1513%2C_NGA_6637.jpg",
+    "w": 3087,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Albrecht_Dürer,_Knight,_Death_and_Devil,_1513,_NGA_6637.jpg"
+  },
+  "Young Hare": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg/1280px-Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1105,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg",
+    "w": 3731,
+    "h": 4123,
+    "format": "jpg",
+    "file": "Albrecht_Dürer_-_Hare,_1502_-_Google_Art_Project.jpg"
+  },
+  "Great Piece of Turf": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Albrecht_D%C3%BCrer_-_The_Large_Piece_of_Turf%2C_1503_-_Google_Art_Project.jpg/1280px-Albrecht_D%C3%BCrer_-_The_Large_Piece_of_Turf%2C_1503_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1284,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Albrecht_D%C3%BCrer_-_The_Large_Piece_of_Turf%2C_1503_-_Google_Art_Project.jpg",
+    "w": 3037,
+    "h": 3901,
+    "format": "jpg",
+    "file": "Albrecht_Dürer_-_The_Large_Piece_of_Turf,_1503_-_Google_Art_Project.jpg"
+  },
+  "Adam and Eve (Dürer)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Albrecht_D%C3%BCrer%2C_Adam_and_Eve%2C_1504%2C_Engraving.jpg/1280px-Albrecht_D%C3%BCrer%2C_Adam_and_Eve%2C_1504%2C_Engraving.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1270,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Albrecht_D%C3%BCrer%2C_Adam_and_Eve%2C_1504%2C_Engraving.jpg",
+    "w": 2872,
+    "h": 3648,
+    "format": "jpg",
+    "file": "Albrecht_Dürer,_Adam_and_Eve,_1504,_Engraving.jpg"
+  },
+  "Praying Hands (Dürer)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg/1280px-Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1455,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg",
+    "w": 2680,
+    "h": 3900,
+    "format": "jpg",
+    "file": "Albrecht_Dürer_-_Praying_Hands,_1508_-_Google_Art_Project.jpg"
+  },
+  "Medusa (Caravaggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg/1280px-Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1025,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
+    "w": 3369,
+    "h": 3453,
+    "format": "jpg",
+    "file": "Caravaggio_-_Medusa_-_Google_Art_Project.jpg"
+  },
+  "Bacchus (Caravaggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bacchus_by_Caravaggio_1.jpg/1280px-Bacchus_by_Caravaggio_1.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1166,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bacchus_by_Caravaggio_1.jpg",
+    "w": 5700,
+    "h": 6648,
+    "format": "jpg",
+    "file": "Bacchus_by_Caravaggio_1.jpg"
+  },
+  "Death of the Virgin (Caravaggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Death_of_the_Virgin-Caravaggio_%281606%29.jpg/1280px-Death_of_the_Virgin-Caravaggio_%281606%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1509,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Death_of_the_Virgin-Caravaggio_%281606%29.jpg",
+    "w": 9458,
+    "h": 14274,
+    "format": "jpg",
+    "file": "Death_of_the_Virgin-Caravaggio_(1606).jpg"
+  },
+  "David with the Head of Goliath (Caravaggio, Rome)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/David_with_the_Head_of_Goliath-Caravaggio_%281610%29.jpg/1280px-David_with_the_Head_of_Goliath-Caravaggio_%281610%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1238,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/David_with_the_Head_of_Goliath-Caravaggio_%281610%29.jpg",
+    "w": 5922,
+    "h": 7329,
+    "format": "jpg",
+    "file": "David_with_the_Head_of_Goliath-Caravaggio_(1610).jpg"
+  },
+  "The Incredulity of Saint Thomas (Caravaggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Der_ungl%C3%A4ubige_Thomas_-_Michelangelo_Merisi%2C_named_Caravaggio.jpg/1280px-Der_ungl%C3%A4ubige_Thomas_-_Michelangelo_Merisi%2C_named_Caravaggio.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 742,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Der_ungl%C3%A4ubige_Thomas_-_Michelangelo_Merisi%2C_named_Caravaggio.jpg",
+    "w": 42558,
+    "h": 31589,
+    "format": "jpg",
+    "file": "Der_ungläubige_Thomas_-_Michelangelo_Merisi,_named_Caravaggio.jpg"
+  },
+  "The Rape of the Daughters of Leucippus": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Peter_Paul_Rubens_%26_Jan_Wildens_-_De_ontvoering_van_de_Dochters_van_Leucippus.jpg/1280px-Peter_Paul_Rubens_%26_Jan_Wildens_-_De_ontvoering_van_de_Dochters_van_Leucippus.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1075,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Peter_Paul_Rubens_%26_Jan_Wildens_-_De_ontvoering_van_de_Dochters_van_Leucippus.jpg",
+    "w": 1855,
+    "h": 1995,
+    "format": "jpg",
+    "file": "Peter_Paul_Rubens_&_Jan_Wildens_-_De_ontvoering_van_de_Dochters_van_Leucippus.jpg"
+  },
+  "Het Pelsken": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Peter_Paul_Rubens_-_Het_pelsken_1636-1638.jpg",
+    "thumb_w": 992,
+    "thumb_h": 2090,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Peter_Paul_Rubens_-_Het_pelsken_1636-1638.jpg",
+    "w": 992,
+    "h": 2090,
+    "format": "jpg",
+    "file": "Peter_Paul_Rubens_-_Het_pelsken_1636-1638.jpg"
+  },
+  "Consequences of War": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Los_horrores_de_la_guerra.jpg/1280px-Los_horrores_de_la_guerra.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 599,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Los_horrores_de_la_guerra.jpg",
+    "w": 1350,
+    "h": 809,
+    "format": "jpg",
+    "file": "Los_horrores_de_la_guerra.jpg"
+  },
+  "The Surrender of Breda": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Velazquez-The_Surrender_of_Breda.jpg/1280px-Velazquez-The_Surrender_of_Breda.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 825,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Velazquez-The_Surrender_of_Breda.jpg",
+    "w": 3051,
+    "h": 2516,
+    "format": "jpg",
+    "file": "Velazquez-The_Surrender_of_Breda.jpg"
+  },
+  "Rokeby Venus": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Diego_Vel%C3%A1zquez_-_Rokeby_Venus.jpg/1280px-Diego_Vel%C3%A1zquez_-_Rokeby_Venus.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 686,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Diego_Vel%C3%A1zquez_-_Rokeby_Venus.jpg",
+    "w": 6162,
+    "h": 4226,
+    "format": "jpg",
+    "file": "Diego_Velázquez_-_Rokeby_Venus.jpg"
+  },
+  "Las Hilanderas": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Velazquez-las_hilanderas.jpg/1280px-Velazquez-las_hilanderas.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 690,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Velazquez-las_hilanderas.jpg",
+    "w": 2911,
+    "h": 2008,
+    "format": "jpg",
+    "file": "Velazquez-las_hilanderas.jpg"
+  },
+  "The Triumph of Bacchus": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Vel%C3%A1zquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_%28Museo_del_Prado%2C_1628-29%29.jpg/1280px-Vel%C3%A1zquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_%28Museo_del_Prado%2C_1628-29%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 729,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vel%C3%A1zquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_%28Museo_del_Prado%2C_1628-29%29.jpg",
+    "w": 1900,
+    "h": 1386,
+    "format": "jpg",
+    "file": "Velázquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_(Museo_del_Prado,_1628-29).jpg"
+  },
+  "The Jewish Bride": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Rembrandt_Harmensz._van_Rijn_-_Portret_van_een_paar_als_oudtestamentische_figuren%2C_genaamd_%27Het_Joodse_bruidje%27_-_Google_Art_Project.jpg/1280px-Rembrandt_Harmensz._van_Rijn_-_Portret_van_een_paar_als_oudtestamentische_figuren%2C_genaamd_%27Het_Joodse_bruidje%27_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 729,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rembrandt_Harmensz._van_Rijn_-_Portret_van_een_paar_als_oudtestamentische_figuren%2C_genaamd_%27Het_Joodse_bruidje%27_-_Google_Art_Project.jpg",
+    "w": 5486,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Rembrandt_Harmensz._van_Rijn_-_Portret_van_een_paar_als_oudtestamentische_figuren,_genaamd_'Het_Joodse_bruidje'_-_Google_Art_Project.jpg"
+  },
+  "Bathsheba at Her Bath (Rembrandt)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rembrandt_Harmensz._van_Rijn_016.jpg/1280px-Rembrandt_Harmensz._van_Rijn_016.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1003,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rembrandt_Harmensz._van_Rijn_016.jpg",
+    "w": 2992,
+    "h": 3000,
+    "format": "jpg",
+    "file": "Rembrandt_Harmensz._van_Rijn_016.jpg"
+  },
+  "Syndics of the Drapers' Guild": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg/1280px-Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 676,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg",
+    "w": 5918,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_(waardijns)_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg"
+  },
+  "View of Delft": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vermeer-view-of-delft.jpg/1280px-Vermeer-view-of-delft.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 830,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vermeer-view-of-delft.jpg",
+    "w": 3000,
+    "h": 2491,
+    "format": "jpg",
+    "file": "Vermeer-view-of-delft.jpg"
+  },
+  "The Art of Painting": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg/1280px-Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1188,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg",
+    "w": 6209,
+    "h": 7377,
+    "format": "jpg",
+    "file": "Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg"
+  },
+  "The Lacemaker (Vermeer)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg/1280px-Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1147,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg",
+    "w": 1596,
+    "h": 1830,
+    "format": "jpg",
+    "file": "Johannes_Vermeer_-_The_lacemaker_(c.1669-1671).jpg"
+  },
+  "Madonna of the Meadow (Raphael)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg/1280px-Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1281,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg",
+    "w": 6116,
+    "h": 7832,
+    "format": "jpg",
+    "file": "Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg"
+  },
+  "Madonna of the Goldfinch": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Raffaello_Sanzio_-_Madonna_del_Cardellino_-_Google_Art_Project.jpg/1280px-Raffaello_Sanzio_-_Madonna_del_Cardellino_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1398,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Raffaello_Sanzio_-_Madonna_del_Cardellino_-_Google_Art_Project.jpg",
+    "w": 5152,
+    "h": 7200,
+    "format": "jpg",
+    "file": "Raffaello_Sanzio_-_Madonna_del_Cardellino_-_Google_Art_Project.jpg"
+  },
+  "The Garden of Love": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/El_Jard%C3%ADn_del_Amor_%28Rubens%29.jpg/1280px-El_Jard%C3%ADn_del_Amor_%28Rubens%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 690,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/El_Jard%C3%ADn_del_Amor_%28Rubens%29.jpg",
+    "w": 4907,
+    "h": 3387,
+    "format": "jpg",
+    "file": "El_Jardín_del_Amor_(Rubens).jpg"
+  },
+  "The Return of the Prodigal Son": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/1280px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1305,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg",
+    "w": 22991,
+    "h": 30000,
+    "format": "jpg",
+    "file": "Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg"
+  },
+  "The Astronomer (Vermeer)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Johannes_Vermeer_-_The_Astronomer_-_1668.jpg/1280px-Johannes_Vermeer_-_The_Astronomer_-_1668.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1136,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Johannes_Vermeer_-_The_Astronomer_-_1668.jpg",
+    "w": 4401,
+    "h": 5000,
+    "format": "jpg",
+    "file": "Johannes_Vermeer_-_The_Astronomer_-_1668.jpg"
   }
 }

@@ -294,25 +294,79 @@
           "dates": "1452-1519",
           "role": "le génie universel",
           "wiki": "Leonardo da Vinci",
-          "portrait": "Peintre, anatomiste, ingénieur. Obsédé par l'observation, finissait peu d'œuvres. Invente le sfumato. Meurt en France auprès de François Iᵉʳ. Pour lui, peindre = comprendre le monde.",
+          "portrait": "Léonard de Vinci (1452-1519) est l'incarnation même du génie de la Renaissance : peintre, mais aussi anatomiste, ingénieur, botaniste, urbaniste, inventeur. Il a laissé peu de tableaux achevés — une quinzaine — mais chacun a déplacé les limites de ce que la peinture pouvait atteindre.",
           "bio_longue": "Leonardo da Vinci (1452-1519), fils illégitime d'un notaire, est l'incarnation même du génie universel : peintre, mais aussi anatomiste, ingénieur, botaniste, inventeur. Sa curiosité dévorante est aussi son défaut — il finissait peu d'œuvres, distrait par mille recherches. Il invente le sfumato, ce fondu vaporeux qui rend le sourire de la Joconde insaisissable. Pour lui, peindre, c'est comprendre : il dissèque des cadavres, étudie le vol des oiseaux, le mouvement de l'eau. Il meurt en France, à la cour de François Iᵉʳ, qui l'avait attiré comme on s'offre la plus grande merveille de son temps.",
           "groupe": "École de Florence & Rome — le dessin",
           "bio_sections": [
             {
-              "h": "L'enfant de Vinci (1452-1482)",
-              "p": "Léonard naît près de Vinci, fils illégitime d'un notaire et d'une paysanne — ce qui lui ferme les carrières « nobles » et le pousse vers l'atelier. À Florence, il entre chez le sculpteur-peintre Verrocchio. La légende dit que, voyant l'ange peint par le jeune Léonard dans son Baptême du Christ, Verrocchio aurait renoncé à peindre, dépassé par l'élève. Déjà, Léonard observe tout : l'eau, les plantes, les visages, la lumière."
+              "h": "L'enfance : un enfant illégitime, libre et curieux",
+              "p": "Léonard naît en 1452 à Vinci, en Toscane, fils illégitime d'un notaire et d'une paysanne. Cette naissance le prive d'études classiques et d'une carrière toute tracée — mais le rend libre. Élevé à la campagne, il passe son enfance à observer l'eau, le vol des oiseaux, les plantes, qu'il dessinera toute sa vie avec une précision de savant. Cette curiosité sans bornes, née dans les collines toscanes, sera le moteur de toute son œuvre."
             },
             {
-              "h": "Milan et le sommet (1482-1499)",
-              "p": "Il quitte Florence pour Milan et le duc Ludovic Sforza, à qui il se présente d'abord comme ingénieur militaire (canons, machines) — la peinture n'est qu'au bout de sa lettre. Là, il peint La Cène : il y saisit l'instant où le Christ annonce la trahison, et fait réagir chaque apôtre. C'est sa grande idée : peindre l'intérieur des êtres. En parallèle, il dissèque des cadavres, étudie l'anatomie, remplit des milliers de pages de carnets."
+              "h": "Le déclic : l'atelier de Verrocchio",
+              "p": "Adolescent, il entre à Florence dans l'atelier du peintre-sculpteur Verrocchio. La légende veut que, voyant l'ange peint par le jeune Léonard dans son Baptême du Christ, Verrocchio ait renoncé à peindre, dépassé par l'élève. Là, Léonard apprend tout — la peinture, le bronze, la mécanique — et développe sa technique du sfumato, ce fondu vaporeux des contours, visible dès son Annonciation."
             },
             {
-              "h": "L'errance et la Joconde (1500-1516)",
-              "p": "La chute de Sforza le jette sur les routes : Florence, Rome, Venise. C'est là qu'il peint le portrait d'une certaine Lisa — La Joconde — où il pousse à l'extrême son sfumato, ce fondu vaporeux qui rend le sourire insaisissable. Il ne s'en sépare plus, la retravaille des années. Perfectionniste et dispersé, il finit peu d'œuvres : pour lui, peindre n'est qu'une façon, parmi d'autres, de comprendre le monde."
+              "h": "Le sfumato : dissoudre les contours",
+              "p": "Sa grande invention picturale est le sfumato : au lieu de cerner les formes d'un trait net, il les noie dans une brume de transitions imperceptibles, « sans lignes ni bords, à la manière de la fumée ». C'est ce qui donne à La Joconde son sourire insaisissable et à La Vierge aux rochers son atmosphère de grotte humide. La peinture cesse d'être dessin colorié pour devenir lumière et air."
             },
             {
-              "h": "La France et la légende (1516-1519)",
-              "p": "Le jeune roi François Iᵉʳ l'attire en France comme on s'offre la plus grande merveille de son temps, l'installe près d'Amboise et l'appelle, dit-on, « mon père ». Léonard y meurt en 1519, ses carnets sous le bras. Il laisse peu de tableaux mais une idée qui change tout : l'artiste n'est plus un artisan, c'est un esprit universel, un savant autant qu'un peintre."
+              "h": "Son moteur : tout comprendre avant de peindre",
+              "p": "Pour Léonard, peindre n'a de sens que si l'on comprend ce qu'on peint. Il dissèque des cadavres pour saisir les muscles, étudie les tourbillons de l'eau, le mouvement des fœtus, la mécanique du vol. Ses carnets, écrits en miroir, débordent de machines volantes et d'études anatomiques. L'Homme de Vitruve résume son rêve : trouver les proportions qui relient l'homme au cercle et au carré, le corps à l'ordre du cosmos."
+            },
+            {
+              "h": "Le message : la peinture comme science suprême",
+              "p": "Léonard défend l'idée, neuve, que la peinture est une science — supérieure même à la poésie, car elle saisit le visible d'un seul regard. Le peintre doit être un savant de la nature. La Cène, à Milan, en est la démonstration : il y fige l'instant exact où le Christ annonce la trahison, et chaque apôtre réagit d'un geste différent, comme une étude du mouvement de l'âme."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Pour les historiens, Léonard fait basculer la peinture dans la Haute Renaissance : avec lui, l'œuvre n'imite plus seulement la nature, elle en perce les lois. La Joconde a révolutionné le portrait (pose en buste, paysage atmosphérique, présence psychologique) au point de devenir le tableau le plus célèbre du monde. Gombrich y voit l'aboutissement d'un siècle de conquêtes : l'art devient connaissance."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains se spécialisent, Léonard refuse toute frontière entre les savoirs : il est artiste parce qu'il est savant, et savant parce qu'il est artiste. Il laisse beaucoup d'œuvres inachevées, rongé par le doute et l'envie d'aller plus loin (le Saint Jean-Baptiste, la Sainte Anne). Mort en France auprès du roi François Ier, il incarne pour toujours l'idéal de « l'homme universel »."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Dame à l'hermine",
+              "artiste": "Léonard de Vinci",
+              "annee": "1489-1490",
+              "lieu": "Musée Czartoryski, Cracovie",
+              "wiki": "Lady with an Ermine",
+              "analyse": "Portrait de Cecilia Gallerani, maîtresse du duc de Milan. Le buste se tourne dans un mouvement spiralé d'une vie inédite, et l'hermine (symbole de pureté et jeu sur le nom grec galê) répond au geste de la main. Léonard invente ici le portrait psychologique en mouvement."
+            },
+            {
+              "titre": "La Vierge aux rochers",
+              "artiste": "Léonard de Vinci",
+              "annee": "v. 1483-1486",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Virgin of the Rocks",
+              "analyse": "Dans une grotte humide et bleutée, la Vierge, l'Enfant, le petit saint Jean et un ange forment une pyramide d'une stabilité parfaite, baignée de sfumato. Le paysage de roches étranges montre le géologue autant que le peintre."
+            },
+            {
+              "titre": "L'Homme de Vitruve",
+              "artiste": "Léonard de Vinci",
+              "annee": "v. 1490",
+              "lieu": "Gallerie dell'Accademia, Venise",
+              "wiki": "Vitruvian Man",
+              "analyse": "Dessin à la plume où un homme aux bras et jambes écartés s'inscrit à la fois dans un cercle et un carré : la quête des proportions idéales reliant le corps humain à l'ordre géométrique de l'univers. Devenu l'emblème de la Renaissance."
+            },
+            {
+              "titre": "La Vierge, l'Enfant et sainte Anne",
+              "artiste": "Léonard de Vinci",
+              "annee": "v. 1503-1519",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Virgin and Child with Saint Anne (Leonardo)",
+              "analyse": "Trois générations imbriquées en une seule pyramide de tendresse, sur fond de montagnes brumeuses. Œuvre longuement reprise, jamais tout à fait finie : le laboratoire de toutes les obsessions de Léonard, composition, sfumato, géologie, douceur des regards."
+            },
+            {
+              "titre": "L'Annonciation",
+              "artiste": "Léonard de Vinci",
+              "annee": "v. 1472-1475",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Annunciation (Leonardo)",
+              "analyse": "Œuvre de jeunesse : l'ange aux ailes étudiées comme celles d'un vrai oiseau s'agenouille dans un jardin, devant un paysage qui se perd dans la brume. Déjà la perspective atmosphérique et le souci du détail naturel qui feront sa marque."
             }
           ]
         },
@@ -321,25 +375,79 @@
           "dates": "1475-1564",
           "role": "la force et le tourment",
           "wiki": "Michelangelo",
-          "portrait": "Se voulait avant tout sculpteur. Solitaire, exigeant. Peint seul, sur le dos, le plafond Sixtine en 4 ans. Donne au corps une puissance quasi divine. Vit 88 ans.",
+          "portrait": "Michelangelo Buonarroti (1475-1564) se voulait sculpteur avant tout, mais il a dominé tous les arts de son siècle : la sculpture, la peinture, l'architecture, la poésie. Sa vie, longue et tourmentée, incarne la figure du génie solitaire arrachant ses œuvres au marbre et à lui-même — le terrible (terribilità) fait homme.",
           "bio_longue": "Michelangelo Buonarroti (1475-1564) se voulait avant tout sculpteur — il disait « libérer » la figure déjà prisonnière du bloc de marbre. Solitaire, colérique, d'une exigence terrible, il vit 88 ans et traverse les époques. Le pape Jules II le force à peindre le plafond de la chapelle Sixtine : quatre ans de souffrance, seul sur un échafaudage, la tête renversée, à peindre 300 figures — il s'en plaint en vers. Son art a une puissance, une tension dramatique (la « terribilità ») qui dépasse l'équilibre serein de ses contemporains et annonce déjà le Baroque.",
           "groupe": "École de Florence & Rome — le dessin",
           "bio_sections": [
             {
-              "h": "Le marbre dans le sang (1475-1499)",
-              "p": "Né près d'Arezzo, mis en nourrice chez un tailleur de pierre, Michel-Ange dira qu'il a « tété le marbre avec le lait ». Adolescent, il est remarqué par Laurent de Médicis, qui l'accueille dans son cercle d'humanistes à Florence. À 24 ans, à Rome, il sculpte la Pietà — la Vierge tenant le Christ mort, d'un drapé miraculeux — et la signe, la seule œuvre qu'il signera jamais : il prouve qu'on peut égaler l'Antiquité."
+              "h": "L'enfance : le lait des tailleurs de pierre",
+              "p": "Né en 1475 près d'Arezzo, Michel-Ange est confié bébé à une nourrice, femme et fille de tailleurs de pierre de Carrare. Il aimait dire qu'il avait « sucé avec le lait » le goût du ciseau et du marbre. Contre la volonté de son père, qui jugeait l'art indigne de leur famille, il s'impose dès l'enfance comme dessinateur, et entre à treize ans dans l'atelier de Ghirlandaio."
             },
             {
-              "h": "Le David et Florence (1501-1504)",
-              "p": "De retour à Florence, on lui confie un énorme bloc de marbre que d'autres avaient abandonné comme inutilisable. Il en tire le David, cinq mètres saisis à l'instant d'avant le combat. La statue devient le symbole de la petite république défiant les puissants. À ses yeux, sculpter, c'est « libérer » la figure déjà prisonnière dans la pierre."
+              "h": "Le déclic : le jardin des Médicis et l'antique",
+              "p": "Remarqué par Laurent de Médicis, il est accueilli dans le jardin de sculptures antiques des Médicis, où il étudie les marbres romains. Il y prend le goût du nu héroïque et de l'anatomie — qu'il approfondit en disséquant des cadavres. Très jeune, il sculpte une Pietà d'une perfection telle qu'on la croit d'un maître chevronné : il y grave alors son nom, seule œuvre qu'il ait jamais signée."
             },
             {
-              "h": "Le supplice de la Sixtine (1508-1512)",
-              "p": "Le pape Jules II le détourne de la sculpture pour lui imposer le plafond de la chapelle Sixtine. Quatre ans, seul, sur un échafaudage, la tête renversée, à peindre 300 figures et la Genèse — dont la Création d'Adam, ces deux doigts qui s'effleurent. Il s'en plaint en vers (« la peinture me dégouline sur le visage »), mais accomplit le plus grand cycle peint de l'histoire."
+              "h": "Le marbre : libérer la figure de la pierre",
+              "p": "Pour Michel-Ange, sculpter n'est pas ajouter mais ôter : la figure dort déjà dans le bloc, l'artiste la délivre. Son David, colosse de plus de quatre mètres taillé dans un bloc que d'autres avaient abandonné, devient le symbole de Florence et de l'homme dressé, tendu, à l'instant qui précède l'action. La beauté du corps y porte une force morale."
             },
             {
-              "h": "Le vieux lion (jusqu'en 1564)",
-              "p": "Il vit 88 ans, traversant les époques. Il revient à la Sixtine peindre un terrifiant Jugement dernier, devient l'architecte de la basilique Saint-Pierre dont il conçoit la coupole. Sa puissance, sa tension dramatique — la « terribilità » — dépassent l'équilibre serein de ses contemporains et ouvrent déjà la voie au Baroque. Il meurt à Rome, le plus respecté des artistes de son temps."
+              "h": "La Sixtine : peintre malgré lui",
+              "p": "Sommé par le pape Jules II de peindre la voûte de la chapelle Sixtine, Michel-Ange, qui se dit sculpteur, accepte en rechignant — et passe quatre ans, le cou tordu, à couvrir 500 m² de fresques. La Création d'Adam, où le doigt de Dieu effleure celui de l'homme, est devenue l'image même de l'étincelle de la vie. Trente ans plus tard, il y peint Le Jugement dernier, vision tourmentée et grandiose de la fin des temps."
+            },
+            {
+              "h": "Son moteur : la lutte et le tourment",
+              "p": "Michel-Ange travaille dans la souffrance, seul, insatisfait, en conflit avec ses commanditaires — papes et princes. Sa poésie dit le combat de l'âme prisonnière du corps et le désir de Dieu. Ses dernières sculptures (les Esclaves, les Pietà tardives) restent volontairement inachevées, comme si la figure luttait pour s'extraire de la matière. Le non finito devient un langage."
+            },
+            {
+              "h": "Pourquoi il est un titan, selon les experts",
+              "p": "Les historiens voient en lui le sommet de la Haute Renaissance et l'inventeur d'une grandeur héroïque du corps humain qui marquera trois siècles. Sa terribilità — cette puissance écrasante des formes — fascine et écrase ses successeurs : le maniérisme naît de l'impossibilité de faire aussi fort que lui. Architecte, il couronne enfin Saint-Pierre de Rome de sa coupole immense."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Léonard cherche la douceur et la fusion, Michel-Ange cherche la tension, la force, le sublime. Tout chez lui est sculptural, même peint : ses figures de la Sixtine sont des statues de chair. Profondément religieux, solitaire, irascible, il a vécu près de quatre-vingt-dix ans en se considérant toujours comme un homme « en lutte ». Aucun artiste n'a autant incarné l'idée du créateur titanesque."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Création d'Adam",
+              "artiste": "Michel-Ange",
+              "annee": "1511-1512",
+              "lieu": "Chapelle Sixtine, Vatican",
+              "wiki": "The Creation of Adam",
+              "analyse": "Au centre de la voûte, Dieu, porté par un manteau peuplé d'anges, tend la main vers Adam alangui. Les deux index ne se touchent pas tout à fait : tout l'éclair de la vie tient dans cet intervalle. L'image la plus reproduite de l'histoire de l'art."
+            },
+            {
+              "titre": "La voûte de la chapelle Sixtine",
+              "artiste": "Michel-Ange",
+              "annee": "1508-1512",
+              "lieu": "Vatican, Rome",
+              "wiki": "Sistine Chapel ceiling",
+              "analyse": "Plus de 300 figures déroulant la Genèse, peintes seul en quatre ans sur un échafaudage, le cou renversé. Une architecture peinte feinte structure des dizaines de scènes et de nus colossaux : un sommet absolu de la peinture occidentale."
+            },
+            {
+              "titre": "Le Jugement dernier",
+              "artiste": "Michel-Ange",
+              "annee": "1536-1541",
+              "lieu": "Chapelle Sixtine, Vatican",
+              "wiki": "The Last Judgment (Michelangelo)",
+              "analyse": "Sur le mur d'autel, un Christ-juge athlétique déchaîne une tempête de corps montant vers le ciel ou précipités en enfer. Peinte trente ans après la voûte, c'est une vision sombre et grandiose, fruit d'un homme vieillissant hanté par le salut."
+            },
+            {
+              "titre": "Moïse",
+              "artiste": "Michel-Ange",
+              "annee": "1513-1515",
+              "lieu": "San Pietro in Vincoli, Rome",
+              "wiki": "Moses (Michelangelo)",
+              "analyse": "Destiné au tombeau monumental de Jules II, ce Moïse assis, barbe fleuve et regard de feu, semble sur le point de se lever de colère. La terribilità de Michel-Ange dans le marbre : une présence si intense qu'elle paraît vivante."
+            },
+            {
+              "titre": "Tondo Doni",
+              "artiste": "Michel-Ange",
+              "annee": "v. 1507",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Doni Tondo",
+              "analyse": "Sa seule peinture sur panneau conservée : une Sainte Famille aux corps musculeux et torsadés, aux couleurs acides, sur fond de nus mystérieux. Déjà tout le maniérisme à venir y est en germe — la figure comme sculpture peinte."
             }
           ]
         },
@@ -348,25 +456,79 @@
           "dates": "1483-1520",
           "role": "l'harmonie incarnée",
           "wiki": "Raphael",
-          "portrait": "Le plus jeune des trois géants, mort à 37 ans. Génie de l'équilibre et de la composition. Serein là où Léonard est mystérieux et Michel-Ange tourmenté.",
+          "portrait": "Raffaello Sanzio (1483-1520) est, avec Léonard et Michel-Ange, le troisième géant de la Haute Renaissance — mais il en incarne la face heureuse : la grâce, l'harmonie, la douceur. Mort à seulement 37 ans, adulé de tous, il a fixé pour des siècles l'idéal de la beauté équilibrée.",
           "bio_longue": "Raffaello Sanzio (1483-1520) est le plus jeune des trois géants et le plus aimable : là où Léonard est mystérieux et Michel-Ange tourmenté, Raphaël est l'harmonie, la grâce, la facilité. Génie de la composition, il orchestre des dizaines de figures dans un équilibre parfait (L'École d'Athènes). Adulé, riche, entouré d'un grand atelier, il mène une vie de prince — et meurt brutalement à 37 ans, le jour de son anniversaire dit-on. Sa mort, en 1520, est souvent prise comme la fin de la Haute Renaissance.",
           "groupe": "École de Florence & Rome — le dessin",
           "bio_sections": [
             {
-              "h": "L'élève surdoué (1483-1504)",
-              "p": "Né à Urbino, petite cour raffinée, fils d'un peintre qui meurt tôt, Raphaël est un prodige d'une douceur et d'une facilité désarmantes. Il se forme auprès du Pérugin, dont il absorbe vite la grâce — puis la dépasse. Très jeune, il maîtrise déjà la composition et la couleur."
+              "h": "L'enfance : fils de peintre à Urbin",
+              "p": "Né en 1483 à Urbin, brillante cour humaniste, Raphaël est fils d'un peintre de cour qui l'initie tôt. Orphelin à onze ans, déjà d'une habileté précoce, il grandit dans un milieu raffiné qui lui donne ses manières courtoises et son sens de l'élégance. De cette enfance polie naît l'homme aimable et adoré que décriront tous ses contemporains."
             },
             {
-              "h": "Florence, la leçon des géants (1504-1508)",
-              "p": "À Florence, il étudie avidement les deux génies du moment : il prend à Léonard le sfumato et les compositions pyramidales (ses tendres Madones), et à Michel-Ange la force et l'anatomie. Là où ces deux-là sont mystère et tourment, Raphaël fait la synthèse, sereine et harmonieuse."
+              "h": "Le déclic : apprendre de tout le monde",
+              "p": "Sa force est sa capacité à absorber : élève du doux Pérugin, il en tire la grâce ; arrivé à Florence, il étudie avidement Léonard (dont il reprend la composition pyramidale et le sfumato dans ses Madones) et Michel-Ange (dont il s'approprie la force des corps). Raphaël ne copie pas : il fond ces leçons en une synthèse parfaite, plus harmonieuse que chacun de ses modèles."
             },
             {
-              "h": "Rome et les Chambres (1508-1520)",
-              "p": "Le pape Jules II l'appelle à Rome pour décorer ses appartements du Vatican. Il y peint L'École d'Athènes, où il rassemble toute la pensée antique sous une architecture parfaite — et glisse les visages de Léonard et de Michel-Ange parmi les philosophes. Adulé, riche, il dirige un atelier immense et mène une vie de prince."
+              "h": "Les Madones : la douceur incarnée",
+              "p": "Ses Vierges (La Madone du Pré, La Madone au chardonneret) sont l'image même de la tendresse maternelle, dans des compositions d'un équilibre si naturel qu'il semble aller de soi. La Madone Sixtine, avec ses deux petits anges accoudés devenus universellement célèbres, montre une Vierge qui s'avance vers nous depuis le ciel. Raphaël rend le sacré humain et accessible."
             },
             {
-              "h": "Mort à 37 ans",
-              "p": "Au sommet de la gloire, Raphaël meurt brutalement en 1520, le jour, dit-on, de son anniversaire. Sa disparition est ressentie comme la fin d'un âge d'or : la perfection qu'il incarnait paraît désormais indépassable. La génération suivante, ne pouvant faire mieux, choisira de la tordre — ce sera le maniérisme."
+              "h": "Les chambres du Vatican : peindre la pensée",
+              "p": "Le pape l'appelle à Rome décorer ses appartements. Dans L'École d'Athènes, il réunit tous les philosophes de l'Antiquité sous une architecture grandiose : Platon montre le ciel, Aristote la terre, et chaque savant occupe sa juste place dans un espace parfaitement maîtrisé. C'est le manifeste de l'humanisme : la raison et la beauté réconciliées."
+            },
+            {
+              "h": "Son moteur : l'harmonie comme idéal",
+              "p": "Là où d'autres cherchent la rupture, Raphaël cherche l'accord parfait — entre les figures, entre l'homme et l'espace, entre l'Antiquité et le christianisme. Chef d'un immense atelier, architecte de Saint-Pierre, surintendant des antiquités de Rome, il mène de front une activité colossale, porté par une facilité et une grâce qui semblent sans effort."
+            },
+            {
+              "h": "Pourquoi il est un modèle, selon les experts",
+              "p": "Pour les historiens, Raphaël définit le classicisme même : un équilibre si accompli qu'il deviendra, pendant trois siècles, la norme enseignée dans toutes les académies. « Raphaélesque » signifiera idéal de beauté. Gombrich souligne que sa perfection apparente cache un travail acharné de composition : rien n'est laissé au hasard dans cette aisance souveraine."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Ni la science inquiète de Léonard, ni la puissance tourmentée de Michel-Ange : Raphaël offre la sérénité et la clarté. Aimé de tous quand les deux autres inspiraient la crainte, il meurt jeune, à 37 ans, au sommet de sa gloire ; sa dernière œuvre, La Transfiguration, annonce déjà, par son drame et son mouvement, le baroque à venir."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Madone Sixtine",
+              "artiste": "Raphaël",
+              "annee": "1512-1513",
+              "lieu": "Gemäldegalerie, Dresde",
+              "wiki": "Sistine Madonna",
+              "analyse": "La Vierge s'avance pieds nus sur les nuages, portant l'Enfant vers le spectateur, entre deux rideaux ouverts. En bas, deux angelots accoudés, rêveurs, sont devenus l'un des motifs les plus reproduits au monde. Tendresse et majesté unies."
+            },
+            {
+              "titre": "La Madone du Pré",
+              "artiste": "Raphaël",
+              "annee": "1506",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "Madonna of the Meadow (Raphael)",
+              "analyse": "La Vierge, l'Enfant et le petit saint Jean forment une pyramide d'une douceur paisible dans un paysage clair. La leçon de composition de Léonard, transfigurée en image de pure tendresse maternelle."
+            },
+            {
+              "titre": "La Madone au chardonneret",
+              "artiste": "Raphaël",
+              "annee": "v. 1506",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Madonna of the Goldfinch",
+              "analyse": "Même équilibre pyramidal : les deux enfants caressent un chardonneret, oiseau qui annonce la Passion. La grâce souriante de Raphaël, où un présage de mort se glisse dans une scène de jeu enfantin."
+            },
+            {
+              "titre": "Portrait de Baldassare Castiglione",
+              "artiste": "Raphaël",
+              "annee": "v. 1514-1515",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Portrait of Baldassare Castiglione",
+              "analyse": "Portrait de l'ami écrivain, auteur du Courtisan : harmonie de gris, de noir et de blanc, regard direct et bienveillant. Le modèle même de l'homme cultivé de la Renaissance, qui inspirera Rembrandt et bien d'autres."
+            },
+            {
+              "titre": "La Transfiguration",
+              "artiste": "Raphaël",
+              "annee": "1516-1520",
+              "lieu": "Pinacothèque vaticane, Rome",
+              "wiki": "Transfiguration (Raphael)",
+              "analyse": "Sa dernière œuvre, posée sur son cercueil le jour de ses funérailles. Le Christ s'élève dans la lumière tandis qu'en bas s'agite une scène tourmentée et sombre. Ce contraste dramatique annonce déjà le baroque."
             }
           ]
         },
@@ -375,25 +537,79 @@
           "dates": "~1488-1576",
           "role": "le roi de la couleur (Venise)",
           "wiki": "Titian",
-          "portrait": "Domine 60 ans. Maître de la couleur et de la matière, touche de plus en plus libre avec l'âge. Peintre des rois et des papes.",
+          "portrait": "Tiziano Vecellio (v. 1488-1576) est le maître absolu de l'école vénitienne et le plus grand coloriste de son siècle. Au cours d'une carrière de plus de soixante-dix ans, il a peint pour les papes et les empereurs, et libéré la couleur et la touche d'une manière qui annonce toute la peinture moderne.",
           "bio_longue": "Tiziano Vecellio (vers 1488-1576) règne sur Venise et sur la peinture européenne pendant soixante ans. Maître absolu de la couleur et de la matière, peintre officiel de l'empereur Charles Quint (qui, dit la légende, se serait baissé pour ramasser son pinceau tombé), il peint rois, papes et déesses. Le plus frappant est son évolution : avec l'âge, sa touche se libère, se fait large, vibrante, presque abstraite de près — annonçant trois siècles à l'avance la peinture moderne.",
           "groupe": "École de Venise — la couleur",
           "bio_sections": [
             {
-              "h": "Venise, l'école de la couleur",
-              "p": "Tiziano Vecellio se forme à Venise auprès de Giovanni Bellini, puis aux côtés de Giorgione. Dans cette cité marchande baignée de lumière et d'eau, on ne jure pas par le dessin (comme à Florence) mais par la couleur : le colorito. Titien va en devenir le maître absolu."
+              "h": "L'enfance : des Dolomites à Venise",
+              "p": "Né vers 1488 dans un village des Dolomites, Titien est envoyé enfant à Venise, capitale de la couleur, pour y apprendre la mosaïque puis la peinture. Il entre dans l'atelier des Bellini et se lie au mystérieux Giorgione, dont il achève certaines œuvres après sa mort précoce. Cette Venise marchande, lumineuse, ouverte sur l'Orient, façonne tout son art."
             },
             {
-              "h": "Le règne de la couleur",
-              "p": "Avec La Vénus d'Urbin ou l'Assomption, il construit ses tableaux par taches colorées et atmosphère plutôt que par contours nets. La chair semble tiède, les étoffes vibrent, l'espace s'approfondit par accords de tons. Il domine la peinture vénitienne et européenne pendant soixante ans."
+              "h": "Le déclic : la couleur contre le dessin",
+              "p": "Venise oppose à Florence et Rome une autre voie : non le dessin (disegno) mais la couleur (colore). Titien pousse cette voie à son comble : il construit ses formes par des taches de couleur posées les unes sur les autres, sans contour préalable. Dès l'immense Assomption de la basilique des Frari, où la Vierge monte au ciel dans un tourbillon rouge et or, il s'impose comme le maître de Venise."
             },
             {
-              "h": "Peintre des rois et des papes",
-              "p": "Sa renommée est telle que l'empereur Charles Quint en fait son peintre attitré et, dit la légende, se baisse un jour pour ramasser son pinceau tombé — un honneur inouï pour un artisan. Titien peint les puissants de toute l'Europe, devenant riche et anobli."
+              "h": "Le peintre des princes",
+              "p": "Sa renommée devient européenne. Charles Quint en fait son peintre et, dit-on, ramasse lui-même un pinceau tombé : honneur inouï pour un artiste. Titien fixe l'image du pouvoir dans son Portrait équestre de Charles Quint, premier grand portrait équestre moderne, modèle de tous les portraits de souverains à venir, de Rubens à Vélasquez."
             },
             {
-              "h": "La touche libre du grand âge",
-              "p": "Le plus stupéfiant est sa vieillesse : sa touche se libère, devient large, vibrante, presque abstraite vue de près, suggestive de loin. Trois siècles avant l'impressionnisme, il invente une peinture de la matière et de la sensation. Il meurt très âgé, en 1576, légende vivante."
+              "h": "La mythologie sensuelle",
+              "p": "Pour les princes, il peint des « poésies » mythologiques d'une sensualité éclatante : Bacchus et Ariane bondissant, l'Amour sacré et profane, Diane et Actéon, et la fameuse Vénus d'Urbin, nu allongé qui inspirera Manet trois siècles plus tard. La chair, la soie, l'or y vibrent d'une vie charnelle inédite."
+            },
+            {
+              "h": "Son moteur : peindre toujours plus librement",
+              "p": "En vieillissant, Titien dissout de plus en plus la forme : ses dernières œuvres sont faites de touches épaisses, de coups de pinceau et même de doigts, qui ne prennent sens qu'à distance. « Il peignait plus avec les doigts qu'avec le pinceau », dit un témoin. Cette liberté de la matière, à 80 ans passés, est sans équivalent avant l'impressionnisme."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Les historiens font de Titien le père d'une tradition entière : celle de la peinture-couleur, de la touche visible, opposée à la peinture-dessin. De Rubens à Vélasquez, de Rembrandt à Delacroix et Manet, tous se réclament de lui. Gombrich souligne qu'il a, le premier, fait de la matière picturale elle-même un sujet de plaisir."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Titien ne cherche pas la ligne pure mais la vibration de la lumière sur les choses. Là où les Florentins sculptent dans la couleur, lui peint l'air, la chair, le velours. Sa longévité exceptionnelle lui a permis de traverser et de dominer trois générations. Il meurt très vieux, peut-être de la peste, en pleine activité, laissant une Pietà inachevée."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Assomption de la Vierge",
+              "artiste": "Titien",
+              "annee": "1516-1518",
+              "lieu": "Basilique des Frari, Venise",
+              "wiki": "Assumption of the Virgin (Titian)",
+              "analyse": "Immense retable où la Vierge s'élève dans un tourbillon de nuées rouges et dorées, portée par des anges, tandis que les apôtres lèvent les bras. La couleur seule crée le mouvement ascensionnel. L'œuvre qui sacre Titien maître de Venise."
+            },
+            {
+              "titre": "Amour sacré et profane",
+              "artiste": "Titien",
+              "annee": "v. 1514",
+              "lieu": "Galerie Borghèse, Rome",
+              "wiki": "Sacred and Profane Love",
+              "analyse": "Deux femmes — l'une vêtue, l'autre nue — encadrent une fontaine dans un paysage doré du soir. Allégorie raffinée des deux amours, terrestre et céleste, baignée de la lumière chaude qui fait la signature de Titien."
+            },
+            {
+              "titre": "Bacchus et Ariane",
+              "artiste": "Titien",
+              "annee": "1522-1523",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Bacchus and Ariadne",
+              "analyse": "Bacchus bondit de son char vers Ariane abandonnée, dans une explosion de bleu outremer et de mouvement. Énergie, couleur et joie païenne : la mythologie devient spectacle vivant. L'un des plus beaux bleus de toute la peinture."
+            },
+            {
+              "titre": "Portrait équestre de Charles Quint",
+              "artiste": "Titien",
+              "annee": "1548",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "Equestrian Portrait of Charles V",
+              "analyse": "L'empereur, en armure, surgit au crépuscule sur son cheval, lance au poing, après la victoire de Mühlberg. Premier grand portrait équestre moderne, il fixe pour des siècles l'image du souverain triomphant."
+            },
+            {
+              "titre": "Diane et Actéon",
+              "artiste": "Titien",
+              "annee": "1556-1559",
+              "lieu": "National Gallery, Londres / Édimbourg",
+              "wiki": "Diana and Actaeon (Titian)",
+              "analyse": "Le chasseur Actéon surprend Diane et ses nymphes au bain — instant qui causera sa perte. Chair nacrée, étoffes somptueuses, touche déjà libre : une des « poésies » mythologiques peintes pour Philippe II."
             }
           ]
         },
@@ -402,25 +618,79 @@
           "dates": "1471-1528",
           "role": "le pont Nord-Sud",
           "wiki": "Albrecht Dürer",
-          "portrait": "Allemand, ramène la Renaissance au Nord. Génie de la gravure diffusée en masse. Se peint en personnage noble : la nouvelle fierté de l'artiste.",
+          "portrait": "Albrecht Dürer (1471-1528), de Nuremberg, est le plus grand artiste de la Renaissance du Nord et le premier à porter l'idéal humaniste italien dans le monde germanique. Génie du dessin et de la gravure, théoricien, il fut aussi le premier artiste à se penser et à se peindre comme un créateur à part entière.",
           "bio_longue": "Albrecht Dürer (1471-1528), de Nuremberg, est l'homme qui fait entrer la Renaissance en Allemagne. Fasciné par l'Italie, il en rapporte la science des proportions et de la perspective, qu'il fusionne avec le génie nordique du détail. Surtout, il est un maître de la gravure : un art reproductible, diffusé en masse à travers l'Europe — ce qui fait de lui le premier artiste véritablement célèbre de son vivant à l'échelle du continent. Dans ses autoportraits, il se représente en personnage noble, presque christique : l'affirmation éclatante de la nouvelle dignité de l'artiste.",
           "groupe": "Renaissance du Nord — le détail",
           "bio_sections": [
             {
-              "h": "Nuremberg, fils d'orfèvre",
-              "p": "Albrecht Dürer naît à Nuremberg, fils d'orfèvre, et hérite très tôt d'une précision de main extraordinaire. Prodige, il se peint lui-même dès l'adolescence — début d'une longue série d'autoportraits, chose neuve à l'époque."
+              "h": "L'enfance : fils d'orfèvre à Nuremberg",
+              "p": "Né en 1471, Albrecht est le fils d'un orfèvre hongrois installé à Nuremberg, brillante cité marchande et intellectuelle. Formé d'abord au burin dans l'atelier paternel, il acquiert cette précision du trait qui fera sa gloire. À treize ans, il se dessine déjà lui-même à la pointe d'argent — premier signe d'une conscience de soi inouïe pour l'époque."
             },
             {
-              "h": "Le voyage en Italie",
-              "p": "Fasciné par l'art italien, il franchit les Alpes et en rapporte la science des proportions, de la perspective et de l'anatomie. Il fusionne cette rigueur méridionale avec le génie nordique du détail minutieux — un pont unique entre les deux mondes."
+              "h": "Le déclic : le voyage en Italie",
+              "p": "Jeune homme, Dürer franchit les Alpes pour gagner Venise. Il y découvre la perspective, les proportions, la dignité nouvelle de l'artiste italien — traité en savant, non en artisan. Il rapporte au Nord cette ambition : unir la minutie flamande du détail à la science italienne de la construction. C'est le choc fondateur de sa vie."
             },
             {
-              "h": "Le génie de la gravure",
-              "p": "Sa vraie révolution est la gravure : un art reproductible, diffusé en masse à travers l'Europe. Des chefs-d'œuvre comme Melencolia I circulent partout, faisant de lui le premier artiste véritablement célèbre du continent de son vivant — une « marque » avant l'heure."
+              "h": "La gravure : diffuser l'art partout",
+              "p": "Dürer porte la gravure sur bois et sur cuivre à une perfection jamais atteinte. Par l'estampe, reproductible et diffusable, son art voyage dans toute l'Europe et le rend célèbre et riche sans dépendre d'un seul prince. Ses trois « Meisterstiche » — Le Chevalier, la Mort et le Diable, Saint Jérôme, et Melencolia I — sont des sommets de pensée gravée."
             },
             {
-              "h": "La fierté de l'artiste",
-              "p": "Dans son autoportrait de 1500, Dürer se représente de face, presque en Christ — affirmation éclatante d'une idée neuve : l'artiste n'est plus un artisan anonyme, mais un créateur, un esprit. Il incarne au Nord la nouvelle dignité de l'artiste que la Renaissance impose."
+              "h": "Son moteur : comprendre les lois de la beauté",
+              "p": "Comme Léonard, Dürer veut fonder l'art en science. Il étudie sans relâche les proportions du corps humain, la perspective, et publie des traités théoriques. Son célèbre Jeune Lièvre et sa Grande Touffe d'herbes montrent une observation de la nature d'une exactitude presque scientifique : le moindre brin d'herbe est étudié comme un monde."
+            },
+            {
+              "h": "Le message : l'artiste, créateur à l'image de Dieu",
+              "p": "Dürer affirme, par ses autoportraits, une idée révolutionnaire : l'artiste est un créateur, non un simple artisan. Son Autoportrait de 1500 le montre de face, dans une pose réservée jusque-là au Christ, signé d'un monogramme fier. C'est l'un des premiers manifestes de la dignité de l'artiste dans l'histoire occidentale."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Pour les historiens, Dürer est le pont entre deux mondes : il fait entrer la Renaissance dans l'art allemand et élève la gravure au rang d'art majeur. Gombrich souligne qu'aucun artiste du Nord n'a su, comme lui, allier la rigueur intellectuelle italienne à la richesse expressive germanique. Proche de Luther, il vit aussi les déchirements de la Réforme."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où les Italiens cherchent l'idéal, Dürer ne renonce jamais au détail concret, à la touffe d'herbe, au poil du lièvre, à la ride du visage. Sa puissance est dans le trait — net, nerveux, infiniment descriptif. Premier artiste « moderne » par sa conscience de soi et sa renommée internationale, il signe ses œuvres d'un monogramme devenu une marque."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Autoportrait à la fourrure",
+              "artiste": "Albrecht Dürer",
+              "annee": "1500",
+              "lieu": "Alte Pinakothek, Munich",
+              "wiki": "Self-Portrait (Dürer, Munich)",
+              "analyse": "Dürer se représente de face, frontal et solennel, dans une pose réservée au Christ, la main levée comme pour bénir. Affirmation inouïe de la dignité de l'artiste-créateur. L'un des autoportraits les plus audacieux de l'histoire."
+            },
+            {
+              "titre": "Melencolia I",
+              "artiste": "Albrecht Dürer",
+              "annee": "1514",
+              "lieu": "gravure (nombreux musées)",
+              "wiki": "Melencolia I",
+              "analyse": "Une figure ailée songe, entourée d'instruments de géométrie et de savoir inutilisés, sous un carré magique. Énigme gravée sur la mélancolie du génie créateur, incapable d'atteindre la perfection qu'il conçoit. Sommet de l'estampe."
+            },
+            {
+              "titre": "Le Chevalier, la Mort et le Diable",
+              "artiste": "Albrecht Dürer",
+              "annee": "1513",
+              "lieu": "gravure (nombreux musées)",
+              "wiki": "Knight, Death and the Devil",
+              "analyse": "Un chevalier chrétien avance, imperturbable, entre la Mort brandissant un sablier et un Diable grotesque. Allégorie de la foi inébranlable face à la peur. Virtuosité absolue du burin."
+            },
+            {
+              "titre": "Le Jeune Lièvre",
+              "artiste": "Albrecht Dürer",
+              "annee": "1502",
+              "lieu": "Albertina, Vienne",
+              "wiki": "Young Hare",
+              "analyse": "Étude à l'aquarelle d'un lièvre, d'une précision stupéfiante : chaque poil, le reflet de la fenêtre dans l'œil. L'observation de la nature poussée à la perfection scientifique."
+            },
+            {
+              "titre": "Adam et Ève",
+              "artiste": "Albrecht Dürer",
+              "annee": "1504",
+              "lieu": "gravure (nombreux musées)",
+              "wiki": "Adam and Eve (Dürer)",
+              "analyse": "Gravure où Dürer applique au corps humain ses recherches sur les proportions idéales, à l'italienne, dans un jardin d'Éden peuplé d'animaux symboliques. La science du nu antique transplantée dans le Nord."
             }
           ]
         },
@@ -1528,24 +1798,86 @@
           "dates": "1571-1610",
           "role": "",
           "wiki": "Caravaggio",
-          "portrait": "Révolutionnaire et violent (meurtrier en fuite). Invente le ténébrisme et le réalisme sacré. Influence toute l'Europe.",
+          "portrait": "Michelangelo Merisi da Caravaggio (1571-1610) a fait irruption dans la peinture comme un coup de tonnerre : il a chassé l'idéal pour le réel le plus cru, plongé ses scènes sacrées dans une nuit déchirée de lumière, et mené une vie de violence qui s'est achevée en fuite. En quinze ans, il a changé le cours de la peinture européenne.",
           "bio_longue": "Caravaggio (1571-1610) est le génie maudit de la peinture. Coléreux, bagarreur, il fréquente les bas-fonds de Rome qu'il fait poser comme saints et madones — au grand scandale de l'Église, qui refuse parfois ses toiles trop crues. En 1606, il tue un homme lors d'une rixe et doit fuir : Naples, Malte, la Sicile, toujours en cavale, peignant des chefs-d'œuvre de plus en plus sombres et déchirants. Il meurt à 38 ans sur une plage, dans des circonstances obscures, en tentant de regagner Rome où l'attendait une grâce papale. Son ténébrisme a changé la peinture européenne pour un siècle.",
           "bio_sections": [
             {
-              "h": "Milan, Rome, la rue",
-              "p": "Caravaggio arrive jeune et pauvre à Rome. Coléreux, bagarreur, il fréquente les bas-fonds — et les fait poser. Ses saints et ses madones ont les visages, les pieds sales et les vêtements du peuple, ce qui scandalise autant que cela bouleverse."
+              "h": "L'enfance : la peste et Milan",
+              "p": "Né en 1571 près de Milan, le jeune Michelangelo Merisi perd son père et plusieurs proches dans une épidémie de peste. Orphelin tôt, formé à Milan où il voit les œuvres réalistes lombardes et les nuits de Léonard, il porte en lui, dès l'enfance, une familiarité avec la mort et la misère qui hantera toute son œuvre."
             },
             {
-              "h": "Le ténébrisme",
-              "p": "Sa révolution tient en un effet : le ténébrisme. Il plonge ses scènes dans le noir et fait jaillir une lumière crue, latérale, comme un projecteur. Dans La Vocation de saint Matthieu, un rayon traverse une taverne et « désigne » l'élu : la lumière fait tout le drame."
+              "h": "Le déclic : Rome, la rue, le vrai",
+              "p": "Arrivé à Rome jeune et pauvre, il peint d'abord des garçons, des fruits, des joueurs de cartes — d'un réalisme saisissant. Son parti pris est radical : peindre des gens vrais, ramassés dans la rue, avec leurs pieds sales et leurs rides, comme modèles des saints et des apôtres. Le sacré descend du ciel idéal vers le peuple réel."
             },
             {
-              "h": "Le meurtrier en fuite",
-              "p": "En 1606, il tue un homme lors d'une rixe et doit fuir Rome. Commence une cavale — Naples, Malte, la Sicile — où il peint des chefs-d'œuvre de plus en plus sombres et déchirants, traqué et malade."
+              "h": "Le clair-obscur : la lumière qui frappe",
+              "p": "Sa grande invention est le ténébrisme : un fond de nuit dense, déchiré par un faisceau de lumière violente qui sculpte les visages et les mains. Dans La Vocation de saint Matthieu, un rayon traverse la pénombre d'une taverne au moment où le Christ désigne le publicain. La lumière devient grâce, l'ombre devient drame."
             },
             {
-              "h": "Mort à 38 ans, gloire immense",
-              "p": "Il meurt en 1610 sur une plage, dans des circonstances obscures, en tentant de regagner Rome où l'attendait une grâce. Son réalisme et sa lumière changent la peinture européenne pour un siècle : on parlera de « caravagisme » de Naples à Utrecht."
+              "h": "Son moteur : la vérité, fût-elle scandaleuse",
+              "p": "Caravage refuse d'embellir. Sa Mort de la Vierge, où Marie a le corps gonflé d'une vraie noyée (le modèle, dit-on, était une prostituée repêchée du Tibre), fait scandale et est refusée. Pour lui, la foi se joue dans la chair réelle, la pauvreté, la mort sans fard. Cette intransigeance lui vaut des refus retentissants autant que des admirateurs fervents."
+            },
+            {
+              "h": "Le message : le sacré dans les ténèbres",
+              "p": "Au moment où l'Église catholique, par la Contre-Réforme, veut toucher le cœur des fidèles, Caravage offre des images bouleversantes d'humanité : un Christ aux pieds sales, des saints suppliciés filmés au plus près, un David qui contemple, mélancolique, la tête tranchée de Goliath — un autoportrait du peintre en monstre vaincu."
+            },
+            {
+              "h": "Pourquoi il est révolutionnaire, selon les experts",
+              "p": "Les historiens font de Caravage l'origine de toute une révolution européenne : le « caravagisme ». Sa lumière et son réalisme essaiment partout — Ribera et Zurbarán en Espagne, Georges de La Tour en France, et surtout Rembrandt en Hollande. Gombrich note qu'il a, le premier, osé montrer le sacré sous les traits crus de la rue."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Sa vie est aussi noire que ses tableaux : bagarreur, il tue un homme lors d'une rixe, est condamné à mort, fuit de Rome à Naples, Malte et la Sicile, peignant des chefs-d'œuvre en cavale. Il meurt à 38 ans sur une plage, fiévreux, en tentant de regagner Rome pour obtenir sa grâce. Génie maudit avant la lettre, il incarne l'artiste révolté."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Judith décapitant Holopherne",
+              "artiste": "Caravage",
+              "annee": "v. 1599",
+              "lieu": "Galerie nationale d'art ancien, Rome",
+              "wiki": "Judith Beheading Holofernes (Caravaggio)",
+              "analyse": "Surgissant de l'ombre, la jeune Judith tranche, le visage à la fois résolu et dégoûté, la gorge d'Holopherne dont le sang jaillit. Réalisme brutal et lumière de scène : la violence regardée en face, sans héroïsme idéalisé."
+            },
+            {
+              "titre": "David et la tête de Goliath",
+              "artiste": "Caravage",
+              "annee": "v. 1609-1610",
+              "lieu": "Galerie Borghèse, Rome",
+              "wiki": "David with the Head of Goliath (Caravaggio, Rome)",
+              "analyse": "David brandit la tête tranchée du géant — et ce visage de Goliath est l'autoportrait du peintre vieillissant et traqué. Tableau-confession, sans doute peint pour obtenir sa grâce : la peinture comme aveu et supplication."
+            },
+            {
+              "titre": "La Mort de la Vierge",
+              "artiste": "Caravage",
+              "annee": "1604-1606",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Death of the Virgin (Caravaggio)",
+              "analyse": "Marie est étendue, pieds nus et ventre gonflé, comme une pauvre femme morte ; les apôtres pleurent dans la pénombre. Le réalisme jugé indécent fit refuser l'œuvre — mais Rubens conseilla aussitôt de l'acheter. Le sacré ramené à la chair."
+            },
+            {
+              "titre": "Bacchus",
+              "artiste": "Caravage",
+              "annee": "v. 1596",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Bacchus (Caravaggio)",
+              "analyse": "Un jeune homme aux joues empourprées, couronné de pampres, tend une coupe de vin — dieu antique joué par un garçon bien réel, aux ongles sales et au regard trouble. La mythologie ramenée au modèle de la rue."
+            },
+            {
+              "titre": "L'Incrédulité de saint Thomas",
+              "artiste": "Caravage",
+              "annee": "v. 1601-1602",
+              "lieu": "Sanssouci, Potsdam",
+              "wiki": "The Incredulity of Saint Thomas (Caravaggio)",
+              "analyse": "Thomas enfonce littéralement son doigt dans la plaie du Christ, front plissé, pour croire. Gros plan brutal, fronts ridés, lumière dure : la foi mise à l'épreuve du toucher, du corps, du réel."
+            },
+            {
+              "titre": "Méduse",
+              "artiste": "Caravage",
+              "annee": "v. 1597",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Medusa (Caravaggio)",
+              "analyse": "Peinte sur un bouclier de parade, la tête de Méduse hurle à l'instant de sa décollation, serpents dressés, sang giclant. Un cri figé : Caravage capte l'horreur au moment exact où elle bascule."
             }
           ]
         },
@@ -1626,24 +1958,70 @@
           "dates": "1577-1640",
           "role": "",
           "wiki": "Peter Paul Rubens",
-          "portrait": "Flandre ; énergie, chair, couleur, immense atelier ; aussi diplomate. Le baroque triomphant.",
+          "portrait": "Pierre Paul Rubens (1577-1640) est le prince du baroque, le peintre le plus prospère et le plus puissant de son temps. Diplomate, érudit, chef d'un atelier-entreprise immense, il a déployé une énergie, une couleur et une exubérance charnelle qui font de lui le maître absolu du mouvement et de la vie.",
           "bio_longue": "Pierre Paul Rubens (1577-1640) est le prince des peintres baroques du Nord, et l'un des hommes les plus brillants de son temps : peintre prodigieux, mais aussi diplomate de haut vol, érudit, collectionneur, parlant six langues. Son atelier d'Anvers fonctionne comme une grande entreprise : il conçoit, ses assistants (dont le jeune Van Dyck) exécutent, lui retouche. Il inonde l'Europe de retables, de cycles royaux et de mythologies sensuelles, peuplés de corps opulents et de couleurs éclatantes. Anobli par deux rois, il meurt riche et comblé.",
           "bio_sections": [
             {
-              "h": "Anvers, le peintre-diplomate",
-              "p": "Pierre Paul Rubens est l'un des hommes les plus brillants de son temps : peintre de génie, mais aussi érudit, collectionneur, diplomate de haut vol parlant six langues. Il sert les cours d'Europe autant par ses pinceaux que par ses missions secrètes."
+              "h": "L'enfance : l'exil et le retour à Anvers",
+              "p": "Né en 1577 en Allemagne, où son père protestant s'était exilé, Rubens revient enfant à Anvers, redevenue catholique. Élevé dans une bonne éducation humaniste, parlant plusieurs langues, il garde de cette enfance d'exilé une aisance dans tous les milieux et une culture classique qui nourrira toute son œuvre mythologique et religieuse."
             },
             {
-              "h": "Le baroque triomphant",
-              "p": "Sa peinture déborde d'énergie : compositions tourbillonnantes, couleurs chaudes, corps charnels et opulents, mouvement emporté. La Descente de croix ou ses grands cycles allégoriques incarnent le Baroque catholique dans sa version la plus exubérante et sensuelle."
+              "h": "Le déclic : huit ans en Italie",
+              "p": "Jeune peintre, Rubens passe huit années en Italie au service du duc de Mantoue. Il y étudie Titien (dont il prend la couleur), Michel-Ange (la puissance des corps), Caravage et l'Antiquité. Il revient à Anvers gorgé de cette double leçon — la chair vénitienne et l'énergie romaine — et s'impose aussitôt comme le premier peintre des Flandres."
             },
             {
               "h": "L'atelier-entreprise",
-              "p": "Pour répondre à une demande européenne immense, il dirige à Anvers un atelier qui fonctionne comme une industrie : il conçoit et esquisse, des dizaines d'assistants (dont le jeune Van Dyck) exécutent, lui retouche. Une véritable « marque » Rubens."
+              "p": "Submergé de commandes, Rubens organise un atelier comme une véritable manufacture : il conçoit l'œuvre, peint l'esquisse colorée et les parties essentielles, et de nombreux assistants — dont le jeune Van Dyck — exécutent le reste sous sa direction. Cette organisation lui permet de produire une quantité prodigieuse de retables, de plafonds et de cycles monumentaux."
             },
             {
-              "h": "Anobli et comblé",
-              "p": "Anobli par deux rois, riche, heureux en famille, Rubens meurt en 1640 au sommet de la gloire. Il aura fourni toute l'Europe en retables, mythologies et portraits, et incarné le peintre-prince de l'âge baroque."
+              "h": "Son moteur : l'énergie et l'abondance de la vie",
+              "p": "Tout chez Rubens est mouvement, élan, débordement : chairs roses et généreuses, chevaux cabrés, étoffes tourbillonnantes, drames passionnés. L'Enlèvement des filles de Leucippe est un nœud de corps en pleine torsion ; Le Jardin d'amour, une fête sensuelle. Il célèbre la plénitude charnelle du monde avec une joie communicative."
+            },
+            {
+              "h": "Le message : la foi triomphante et la paix",
+              "p": "Peintre de la Contre-Réforme, Rubens donne à l'Église des images glorieuses et émouvantes (Descente de croix, grandes Assomptions). Mais, diplomate œuvrant pour la paix entre les nations, il peint aussi des allégories pacifistes comme Les Conséquences de la guerre, où Mars déchaîné est retenu par Vénus : un cri contre la barbarie des conflits qui ravageaient l'Europe."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Les historiens voient en Rubens l'incarnation parfaite du baroque : le mouvement, la couleur, la sensualité portés à leur comble. Son influence est immense — Van Dyck, Watteau, Delacroix, Renoir descendent tous de sa peinture-couleur. Gombrich rappelle qu'il fut aussi un homme heureux et accompli, rare contre-exemple du mythe de l'artiste maudit."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Caravage est nuit et drame, Rubens est lumière, mouvement et abondance. Anobli par deux rois, riche, cultivé, marié à la jeune Hélène Fourment qu'il peint avec tendresse (Het Pelsken), il mène une vie de réussite éclatante. Sa touche colorée et son sens du mouvement font de lui le grand passeur entre Titien et la peinture moderne."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Enlèvement des filles de Leucippe",
+              "artiste": "Rubens",
+              "annee": "v. 1618",
+              "lieu": "Alte Pinakothek, Munich",
+              "wiki": "The Rape of the Daughters of Leucippus",
+              "analyse": "Les Dioscures enlèvent deux jeunes femmes dans un entrelacs de corps, de chevaux cabrés et de chairs nacrées. Composition en spirale, pleine d'énergie : le mouvement baroque à son comble, sans haut ni bas fixes."
+            },
+            {
+              "titre": "Le Jardin d'amour",
+              "artiste": "Rubens",
+              "annee": "v. 1633",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Garden of Love",
+              "analyse": "Des couples élégants se courtisent dans un jardin baroque, poussés par des amours. Fête galante avant l'heure, peinte au temps de son bonheur avec Hélène Fourment : la célébration joyeuse de l'amour et de l'abondance."
+            },
+            {
+              "titre": "Les Conséquences de la guerre",
+              "artiste": "Rubens",
+              "annee": "1638-1639",
+              "lieu": "Palais Pitti, Florence",
+              "wiki": "Consequences of War",
+              "analyse": "Mars, dieu de la guerre, est entraîné vers le carnage malgré Vénus qui le retient ; l'Europe éplorée lève les bras. Allégorie pacifiste peinte par le diplomate Rubens, horrifié par la guerre de Trente Ans qui ravage le continent."
+            },
+            {
+              "titre": "Hélène Fourment (Het Pelsken)",
+              "artiste": "Rubens",
+              "annee": "v. 1638",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "Het Pelsken",
+              "analyse": "Sa jeune épouse, nue, à peine drapée d'un manteau de fourrure, surprise comme dans l'intimité. Tendresse et sensualité d'un mari amoureux : un nu vivant, charnel, sans prétexte mythologique."
             }
           ]
         },
@@ -1675,24 +2053,78 @@
           "dates": "1599-1660",
           "role": "",
           "wiki": "Diego Velázquez",
-          "portrait": "Peintre du roi d'Espagne ; réalisme souverain, touche libre.",
+          "portrait": "Diego Velázquez (1599-1660) est le plus grand peintre du Siècle d'or espagnol et le portraitiste de la cour de Philippe IV. Maître d'une touche libre et d'une vérité sans flatterie, il a peint rois et bouffons avec la même dignité, et signé en Les Ménines l'un des tableaux les plus mystérieux de l'histoire.",
           "bio_longue": "Diego Vélasquez (1599-1660) passe presque toute sa carrière au service d'un seul homme : Philippe IV d'Espagne, dont il devient le peintre et l'ami, gravissant les échelons de la cour. Il peint la famille royale, les bouffons et les nains du palais avec une égale et bouleversante dignité. Sa touche, d'une liberté inouïe pour l'époque, fascinera les modernes — Manet le nommera « le peintre des peintres ». Les Ménines, son testament, le montre lui-même au travail, mêlant le réel, le reflet et le regard dans une énigme jamais épuisée.",
           "bio_sections": [
             {
-              "h": "Séville, puis la cour du roi",
-              "p": "Diego Vélasquez se révèle jeune à Séville, puis monte à Madrid où il devient le peintre de Philippe IV — et son ami. Il passera presque toute sa carrière au service d'un seul homme, gravissant les échelons de la cour."
+              "h": "L'enfance : Séville, ville de peinture",
+              "p": "Né en 1599 à Séville, port le plus riche d'Espagne ouvert sur les Amériques, Diego entre tout jeune en apprentissage chez le peintre Pacheco, dont il épousera la fille. Dans cette Séville foisonnante, il peint d'abord des scènes populaires (bodegones) — cuisinières, porteurs d'eau, vieilles femmes — d'un réalisme sombre et puissant, hérité de Caravage."
             },
             {
-              "h": "Le réalisme souverain",
-              "p": "Il peint la famille royale, mais aussi les bouffons et les nains du palais, avec une égale et bouleversante dignité. Sa touche, d'une liberté inouïe pour l'époque, n'est de près qu'un jeu de taches qui, à distance, devient la réalité même."
+              "h": "Le déclic : peintre du roi à Madrid",
+              "p": "À 24 ans, son portrait du jeune roi Philippe IV séduit la cour : il est nommé peintre du roi et s'installe à Madrid pour la vie. Il y découvre les Titien de la collection royale, qui transforment sa manière : sa palette s'éclaircit, sa touche se libère. La rencontre avec Rubens, de passage, l'encourage à voyager en Italie."
             },
             {
-              "h": "Les Ménines, l'énigme du regard",
-              "p": "Son testament, Les Ménines, le montre lui-même au travail, mêlant l'infante, ses suivantes, le couple royal reflété dans un miroir, et nous, spectateurs, pris dans le jeu. Un sommet d'intelligence sur la peinture et le regard."
+              "h": "La touche : peindre l'air et l'instant",
+              "p": "Velázquez peint de plus en plus librement, par touches juxtaposées qui, vues de près, semblent informes, mais qui de loin recomposent la soie, le reflet, la chair, l'atmosphère même d'une pièce. Il ne peint pas les choses mais la lumière sur les choses — anticipant l'impressionnisme de deux siècles. Les Fileuses en sont l'exemple vertigineux."
             },
             {
-              "h": "« Le peintre des peintres »",
-              "p": "Sa modernité fascinera les siècles suivants : Manet le nommera « le peintre des peintres ». Discret, souverain, Vélasquez reste l'un des plus grands de toute l'histoire de l'art."
+              "h": "Son moteur : la vérité et la dignité de chacun",
+              "p": "Portraitiste officiel, Velázquez ne flatte pas : il montre les rois avec leur mâchoire lourde, et surtout il peint les nains, les bouffons et les « monstres » de la cour avec une humanité et une gravité bouleversantes, leur rendant pleine dignité. Aucun peintre n'a regardé les humbles de la cour avec autant de respect."
+            },
+            {
+              "h": "Le message : qui regarde qui ? — Les Ménines",
+              "p": "Dans Les Ménines, Velázquez se peint lui-même devant sa toile, entouré de l'infante et de sa suite, tandis que le roi et la reine n'apparaissent que dans un miroir au fond. Qui est le sujet ? Qui regarde ? Le tableau interroge le regard, la peinture et le pouvoir, et place l'artiste, palette en main, au cœur de la cour."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Pour les historiens, Velázquez est le « peintre des peintres ». Sa touche libre fascine Manet, qui le proclame « le plus grand peintre qui ait jamais existé », et les impressionnistes y voient un ancêtre. Gombrich admire sa capacité à peindre l'apparence pure — non ce qu'on sait des choses, mais ce que l'œil en perçoit réellement."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Rubens déborde d'énergie et Caravage de drame, Velázquez offre une retenue, une distance, un silence aristocratique. Homme posé, fonctionnaire de cour anobli sur le tard, il a peint peu mais juste. Son Portrait d'Innocent X, d'une vérité presque cruelle, fit dire au pape lui-même : « troppo vero » — trop vrai."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Portrait du pape Innocent X",
+              "artiste": "Vélasquez",
+              "annee": "1650",
+              "lieu": "Galerie Doria-Pamphilj, Rome",
+              "wiki": "Portrait of Innocent X",
+              "analyse": "Le pape, en rouge éclatant, fixe le spectateur d'un œil méfiant et dur. Vérité psychologique si crue qu'Innocent X jugea l'œuvre « troppo vero » — trop vraie. Sommet du portrait de pouvoir, qui obsédera Francis Bacon trois siècles plus tard."
+            },
+            {
+              "titre": "La Reddition de Breda",
+              "artiste": "Vélasquez",
+              "annee": "1634-1635",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Surrender of Breda",
+              "analyse": "Le vainqueur espagnol pose la main sur l'épaule du vaincu hollandais qui lui tend les clés de la ville, sans humiliation. Tableau d'histoire où la victoire se fait courtoisie : une leçon de noblesse, sous la forêt de lances dressées."
+            },
+            {
+              "titre": "La Vénus au miroir",
+              "artiste": "Vélasquez",
+              "annee": "v. 1647-1651",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Rokeby Venus",
+              "analyse": "Rare nu de l'Espagne dévote : Vénus allongée de dos contemple son reflet flou tendu par Cupidon. Courbe sensuelle et touche d'une liberté inouïe. Le seul nu féminin conservé de Velázquez."
+            },
+            {
+              "titre": "Les Fileuses",
+              "artiste": "Vélasquez",
+              "annee": "v. 1657",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "Las Hilanderas",
+              "analyse": "Des fileuses travaillent au premier plan tandis qu'au fond se joue le mythe d'Arachné. La touche se dissout en pur frémissement de lumière — un rouet en mouvement n'est qu'un voile flou. Anticipation stupéfiante de l'impressionnisme."
+            },
+            {
+              "titre": "Le Triomphe de Bacchus (Les Buveurs)",
+              "artiste": "Vélasquez",
+              "annee": "v. 1628-1629",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Triumph of Bacchus",
+              "analyse": "Bacchus couronne des paysans ivres et hilares, joués par de vrais hommes du peuple. Le dieu antique descend parmi les buveurs réels : mythologie et réalisme espagnol fondus avec un humour tendre."
             }
           ]
         },
@@ -1948,24 +2380,78 @@
           "dates": "1606-1669",
           "role": "",
           "wiki": "Rembrandt",
-          "portrait": "Le géant : lumière intérieure, profondeur psychologique, maître de la gravure aussi. Gloire puis faillite ; ses dernières œuvres, plus sombres, sont les plus profondes.",
+          "portrait": "Rembrandt van Rijn (1606-1669) est le plus grand peintre de l'âge d'or hollandais et l'un des plus profonds de tous les temps. Maître du clair-obscur et de l'âme humaine, il a connu la gloire puis la ruine, et n'a cessé de se peindre lui-même, traçant sur quarante ans le portrait le plus intime jamais peint d'un homme.",
           "bio_longue": "Rembrandt van Rijn (1606-1669) est le géant de l'âge d'or hollandais. Jeune, il connaît la gloire et la fortune à Amsterdam, peintre couru, marié à l'aimée Saskia. Puis tout s'effondre : Saskia meurt, les goûts changent, ses dépenses le ruinent, il fait faillite et finit dans une relative misère. Mais ses œuvres tardives, plus sombres, plus libres, plus profondes, sont les plus grandes. Maître aussi de l'eau-forte (la gravure), il scrute son propre visage toute sa vie en une centaine d'autoportraits, sans jamais se flatter : le peintre de l'âme humaine.",
           "bio_sections": [
             {
-              "h": "Amsterdam, la gloire précoce",
-              "p": "Rembrandt van Rijn connaît jeune le succès et la fortune à Amsterdam : peintre couru, marié à l'aimée Saskia, collectionneur fastueux. Tout semble lui réussir."
+              "h": "L'enfance : le fils du meunier de Leyde",
+              "p": "Né en 1606 à Leyde, Rembrandt est le fils d'un meunier prospère. Destiné aux études, il quitte vite l'université pour la peinture. Dans cette Hollande calviniste, marchande et libre, sans cour ni grande commande religieuse, l'art s'adresse à une clientèle bourgeoise : c'est ce monde de drapiers et de notables qu'il va peindre et magnifier."
             },
             {
-              "h": "La lumière de l'âme",
-              "p": "Il prend les genres commerciaux — portrait de groupe, scène biblique — et les transfigure par une lumière dramatique venue de l'ombre, et surtout par une profondeur psychologique inédite. La Ronde de nuit en est l'exemple éclatant."
+              "h": "Le déclic : Amsterdam et la gloire",
+              "p": "Jeune, il s'installe à Amsterdam, capitale du commerce mondial, et triomphe d'emblée avec La Leçon d'anatomie du docteur Tulp, portrait de groupe d'une vie saisissante. Les commandes affluent, il épouse Saskia, riche et aimée, achète une grande maison : c'est l'apogée de la réussite, célébrée dans des autoportraits fastueux."
             },
             {
-              "h": "La chute",
-              "p": "Puis tout s'effondre : Saskia meurt, les goûts changent, ses dépenses le ruinent, il fait faillite. Mais ses œuvres tardives, plus sombres et dépouillées, sont les plus profondes."
+              "h": "Le clair-obscur : la lumière de l'âme",
+              "p": "Héritier lointain de Caravage, Rembrandt fait de l'ombre dorée et de la lumière son langage. Mais chez lui la lumière n'éclaire pas seulement les corps : elle révèle l'intériorité, le doute, la tendresse, la méditation. La Ronde de nuit, immense portrait de groupe en mouvement, baigne dans cette lumière théâtrale qui fait surgir les figures de la pénombre."
             },
             {
-              "h": "Les autoportraits et l'eau-forte",
-              "p": "Maître aussi de la gravure (l'eau-forte), il scrute son propre visage toute sa vie en une centaine d'autoportraits, sans jamais se flatter — une autobiographie en peinture, unique dans l'histoire de l'art."
+              "h": "Son moteur : sonder l'humain jusqu'au fond",
+              "p": "Ce qui obsède Rembrandt, c'est l'âme humaine dans ce qu'elle a de plus nu. Il peint les vieux, les pauvres, les juifs de son quartier, les scènes bibliques comme des drames intimes. Le Retour du fils prodigue, son testament, montre un père aveugle étreignant son fils en haillons : tout le pardon et toute la miséricorde tiennent dans ces mains posées sur un dos."
+            },
+            {
+              "h": "Le message : la grandeur dans la fragilité",
+              "p": "Après la mort de Saskia et la mode qui passe, Rembrandt fait faillite, vend sa maison et ses collections, et finit pauvre. Mais c'est alors qu'il peint ses œuvres les plus profondes : ses derniers autoportraits, visage ridé et lucide, regardent la vieillesse et l'échec en face, sans masque. La vérité humaine vaut plus que la gloire."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Pour les historiens, Rembrandt a porté le portrait et la scène biblique à une profondeur psychologique inégalée. Sa centaine d'autoportraits, étalés sur quarante ans, forment une autobiographie peinte unique dans l'histoire de l'art. Gombrich souligne qu'aucun peintre n'a su rendre, par la seule lumière, le poids intérieur d'une présence humaine."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'âge d'or hollandais aime le fini lisse et le détail net, Rembrandt peint épais, par empâtements et glacis, laissant la touche visible, l'ombre manger les contours. Il transforme la déchéance matérielle en sommet spirituel. Sa fin pauvre et solitaire, contrastant avec son génie, en a fait l'archétype du peintre profond et incompris."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Leçon d'anatomie du Dr Tulp",
+              "artiste": "Rembrandt",
+              "annee": "1632",
+              "lieu": "Mauritshuis, La Haye",
+              "wiki": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+              "analyse": "Portrait de groupe d'une corporation de chirurgiens autour d'un cadavre disséqué. Rembrandt rompt avec la pose figée : chaque visage réagit, penché vers la démonstration, dans une lumière dramatique. Le coup d'éclat qui le lance à Amsterdam."
+            },
+            {
+              "titre": "Le Retour du fils prodigue",
+              "artiste": "Rembrandt",
+              "annee": "v. 1668",
+              "lieu": "Musée de l'Ermitage, Saint-Pétersbourg",
+              "wiki": "The Return of the Prodigal Son",
+              "analyse": "Le fils en haillons s'agenouille, le père aveugle pose ses deux mains sur son dos. Tout le pardon du monde tient dans cette étreinte surgie de l'ombre dorée. Son testament spirituel, peint à la fin de sa vie ruinée."
+            },
+            {
+              "titre": "La Fiancée juive",
+              "artiste": "Rembrandt",
+              "annee": "v. 1665-1669",
+              "lieu": "Rijksmuseum, Amsterdam",
+              "wiki": "The Jewish Bride",
+              "analyse": "Un homme pose tendrement la main sur la poitrine d'une femme, geste d'une infinie douceur. Matière dorée travaillée à la truelle, presque abstraite de près. Van Gogh disait qu'il donnerait dix ans de sa vie pour rester deux semaines devant ce tableau."
+            },
+            {
+              "titre": "Bethsabée au bain",
+              "artiste": "Rembrandt",
+              "annee": "1654",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Bathsheba at Her Bath (Rembrandt)",
+              "analyse": "Bethsabée, nue, médite la lettre du roi David qui va la perdre. Pas une beauté idéale mais un corps vrai, une femme songeuse face à son destin. La chair et la pensée unies dans la lumière chaude."
+            },
+            {
+              "titre": "Les Syndics des drapiers",
+              "artiste": "Rembrandt",
+              "annee": "1662",
+              "lieu": "Rijksmuseum, Amsterdam",
+              "wiki": "Syndics of the Drapers' Guild",
+              "analyse": "Cinq drapiers et un valet interrompus dans leur réunion lèvent les yeux vers nous, comme si nous venions d'entrer. Portrait de groupe d'une vérité et d'une présence saisissantes, sommet du genre hollandais."
             }
           ]
         },
@@ -1975,24 +2461,78 @@
           "dates": "1632-1675",
           "role": "",
           "wiki": "Johannes Vermeer",
-          "portrait": "Delft ; peu d'œuvres (~35), intimité et lumière ; oublié puis redécouvert au XIXe s.",
+          "portrait": "Johannes Vermeer (1632-1675), de Delft, n'a laissé qu'une trentaine de tableaux, presque tous de petites scènes d'intérieur silencieuses. Mais sa maîtrise unique de la lumière, du calme et de l'instant suspendu en a fait, longtemps après sa mort, l'un des peintres les plus aimés et les plus mystérieux de l'histoire.",
           "bio_longue": "Johannes Vermeer (1632-1675), de Delft, est un mystère. Il peint très peu — une trentaine de toiles connues — lentement, peut-être à l'aide d'une chambre obscure pour saisir la lumière. Marchand de tableaux par ailleurs, père de nombreux enfants, il meurt jeune, endetté, et tombe dans un oubli total pendant deux siècles. Redécouvert au XIXe siècle, il est aujourd'hui adoré pour cette chose presque impossible : faire de l'instant le plus humble (une fille qui verse du lait) une éternité de silence et de lumière.",
           "bio_sections": [
             {
-              "h": "Le mystère de Delft",
-              "p": "Johannes Vermeer est une énigme : on sait peu de chose de lui, sinon qu'il vit à Delft, marchand de tableaux par ailleurs, père de nombreux enfants. Il peint très peu — une trentaine de toiles connues — et lentement."
+              "h": "L'enfance : Delft, l'auberge et les tableaux",
+              "p": "Né en 1632 à Delft, Vermeer est fils d'un aubergiste et marchand de tableaux. Il grandit donc entouré de peinture, dans une petite ville paisible célèbre pour sa faïence bleue. On sait peu de sa formation : c'est l'un des peintres majeurs dont la vie reste la plus obscure, sans lettres, sans témoignages détaillés."
             },
             {
-              "h": "Le silence et la lumière",
-              "p": "Ses intérieurs — une femme qui lit une lettre, verse du lait (La Laitière), rêve près d'une fenêtre — élèvent l'instant le plus humble au sublime. Une lumière douce, des couleurs d'une pureté de joyau, un temps suspendu."
+              "h": "Le déclic : peindre l'intérieur silencieux",
+              "p": "Après quelques scènes de plus grand format, Vermeer trouve son monde : une pièce, une fenêtre à gauche, une ou deux figures absorbées dans un geste quotidien — verser du lait, lire une lettre, faire de la dentelle. Il abandonne le récit pour l'instant suspendu, où le temps semble arrêté dans la lumière."
             },
             {
-              "h": "Une vie obscure",
-              "p": "Il aurait peut-être utilisé une chambre obscure pour capter la lumière. Il meurt jeune, endetté, dans l'oubli — laissant une œuvre minuscule mais parfaite."
+              "h": "La lumière : le grain du jour",
+              "p": "Vermeer est le peintre de la lumière du jour comme nul autre. Il observe comment elle se pose sur un mur, perle sur le pain, traverse une vitre, et rend ces reflets par de minuscules touches lumineuses (peut-être aidé d'une chambre obscure). Ses bleus outremer et ses jaunes lumineux créent une fraîcheur et un calme uniques (La Laitière, La Jeune Fille à la perle)."
             },
             {
-              "h": "La redécouverte",
-              "p": "Oublié pendant deux siècles, Vermeer est redécouvert au XIXe siècle et reconnu comme l'un des plus grands. Faire d'un geste banal une éternité de silence : personne n'a égalé cela."
+              "h": "Son moteur : la perfection lente et rare",
+              "p": "Vermeer peint très peu et très lentement — une poignée de tableaux par an. Père de onze enfants, marchand de tableaux comme son père, il n'a sans doute pas pu vivre de sa seule peinture. Cette lenteur explique la rareté de son œuvre et l'extrême raffinement de chaque toile, méditée comme un objet précieux."
+            },
+            {
+              "h": "Le message : la dignité du quotidien",
+              "p": "Chez Vermeer, le banal devient sacré : une servante versant du lait a la gravité d'une scène religieuse. La Vue de Delft, sa ville sous un ciel changeant, est l'un des plus beaux paysages urbains jamais peints. Il célèbre, sans anecdote ni morale, la beauté silencieuse de la vie ordinaire et de la lumière."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Oublié pendant deux siècles, Vermeer est redécouvert au XIXe siècle et devient une idole. Les historiens admirent sa science de la lumière et de la composition, son calme presque abstrait, sa palette inimitable. La Jeune Fille à la perle est devenue une icône mondiale, « la Joconde du Nord ». Gombrich y voit la perfection tranquille de l'art hollandais."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Rembrandt sonde le drame de l'âme, Vermeer fige la paix et le silence. Pas de mouvement, pas de récit : un instant de pure présence. Mort à 43 ans, criblé de dettes après une crise économique, il laisse une œuvre minuscule et parfaite, dont la rareté même nourrit la fascination — moins de trente-cinq tableaux pour l'éternité."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Jeune Fille à la perle",
+              "artiste": "Vermeer",
+              "annee": "v. 1665",
+              "lieu": "Mauritshuis, La Haye",
+              "wiki": "Girl with a Pearl Earring",
+              "analyse": "Une jeune fille au turban bleu et jaune tourne la tête vers nous, lèvres entrouvertes, une perle captant la lumière à l'oreille. Sur fond noir, sans décor, ce n'est pas un portrait mais une apparition. La « Joconde du Nord »."
+            },
+            {
+              "titre": "Vue de Delft",
+              "artiste": "Vermeer",
+              "annee": "v. 1660-1661",
+              "lieu": "Mauritshuis, La Haye",
+              "wiki": "View of Delft",
+              "analyse": "Sa ville natale vue de l'autre rive, sous un ciel chargé qui s'éclaircit, toits perlés de lumière. L'un des plus beaux paysages urbains de toute la peinture ; Proust en fit, par son « petit pan de mur jaune », un sommet de la littérature."
+            },
+            {
+              "titre": "L'Astronome",
+              "artiste": "Vermeer",
+              "annee": "1668",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Astronomer (Vermeer)",
+              "analyse": "Un savant, baigné de la lumière de la fenêtre, tend la main vers un globe céleste. Le silence de la connaissance, le geste suspendu : Vermeer fait de l'étude une scène de recueillement presque sacré."
+            },
+            {
+              "titre": "L'Art de la peinture",
+              "artiste": "Vermeer",
+              "annee": "v. 1666-1668",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Art of Painting",
+              "analyse": "Dans son atelier, un peintre de dos travaille devant un modèle costumé en Muse de l'Histoire. Tableau-manifeste, qu'il garda toute sa vie : Vermeer y célèbre la noblesse et la gloire de son art."
+            },
+            {
+              "titre": "La Dentellière",
+              "artiste": "Vermeer",
+              "annee": "v. 1669-1670",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Lacemaker (Vermeer)",
+              "analyse": "Tout petit tableau : une jeune femme penchée, concentrée sur ses fils et ses fuseaux. La précision du geste, les fils rouges et blancs qui jaillissent, le flou tendre du premier plan : la quintessence de l'attention silencieuse chère à Vermeer."
             }
           ]
         },
