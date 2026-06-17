@@ -3266,5 +3266,165 @@
     "h": 2250,
     "format": "jpg",
     "file": "Paul_Cézanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg"
+  },
+  "The Scream": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1280px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1241,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+    "w": 3223,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg"
+  },
+  "Puberty (Munch)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Puberty_%281894-95%29_by_Edvard_Munch.jpg/1280px-Puberty_%281894-95%29_by_Edvard_Munch.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1386,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Puberty_%281894-95%29_by_Edvard_Munch.jpg",
+    "w": 2886,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Puberty_(1894-95)_by_Edvard_Munch.jpg"
+  },
+  "Woman with a Hat": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Matisse-Woman-with-a-Hat.jpg/1280px-Matisse-Woman-with-a-Hat.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1361,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Matisse-Woman-with-a-Hat.jpg",
+    "w": 1860,
+    "h": 2532,
+    "format": "jpg",
+    "file": "Matisse-Woman-with-a-Hat.jpg"
+  },
+  "The Red Studio": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/L%27Atelier_rouge%2C_par_Henri_Matisse.jpg/1280px-L%27Atelier_rouge%2C_par_Henri_Matisse.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 826,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/L%27Atelier_rouge%2C_par_Henri_Matisse.jpg",
+    "w": 1744,
+    "h": 1440,
+    "format": "jpg",
+    "file": "L'Atelier_rouge,_par_Henri_Matisse.jpg"
+  },
+  "Le bonheur de vivre": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bonheur_Matisse.jpg",
+    "thumb_w": 1088,
+    "thumb_h": 784,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bonheur_Matisse.jpg",
+    "w": 1088,
+    "h": 784,
+    "format": "jpg",
+    "file": "Bonheur_Matisse.jpg"
+  },
+  "The Green Stripe": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Matisse_-_Green_Line.jpeg/1280px-Matisse_-_Green_Line.jpeg",
+    "thumb_w": 1000,
+    "thumb_h": 1249,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Matisse_-_Green_Line.jpeg",
+    "w": 2790,
+    "h": 3484,
+    "format": "jpeg",
+    "file": "Matisse_-_Green_Line.jpeg"
+  },
+  "Senecio (Klee)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Paul_Klee%2C_1922%2C_Senecio%2C_oil_on_gauze%2C_40.3_%C3%97_37.4_cm%2C_Kunstmuseum_Basel.jpg/1280px-Paul_Klee%2C_1922%2C_Senecio%2C_oil_on_gauze%2C_40.3_%C3%97_37.4_cm%2C_Kunstmuseum_Basel.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1090,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Paul_Klee%2C_1922%2C_Senecio%2C_oil_on_gauze%2C_40.3_%C3%97_37.4_cm%2C_Kunstmuseum_Basel.jpg",
+    "w": 3712,
+    "h": 4046,
+    "format": "jpg",
+    "file": "Paul_Klee,_1922,_Senecio,_oil_on_gauze,_40.3_×_37.4_cm,_Kunstmuseum_Basel.jpg"
+  },
+  "Twittering Machine": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Die_Zwitscher-Maschine_%28Twittering_Machine%29%2C_1922_-_Paul_Klee.jpg",
+    "thumb_w": 994,
+    "thumb_h": 1350,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Die_Zwitscher-Maschine_%28Twittering_Machine%29%2C_1922_-_Paul_Klee.jpg",
+    "w": 994,
+    "h": 1350,
+    "format": "jpg",
+    "file": "Die_Zwitscher-Maschine_(Twittering_Machine),_1922_-_Paul_Klee.jpg"
+  },
+  "Ad Parnassum": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ad_Parnassum_%28originaler%2C_gefasster_Holzrahmen%29%2C_Paul_Klee_%281932%29.jpg/1280px-Ad_Parnassum_%28originaler%2C_gefasster_Holzrahmen%29%2C_Paul_Klee_%281932%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 788,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ad_Parnassum_%28originaler%2C_gefasster_Holzrahmen%29%2C_Paul_Klee_%281932%29.jpg",
+    "w": 3368,
+    "h": 2653,
+    "format": "jpg",
+    "file": "Ad_Parnassum_(originaler,_gefasster_Holzrahmen),_Paul_Klee_(1932).jpg"
+  },
+  "Highway and Byways": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hauptweg_und_Nebenwege_-_Paul_Klee_-_Museum_Ludwig-7026_%28cropped%29.jpg/1280px-Hauptweg_und_Nebenwege_-_Paul_Klee_-_Museum_Ludwig-7026_%28cropped%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1241,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Hauptweg_und_Nebenwege_-_Paul_Klee_-_Museum_Ludwig-7026_%28cropped%29.jpg",
+    "w": 3009,
+    "h": 3734,
+    "format": "jpg",
+    "file": "Hauptweg_und_Nebenwege_-_Paul_Klee_-_Museum_Ludwig-7026_(cropped).jpg"
+  },
+  "Broadway Boogie Woogie": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Piet_Mondrian%2C_1942_-_Broadway_Boogie_Woogie.jpg/1280px-Piet_Mondrian%2C_1942_-_Broadway_Boogie_Woogie.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1002,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Piet_Mondrian%2C_1942_-_Broadway_Boogie_Woogie.jpg",
+    "w": 4104,
+    "h": 4111,
+    "format": "jpg",
+    "file": "Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg"
+  },
+  "Houses at l'Estaque": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/a/ad/Georges_Braque%2C_1908%2C_Maisons_et_arbre%2C_oil_on_canvas%2C_40.5_x_32.5_cm%2C_Lille_M%C3%A9tropole_Museum_of_Modern%2C_Contemporary_and_Outsider_Art.jpg",
+    "thumb_w": 802,
+    "thumb_h": 1000,
+    "url": "https://upload.wikimedia.org/wikipedia/en/a/ad/Georges_Braque%2C_1908%2C_Maisons_et_arbre%2C_oil_on_canvas%2C_40.5_x_32.5_cm%2C_Lille_M%C3%A9tropole_Museum_of_Modern%2C_Contemporary_and_Outsider_Art.jpg",
+    "w": 802,
+    "h": 1000,
+    "format": "jpg",
+    "file": "Georges_Braque,_1908,_Maisons_et_arbre,_oil_on_canvas,_40.5_x_32.5_cm,_Lille_Métropole_Museum_of_Modern,_Contemporary_and_Outsider_Art.jpg"
+  },
+  "The Dance of Life": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg/1280px-Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 657,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg",
+    "w": 4000,
+    "h": 2626,
+    "format": "jpg",
+    "file": "Edvard_Munch_-_The_dance_of_life_(1899-1900).jpg"
+  },
+  "The Dance (Matisse)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Matissedance.jpg",
+    "thumb_w": 874,
+    "thumb_h": 575,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Matissedance.jpg",
+    "w": 874,
+    "h": 575,
+    "format": "jpg",
+    "file": "Matissedance.jpg"
+  },
+  "Fruit Dish and Glass": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/6/63/Braque_fruitdish_glass.jpg",
+    "thumb_w": 787,
+    "thumb_h": 1074,
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/63/Braque_fruitdish_glass.jpg",
+    "w": 787,
+    "h": 1074,
+    "format": "jpg",
+    "file": "Braque_fruitdish_glass.jpg"
+  },
+  "Madonna (Munch)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Edvard_Munch_-_Madonna_-_Google_Art_Project.jpg/1280px-Edvard_Munch_-_Madonna_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1319,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Edvard_Munch_-_Madonna_-_Google_Art_Project.jpg",
+    "w": 3190,
+    "h": 4208,
+    "format": "jpg",
+    "file": "Edvard_Munch_-_Madonna_-_Google_Art_Project.jpg"
   }
 }

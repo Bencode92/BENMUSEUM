@@ -5398,24 +5398,78 @@
           "dates": "1869-1954",
           "role": "Fauvisme",
           "wiki": "Henri Matisse",
-          "portrait": "Chef du Fauvisme, maître de la couleur et de la ligne ; fin de vie : les gouaches découpées.",
+          "portrait": "Henri Matisse (1869-1954) est, avec Picasso, l'un des deux pôles de l'art du XXe siècle — mais son chemin est inverse : là où Picasso casse et tord, Matisse cherche l'équilibre, la joie et la couleur pure. Chef de file des fauves, il a passé sa vie à poursuivre une peinture de bonheur, jusqu'aux gouaches découpées de la fin.",
           "bio_longue": "Henri Matisse (1869-1954) se destinait au droit ; c'est une boîte de couleurs offerte pendant une convalescence à 21 ans qui décide de tout — « comme une révélation ». Chef du fauvisme, il fait scandale puis devient le grand maître de la couleur et de la ligne pure, cherchant toute sa vie un art « d'équilibre, de calme », « comme un bon fauteuil » pour l'esprit fatigué. Sa rivalité-amitié avec Picasso structure tout le siècle : Picasso le démolisseur anguleux, Matisse l'enchanteur de la couleur — « personne d'autre que lui ne mérite qu'on le regarde », disait Picasso. Cloué au lit et à la chaise roulante à la fin de sa vie, ne pouvant plus tenir le pinceau, il invente les gouaches découpées : il « dessine avec des ciseaux » dans des feuilles peintes. La contrainte devient un nouveau sommet.",
           "bio_sections": [
             {
-              "h": "Le droit abandonné",
-              "p": "Henri Matisse se destinait au droit ; c'est une boîte de couleurs offerte pendant une convalescence à 21 ans qui décide de tout — « comme une révélation ». Il abandonne tout pour la peinture."
+              "h": "L'enfance : le Nord et le droit",
+              "p": "Né en 1869 dans le nord de la France, fils d'un marchand de grains, Matisse était destiné au droit et travaillait comme clerc d'avoué. Rien ne le prédisposait à l'art. Sa vocation naît d'un hasard : clouée au lit par une appendicite à 20 ans, sa mère lui offre une boîte de couleurs. Ce fut, dit-il, comme une révélation : « Quand j'ai commencé à peindre, je me suis senti transporté dans une sorte de paradis. »"
             },
             {
-              "h": "Le chef des fauves",
-              "p": "En 1905, au Salon d'automne, ses toiles aux couleurs « sauvages » font scandale : un critique parle d'une « cage aux fauves ». Matisse en est le chef. Pour lui, la couleur n'a plus à être juste — elle exprime et organise le tableau pour elle-même (La Danse)."
+              "h": "Le déclic : la couleur libérée",
+              "p": "Monté à Paris, il découvre les impressionnistes, Cézanne (dont il achète un tableau qu'il vénère), Van Gogh, Gauguin. Peu à peu, il libère la couleur de toute fonction descriptive. En 1905, au Salon d'automne, ses toiles aux couleurs violentes et arbitraires font scandale : un critique parle de « fauves » (bêtes sauvages). Le fauvisme est né, et Matisse en est le chef."
             },
             {
-              "h": "La rivalité avec Picasso",
-              "p": "Toute sa vie, une rivalité-amitié l'oppose à Picasso : l'un démolisseur anguleux, l'autre enchanteur de la couleur. « Personne d'autre que lui ne mérite qu'on le regarde », disait Picasso."
+              "h": "La couleur comme architecture du tableau",
+              "p": "Pour Matisse, la couleur n'imite pas la nature : elle organise le tableau et exprime un sentiment. Un visage peut être traversé d'une bande verte (La Raie verte), un intérieur peut être tout rouge (L'Atelier rouge). Il cherche des accords de couleurs aussi justes qu'une musique, où chaque ton tient en équilibre avec les autres."
             },
             {
-              "h": "Dessiner avec des ciseaux",
-              "p": "Cloué au lit et à la chaise roulante à la fin de sa vie, ne pouvant plus tenir le pinceau, il invente les gouaches découpées : il « dessine avec des ciseaux » dans des feuilles peintes. La contrainte devient un nouveau sommet."
+              "h": "Son moteur : l'équilibre et la sérénité",
+              "p": "Matisse rêve d'un art « d'équilibre, de pureté, de tranquillité », sans sujet inquiétant : « quelque chose d'analogue à un bon fauteuil qui délasse. » Travailleur acharné sous une apparente facilité, il refait inlassablement ses compositions pour atteindre cette simplicité souveraine où rien ne pèse, où tout respire. La danse, la fenêtre, le modèle, la nature deviennent pure mélodie de couleurs."
+            },
+            {
+              "h": "Le message : la joie de vivre",
+              "p": "Contre l'angoisse du siècle, Matisse choisit la joie. Le bonheur de vivre, La Danse — ronde de corps nus sur fond bleu et vert — célèbrent une harmonie heureuse, presque édénique. Il ne nie pas la douleur du monde ; il offre, en réponse, un espace de beauté et de calme, comme un refuge lumineux."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Les historiens font de Matisse, avec Picasso, l'autre fondateur de l'art moderne : l'un libère la forme, l'autre la couleur. Son influence sur tout l'art du XXe siècle, jusqu'à l'abstraction, est immense. Gombrich souligne qu'il a poussé plus loin que quiconque l'idée que la couleur et la ligne ont une valeur en elles-mêmes, indépendamment de ce qu'elles représentent."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Picasso est tension, conquête, virilité, Matisse est détente, harmonie, douceur — les deux s'admiraient et se surveillaient comme deux rivaux complices. Cloué dans un fauteuil à la fin de sa vie, ne pouvant plus peindre, Matisse invente les gouaches découpées : il « dessine avec des ciseaux » dans la couleur pure, atteignant à plus de 80 ans une jeunesse et une liberté inédites."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Danse",
+              "artiste": "Matisse",
+              "annee": "1909-1910",
+              "lieu": "Musée de l'Ermitage, Saint-Pétersbourg",
+              "wiki": "The Dance (Matisse)",
+              "analyse": "Cinq corps nus rouges forment une ronde effrénée sur un fond de bleu et de vert purs, sans aucun détail. Trois couleurs, des courbes, un rythme : Matisse réduit la peinture à l'essentiel et atteint une énergie et une joie élémentaires. L'un des manifestes de l'art moderne."
+            },
+            {
+              "titre": "Le Bonheur de vivre",
+              "artiste": "Matisse",
+              "annee": "1905-1906",
+              "lieu": "Fondation Barnes, Philadelphie",
+              "wiki": "Le bonheur de vivre",
+              "analyse": "Dans une clairière idyllique, des nus s'enlacent, dansent, jouent de la musique, en couleurs douces et lignes ondoyantes. Un paradis païen et serein : le programme de toute une vie, la peinture comme espace de bonheur et d'harmonie."
+            },
+            {
+              "titre": "La Femme au chapeau",
+              "artiste": "Matisse",
+              "annee": "1905",
+              "lieu": "SFMOMA, San Francisco",
+              "wiki": "Woman with a Hat",
+              "analyse": "Portrait de sa femme, le visage et le chapeau éclaboussés de touches vertes, mauves, orangées, sans souci de la couleur réelle. Le scandale du Salon d'automne 1905, l'acte de naissance du fauvisme : la couleur devient pure liberté."
+            },
+            {
+              "titre": "L'Atelier rouge",
+              "artiste": "Matisse",
+              "annee": "1911",
+              "lieu": "MoMA, New York",
+              "wiki": "The Red Studio",
+              "analyse": "Son atelier entièrement baigné d'un rouge uniforme qui dissout les murs, le sol et les meubles ; seuls surnagent ses propres tableaux et quelques objets. Audace radicale : la couleur unique crée l'espace. Un tableau qui annonce l'abstraction."
+            },
+            {
+              "titre": "La Raie verte (Madame Matisse)",
+              "artiste": "Matisse",
+              "annee": "1905",
+              "lieu": "SMK, Copenhague",
+              "wiki": "The Green Stripe",
+              "analyse": "Le visage de sa femme est partagé par une bande verte qui sépare un côté chaud d'un côté froid. La couleur ne décrit plus la peau : elle structure le visage et exprime une présence. Le fauvisme appliqué au portrait."
             }
           ]
         },
@@ -5526,24 +5580,54 @@
           "dates": "1882-1963",
           "role": "Cubisme",
           "wiki": "Georges Braque",
-          "portrait": "Co-inventeur du Cubisme avec Picasso.",
+          "portrait": "Georges Braque (1882-1963) est le co-inventeur du cubisme, aux côtés de Picasso. Plus discret et plus méthodique que son célèbre partenaire, c'est pourtant lui qui, par sa rigueur et son amour de la matière, a donné au cubisme une part de sa cohérence — avant de poursuivre, seul, une œuvre d'une élégance grave.",
           "bio_longue": "Georges Braque (1882-1963), fils de peintre en bâtiment, apporte au cubisme la rigueur et le métier (faux bois, lettres au pochoir, papiers collés qu'il invente en 1912). Avec Picasso, entre 1908 et 1914, leur collaboration est si fusionnelle qu'ils cessent parfois de signer pour qu'on ne sache plus qui a peint quoi. La Première Guerre les sépare : Braque part au front, y est gravement blessé à la tête. Il reviendra à un cubisme plus serein, plus musical, mais l'aventure héroïque à deux est finie.",
           "bio_sections": [
             {
-              "h": "Le métier dans le sang",
-              "p": "Georges Braque, fils de peintre en bâtiment, apporte au cubisme la rigueur et le métier : faux bois, lettres au pochoir, sens de la matière."
+              "h": "L'enfance : le métier de peintre-décorateur",
+              "p": "Né en 1882 à Argenteuil, Braque grandit au Havre dans une famille de peintres en bâtiment. Il apprend d'abord le métier de peintre-décorateur : imiter le bois, le marbre, manier les lettres et les faux-semblants. Ce savoir-faire d'artisan — le goût des matières et des textures — restera au cœur de tout son art, jusqu'aux faux bois et sables qu'il introduira dans ses toiles."
             },
             {
-              "h": "Encordé avec Picasso",
-              "p": "Entre 1908 et 1914, sa collaboration avec Picasso est si fusionnelle qu'ils cessent parfois de signer pour qu'on ne sache plus qui a peint quoi. Ensemble, ils inventent le cubisme."
+              "h": "Le déclic : le fauvisme puis Cézanne",
+              "p": "D'abord fauve, séduit par la couleur vive, Braque est bouleversé par la rétrospective Cézanne de 1907. Il part peindre à L'Estaque, sur les traces du maître, et y réduit le paysage à des volumes géométriques simples — des « petits cubes », dira un critique. Le mot « cubisme » est lancé. Braque a posé, avec ces maisons, l'une des premières pierres."
             },
             {
-              "h": "Les papiers collés",
-              "p": "C'est Braque qui invente, en 1912, le papier collé — coller de vrais fragments de réel sur la toile. Une révolution qui ouvre la voie au collage et à l'art moderne."
+              "h": "Le tandem avec Picasso",
+              "p": "À partir de 1908, Braque et Picasso travaillent côte à côte, « cordés comme deux alpinistes », s'échangeant chaque découverte au point qu'on confond parfois leurs toiles. Ensemble ils décomposent les objets en facettes (cubisme analytique), introduisent lettres, faux bois et papiers collés (Braque invente le papier collé). Une des collaborations les plus fécondes de l'histoire de l'art."
             },
             {
-              "h": "Après la guerre",
-              "p": "La Première Guerre les sépare : Braque part au front, y est gravement blessé à la tête. Il reviendra à un cubisme plus serein, plus musical — l'aventure héroïque à deux est finie."
+              "h": "Son moteur : la patience et la matière",
+              "p": "Là où Picasso est rapide et avide, Braque est lent, réfléchi, artisanal. Il aime mêler le sable à la peinture, peigner les faux bois, construire le tableau comme un objet fait main. « Je ne crois pas aux choses, je crois aux relations », disait-il : c'est l'équilibre, l'accord des formes et des matières qui l'intéresse, plus que le sujet."
+            },
+            {
+              "h": "Le message : l'harmonie grave de l'atelier",
+              "p": "Après la Première Guerre, où il est gravement blessé à la tête, Braque poursuit seul, loin du bruit, une œuvre méditative : natures mortes, guéridons, et surtout la grande série des Ateliers, où des oiseaux traversent l'espace. Une peinture d'intériorité, de silence et de matière, d'une noblesse discrète."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens rappellent que le cubisme est né à deux, et que Braque en fut autant l'inventeur que Picasso — le papier collé, l'intégration des lettres et des matières lui doivent beaucoup. Gombrich souligne sa cohérence et sa probité : moins spectaculaire que Picasso, mais d'une rigueur et d'une qualité constantes sur toute une vie."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Discret là où Picasso est flamboyant, fidèle à quelques motifs là où l'autre se métamorphose sans cesse, Braque incarne la part grave et artisanale du cubisme. Honoré dans son pays (il décora un plafond du Louvre), il a mené une œuvre profonde et tenue, à l'écart du tumulte — le partenaire essentiel sans qui le cubisme n'aurait pas été le même."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Maisons à l'Estaque",
+              "artiste": "Braque",
+              "annee": "1908",
+              "lieu": "Kunstmuseum, Berne",
+              "wiki": "Houses at l'Estaque",
+              "analyse": "Des maisons et des arbres réduits à des volumes géométriques simples, sans ciel ni profondeur, dans des ocres et des verts sourds. C'est devant ces « petits cubes » qu'un critique forgea le mot « cubisme ». L'une des toiles fondatrices du mouvement."
+            },
+            {
+              "titre": "Compotier et verre",
+              "artiste": "Braque",
+              "annee": "1912",
+              "lieu": "Collection privée",
+              "wiki": "Fruit Dish and Glass",
+              "analyse": "Premier papier collé de l'histoire : Braque colle un morceau de papier peint imitant le bois sur un dessin au fusain. Le réel (le papier) entre directement dans l'œuvre. Une invention décisive qui ouvre la voie au collage de tout l'art moderne."
             }
           ]
         },
@@ -5553,20 +5637,70 @@
           "dates": "1863-1944",
           "role": "Expressionnisme",
           "wiki": "Edvard Munch",
-          "portrait": "Le Cri, source de l'Expressionnisme.",
+          "portrait": "Edvard Munch (1863-1944), Norvégien, est le grand précurseur de l'expressionnisme. Hanté par la maladie, la mort et l'angoisse, il a fait de sa peinture le miroir direct de ses émotions les plus douloureuses — et donné, avec Le Cri, l'image la plus universelle de l'angoisse moderne.",
           "bio_longue": "Edvard Munch (1863-1944), Norvégien marqué par la mort de sa mère et de sa sœur, peint l'angoisse à l'état pur. Le Cri (1893) — une silhouette qui hurle sous un ciel sang, les mains sur les oreilles — est devenu l'icône universelle de l'anxiété moderne. Il est la source de l'expressionnisme : déformer le visible pour exprimer le ressenti.",
           "bio_sections": [
             {
-              "h": "L'enfance et la mort",
-              "p": "Edvard Munch, Norvégien, est marqué très tôt par la maladie et la mort — celle de sa mère, puis de sa sœur. L'angoisse irrigue toute son œuvre."
+              "h": "L'enfance : la maladie et la mort",
+              "p": "Né en 1863 en Norvège, Munch est marqué très tôt par le malheur : sa mère meurt de la tuberculose quand il a 5 ans, sa sœur aînée à 14. Son père, médecin pieux et dépressif, élève les enfants dans la peur de Dieu et de la mort. « La maladie, la folie et la mort étaient les anges noirs penchés sur mon berceau », écrira-t-il. Cette enfance endeuillée nourrira toute son œuvre."
             },
             {
-              "h": "Le Cri",
-              "p": "Le Cri (1893) — une silhouette qui hurle sous un ciel sang, les mains sur les oreilles — est devenu l'icône universelle de l'anxiété moderne."
+              "h": "Le déclic : Paris et l'âme",
+              "p": "Jeune peintre, Munch séjourne à Paris et Berlin, découvre Van Gogh, Gauguin et le symbolisme. Il décide de ne plus peindre des intérieurs « avec des gens qui lisent et des femmes qui tricotent », mais « des êtres vivants qui respirent, sentent, souffrent et aiment ». La peinture devient confession de l'âme, non description du monde."
             },
             {
-              "h": "La source de l'expressionnisme",
-              "p": "Déformer le visible pour exprimer le ressenti : Munch ouvre la voie à l'expressionnisme, qui marquera tout l'art allemand du XXe siècle."
+              "h": "La Frise de la vie",
+              "p": "Munch conçoit un grand cycle, La Frise de la vie, sur l'amour, l'angoisse et la mort : Madone, Le Baiser, Vampire, Puberté, La Danse de la vie. Les figures s'y simplifient, les lignes ondulent, les couleurs deviennent symboliques. Il y explore le désir, la jalousie, la solitude, la peur — les grands tourments intimes, sans pudeur."
+            },
+            {
+              "h": "Le Cri : l'angoisse devenue image",
+              "p": "En 1893, Munch peint Le Cri : sur un pont, une silhouette se bouche les oreilles, bouche ouverte, sous un ciel rouge sang qui ondule. Il raconte avoir senti « un cri infini traverser la nature ». C'est devenu l'icône absolue de l'angoisse existentielle moderne, l'une des images les plus célèbres au monde."
+            },
+            {
+              "h": "Son moteur : peindre pour survivre",
+              "p": "Pour Munch, peindre est une nécessité vitale, une manière d'expulser et de maîtriser ses démons. Alcoolique, dépressif, marqué par une rupture amoureuse violente, il fait une dépression nerveuse en 1908. Il en sort, et sa peinture, après la crise, s'apaise et s'éclaircit, comme s'il avait fini par dompter ses fantômes par la peinture même."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Munch le grand précurseur de l'expressionnisme : déformer la ligne et la couleur pour exprimer l'émotion intérieure, il l'a fait avant les expressionnistes allemands qui s'en réclameront. Gombrich souligne qu'il a osé peindre directement la peur, la jalousie et la mort, ouvrant à l'art un territoire psychologique nouveau."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains français explorent la lumière et la forme, Munch sonde l'angoisse et le désir. Solitaire, tourmenté, il a fait de sa propre souffrance la matière universelle de son art. Reclus à la fin de sa vie en Norvège occupée par les nazis (qui jugeaient son art « dégénéré »), il lègue toute son œuvre à la ville d'Oslo."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Cri",
+              "artiste": "Munch",
+              "annee": "1893",
+              "lieu": "Galerie nationale, Oslo",
+              "wiki": "The Scream",
+              "analyse": "Sur un pont, une silhouette spectrale se bouche les oreilles, bouche béante, tandis que le ciel ondule en rouge sang. Munch a transcrit un « cri infini de la nature » qu'il dit avoir ressenti. L'image universelle de l'angoisse existentielle moderne."
+            },
+            {
+              "titre": "Madone",
+              "artiste": "Munch",
+              "annee": "1894-1895",
+              "lieu": "Munch Museum, Oslo",
+              "wiki": "Madonna (Munch)",
+              "analyse": "Une femme aux yeux clos, sensuelle et inquiétante, auréolée de rouge, entre extase amoureuse et mort. Munch y fond l'amour, le sacré et l'angoisse : la femme aimée comme source de vie et de perte à la fois. Pièce centrale de la Frise de la vie."
+            },
+            {
+              "titre": "La Danse de la vie",
+              "artiste": "Munch",
+              "annee": "1899-1900",
+              "lieu": "Galerie nationale, Oslo",
+              "wiki": "The Dance of Life",
+              "analyse": "Sur une plage au clair de lune, des couples dansent ; au centre une femme en rouge, à gauche une jeune fille en blanc (l'innocence), à droite une femme en noir (le deuil). Les trois âges de l'amour et de la vie résumés en une ronde mélancolique."
+            },
+            {
+              "titre": "Puberté",
+              "artiste": "Munch",
+              "annee": "1894-1895",
+              "lieu": "Galerie nationale, Oslo",
+              "wiki": "Puberty (Munch)",
+              "analyse": "Une adolescente nue, assise sur un lit, les bras croisés sur les cuisses, le regard inquiet, tandis qu'une ombre menaçante grandit derrière elle. L'angoisse de l'éveil et de la peur du corps, peinte avec une fragilité bouleversante."
             }
           ]
         },
@@ -5594,24 +5728,46 @@
           "dates": "1866-1944",
           "role": "Abstraction",
           "wiki": "Wassily Kandinsky",
-          "portrait": "Pionnier de l'abstraction ; la couleur comme musique.",
+          "portrait": "Vassily Kandinsky (1866-1944) est l'inventeur de l'art abstrait. Russe installé en Allemagne puis en France, théoricien autant que peintre, il a, le premier, libéré la peinture de toute représentation, pour en faire une pure musique de couleurs et de formes adressée à l'âme.",
           "bio_longue": "Wassily Kandinsky (1866-1944) est d'abord juriste à Moscou ; il abandonne une chaire de professeur à 30 ans pour devenir peintre, après deux chocs : un tableau de Monet où il ne reconnaît pas le sujet (une meule) mais ressent une force, et une représentation de Wagner. Il croit que la couleur, comme la musique, agit directement sur l'âme — il dit « entendre » les couleurs (synesthésie). Vers 1910, il peint les premières aquarelles sans aucun sujet : l'art abstrait est né. Théoricien (Du spirituel dans l'art), fondateur du Cavalier bleu, il enseignera au Bauhaus avant de fuir les nazis pour Paris.",
           "bio_sections": [
             {
-              "h": "Le juriste devenu peintre",
-              "p": "Wassily Kandinsky est d'abord juriste à Moscou. Il abandonne une chaire de professeur à 30 ans pour devenir peintre, après deux chocs : un tableau de Monet où il ne reconnaît pas le sujet mais ressent une force, et une représentation de Wagner."
+              "h": "L'enfance et la vocation tardive",
+              "p": "Né en 1866 à Moscou dans une famille aisée, Kandinsky est d'abord juriste et économiste : il enseigne le droit à l'université. Ce n'est qu'à 30 ans, après avoir été bouleversé par une Meule de Monet (qu'il ne reconnut pas comme une meule) et par un opéra de Wagner, qu'il abandonne tout pour la peinture et part étudier à Munich. La couleur et la musique le saisissent ensemble."
             },
             {
-              "h": "La couleur comme musique",
-              "p": "Il croit que la couleur, comme la musique, agit directement sur l'âme — il dit « entendre » les couleurs (synesthésie). La peinture peut donc se passer d'objet, comme une symphonie n'imite aucun bruit."
+              "h": "Le déclic : la couleur qui se passe du sujet",
+              "p": "Kandinsky fait une découverte capitale : un soir, il ne reconnaît pas l'une de ses propres toiles posée de travers, et la trouve sublime — sans sujet identifiable. Il comprend alors que l'objet « nuit » à sa peinture, et que la couleur et la forme peuvent émouvoir seules, comme des sons. La représentation devient inutile."
             },
             {
-              "h": "La naissance de l'abstraction",
-              "p": "Vers 1910, il peint les premières œuvres sans aucun sujet reconnaissable : l'art abstrait est né. Sa Composition VII, tourbillon de formes et de couleurs, en est le sommet."
+              "h": "Vers l'abstraction",
+              "p": "Vers 1910-1913, avec ses Improvisations et Compositions, Kandinsky franchit le pas : les objets disparaissent, ne restent que des taches de couleur, des lignes, des rythmes. C'est l'un des premiers à oser l'abstraction totale. Il fonde aussi, avec Franz Marc, le groupe du Cavalier bleu (Der Blaue Reiter), foyer de l'avant-garde allemande."
             },
             {
-              "h": "Le Bauhaus et l'exil",
-              "p": "Théoricien (Du spirituel dans l'art), fondateur du Cavalier bleu, il enseigne au Bauhaus jusqu'à sa fermeture par les nazis, puis s'exile à Paris où il meurt en 1944."
+              "h": "Son moteur : la peinture comme musique de l'âme",
+              "p": "Pour Kandinsky, la peinture doit faire vibrer l'âme comme la musique : chaque couleur a une « sonorité » (le bleu appelle l'infini, le jaune est strident), chaque forme une force. Il écrit un livre fondateur, Du spirituel dans l'art, pour fonder cette idée. Il intitule ses œuvres comme des partitions : Improvisation, Composition."
+            },
+            {
+              "h": "Le Bauhaus et la géométrie",
+              "p": "Professeur au Bauhaus dans les années 1920, Kandinsky discipline son abstraction : aux explosions lyriques succèdent des formes géométriques précises — cercles, triangles, damiers — flottant dans l'espace. La spontanéité du début cède à une grammaire rigoureuse des formes et des couleurs, qu'il enseigne et théorise."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Kandinsky l'un des pères, sinon le père, de l'art abstrait — l'un des tournants majeurs de toute l'histoire de l'art occidental. Gombrich souligne l'audace de cette idée : qu'un tableau puisse, comme une symphonie, n'imiter rien et n'être qu'un agencement de formes et de couleurs porteur d'émotion pure."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Mondrian abstrait par épure et rigueur, Kandinsky abstrait par lyrisme et musique : son abstraction est chaude, vibrante, spirituelle. Russe, allemand puis français (il fuit le nazisme qui condamne son art « dégénéré »), théoricien hors pair, il a non seulement peint mais pensé et justifié l'abstraction, lui donnant ses fondations intellectuelles."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Composition VII",
+              "artiste": "Kandinsky",
+              "annee": "1913",
+              "lieu": "Galerie Tretiakov, Moscou",
+              "wiki": "Composition VII",
+              "analyse": "Tourbillon de couleurs et de formes sans aucun objet reconnaissable, d'une énergie quasi cosmique. Kandinsky la considérait comme sa toile la plus aboutie d'avant-guerre. L'un des sommets de l'abstraction lyrique naissante : la peinture comme pure musique visuelle."
             }
           ]
         },
@@ -5621,20 +5777,46 @@
           "dates": "1872-1944",
           "role": "Abstraction géométrique",
           "wiki": "Piet Mondrian",
-          "portrait": "Abstraction géométrique pure (grilles, rouge/bleu/jaune).",
+          "portrait": "Piet Mondrian (1872-1944) a poussé l'abstraction jusqu'à son extrême : des lignes noires, des rectangles de blanc et des trois couleurs primaires. Derrière cette rigueur se cache une quête presque mystique d'harmonie universelle — et une influence immense, du design à l'architecture, qui dure encore.",
           "bio_longue": "Piet Mondrian (1872-1944), Hollandais, part de paysages d'arbres qu'il épure d'année en année jusqu'à ce qu'il n'en reste que des lignes. Il aboutit au néoplasticisme : uniquement des lignes noires horizontales et verticales, et les trois couleurs primaires sur fond blanc. Pour lui, ce n'est pas de la décoration mais une quête quasi mystique : l'ordre universel et l'équilibre des forces sous le désordre du monde. Exilé à New York à la fin de sa vie, fasciné par le jazz et la ville, il fait vibrer sa grille dans Broadway Boogie-Woogie.",
           "bio_sections": [
             {
-              "h": "Des arbres à la grille",
-              "p": "Piet Mondrian, Hollandais, part de paysages et d'arbres qu'il épure d'année en année, jusqu'à ce qu'il n'en reste que des lignes. Une lente marche vers l'essentiel."
+              "h": "L'enfance : la Hollande et le calvinisme",
+              "p": "Né en 1872 aux Pays-Bas dans une famille calviniste stricte, fils et neveu de peintres, Mondrian reçoit une éducation rigoureuse et religieuse qui marque son tempérament : un goût de l'ordre, de la discipline, de l'absolu. Il commence par peindre, sagement, des paysages hollandais — moulins, arbres, champs — dans une veine naturaliste."
+            },
+            {
+              "h": "Le déclic : du cubisme à l'épure",
+              "p": "Arrivé à Paris vers 1912, Mondrian découvre le cubisme, qui le libère. Il se met à décomposer ses arbres en lignes et facettes (Arbre gris), puis pousse la démarche bien plus loin que Picasso et Braque : il élimine peu à peu la courbe, le sujet, la couleur naturelle, pour ne garder que des lignes droites et des plans."
             },
             {
               "h": "Le néoplasticisme",
-              "p": "Il aboutit à un art radical : uniquement des lignes noires horizontales et verticales, et les trois couleurs primaires sur fond blanc. Ce n'est pas décoratif, mais une quête quasi mystique de l'ordre universel sous le chaos du monde."
+              "p": "Vers 1920, Mondrian aboutit à son langage définitif, qu'il nomme néoplasticisme : uniquement des lignes noires horizontales et verticales, des rectangles blancs, et les trois couleurs primaires (rouge, jaune, bleu). Rien d'autre. Il fonde avec Theo van Doesburg le mouvement et la revue De Stijl, qui répand ces principes dans toute l'Europe."
             },
             {
-              "h": "New York et le jazz",
-              "p": "Exilé à New York à la fin de sa vie, fasciné par la ville et le boogie-woogie, il fait vibrer sa grille en pulsations colorées (Broadway Boogie-Woogie). L'austérité se met à danser."
+              "h": "Son moteur : l'harmonie universelle",
+              "p": "Pour Mondrian, nourri de pensée théosophique, cette épure n'est pas froide : c'est une quête spirituelle. En réduisant la peinture à l'équilibre de la verticale et de l'horizontale, du plein et du vide, il croit atteindre une harmonie universelle et intemporelle, au-delà des apparences changeantes du monde. L'art comme révélation de l'ordre caché des choses."
+            },
+            {
+              "h": "Le message : New York et le rythme",
+              "p": "Fuyant la guerre, Mondrian s'installe à New York en 1940. La ville et le jazz l'électrisent : ses dernières œuvres, comme Broadway Boogie Woogie, font danser de petits carrés de couleur le long des lignes, sans plus de noir. À 70 ans passés, sa rigueur se met à swinguer : l'abstraction devient joie et pulsation urbaine."
+            },
+            {
+              "h": "Pourquoi il est majeur, selon les experts",
+              "p": "Les historiens font de Mondrian l'un des fondateurs de l'abstraction géométrique et l'une des influences les plus diffuses du XXe siècle : son langage a façonné l'architecture moderne, le design, la mode, la publicité. Gombrich souligne la radicalité de sa démarche : avoir réduit la peinture à ses éléments les plus simples pour y chercher l'absolu."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Kandinsky abstrait par le lyrisme et la musique, Mondrian abstrait par l'épure et la géométrie : froideur apparente, ferveur cachée. Méticuleux jusqu'à l'obsession, vivant dans un atelier blanc qu'il composait lui-même comme un tableau, il a porté une seule idée à sa perfection — et changé durablement le visage de notre environnement visuel."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Broadway Boogie Woogie",
+              "artiste": "Mondrian",
+              "annee": "1942-1943",
+              "lieu": "MoMA, New York",
+              "wiki": "Broadway Boogie Woogie",
+              "analyse": "Une grille de petits carrés jaunes, rouges et bleus qui clignotent le long des lignes, comme les feux et le trafic de Manhattan au rythme du jazz. À 70 ans, Mondrian fait swinguer sa rigueur : l'abstraction géométrique devient pulsation et joie urbaine."
             }
           ]
         },
@@ -5644,24 +5826,70 @@
           "dates": "1879-1940",
           "role": "Bauhaus",
           "wiki": "Paul Klee",
-          "portrait": "Poésie, signes, humour ; enseignant au Bauhaus.",
+          "portrait": "Paul Klee (1879-1940), Suisse-allemand, est l'un des esprits les plus inventifs et les plus poétiques du XXe siècle. Entre figuration et abstraction, mêlant l'humour, le rêve et une science savante de la couleur, il a créé un univers personnel, enfantin en apparence, d'une profondeur infinie.",
           "bio_longue": "Paul Klee (1879-1940), Suisse-allemand, musicien autant que peintre, crée un monde de signes, de flèches, de poissons et de lettres, d'une poésie et d'un humour uniques. « Le dessin, c'est prendre une ligne pour une promenade. » Professeur au Bauhaus, il bâtit une véritable théorie de la forme et de la couleur. Déclaré « dégénéré » par les nazis, malade, il peint ses dernières œuvres, plus sombres et graves, comme des hiéroglyphes face à la mort.",
           "bio_sections": [
             {
-              "h": "Le peintre-musicien",
-              "p": "Paul Klee, Suisse-allemand, est musicien autant que peintre. Son art, d'une poésie et d'un humour uniques, ressemble à un journal intime de signes et de couleurs. « Le dessin, c'est prendre une ligne pour une promenade. »"
+              "h": "L'enfance : la musique avant la peinture",
+              "p": "Né en 1879 près de Berne, Klee grandit dans une famille de musiciens : son père professeur de musique, sa mère cantatrice. Lui-même excellent violoniste, il hésita longtemps entre la musique et la peinture. La musique restera la matrice de tout son art : il composera ses tableaux comme des partitions, par rythmes, mesures et harmonies de couleurs."
             },
             {
-              "h": "Un monde de signes",
-              "p": "Flèches, poissons, lettres, petits personnages : Klee invente un alphabet visuel à mi-chemin du rêve et de l'enfance, jamais naïf, toujours réfléchi."
+              "h": "Le déclic : la révélation de la couleur en Tunisie",
+              "p": "D'abord dessinateur et graveur (un trait fin, ironique, fantastique), Klee découvre la couleur tard, lors d'un voyage en Tunisie en 1914. Devant la lumière du Sud, il note dans son journal : « La couleur me possède. C'est le sens de l'heure heureuse : la couleur et moi ne faisons qu'un. Je suis peintre. » C'est sa naissance comme coloriste."
             },
             {
-              "h": "Le théoricien du Bauhaus",
-              "p": "Professeur au Bauhaus, il bâtit une véritable théorie de la forme et de la couleur, transmise à des générations d'artistes et de designers."
+              "h": "Le Bauhaus : penser la forme",
+              "p": "Professeur au Bauhaus aux côtés de Kandinsky, Klee développe une réflexion théorique d'une richesse rare sur la ligne, la forme et la couleur, consignée dans ses carnets pédagogiques. « Le dessin, c'est prendre une ligne pour une promenade », disait-il. Il enseigne tout en peignant des milliers d'œuvres d'une inventivité débordante."
             },
             {
-              "h": "La fin sous l'ombre",
-              "p": "Déclaré « dégénéré » par les nazis, malade, il peint ses dernières œuvres — plus sombres, plus graves, comme des hiéroglyphes face à la mort."
+              "h": "Son moteur : rendre visible l'invisible",
+              "p": "« L'art ne reproduit pas le visible, il rend visible », telle est la formule fameuse de Klee. Il ne copie pas le monde : il invente des signes, des écritures, des paysages mentaux, des machines drôles (La Machine à gazouiller), des cités imaginaires. Son art naît de l'intérieur, du rêve et du jeu, comme un enfant — mais un enfant savant."
+            },
+            {
+              "h": "Le message : la poésie et l'humour graves",
+              "p": "Klee mêle le sourire et la gravité : ses titres sont des poèmes, ses œuvres pleines d'humour et d'énigme. Mais sous la fantaisie court une méditation sur la nature, la croissance, la mort. Frappé par une maladie incurable et déclaré « dégénéré » par les nazis qui le chassent d'Allemagne, ses dernières œuvres se chargent de signes noirs, graves et émouvants."
+            },
+            {
+              "h": "Pourquoi il est unique, selon les experts",
+              "p": "Les historiens placent Klee parmi les inventeurs les plus libres du siècle : inclassable, à la frontière de l'abstraction, du surréalisme et de l'expressionnisme, il a ouvert d'innombrables pistes. Gombrich souligne sa volonté de retrouver, par-delà le savoir, la fraîcheur de l'enfant et du « primitif » — une innocence reconquise au prix d'une immense culture."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où d'autres choisissent un système (l'abstraction pure, le cubisme), Klee refuse de se fixer : chaque œuvre invente sa propre loi. Petits formats, infinie variété de techniques, alliance unique du graphisme et de la couleur, de l'humour et de la profondeur : son monde, reconnaissable entre tous, est l'un des plus aimés et des plus féconds de l'art moderne."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Senecio (Tête d'homme en gériatrie)",
+              "artiste": "Klee",
+              "annee": "1922",
+              "lieu": "Kunstmuseum, Bâle",
+              "wiki": "Senecio (Klee)",
+              "analyse": "Un visage rond, composé de petits rectangles de couleurs chaudes, aux yeux dépareillés, mi-clown mi-masque. Klee construit la tête comme une mosaïque musicale, à la fois géométrique et drôle. La synthèse parfaite de sa rigueur et de sa fantaisie."
+            },
+            {
+              "titre": "La Machine à gazouiller",
+              "artiste": "Klee",
+              "annee": "1922",
+              "lieu": "MoMA, New York",
+              "wiki": "Twittering Machine",
+              "analyse": "Une mécanique absurde où une manivelle fait « chanter » des oiseaux réduits à des fils de fer. Humour et inquiétude mêlés : la nature transformée en machine grinçante. Le génie de Klee pour rendre visibles des idées par le trait le plus léger."
+            },
+            {
+              "titre": "Ad Parnassum",
+              "artiste": "Klee",
+              "annee": "1932",
+              "lieu": "Kunstmuseum, Berne",
+              "wiki": "Ad Parnassum",
+              "analyse": "Sa plus grande toile : une mosaïque de milliers de petites touches colorées formant une montagne et une porte, vers le mont Parnasse des Muses. Klee y applique une technique pointilliste personnelle : la couleur comme musique, vibrant point par point."
+            },
+            {
+              "titre": "Routes principales et routes secondaires",
+              "artiste": "Klee",
+              "annee": "1929",
+              "lieu": "Museum Ludwig, Cologne",
+              "wiki": "Highway and Byways",
+              "analyse": "Des bandes de couleur s'étagent comme des champs vus d'avion ou les strates d'un paysage, traversées d'une route centrale. Inspiré de l'Égypte, Klee transforme le paysage en rythme pur de couleurs montant vers l'horizon."
             }
           ]
         },
@@ -5671,24 +5899,36 @@
           "dates": "1904-1989",
           "role": "Surréalisme",
           "wiki": "Salvador Dalí",
-          "portrait": "Surréalisme, rêve hyperréaliste (La Persistance de la mémoire).",
+          "portrait": "Salvador Dalí (1904-1989) est, avec Magritte, la figure la plus célèbre du surréalisme. Doté d'un métier de peintre virtuose et d'un goût immodéré de la provocation, il a peint ses rêves et ses obsessions avec une précision hallucinante — et fait de sa propre personne, moustache comprise, une œuvre d'art et un spectacle permanent.",
           "bio_longue": "Salvador Dalí (1904-1989), Catalan génial et cabotin, se fait le showman du surréalisme : moustache en guidon, provocations calculées, amour de l'argent (Breton l'anagramme en « Avida Dollars »). Mais derrière le clown, un technicien hors pair qui peint ses rêves avec une précision hallucinante — c'est ce réalisme minutieux qui rend ses montres molles si troublantes. Il invente la méthode « paranoïaque-critique » : provoquer en soi un délire pour y voir des images doubles. Sa muse et femme Gala est au centre de tout. Génie ou imposteur ? Les deux, sans doute — et c'est très surréaliste.",
           "bio_sections": [
             {
-              "h": "Le showman catalan",
-              "p": "Salvador Dalí, Catalan génial et cabotin, se fait la vitrine du surréalisme : moustache en guidon, provocations calculées, amour de l'argent (Breton l'anagramme en « Avida Dollars »)."
+              "h": "L'enfance : Figueras et le frère mort",
+              "p": "Né en 1904 à Figueras, en Catalogne, Dalí porte le prénom d'un frère aîné mort peu avant sa naissance — ses parents lui répétaient qu'il en était la réincarnation, ce qui le hanta. Enfant capricieux et surdoué, baigné par les paysages secs et lumineux de la côte catalane (Cadaqués), qu'il peindra toute sa vie, il manifeste très tôt un talent de dessinateur exceptionnel."
             },
             {
-              "h": "La méthode paranoïaque-critique",
-              "p": "Il invente une méthode pour provoquer en lui un délire contrôlé et y voir des images doubles, des métamorphoses — la logique du rêve mise en système."
+              "h": "Le déclic : le surréalisme et la psychanalyse",
+              "p": "Formé à Madrid (où il se lie au poète Lorca et au cinéaste Buñuel), Dalí rejoint à Paris le groupe surréaliste d'André Breton vers 1929. Il y trouve sa voie : peindre les rêves, les désirs et les peurs de l'inconscient, sur les traces de Freud qu'il vénère. Sa méthode, dite « paranoïaque-critique », cultive le délire pour en tirer des images."
             },
             {
-              "h": "Le technicien du rêve",
-              "p": "Derrière le clown, un peintre d'une virtuosité hallucinante : c'est ce réalisme minutieux qui rend ses montres molles si troublantes. Il peint l'impossible comme s'il était réel."
+              "h": "Les rêves peints avec une précision de maître",
+              "p": "La force de Dalí est de peindre l'irréel avec un réalisme minutieux, presque photographique, hérité des maîtres anciens : montres molles, corps disloqués, paysages infinis. Plus l'image est délirante, plus la facture est nette — ce qui rend ses cauchemars troublants de vraisemblance. La Persistance de la mémoire (montres fondantes) en est l'exemple culte."
             },
             {
-              "h": "Gala et la légende",
-              "p": "Sa muse et femme Gala est au centre de tout. Génie ou imposteur ? Les deux, sans doute — et c'est très surréaliste. Il meurt en 1989, icône mondiale."
+              "h": "Son moteur : le rêve, l'obsession et la provocation",
+              "p": "Dalí puise dans ses obsessions intimes (la peur, le désir, la mort, sa femme et muse Gala) une imagerie inépuisable. Mais il est aussi un provocateur génial et un showman : déclarations extravagantes, mises en scène, publicité. « Le surréalisme, c'est moi », lançait-il — au point que Breton, agacé par son goût de l'argent, l'exclut du groupe et le surnomme « Avida Dollars »."
+            },
+            {
+              "h": "Le message : entre génie et imposture",
+              "p": "Dalí a brouillé volontairement la frontière entre l'art et le spectacle : films avec Buñuel, décors, bijoux, publicités, apparitions télévisées. Certains y voient un immense talent dévoyé par le commerce ; d'autres, une œuvre totale où la mise en scène de soi fait partie de l'art. Il finit par bâtir son propre musée-théâtre à Figueras, ultime mise en scène."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens reconnaissent en Dalí l'un des imagiers les plus inventifs du surréalisme, capable de fixer des images de rêve devenues universelles. Gombrich note l'ambivalence : un métier éblouissant et une imagination débordante, au service parfois du seul effet. Mais nul n'a autant que lui imposé le rêve peint dans l'imaginaire collectif. (Ses œuvres restent sous droits d'auteur — peu d'images libres.)"
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Picasso ou Matisse simplifient et abstraient, Dalí revient à un réalisme académique virtuose pour mieux peindre l'impossible. Et là où l'artiste moderne fuit souvent la célébrité, Dalí la cherche et s'en fait une œuvre. Personnage-spectacle, génie autoproclamé, il reste l'un des artistes les plus connus — et les plus discutés — du XXe siècle."
             }
           ]
         },
