@@ -1938,7 +1938,25 @@
           "role": "",
           "wiki": "Giovanni Battista Tiepolo",
           "portrait": "Le dernier grand maître du plafond baroque ; Venise, puis Würzburg et Madrid. Légèreté solaire.",
-          "bio_longue": "Giambattista Tiepolo (1696-1770) est le dernier grand maître de la fresque baroque, et le plus grand décorateur du XVIIIe siècle. Vénitien, d'une facilité prodigieuse, il couvre d'immenses plafonds de cieux lumineux où des dizaines de figures semblent voler. Sa renommée est telle qu'on l'appelle à Würzburg pour décorer la résidence des princes-évêques (son plus vaste chef-d'œuvre), puis à Madrid au service du roi d'Espagne, où il meurt. Avec lui s'achève l'âge d'or de la peinture décorative italienne."
+          "bio_longue": "Giambattista Tiepolo (1696-1770) est le dernier grand maître de la fresque baroque, et le plus grand décorateur du XVIIIe siècle. Vénitien, d'une facilité prodigieuse, il couvre d'immenses plafonds de cieux lumineux où des dizaines de figures semblent voler. Sa renommée est telle qu'on l'appelle à Würzburg pour décorer la résidence des princes-évêques (son plus vaste chef-d'œuvre), puis à Madrid au service du roi d'Espagne, où il meurt. Avec lui s'achève l'âge d'or de la peinture décorative italienne.",
+          "bio_sections": [
+            {
+              "h": "Le dernier maître du plafond",
+              "p": "Giambattista Tiepolo, Vénitien d'une facilité prodigieuse, est le dernier grand maître de la fresque décorative baroque."
+            },
+            {
+              "h": "Des cieux lumineux",
+              "p": "Il couvre d'immenses plafonds de cieux clairs et de figures flottantes, d'une légèreté et d'une virtuosité jamais égalées."
+            },
+            {
+              "h": "Würzburg et Madrid",
+              "p": "Sa renommée l'appelle à Würzburg, en Allemagne, pour son plus vaste chef-d'œuvre, puis à Madrid au service du roi d'Espagne, où il meurt."
+            },
+            {
+              "h": "Le chant du cygne",
+              "p": "Avec lui s'achève l'âge d'or de la grande peinture décorative italienne : après lui, plus personne ne fera mieux dans ce genre."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1947,7 +1965,17 @@
           "role": "",
           "wiki": "Giovanni Battista Gaulli",
           "portrait": "Maître de l'illusion de plafond (Gesù).",
-          "bio_longue": "Giovanni Battista Gaulli, dit Baciccio (1639-1709), est le maître de l'illusion de plafond. Protégé du Bernin, il réalise au Gesù de Rome le Triomphe du nom de Jésus, sommet du trompe-l'œil baroque où peinture, stuc et architecture se confondent pour faire éclater la voûte vers le ciel."
+          "bio_longue": "Giovanni Battista Gaulli, dit Baciccio (1639-1709), est le maître de l'illusion de plafond. Protégé du Bernin, il réalise au Gesù de Rome le Triomphe du nom de Jésus, sommet du trompe-l'œil baroque où peinture, stuc et architecture se confondent pour faire éclater la voûte vers le ciel.",
+          "bio_sections": [
+            {
+              "h": "Le maître du trompe-l'œil",
+              "p": "Giovanni Battista Gaulli, dit Baciccio, protégé du Bernin, est le maître de l'illusion de plafond."
+            },
+            {
+              "h": "Le plafond du Gesù",
+              "p": "Au Gesù de Rome, il réalise un Triomphe du nom de Jésus où la voûte semble se déchirer : peinture, stuc et architecture se confondent, et l'œil ne distingue plus le peint du réel."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1956,7 +1984,21 @@
           "role": "",
           "wiki": "Canaletto",
           "portrait": "Roi de la veduta vénitienne ; travaille beaucoup pour le marché anglais.",
-          "bio_longue": "Canaletto (Giovanni Antonio Canal, 1697-1768) est le roi de la veduta vénitienne. Fils de décorateur de théâtre, il transpose ce sens de la mise en scène dans des vues d'une précision saisissante (il s'aidait peut-être d'une chambre obscure). Sa clientèle est surtout anglaise — les voyageurs du Grand Tour — au point qu'il passe une dizaine d'années à Londres à peindre la Tamise. Ses Venises lumineuses et exactes sont devenues l'image même de la ville."
+          "bio_longue": "Canaletto (Giovanni Antonio Canal, 1697-1768) est le roi de la veduta vénitienne. Fils de décorateur de théâtre, il transpose ce sens de la mise en scène dans des vues d'une précision saisissante (il s'aidait peut-être d'une chambre obscure). Sa clientèle est surtout anglaise — les voyageurs du Grand Tour — au point qu'il passe une dizaine d'années à Londres à peindre la Tamise. Ses Venises lumineuses et exactes sont devenues l'image même de la ville.",
+          "bio_sections": [
+            {
+              "h": "Le roi de la veduta",
+              "p": "Canaletto, fils de décorateur de théâtre, transpose ce sens de la mise en scène dans des vues de Venise d'une précision saisissante (peut-être aidé d'une chambre obscure)."
+            },
+            {
+              "h": "Le marché anglais",
+              "p": "Sa clientèle est surtout anglaise — les voyageurs du Grand Tour qui veulent un souvenir de la Sérénissime — au point qu'il passe une dizaine d'années à Londres à peindre la Tamise."
+            },
+            {
+              "h": "L'image de Venise",
+              "p": "Ses Venises lumineuses et exactes sont devenues l'image même de la ville ; une grande partie est aujourd'hui en Angleterre, rapportée dans les bagages des voyageurs."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1965,7 +2007,17 @@
           "role": "",
           "wiki": "Francesco Guardi",
           "portrait": "Vedute plus libres, atmosphériques, presque pré-impressionnistes.",
-          "bio_longue": "Francesco Guardi (1712-1793) peint, comme Canaletto, les vues de Venise, mais d'une touche libre, nerveuse, atmosphérique qui annonce l'impressionnisme. Moins exact mais plus poétique, il capte la lumière mouvante de la lagune et la mélancolie d'une cité finissante. Il meurt quatre ans avant la chute de la République : le dernier grand peintre de l'âge d'or vénitien."
+          "bio_longue": "Francesco Guardi (1712-1793) peint, comme Canaletto, les vues de Venise, mais d'une touche libre, nerveuse, atmosphérique qui annonce l'impressionnisme. Moins exact mais plus poétique, il capte la lumière mouvante de la lagune et la mélancolie d'une cité finissante. Il meurt quatre ans avant la chute de la République : le dernier grand peintre de l'âge d'or vénitien.",
+          "bio_sections": [
+            {
+              "h": "La veduta poétique",
+              "p": "Francesco Guardi peint, comme Canaletto, les vues de Venise — mais d'une touche libre, nerveuse, atmosphérique qui annonce l'impressionnisme."
+            },
+            {
+              "h": "Le crépuscule d'une cité",
+              "p": "Moins exact mais plus poétique, il capte la lumière mouvante de la lagune. Il meurt en 1793, quatre ans avant la chute de la République : le dernier grand peintre de l'âge d'or vénitien."
+            }
+          ]
         }
       ],
       "index": [
@@ -2105,7 +2157,25 @@
           "role": "",
           "wiki": "Antoine Watteau",
           "portrait": "Inventeur de la fête galante ; grâce et mélancolie ; mort jeune, tuberculeux.",
-          "bio_longue": "Antoine Watteau (1684-1721) est le peintre le plus délicat du XVIIIe siècle. Venu des Flandres, de santé fragile, mélancolique, il invente la fête galante : des scènes de plaisir aristocratique baignées d'une lumière tendre et d'un sentiment de fuite du temps. Sa touche légère, vibrante, ses harmonies subtiles annoncent presque l'impressionnisme. Tuberculeux, il meurt à 36 ans. Sous la grâce de son monde de soie perce toujours une douce tristesse : le bonheur y est déjà un souvenir."
+          "bio_longue": "Antoine Watteau (1684-1721) est le peintre le plus délicat du XVIIIe siècle. Venu des Flandres, de santé fragile, mélancolique, il invente la fête galante : des scènes de plaisir aristocratique baignées d'une lumière tendre et d'un sentiment de fuite du temps. Sa touche légère, vibrante, ses harmonies subtiles annoncent presque l'impressionnisme. Tuberculeux, il meurt à 36 ans. Sous la grâce de son monde de soie perce toujours une douce tristesse : le bonheur y est déjà un souvenir.",
+          "bio_sections": [
+            {
+              "h": "Venu des Flandres",
+              "p": "Antoine Watteau, de santé fragile et d'âme mélancolique, monte des Flandres à Paris où il invente un genre entièrement neuf."
+            },
+            {
+              "h": "La fête galante",
+              "p": "Des couples élégants qui flânent, dansent, s'aiment dans des parcs dorés au crépuscule (L'Embarquement pour Cythère) : c'est la fête galante, un genre créé pour lui par l'Académie."
+            },
+            {
+              "h": "La grâce doux-amère",
+              "p": "Sous le charme perce une tristesse : ces plaisirs sont fragiles, le bonheur passe — et Watteau, tuberculeux, le sait. Sa touche frémissante annonce presque l'impressionnisme."
+            },
+            {
+              "h": "Mort à 36 ans",
+              "p": "Il meurt jeune, en 1721, laissant l'image du peintre le plus délicat du siècle — celui qui peignait le bonheur déjà comme un souvenir."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2114,7 +2184,21 @@
           "role": "",
           "wiki": "François Boucher",
           "portrait": "Rococo sensuel et décoratif, peintre de Madame de Pompadour.",
-          "bio_longue": "François Boucher (1703-1770) est le Rococo dans sa version la plus sensuelle et décorative. Peintre favori de Madame de Pompadour, maîtresse de Louis XV, il produit des Vénus roses et potelées, des bergères galantes, des pastorales charmantes, dans des tons de pastel acidulés. Virtuose et infatigable décorateur, il incarne le goût d'une cour qui ne veut que plaire — ce que les Lumières lui reprocheront bientôt amèrement."
+          "bio_longue": "François Boucher (1703-1770) est le Rococo dans sa version la plus sensuelle et décorative. Peintre favori de Madame de Pompadour, maîtresse de Louis XV, il produit des Vénus roses et potelées, des bergères galantes, des pastorales charmantes, dans des tons de pastel acidulés. Virtuose et infatigable décorateur, il incarne le goût d'une cour qui ne veut que plaire — ce que les Lumières lui reprocheront bientôt amèrement.",
+          "bio_sections": [
+            {
+              "h": "Le peintre de Pompadour",
+              "p": "François Boucher est le peintre favori de Madame de Pompadour, maîtresse de Louis XV, et l'incarnation du goût rococo de la cour."
+            },
+            {
+              "h": "Sensualité décorative",
+              "p": "Vénus roses et potelées, bergères galantes, pastorales charmantes, tons pastel acidulés : il ne veut que plaire et décorer."
+            },
+            {
+              "h": "Le reproche des Lumières",
+              "p": "Cette frivolité aristocratique lui sera bientôt reprochée par les Lumières et par Diderot, au nom d'un art plus sérieux et plus moral."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2123,7 +2207,21 @@
           "role": "architecte",
           "wiki": "Balthasar Neumann",
           "portrait": "Vierzehnheiligen, Würzburg : maître de l'architecture rococo d'Europe centrale.",
-          "bio_longue": "Balthasar Neumann (1687-1753) est le grand architecte du Rococo d'Europe centrale. À la Résidence de Würzburg et à l'église de pèlerinage de Vierzehnheiligen, il crée des espaces d'une audace et d'une légèreté inouïes : des voûtes ondulantes, des plans courbes et entrelacés, une lumière qui inonde des intérieurs blancs et or. L'architecture y cesse d'être statique pour devenir mouvement et musique."
+          "bio_longue": "Balthasar Neumann (1687-1753) est le grand architecte du Rococo d'Europe centrale. À la Résidence de Würzburg et à l'église de pèlerinage de Vierzehnheiligen, il crée des espaces d'une audace et d'une légèreté inouïes : des voûtes ondulantes, des plans courbes et entrelacés, une lumière qui inonde des intérieurs blancs et or. L'architecture y cesse d'être statique pour devenir mouvement et musique.",
+          "bio_sections": [
+            {
+              "h": "L'architecte de la légèreté",
+              "p": "Balthasar Neumann est le grand architecte du Rococo d'Europe centrale."
+            },
+            {
+              "h": "Würzburg et Vierzehnheiligen",
+              "p": "À la Résidence de Würzburg et à l'église de pèlerinage de Vierzehnheiligen, il crée des espaces ondulants, blancs et or, baignés de lumière, où murs et autels semblent flotter."
+            },
+            {
+              "h": "L'architecture-musique",
+              "p": "Chez lui, l'architecture cesse d'être statique pour devenir mouvement et musique — l'apothéose du Rococo bâti."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2131,7 +2229,17 @@
           "dates": "1656-1723",
           "role": "architecte",
           "wiki": "Johann Bernhard Fischer von Erlach",
-          "portrait": "Karlskirche (Vienne) : baroque autrichien."
+          "portrait": "Karlskirche (Vienne) : baroque autrichien.",
+          "bio_sections": [
+            {
+              "h": "Le baroque autrichien",
+              "p": "Johann Bernhard Fischer von Erlach est le grand architecte du baroque viennois."
+            },
+            {
+              "h": "La Karlskirche",
+              "p": "Sa Karlskirche de Vienne, mêlant coupole, colonnes triomphales et façade théâtrale, incarne la grandeur de l'Autriche impériale."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2139,7 +2247,13 @@
           "dates": "1660-1726",
           "role": "architecte",
           "wiki": "Jakob Prandtauer",
-          "portrait": "Abbaye de Melk, perchée sur le Danube."
+          "portrait": "Abbaye de Melk, perchée sur le Danube.",
+          "bio_sections": [
+            {
+              "h": "L'abbaye de Melk",
+              "p": "Jakob Prandtauer est l'auteur de l'abbaye de Melk, perchée au-dessus du Danube — l'un des plus spectaculaires monastères baroques d'Europe, vaisseau d'or et de blanc dominant le fleuve."
+            }
+          ]
         }
       ],
       "index": [
@@ -2292,7 +2406,21 @@
           "role": "France",
           "wiki": "Jean-Baptiste-Siméon Chardin",
           "portrait": "Maître de la nature morte et de la scène intime ; la dignité du quotidien.",
-          "bio_longue": "Jean-Siméon Chardin (1699-1779) est le grand peintre du silence et du quotidien français. À rebours du Rococo brillant de son époque, il peint des natures mortes (du gibier, des ustensiles, un verre d'eau) et des scènes intimes (une mère, une gouvernante) avec une matière épaisse, une lumière douce et une gravité émouvante. Diderot le célèbre. Il ennoblit le banal sans jamais l'idéaliser, et reste l'un des plus purs coloristes de l'histoire — un peintre de peintres, redécouvert et adoré par Cézanne et Matisse."
+          "bio_longue": "Jean-Siméon Chardin (1699-1779) est le grand peintre du silence et du quotidien français. À rebours du Rococo brillant de son époque, il peint des natures mortes (du gibier, des ustensiles, un verre d'eau) et des scènes intimes (une mère, une gouvernante) avec une matière épaisse, une lumière douce et une gravité émouvante. Diderot le célèbre. Il ennoblit le banal sans jamais l'idéaliser, et reste l'un des plus purs coloristes de l'histoire — un peintre de peintres, redécouvert et adoré par Cézanne et Matisse.",
+          "bio_sections": [
+            {
+              "h": "Le silence des choses",
+              "p": "Jean-Siméon Chardin peint, à contre-courant du Rococo brillant, des natures mortes et des scènes intimes : du pain, un verre d'eau, une mère et son enfant."
+            },
+            {
+              "h": "La dignité du banal",
+              "p": "Avec une matière épaisse, une lumière douce et une gravité émouvante, il ennoblit l'ordinaire sans jamais l'idéaliser. Diderot le célèbre."
+            },
+            {
+              "h": "Le peintre des peintres",
+              "p": "L'un des plus purs coloristes de l'histoire, il sera redécouvert et adoré par Cézanne et Matisse — un peintre de peintres, annonçant le réalisme un siècle à l'avance."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2301,7 +2429,21 @@
           "role": "France",
           "wiki": "Jean-Honoré Fragonard",
           "portrait": "Dernier grand du Rococo galant (L'Escarpolette), virtuose de la fougue légère.",
-          "bio_longue": "Jean-Honoré Fragonard (1732-1806) est le dernier grand virtuose du Rococo galant. Sa touche fougueuse, rapide, pleine de verve, anime des scènes d'amour et de plaisir (L'Escarpolette, où une jeune femme perd sa chaussure en se balançant sous le regard d'un amant). Adulé sous l'Ancien Régime, il est ruiné par la Révolution qui balaie son monde de fêtes galantes ; il meurt oublié. Son brio et sa liberté de pinceau seront réhabilités bien plus tard."
+          "bio_longue": "Jean-Honoré Fragonard (1732-1806) est le dernier grand virtuose du Rococo galant. Sa touche fougueuse, rapide, pleine de verve, anime des scènes d'amour et de plaisir (L'Escarpolette, où une jeune femme perd sa chaussure en se balançant sous le regard d'un amant). Adulé sous l'Ancien Régime, il est ruiné par la Révolution qui balaie son monde de fêtes galantes ; il meurt oublié. Son brio et sa liberté de pinceau seront réhabilités bien plus tard.",
+          "bio_sections": [
+            {
+              "h": "Le dernier feu du Rococo",
+              "p": "Jean-Honoré Fragonard est le dernier grand virtuose du Rococo galant, à la touche fougueuse et pleine de verve."
+            },
+            {
+              "h": "L'Escarpolette",
+              "p": "Sa scène la plus célèbre montre une jeune femme qui perd sa chaussure en se balançant sous le regard d'un amant — l'esprit de plaisir de l'Ancien Régime à son comble."
+            },
+            {
+              "h": "Ruiné par la Révolution",
+              "p": "La Révolution balaie son monde de fêtes galantes ; Fragonard, dépassé, meurt oublié. Son brio sera réhabilité bien plus tard."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2310,7 +2452,21 @@
           "role": "Angleterre",
           "wiki": "William Hogarth",
           "portrait": "Satire morale en séries, père de l'art anglais.",
-          "bio_longue": "William Hogarth (1697-1764) est le père de l'art anglais. Esprit indépendant et mordant, il invente la « comédie morale peinte » : des séries de tableaux qui racontent et critiquent les mœurs de son temps (Mariage à la mode, La Carrière d'un libertin). Diffusées par la gravure, ses séries touchent un large public et font de l'art un instrument de satire sociale. Il se bat aussi pour les droits des artistes et une école anglaise indépendante de l'Italie."
+          "bio_longue": "William Hogarth (1697-1764) est le père de l'art anglais. Esprit indépendant et mordant, il invente la « comédie morale peinte » : des séries de tableaux qui racontent et critiquent les mœurs de son temps (Mariage à la mode, La Carrière d'un libertin). Diffusées par la gravure, ses séries touchent un large public et font de l'art un instrument de satire sociale. Il se bat aussi pour les droits des artistes et une école anglaise indépendante de l'Italie.",
+          "bio_sections": [
+            {
+              "h": "Le père de l'art anglais",
+              "p": "William Hogarth, esprit indépendant et mordant, invente la « comédie morale peinte »."
+            },
+            {
+              "h": "Les séries",
+              "p": "Comme un romancier en images, il déroule scène par scène la déchéance d'un mariage arrangé (Mariage à la mode) ou d'un libertin — l'art devient satire sociale, diffusée par la gravure."
+            },
+            {
+              "h": "Le combat pour l'art anglais",
+              "p": "Il se bat aussi pour les droits des artistes et pour une école anglaise indépendante de l'Italie."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2318,7 +2474,17 @@
           "dates": "1723-1792",
           "role": "Angleterre",
           "wiki": "Joshua Reynolds",
-          "portrait": "Portraitiste savant, premier président de la Royal Academy."
+          "portrait": "Portraitiste savant, premier président de la Royal Academy.",
+          "bio_sections": [
+            {
+              "h": "Le président de l'Academy",
+              "p": "Joshua Reynolds est le portraitiste le plus savant de l'Angleterre et le premier président de la Royal Academy."
+            },
+            {
+              "h": "Le « grand style »",
+              "p": "Dans ses Discours, il prône un portrait noble, nourri de références aux maîtres anciens, élevant le genre à la dignité de la peinture d'histoire."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2327,7 +2493,21 @@
           "role": "Angleterre",
           "wiki": "Thomas Gainsborough",
           "portrait": "Portraits naturels et paysages, rival de Reynolds.",
-          "bio_longue": "Thomas Gainsborough (1727-1788) est, avec son rival Reynolds, le grand portraitiste anglais. Mais il aurait préféré peindre des paysages — et c'est justement ce qui fait son charme : il saisit ses modèles aristocratiques avec un naturel élégant, souvent fondus dans une campagne anglaise vaporeuse, peinte d'une touche légère et libre. Le portrait, chez lui, respire l'air, la lumière et une grâce sans raideur."
+          "bio_longue": "Thomas Gainsborough (1727-1788) est, avec son rival Reynolds, le grand portraitiste anglais. Mais il aurait préféré peindre des paysages — et c'est justement ce qui fait son charme : il saisit ses modèles aristocratiques avec un naturel élégant, souvent fondus dans une campagne anglaise vaporeuse, peinte d'une touche légère et libre. Le portrait, chez lui, respire l'air, la lumière et une grâce sans raideur.",
+          "bio_sections": [
+            {
+              "h": "Le rival de Reynolds",
+              "p": "Thomas Gainsborough est, avec Reynolds, le grand portraitiste anglais — mais il aurait préféré peindre des paysages, et c'est ce qui fait son charme."
+            },
+            {
+              "h": "Le naturel et le paysage",
+              "p": "Il saisit ses modèles avec une élégance naturelle, souvent fondus dans une campagne anglaise vaporeuse, d'une touche légère et libre (M. et Mme Andrews, The Blue Boy)."
+            },
+            {
+              "h": "Le souffle anglais",
+              "p": "Sa sensibilité au paysage et à la lumière annonce le grand siècle anglais de Constable et Turner."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2335,7 +2515,17 @@
           "dates": "1741-1828",
           "role": "France",
           "wiki": "Jean-Antoine Houdon",
-          "portrait": "Sculpteur, bustes saisissants (Voltaire, Washington)."
+          "portrait": "Sculpteur, bustes saisissants (Voltaire, Washington).",
+          "bio_sections": [
+            {
+              "h": "Le sculpteur des Lumières",
+              "p": "Jean-Antoine Houdon est le grand sculpteur du siècle des Lumières, maître du buste."
+            },
+            {
+              "h": "Les visages de l'époque",
+              "p": "Ses portraits saisissants de Voltaire (au sourire ironique), de Diderot, de Washington fixent à jamais les visages des esprits qui ont fait le siècle."
+            }
+          ]
         }
       ],
       "index": [
