@@ -946,7 +946,21 @@
           "dates": "1494-1557",
           "role": "",
           "wiki": "Pontormo",
-          "portrait": "Couleurs acides, émotion troublée (Déposition)."
+          "portrait": "Couleurs acides, émotion troublée (Déposition).",
+          "bio_sections": [
+            {
+              "h": "L'élève angoissé",
+              "p": "Jacopo Pontormo, élève d'Andrea del Sarto à Florence, est l'un des premiers maniéristes. Solitaire, hypocondriaque, il tient un journal obsessionnel de ses maux."
+            },
+            {
+              "h": "Couleurs acides, émotion troublée",
+              "p": "Sa Déposition de Santa Felicita, aux roses et bleus irréels, aux corps flottants et entremêlés, abandonne l'équilibre de la Haute Renaissance pour une émotion étrange, presque irréelle."
+            },
+            {
+              "h": "Le maître d'une génération",
+              "p": "Reclus à la fin de sa vie, il forme pourtant Bronzino, qui portera le style maniériste à la cour des Médicis."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -955,7 +969,21 @@
           "role": "",
           "wiki": "Agnolo Bronzino",
           "portrait": "Portraits glacés, raffinés, distants ; peintre de cour des Médicis.",
-          "bio_longue": "Agnolo Bronzino (1503-1572), élève de Pontormo, est le portraitiste glacé de la cour des Médicis à Florence. Ses modèles, figés dans une élégance hautaine, semblent de marbre ou de porcelaine ; ses allégories sont d'une froideur précieuse et énigmatique. Le sommet d'un maniérisme aristocratique, distant, raffiné à l'extrême."
+          "bio_longue": "Agnolo Bronzino (1503-1572), élève de Pontormo, est le portraitiste glacé de la cour des Médicis à Florence. Ses modèles, figés dans une élégance hautaine, semblent de marbre ou de porcelaine ; ses allégories sont d'une froideur précieuse et énigmatique. Le sommet d'un maniérisme aristocratique, distant, raffiné à l'extrême.",
+          "bio_sections": [
+            {
+              "h": "Le portraitiste des Médicis",
+              "p": "Agnolo Bronzino, élève de Pontormo, devient le peintre officiel de la cour des Médicis à Florence."
+            },
+            {
+              "h": "Une élégance glacée",
+              "p": "Ses modèles, figés dans une distance hautaine, semblent de marbre ou de porcelaine ; ses allégories (Vénus, Cupidon) sont d'une froideur précieuse et énigmatique."
+            },
+            {
+              "h": "Le sommet du maniérisme de cour",
+              "p": "Bronzino incarne un maniérisme aristocratique, raffiné à l'extrême, où la perfection technique sert une distance et une étrangeté voulues."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -964,7 +992,21 @@
           "role": "",
           "wiki": "Parmigianino",
           "portrait": "L'élégance étirée portée à l'extrême ; mort jeune, obsédé d'alchimie.",
-          "bio_longue": "Le Parmesan (Parmigianino, 1503-1540), de Parme, porte l'élégance maniériste à son comble : des figures d'une grâce étirée, irréelle, aristocratique. Enfant prodige, il fascina ses contemporains au point qu'on dit que des soldats du sac de Rome, entrés dans son atelier, restèrent saisis devant ses toiles. Obsédé à la fin de sa vie par l'alchimie, négligeant la peinture pour chercher à faire de l'or, il meurt à 37 ans, ruiné et un peu fou."
+          "bio_longue": "Le Parmesan (Parmigianino, 1503-1540), de Parme, porte l'élégance maniériste à son comble : des figures d'une grâce étirée, irréelle, aristocratique. Enfant prodige, il fascina ses contemporains au point qu'on dit que des soldats du sac de Rome, entrés dans son atelier, restèrent saisis devant ses toiles. Obsédé à la fin de sa vie par l'alchimie, négligeant la peinture pour chercher à faire de l'or, il meurt à 37 ans, ruiné et un peu fou.",
+          "bio_sections": [
+            {
+              "h": "Le prodige de Parme",
+              "p": "Le Parmesan (Parmigianino) est un enfant prodige de Parme, qui fascine ses contemporains par sa virtuosité précoce. On raconte que des soldats du sac de Rome, entrés dans son atelier, restèrent saisis devant ses toiles."
+            },
+            {
+              "h": "L'élégance étirée",
+              "p": "Sa Madone au long cou pousse l'élégance maniériste à l'extrême : cou de cygne, doigts interminables, enfant anormalement grand. La beauté devient artifice assumé, irréel et raffiné."
+            },
+            {
+              "h": "L'alchimie et la ruine",
+              "p": "Obsédé à la fin de sa vie par l'alchimie — il cherchait à faire de l'or et négligeait la peinture — il meurt à 37 ans, ruiné et un peu fou."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -972,7 +1014,21 @@
           "dates": "1500-1571",
           "role": "",
           "wiki": "Benvenuto Cellini",
-          "portrait": "Orfèvre/sculpteur, aventurier ; Persée, salière de François Iᵉʳ ; a laissé une autobiographie célèbre."
+          "portrait": "Orfèvre/sculpteur, aventurier ; Persée, salière de François Iᵉʳ ; a laissé une autobiographie célèbre.",
+          "bio_sections": [
+            {
+              "h": "L'orfèvre aventurier",
+              "p": "Benvenuto Cellini est orfèvre, sculpteur et aventurier : duels, prison, fuites rocambolesques émaillent sa vie tumultueuse."
+            },
+            {
+              "h": "Persée et la salière",
+              "p": "Son bronze de Persée brandissant la tête de Méduse et sa salière en or pour François Iᵉʳ comptent parmi les chefs-d'œuvre de l'orfèvrerie maniériste."
+            },
+            {
+              "h": "L'autobiographie",
+              "p": "Il laisse une autobiographie flamboyante, l'une des plus célèbres de la Renaissance, où il se met magnifiquement en scène — document inestimable sur l'artiste de son temps."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -980,7 +1036,21 @@
           "dates": "1529-1608",
           "role": "",
           "wiki": "Giambologna",
-          "portrait": "Maître de la sculpture en spirale."
+          "portrait": "Maître de la sculpture en spirale.",
+          "bio_sections": [
+            {
+              "h": "Le maître de la spirale",
+              "p": "Giambologna, Flamand installé à Florence, est le grand sculpteur du maniérisme tardif, héritier de Michel-Ange."
+            },
+            {
+              "h": "L'Enlèvement des Sabines",
+              "p": "Son groupe taillé dans un seul bloc enroule trois figures en une spirale ascendante (la figura serpentinata), conçue pour être belle sous tous les angles : il n'y a aucun « bon » point de vue."
+            },
+            {
+              "h": "La prouesse pour la prouesse",
+              "p": "La sculpture devient pure démonstration de virtuosité, l'exploit technique érigé en sujet — signature même du maniérisme."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -989,7 +1059,21 @@
           "role": "",
           "wiki": "Tintoretto",
           "portrait": "Venise ; énergie dramatique, lumières violentes, vitesse d'exécution.",
-          "bio_longue": "Le Tintoret (Tintoretto, 1518-1594) règne sur Venise après le Titien. Surnommé « Il Furioso » pour sa fougue et sa vitesse d'exécution, il peint d'immenses toiles dramatiques, aux raccourcis vertigineux et aux éclairages violents. Sa devise affichée à l'atelier : « le dessin de Michel-Ange et la couleur de Titien ». Il décore presque seul l'immense Scuola di San Rocco — la « chapelle Sixtine de Venise »."
+          "bio_longue": "Le Tintoret (Tintoretto, 1518-1594) règne sur Venise après le Titien. Surnommé « Il Furioso » pour sa fougue et sa vitesse d'exécution, il peint d'immenses toiles dramatiques, aux raccourcis vertigineux et aux éclairages violents. Sa devise affichée à l'atelier : « le dessin de Michel-Ange et la couleur de Titien ». Il décore presque seul l'immense Scuola di San Rocco — la « chapelle Sixtine de Venise ».",
+          "bio_sections": [
+            {
+              "h": "« Il Furioso »",
+              "p": "Le Tintoret règne sur Venise après le Titien. Surnommé « le Furieux » pour sa fougue et sa vitesse d'exécution, il affichait pour devise : « le dessin de Michel-Ange et la couleur de Titien »."
+            },
+            {
+              "h": "L'énergie dramatique",
+              "p": "Ses immenses toiles aux raccourcis vertigineux et aux éclairages violents transforment chaque scène en spectacle haletant."
+            },
+            {
+              "h": "La Scuola San Rocco",
+              "p": "Il décore presque seul l'immense Scuola di San Rocco — la « chapelle Sixtine de Venise » — en un cycle d'une puissance hallucinée."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -998,7 +1082,25 @@
           "role": "",
           "wiki": "El Greco",
           "portrait": "Crétois formé à Venise, installé à Tolède ; le plus visionnaire, redécouvert seulement vers 1900.",
-          "bio_longue": "Doménikos Theotokópoulos (1541-1614), dit El Greco (« le Grec »), naît en Crète, se forme à Venise auprès du Titien, passe par Rome, puis s'installe à Tolède en Espagne où il déploie un art sans équivalent : corps immenses et flammés, couleurs acides, ciels d'orage mystiques. Trop étrange pour son temps, jugé presque fou, il sombre dans l'oubli pendant trois siècles. Sa redécouverte vers 1900 fait de lui un héros de la modernité : Cézanne, Picasso et les expressionnistes le reconnaîtront comme un frère."
+          "bio_longue": "Doménikos Theotokópoulos (1541-1614), dit El Greco (« le Grec »), naît en Crète, se forme à Venise auprès du Titien, passe par Rome, puis s'installe à Tolède en Espagne où il déploie un art sans équivalent : corps immenses et flammés, couleurs acides, ciels d'orage mystiques. Trop étrange pour son temps, jugé presque fou, il sombre dans l'oubli pendant trois siècles. Sa redécouverte vers 1900 fait de lui un héros de la modernité : Cézanne, Picasso et les expressionnistes le reconnaîtront comme un frère.",
+          "bio_sections": [
+            {
+              "h": "De la Crète à Tolède",
+              "p": "Doménikos Theotokópoulos, dit El Greco (« le Grec »), naît en Crète, se forme à la peinture d'icônes, puis à Venise auprès du Titien, passe par Rome, et s'installe enfin à Tolède en Espagne."
+            },
+            {
+              "h": "Une vision mystique",
+              "p": "Là, il déploie un art sans équivalent : corps immenses et flammés, couleurs acides, ciels d'orage. Il ne peint pas le réel mais une expérience mystique, une vision intérieure (L'Enterrement du comte d'Orgaz)."
+            },
+            {
+              "h": "L'incompris",
+              "p": "Trop étrange pour son temps, jugé presque fou, El Greco sombre dans l'oubli pendant trois siècles."
+            },
+            {
+              "h": "La redécouverte au XXe",
+              "p": "Vers 1900, sa redécouverte fait de lui un héros de la modernité : Cézanne, Picasso et les expressionnistes le reconnaîtront comme un frère, un précurseur génial."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -1007,7 +1109,21 @@
           "role": "",
           "wiki": "Pieter Bruegel the Elder",
           "portrait": "Cas à part au Nord : scènes paysannes, proverbes, foules grouillantes. Contemporain et tout aussi singulier.",
-          "bio_longue": "Pieter Bruegel l'Ancien (vers 1525-1569) est l'inclassable du Nord. Loin des contorsions italiennes, il peint la vie paysanne — noces, danses, moissons, jeux d'enfants, proverbes illustrés — et de grands paysages où l'humain est minuscule (Les Chasseurs dans la neige). Sous l'apparence pittoresque se cache souvent une morale grave sur la folie et la petitesse humaines. Il fonde une dynastie de peintres et reste l'un des regards les plus profonds sur la condition ordinaire."
+          "bio_longue": "Pieter Bruegel l'Ancien (vers 1525-1569) est l'inclassable du Nord. Loin des contorsions italiennes, il peint la vie paysanne — noces, danses, moissons, jeux d'enfants, proverbes illustrés — et de grands paysages où l'humain est minuscule (Les Chasseurs dans la neige). Sous l'apparence pittoresque se cache souvent une morale grave sur la folie et la petitesse humaines. Il fonde une dynastie de peintres et reste l'un des regards les plus profonds sur la condition ordinaire.",
+          "bio_sections": [
+            {
+              "h": "Le regard sur le peuple",
+              "p": "Pieter Bruegel l'Ancien est l'inclassable du Nord. Loin des contorsions italiennes, il peint la vie paysanne : noces, danses, moissons, jeux d'enfants."
+            },
+            {
+              "h": "Proverbes et paysages",
+              "p": "Il illustre des proverbes en foules grouillantes et peint de grands paysages où l'humain est minuscule (Les Chasseurs dans la neige). Sous le pittoresque se cache une morale grave sur la folie humaine."
+            },
+            {
+              "h": "Une dynastie",
+              "p": "Il fonde une dynastie de peintres et reste l'un des regards les plus profonds et les plus humains sur la condition ordinaire."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -1016,7 +1132,21 @@
           "role": "",
           "wiki": "Giorgio Vasari",
           "portrait": "Peintre médiocre mais premier historien de l'art (Les Vies des meilleurs peintres), source majeure.",
-          "bio_longue": "Giorgio Vasari (1511-1574) fut un peintre et architecte honnête, mais il doit sa gloire à sa plume : ses Vies des meilleurs peintres, sculpteurs et architectes (1550) sont le premier grand livre d'histoire de l'art. C'est lui qui invente le récit — de Giotto à Michel-Ange, son héros — d'un progrès continu de l'art, et qui nous transmet la plupart des anecdotes que l'on connaît encore. Sans Vasari, la Renaissance n'aurait pas sa mémoire."
+          "bio_longue": "Giorgio Vasari (1511-1574) fut un peintre et architecte honnête, mais il doit sa gloire à sa plume : ses Vies des meilleurs peintres, sculpteurs et architectes (1550) sont le premier grand livre d'histoire de l'art. C'est lui qui invente le récit — de Giotto à Michel-Ange, son héros — d'un progrès continu de l'art, et qui nous transmet la plupart des anecdotes que l'on connaît encore. Sans Vasari, la Renaissance n'aurait pas sa mémoire.",
+          "bio_sections": [
+            {
+              "h": "Un peintre honnête",
+              "p": "Giorgio Vasari fut un peintre et architecte estimable, mais sans génie — au service des Médicis."
+            },
+            {
+              "h": "Le premier historien de l'art",
+              "p": "Sa gloire vient de sa plume : ses Vies des meilleurs peintres, sculpteurs et architectes (1550) sont le premier grand livre d'histoire de l'art."
+            },
+            {
+              "h": "La mémoire de la Renaissance",
+              "p": "C'est Vasari qui invente le récit d'un progrès continu de l'art, de Giotto à Michel-Ange son héros, et qui nous transmet la plupart des anecdotes qu'on connaît encore. Sans lui, la Renaissance n'aurait pas sa mémoire."
+            }
+          ]
         }
       ],
       "index": [
@@ -2357,7 +2487,25 @@
           "role": "France",
           "wiki": "Jacques-Louis David",
           "portrait": "Chef du Néoclassicisme, peintre de la Révolution puis de Napoléon ; la ligne, la vertu, le pouvoir.",
-          "bio_longue": "Jacques-Louis David (1748-1825) est le peintre-roi du néoclassicisme et de la Révolution française. Sa rigueur — lignes nettes, sujets antiques, vertu morale — répond au vide laissé par la fin du Rococo. Engagé jusqu'au cou dans la Révolution (il vote la mort du roi, organise les fêtes républicaines), il devient ensuite le peintre officiel de Napoléon, qu'il met en scène en empereur. À la chute de l'Empire, il s'exile à Bruxelles où il meurt. Son atelier forme toute une génération : il domine l'art français pendant trente ans."
+          "bio_longue": "Jacques-Louis David (1748-1825) est le peintre-roi du néoclassicisme et de la Révolution française. Sa rigueur — lignes nettes, sujets antiques, vertu morale — répond au vide laissé par la fin du Rococo. Engagé jusqu'au cou dans la Révolution (il vote la mort du roi, organise les fêtes républicaines), il devient ensuite le peintre officiel de Napoléon, qu'il met en scène en empereur. À la chute de l'Empire, il s'exile à Bruxelles où il meurt. Son atelier forme toute une génération : il domine l'art français pendant trente ans.",
+          "bio_sections": [
+            {
+              "h": "Le peintre-roi du néoclassicisme",
+              "p": "Jacques-Louis David impose, contre la frivolité du Rococo, un retour à la rigueur antique : ligne nette, sujets romains, vertu civique (Le Serment des Horaces)."
+            },
+            {
+              "h": "Le peintre de la Révolution",
+              "p": "Engagé jusqu'au cou — il vote la mort du roi, organise les fêtes républicaines — il peint Marat assassiné comme une icône laïque de la Révolution."
+            },
+            {
+              "h": "Le peintre de Napoléon",
+              "p": "Il devient ensuite le peintre officiel de l'Empereur, qu'il met en scène en majesté. À la chute de l'Empire, il s'exile à Bruxelles."
+            },
+            {
+              "h": "Le maître d'une génération",
+              "p": "Son atelier forme toute une génération (dont Ingres) ; il domine l'art français pendant trente ans et fonde la situation moderne de l'artiste libre de choisir son style."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2366,7 +2514,25 @@
           "role": "Espagne",
           "wiki": "Francisco Goya",
           "portrait": "Du brillant portraitiste de cour au visionnaire halluciné (Désastres de la guerre, Peintures noires). Charnière vers le moderne.",
-          "bio_longue": "Francisco Goya (1746-1828) est l'immense charnière vers l'art moderne. Peintre officiel de la cour d'Espagne, brillant portraitiste, il bascule au tournant du siècle — une maladie le rend sourd, la guerre ravage son pays — vers une œuvre de plus en plus sombre et visionnaire : les Désastres de la guerre (gravures d'une cruauté insoutenable), les terrifiantes Peintures noires de sa maison. Il invente la peinture de la barbarie et de l'angoisse modernes. Il meurt en exil en France, libre et radical jusqu'au bout."
+          "bio_longue": "Francisco Goya (1746-1828) est l'immense charnière vers l'art moderne. Peintre officiel de la cour d'Espagne, brillant portraitiste, il bascule au tournant du siècle — une maladie le rend sourd, la guerre ravage son pays — vers une œuvre de plus en plus sombre et visionnaire : les Désastres de la guerre (gravures d'une cruauté insoutenable), les terrifiantes Peintures noires de sa maison. Il invente la peinture de la barbarie et de l'angoisse modernes. Il meurt en exil en France, libre et radical jusqu'au bout.",
+          "bio_sections": [
+            {
+              "h": "Le portraitiste de cour",
+              "p": "Francisco Goya commence comme brillant portraitiste de la cour d'Espagne, peignant la famille royale sans complaisance."
+            },
+            {
+              "h": "La bascule",
+              "p": "Une maladie le rend sourd ; la guerre et l'invasion napoléonienne ravagent son pays. Son art bascule vers le noir et la vision : les Désastres de la guerre, le Tres de Mayo, sans héros, juste l'horreur nue."
+            },
+            {
+              "h": "Les Peintures noires",
+              "p": "Vieux, isolé, il couvre les murs de sa maison de fresques terrifiantes (Saturne dévorant son fils) — un cauchemar privé, génial et désespéré."
+            },
+            {
+              "h": "La charnière du moderne",
+              "p": "Mort en exil en France, libre et radical jusqu'au bout, Goya invente la peinture de la barbarie et de l'angoisse modernes — un siècle avant tout le monde."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2374,7 +2540,17 @@
           "dates": "1757-1827",
           "role": "Angleterre",
           "wiki": "William Blake",
-          "portrait": "Poète-graveur visionnaire et mystique."
+          "portrait": "Poète-graveur visionnaire et mystique.",
+          "bio_sections": [
+            {
+              "h": "Le poète-graveur",
+              "p": "William Blake est un visionnaire mystique : poète et graveur, il illustre ses propres poèmes de figures puissantes et étranges."
+            },
+            {
+              "h": "Les visions",
+              "p": "Méprisant le matérialisme de son époque, il peint des visions bibliques et symboliques d'une intensité hallucinée, incompris de son vivant."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2383,7 +2559,21 @@
           "role": "Angleterre",
           "wiki": "John Constable",
           "portrait": "Paysages fidèles, ciels étudiés ; influence les Français.",
-          "bio_longue": "John Constable (1776-1837) voue sa vie à peindre la campagne de son enfance, dans le Suffolk : moulins, charrettes, prairies, sous des ciels qu'il étudie avec une précision quasi scientifique (« le ciel est la note dominante »). Contre la nature idéalisée des académies, il peint le réel, l'humble, le familier, avec une fraîcheur de touche nouvelle. Peu reconnu en Angleterre, c'est en France qu'il fait sensation — il influence directement Delacroix et les paysagistes français."
+          "bio_longue": "John Constable (1776-1837) voue sa vie à peindre la campagne de son enfance, dans le Suffolk : moulins, charrettes, prairies, sous des ciels qu'il étudie avec une précision quasi scientifique (« le ciel est la note dominante »). Contre la nature idéalisée des académies, il peint le réel, l'humble, le familier, avec une fraîcheur de touche nouvelle. Peu reconnu en Angleterre, c'est en France qu'il fait sensation — il influence directement Delacroix et les paysagistes français.",
+          "bio_sections": [
+            {
+              "h": "La campagne anglaise",
+              "p": "John Constable voue sa vie à peindre la campagne de son enfance, dans le Suffolk : moulins, charrettes, prairies."
+            },
+            {
+              "h": "L'étude des ciels",
+              "p": "Il étudie les nuages avec une précision quasi scientifique — « le ciel est la note dominante » — et peint le réel, l'humble, le familier, avec une fraîcheur de touche nouvelle."
+            },
+            {
+              "h": "L'influence française",
+              "p": "Peu reconnu en Angleterre, c'est en France qu'il fait sensation : il influence directement Delacroix et les paysagistes français."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2392,7 +2582,25 @@
           "role": "Angleterre",
           "wiki": "J. M. W. Turner",
           "portrait": "Lumière et atmosphère portées à l'extrême.",
-          "bio_longue": "Joseph Mallord William Turner (1775-1851), fils d'un barbier londonien, est un prodige précoce et un génie solitaire. Obsédé par la lumière et les forces de la nature — tempêtes, incendies, brouillards, soleils aveuglants — il pousse le paysage vers une quasi-abstraction stupéfiante pour son époque. On raconte qu'il se fit attacher au mât d'un navire pour peindre une tempête de l'intérieur. Excentrique, secret, il lègue à la nation des milliers d'œuvres. Il anticipe à lui seul l'impressionnisme et l'art moderne."
+          "bio_longue": "Joseph Mallord William Turner (1775-1851), fils d'un barbier londonien, est un prodige précoce et un génie solitaire. Obsédé par la lumière et les forces de la nature — tempêtes, incendies, brouillards, soleils aveuglants — il pousse le paysage vers une quasi-abstraction stupéfiante pour son époque. On raconte qu'il se fit attacher au mât d'un navire pour peindre une tempête de l'intérieur. Excentrique, secret, il lègue à la nation des milliers d'œuvres. Il anticipe à lui seul l'impressionnisme et l'art moderne.",
+          "bio_sections": [
+            {
+              "h": "Le fils du barbier",
+              "p": "Joseph Mallord William Turner, fils d'un barbier londonien, est un prodige précoce admis très jeune à la Royal Academy."
+            },
+            {
+              "h": "La lumière et les forces",
+              "p": "Obsédé par la lumière et les forces de la nature — tempêtes, incendies, brouillards, soleils aveuglants — il se serait fait attacher au mât d'un navire pour peindre une tempête de l'intérieur."
+            },
+            {
+              "h": "Vers l'abstraction",
+              "p": "Il pousse le paysage si loin que les formes s'y dissolvent : un train n'est plus qu'une traînée de vapeur dorée (Pluie, vapeur et vitesse). Il anticipe l'impressionnisme et bien au-delà."
+            },
+            {
+              "h": "Le legs à la nation",
+              "p": "Excentrique et secret, il lègue à son pays des milliers d'œuvres. Génie solitaire, il reste le plus audacieux des peintres de son siècle."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2400,7 +2608,17 @@
           "dates": "XVIIIᵉ",
           "role": "Amérique",
           "wiki": "John Singleton Copley",
-          "portrait": "Grandes scènes d'histoire contemporaine."
+          "portrait": "Grandes scènes d'histoire contemporaine.",
+          "bio_sections": [
+            {
+              "h": "L'Amérique entre en scène",
+              "p": "John Singleton Copley et Benjamin West, peintres américains passés par Londres, font entrer dans le grand art les scènes d'histoire contemporaine."
+            },
+            {
+              "h": "L'actualité héroïsée",
+              "p": "Ils traitent des événements récents avec le sérieux jadis réservé à l'Antiquité — une nouveauté qui annonce la peinture d'actualité du XIXe."
+            }
+          ]
         }
       ],
       "index": [
@@ -2552,7 +2770,21 @@
           "role": "Néoclassique",
           "wiki": "Jean-Auguste-Dominique Ingres",
           "portrait": "Le gardien de la ligne néoclassique ; portraits et nus d'une perfection froide ; rival de Delacroix.",
-          "bio_longue": "Jean-Auguste-Dominique Ingres (1780-1867), élève de David, est le grand prêtre de la ligne et du dessin. Pour lui, « le dessin est la probité de l'art » ; la couleur n'est qu'un ornement. Maître du portrait et du nu (La Grande Odalisque, dont il allonge le dos d'invraisemblables vertèbres pour la beauté de la ligne), il défend une perfection froide et idéale contre la fougue colorée de son rival Delacroix. Conservateur acharné, il domine l'enseignement officiel — et fascine pourtant les modernes par ses étranges déformations."
+          "bio_longue": "Jean-Auguste-Dominique Ingres (1780-1867), élève de David, est le grand prêtre de la ligne et du dessin. Pour lui, « le dessin est la probité de l'art » ; la couleur n'est qu'un ornement. Maître du portrait et du nu (La Grande Odalisque, dont il allonge le dos d'invraisemblables vertèbres pour la beauté de la ligne), il défend une perfection froide et idéale contre la fougue colorée de son rival Delacroix. Conservateur acharné, il domine l'enseignement officiel — et fascine pourtant les modernes par ses étranges déformations.",
+          "bio_sections": [
+            {
+              "h": "Le gardien de la ligne",
+              "p": "Jean-Auguste-Dominique Ingres, élève de David, est le grand prêtre du dessin. Pour lui, « le dessin est la probité de l'art » ; la couleur n'est qu'un ornement."
+            },
+            {
+              "h": "La perfection froide",
+              "p": "Maître du portrait et du nu, il allonge le dos de sa Grande Odalisque d'invraisemblables vertèbres pour la pure beauté de la ligne — déformations qui fascineront plus tard les modernes."
+            },
+            {
+              "h": "Le duel avec Delacroix",
+              "p": "Conservateur acharné, il mène toute sa vie une guerre esthétique contre la fougue colorée de Delacroix : la ligne contre la couleur, querelle qui structure le siècle."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2560,7 +2792,21 @@
           "dates": "1791-1824",
           "role": "Romantisme",
           "wiki": "Théodore Géricault",
-          "portrait": "Pionnier romantique, mort jeune."
+          "portrait": "Pionnier romantique, mort jeune.",
+          "bio_sections": [
+            {
+              "h": "Le pionnier romantique",
+              "p": "Théodore Géricault, fougueux et passionné de chevaux, est l'un des premiers grands romantiques français."
+            },
+            {
+              "h": "Le Radeau de la Méduse",
+              "p": "Il transforme un fait divers atroce — des naufragés abandonnés, la folie, le cannibalisme — en une immense toile d'Histoire, format réservé jusque-là aux rois et aux dieux. Il a interrogé les survivants et étudié des cadavres à la morgue."
+            },
+            {
+              "h": "Mort à 32 ans",
+              "p": "Il meurt jeune des suites de chutes de cheval, laissant une œuvre brève mais incandescente qui ouvre le romantisme français."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2569,7 +2815,21 @@
           "role": "Romantisme",
           "wiki": "Eugène Delacroix",
           "portrait": "Chef du Romantisme : couleur, fougue, Orient.",
-          "bio_longue": "Eugène Delacroix (1798-1863) est le chef du romantisme français. Tout, chez lui, repose sur la couleur, le mouvement, la passion : scènes dramatiques, sujets exotiques rapportés d'un voyage au Maroc, fougue de la touche. Cultivé, mélancolique, grand diariste, il mène une guerre esthétique contre la ligne froide d'Ingres. Ses recherches sur la couleur et les contrastes influenceront directement les impressionnistes. « La peinture, disait-il, n'est qu'un pont jeté entre l'âme du peintre et celle du spectateur. »"
+          "bio_longue": "Eugène Delacroix (1798-1863) est le chef du romantisme français. Tout, chez lui, repose sur la couleur, le mouvement, la passion : scènes dramatiques, sujets exotiques rapportés d'un voyage au Maroc, fougue de la touche. Cultivé, mélancolique, grand diariste, il mène une guerre esthétique contre la ligne froide d'Ingres. Ses recherches sur la couleur et les contrastes influenceront directement les impressionnistes. « La peinture, disait-il, n'est qu'un pont jeté entre l'âme du peintre et celle du spectateur. »",
+          "bio_sections": [
+            {
+              "h": "Le chef du romantisme",
+              "p": "Eugène Delacroix fait tout reposer sur la couleur, le mouvement, la passion. Cultivé, mélancolique, il tient un Journal qui est un chef-d'œuvre littéraire."
+            },
+            {
+              "h": "La couleur et l'Orient",
+              "p": "Un voyage au Maroc lui révèle la lumière et l'exotisme. La Liberté guidant le peuple, sur les barricades de 1830, est le manifeste du romantisme contre la ligne académique."
+            },
+            {
+              "h": "L'héritage",
+              "p": "Ses recherches sur la couleur et les contrastes influenceront directement les impressionnistes. « La peinture, disait-il, n'est qu'un pont jeté entre l'âme du peintre et celle du spectateur. »"
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2577,7 +2837,17 @@
           "dates": "1796-1875",
           "role": "Paysage",
           "wiki": "Jean-Baptiste-Camille Corot",
-          "portrait": "Paysagiste de transition, lumière argentée."
+          "portrait": "Paysagiste de transition, lumière argentée.",
+          "bio_sections": [
+            {
+              "h": "Le paysagiste de transition",
+              "p": "Jean-Baptiste-Camille Corot peint des paysages d'une lumière argentée, à mi-chemin du classicisme et de la sensation directe de la nature."
+            },
+            {
+              "h": "Le pont vers l'impressionnisme",
+              "p": "Sa fraîcheur, sa peinture sur le motif et sa douceur atmosphérique annoncent l'impressionnisme et inspireront la jeune génération."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2586,7 +2856,21 @@
           "role": "Réalisme",
           "wiki": "Jean-François Millet",
           "portrait": "La dignité paysanne (L'Angélus, Les Glaneuses).",
-          "bio_longue": "Jean-François Millet (1814-1875), fils de paysans normands, fait des travailleurs de la terre le sujet de grandes toiles graves et dignes. L'Angélus (un couple de paysans en prière au crépuscule), Les Glaneuses (trois femmes ramassant les épis laissés aux pauvres) donnent à l'humble une grandeur quasi religieuse. Membre de l'école de Barbizon, il ouvre la voie au réalisme et touchera profondément Van Gogh, qui le copiera avec vénération."
+          "bio_longue": "Jean-François Millet (1814-1875), fils de paysans normands, fait des travailleurs de la terre le sujet de grandes toiles graves et dignes. L'Angélus (un couple de paysans en prière au crépuscule), Les Glaneuses (trois femmes ramassant les épis laissés aux pauvres) donnent à l'humble une grandeur quasi religieuse. Membre de l'école de Barbizon, il ouvre la voie au réalisme et touchera profondément Van Gogh, qui le copiera avec vénération.",
+          "bio_sections": [
+            {
+              "h": "Le peintre des paysans",
+              "p": "Jean-François Millet, fils de paysans normands, fait des travailleurs de la terre le sujet de grandes toiles graves."
+            },
+            {
+              "h": "L'Angélus, Les Glaneuses",
+              "p": "Un couple en prière au crépuscule, trois femmes ramassant les épis laissés aux pauvres : il donne à l'humble une grandeur quasi religieuse."
+            },
+            {
+              "h": "L'influence sur Van Gogh",
+              "p": "Membre de l'école de Barbizon, il ouvre la voie au réalisme et touchera profondément Van Gogh, qui le copiera avec vénération."
+            }
+          ]
         },
         {
           "niveau": "★",
@@ -2595,7 +2879,21 @@
           "role": "Réalisme",
           "wiki": "Gustave Courbet",
           "portrait": "Chef du Réalisme, provocateur.",
-          "bio_longue": "Gustave Courbet (1819-1877) est le chef provocateur du réalisme. « Montrez-moi un ange et je le peindrai », répond-il à qui lui demande des sujets religieux : il ne peint que ce qu'il voit. Casseurs de pierres, enterrement de village, baigneuses « vulgaires », et même L'Origine du monde : il impose le réel, le quotidien, le populaire, au format monumental réservé jusque-là à l'Histoire — un manifeste politique autant qu'artistique. Communard engagé, il sera emprisonné puis exilé en Suisse, où il meurt."
+          "bio_longue": "Gustave Courbet (1819-1877) est le chef provocateur du réalisme. « Montrez-moi un ange et je le peindrai », répond-il à qui lui demande des sujets religieux : il ne peint que ce qu'il voit. Casseurs de pierres, enterrement de village, baigneuses « vulgaires », et même L'Origine du monde : il impose le réel, le quotidien, le populaire, au format monumental réservé jusque-là à l'Histoire — un manifeste politique autant qu'artistique. Communard engagé, il sera emprisonné puis exilé en Suisse, où il meurt.",
+          "bio_sections": [
+            {
+              "h": "Le chef du réalisme",
+              "p": "Gustave Courbet ne peint que ce qu'il voit : « Montrez-moi un ange et je le peindrai », répond-il à qui lui demande des sujets religieux."
+            },
+            {
+              "h": "Le scandale d'Ornans",
+              "p": "Avec Un enterrement à Ornans, il représente des villageois ordinaires au format monumental réservé aux rois et aux saints. Scandale : c'est un manifeste, le peuple mérite la même dignité picturale que l'Histoire sainte."
+            },
+            {
+              "h": "Le révolté",
+              "p": "Provocateur (L'Origine du monde), communard engagé, il sera emprisonné après la chute de la Commune puis exilé en Suisse, où il meurt ruiné."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2603,7 +2901,17 @@
           "dates": "1808-1879",
           "role": "Réalisme/satire",
           "wiki": "Honoré Daumier",
-          "portrait": "Caricaturiste et peintre de la vie populaire."
+          "portrait": "Caricaturiste et peintre de la vie populaire.",
+          "bio_sections": [
+            {
+              "h": "Le caricaturiste",
+              "p": "Honoré Daumier est d'abord un caricaturiste de génie, qui croque les mœurs et la politique de son temps — au point d'être emprisonné pour avoir moqué le roi."
+            },
+            {
+              "h": "Le peintre du peuple",
+              "p": "Mais c'est aussi un grand peintre de la vie populaire (Le Wagon de troisième classe), à la touche large et émue, longtemps méconnu comme peintre."
+            }
+          ]
         },
         {
           "niveau": "○",
@@ -2619,7 +2927,17 @@
           "dates": "1834-1903",
           "role": "Art pour l'art",
           "wiki": "James McNeill Whistler",
-          "portrait": "« L'art pour l'art », arrangements de tons."
+          "portrait": "« L'art pour l'art », arrangements de tons.",
+          "bio_sections": [
+            {
+              "h": "L'art pour l'art",
+              "p": "James McNeill Whistler, Américain installé à Londres, défend « l'art pour l'art » : un tableau doit valoir par ses harmonies, comme une musique, pas par son sujet — d'où ses titres en « arrangements » et « nocturnes »."
+            },
+            {
+              "h": "Le procès contre Ruskin",
+              "p": "Attaqué par le critique Ruskin pour « avoir jeté un pot de peinture à la face du public », il lui intente un procès retentissant — bataille pour la liberté de l'art moderne."
+            }
+          ]
         }
       ],
       "index": [
