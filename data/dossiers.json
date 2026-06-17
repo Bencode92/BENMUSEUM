@@ -1422,19 +1422,45 @@
           "dates": "1494-1557",
           "role": "",
           "wiki": "Pontormo",
-          "portrait": "Couleurs acides, émotion troublée (Déposition).",
+          "portrait": "Jacopo Pontormo (1494-1557) est l'un des inventeurs du maniérisme à Florence. Élève de la Haute Renaissance, il en a brisé l'équilibre serein pour une peinture étrange, inquiète, aux couleurs irréelles et aux corps allongés — une émotion nouvelle, fiévreuse, au sortir de l'âge d'or.",
           "bio_sections": [
             {
-              "h": "L'élève angoissé",
-              "p": "Jacopo Pontormo, élève d'Andrea del Sarto à Florence, est l'un des premiers maniéristes. Solitaire, hypocondriaque, il tient un journal obsessionnel de ses maux."
+              "h": "L'enfance : l'orphelin de Pontormo",
+              "p": "Né en 1494 dans le village de Pontormo, en Toscane, Jacopo Carucci perd jeune ses parents et reste un être solitaire et anxieux toute sa vie. Doué, il passe par les ateliers des plus grands — on dit qu'il fut un temps auprès de Léonard de Vinci — et grandit à l'ombre écrasante des géants de la Renaissance qu'il devra dépasser autrement."
             },
             {
-              "h": "Couleurs acides, émotion troublée",
-              "p": "Sa Déposition de Santa Felicita, aux roses et bleus irréels, aux corps flottants et entremêlés, abandonne l'équilibre de la Haute Renaissance pour une émotion étrange, presque irréelle."
+              "h": "Le déclic : après la perfection, que faire ?",
+              "p": "La génération de Pontormo hérite d'un art déjà « parfait » : Léonard, Michel-Ange et Raphaël ont tout résolu. Comment les égaler ? Plutôt que d'imiter leur équilibre, Pontormo le rompt volontairement : il déforme, allonge, déséquilibre, pour créer une grâce nouvelle et troublante. C'est la naissance du maniérisme."
             },
             {
-              "h": "Le maître d'une génération",
-              "p": "Reclus à la fin de sa vie, il forme pourtant Bronzino, qui portera le style maniériste à la cour des Médicis."
+              "h": "Les couleurs irréelles",
+              "p": "Sa Déposition de Santa Felicita est un sommet d'étrangeté : des corps qui flottent sans sol ni profondeur, des roses, des bleus et des verts acides, presque phosphorescents, des regards perdus. La douleur y devient une chorégraphie irréelle, suspendue, d'une beauté inquiète qui n'a aucun équivalent."
+            },
+            {
+              "h": "Son moteur : l'angoisse et la singularité",
+              "p": "Pontormo était, dit Vasari, sauvage, solitaire, obsédé par la mort — il a laissé un journal hypocondriaque bouleversant. Cette inquiétude intérieure nourrit son art : il fuit les normes, cherche l'expression personnelle, l'émotion subjective, contre l'idéal collectif de la Renaissance. Un tempérament moderne avant l'heure."
+            },
+            {
+              "h": "Le message : l'émotion contre la règle",
+              "p": "Là où la Renaissance visait l'harmonie objective et rassurante, Pontormo introduit le trouble, le rêve, l'instabilité. Sa peinture exprime une spiritualité anxieuse, en accord avec une époque secouée par les guerres et la crise religieuse. La forme se met au service du sentiment, fût-il déroutant."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Longtemps jugé « décadent », Pontormo est aujourd'hui réhabilité comme un grand original et un précurseur : son expressivité, ses couleurs et ses déformations annoncent l'expressionnisme moderne. Les historiens en font l'un des artistes les plus inventifs du XVIe siècle, dont l'étrangeté parle directement à notre sensibilité."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses maîtres cherchaient l'équilibre, Pontormo cherche le déséquilibre expressif ; là où ils peignaient des corps solides, il les rend immatériels et flottants. Maître de Bronzino, il a ouvert la voie d'un art subjectif et raffiné, où le « comment » (la manière) compte autant que le sujet."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Joseph en Égypte",
+              "artiste": "Pontormo",
+              "annee": "v. 1518",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Joseph in Egypt (Pontormo)",
+              "analyse": "Plusieurs épisodes de l'histoire de Joseph se déroulent en même temps dans un espace irréel, peuplé de petites figures, d'escaliers en spirale et de statues. Couleurs vives, composition foisonnante et déroutante : déjà toute la liberté inquiète du maniérisme naissant."
             }
           ]
         },
@@ -1444,20 +1470,62 @@
           "dates": "1503-1572",
           "role": "",
           "wiki": "Agnolo Bronzino",
-          "portrait": "Portraits glacés, raffinés, distants ; peintre de cour des Médicis.",
+          "portrait": "Agnolo Bronzino (1503-1572) est le maître du portrait maniériste et le peintre officiel de la cour des Médicis à Florence. Sous une perfection glacée — peaux de marbre, étoffes somptueuses, visages impassibles — il a fixé l'image du pouvoir et de l'élégance aristocratique du XVIe siècle.",
           "bio_longue": "Agnolo Bronzino (1503-1572), élève de Pontormo, est le portraitiste glacé de la cour des Médicis à Florence. Ses modèles, figés dans une élégance hautaine, semblent de marbre ou de porcelaine ; ses allégories sont d'une froideur précieuse et énigmatique. Le sommet d'un maniérisme aristocratique, distant, raffiné à l'extrême.",
           "bio_sections": [
             {
-              "h": "Le portraitiste des Médicis",
-              "p": "Agnolo Bronzino, élève de Pontormo, devient le peintre officiel de la cour des Médicis à Florence."
+              "h": "L'enfance et la formation chez Pontormo",
+              "p": "Né en 1503 près de Florence dans une famille modeste, Bronzino devient l'élève préféré et le fils adoptif spirituel de Pontormo, dont il hérite la grâce et l'étrangeté — mais qu'il refroidit et discipline. De cet apprentissage il tire une technique d'une perfection lisse et un sens raffiné de la composition élégante."
             },
             {
-              "h": "Une élégance glacée",
-              "p": "Ses modèles, figés dans une distance hautaine, semblent de marbre ou de porcelaine ; ses allégories (Vénus, Cupidon) sont d'une froideur précieuse et énigmatique."
+              "h": "Le déclic : devenir peintre de cour",
+              "p": "Bronzino entre au service de Cosme Ier de Médicis, duc de Florence, dont il devient le portraitiste attitré. Il met son art au service de l'image dynastique : représenter la famille régnante avec une majesté froide, intemporelle, qui exprime le pouvoir et le rang plutôt que l'intimité."
             },
             {
-              "h": "Le sommet du maniérisme de cour",
-              "p": "Bronzino incarne un maniérisme aristocratique, raffiné à l'extrême, où la perfection technique sert une distance et une étrangeté voulues."
+              "h": "Le portrait-glacis",
+              "p": "Ses portraits sont d'une beauté glacée : visages lisses comme la porcelaine, regards distants, mains élégantes, étoffes rendues avec une virtuosité éblouissante (Éléonore de Tolède et son fils). Le modèle devient une icône précieuse et hautaine, magnifiée par le luxe de ses vêtements brodés d'or et de perles."
+            },
+            {
+              "h": "Son moteur : l'élégance et l'intelligence du jeu",
+              "p": "Bronzino cultive le raffinement, la virtuosité technique et l'esprit : son Allégorie de Vénus et Cupidon est une énigme érotique et morale pleine de symboles cachés, faite pour ravir une cour cultivée et amusée par les jeux d'esprit. La peinture devient un objet de luxe intellectuel autant que visuel."
+            },
+            {
+              "h": "Le message : la perfection comme distinction",
+              "p": "Pour Bronzino, l'art doit afficher la maîtrise et la noblesse. Sa froideur n'est pas un défaut mais un code : elle exprime la retenue aristocratique, la supériorité du rang. Poète à ses heures, lettré, il incarne l'idéal du courtisan-artiste, parfaitement à l'aise dans le monde policé de la cour."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Bronzino l'un des plus grands portraitistes du XVIe siècle : son image du pouvoir, lisse et impénétrable, a marqué tout le portrait de cour européen. Gombrich souligne que sous l'apparente froideur se cache une intelligence raffinée et une maîtrise technique presque surnaturelle."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Pontormo, son maître, est fiévreux et inquiet, Bronzino est froid, contrôlé, impeccable. Là où Titien rend la chair vivante et chaude, Bronzino la fige en marbre précieux. Sa distance hautaine, longtemps reprochée, fait aujourd'hui tout le prix de ses portraits, miroirs parfaits d'une société du paraître."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Allégorie du triomphe de Vénus",
+              "artiste": "Bronzino",
+              "annee": "v. 1545",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Venus, Cupid, Folly and Time",
+              "analyse": "Vénus et Cupidon s'embrassent dans un enchevêtrement de corps lisses et de figures allégoriques (la Folie, le Temps, la Jalousie). Une énigme érotique et morale truffée de symboles, peinte pour amuser une cour lettrée. Perfection glacée et sensualité ambiguë."
+            },
+            {
+              "titre": "Éléonore de Tolède et son fils",
+              "artiste": "Bronzino",
+              "annee": "v. 1545",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Portrait of Eleanor of Toledo",
+              "analyse": "La duchesse, en robe brochée d'or et de perles d'une virtuosité éblouissante, pose, impassible, la main sur l'épaule de son fils. Le portrait dynastique par excellence : moins une femme qu'une icône du pouvoir et du luxe médicéens."
+            },
+            {
+              "titre": "Portrait de Lucrezia Panciatichi",
+              "artiste": "Bronzino",
+              "annee": "v. 1540",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Portrait of Lucrezia Panciatichi",
+              "analyse": "Une jeune femme au visage de porcelaine, au regard absent, parée de bijoux dont un collier portant la devise « sans fin ». La beauté lisse et distante du portrait maniériste, d'une élégance presque irréelle."
             }
           ]
         },
@@ -1467,20 +1535,46 @@
           "dates": "1503-1540",
           "role": "",
           "wiki": "Parmigianino",
-          "portrait": "L'élégance étirée portée à l'extrême ; mort jeune, obsédé d'alchimie.",
+          "portrait": "Le Parmesan (Parmigianino, 1503-1540) est, à Parme, l'incarnation la plus gracieuse du maniérisme. Doué d'une élégance suprême, il a allongé les corps et étiré les lignes en une grâce sinueuse et raffinée — avant de sombrer, dit la légende, dans la quête de l'alchimie.",
           "bio_longue": "Le Parmesan (Parmigianino, 1503-1540), de Parme, porte l'élégance maniériste à son comble : des figures d'une grâce étirée, irréelle, aristocratique. Enfant prodige, il fascina ses contemporains au point qu'on dit que des soldats du sac de Rome, entrés dans son atelier, restèrent saisis devant ses toiles. Obsédé à la fin de sa vie par l'alchimie, négligeant la peinture pour chercher à faire de l'or, il meurt à 37 ans, ruiné et un peu fou.",
           "bio_sections": [
             {
-              "h": "Le prodige de Parme",
-              "p": "Le Parmesan (Parmigianino) est un enfant prodige de Parme, qui fascine ses contemporains par sa virtuosité précoce. On raconte que des soldats du sac de Rome, entrés dans son atelier, restèrent saisis devant ses toiles."
+              "h": "L'enfance : le prodige de Parme",
+              "p": "Né en 1503 à Parme, orphelin de père, Jérôme François Marie Mazzola est élevé par ses oncles peintres. Enfant prodige, il peint dès l'adolescence avec une virtuosité stupéfiante. La douceur du Corrège, le grand maître de Parme, marque profondément sa formation et son goût de la grâce."
             },
             {
-              "h": "L'élégance étirée",
-              "p": "Sa Madone au long cou pousse l'élégance maniériste à l'extrême : cou de cygne, doigts interminables, enfant anormalement grand. La beauté devient artifice assumé, irréel et raffiné."
+              "h": "Le déclic : l'autoportrait au miroir",
+              "p": "Jeune, pour éblouir, il peint un Autoportrait dans un miroir convexe : son visage et sa main démesurée, déformés par la courbure, surgissent comme dans une bulle. Cette virtuosité audacieuse lui ouvre, dit-on, les portes de Rome et du pape : un jeu sur la déformation qui annonce tout son art."
             },
             {
-              "h": "L'alchimie et la ruine",
-              "p": "Obsédé à la fin de sa vie par l'alchimie — il cherchait à faire de l'or et négligeait la peinture — il meurt à 37 ans, ruiné et un peu fou."
+              "h": "La grâce de l'allongement",
+              "p": "Sa Madone au long cou pousse l'élégance maniériste à l'extrême : un cou démesurément long, des doigts effilés, un enfant glissant, des proportions impossibles — mais une grâce envoûtante. La beauté de la ligne sinueuse, la figura serpentinata, l'emporte sur toute vraisemblance anatomique."
+            },
+            {
+              "h": "Son moteur : la recherche de l'élégance pure",
+              "p": "Le Parmesan vise une beauté idéale et raffinée, faite de courbes, d'allongements et de poses précieuses. Chez lui, la « manière » — le style, l'élégance, la virtuosité — devient une fin en soi. C'est le cœur même du maniérisme : un art qui se contemple et se savoure comme tour de force gracieux."
+            },
+            {
+              "h": "Le message : le raffinement comme idéal",
+              "p": "Dans une époque troublée (il vit le sac de Rome en 1527 et doit fuir), le Parmesan offre un art d'évasion vers la beauté pure, élégante, presque irréelle. Ses madones et ses saintes sont des apparitions précieuses, lointaines, faites pour le plaisir des yeux et l'admiration du connaisseur."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font du Parmesan l'un des plus purs représentants du maniérisme et un dessinateur et graveur d'une influence considérable. Sa grâce sinueuse a marqué toute l'Europe. Gombrich souligne qu'il a délibérément sacrifié le naturel à l'élégance, posant la question, très moderne, de l'art pour l'art."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Pontormo est inquiet et Bronzino glacé, le Parmesan est tout en grâce fluide et raffinée. La légende veut qu'il se soit ruiné la santé et la carrière dans la recherche alchimique de la transmutation des métaux, mourant à 37 ans, négligé et étrange — figure romanesque de l'artiste perdu dans sa quête."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Madone au long cou",
+              "artiste": "Parmigianino",
+              "annee": "1534-1540",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Madonna with the Long Neck",
+              "analyse": "La Vierge, au cou et aux doigts démesurément allongés, tient un Enfant glissant, énorme, dans un espace incohérent (une colonne isolée, un personnage minuscule). L'anatomie sacrifiée à la pure grâce de la ligne : le manifeste de l'élégance maniériste."
             }
           ]
         },
@@ -1490,19 +1584,53 @@
           "dates": "1500-1571",
           "role": "",
           "wiki": "Benvenuto Cellini",
-          "portrait": "Orfèvre/sculpteur, aventurier ; Persée, salière de François Iᵉʳ ; a laissé une autobiographie célèbre.",
+          "portrait": "Benvenuto Cellini (1500-1571) est l'orfèvre et sculpteur le plus virtuose de son temps — mais aussi un aventurier, un bretteur et un mémorialiste de génie. Sa vie tumultueuse, qu'il a racontée dans une autobiographie célèbre, est aussi flamboyante que ses œuvres ciselées.",
           "bio_sections": [
             {
-              "h": "L'orfèvre aventurier",
-              "p": "Benvenuto Cellini est orfèvre, sculpteur et aventurier : duels, prison, fuites rocambolesques émaillent sa vie tumultueuse."
+              "h": "L'enfance : le fils du musicien florentin",
+              "p": "Né en 1500 à Florence, fils d'un musicien qui le voulait flûtiste, Cellini choisit contre son gré l'orfèvrerie, où son habileté éclate très tôt. Bagarreur, fier, indiscipliné, il est plusieurs fois banni de Florence dès sa jeunesse — le tempérament d'aventurier qui marquera toute sa vie est déjà là."
             },
             {
-              "h": "Persée et la salière",
-              "p": "Son bronze de Persée brandissant la tête de Méduse et sa salière en or pour François Iᵉʳ comptent parmi les chefs-d'œuvre de l'orfèvrerie maniériste."
+              "h": "Le déclic : Rome, le pape et l'or",
+              "p": "À Rome, Cellini devient orfèvre des papes, créant médailles, bijoux et pièces somptueuses. Il participe même, dit-il, à la défense du château Saint-Ange lors du sac de Rome de 1527, prétendant avoir tué de sa main le connétable de Bourbon. Art et aventure se mêlent sans cesse dans son récit."
             },
             {
-              "h": "L'autobiographie",
-              "p": "Il laisse une autobiographie flamboyante, l'une des plus célèbres de la Renaissance, où il se met magnifiquement en scène — document inestimable sur l'artiste de son temps."
+              "h": "La virtuosité de l'orfèvre",
+              "p": "Sa célèbre Salière de François Ier, en or et émail, est un sommet de l'orfèvrerie : deux figures allongées et élégantes (la Mer et la Terre) encadrent le sel et le poivre. Le maniérisme y est tout entier : raffinement extrême, poses gracieuses, virtuosité de chaque détail au service du luxe princier."
+            },
+            {
+              "h": "Son moteur : la gloire et l'orgueil",
+              "p": "Cellini est mû par une ambition et un orgueil démesurés : il veut être reconnu comme le plus grand, rivaliser avec Michel-Ange, éblouir les rois. Au service de François Ier en France puis de Cosme de Médicis, il se lance dans la grande sculpture pour prouver qu'il vaut les plus grands maîtres."
+            },
+            {
+              "h": "Le message : Persée, ou le défi relevé",
+              "p": "Son chef-d'œuvre, le Persée brandissant la tête de Méduse, sur la place de la Seigneurie à Florence, est un défi technique : couler en bronze une figure aussi complexe. Cellini raconte avoir jeté ses propres meubles dans le four pour réussir la fonte. L'œuvre, héroïque et raffinée, le hisse au rang des grands sculpteurs."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens admirent en Cellini le sommet de l'orfèvrerie maniériste et un grand sculpteur. Mais sa Vie, son autobiographie haute en couleur, est tout aussi célèbre : premier grand récit d'artiste à la première personne, document inestimable sur le métier, l'époque et la psychologie de l'artiste de la Renaissance."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Cellini est l'artiste-aventurier par excellence : duels, prisons, fuites, démêlés avec les puissants, vantardises énormes. Là où d'autres se cachent derrière l'œuvre, lui se met en scène sans pudeur. Son autobiographie en fait, autant que ses bronzes, l'un des personnages les plus vivants et romanesques de la Renaissance."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Persée tenant la tête de Méduse",
+              "artiste": "Cellini",
+              "annee": "1545-1554",
+              "lieu": "Loggia dei Lanzi, Florence",
+              "wiki": "Perseus with the Head of Medusa (Cellini)",
+              "analyse": "Le héros nu, élégant et triomphant, brandit la tête tranchée de Méduse tandis que le sang jaillit en volutes de bronze. Prouesse de fonte que Cellini raconte avoir failli rater : il aurait jeté ses meubles au feu pour la réussir. Le maniérisme en sculpture."
+            },
+            {
+              "titre": "La Salière de François Ier",
+              "artiste": "Cellini",
+              "annee": "1540-1543",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "Cellini Salt Cellar",
+              "analyse": "En or et émail, deux figures allongées — Neptune (la mer, qui donne le sel) et la Terre (qui donne le poivre) — encadrent les condiments. Objet de table digne d'un roi, sommet de l'orfèvrerie : le luxe et la grâce maniéristes à l'échelle de la main."
             }
           ]
         },
@@ -1512,19 +1640,45 @@
           "dates": "1529-1608",
           "role": "",
           "wiki": "Giambologna",
-          "portrait": "Maître de la sculpture en spirale.",
+          "portrait": "Jean de Bologne (Giambologna, 1529-1608) est le plus grand sculpteur de la fin du XVIe siècle, héritier de Michel-Ange et maître de la figure en spirale. Flamand établi à Florence, il a créé des bronzes et des marbres d'une virtuosité et d'un mouvement qui ont rayonné dans toute l'Europe.",
           "bio_sections": [
             {
-              "h": "Le maître de la spirale",
-              "p": "Giambologna, Flamand installé à Florence, est le grand sculpteur du maniérisme tardif, héritier de Michel-Ange."
+              "h": "L'enfance : un Flamand vers l'Italie",
+              "p": "Né en 1529 à Douai (alors dans les Flandres), Jean de Bologne se forme dans le Nord avant de partir, jeune, étudier à Rome l'Antiquité et Michel-Ange. De retour, il s'installe à Florence, où les Médicis le retiennent : il y passera toute sa carrière et y deviendra le sculpteur le plus recherché d'Europe, italianisé sous le nom de Giambologna."
             },
             {
-              "h": "L'Enlèvement des Sabines",
-              "p": "Son groupe taillé dans un seul bloc enroule trois figures en une spirale ascendante (la figura serpentinata), conçue pour être belle sous tous les angles : il n'y a aucun « bon » point de vue."
+              "h": "Le déclic : dépasser Michel-Ange",
+              "p": "Fasciné par la puissance de Michel-Ange, Giambologna cherche à la prolonger tout en l'assouplissant. Il se passionne pour un problème : créer une sculpture qui se regarde sous tous les angles, sans face privilégiée, où le corps s'enroule en spirale ascendante — la figura serpentinata, idéal du maniérisme."
             },
             {
-              "h": "La prouesse pour la prouesse",
-              "p": "La sculpture devient pure démonstration de virtuosité, l'exploit technique érigé en sujet — signature même du maniérisme."
+              "h": "L'Enlèvement d'une Sabine",
+              "p": "Son chef-d'œuvre, taillé dans un seul bloc de marbre, montre trois figures enlacées en une spirale verticale vertigineuse : un vieillard accroupi, un homme enlevant une femme qui se débat. On peut en faire le tour sans jamais trouver de point de vue « principal ». Une prouesse technique et conceptuelle absolue."
+            },
+            {
+              "h": "Son moteur : le mouvement et la virtuosité",
+              "p": "Ce qui anime Giambologna, c'est la résolution de défis formels : l'équilibre impossible, la torsion, l'élan. Son Mercure volant, en bronze, semble ne tenir au sol que par la pointe d'un orteil, porté par un souffle. La sculpture cesse d'être stable et frontale pour devenir mouvement pur et défi de l'apesanteur."
+            },
+            {
+              "h": "Le message : la grâce héroïque diffusée partout",
+              "p": "Au service des Médicis, Giambologna produit fontaines, statues équestres et petits bronzes très recherchés, qu'il diffuse dans toutes les cours d'Europe par des répliques. Son atelier forme une génération de sculpteurs. Il devient, de fait, le passeur du grand style italien vers tout le continent."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Giambologna le plus grand sculpteur entre Michel-Ange et le Bernin, et le pont décisif entre la Renaissance et le Baroque. Sa figure en spirale, son sens du mouvement et son rayonnement européen ont durablement marqué la sculpture. Le Bernin lui doit beaucoup."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Cellini se met en scène et raconte sa vie, Giambologna, discret et appliqué, laisse parler ses œuvres. Là où Michel-Ange impose la masse et la tension statique, lui invente le mouvement tournant et l'élan. Sculpteur des défis, il a fait de la virtuosité spatiale un art à part entière."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Enlèvement d'une Sabine",
+              "artiste": "Giambologna",
+              "annee": "1581-1583",
+              "lieu": "Loggia dei Lanzi, Florence",
+              "wiki": "Abduction of a Sabine Woman",
+              "analyse": "Trois figures enlacées s'élèvent en spirale dans un seul bloc de marbre : on tourne autour sans trouver de face principale. Sommet de la figura serpentinata maniériste et prouesse technique inouïe — le mouvement et la virtuosité poussés à l'extrême."
             }
           ]
         },
@@ -1534,20 +1688,54 @@
           "dates": "1518-1594",
           "role": "",
           "wiki": "Tintoretto",
-          "portrait": "Venise ; énergie dramatique, lumières violentes, vitesse d'exécution.",
+          "portrait": "Le Tintoret (Tintoretto, 1518-1594) est, avec Titien et Véronèse, l'un des trois géants de la Venise du XVIe siècle — mais le plus fougueux. Maître du raccourci audacieux, de la lumière dramatique et des compositions tourbillonnantes, il a porté la peinture vénitienne aux portes du Baroque.",
           "bio_longue": "Le Tintoret (Tintoretto, 1518-1594) règne sur Venise après le Titien. Surnommé « Il Furioso » pour sa fougue et sa vitesse d'exécution, il peint d'immenses toiles dramatiques, aux raccourcis vertigineux et aux éclairages violents. Sa devise affichée à l'atelier : « le dessin de Michel-Ange et la couleur de Titien ». Il décore presque seul l'immense Scuola di San Rocco — la « chapelle Sixtine de Venise ».",
           "bio_sections": [
             {
-              "h": "« Il Furioso »",
-              "p": "Le Tintoret règne sur Venise après le Titien. Surnommé « le Furieux » pour sa fougue et sa vitesse d'exécution, il affichait pour devise : « le dessin de Michel-Ange et la couleur de Titien »."
+              "h": "L'enfance : le fils du teinturier",
+              "p": "Né en 1518 à Venise, Jacopo Robusti est surnommé « Tintoretto » (le petit teinturier) d'après le métier de son père. De condition modeste, il reste toute sa vie un Vénitien profondément attaché à sa ville, travaillant surtout pour ses églises et ses confréries plutôt que pour les cours étrangères."
             },
             {
-              "h": "L'énergie dramatique",
-              "p": "Ses immenses toiles aux raccourcis vertigineux et aux éclairages violents transforment chaque scène en spectacle haletant."
+              "h": "Le déclic : « le dessin de Michel-Ange, la couleur de Titien »",
+              "p": "On dit qu'il avait inscrit sur le mur de son atelier sa devise et son programme : « le dessin de Michel-Ange et la couleur de Titien ». Il veut unir la force des corps florentine et romaine à la couleur lumineuse de Venise — et y ajouter une énergie, une vitesse d'exécution qui lui sont propres."
             },
             {
-              "h": "La Scuola San Rocco",
-              "p": "Il décore presque seul l'immense Scuola di San Rocco — la « chapelle Sixtine de Venise » — en un cycle d'une puissance hallucinée."
+              "h": "L'audace des raccourcis et de la lumière",
+              "p": "Le Tintoret bouscule l'espace : figures vues en raccourci violent, plongées vertigineuses, diagonales fuyantes, éclairs de lumière déchirant l'ombre. Dès Le Miracle de l'esclave, un saint plonge tête en bas du ciel pour sauver un supplicié. Le drame, le mouvement et la lumière théâtrale priment sur l'équilibre serein."
+            },
+            {
+              "h": "Son moteur : la rapidité et l'ambition démesurée",
+              "p": "Réputé pour sa vitesse fulgurante, le Tintoret arrachait les commandes en présentant des œuvres déjà faites ou en cassant les prix. Boulimique de travail, il couvre des surfaces immenses, notamment les murs et plafonds de la Scuola di San Rocco, sa « chapelle Sixtine », qu'il décore pendant plus de vingt ans."
+            },
+            {
+              "h": "Le message : la ferveur et le spectacle sacré",
+              "p": "Au temps de la Contre-Réforme, le Tintoret offre une religion spectaculaire et émue : scènes vues d'angles inattendus, foules agitées, lumière surnaturelle qui transfigure le quotidien. Sa Cène n'est plus un repas solennel et frontal mais une scène nocturne en diagonale, traversée d'anges de fumée et de lumière."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font du Tintoret le maillon décisif entre la Renaissance vénitienne et le Baroque : son énergie, ses raccourcis et sa lumière annoncent le Greco (qui passa par Venise), Rubens et tout le XVIIe siècle. Gombrich souligne son audace à rompre la composition équilibrée au profit du mouvement et du drame."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Titien est ampleur sereine et Véronèse faste lumineux, le Tintoret est fièvre, vitesse et drame. Sa peinture rapide, parfois inégale mais toujours puissante, et son ambition démesurée en font le plus moderne des Vénitiens — celui qui a fait basculer la couleur de Venise dans l'énergie baroque."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Cène",
+              "artiste": "Tintoret",
+              "annee": "1592-1594",
+              "lieu": "San Giorgio Maggiore, Venise",
+              "wiki": "The Last Supper (Tintoretto)",
+              "analyse": "Loin de la frontalité de Léonard, la table file en diagonale vertigineuse dans une salle nocturne ; des anges de fumée et de lumière surgissent de la lampe, des servantes s'affairent. Le sacré devient scène dramatique et surnaturelle. L'aube du Baroque."
+            },
+            {
+              "titre": "Suzanne et les vieillards",
+              "artiste": "Tintoret",
+              "annee": "v. 1555-1556",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "Susanna and the Elders (Tintoretto)",
+              "analyse": "Suzanne, nue, se mire au bord de l'eau, ignorant les deux vieillards qui l'épient. Lumière nacrée sur la chair, perspective audacieuse de la haie de roses, sensualité et tension du regard voleur : la virtuosité vénitienne au service du récit biblique."
             }
           ]
         },
@@ -1557,24 +1745,78 @@
           "dates": "1541-1614",
           "role": "",
           "wiki": "El Greco",
-          "portrait": "Crétois formé à Venise, installé à Tolède ; le plus visionnaire, redécouvert seulement vers 1900.",
+          "portrait": "Le Greco (Domínikos Theotokópoulos, 1541-1614) est l'un des artistes les plus singuliers de toute l'histoire. Né crétois, formé à Venise et Rome, épanoui à Tolède, il a créé un style sans équivalent — corps étirés comme des flammes, couleurs surnaturelles, ferveur mystique — qui a déconcerté son temps et fasciné les modernes.",
           "bio_longue": "Doménikos Theotokópoulos (1541-1614), dit El Greco (« le Grec »), naît en Crète, se forme à Venise auprès du Titien, passe par Rome, puis s'installe à Tolède en Espagne où il déploie un art sans équivalent : corps immenses et flammés, couleurs acides, ciels d'orage mystiques. Trop étrange pour son temps, jugé presque fou, il sombre dans l'oubli pendant trois siècles. Sa redécouverte vers 1900 fait de lui un héros de la modernité : Cézanne, Picasso et les expressionnistes le reconnaîtront comme un frère.",
           "bio_sections": [
             {
-              "h": "De la Crète à Tolède",
-              "p": "Doménikos Theotokópoulos, dit El Greco (« le Grec »), naît en Crète, se forme à la peinture d'icônes, puis à Venise auprès du Titien, passe par Rome, et s'installe enfin à Tolède en Espagne."
+              "h": "L'enfance : la Crète et les icônes",
+              "p": "Né en 1541 en Crète, alors vénitienne, Domínikos Theotokópoulos se forme d'abord comme peintre d'icônes byzantines : un art de l'or, de la frontalité, de la spiritualité abstraite, loin du réalisme. Cette matrice byzantine, avec ses formes allongées et son refus de l'illusion, restera secrètement présente dans toute son œuvre."
             },
             {
-              "h": "Une vision mystique",
-              "p": "Là, il déploie un art sans équivalent : corps immenses et flammés, couleurs acides, ciels d'orage. Il ne peint pas le réel mais une expérience mystique, une vision intérieure (L'Enterrement du comte d'Orgaz)."
+              "h": "Le déclic : Venise, Rome, puis l'Espagne",
+              "p": "Il gagne Venise, où il apprend la couleur du Titien et l'audace du Tintoret, puis Rome. Mais l'Italie ne lui fait pas de place — il aurait même critiqué Michel-Ange. Il part alors pour l'Espagne et s'installe à Tolède, cité mystique et catholique, où son art étrange trouve enfin son terrain : c'est là qu'il devient « le Grec », El Greco."
             },
             {
-              "h": "L'incompris",
-              "p": "Trop étrange pour son temps, jugé presque fou, El Greco sombre dans l'oubli pendant trois siècles."
+              "h": "Le style en flammes",
+              "p": "Son art mûr ne ressemble à rien : corps démesurément allongés, comme étirés vers le ciel, visages extatiques, couleurs acides et irréelles (verts, jaunes, mauves), lumière surnaturelle, ciels d'orage. Dans L'Enterrement du comte d'Orgaz, le monde terrestre et le ciel se superposent en une vision mystique éblouissante."
             },
             {
-              "h": "La redécouverte au XXe",
-              "p": "Vers 1900, sa redécouverte fait de lui un héros de la modernité : Cézanne, Picasso et les expressionnistes le reconnaîtront comme un frère, un précurseur génial."
+              "h": "Son moteur : la ferveur spirituelle",
+              "p": "Au cœur de l'Espagne de la Contre-Réforme et des grands mystiques (sainte Thérèse, saint Jean de la Croix), El Greco veut peindre non le monde visible mais l'élan de l'âme vers Dieu. Ses figures s'enflamment, se dématérialisent, montent. La déformation n'est pas un caprice : elle est le langage de l'extase et de la transcendance."
+            },
+            {
+              "h": "Le message : Tolède, ville de l'âme",
+              "p": "Sa Vue de Tolède, ciel noir d'orage zébré sur une ville verte et spectrale, n'est pas un paysage mais une vision intérieure, chargée d'émotion. Tout, chez El Greco, devient spirituel : même un portrait, même une ville, vibre d'une intensité d'au-delà. Il peint un monde traversé par le divin."
+            },
+            {
+              "h": "Pourquoi il fascine, selon les experts",
+              "p": "Incompris et presque oublié pendant trois siècles (on le crut parfois fou ou astigmate), El Greco est redécouvert vers 1900 et devient une idole des modernes : Cézanne, les expressionnistes et surtout Picasso (dont les Demoiselles d'Avignon lui doivent beaucoup) s'en réclament. Les historiens en font un visionnaire en avance de trois siècles."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "El Greco est inclassable : ni vraiment italien, ni espagnol, ni byzantin, mais une synthèse unique et personnelle. Là où ses contemporains cherchent le naturel ou l'élégance, lui cherche l'âme et la flamme. Son étrangeté, jugée maladive en son temps, parle directement à la sensibilité moderne : il est le grand singulier de l'histoire de l'art."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Enterrement du comte d'Orgaz",
+              "artiste": "Greco",
+              "annee": "1586-1588",
+              "lieu": "Église Santo Tomé, Tolède",
+              "wiki": "The Burial of the Count of Orgaz",
+              "analyse": "En bas, des nobles de Tolède assistent, graves, à l'enterrement miraculeux du comte par deux saints ; en haut s'ouvre un ciel grouillant d'anges étirés où l'âme monte vers le Christ. Terre et ciel superposés : la vision mystique faite peinture. Son chef-d'œuvre."
+            },
+            {
+              "titre": "Vue de Tolède",
+              "artiste": "Greco",
+              "annee": "v. 1600",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "View of Toledo",
+              "analyse": "La ville sous un ciel d'orage noir et vert, spectrale, électrique, irréelle. Pas un paysage mais une vision intérieure chargée d'angoisse et de spiritualité. L'un des premiers paysages purs et expressionnistes de l'art occidental, trois siècles avant l'heure."
+            },
+            {
+              "titre": "L'Espolio (Le Dépouillement du Christ)",
+              "artiste": "Greco",
+              "annee": "1577-1579",
+              "lieu": "Cathédrale de Tolède",
+              "wiki": "The Disrobing of Christ",
+              "analyse": "Le Christ en robe rouge éclatante, le regard levé au ciel, est pressé par une foule hostile et serrée avant la crucifixion. Couleurs intenses, espace comprimé, sérénité divine au milieu de la haine : l'une de ses premières grandes œuvres espagnoles."
+            },
+            {
+              "titre": "Laocoon",
+              "artiste": "Greco",
+              "annee": "v. 1610-1614",
+              "lieu": "National Gallery of Art, Washington",
+              "wiki": "Laocoön (El Greco)",
+              "analyse": "Le mythe antique transposé devant Tolède : Laocoon et ses fils, corps livides et étirés, luttent contre les serpents sous un ciel d'orage. Son unique sujet mythologique, peint en fin de vie, d'une étrangeté visionnaire absolue."
+            },
+            {
+              "titre": "L'Ouverture du cinquième sceau",
+              "artiste": "Greco",
+              "annee": "1608-1614",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "The Opening of the Fifth Seal",
+              "analyse": "Saint Jean, immense, lève les bras vers un ciel tourmenté tandis que des âmes nues se dressent pour recevoir des vêtements. Couleurs irréelles, corps en flammes : une œuvre tardive si moderne qu'elle inspira directement Picasso."
             }
           ]
         },
@@ -1607,20 +1849,46 @@
           "dates": "1511-1574",
           "role": "",
           "wiki": "Giorgio Vasari",
-          "portrait": "Peintre médiocre mais premier historien de l'art (Les Vies des meilleurs peintres), source majeure.",
+          "portrait": "Giorgio Vasari (1511-1574) fut peintre et architecte au service des Médicis — mais il est surtout passé à la postérité comme le premier historien de l'art : ses Vies des plus excellents peintres, sculpteurs et architectes ont fondé notre manière même de raconter l'art.",
           "bio_longue": "Giorgio Vasari (1511-1574) fut un peintre et architecte honnête, mais il doit sa gloire à sa plume : ses Vies des meilleurs peintres, sculpteurs et architectes (1550) sont le premier grand livre d'histoire de l'art. C'est lui qui invente le récit — de Giotto à Michel-Ange, son héros — d'un progrès continu de l'art, et qui nous transmet la plupart des anecdotes que l'on connaît encore. Sans Vasari, la Renaissance n'aurait pas sa mémoire.",
           "bio_sections": [
             {
-              "h": "Un peintre honnête",
-              "p": "Giorgio Vasari fut un peintre et architecte estimable, mais sans génie — au service des Médicis."
+              "h": "L'enfance : Arezzo et les Médicis",
+              "p": "Né en 1511 à Arezzo, en Toscane, Vasari est très tôt remarqué et envoyé étudier à Florence dans l'entourage des Médicis, aux côtés des jeunes princes. Il y reçoit une solide culture humaniste et apprend la peinture, nouant des relations qui feront de lui, toute sa vie, l'homme de confiance artistique de la grande famille florentine."
             },
             {
-              "h": "Le premier historien de l'art",
-              "p": "Sa gloire vient de sa plume : ses Vies des meilleurs peintres, sculpteurs et architectes (1550) sont le premier grand livre d'histoire de l'art."
+              "h": "Le déclic : le culte de Michel-Ange",
+              "p": "Vasari voue une admiration sans bornes à Michel-Ange, qu'il connaît personnellement et considère comme le sommet absolu de l'art. Cette vénération oriente toute sa vision : pour lui, l'art a progressé depuis Giotto, par étapes, jusqu'à la perfection atteinte par Michel-Ange. Il en fera la trame de son grand livre."
             },
             {
-              "h": "La mémoire de la Renaissance",
-              "p": "C'est Vasari qui invente le récit d'un progrès continu de l'art, de Giotto à Michel-Ange son héros, et qui nous transmet la plupart des anecdotes qu'on connaît encore. Sans lui, la Renaissance n'aurait pas sa mémoire."
+              "h": "Le peintre et l'architecte de cour",
+              "p": "Artiste prolifique et rapide, Vasari couvre de fresques palais et églises (la coupole de la cathédrale de Florence, le Palazzo Vecchio). Architecte, il conçoit les Offices (Uffizi) à Florence — aujourd'hui l'un des plus grands musées du monde — et le corridor reliant le palais aux jardins. Un organisateur autant qu'un créateur."
+            },
+            {
+              "h": "Son moteur : écrire l'histoire de l'art",
+              "p": "Sa grande œuvre n'est pas peinte mais écrite : Les Vies (1550, augmentées en 1568), recueil de biographies des artistes italiens de Cimabue à son époque. Vasari y collecte anecdotes, jugements, descriptions — inventant le genre de la biographie d'artiste et le récit d'une histoire de l'art qui progresse."
+            },
+            {
+              "h": "Le message : l'artiste entre dans l'histoire",
+              "p": "En racontant la vie des artistes comme celle de grands hommes, Vasari leur donne une dignité nouvelle et fixe leur mémoire. C'est lui qui a forgé bien des légendes (Giotto et la mouche, Léonard et la Joconde), le mot « gothique » au sens péjoratif, et l'idée même d'une « Renaissance » des arts. Sa vision modèle encore la nôtre."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens reconnaissent en Vasari le père de l'histoire de l'art : sans ses Vies, nous ignorerions des pans entiers de la Renaissance, et notre façon de penser les artistes et les époques en découle directement. Gombrich, lui-même historien, salue cette source irremplaçable — tout en invitant à se méfier de ses partis pris florentins."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Vasari est moins un grand peintre qu'un grand témoin et organisateur : sa peinture, brillante mais conventionnelle, est éclipsée par son génie de chroniqueur. Là où les autres font l'art, lui le raconte, le classe et le transmet. Il est, à lui seul, la mémoire et le récit fondateur de la Renaissance italienne."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Six poètes toscans",
+              "artiste": "Vasari",
+              "annee": "1544",
+              "lieu": "Minneapolis Institute of Art",
+              "wiki": "Six Tuscan Poets",
+              "analyse": "Dante, Pétrarque, Boccace et trois autres poètes toscans réunis autour d'une table, comme un panthéon des lettres. Vasari, l'historien-peintre, met en image sa passion : célébrer et fixer pour la postérité les grands hommes de la culture italienne."
             }
           ]
         }
