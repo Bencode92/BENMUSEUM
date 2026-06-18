@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "48"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "49"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -500,7 +500,8 @@ function wireAiQuiz(id, contenu) {
 }
 
 // endpoint IA : ton Cloudflare Worker (en ligne) sinon le serveur local
-function aiEndpoint() { return localStorage.getItem("museum:aiurl") || "/api/ask"; }
+const AI_DEFAULT = "https://benmuseum-guide.benoit-comas.workers.dev"; // Worker par défaut (IA active sans config)
+function aiEndpoint() { const u = localStorage.getItem("museum:aiurl"); return (u && u.trim()) || AI_DEFAULT; }
 function setAiUrl() {
   const u = prompt("Colle l'URL de ton Cloudflare Worker (https://...workers.dev) — voir worker/README.md :", localStorage.getItem("museum:aiurl") || "");
   if (u !== null) { localStorage.setItem("museum:aiurl", u.trim()); alert(u.trim() ? "Guide IA en ligne configuré. Repose ta question." : "URL effacée."); }
