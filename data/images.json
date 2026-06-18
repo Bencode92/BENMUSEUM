@@ -4765,5 +4765,95 @@
     "h": 5364,
     "format": "jpg",
     "file": "Tempietto_di_San_Pietro_in_Montorio.jpg"
+  },
+  "Nude Descending a Staircase, No. 2": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Duchamp_-_Nude_Descending_a_Staircase.jpg/1280px-Duchamp_-_Nude_Descending_a_Staircase.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1649,
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/c0/Duchamp_-_Nude_Descending_a_Staircase.jpg",
+    "w": 3768,
+    "h": 6214,
+    "format": "jpg",
+    "file": "Duchamp_-_Nude_Descending_a_Staircase.jpg"
+  },
+  "Bauhaus Dessau": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg/1280px-Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 625,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg",
+    "w": 6202,
+    "h": 3876,
+    "format": "jpg",
+    "file": "Dessau_Bauhaus-Gebäude_asv2024-06_img1.jpg"
+  },
+  "Fagus Factory": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fagus_Gropius_Hauptgebaeude_200705_wiki_front.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 600,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fagus_Gropius_Hauptgebaeude_200705_wiki_front.jpg",
+    "w": 1000,
+    "h": 600,
+    "format": "jpg",
+    "file": "Fagus_Gropius_Hauptgebaeude_200705_wiki_front.jpg"
+  },
+  "Fallingwater": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fallingwater3.jpg/1280px-Fallingwater3.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 657,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fallingwater3.jpg",
+    "w": 2048,
+    "h": 1345,
+    "format": "jpg",
+    "file": "Fallingwater3.jpg"
+  },
+  "Solomon R. Guggenheim Museum": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg/1280px-Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 563,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg",
+    "w": 5265,
+    "h": 2962,
+    "format": "jpg",
+    "file": "Solomon_R._Guggenheim_Museum_(48059131351).jpg"
+  },
+  "Admonitions Scroll": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ku_K%27ai-chih_001.jpg/1280px-Ku_K%27ai-chih_001.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 651,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ku_K%27ai-chih_001.jpg",
+    "w": 2048,
+    "h": 1334,
+    "format": "jpg",
+    "file": "Ku_K'ai-chih_001.jpg"
+  },
+  "Alhambra": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1280px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 666,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "w": 4592,
+    "h": 3056,
+    "format": "jpg",
+    "file": "Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
+  },
+  "Court of the Lions": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Fountain_in_Patio_de_los_Leones%2C_Alhambra%2C_16.08.14.jpg/1280px-Fountain_in_Patio_de_los_Leones%2C_Alhambra%2C_16.08.14.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Fountain_in_Patio_de_los_Leones%2C_Alhambra%2C_16.08.14.jpg",
+    "w": 3168,
+    "h": 4752,
+    "format": "jpg",
+    "file": "Fountain_in_Patio_de_los_Leones,_Alhambra,_16.08.14.jpg"
+  },
+  "On a Mountain Path in Spring": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Ma_Yuan_Walking_on_Path_in_Spring.jpg/1280px-Ma_Yuan_Walking_on_Path_in_Spring.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 631,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Ma_Yuan_Walking_on_Path_in_Spring.jpg",
+    "w": 1759,
+    "h": 1110,
+    "format": "jpg",
+    "file": "Ma_Yuan_Walking_on_Path_in_Spring.jpg"
   }
 }

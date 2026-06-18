@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "41"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "42"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -711,12 +711,36 @@ function renderArtiste(id, ai) {
       <figcaption>${esc(a.nom)} <span class="zoomhint">🔍 agrandir</span></figcaption></figure>
     <div class="recit-txt"><p style="font-size:16px">${esc(a.portrait || "")}</p></div></div>`);
 
-  // biographie : sections riches (bio_sections), illustrées par ses œuvres ; sinon le paragraphe
+  // biographie illustrée : UNE œuvre distincte par paragraphe, jamais deux fois la même dans la fiche.
+  // 1) correspondance contextuelle (le titre est cité dans le texte) parmi les œuvres non encore utilisées ;
+  // 2) sinon, la prochaine œuvre non utilisée ; 3) sinon, pas d'image (plutôt qu'une répétition).
   if (Array.isArray(a.bio_sections)) {
-    P.push(`<h2 class="sec">📖 Sa vie, son évolution</h2>` + a.bio_sections.map(s => {
-      const o = recitImage(bioD, (s.h || "") + " " + (s.p || "")) || recitImage(d, (s.h || "") + " " + (s.p || ""));
+    const imgPool = bioD.oeuvres.filter(o => o.wiki && IMAGES[o.wiki]);
+    const usedImg = new Set();
+    const cleanT = s => (s || "").toLowerCase().replace(/\(.*?\)/g, "").replace(/^(le |la |les |l'|the |a )/, "").trim();
+    const imgs = new Array(a.bio_sections.length).fill(null);
+    // passe 1 : correspondance contextuelle (le titre de l'œuvre est cité dans la section)
+    a.bio_sections.forEach((s, i) => {
+      const t = ((s.h || "") + " " + (s.p || "")).toLowerCase();
+      let best = null, bl = 0;
+      imgPool.forEach(o => {
+        if (usedImg.has(o.wiki)) return;
+        const n = cleanT(o.titre);
+        if (n.length >= 5 && t.includes(n) && n.length > bl) { best = o; bl = n.length; }
+      });
+      if (best) { imgs[i] = best; usedImg.add(best.wiki); }
+    });
+    // passe 2 : combler les sections restantes avec les œuvres non encore utilisées (dans l'ordre)
+    a.bio_sections.forEach((s, i) => {
+      if (imgs[i]) return;
+      const o = imgPool.find(x => !usedImg.has(x.wiki));
+      if (o) { imgs[i] = o; usedImg.add(o.wiki); }
+    });
+    P.push(`<h2 class="sec">📖 Sa vie, son évolution</h2>` + a.bio_sections.map((s, i) => {
+      const o = imgs[i];
+      const cap = o ? `${o.titre} — ${o.artiste || a.nom}` : "";
       return `<div class="recit-block${o ? " illus" : ""}">
-        ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.caption)}" alt="${esc(o.caption)}" /><figcaption>${esc(o.caption)} <span class="zoomhint">🔍</span></figcaption></figure>` : ""}
+        ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(cap)}" alt="${esc(cap)}" /><figcaption>${esc(cap)} <span class="zoomhint">🔍</span></figcaption></figure>` : ""}
         <div class="recit-txt"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div></div>`;
     }).join(""));
   } else if (a.bio_longue) {
