@@ -2558,20 +2558,86 @@
           "dates": "~1525-1569",
           "role": "",
           "wiki": "Pieter Bruegel the Elder",
-          "portrait": "Cas à part au Nord : scènes paysannes, proverbes, foules grouillantes. Contemporain et tout aussi singulier.",
+          "portrait": "Pieter Bruegel l'Ancien (v. 1525-1569) est le plus grand peintre flamand du XVIe siècle : celui qui a délaissé les héros et les saints pour la vie des paysans et l'immensité des paysages. Sous l'apparence d'un peintre populaire et truculent se cache un esprit profond, lucide et grave sur la condition humaine.",
           "bio_longue": "Pieter Bruegel l'Ancien (vers 1525-1569) est l'inclassable du Nord. Loin des contorsions italiennes, il peint la vie paysanne — noces, danses, moissons, jeux d'enfants, proverbes illustrés — et de grands paysages où l'humain est minuscule (Les Chasseurs dans la neige). Sous l'apparence pittoresque se cache souvent une morale grave sur la folie et la petitesse humaines. Il fonde une dynastie de peintres et reste l'un des regards les plus profonds sur la condition ordinaire.",
           "bio_sections": [
             {
-              "h": "Le regard sur le peuple",
-              "p": "Pieter Bruegel l'Ancien est l'inclassable du Nord. Loin des contorsions italiennes, il peint la vie paysanne : noces, danses, moissons, jeux d'enfants."
+              "h": "Les origines : un mystère",
+              "p": "Né vers 1525, sans doute dans le Brabant, Bruegel reste mal connu dans sa jeunesse. On le surnomma à tort « le Paysan », croyant qu'il en était un — alors qu'il était un homme cultivé, ami d'humanistes et de géographes. Il se forma à Anvers, grande ville marchande, et voyagea jusqu'en Italie, traversant les Alpes qui marquèrent profondément son sens du paysage."
             },
             {
-              "h": "Proverbes et paysages",
-              "p": "Il illustre des proverbes en foules grouillantes et peint de grands paysages où l'humain est minuscule (Les Chasseurs dans la neige). Sous le pittoresque se cache une morale grave sur la folie humaine."
+              "h": "Le déclic : Bosch et le retour au réel",
+              "p": "Bruegel débute en dessinant des scènes fantastiques dans la veine de Bosch, dont il hérite l'imagination morale. Mais il s'en détourne vite pour observer le monde réel : les villageois, les travaux, les saisons, les fêtes et les misères du peuple flamand, qu'il regarde avec une acuité et une tendresse sans précédent."
             },
             {
-              "h": "Une dynastie",
-              "p": "Il fonde une dynastie de peintres et reste l'un des regards les plus profonds et les plus humains sur la condition ordinaire."
+              "h": "Le grand paysage",
+              "p": "Sa série des Saisons (dont Les Chasseurs dans la neige) est une révolution : l'homme y est minuscule, intégré au grand cycle de la nature et des mois. Les vastes panoramas enneigés ou moissonnés, vus de haut, font du paysage le vrai sujet du tableau. Personne avant lui n'avait peint la nature avec une telle ampleur."
+            },
+            {
+              "h": "Son moteur : observer l'humanité sans illusion",
+              "p": "Bruegel regarde les hommes comme un sage un peu désabusé : leurs noces et leurs danses joyeuses, mais aussi leur aveuglement, leur cruauté, leur folie. Les Proverbes flamands illustre des dizaines de dictons sur la sottise humaine ; La Tour de Babel dit l'orgueil voué à l'échec. Sous la verve, une réflexion grave."
+            },
+            {
+              "h": "Le message : l'homme dans le grand tout",
+              "p": "Chez Bruegel, l'individu ne compte pas plus que la fourmi : dans La Chute d'Icare, le drame mythologique se perd dans un coin du tableau tandis que le laboureur continue son sillon. Le monde suit son cours, indifférent aux malheurs particuliers. Une vision presque philosophique de la petitesse humaine face à la nature et au temps."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Bruegel le sommet de la peinture flamande après Van Eyck et Bosch, et le grand inventeur du paysage moderne et de la scène de genre. Gombrich souligne qu'il a élevé la vie quotidienne et populaire à la dignité du grand art, ouvrant une voie que les Hollandais du Siècle d'or suivront un siècle plus tard."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'art de son temps glorifie les princes et les saints, Bruegel peint les paysans, les saisons, les proverbes. Là où le maniérisme cherche l'élégance, lui cherche la vérité et l'ampleur. Mort jeune, il laisse une œuvre dense et profonde, fondatrice d'une tradition entière — et fonde une dynastie de peintres avec ses fils."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les Chasseurs dans la neige",
+              "artiste": "Bruegel",
+              "annee": "1565",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Hunters in the Snow",
+              "analyse": "Trois chasseurs harassés et leurs chiens descendent vers un village enneigé où l'on patine sur les étangs gelés, sous un ciel vert glacé. Le mois de janvier de la série des Saisons : l'un des plus beaux paysages d'hiver de toute la peinture, l'homme fondu dans la nature."
+            },
+            {
+              "titre": "La Tour de Babel",
+              "artiste": "Bruegel",
+              "annee": "1563",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Tower of Babel (Bruegel)",
+              "analyse": "Une tour colossale, en spirale, monte vers les nuages mais se lézarde déjà, fourmillant de minuscules ouvriers et de machines. L'orgueil humain voué à l'échec, peint avec une précision d'architecte et de géographe. Une vision vertigineuse."
+            },
+            {
+              "titre": "Le Repas de noce",
+              "artiste": "Bruegel",
+              "annee": "v. 1567",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "The Peasant Wedding",
+              "analyse": "Dans une grange, des paysans festoient ; on apporte les plats sur une porte dégondée, la mariée trône sous une couronne. Truculence, observation tendre et précise des gestes du peuple : la dignité de la vie ordinaire élevée au grand format."
+            },
+            {
+              "titre": "Le Triomphe de la Mort",
+              "artiste": "Bruegel",
+              "annee": "v. 1562",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Triumph of Death",
+              "analyse": "Une armée de squelettes ravage un paysage apocalyptique : rois et paysans, tous fauchés sans distinction. Vision terrifiante héritée de la peste et de Bosch, sur l'égalité de tous devant la mort. Un cauchemar d'une noirceur saisissante."
+            },
+            {
+              "titre": "Paysage avec la chute d'Icare",
+              "artiste": "Bruegel",
+              "annee": "v. 1560",
+              "lieu": "Musées royaux, Bruxelles",
+              "wiki": "Landscape with the Fall of Icarus",
+              "analyse": "Un laboureur, un berger, un pêcheur vaquent à leurs travaux ; dans un coin, deux jambes disparaissent dans la mer — Icare tombé du ciel, que nul ne remarque. Le monde indifférent au drame : une méditation profonde sur la petitesse humaine."
+            },
+            {
+              "titre": "Les Proverbes flamands",
+              "artiste": "Bruegel",
+              "annee": "1559",
+              "lieu": "Gemäldegalerie, Berlin",
+              "wiki": "Netherlandish Proverbs",
+              "analyse": "Un village où une centaine de proverbes sont mis en scène littéralement (« se cogner la tête au mur », « porter le jour dans un panier »). Encyclopédie drôle et grinçante de la folie et de la sottise humaines, à déchiffrer sans fin."
             }
           ]
         },
@@ -3024,19 +3090,53 @@
           "dates": "1599-1667",
           "role": "",
           "wiki": "Francesco Borromini",
-          "portrait": "Architecte rival du Bernin, murs ondulants, géométrie audacieuse.",
+          "portrait": "Francesco Borromini (1599-1667) est le génie inquiet et révolutionnaire de l'architecture baroque romaine. Rival farouche du Bernin, il fait onduler les murs comme une matière vivante et invente des espaces d'une complexité géométrique vertigineuse, ouvrant des voies que l'architecture n'explorera vraiment que des siècles plus tard.",
           "bio_sections": [
             {
-              "h": "L'architecte tourmenté",
-              "p": "Francesco Borromini, rival du Bernin, est le génie inquiet de l'architecture baroque romaine."
+              "h": "Les origines : un tailleur de pierre lombard",
+              "p": "Né en 1599 près de Côme, en Lombardie, Francesco Castelli, dit Borromini, est d'abord tailleur de pierre, formé sur les chantiers. Il monte à Rome où il travaille comme sculpteur et appareilleur, notamment sous Maderno puis le Bernin, à Saint-Pierre. De ce métier manuel il garde une connaissance intime de la pierre et de la construction."
+            },
+            {
+              "h": "Le déclic : la rivalité avec le Bernin",
+              "p": "D'abord collaborateur du Bernin, Borromini s'en détache, rongé par la jalousie et le sentiment d'être exploité. Toute sa vie sera marquée par cette rivalité : là où le Bernin, mondain et brillant, triomphe, Borromini, sombre et solitaire, invente une architecture plus radicale, plus savante, plus tourmentée."
             },
             {
               "h": "Les murs qui ondulent",
-              "p": "À San Carlo alle Quattro Fontane, il fait onduler les murs comme une matière vivante, joue de la lumière et de la géométrie complexe : l'architecture devient mouvement pur."
+              "p": "Sa première œuvre majeure, l'église San Carlo alle Quattro Fontane, est minuscule mais révolutionnaire : les murs ondulent en courbes et contre-courbes continues, la façade respire comme une membrane vivante, l'espace n'est plus fait de lignes droites mais de mouvement. L'architecture devient sculpture et dynamisme pur."
             },
             {
-              "h": "Une fin sombre",
-              "p": "D'un caractère sombre et solitaire, il finit par se suicider — mais son audace formelle nourrira l'architecture pour des siècles."
+              "h": "Son moteur : la géométrie et l'invention",
+              "p": "Borromini pense l'architecture en géomètre et en inventeur : il compose ses plans à partir de figures complexes (triangles, ovales, étoiles), joue de la lumière et des effets d'optique, multiplie les solutions inédites. Sa coupole de Sant'Ivo alla Sapienza, en étoile, s'élève en une spirale étonnante. Tout est recherche, audace, singularité."
+            },
+            {
+              "h": "Le message : une fin tragique",
+              "p": "Caractère sombre, ombrageux, perfectionniste jusqu'à l'angoisse, Borromini souffre de ne pas être reconnu comme le Bernin. Dépressif, il finit par se suicider en 1667, dans un accès de désespoir. Son œuvre, longtemps jugée trop bizarre, ne sera pleinement réévaluée que bien plus tard."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Borromini, avec le Bernin, l'un des deux pôles du baroque romain — mais le plus audacieux sur le plan formel. Gombrich souligne son invention spatiale et géométrique, son refus de la ligne droite, qui annoncent des libertés que l'architecture ne retrouvera qu'au XXe siècle. Un génie en avance sur son temps."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le Bernin cherche le spectacle, l'émotion et la fusion des arts, Borromini cherche la pureté de l'invention spatiale et géométrique. L'un est solaire et triomphant, l'autre sombre et tourmenté. Sa modernité formelle, son audace inquiète et sa fin tragique en font une figure fascinante, le grand original du baroque."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "San Carlo alle Quattro Fontane",
+              "artiste": "Borromini",
+              "annee": "1638-1646",
+              "lieu": "Rome",
+              "wiki": "San Carlo alle Quattro Fontane",
+              "analyse": "Église minuscule mais révolutionnaire : les murs ondulent en courbes continues, la façade respire comme une membrane vivante, la coupole ovale à caissons semble flotter. L'architecture devient mouvement pur. La première œuvre majeure du génie inquiet de Borromini."
+            },
+            {
+              "titre": "Sant'Ivo alla Sapienza",
+              "artiste": "Borromini",
+              "annee": "1642-1660",
+              "lieu": "Rome",
+              "wiki": "Sant'Ivo alla Sapienza",
+              "analyse": "Le plan part d'une étoile à six branches ; la coupole s'élève en une spirale étonnante couronnée d'une lanterne hélicoïdale. Géométrie complexe, lumière savante, invention sans précédent : l'audace formelle de Borromini à son sommet."
             }
           ]
         },
@@ -4028,15 +4128,45 @@
           "dates": "1619-1693",
           "role": "",
           "wiki": "Willem Kalf",
-          "portrait": "Natures mortes somptueuses.",
+          "portrait": "Willem Kalf (1619-1693) est le maître de la nature morte somptueuse de l'âge d'or hollandais. Faisant surgir de l'ombre, dans une lumière chaude, coupes d'argent, porcelaines de Chine et verres de cristal, il a élevé le luxe matériel au rang de poésie — tout en rappelant discrètement la vanité des biens terrestres.",
           "bio_sections": [
             {
-              "h": "Le luxe en nature morte",
-              "p": "Willem Kalf est le maître de la nature morte somptueuse."
+              "h": "Les origines : Rotterdam et Paris",
+              "p": "Né en 1619 à Rotterdam dans une famille de marchands aisés, Willem Kalf se forme et séjourne plusieurs années à Paris, où il peint d'abord des scènes de cuisines rustiques et des coins d'objets modestes. Ce séjour français affine son sens de la composition et de la lumière, avant qu'il ne revienne aux Pays-Bas."
+            },
+            {
+              "h": "Le déclic : la nature morte de luxe",
+              "p": "De retour en Hollande, à Amsterdam, Kalf abandonne les cuisines rustiques pour un genre nouveau et raffiné : la « pronkstilleven », la nature morte d'apparat. Il y dispose les objets précieux que la prospérité du commerce hollandais fait affluer : argenterie, porcelaine de Chine, verres de Venise, fruits exotiques."
             },
             {
               "h": "L'éclat des matières",
-              "p": "Coupes d'argent, porcelaines de Chine, verres de cristal et citrons épluchés surgissent de l'ombre dans une lumière chaude : un éloge du rendu des matières — et un discret rappel de la vanité des biens terrestres."
+              "p": "Le génie de Kalf est le rendu des matières et de la lumière : il fait surgir de l'ombre dense le scintillement de l'argent, la translucidité du cristal, le bleu et blanc d'une porcelaine, la peau d'un citron à demi pelé dont la spirale d'écorce pend. Quelques objets, une lumière chaude et rasante : une orfèvrerie peinte."
+            },
+            {
+              "h": "Son moteur : la lumière et le raffinement",
+              "p": "Ce qui guide Kalf, c'est la recherche d'une beauté sensuelle et raffinée : moins l'accumulation que la mise en valeur de quelques objets précieux par un clair-obscur savant. Sa palette sobre — ors, bruns, rouges profonds, éclats de blanc et de bleu — crée une atmosphère de luxe feutré et silencieux."
+            },
+            {
+              "h": "Le message : splendeur et vanité",
+              "p": "Sous l'éloge du luxe perce, comme souvent dans la nature morte hollandaise, un rappel discret de la vanité : ces biens somptueux sont fragiles et éphémères, le citron pelé pourrit, le verre se brise. La beauté matérielle célébrée porte en elle la conscience de sa propre fugacité."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Kalf le maître absolu de la nature morte d'apparat hollandaise. Gombrich souligne sa maîtrise inégalée du rendu des matières et de la lumière, qui transforme une poignée d'objets de luxe en pure poésie visuelle, et place la nature morte parmi les plus hauts genres de l'âge d'or."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où d'autres peintres de natures mortes accumulent ou moralisent lourdement, Kalf épure, met en lumière, et atteint une élégance sobre et chaude. Sa science du clair-obscur appliquée aux objets précieux en fait un cas à part — le poète du luxe silencieux et de la lumière sur les belles matières."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Nature morte au luxe",
+              "artiste": "Willem Kalf",
+              "annee": "v. 1660",
+              "lieu": "collections diverses",
+              "wiki": "Still Life with a Nautilus Cup",
+              "analyse": "Surgissant de l'ombre dans une lumière chaude : argenterie ciselée, porcelaine de Chine, verre de cristal, citron à demi pelé dont l'écorce pend en spirale. Quelques objets précieux élevés en pure poésie — éloge du luxe et rappel discret de sa fragilité."
             }
           ]
         }
@@ -5610,15 +5740,61 @@
           "dates": "1757-1827",
           "role": "Angleterre",
           "wiki": "William Blake",
-          "portrait": "Poète-graveur visionnaire et mystique.",
+          "portrait": "William Blake (1757-1827) est le grand visionnaire de l'art anglais : poète, graveur et peintre, il a créé un univers mythologique et spirituel entièrement personnel. Ignoré de son temps, mystique et révolté, il a inventé des images d'une force prophétique qui ne seront comprises et admirées que bien après sa mort.",
           "bio_sections": [
             {
-              "h": "Le poète-graveur",
-              "p": "William Blake est un visionnaire mystique : poète et graveur, il illustre ses propres poèmes de figures puissantes et étranges."
+              "h": "L'enfance : les visions de Londres",
+              "p": "Né en 1757 à Londres dans une famille modeste, Blake affirme dès l'enfance avoir des visions : il dit voir des anges dans un arbre, le prophète Ézéchiel dans un champ. Apprenti graveur, il gagne sa vie en gravant pour les autres, mais développe en marge une œuvre poétique et visuelle d'une originalité radicale."
             },
             {
-              "h": "Les visions",
-              "p": "Méprisant le matérialisme de son époque, il peint des visions bibliques et symboliques d'une intensité hallucinée, incompris de son vivant."
+              "h": "Le déclic : poésie et image fusionnées",
+              "p": "Blake invente une méthode unique : il grave lui-même ses poèmes et ses images sur la même planche (la « gravure illuminée »), fondant texte et illustration en un tout. Ses Chants d'innocence et d'expérience unissent ainsi poésie et peinture dans des livres entièrement faits de sa main, colorés un à un."
+            },
+            {
+              "h": "Une mythologie personnelle",
+              "p": "Rejetant à la fois la religion établie et le rationalisme des Lumières, Blake invente sa propre mythologie peuplée de figures titanesques — Urizen le législateur, Los le forgeron créateur. Ses images de corps puissants et tordus, héritées de Michel-Ange, expriment des forces spirituelles et cosmiques dans un style visionnaire et incandescent."
+            },
+            {
+              "h": "Son moteur : l'imagination contre la raison",
+              "p": "Pour Blake, l'imagination est divine, et la raison froide (qu'il incarne en Newton mesurant le monde au compas) est une prison de l'esprit. « Une vérité dite avec de mauvaises intentions vaut tous les mensonges. » Son art est un combat pour l'imagination, la liberté, le sacré, contre le matérialisme et l'oppression."
+            },
+            {
+              "h": "Le message : le prophète incompris",
+              "p": "Révolté, proche par l'esprit des grandes révolutions de son temps, profondément religieux à sa manière hérétique, Blake vit pauvre et incompris, jugé fou par beaucoup. Il meurt en 1827 dans l'obscurité, en chantant, dit-on, des cantiques. Son œuvre sera redécouverte et vénérée par les romantiques tardifs et le XXe siècle."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Blake un visionnaire unique, inclassable, à la fois grand poète et grand artiste, précurseur du romantisme et du symbolisme. Gombrich souligne son refus total des conventions et son invention d'un monde d'images personnel, d'une force expressive qui n'a d'équivalent qu'au XXe siècle."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'art de son temps vise la raison, l'élégance ou le réel, Blake plonge dans la vision, le mythe et le sacré. Poète autant que peintre, graveur de ses propres prophéties, totalement libre et incompris, il incarne l'artiste-visionnaire pur — celui qui crée un monde entier sorti de sa seule imagination."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Ancien des Jours",
+              "artiste": "Blake",
+              "annee": "1794",
+              "lieu": "British Museum, Londres",
+              "wiki": "The Ancient of Days",
+              "analyse": "Une figure divine penchée hors d'un soleil, tendant un compas vers les ténèbres pour mesurer et créer le monde. Image puissante et ambiguë de la raison ordonnatrice — q360ue Blake admire et redoute à la fois. Le visionnaire anglais à son sommet."
+            },
+            {
+              "titre": "Newton",
+              "artiste": "Blake",
+              "annee": "1795-1805",
+              "lieu": "Tate Britain, Londres",
+              "wiki": "Newton (Blake)",
+              "analyse": "Newton, nu et athlétique, replié au fond des eaux, trace des figures au compas, aveugle à l'immensité derrière lui. Blake y fustige la raison froide qui réduit le monde à des mesures : un manifeste contre le matérialisme, pour l'imagination."
+            },
+            {
+              "titre": "Le Grand Dragon rouge",
+              "artiste": "Blake",
+              "annee": "v. 1805-1810",
+              "lieu": "collections diverses",
+              "wiki": "The Great Red Dragon Paintings",
+              "analyse": "Tiré de l'Apocalypse : un dragon colossal, de dos, déploie ses ailes au-dessus d'une femme. Corps titanesque hérité de Michel-Ange, vision incandescente du mal cosmique. La puissance prophétique et terrifiante de l'imaginaire de Blake."
             }
           ]
         },
@@ -5766,15 +5942,53 @@
           "dates": "XVIIIᵉ",
           "role": "Amérique",
           "wiki": "John Singleton Copley",
-          "portrait": "Grandes scènes d'histoire contemporaine.",
+          "portrait": "John Singleton Copley (1738-1815) et Benjamin West (1738-1820) sont les deux grands peintres américains passés en Angleterre, pionniers d'un genre nouveau : la peinture d'histoire moderne, traitant des événements contemporains avec la solennité réservée jusque-là à l'Antiquité.",
           "bio_sections": [
             {
-              "h": "L'Amérique entre en scène",
-              "p": "John Singleton Copley et Benjamin West, peintres américains passés par Londres, font entrer dans le grand art les scènes d'histoire contemporaine."
+              "h": "Les origines : deux Américains à Londres",
+              "p": "Copley et West, nés tous deux en 1738 dans les colonies américaines, se forment en grande partie seuls, loin des grands centres d'art. Tous deux traversent l'Atlantique pour faire carrière à Londres, où leur talent les impose. Ils incarnent la première génération d'artistes nés en Amérique à atteindre la reconnaissance européenne."
             },
             {
-              "h": "L'actualité héroïsée",
-              "p": "Ils traitent des événements récents avec le sérieux jadis réservé à l'Antiquité — une nouveauté qui annonce la peinture d'actualité du XIXe."
+              "h": "Le déclic : l'actualité comme grand sujet",
+              "p": "La grande peinture d'histoire devait, selon les règles, traiter des sujets antiques ou bibliques, en costumes classiques. Copley et West osent une révolution : peindre des événements récents, contemporains, avec les vêtements et les visages d'aujourd'hui, tout en leur donnant la grandeur et l'émotion de la grande peinture."
+            },
+            {
+              "h": "La Mort du général Wolfe",
+              "p": "West peint La Mort du général Wolfe (1770), mort héroïque d'un général anglais au Canada, avec ses soldats en uniformes contemporains — au lieu de toges antiques. Le scandale est grand, mais le succès immense : il fonde la peinture d'histoire moderne, qui traite le présent comme une épopée."
+            },
+            {
+              "h": "Le drame contemporain",
+              "p": "Copley, de son côté, peint Watson et le requin (1778) : un fait divers réel, un jeune homme attaqué par un requin dans le port de La Havane, traité avec l'intensité dramatique d'une scène épique. L'événement ordinaire et contemporain devient un grand tableau d'action et d'émotion."
+            },
+            {
+              "h": "Le message : héroïser le présent",
+              "p": "Copley et West montrent que l'héroïsme et le sublime ne sont pas réservés au passé : le présent, l'actualité, le fait divers même peuvent être grand art. Ils ouvrent ainsi la voie à toute la peinture d'histoire du XIXe siècle (Géricault, Delacroix), qui s'emparera de l'actualité brûlante."
+            },
+            {
+              "h": "Pourquoi ils comptent, selon les experts",
+              "p": "Les historiens font de Copley et West les fondateurs de la peinture d'histoire moderne et les premiers grands peintres d'origine américaine. West devint même président de la Royal Academy. Gombrich souligne leur audace : avoir osé traiter le présent contemporain avec la dignité de l'épopée, libérant l'art du costume antique obligatoire."
+            },
+            {
+              "h": "Ce qui les différencie",
+              "p": "Là où l'académisme imposait l'Antiquité et le costume classique, Copley et West plantent leur drame dans le présent, en habits d'aujourd'hui. Américains conquérant Londres, pionniers d'un genre, ils font le pont entre le XVIIIe siècle et le grand romantisme historique du XIXe — l'actualité élevée au rang de mythe."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Mort du général Wolfe",
+              "artiste": "West",
+              "annee": "1770",
+              "lieu": "Musée des beaux-arts du Canada, Ottawa",
+              "wiki": "The Death of General Wolfe",
+              "analyse": "Par Benjamin West : la mort héroïque du général anglais sur le champ de bataille, entouré de ses soldats — mais en uniformes contemporains, non en toges antiques. Scandale et triomphe : la naissance de la peinture d'histoire moderne, qui traite le présent en épopée."
+            },
+            {
+              "titre": "Watson et le requin",
+              "artiste": "Copley",
+              "annee": "1778",
+              "lieu": "National Gallery of Art, Washington",
+              "wiki": "Watson and the Shark",
+              "analyse": "Par John Singleton Copley : un fait divers réel, un jeune homme attaqué par un requin dans le port de La Havane, traité avec l'intensité dramatique d'une grande scène épique. L'événement contemporain élevé au sublime, annonçant Géricault."
             }
           ]
         }
@@ -6145,15 +6359,53 @@
           "dates": "1796-1875",
           "role": "Paysage",
           "wiki": "Jean-Baptiste-Camille Corot",
-          "portrait": "Paysagiste de transition, lumière argentée.",
+          "portrait": "Camille Corot (1796-1875) est le grand passeur du paysage français, entre le classicisme et l'impressionnisme. Peintre de la lumière argentée et des feuillages vaporeux, il a peint sur le motif avec une fraîcheur nouvelle, formant et inspirant toute une génération, des paysagistes de Barbizon aux impressionnistes.",
           "bio_sections": [
             {
-              "h": "Le paysagiste de transition",
-              "p": "Jean-Baptiste-Camille Corot peint des paysages d'une lumière argentée, à mi-chemin du classicisme et de la sensation directe de la nature."
+              "h": "Les origines : un bourgeois rentier",
+              "p": "Né en 1796 à Paris dans une famille de commerçants aisés, Corot peut, grâce à une rente de ses parents, se consacrer librement à la peinture sans souci de vendre. Cette indépendance lui permet de peindre selon son cœur, de voyager, et de garder toute sa vie un caractère doux, modeste et généreux."
             },
             {
-              "h": "Le pont vers l'impressionnisme",
-              "p": "Sa fraîcheur, sa peinture sur le motif et sa douceur atmosphérique annoncent l'impressionnisme et inspireront la jeune génération."
+              "h": "Le déclic : l'Italie et le plein air",
+              "p": "Plusieurs séjours en Italie sont décisifs : Corot y peint sur le motif des études de plein air d'une fraîcheur lumineuse stupéfiante (Le Pont de Narni), captant la lumière du Sud avec une justesse nouvelle. Ces petites études, longtemps gardées pour lui, sont parmi les plus modernes de leur temps."
+            },
+            {
+              "h": "Le paysage argenté",
+              "p": "De retour en France, Corot développe sa manière la plus célèbre : des paysages au feuillage vaporeux, baignés d'une lumière argentée et tendre, d'une poésie douce et mélancolique (Souvenir de Mortefontaine). Ces « souvenirs » brumeux, rêveurs, rencontrent un grand succès et font sa renommée."
+            },
+            {
+              "h": "Son moteur : la justesse et la poésie",
+              "p": "Ce qui guide Corot, c'est la recherche de la justesse de la lumière et du ton, alliée à une sensibilité poétique. « La forme est tout, mais la couleur est l'esprit. » Il peint ce qu'il voit avec une fraîcheur d'œil rare, mais y ajoute une douceur rêveuse qui transfigure le paysage en émotion."
+            },
+            {
+              "h": "Le message : un maître généreux",
+              "p": "Corot est aimé de tous pour sa bonté : il aide financièrement de nombreux artistes, encourage les jeunes (« le père Corot »). Son influence est immense : les paysagistes de l'école de Barbizon, puis Pissarro, Monet, Berthe Morisot lui doivent beaucoup. Il est le grand pont vers l'impressionnisme."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Corot l'un des plus grands paysagistes du XIXe siècle et le maillon décisif entre le paysage classique et l'impressionnisme. Gombrich souligne la modernité de ses études de plein air et sa double nature : la justesse de l'observation et la poésie du sentiment réunies."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le paysage romantique cherche le grandiose et le drame, Corot cherche la justesse douce, la lumière argentée, l'intimité poétique. Ni tout à fait classique, ni romantique, ni impressionniste, il est le passeur tranquille qui ouvre la voie — et ses études de plein air, longtemps cachées, le révèlent étonnamment moderne."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Souvenir de Mortefontaine",
+              "artiste": "Corot",
+              "annee": "1864",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Souvenir de Mortefontaine",
+              "analyse": "Au bord d'un étang, des arbres au feuillage vaporeux argenté, une femme et des enfants cueillant, dans une lumière tendre et brumeuse. Le « souvenir » rêveur et mélancolique qui fit la gloire de Corot : le paysage transfiguré en pure poésie."
+            },
+            {
+              "titre": "Le Pont de Narni",
+              "artiste": "Corot",
+              "annee": "1826",
+              "lieu": "Musée du Louvre, Paris (étude)",
+              "wiki": "The Bridge at Narni",
+              "analyse": "Étude peinte sur le motif en Italie : un pont antique en ruine sous la lumière éclatante du Sud, rendu d'une fraîcheur et d'une justesse stupéfiantes. Longtemps gardée pour lui, elle est l'une des œuvres les plus modernes de son temps, annonçant l'impressionnisme."
             }
           ]
         },
@@ -6163,20 +6415,62 @@
           "dates": "1814-1875",
           "role": "Réalisme",
           "wiki": "Jean-François Millet",
-          "portrait": "La dignité paysanne (L'Angélus, Les Glaneuses).",
+          "portrait": "Jean-François Millet (1814-1875) est le grand peintre de la paysannerie, le maître de l'école de Barbizon. En représentant les travailleurs des champs avec une gravité monumentale et une dignité presque religieuse, il a élevé la vie rurale humble au rang de grand sujet, et bouleversé son siècle.",
           "bio_longue": "Jean-François Millet (1814-1875), fils de paysans normands, fait des travailleurs de la terre le sujet de grandes toiles graves et dignes. L'Angélus (un couple de paysans en prière au crépuscule), Les Glaneuses (trois femmes ramassant les épis laissés aux pauvres) donnent à l'humble une grandeur quasi religieuse. Membre de l'école de Barbizon, il ouvre la voie au réalisme et touchera profondément Van Gogh, qui le copiera avec vénération.",
           "bio_sections": [
             {
-              "h": "Le peintre des paysans",
-              "p": "Jean-François Millet, fils de paysans normands, fait des travailleurs de la terre le sujet de grandes toiles graves."
+              "h": "L'enfance : la terre normande",
+              "p": "Né en 1814 dans une famille de paysans aisés de Normandie, Millet grandit au contact de la terre, des travaux des champs et d'une foi profonde. Cette origine paysanne, dont il garde la mémoire et le respect, sera la source de toute son œuvre : il peindra les gens de sa condition, qu'il connaît de l'intérieur."
             },
             {
-              "h": "L'Angélus, Les Glaneuses",
-              "p": "Un couple en prière au crépuscule, trois femmes ramassant les épis laissés aux pauvres : il donne à l'humble une grandeur quasi religieuse."
+              "h": "Le déclic : Barbizon et le monde rural",
+              "p": "Après des débuts difficiles à Paris, Millet s'installe en 1849 dans le village de Barbizon, en lisière de la forêt de Fontainebleau, avec d'autres paysagistes. Il s'y consacre à son grand sujet : la vie et le travail des paysans, observés sans pittoresque ni misérabilisme, avec une gravité nouvelle."
             },
             {
-              "h": "L'influence sur Van Gogh",
-              "p": "Membre de l'école de Barbizon, il ouvre la voie au réalisme et touchera profondément Van Gogh, qui le copiera avec vénération."
+              "h": "La monumentalité des humbles",
+              "p": "Millet donne aux paysans la solennité qu'on réservait aux héros : ses Glaneuses, courbées pour ramasser les épis, ont la grandeur de figures antiques ; son Angélus montre un couple en prière au crépuscule, recueilli, monumental. Le travail humble devient un sujet noble, presque sacré."
+            },
+            {
+              "h": "Son moteur : la dignité et le sacré du travail",
+              "p": "Ce qui anime Millet, c'est une foi dans la dignité du travail et de la condition paysanne, teintée d'une spiritualité grave. Il ne dénonce pas (même si on l'accusa de socialisme) : il célèbre la noblesse silencieuse de ceux qui peinent la terre, dans une lumière douce et un silence recueilli."
+            },
+            {
+              "h": "Le message : entre réalisme et émotion",
+              "p": "Au moment où Courbet impose le réalisme, Millet en propose une version plus émue, plus spirituelle : le réel paysan, mais transfiguré par la compassion et le sens du sacré. Ses tableaux, d'abord jugés rudes ou subversifs, deviendront immensément populaires et toucheront profondément Van Gogh, qui le vénérait."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Millet le grand peintre de la paysannerie et une figure majeure du réalisme et de l'école de Barbizon. Gombrich souligne qu'il a élevé la vie rurale humble au rang de grand art, avec une monumentalité et une gravité qui marqueront durablement, jusqu'à Van Gogh et au-delà."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Courbet provoque et affiche, Millet recueille et émeut ; là où le paysage de Barbizon célèbre la nature, lui y plante l'homme au travail. Sa gravité monumentale et sa spiritualité du quotidien rural en font un cas à part — le peintre qui a donné aux paysans la dignité des héros."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les Glaneuses",
+              "artiste": "Millet",
+              "annee": "1857",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Gleaners",
+              "analyse": "Trois paysannes, courbées, ramassent les épis laissés après la moisson, dans une lumière dorée. Leurs silhouettes monumentales ont la gravité de figures antiques. Le travail le plus humble élevé au rang de grand sujet : un tableau jugé subversif, devenu une icône."
+            },
+            {
+              "titre": "L'Angélus",
+              "artiste": "Millet",
+              "annee": "1857-1859",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Angelus (painting)",
+              "analyse": "Un couple de paysans, dans un champ au crépuscule, interrompt son travail pour prier à l'appel de l'angélus du clocher lointain. Recueillement, silence, lumière dorée : la spiritualité grave du monde rural, l'un des tableaux les plus reproduits du XIXe siècle."
+            },
+            {
+              "titre": "Le Semeur",
+              "artiste": "Millet",
+              "annee": "1850",
+              "lieu": "Museum of Fine Arts, Boston",
+              "wiki": "The Sower (Millet)",
+              "analyse": "Un semeur avance d'un grand geste dans le soir, semant à la volée, silhouette puissante et anonyme se détachant sur le ciel. Image héroïque et intemporelle du travail de la terre, que Van Gogh copiera et vénérera toute sa vie."
             }
           ]
         },
@@ -6259,15 +6553,45 @@
           "dates": "1808-1879",
           "role": "Réalisme/satire",
           "wiki": "Honoré Daumier",
-          "portrait": "Caricaturiste et peintre de la vie populaire.",
+          "portrait": "Honoré Daumier (1808-1879) est le grand caricaturiste et peintre satirique du XIXe siècle, l'œil féroce et compatissant de la société française. Maître de la lithographie, il a croqué sans pitié les puissants et avec une profonde humanité les humbles — pamphlétaire de génie et, secrètement, grand peintre.",
           "bio_sections": [
             {
-              "h": "Le caricaturiste",
-              "p": "Honoré Daumier est d'abord un caricaturiste de génie, qui croque les mœurs et la politique de son temps — au point d'être emprisonné pour avoir moqué le roi."
+              "h": "Les origines : Marseille et la misère parisienne",
+              "p": "Né en 1808 à Marseille, fils d'un vitrier-poète, Daumier grandit à Paris dans la pauvreté. Très jeune, il doit travailler, découvre la dure réalité sociale de la capitale, et apprend la lithographie, technique nouvelle qui permet de diffuser des images à bas prix dans la presse. C'est par là qu'il deviendra célèbre."
             },
             {
-              "h": "Le peintre du peuple",
-              "p": "Mais c'est aussi un grand peintre de la vie populaire (Le Wagon de troisième classe), à la touche large et émue, longtemps méconnu comme peintre."
+              "h": "Le déclic : la caricature politique",
+              "p": "Daumier met son crayon au service de la satire politique dans les journaux d'opposition. Sa charge féroce contre le roi Louis-Philippe (qu'il représente en « Gargantua » avalant l'or du peuple) lui vaut la prison. Il devient le caricaturiste le plus redouté et le plus génial de son temps."
+            },
+            {
+              "h": "Le pamphlétaire et l'humaniste",
+              "p": "Daumier produit des milliers de lithographies : il ridiculise les bourgeois, les avocats véreux, les juges, les politiciens, avec un trait incisif et une drôlerie cruelle. Mais il regarde les pauvres — les blanchisseuses, les voyageurs de troisième classe, les saltimbanques — avec une tendresse et une gravité bouleversantes."
+            },
+            {
+              "h": "Son moteur : la justice et l'humanité",
+              "p": "Ce qui anime Daumier, c'est un sens aigu de la justice sociale et une immense compassion pour les humbles. Sa satire n'est jamais gratuite : elle vise les puissants et les hypocrites au nom du peuple. Républicain convaincu, il met son art au service de la dignité des opprimés."
+            },
+            {
+              "h": "Le message : le peintre secret",
+              "p": "À côté de ses milliers de caricatures, Daumier peint en secret, pour lui-même, des tableaux d'une force et d'une modernité saisissantes : Le Wagon de troisième classe, des Don Quichotte, des scènes de rue. Cette peinture, à la touche libre et sombre, presque inconnue de son vivant, le révèle comme un très grand peintre."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Daumier le maître de la caricature moderne et un peintre majeur redécouvert tardivement. Gombrich souligne son double génie : pamphlétaire redoutable et peintre profond, capable d'une humanité et d'une puissance plastique qui annoncent l'expressionnisme. Degas et bien d'autres l'admiraient."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où ses contemporains visent le Salon et la gloire, Daumier travaille pour la presse et peint en secret. Satiriste génial et peintre méconnu, féroce avec les puissants et tendre avec les pauvres, il unit l'art et l'engagement social comme personne — et fut reconnu comme grand peintre presque trop tard."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Wagon de troisième classe",
+              "artiste": "Daumier",
+              "annee": "v. 1862-1864",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "The Third-Class Carriage",
+              "analyse": "Dans un wagon bondé, des voyageurs pauvres — une vieille femme, une mère allaitant, un enfant endormi — attendent, las et silencieux, dans une lumière sourde. Tendresse et gravité pour les humbles, touche libre et moderne : le Daumier peintre, longtemps secret, à son sommet."
             }
           ]
         },
@@ -6349,15 +6673,53 @@
           "dates": "1834-1903",
           "role": "Art pour l'art",
           "wiki": "James McNeill Whistler",
-          "portrait": "« L'art pour l'art », arrangements de tons.",
+          "portrait": "James McNeill Whistler (1834-1903) est le peintre cosmopolite de « l'art pour l'art », celui qui voulut que le tableau soit une harmonie de tons, comme la musique, et non un récit. Provocateur élégant et théoricien, il a, par ses « nocturnes » et son célèbre portrait de sa mère, anticipé l'abstraction et la modernité.",
           "bio_sections": [
             {
-              "h": "L'art pour l'art",
-              "p": "James McNeill Whistler, Américain installé à Londres, défend « l'art pour l'art » : un tableau doit valoir par ses harmonies, comme une musique, pas par son sujet — d'où ses titres en « arrangements » et « nocturnes »."
+              "h": "Les origines : un Américain cosmopolite",
+              "p": "Né en 1834 dans le Massachusetts, Whistler passe une partie de son enfance en Russie, échoue à l'académie militaire de West Point, puis gagne l'Europe pour devenir artiste. Il vivra entre Paris et Londres, dandy spirituel et provocateur, parfaitement cosmopolite, étranger partout et chez lui partout."
             },
             {
-              "h": "Le procès contre Ruskin",
-              "p": "Attaqué par le critique Ruskin pour « avoir jeté un pot de peinture à la face du public », il lui intente un procès retentissant — bataille pour la liberté de l'art moderne."
+              "h": "Le déclic : l'art pour l'art",
+              "p": "Whistler défend une idée radicale : la peinture ne doit rien raconter ni enseigner ; elle est, comme la musique, un arrangement de formes et de couleurs qui se suffit à lui-même. D'où ses titres musicaux : Arrangements, Harmonies, Nocturnes. Le sujet n'est qu'un prétexte à une composition de tons."
+            },
+            {
+              "h": "Les Nocturnes",
+              "p": "Ses Nocturnes — vues de la Tamise au crépuscule, réduites à quelques voiles de gris, de bleu et d'or — sont d'une audace stupéfiante : presque abstraits, ils captent une atmosphère, un instant, une harmonie de tons. L'un d'eux, La Fusée qui retombe, lui vaudra un procès retentissant contre le critique Ruskin qui l'accusait de « jeter un pot de peinture à la face du public »."
+            },
+            {
+              "h": "Son moteur : l'harmonie et la suggestion",
+              "p": "Ce qui guide Whistler, c'est la recherche de l'harmonie subtile et de la suggestion, contre le détail et le récit. Marqué par l'estampe japonaise, il épure, simplifie, équilibre quelques tons délicats. « L'art doit être indépendant de toute pacotille — se tenir seul, et s'adresser au sens artistique de l'œil ou de l'oreille. »"
+            },
+            {
+              "h": "Le message : le portrait comme arrangement",
+              "p": "Même son tableau le plus célèbre, le portrait de sa mère, il l'intitule Arrangement en gris et noir : une vieille dame de profil, mais surtout une composition rigoureuse de tons sobres et d'équilibres subtils. Le sujet émeut, mais c'est l'harmonie picturale qui, pour Whistler, fait l'œuvre."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Whistler un pionnier de l'art moderne et de l'idée d'autonomie de la peinture, à la charnière du XIXe et du XXe siècle. Gombrich souligne que ses Nocturnes, presque abstraits, et sa théorie de « l'art pour l'art » annoncent directement l'abstraction et libèrent le tableau de l'obligation de raconter."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le réalisme et l'académisme veulent que le tableau dise quelque chose, Whistler veut qu'il soit beau comme une musique, sans message. Dandy provocateur, théoricien de l'art pour l'art, cosmopolite entre deux mondes, il fait le pont vers l'abstraction — par l'harmonie pure des tons et le refus du récit."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Arrangement en gris et noir (La Mère de l'artiste)",
+              "artiste": "Whistler",
+              "annee": "1871",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "Whistler's Mother",
+              "analyse": "Sa mère, assise de profil, vêtue de noir sur un mur gris : mais Whistler l'intitule « Arrangement en gris et noir », insistant sur la composition de tons plutôt que sur le sujet. Émotion sobre et équilibre rigoureux : le manifeste de l'art pour l'art."
+            },
+            {
+              "titre": "Nocturne en noir et or — La Fusée qui retombe",
+              "artiste": "Whistler",
+              "annee": "1875",
+              "lieu": "Detroit Institute of Arts",
+              "wiki": "Nocturne in Black and Gold – The Falling Rocket",
+              "analyse": "Un feu d'artifice sur la Tamise nocturne, réduit à quelques voiles sombres et à des éclats d'or — presque abstrait. Le critique Ruskin l'accusa d'« avoir jeté un pot de peinture à la face du public » ; le procès qui suivit défendit l'autonomie de l'art."
             }
           ]
         }
@@ -7231,24 +7593,70 @@
           "dates": "1840-1917",
           "role": "Sculpture",
           "wiki": "Auguste Rodin",
-          "portrait": "La sculpture renouvelée (Le Penseur, Le Baiser).",
+          "portrait": "Auguste Rodin (1840-1917) est le plus grand sculpteur depuis Michel-Ange et le père de la sculpture moderne. En rendant au corps son mouvement, sa chair vibrante et son émotion, en assumant le fragment et l'inachevé, il a libéré la sculpture de l'académisme et ouvert tout le XXe siècle.",
           "bio_longue": "Auguste Rodin (1840-1917) fait pour la sculpture ce que les impressionnistes font pour la peinture : il la rend vivante, frémissante, expressive. Recalé trois fois aux Beaux-Arts, il s'impose par la seule force de son travail (Le Penseur, Le Baiser, Les Bourgeois de Calais). Ses surfaces vibrantes, ses figures inachevées émergeant du bloc, son intensité dramatique font de lui le plus grand sculpteur depuis Michel-Ange et le passeur vers la sculpture moderne.",
           "bio_sections": [
             {
-              "h": "Le mal-aimé des écoles",
-              "p": "Auguste Rodin est recalé trois fois aux Beaux-Arts. Il s'impose par la seule force de son travail acharné, après des années de galère comme praticien pour d'autres sculpteurs."
+              "h": "Les origines : un autodidacte obstiné",
+              "p": "Né en 1840 à Paris dans un milieu modeste, Rodin est refusé trois fois à l'École des beaux-arts. Il apprend son métier sur le tas, comme praticien et ornemaniste, dans la misère et le doute, pendant des années. Cette formation hors des écoles et cette obstination forgeront son indépendance et sa force."
             },
             {
-              "h": "La sculpture rendue vivante",
-              "p": "Avec Le Penseur, Le Baiser ou Les Bourgeois de Calais, il fait pour la sculpture ce que les impressionnistes font pour la peinture : il la rend frémissante, expressive, palpitante de vie."
+              "h": "Le déclic : l'Italie et Michel-Ange",
+              "p": "Un voyage en Italie, où il découvre Michel-Ange, est une révélation : il y comprend comment rendre la vie, le mouvement, la tension intérieure du corps. Sa première grande œuvre, L'Âge d'airain, est si vivante qu'on l'accuse d'avoir moulé un modèle vivant — scandale qui, paradoxalement, le rend célèbre."
             },
             {
-              "h": "Surfaces vibrantes, figures inachevées",
-              "p": "Ses surfaces accrochent la lumière, ses figures émergent parfois à demi du bloc brut — l'inachevé devient une force. Le scandale (on l'accuse d'avoir moulé sur le vif) accompagne sa gloire."
+              "h": "La chair vivante",
+              "p": "Rodin modèle la terre et le bronze comme une matière vibrante : surfaces tourmentées qui accrochent la lumière, corps en torsion, muscles tendus, émotion qui affleure sous la peau. Ses figures (Le Penseur, Le Baiser) ne posent pas : elles pensent, souffrent, s'étreignent, vivantes d'une intensité jamais vue depuis la Renaissance."
             },
             {
-              "h": "Le plus grand depuis Michel-Ange",
-              "p": "Considéré comme le plus grand sculpteur depuis Michel-Ange, il est le passeur vers la sculpture moderne, qu'il libère de l'académisme."
+              "h": "Son moteur : le mouvement et l'émotion",
+              "p": "Ce qui anime Rodin, c'est la vie : capter le mouvement, l'effort, la passion, l'angoisse dans le corps. Il assume le fragment (un torse, une main suffisent), le non-fini hérité de Michel-Ange, l'esquisse — la trace du geste du sculpteur reste visible. La sculpture devient expression directe, presque impressionniste."
+            },
+            {
+              "h": "Le message : La Porte de l'Enfer",
+              "p": "Son grand œuvre, jamais achevé, est La Porte de l'Enfer, inspirée de Dante : un fourmillement de corps tourmentés d'où émergent Le Penseur et Le Baiser. Les Bourgeois de Calais, eux, montrent six notables marchant à la mort sans héroïsme convenu, chacun avec sa peur et sa dignité. Rodin met l'humain, dans toute sa vérité, au cœur de la sculpture."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Rodin le plus grand sculpteur du XIXe siècle et le père de la sculpture moderne : il libère la sculpture de l'académisme lisse, réintroduit le mouvement, l'émotion, le fragment, la trace du geste. Gombrich souligne qu'après lui, la sculpture peut tout — il rouvre la voie qu'emprunteront Bourdelle, Brancusi, Giacometti."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où la sculpture académique de son temps est lisse, figée et idéalisée, Rodin rend la chair vivante, le mouvement, l'émotion, et assume l'inachevé. Comparé à Michel-Ange, contesté puis adulé, il a fait de la sculpture un art d'expression directe et moderne. Sa muse et élève Camille Claudel fut aussi une grande sculptrice à part entière."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Penseur",
+              "artiste": "Rodin",
+              "annee": "1880-1904",
+              "lieu": "Musée Rodin, Paris",
+              "wiki": "The Thinker",
+              "analyse": "Un homme nu, assis, replié, le menton sur la main, plongé dans une méditation intense où tout le corps semble penser. Conçu d'abord pour La Porte de l'Enfer, devenu une icône universelle de la pensée et de l'effort intérieur. La chair vivante de Rodin."
+            },
+            {
+              "titre": "Le Baiser",
+              "artiste": "Rodin",
+              "annee": "1882",
+              "lieu": "Musée Rodin, Paris",
+              "wiki": "The Kiss (Rodin sculpture)",
+              "analyse": "Deux amants nus enlacés dans un baiser, le marbre rendant la douceur de la chair et la tendresse du geste. Tirée des amants damnés de Dante, l'œuvre dépasse son sujet pour devenir l'image universelle de la passion amoureuse. Sensualité et vie palpitante."
+            },
+            {
+              "titre": "Les Bourgeois de Calais",
+              "artiste": "Rodin",
+              "annee": "1884-1889",
+              "lieu": "Calais / Musée Rodin",
+              "wiki": "The Burghers of Calais",
+              "analyse": "Six notables de Calais marchent à la mort pour sauver leur ville, pieds nus, la corde au cou — chacun avec sa peur, son doute, sa dignité, sans héroïsme convenu. Rodin brise le monument traditionnel pour montrer l'humanité vraie face au sacrifice."
+            },
+            {
+              "titre": "La Porte de l'Enfer",
+              "artiste": "Rodin",
+              "annee": "1880-1917",
+              "lieu": "Musée Rodin, Paris",
+              "wiki": "The Gates of Hell",
+              "analyse": "Portail monumental inspiré de Dante, jamais achevé : un fourmillement de plus de 200 corps tourmentés d'où émergent Le Penseur et Le Baiser. Le grand laboratoire de toute l'œuvre de Rodin, vision grandiose et désespérée de la condition humaine."
             }
           ]
         }
@@ -10279,19 +10687,53 @@
           "dates": "~1267-1337",
           "role": "la charnière",
           "wiki": "Giotto",
-          "portrait": "LA charnière : poids, espace, émotion. Le grand-père de la Renaissance.",
+          "portrait": "Giotto di Bondone (v. 1267-1337) est le grand-père de toute la peinture occidentale moderne. Deux siècles avant la Renaissance, il a rompu avec la raideur dorée du Moyen Âge pour redonner aux figures un poids, un espace et des émotions vraies — ouvrant la voie que Masaccio, puis Léonard, suivront.",
           "bio_sections": [
             {
-              "h": "La charnière",
-              "p": "Giotto rompt avec l'or et la raideur byzantine pour redonner aux figures un poids, une place dans l'espace, et de vraies émotions."
+              "h": "L'enfance : le berger devenu peintre",
+              "p": "Né vers 1267 dans la campagne toscane, Giotto serait, selon la légende rapportée par Vasari, un petit berger que le peintre Cimabue surprit en train de dessiner ses moutons sur une pierre, si bien qu'il l'emmena dans son atelier. Vraie ou non, l'anecdote dit l'essentiel : Giotto regarde la nature, et non plus seulement les modèles figés de la tradition."
+            },
+            {
+              "h": "Le déclic : rompre avec Byzance",
+              "p": "L'art de son temps, hérité de Byzance, est fait de figures plates, dorées, hiératiques. Giotto ose autre chose : il donne à ses personnages du volume, du poids, une place dans un espace réel, et surtout des émotions humaines. C'est une révolution silencieuse mais totale dans la manière de peindre."
             },
             {
               "h": "La chapelle des Scrovegni",
-              "p": "À Padoue, dans la Lamentation, ses personnages massifs réagissent en vrais humains et les anges eux-mêmes pleurent dans le ciel. On lit les sentiments sur les visages."
+              "p": "À Padoue, vers 1305, Giotto couvre la chapelle des Scrovegni d'un cycle de fresques sur la vie du Christ et de la Vierge. Dans la Lamentation, les personnages massifs pleurent, se penchent, se détournent comme de vrais êtres, et les anges eux-mêmes se tordent de douleur dans le ciel. On lit les sentiments sur les visages."
             },
             {
-              "h": "Le point de départ",
-              "p": "Révolution silencieuse, c'est l'amorce directe de la Renaissance : un siècle plus tard, Masaccio reprendra et systématisera la voie qu'il a ouverte."
+              "h": "Son moteur : l'émotion vraie et l'espace",
+              "p": "Ce qui guide Giotto, c'est la volonté de rendre le drame sacré humainement crédible : que le spectateur croie à la scène, s'y reconnaisse, soit ému. Il invente pour cela des gestes parlants, des regards, des corps qui occupent l'espace et projettent des ombres. La peinture cesse d'être un signe pour devenir une présence."
+            },
+            {
+              "h": "Le message : le divin rendu humain",
+              "p": "En donnant aux figures sacrées chair et émotion, Giotto rapproche le divin du fidèle : la souffrance de Marie devient celle de toute mère, le drame du Christ celui de tout homme. Cette humanité nouvelle, en accord avec la spiritualité de saint François, transforme le rapport du croyant à l'image."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font unanimement de Giotto le point de départ de la peinture occidentale moderne. « Sans Giotto, pas de Renaissance », résume-t-on. Gombrich lui consacre une place charnière : il est le premier, depuis l'Antiquité, à avoir donné l'illusion de la profondeur et de la vie réelle aux figures peintes."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Giotto surgit, seul, deux siècles trop tôt : ce qu'il invente ne sera vraiment repris qu'avec Masaccio, vers 1425. Admiré dès son vivant (Dante le cite), célébré par Vasari comme le rénovateur de l'art, il est la grande charnière entre le monde médiéval et le monde moderne — l'homme par qui la peinture recommence."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Lamentation sur le Christ mort",
+              "artiste": "Giotto",
+              "annee": "v. 1305",
+              "lieu": "Chapelle des Scrovegni, Padoue",
+              "wiki": "Lamentation (Giotto)",
+              "analyse": "Autour du corps du Christ, les figures massives se penchent, s'étreignent et pleurent ; des anges se tordent de douleur dans le ciel ; un rocher nu conduit le regard vers le drame. L'émotion humaine vraie fait son entrée dans la peinture. Une révolution."
+            },
+            {
+              "titre": "La Madone d'Ognissanti",
+              "artiste": "Giotto",
+              "annee": "v. 1310",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Ognissanti Madonna",
+              "analyse": "La Vierge en majesté, sur un trône qui occupe un vrai espace en profondeur, a un corps qui pèse sous sa robe. Comparée aux madones plates et dorées de ses prédécesseurs, elle marque le passage de Byzance au monde réel et tangible."
             }
           ]
         },
