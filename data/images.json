@@ -4855,5 +4855,15 @@
     "h": 1110,
     "format": "jpg",
     "file": "Ma_Yuan_Walking_on_Path_in_Spring.jpg"
+  },
+  "Melk Abbey": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Stift_Melk%2C_Westansicht.jpg/1280px-Stift_Melk%2C_Westansicht.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 667,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Stift_Melk%2C_Westansicht.jpg",
+    "w": 6000,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Stift_Melk,_Westansicht.jpg"
   }
 }
