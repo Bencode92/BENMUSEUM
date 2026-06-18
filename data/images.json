@@ -4605,5 +4605,165 @@
     "h": 4332,
     "format": "jpg",
     "file": "Correggio_-_The_Holy_Night_-_Google_Art_Project.jpg"
+  },
+  "Florence Cathedral": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg/1280px-Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 669,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "w": 3872,
+    "h": 2592,
+    "format": "jpg",
+    "file": "Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg"
+  },
+  "Pazzi Chapel": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Florence%2C_Santa_Croce%2C_Cappella_dei_Pazzi%2C_1440s-70s.jpg/1280px-Florence%2C_Santa_Croce%2C_Cappella_dei_Pazzi%2C_1440s-70s.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 750,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Florence%2C_Santa_Croce%2C_Cappella_dei_Pazzi%2C_1440s-70s.jpg",
+    "w": 5167,
+    "h": 3875,
+    "format": "jpg",
+    "file": "Florence,_Santa_Croce,_Cappella_dei_Pazzi,_1440s-70s.jpg"
+  },
+  "Ospedale degli Innocenti": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Florence%2C_Piazza_SS_Annunziata_with_Ospedale_degli_Innocenti_%281419-39%29_and_part_of_SS_Annunziata_%281601%29.jpg/1280px-Florence%2C_Piazza_SS_Annunziata_with_Ospedale_degli_Innocenti_%281419-39%29_and_part_of_SS_Annunziata_%281601%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 563,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Florence%2C_Piazza_SS_Annunziata_with_Ospedale_degli_Innocenti_%281419-39%29_and_part_of_SS_Annunziata_%281601%29.jpg",
+    "w": 5877,
+    "h": 3306,
+    "format": "jpg",
+    "file": "Florence,_Piazza_SS_Annunziata_with_Ospedale_degli_Innocenti_(1419-39)_and_part_of_SS_Annunziata_(1601).jpg"
+  },
+  "Santa Maria presso San Satiro": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Milan_Santa_Maria_presso_San_Satiro_016_4771.jpg/1280px-Milan_Santa_Maria_presso_San_Satiro_016_4771.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 966,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Milan_Santa_Maria_presso_San_Satiro_016_4771.jpg",
+    "w": 6742,
+    "h": 6515,
+    "format": "jpg",
+    "file": "Milan_Santa_Maria_presso_San_Satiro_016_4771.jpg"
+  },
+  "Karlskirche": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Karlskirche_Abendsonne_1.jpg/1280px-Karlskirche_Abendsonne_1.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 667,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Karlskirche_Abendsonne_1.jpg",
+    "w": 8724,
+    "h": 5816,
+    "format": "jpg",
+    "file": "Karlskirche_Abendsonne_1.jpg"
+  },
+  "George Washington (Houdon)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Jean-Antoine_Houdon%27s_George_Washington.jpg/1280px-Jean-Antoine_Houdon%27s_George_Washington.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1333,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jean-Antoine_Houdon%27s_George_Washington.jpg",
+    "w": 3000,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Jean-Antoine_Houdon's_George_Washington.jpg"
+  },
+  "Athena Parthenos": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/NAMA_Ath%C3%A9na_Varvakeion.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1913,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/NAMA_Ath%C3%A9na_Varvakeion.jpg",
+    "w": 1000,
+    "h": 1913,
+    "format": "jpg",
+    "file": "NAMA_Athéna_Varvakeion.jpg"
+  },
+  "Statue of Zeus at Olympia": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Le_Jupiter_Olympien_ou_l%27art_de_la_sculpture_antique.jpg",
+    "thumb_w": 684,
+    "thumb_h": 866,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Le_Jupiter_Olympien_ou_l%27art_de_la_sculpture_antique.jpg",
+    "w": 684,
+    "h": 866,
+    "format": "jpg",
+    "file": "Le_Jupiter_Olympien_ou_l'art_de_la_sculpture_antique.jpg"
+  },
+  "Aphrodite of Knidos": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cnidus_Aphrodite_Altemps_Inv8619.jpg/1280px-Cnidus_Aphrodite_Altemps_Inv8619.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 2339,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cnidus_Aphrodite_Altemps_Inv8619.jpg",
+    "w": 1550,
+    "h": 3625,
+    "format": "jpg",
+    "file": "Cnidus_Aphrodite_Altemps_Inv8619.jpg"
+  },
+  "Apoxyomenos": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apoxyomenos_Pio-Clementino_Inv1185_n2.jpg/1280px-Apoxyomenos_Pio-Clementino_Inv1185_n2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 667,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Apoxyomenos_Pio-Clementino_Inv1185_n2.jpg",
+    "w": 3500,
+    "h": 2334,
+    "format": "jpg",
+    "file": "Apoxyomenos_Pio-Clementino_Inv1185_n2.jpg"
+  },
+  "Farnese Hercules": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg/1280px-Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1750,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg",
+    "w": 2300,
+    "h": 4025,
+    "format": "jpg",
+    "file": "Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg"
+  },
+  "The Clubfoot": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/El_patizambo%2C_por_Jos%C3%A9_de_Ribera.jpg/1280px-El_patizambo%2C_por_Jos%C3%A9_de_Ribera.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1761,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/El_patizambo%2C_por_Jos%C3%A9_de_Ribera.jpg",
+    "w": 2272,
+    "h": 4000,
+    "format": "jpg",
+    "file": "El_patizambo,_por_José_de_Ribera.jpg"
+  },
+  "The Martyrdom of Saint Philip": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jos%C3%A9_de_Ribera_054.jpg/1280px-Jos%C3%A9_de_Ribera_054.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1003,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Jos%C3%A9_de_Ribera_054.jpg",
+    "w": 2362,
+    "h": 2370,
+    "format": "jpg",
+    "file": "José_de_Ribera_054.jpg"
+  },
+  "Immaculate Conception (Murillo)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Murillo_immaculate_conception.jpg/1280px-Murillo_immaculate_conception.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1467,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Murillo_immaculate_conception.jpg",
+    "w": 2012,
+    "h": 2952,
+    "format": "jpg",
+    "file": "Murillo_immaculate_conception.jpg"
+  },
+  "The Young Beggar": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bartolom%C3%A9_Esteban_Murillo_-_Joven_mendigo_%281645-50%29.jpg/1280px-Bartolom%C3%A9_Esteban_Murillo_-_Joven_mendigo_%281645-50%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1213,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Bartolom%C3%A9_Esteban_Murillo_-_Joven_mendigo_%281645-50%29.jpg",
+    "w": 3225,
+    "h": 3913,
+    "format": "jpg",
+    "file": "Bartolomé_Esteban_Murillo_-_Joven_mendigo_(1645-50).jpg"
+  },
+  "Tempietto": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Tempietto_di_San_Pietro_in_Montorio.jpg/1280px-Tempietto_di_San_Pietro_in_Montorio.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1511,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Tempietto_di_San_Pietro_in_Montorio.jpg",
+    "w": 3549,
+    "h": 5364,
+    "format": "jpg",
+    "file": "Tempietto_di_San_Pietro_in_Montorio.jpg"
   }
 }

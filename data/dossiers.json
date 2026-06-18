@@ -865,19 +865,61 @@
           "role": "architecte",
           "wiki": "Filippo Brunelleschi",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Orfèvre devenu architecte, il invente les lois de la perspective et coiffe la cathédrale de Florence d'une coupole colossale qu'on jugeait impossible. Le véritable point de départ technique de la Renaissance.",
+          "portrait": "Filippo Brunelleschi (1377-1446) est l'inventeur de l'architecture de la Renaissance et de la perspective. Orfèvre devenu bâtisseur, il a coiffé Florence d'une coupole qu'on jugeait impossible et donné à l'art occidental l'outil qui allait tout changer : les lois mathématiques de la perspective.",
           "bio_sections": [
             {
-              "h": "L'orfèvre devenu architecte",
-              "p": "Filippo Brunelleschi, d'abord orfèvre, se tourne vers l'architecture après avoir perdu le concours des portes du Baptistère de Florence face à Ghiberti."
+              "h": "L'enfance : l'orfèvre de Florence",
+              "p": "Né en 1377 à Florence, fils d'un notaire, Brunelleschi se forme comme orfèvre et sculpteur. En 1401, il perd de justesse le concours pour les portes du Baptistère face à Ghiberti — déception qui le détourne, dit-on, de la sculpture vers l'architecture, où il accomplira sa révolution."
+            },
+            {
+              "h": "Le déclic : Rome et l'antique",
+              "p": "Avec son ami Donatello, Brunelleschi part à Rome étudier et mesurer les ruines antiques — le Panthéon, les temples. Il en rapporte la science de la construction romaine, le vocabulaire des colonnes et des proportions, qu'il va ressusciter pour fonder une architecture nouvelle, claire et rationnelle."
             },
             {
               "h": "La coupole impossible",
-              "p": "Il coiffe la cathédrale de Florence d'une coupole colossale qu'on jugeait irréalisable, sans cintrage, par une technique de pose des briques restée légendaire."
+              "p": "Son chef-d'œuvre : la coupole de la cathédrale de Florence, immense, qu'on jugeait irréalisable sans cintrage. Brunelleschi invente une technique de double coque et de pose des briques en arêtes de poisson qui permet de la bâtir sans échafaudage central. Un exploit technique resté légendaire, qui domine encore Florence."
+            },
+            {
+              "h": "Son moteur : la raison et la mesure",
+              "p": "Ce qui guide Brunelleschi, c'est l'ordre, la clarté, la proportion. Ses architectures (la chapelle Pazzi, l'hôpital des Innocents) sont d'une simplicité lumineuse : colonnes fines, arcs en plein cintre, géométrie évidente, harmonie des rapports. La beauté naît de la raison et de la mesure mathématique."
             },
             {
               "h": "L'invention de la perspective",
-              "p": "Surtout, il découvre les lois de la perspective linéaire — l'outil qui permettra à toute la peinture de la Renaissance de creuser l'espace. Le véritable point de départ technique de l'époque."
+              "p": "Brunelleschi découvre et démontre, par une célèbre expérience optique, les lois de la perspective linéaire — comment représenter l'espace en profondeur sur une surface plane. Cet outil, transmis à Masaccio et à toute la peinture, est l'un des fondements de l'art occidental pour cinq siècles."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Brunelleschi le père de l'architecture Renaissance et le découvreur de la perspective : deux fondations majeures. Gombrich souligne qu'il a, le premier, rompu avec le gothique pour réinventer l'architecture sur le modèle antique et la raison, ouvrant l'âge classique de l'Europe."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le gothique élançait ses cathédrales vers le ciel dans la complexité, Brunelleschi ramène l'ordre, la clarté et la mesure humaine. Ingénieur autant qu'artiste, il a tout inventé : la coupole, la perspective, le langage classique. Sans lui, ni la Renaissance architecturale ni la peinture de Masaccio n'auraient existé."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La coupole de la cathédrale de Florence",
+              "artiste": "Brunelleschi",
+              "annee": "1420-1436",
+              "lieu": "Cathédrale Santa Maria del Fiore, Florence",
+              "wiki": "Florence Cathedral",
+              "analyse": "Coupole colossale qu'on jugeait impossible à bâtir sans échafaudage central. Brunelleschi invente une double coque et une pose des briques en arêtes de poisson pour la dresser. Prouesse technique légendaire qui domine encore Florence : l'acte de naissance de l'architecture Renaissance."
+            },
+            {
+              "titre": "La chapelle Pazzi",
+              "artiste": "Brunelleschi",
+              "annee": "v. 1441-1460",
+              "lieu": "Santa Croce, Florence",
+              "wiki": "Pazzi Chapel",
+              "analyse": "Petit chef-d'œuvre de clarté : colonnes fines, arcs en plein cintre, pierre grise sur murs blancs, géométrie limpide. L'harmonie des proportions et la raison classique de Brunelleschi à l'état pur, modèle de toute l'architecture à venir."
+            },
+            {
+              "titre": "L'hôpital des Innocents",
+              "artiste": "Brunelleschi",
+              "annee": "1419-1445",
+              "lieu": "Florence",
+              "wiki": "Ospedale degli Innocenti",
+              "analyse": "Premier orphelinat d'Europe et premier édifice vraiment Renaissance : une longue loggia d'arcs en plein cintre portés par de fines colonnes, d'une élégance et d'une régularité nouvelles. La clarté rationnelle de l'antique retrouvée."
             }
           ]
         },
@@ -1083,15 +1125,53 @@
           "role": "architecte",
           "wiki": "Donato Bramante",
           "groupe": "École de Florence & Rome — le dessin",
-          "portrait": "Le grand architecte de la Haute Renaissance : il dessine les premiers plans de la nouvelle basilique Saint-Pierre de Rome et réalise le Tempietto, petit temple d'une perfection classique absolue.",
+          "portrait": "Donato Bramante (1444-1514) est le grand architecte de la Haute Renaissance, celui qui imposa à Rome le retour à la pureté monumentale de l'Antiquité. Du minuscule Tempietto, parfait comme un bijou classique, aux plans gigantesques de la nouvelle basilique Saint-Pierre, il a fixé l'idéal de l'architecture classique.",
           "bio_sections": [
             {
-              "h": "L'architecte de la Haute Renaissance",
-              "p": "Donato Bramante est le grand architecte du tournant de 1500, qui impose le retour à la pureté classique antique."
+              "h": "Les origines : peintre devenu architecte",
+              "p": "Né en 1444 près d'Urbin, brillante cour humaniste, Bramante est d'abord peintre, formé au sens de la perspective et de l'espace idéal. Il travaille à Milan, où il côtoie Léonard de Vinci, avant de gagner Rome vers 1500 — c'est là, dans la confrontation avec les ruines antiques, qu'il devient le plus grand architecte de son temps."
             },
             {
-              "h": "Saint-Pierre et le Tempietto",
-              "p": "Il dessine les premiers plans de la nouvelle basilique Saint-Pierre de Rome et réalise le Tempietto, petit temple circulaire d'une perfection classique absolue, modèle pour des siècles."
+              "h": "Le déclic : Rome et la grandeur antique",
+              "p": "À Rome, Bramante étudie les vestiges colossaux de l'Antiquité — thermes, temples, le Panthéon. Il en tire l'ambition d'une architecture monumentale, pure et grandiose, qui rivalise avec les Anciens. Il abandonne les délicatesses du Quattrocento pour la gravité et la puissance de la Haute Renaissance."
+            },
+            {
+              "h": "Le Tempietto",
+              "p": "Son petit Tempietto de San Pietro in Montorio est un manifeste : un temple circulaire minuscule, ceint de colonnes, d'une perfection classique absolue. Bien que petit, il a la monumentalité et l'équilibre d'un édifice antique idéal. Il deviendra un modèle étudié pendant des siècles, jusqu'aux grands dômes européens."
+            },
+            {
+              "h": "Son moteur : la perfection classique",
+              "p": "Ce qui guide Bramante, c'est la quête de l'harmonie et de la grandeur antiques : plans centrés, symétrie parfaite, vocabulaire des ordres classiques, jeu monumental des volumes. Il pense l'architecture comme une géométrie noble et pure, à l'échelle des Anciens."
+            },
+            {
+              "h": "Le message : Saint-Pierre de Rome",
+              "p": "Le pape Jules II le charge du projet le plus ambitieux de la chrétienté : reconstruire la basilique Saint-Pierre. Bramante en dessine les premiers plans, un gigantesque édifice en croix grecque surmonté d'une coupole colossale inspirée du Panthéon. Le chantier, repris ensuite par Raphaël, Michel-Ange et d'autres, occupera plus d'un siècle."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Bramante le fondateur de l'architecture de la Haute Renaissance et le maître du style classique monumental. Gombrich souligne que le Tempietto et le projet de Saint-Pierre ont fixé l'idéal architectural classique pour toute l'Europe, jusqu'au néoclassicisme."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Brunelleschi, un siècle plus tôt, retrouvait la clarté légère du Quattrocento, Bramante impose la grandeur monumentale et la pureté grave de la Haute Renaissance. Il pense en termes de masse, de volume et de coupole colossale. C'est lui qui donne à l'architecture classique sa dimension monumentale et impériale."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Tempietto",
+              "artiste": "Bramante",
+              "annee": "1502",
+              "lieu": "San Pietro in Montorio, Rome",
+              "wiki": "Tempietto",
+              "analyse": "Un temple circulaire minuscule, ceint de colonnes doriques, d'une perfection classique absolue. Bien que petit, il a la monumentalité et l'équilibre d'un édifice antique idéal. Modèle étudié pendant des siècles : le manifeste de la Haute Renaissance architecturale."
+            },
+            {
+              "titre": "Chœur de Santa Maria presso San Satiro",
+              "artiste": "Bramante",
+              "annee": "v. 1482-1486",
+              "lieu": "Milan",
+              "wiki": "Santa Maria presso San Satiro",
+              "analyse": "Faute de place, Bramante peint en trompe-l'œil un chœur en profondeur qui n'existe pas : l'œil croit voir une abside, il n'y a qu'un mur. Le peintre-architecte met sa maîtrise de la perspective au service de l'illusion architecturale."
             }
           ]
         },
@@ -3184,19 +3264,69 @@
           "dates": "XVIIᵉ",
           "role": "",
           "wiki": "Bartolomé Esteban Murillo",
-          "portrait": "École espagnole, intensité mystique.",
+          "portrait": "Zurbarán, Ribera et Murillo forment, avec Vélasquez, le Siècle d'or de la peinture espagnole — une peinture profondément catholique, mettant l'intensité réaliste héritée du Caravage au service d'une foi fervente. Trois tempéraments : le silence mystique, le réalisme âpre, et la douceur tendre.",
           "bio_sections": [
             {
-              "h": "Le Siècle d'or espagnol",
-              "p": "Zurbarán, Ribera et Murillo forment, avec Vélasquez, le grand siècle de la peinture espagnole, profondément catholique."
+              "h": "Le contexte : l'Espagne catholique",
+              "p": "Au XVIIe siècle, l'Espagne, championne de la Contre-Réforme, vit une ferveur religieuse intense. La peinture y est largement au service de l'Église et des couvents : il s'agit de toucher les fidèles, de les émouvoir, de rendre la foi présente et sensible. Le réalisme dramatique du Caravage, venu d'Italie, y trouve un terrain idéal."
             },
             {
-              "h": "Trois tempéraments",
-              "p": "Zurbarán peint le silence mystique des moines en méditation ; Ribera, le réalisme âpre et ténébreux des martyrs ; Murillo, la douceur tendre des Vierges et des enfants des rues."
+              "h": "Zurbarán : le silence mystique",
+              "p": "Francisco de Zurbarán (1598-1664) est le peintre des moines et des couvents : ses saints en méditation, ses moines en prière, baignés d'une lumière sculpturale sur fond sombre, dégagent un silence et un recueillement profonds. Ses natures mortes d'objets simples ont la même intensité contemplative. Le mysticisme espagnol fait peinture."
             },
             {
-              "h": "La foi peinte",
-              "p": "Tous mettent l'intensité réaliste héritée du Caravage au service d'une dévotion fervente, pour toucher le cœur des fidèles."
+              "h": "Ribera : le réalisme âpre",
+              "p": "José de Ribera (1591-1652), Espagnol installé à Naples, est le plus caravagesque des trois : ténèbres profondes, lumière crue, réalisme sans concession. Ses martyrs suppliciés, ses philosophes en haillons, ses corps marqués par l'âge et la souffrance sont peints avec une vérité brutale et une grande humanité."
+            },
+            {
+              "h": "Murillo : la douceur tendre",
+              "p": "Bartolomé Esteban Murillo (1617-1682), de Séville, est le plus doux : ses Vierges aimables, ses Immaculées Conceptions montant au ciel dans une lumière dorée, ses enfants des rues attendrissants ont une grâce sentimentale et une tendresse qui les rendirent immensément populaires. La foi par la douceur."
+            },
+            {
+              "h": "Le moteur commun : émouvoir et convertir",
+              "p": "Ce qui unit ces trois peintres, c'est la volonté de toucher le cœur des fidèles : rendre le sacré présent, émouvant, réel. Qu'il s'agisse du silence de Zurbarán, du réalisme de Ribera ou de la tendresse de Murillo, l'art se met au service de la dévotion et de la ferveur catholiques."
+            },
+            {
+              "h": "Pourquoi ils comptent, selon les experts",
+              "p": "Les historiens font de ce trio, avec Vélasquez, le Siècle d'or espagnol, l'un des sommets de la peinture européenne. Gombrich souligne comment ils ont adapté le réalisme caravagesque au génie religieux espagnol, créant des images d'une force spirituelle particulière, du mysticisme austère à la douceur populaire."
+            },
+            {
+              "h": "Ce qui les différencie",
+              "p": "Trois voies vers la même foi : Zurbarán le contemplatif et sculptural, Ribera le réaliste sombre et âpre, Murillo le tendre et lumineux. Ensemble, ils donnent à l'Espagne baroque ses images de dévotion les plus puissantes — entre l'austérité du cloître et la douceur des Vierges."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Pied-bot (Ribera)",
+              "artiste": "Ribera",
+              "annee": "1642",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Clubfoot",
+              "analyse": "Un jeune mendiant infirme, pied-bot, sourit largement au spectateur, son billet de mendicité à la main, sur fond de ciel lumineux. Ribera donne au pauvre une dignité et une présence monumentales : le réalisme espagnol au service de l'humanité des humbles."
+            },
+            {
+              "titre": "Le Martyre de saint Philippe (Ribera)",
+              "artiste": "Ribera",
+              "annee": "1639",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "The Martyrdom of Saint Philip",
+              "analyse": "Des bourreaux hissent le saint pour le crucifier, dans une lumière crue qui sculpte les corps et les visages. Réalisme âpre, ténèbres caravagesques, souffrance sans fard : la foi mise à l'épreuve de la chair, intense et bouleversante."
+            },
+            {
+              "titre": "L'Immaculée Conception (Murillo)",
+              "artiste": "Murillo",
+              "annee": "v. 1678",
+              "lieu": "Musée du Prado, Madrid",
+              "wiki": "Immaculate Conception (Murillo)",
+              "analyse": "La Vierge monte au ciel, portée par des nuées d'angelots, dans une lumière dorée, vêtue de blanc et de bleu. Douceur, grâce sentimentale et lumière tendre : la foi par l'émotion et la beauté, qui rendit Murillo immensément populaire."
+            },
+            {
+              "titre": "Le Jeune Mendiant (Murillo)",
+              "artiste": "Murillo",
+              "annee": "v. 1645-1650",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "The Young Beggar",
+              "analyse": "Un enfant pauvre, en haillons, assis dans la lumière d'une fenêtre, s'épouille au soleil. Murillo regarde les enfants des rues de Séville avec une tendresse et une vérité touchantes : la dignité et la grâce trouvées dans la misère même."
             }
           ]
         },
@@ -4486,20 +4616,54 @@
           "dates": "1687-1753",
           "role": "architecte",
           "wiki": "Balthasar Neumann",
-          "portrait": "Vierzehnheiligen, Würzburg : maître de l'architecture rococo d'Europe centrale.",
+          "portrait": "Balthasar Neumann (1687-1753) est le grand architecte du Rococo d'Europe centrale, le maître des espaces ondulants baignés de lumière. Ingénieur militaire de formation, il a créé des intérieurs blancs et or d'une légèreté et d'une joie inégalées, où murs, voûtes et autels semblent flotter et danser.",
           "bio_longue": "Balthasar Neumann (1687-1753) est le grand architecte du Rococo d'Europe centrale. À la Résidence de Würzburg et à l'église de pèlerinage de Vierzehnheiligen, il crée des espaces d'une audace et d'une légèreté inouïes : des voûtes ondulantes, des plans courbes et entrelacés, une lumière qui inonde des intérieurs blancs et or. L'architecture y cesse d'être statique pour devenir mouvement et musique.",
           "bio_sections": [
             {
-              "h": "L'architecte de la légèreté",
-              "p": "Balthasar Neumann est le grand architecte du Rococo d'Europe centrale."
+              "h": "Les origines : l'ingénieur de Würzburg",
+              "p": "Né en 1687 en Bohême, Neumann se forme d'abord comme fondeur de cloches et ingénieur militaire — d'où sa maîtrise exceptionnelle de la statique et des voûtes. Au service des princes-évêques de Würzburg, il met cette science au service d'une architecture audacieuse, où la technique permet toutes les fantaisies."
+            },
+            {
+              "h": "Le déclic : l'espace ondulant",
+              "p": "Neumann conçoit l'espace non plus comme une suite de pièces rectangulaires, mais comme un jeu fluide de courbes, d'ovales, de voûtes qui s'interpénètrent. Les murs ondulent, les espaces communiquent, la lumière circule. C'est le génie du Rococo d'Europe centrale : faire danser l'architecture."
             },
             {
               "h": "Würzburg et Vierzehnheiligen",
-              "p": "À la Résidence de Würzburg et à l'église de pèlerinage de Vierzehnheiligen, il crée des espaces ondulants, blancs et or, baignés de lumière, où murs et autels semblent flotter."
+              "p": "À la Résidence de Würzburg (dont l'escalier d'honneur est couronné d'une fresque de Tiepolo) et à l'église de pèlerinage de Vierzehnheiligen, Neumann crée des espaces blancs et or, ondulants, baignés de lumière, où les autels semblent flotter et où l'on ne trouve plus un seul angle droit reposant."
             },
             {
-              "h": "L'architecture-musique",
-              "p": "Chez lui, l'architecture cesse d'être statique pour devenir mouvement et musique — l'apothéose du Rococo bâti."
+              "h": "Son moteur : la lumière et le mouvement",
+              "p": "Ce qui anime Neumann, c'est la quête d'une architecture vivante, lumineuse, joyeuse : faire entrer la lumière de partout, faire onduler les surfaces, dissoudre la masse. Sa science d'ingénieur lui permet des voûtes minces et audacieuses qui semblent défier la pesanteur."
+            },
+            {
+              "h": "Le message : l'architecture-musique",
+              "p": "Chez Neumann, l'architecture cesse d'être statique et solennelle pour devenir mouvement, lumière et fête — comme une musique de Mozart bâtie en pierre. Ses églises de pèlerinage offrent au fidèle une vision de paradis terrestre, lumineuse et dansante : l'apothéose joyeuse du Rococo."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Neumann le plus grand architecte du Rococo allemand et l'un des maîtres absolus de l'espace baroque tardif. Gombrich souligne la légèreté et la maîtrise technique de ses voûtes, et la façon dont il a su unir architecture, sculpture, stuc et fresque en un tout enchanteur."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'architecture française classique cherche la rigueur et la symétrie, Neumann cherche le mouvement, la lumière et la joie. Ingénieur de génie au service de la fantaisie, il a porté l'art de la voûte et de l'espace fluide à un point que personne n'a dépassé. Le Rococo bâti, c'est lui."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Résidence de Würzburg",
+              "artiste": "Balthasar Neumann",
+              "annee": "1720-1744",
+              "lieu": "Würzburg",
+              "wiki": "Würzburg Residence",
+              "analyse": "Palais des princes-évêques, dont l'escalier d'honneur monumental est couronné d'une voûte unique, sans pilier, ornée de la plus vaste fresque du monde par Tiepolo. La prouesse statique de l'ingénieur au service du faste et de la lumière rococo."
+            },
+            {
+              "titre": "Basilique des Quatorze-Saints (Vierzehnheiligen)",
+              "artiste": "Balthasar Neumann",
+              "annee": "1743-1772",
+              "lieu": "Bavière",
+              "wiki": "Basilica of the Fourteen Holy Helpers",
+              "analyse": "Église de pèlerinage où Neumann fait onduler murs et voûtes en une série d'ovales qui s'interpénètrent, baignés de lumière, blanc et or. Plus un seul angle droit : l'espace devient mouvement et musique. Le chef-d'œuvre du Rococo d'Europe centrale."
             }
           ]
         },
@@ -4509,15 +4673,45 @@
           "dates": "1656-1723",
           "role": "architecte",
           "wiki": "Johann Bernhard Fischer von Erlach",
-          "portrait": "Karlskirche (Vienne) : baroque autrichien.",
+          "portrait": "Johann Bernhard Fischer von Erlach (1656-1723) est le grand architecte du baroque autrichien, le bâtisseur de la Vienne impériale triomphante. Érudit, théoricien, il a su unir la grandeur romaine, le théâtre baroque et une ambition cosmopolite pour donner à l'Autriche des Habsbourg ses monuments les plus prestigieux.",
           "bio_sections": [
             {
-              "h": "Le baroque autrichien",
-              "p": "Johann Bernhard Fischer von Erlach est le grand architecte du baroque viennois."
+              "h": "Les origines : la formation romaine",
+              "p": "Né en 1656 près de Graz, fils d'un sculpteur, Fischer von Erlach passe sa jeunesse à Rome, où il étudie l'Antiquité et le baroque du Bernin et de Borromini. Il en revient nourri d'une vaste culture architecturale et de l'ambition de doter l'Autriche d'une grandeur égale à celle de Rome."
+            },
+            {
+              "h": "Le déclic : l'architecte impérial",
+              "p": "De retour, il devient l'architecte de la cour impériale des Habsbourg, à l'apogée de leur puissance après la victoire sur les Turcs. Il met son art au service de la gloire impériale : palais, églises et résidences pensés pour exprimer la majesté et le triomphe de la dynastie et de la foi catholique."
             },
             {
               "h": "La Karlskirche",
-              "p": "Sa Karlskirche de Vienne, mêlant coupole, colonnes triomphales et façade théâtrale, incarne la grandeur de l'Autriche impériale."
+              "p": "Son chef-d'œuvre, l'église Saint-Charles-Borromée (Karlskirche) de Vienne, est une synthèse audacieuse : une vaste coupole ovale, une façade à fronton antique encadrée de deux colonnes triomphales inspirées de la colonne Trajane. Il y mêle Rome antique, Bernin et symbolisme impérial en un manifeste de grandeur."
+            },
+            {
+              "h": "Son moteur : l'érudition et la grandeur",
+              "p": "Ce qui guide Fischer von Erlach, c'est une ambition savante et cosmopolite : il publie même une Histoire de l'architecture illustrant les monuments du monde entier, de l'Égypte à la Chine. Son architecture est pensée comme une synthèse érudite, un théâtre de la grandeur impériale et universelle."
+            },
+            {
+              "h": "Le message : la Vienne triomphante",
+              "p": "Fischer von Erlach donne à Vienne, capitale d'un empire victorieux, les monuments de son prestige : la Karlskirche, des palais, la bibliothèque impériale. Son baroque grandiose et théâtral incarne la confiance et la magnificence des Habsbourg au sommet de leur gloire."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Fischer von Erlach le fondateur de l'architecture baroque autrichienne et l'un des grands architectes érudits de son temps. Gombrich souligne son ambition de synthèse, mêlant l'Antiquité, le baroque romain et une vision cosmopolite, au service de la grandeur impériale."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Neumann cherche la lumière et le mouvement joyeux du Rococo, Fischer von Erlach cherche la grandeur grave et théâtrale de l'empire. Plus romain, plus monumental, plus savant, il est l'architecte de la majesté autrichienne — celui qui a donné à Vienne le visage prestigieux de sa puissance baroque."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'église Saint-Charles-Borromée (Karlskirche)",
+              "artiste": "Fischer von Erlach",
+              "annee": "1716-1737",
+              "lieu": "Vienne",
+              "wiki": "Karlskirche",
+              "analyse": "Synthèse audacieuse : une vaste coupole ovale, une façade à fronton antique encadrée de deux colonnes triomphales façon colonne Trajane. Rome antique, baroque du Bernin et symbolisme impérial réunis en un manifeste de la grandeur des Habsbourg."
             }
           ]
         },
@@ -5009,15 +5203,45 @@
           "dates": "1741-1828",
           "role": "France",
           "wiki": "Jean-Antoine Houdon",
-          "portrait": "Sculpteur, bustes saisissants (Voltaire, Washington).",
+          "portrait": "Jean-Antoine Houdon (1741-1828) est le plus grand sculpteur du siècle des Lumières et le maître absolu du buste. Capable de saisir la vie, l'intelligence et le caractère d'un visage, il a fixé pour l'éternité les traits des grands esprits de son temps — Voltaire, Diderot, Washington, Franklin.",
           "bio_sections": [
             {
-              "h": "Le sculpteur des Lumières",
-              "p": "Jean-Antoine Houdon est le grand sculpteur du siècle des Lumières, maître du buste."
+              "h": "Les origines : la formation et Rome",
+              "p": "Né en 1741 à Versailles, fils d'un concierge de l'école des élèves protégés du roi, Houdon grandit littéralement parmi les artistes. Lauréat du prix de Rome, il y étudie l'anatomie et l'antique, et y réalise un célèbre Écorché, modèle anatomique étudié dans toutes les académies. La science du corps est au cœur de son art."
             },
             {
-              "h": "Les visages de l'époque",
-              "p": "Ses portraits saisissants de Voltaire (au sourire ironique), de Diderot, de Washington fixent à jamais les visages des esprits qui ont fait le siècle."
+              "h": "Le déclic : le buste vivant",
+              "p": "Houdon trouve sa vocation dans le portrait sculpté : il veut saisir non seulement la ressemblance, mais la vie, la pensée, le caractère. Son secret : le traitement de l'œil, qu'il creuse et travaille pour y faire jouer la lumière, donnant à ses bustes un regard étonnamment vivant, presque parlant."
+            },
+            {
+              "h": "Les visages des Lumières",
+              "p": "Houdon devient le portraitiste des grands esprits de son siècle : son Voltaire assis, vieillard au sourire ironique et au regard pétillant, est l'image même de l'intelligence des Lumières ; ses bustes de Diderot, Rousseau, Franklin, Washington fixent à jamais les visages qui ont fait l'époque."
+            },
+            {
+              "h": "Son moteur : la vérité et la vie",
+              "p": "Ce qui guide Houdon, c'est la quête de la vie et de la vérité psychologique : il ne flatte pas, il capte l'esprit d'un visage, son intelligence, son humeur. Sa science anatomique et son génie du regard font de chaque buste une présence vivante, saisie dans l'instant."
+            },
+            {
+              "h": "Le message : la gloire des grands hommes",
+              "p": "Au siècle qui célèbre la raison et le mérite individuel, Houdon donne un visage aux grands hommes — philosophes, savants, héros de l'indépendance américaine. Il traverse a Révolution et l'Empire en continuant de portraiturer les figures de son temps. Sa galerie de bustes est une mémoire sculptée du siècle des Lumières."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Houdon le plus grand sculpteur du XVIIIe siècle et le maître insurpassé du buste-portrait. Gombrich souligne son génie pour saisir la vie d'un regard et le caractère d'une physionomie : ses portraits sont à la sculpture ce que les grands portraits peints sont à la peinture."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où la sculpture baroque cherchait le mouvement et le drame, Houdon cherche la vérité intime et l'intelligence d'un visage. Ni idéalisation ni emphase : la vie même, captée d'un regard. Son Voltaire ironique reste l'image définitive de l'esprit des Lumières."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "George Washington",
+              "artiste": "Houdon",
+              "annee": "1788-1792",
+              "lieu": "Capitole de Virginie, Richmond",
+              "wiki": "George Washington (Houdon)",
+              "analyse": "Statue du président américain d'après nature, en habit civil, appuyé sur un faisceau et une canne, le regard ferme et calme. Houdon traversa l'Atlantique pour prendre le modèle vivant : la vérité et la dignité du héros républicain saisies sans emphase."
             }
           ]
         }
@@ -8394,16 +8618,46 @@
           "dates": "Ve s. av.",
           "role": "",
           "wiki": "Myron",
-          "portrait": "Le Discobole : capter le mouvement à son point de tension.",
+          "portrait": "Myron (actif v. 480-440 av. J.-C.) est le sculpteur grec qui, le premier, a saisi le mouvement vivant dans le bronze. Son Discobole, lanceur de disque figé à l'instant de tension maximale, a résolu un problème que personne n'avait posé : représenter un corps en pleine action, équilibré et lisible.",
           "bio_longue": "Myron (Ve siècle av. J.-C.) est le sculpteur du mouvement. Son Discobole, connu seulement par des copies romaines (les bronzes grecs ont presque tous disparu), fige le lanceur de disque à l'instant de bascule, dans une torsion parfaitement équilibrée. Il résout le problème que les Égyptiens n'avaient jamais posé : représenter un corps vivant, en action, et non figé pour l'éternité.",
           "bio_sections": [
             {
-              "h": "Le sculpteur du mouvement",
-              "p": "Myron, au Ve siècle av. J.-C., est le premier à capter le mouvement vivant dans la sculpture."
+              "h": "L'époque : la première génération classique",
+              "p": "Myron est actif au début du Ve siècle av. J.-C., dans la première génération du classicisme grec, juste après l'art archaïque et ses figures raides et frontales. C'est le moment où la sculpture grecque apprend à donner vie et mouvement au corps humain, et Myron en est l'un des pionniers décisifs."
+            },
+            {
+              "h": "Le déclic : capter le mouvement",
+              "p": "Là où l'art archaïque figeait les corps dans des poses immobiles, Myron veut saisir l'action, le geste, l'effort. Il étudie le corps des athlètes en mouvement et cherche à fixer dans le bronze l'instant le plus expressif — un défi technique et conceptuel entièrement neuf."
             },
             {
               "h": "Le Discobole",
-              "p": "Son lanceur de disque, figé à l'instant de tension maximale, résout un problème que les Égyptiens n'avaient jamais posé : représenter un corps en pleine action, équilibré et lisible."
+              "p": "Son chef-d'œuvre, le Discobole (lanceur de disque), capte l'athlète figé à l'instant de tension maximale, juste avant le lancer : le corps tordu en spirale, le bras armé, l'équilibre suspendu. Tout le mouvement est contenu dans cet instant immobile, parfaitement lisible sous tous les angles. Une révolution."
+            },
+            {
+              "h": "Son moteur : l'instant suspendu",
+              "p": "Ce qui anime Myron, c'est la résolution d'un problème de représentation : comment suggérer le mouvement et l'effort dans une matière immobile ? Sa réponse — saisir l'instant culminant, l'équilibre instable juste avant l'action — fera école et marquera toute la sculpture à venir."
+            },
+            {
+              "h": "Le message : le corps athlétique idéalisé",
+              "p": "Comme tout l'art grec classique, Myron célèbre le corps athlétique, beau et maîtrisé, idéal de la cité. Son Discobole n'est pas un athlète particulier mais l'image idéale de l'effort et de l'équilibre humains, à la fois vrai et parfait."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Myron l'un des pionniers de la représentation du mouvement, étape décisive du classicisme grec. On ne connaît son œuvre que par des copies romaines (les originaux en bronze sont perdus), mais le Discobole reste l'une des images les plus célèbres de toute l'Antiquité."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Polyclète cherchait les proportions idéales et Phidias la majesté, Myron cherche le mouvement et l'instant. Son Discobole, étudié et copié sans fin, a résolu une question que les Égyptiens n'avaient jamais posée : faire vivre la pierre et le bronze. Une conquête fondatrice de l'art occidental."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Discobole",
+              "artiste": "Myron",
+              "annee": "v. 450 av. J.-C.",
+              "lieu": "copies romaines (Rome, Londres...)",
+              "wiki": "Discobolus",
+              "analyse": "Le lanceur de disque figé à l'instant de tension maximale, juste avant le lancer : corps tordu en spirale, bras armé, équilibre suspendu. Tout le mouvement contenu dans un instant immobile. La première grande conquête de l'action dans la sculpture."
             }
           ]
         },
@@ -8413,20 +8667,62 @@
           "dates": "~480-430 av.",
           "role": "",
           "wiki": "Phidias",
-          "portrait": "Sculptures du Parthénon, sommet du classicisme grec.",
+          "portrait": "Phidias (v. 490-430 av. J.-C.) est le plus grand sculpteur de la Grèce classique et le maître d'œuvre de l'Acropole d'Athènes. Directeur du programme de Périclès, créateur des statues colossales d'or et d'ivoire, il incarne le sommet de l'art classique : l'équilibre parfait entre l'observation du réel et l'idéal de beauté.",
           "bio_longue": "Phidias (vers 480-430 av. J.-C.) est le plus grand sculpteur de la Grèce classique et le maître d'œuvre du programme de Périclès sur l'Acropole d'Athènes. Il dirige le décor sculpté du Parthénon et réalise les colossales statues chryséléphantines (or et ivoire) d'Athéna et de Zeus, comptées parmi les merveilles du monde antique. Son art incarne l'équilibre suprême entre l'observation du réel et l'idéal de beauté — le classicisme même.",
           "bio_sections": [
             {
-              "h": "Le maître du classicisme",
-              "p": "Phidias est le plus grand sculpteur de la Grèce classique, maître d'œuvre du programme de Périclès sur l'Acropole d'Athènes."
+              "h": "L'Athènes de Périclès",
+              "p": "Phidias vit dans l'Athènes du Ve siècle av. J.-C., à l'apogée de sa puissance et de sa démocratie. Ami et conseiller de Périclès, le grand homme d'État, il est chargé du programme artistique le plus ambitieux de l'Antiquité : reconstruire et orner l'Acropole, ravagée par les Perses, pour en faire le symbole de la grandeur athénienne."
             },
             {
-              "h": "Le Parthénon",
-              "p": "Il dirige le décor sculpté du Parthénon et réalise les colossales statues d'or et d'ivoire d'Athéna et de Zeus, comptées parmi les merveilles du monde antique."
+              "h": "Le maître d'œuvre du Parthénon",
+              "p": "Phidias dirige le décor sculpté du Parthénon, temple d'Athéna : les frises, les métopes, les frontons, où dieux et hommes se mêlent dans un équilibre majestueux. Ce qu'il en reste — les marbres dispersés, notamment au British Museum — témoigne d'un sommet absolu de la sculpture occidentale."
             },
             {
-              "h": "L'équilibre suprême",
-              "p": "Son art incarne l'équilibre parfait entre l'observation du réel et l'idéal de beauté — le classicisme même."
+              "h": "Les statues colossales",
+              "p": "Phidias est célèbre pour ses statues chryséléphantines (or et ivoire) colossales : l'Athéna Parthénos, haute de douze mètres, dans le Parthénon, et surtout le Zeus d'Olympie, l'une des Sept Merveilles du monde antique. Ces dieux d'or, aujourd'hui perdus, émerveillaient l'Antiquité entière."
+            },
+            {
+              "h": "Son moteur : l'équilibre idéal",
+              "p": "Ce qui guide Phidias, c'est la recherche d'une beauté parfaite : ni le réalisme brut, ni l'idéalisation froide, mais leur équilibre — des corps vivants et nobles, des draperies qui révèlent le mouvement, une sérénité grave. C'est le classicisme même, le point d'équilibre de tout l'art grec."
+            },
+            {
+              "h": "Le message : la grandeur d'Athènes",
+              "p": "Par son art, Phidias célèbre la cité et ses dieux : il donne une forme visible à l'idéal athénien d'harmonie, de mesure et de civilisation. Mais sa proximité avec Périclès lui vaudra aussi des ennuis politiques : accusé, il finit, dit-on, ses jours en disgrâce ou en exil."
+            },
+            {
+              "h": "Pourquoi il est un sommet, selon les experts",
+              "p": "Les historiens font de Phidias l'incarnation du classicisme grec et l'un des plus grands sculpteurs de tous les temps, bien qu'on ne connaisse son œuvre que par les marbres du Parthénon et des copies. Gombrich souligne qu'il a atteint cet équilibre idéal entre nature et beauté qui deviendra la référence de tout l'art occidental."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Myron cherchait le mouvement et Polyclète les proportions, Phidias atteint la majesté sereine et l'équilibre parfait — le sommet du classicisme. Son influence, par le Parthénon et la statuaire, traverse toute l'histoire de l'art, jusqu'à la Renaissance et le néoclassicisme. Le nom même de classicisme renvoie à lui."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les sculptures du Parthénon",
+              "artiste": "Phidias",
+              "annee": "447-432 av. J.-C.",
+              "lieu": "British Museum / Acropole, Athènes",
+              "wiki": "Parthenon",
+              "analyse": "Frises, métopes et frontons du temple d'Athéna, dirigés par Phidias : dieux et cavaliers dans un équilibre majestueux, draperies qui révèlent le mouvement des corps. Le sommet absolu de la sculpture classique, malgré sa dispersion."
+            },
+            {
+              "titre": "L'Athéna Parthénos",
+              "artiste": "Phidias",
+              "annee": "v. 438 av. J.-C.",
+              "lieu": "perdue (connue par copies)",
+              "wiki": "Athena Parthenos",
+              "analyse": "Statue colossale (12 m) d'Athéna, en or et ivoire, qui se dressait dans le Parthénon. Disparue, connue par des copies et descriptions, elle émerveillait l'Antiquité : l'image même de la déesse protectrice d'Athènes."
+            },
+            {
+              "titre": "Le Zeus d'Olympie",
+              "artiste": "Phidias",
+              "annee": "v. 435 av. J.-C.",
+              "lieu": "perdu (Sept Merveilles)",
+              "wiki": "Statue of Zeus at Olympia",
+              "analyse": "Statue colossale du dieu trônant, en or et ivoire, dans le temple d'Olympie : l'une des Sept Merveilles du monde antique. Disparue depuis l'Antiquité tardive, elle incarnait la majesté suprême du roi des dieux."
             }
           ]
         },
@@ -8436,16 +8732,46 @@
           "dates": "Ve s. av.",
           "role": "",
           "wiki": "Polykleitos",
-          "portrait": "Théorise les proportions idéales du corps (le Canon, le Doryphore).",
+          "portrait": "Polyclète (actif v. 450-420 av. J.-C.) est le théoricien des proportions idéales du corps humain. Avec son Doryphore et son traité, le Canon, il a établi un système mathématique de la beauté — faisant de l'harmonie du corps une affaire de raison et de mesure, modèle pour des siècles.",
           "bio_longue": "Polyclète (Ve siècle av. J.-C.) est le théoricien du corps idéal. Dans son Doryphore (le « porteur de lance »), il applique un canon — un système précis de proportions — qu'il expose aussi dans un traité écrit. Pour lui, la beauté n'est pas une intuition mais un équilibre mesurable, un rapport juste entre les parties. C'est la naissance de l'idée que l'art peut reposer sur des règles rationnelles.",
           "bio_sections": [
             {
-              "h": "Le théoricien du corps",
-              "p": "Polyclète, contemporain de Phidias, est le théoricien des proportions idéales du corps humain."
+              "h": "L'époque : le grand classicisme",
+              "p": "Contemporain de Phidias, Polyclète est actif dans la seconde moitié du Ve siècle av. J.-C., à l'apogée du classicisme grec. Originaire d'Argos, spécialiste du bronze, il se consacre surtout à la figure de l'athlète masculin, qu'il porte à un degré de perfection théorique inédit."
             },
             {
-              "h": "Le canon",
-              "p": "Dans son Doryphore, il applique un système précis de rapports, qu'il expose aussi dans un traité écrit : la beauté devient un équilibre mesurable, une affaire de raison."
+              "h": "Le déclic : chercher la règle de la beauté",
+              "p": "Polyclète se pose une question de savant : existe-t-il des proportions parfaites du corps humain ? Il cherche un système de rapports — entre la tête et le corps, les membres entre eux — qui produirait une beauté idéale et démontrable. La beauté devient pour lui une affaire de nombre et de mesure."
+            },
+            {
+              "h": "Le Doryphore et le Canon",
+              "p": "Il applique son système dans une statue, le Doryphore (le porteur de lance), conçue comme la démonstration de ses proportions idéales, et l'expose dans un traité écrit, le Canon. Statue et livre portent le même nom : ensemble, ils font de la beauté une règle transmissible, étudiée par tous les artistes."
+            },
+            {
+              "h": "Son moteur : la raison et la mesure",
+              "p": "Ce qui guide Polyclète, c'est l'idée que la beauté n'est pas un hasard mais une harmonie mesurable, un équilibre de rapports. Son Doryphore équilibre aussi le repos et le mouvement (une jambe tendue, l'autre fléchie : le contrapposto), inventant une pose naturelle et équilibrée qui deviendra un fondement de la statuaire."
+            },
+            {
+              "h": "Le message : l'homme à la mesure du monde",
+              "p": "À travers son canon, Polyclète exprime l'idéal grec : l'homme comme mesure de toute chose, le corps comme reflet de l'ordre rationnel du cosmos. La beauté du Doryphore n'est pas individuelle mais universelle, fondée sur la raison."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Polyclète le théoricien fondateur des proportions et de l'idéal classique du corps. Son Canon et son contrapposto ont marqué toute la sculpture occidentale, jusqu'à la Renaissance (l'Homme de Vitruve de Léonard en descend). On ne connaît son œuvre que par des copies, mais son influence est immense."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Myron cherche le mouvement et Phidias la majesté divine, Polyclète cherche la règle, le système, la proportion parfaite de l'homme. Son approche théorique et mathématique de la beauté est unique dans l'Antiquité, et fait de lui l'ancêtre lointain de toutes les recherches sur le canon du corps."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Doryphore (le porteur de lance)",
+              "artiste": "Polyclète",
+              "annee": "v. 440 av. J.-C.",
+              "lieu": "copies romaines (Naples...)",
+              "wiki": "Doryphoros",
+              "analyse": "Un athlète marchant, lance à l'épaule, conçu comme la démonstration des proportions idéales du corps (le « Canon »). Une jambe porte, l'autre se détend (contrapposto), équilibre parfait du repos et du mouvement. La beauté faite système, modèle pour des siècles."
             }
           ]
         }
@@ -8593,20 +8919,54 @@
           "dates": "IVe s. av.",
           "role": "",
           "wiki": "Praxiteles",
-          "portrait": "La grâce, la sensualité, le nu féminin.",
+          "portrait": "Praxitèle (actif v. 375-330 av. J.-C.) est le sculpteur de la grâce, celui qui a assoupli l'idéal sévère du classicisme en une beauté plus douce, sensuelle et humaine. Avec son Aphrodite de Cnide, premier grand nu féminin de l'histoire, il a ouvert la voie de la sensibilité hellénistique.",
           "bio_longue": "Praxitèle (IVe siècle av. J.-C.) est le sculpteur de la grâce. Il assouplit le corps héroïque du Ve siècle, lui donne des poses alanguies, sensuelles, et ose le premier grand nu féminin (l'Aphrodite de Cnide, scandale et merveille de l'Antiquité). Sa douceur, son modelé fondu marquent le passage de l'idéal sévère du classicisme à la sensibilité plus humaine et charmeuse de l'âge hellénistique.",
           "bio_sections": [
             {
-              "h": "Le sculpteur de la grâce",
-              "p": "Praxitèle, au IVe siècle av. J.-C., assouplit le corps héroïque du classicisme : poses alanguies, courbe en S, modelé fondu."
+              "h": "L'époque : après le grand classicisme",
+              "p": "Praxitèle est actif au IVe siècle av. J.-C., à Athènes, une génération après Phidias et Polyclète. L'idéal sévère et majestueux du Ve siècle s'assouplit ; la sculpture cherche plus de douceur, de grâce, d'humanité. Praxitèle est le grand maître de cette inflexion vers la sensibilité."
             },
             {
-              "h": "Le premier grand nu féminin",
-              "p": "Son Aphrodite de Cnide, premier grand nu féminin de l'histoire, fut à la fois scandale et merveille de l'Antiquité."
+              "h": "Le déclic : la douceur et la courbe",
+              "p": "Praxitèle abandonne la rigueur héroïque pour une grâce alanguie : poses nonchalantes, hanche déhanchée en courbe souple (la fameuse « courbe praxitélienne » en S), modelé fondu et doux, expressions rêveuses. Ses dieux deviennent plus humains, plus tendres, plus proches."
             },
             {
-              "h": "Vers l'hellénistique",
-              "p": "Sa douceur sensuelle marque le passage de l'idéal sévère du Ve siècle à la sensibilité plus humaine de l'âge hellénistique."
+              "h": "L'Aphrodite de Cnide",
+              "p": "Son œuvre la plus célèbre, l'Aphrodite de Cnide, est le premier grand nu féminin de l'histoire de l'art : la déesse surprise au bain, nue, d'une beauté à la fois pudique et sensuelle. Scandale et merveille de l'Antiquité, elle attirait les voyageurs et fit de la nudité féminine un sujet noble de la sculpture."
+            },
+            {
+              "h": "Son moteur : la grâce sensuelle",
+              "p": "Ce qui guide Praxitèle, c'est la recherche d'une beauté gracieuse et sensuelle, plus humaine que divine. Il aime le marbre, qu'il polit jusqu'à imiter la douceur de la peau, et les poses alanguies qui expriment l'abandon et la grâce. La sévérité fait place au charme."
+            },
+            {
+              "h": "Le message : l'humanisation du divin",
+              "p": "Avec Praxitèle, les dieux descendent de leur majesté : son Hermès portant l'enfant Dionysos est un jeune homme rêveur et tendre, presque familier. La sculpture exprime désormais des sentiments doux, une intimité, une beauté à hauteur d'homme — annonçant la sensibilité de l'âge hellénistique."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Praxitèle l'un des plus grands sculpteurs grecs et le maître de la transition vers l'hellénistique. Son Aphrodite de Cnide a fondé toute la tradition du nu féminin. Gombrich souligne son apport décisif : avoir assoupli l'idéal classique en une grâce sensuelle et humaine."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Phidias et Polyclète visaient la majesté et la rigueur, Praxitèle vise la grâce, la douceur et la sensualité. Il humanise les dieux et invente le grand nu féminin. Sa « courbe » souple et son modelé fondu marquent le passage de l'idéal sévère à la sensibilité plus tendre des siècles suivants."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Aphrodite de Cnide",
+              "artiste": "Praxitèle",
+              "annee": "v. 360 av. J.-C.",
+              "lieu": "copies romaines (Vatican...)",
+              "wiki": "Aphrodite of Knidos",
+              "analyse": "Premier grand nu féminin de l'histoire : la déesse surprise au bain, nue, d'une beauté à la fois pudique et sensuelle. Scandale et merveille de l'Antiquité, elle fonda toute la tradition du nu féminin dans l'art occidental."
+            },
+            {
+              "titre": "Hermès portant Dionysos enfant",
+              "artiste": "Praxitèle",
+              "annee": "v. 340 av. J.-C.",
+              "lieu": "Musée d'Olympie",
+              "wiki": "Hermes and the Infant Dionysus",
+              "analyse": "Un Hermès jeune et rêveur, déhanché en courbe souple, joue avec l'enfant Dionysos qu'il porte. Marbre poli comme une peau douce, expression tendre : l'humanisation des dieux et la grâce praxitélienne incarnées."
             }
           ]
         },
@@ -8616,16 +8976,54 @@
           "dates": "IVe s. av.",
           "role": "",
           "wiki": "Lysippos",
-          "portrait": "Sculpteur d'Alexandre, nouvelles proportions plus élancées.",
+          "portrait": "Lysippe (actif v. 370-310 av. J.-C.) est le grand sculpteur de la fin du classicisme et le portraitiste attitré d'Alexandre le Grand. En affinant les proportions du corps et en multipliant les points de vue, il a renouvelé la statuaire et accompagné, avec les conquêtes d'Alexandre, la diffusion de l'idéal grec dans le monde.",
           "bio_longue": "Lysippe (IVe siècle av. J.-C.) fut le sculpteur attitré d'Alexandre le Grand — le seul autorisé, dit-on, à faire son portrait. Il renouvelle le canon de Polyclète en allongeant les proportions, en affinant les corps, et en multipliant les points de vue, donnant à ses figures plus d'élan et de naturel. Son art accompagne et diffuse, avec les conquêtes d'Alexandre, l'idéal grec dans tout le monde antique.",
           "bio_sections": [
             {
-              "h": "Le sculpteur d'Alexandre",
-              "p": "Lysippe fut le sculpteur attitré d'Alexandre le Grand — le seul, dit-on, autorisé à faire son portrait."
+              "h": "L'époque : le temps d'Alexandre",
+              "p": "Lysippe est actif au IVe siècle av. J.-C., à l'époque de Philippe et d'Alexandre de Macédoine. Sculpteur d'une fécondité prodigieuse (on lui prête des centaines d'œuvres en bronze), il vit le moment où le monde grec, par les conquêtes d'Alexandre, s'étend de l'Égypte à l'Inde — et où son art va rayonner partout."
             },
             {
-              "h": "Les nouvelles proportions",
-              "p": "Il renouvelle le canon en allongeant les corps, en les affinant, et en multipliant les points de vue. Son art accompagne, avec les conquêtes d'Alexandre, la diffusion de l'idéal grec dans tout le monde antique."
+              "h": "Le déclic : de nouvelles proportions",
+              "p": "Lysippe renouvelle le canon de Polyclète : il allonge les corps, affine les membres, réduit la tête, pour donner des figures plus élancées, plus élégantes et plus vivantes. Il cherche aussi à rendre les statues intéressantes sous tous les angles, invitant le spectateur à en faire le tour."
+            },
+            {
+              "h": "Le sculpteur d'Alexandre",
+              "p": "Lysippe est, dit-on, le seul sculpteur autorisé à faire le portrait d'Alexandre le Grand, dont il fixe l'image idéalisée : le regard levé, la chevelure en mouvement, l'allure héroïque et inspirée. Cette image officielle du conquérant se diffusera dans tout l'empire et marquera le portrait du souverain pour des siècles."
+            },
+            {
+              "h": "Son moteur : l'élégance et le mouvement",
+              "p": "Ce qui anime Lysippe, c'est la recherche d'une grâce élancée et d'une présence dans l'espace : ses figures, comme l'Apoxyomène (l'athlète se raclant la peau), tendent les bras vers l'avant, occupent l'espace, appellent le tour du spectateur. Le bronze devient mouvement et élégance."
+            },
+            {
+              "h": "Le message : la diffusion de l'idéal grec",
+              "p": "Sculpteur officiel d'Alexandre, Lysippe accompagne l'expansion de l'hellénisme : son art, ses proportions, son image du souverain idéal voyagent avec les conquêtes jusqu'aux confins du monde connu, fondant l'art hellénistique qui rayonnera de la Méditerranée à l'Asie."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Lysippe le dernier grand maître du classicisme et l'inventeur d'un nouveau canon, plus élancé, qui marquera l'art hellénistique. On ne connaît son œuvre que par des copies, mais son image d'Alexandre et ses proportions ont eu une influence considérable et durable."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Polyclète établissait des proportions trapues et équilibrées, Lysippe allonge et affine, et ouvre la statue à l'espace et au mouvement. Portraitiste d'Alexandre, passeur de l'idéal grec dans tout l'empire, il fait le pont entre le classicisme et l'âge hellénistique, plus dynamique et plus expressif."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Apoxyomène (l'athlète au strigile)",
+              "artiste": "Lysippe",
+              "annee": "v. 330 av. J.-C.",
+              "lieu": "copies romaines (Vatican...)",
+              "wiki": "Apoxyomenos",
+              "analyse": "Un athlète se racle la peau avec un strigile après l'effort, le bras tendu vers l'avant dans l'espace du spectateur. Corps élancé, tête plus petite : le nouveau canon de Lysippe, plus svelte et plus dynamique que celui de Polyclète."
+            },
+            {
+              "titre": "L'Hercule Farnèse (d'après Lysippe)",
+              "artiste": "Lysippe",
+              "annee": "copie du IIIe s. ap. J.-C.",
+              "lieu": "Musée de Capodimonte, Naples",
+              "wiki": "Farnese Hercules",
+              "analyse": "Hercule épuisé après ses travaux, appuyé sur sa massue, musculature colossale et lassitude pesante. Copie romaine monumentale d'un original de Lysippe : la puissance héroïque et la fatigue du héros, étudiées par Michel-Ange à la Renaissance."
             }
           ]
         },
