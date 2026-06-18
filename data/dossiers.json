@@ -1346,19 +1346,53 @@
           "role": "",
           "wiki": "Rogier van der Weyden",
           "groupe": "Renaissance du Nord — le détail",
-          "portrait": "Le maître flamand de l'émotion. Sa Descente de croix, aux figures alignées comme un bas-relief douloureux, atteint une intensité de chagrin que peu d'œuvres égalent.",
+          "portrait": "Rogier van der Weyden (v. 1400-1464) est, après Van Eyck, le plus grand maître flamand du XVe siècle — mais là où Van Eyck montre le monde visible, lui montre la douleur de l'âme. Maître de l'émotion religieuse, il a porté l'expression du chagrin et de la compassion à une intensité jamais atteinte.",
           "bio_sections": [
             {
-              "h": "Le maître de l'émotion",
-              "p": "Rogier van der Weyden est, après Van Eyck, le grand maître flamand — mais là où Van Eyck montre le monde, lui montre la douleur."
+              "h": "Les origines : Tournai et Bruxelles",
+              "p": "Né vers 1400 à Tournai, Rogier de la Pasture (qu'on flamandise en van der Weyden) se forme dans l'atelier de Robert Campin, l'un des fondateurs de la peinture flamande. Il devient ensuite le peintre officiel de la ville de Bruxelles, position prestigieuse, et connaît de son vivant une renommée européenne immense, jusqu'en Italie."
+            },
+            {
+              "h": "Le déclic : peindre l'émotion",
+              "p": "Là où Van Eyck, son aîné, vise la perfection optique et la description du réel, Van der Weyden fait un autre choix : exprimer l'émotion, surtout la douleur et la compassion. Ses personnages pleurent, souffrent, prient avec une intensité de sentiment qui touche directement le cœur du fidèle. C'est une peinture de l'âme plus que de l'œil."
             },
             {
               "h": "La Descente de croix",
-              "p": "Ses figures alignées comme un bas-relief douloureux, aux visages ravagés de chagrin, atteignent une intensité émotionnelle que peu d'œuvres égalent."
+              "p": "Son chef-d'œuvre, la Descente de croix, aligne les figures comme un bas-relief douloureux, dans un espace doré peu profond : le corps du Christ et celui de la Vierge évanouie épousent la même courbe brisée. Chaque visage est ravagé d'un chagrin différent, chaque larme rendue avec une précision bouleversante. Un sommet de l'émotion peinte."
             },
             {
-              "h": "L'influence du Nord",
-              "p": "Très copié et diffusé, il marque profondément la peinture religieuse de toute l'Europe du Nord."
+              "h": "Son moteur : la compassion et la dévotion",
+              "p": "Ce qui anime Van der Weyden, c'est la ferveur religieuse et la volonté d'émouvoir : il veut que le spectateur partage la douleur de la Passion, compatisse, prie. Sa maîtrise du geste, du visage et de la larme met une technique flamande parfaite au service d'une intensité spirituelle."
+            },
+            {
+              "h": "Le message : la douleur partagée",
+              "p": "Chez Van der Weyden, la souffrance du Christ et de la Vierge devient celle de tout être humain : il rend le drame sacré universellement émouvant. Ses portraits, eux, captent une intériorité grave et recueillie. Toute son œuvre est tournée vers l'émotion, la prière, la communion des cœurs."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Van der Weyden, avec Van Eyck, l'un des deux piliers de la peinture flamande, et le maître de l'expression émotionnelle. Très copié et diffusé, il a marqué toute la peinture religieuse de l'Europe du Nord. Gombrich souligne qu'il a ajouté à la perfection technique flamande une intensité de sentiment nouvelle."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Van Eyck déploie le monde visible dans toute sa richesse, Van der Weyden resserre tout sur l'émotion humaine et la douleur. L'un est le peintre de l'œil, l'autre du cœur. Cette puissance émotionnelle, sa composition en frise et son influence immense sur l'Europe du Nord en font une figure aussi essentielle que Van Eyck."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Portrait de femme",
+              "artiste": "Van der Weyden",
+              "annee": "v. 1460",
+              "lieu": "National Gallery of Art, Washington",
+              "wiki": "Portrait of a Lady (van der Weyden)",
+              "analyse": "Une jeune femme au front haut, en coiffe blanche, les mains jointes, le regard baissé dans un recueillement grave. Sobriété, élégance des lignes et intériorité silencieuse : l'un des plus beaux portraits féminins de toute la peinture flamande."
+            },
+            {
+              "titre": "Triptyque Braque",
+              "artiste": "Van der Weyden",
+              "annee": "v. 1452",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Braque Triptych",
+              "analyse": "Le Christ entre la Vierge, saint Jean et Marie-Madeleine, en buste sur fond de paysage, avec des inscriptions sur la vanité de la vie. Gravité, recueillement et émotion contenue : la spiritualité intense de Van der Weyden dans un format intime de dévotion."
             }
           ]
         },
@@ -1572,19 +1606,69 @@
           "role": "",
           "wiki": "Antonio da Correggio",
           "groupe": "École de Venise — la couleur",
-          "portrait": "Antonio Allegri, dit Le Corrège, travaille à Parme, loin des grands centres, et invente pourtant l'avenir. Ses coupoles peintes en trompe-l'œil — comme l'Assomption de la cathédrale de Parme, où les figures semblent monter au ciel au-dessus du spectateur — et la douceur sensuelle de son sfumato annoncent directement le Baroque et le Rococo, près d'un siècle en avance.",
+          "portrait": "Antonio Allegri, dit Le Corrège (v. 1489-1534), est le génie de Parme, un solitaire qui, loin des grands centres, a inventé l'avenir. Maître de la douceur sensuelle et des coupoles en trompe-l'œil où les figures s'envolent, il annonce, près d'un siècle à l'avance, le Baroque et le Rococo.",
           "bio_sections": [
             {
-              "h": "Le génie de Parme",
-              "p": "Antonio Allegri, dit Le Corrège, travaille à Parme, loin des grands centres, et invente pourtant l'avenir."
+              "h": "Les origines : Parme, à l'écart",
+              "p": "Né vers 1489 à Correggio, petite ville d'où il tire son nom, le Corrège travaille surtout à Parme, loin de Rome, Florence et Venise. Cet isolement relatif des grands foyers de l'art en fait un original : il assimile les leçons de Léonard (le sfumato), de Mantegna et de Raphaël, mais développe une manière entièrement personnelle."
+            },
+            {
+              "h": "Le déclic : la douceur et le mouvement",
+              "p": "Le Corrège pousse le sfumato de Léonard vers une douceur extrême : contours fondus, lumière caressante, chairs sensuelles. Mais il y ajoute le mouvement, l'élan, le raccourci audacieux. Ses figures ne posent pas : elles s'envolent, se penchent, tourbillonnent dans l'espace avec une grâce nouvelle."
             },
             {
               "h": "Les coupoles qui s'ouvrent",
-              "p": "Ses coupoles peintes en trompe-l'œil (l'Assomption de la cathédrale de Parme), où les figures semblent monter au ciel au-dessus du spectateur, sont une prouesse inouïe."
+              "p": "Son audace la plus géniale : les coupoles peintes en trompe-l'œil. À la cathédrale de Parme, son Assomption fait monter au ciel un tourbillon vertigineux de figures et de nuées, vu en raccourci depuis le sol, comme si la voûte s'ouvrait sur l'infini. Personne n'avait osé une telle illusion ascensionnelle."
             },
             {
-              "h": "L'annonce du Baroque",
-              "p": "La douceur sensuelle de son sfumato et ses audaces illusionnistes annoncent directement le Baroque et le Rococo, près d'un siècle en avance."
+              "h": "Son moteur : la sensualité et l'illusion",
+              "p": "Ce qui anime le Corrège, c'est la recherche de la grâce sensuelle et de l'illusion aérienne. Ses mythologies (Jupiter et Io, Danaé) sont d'une sensualité fondue et délicate ; ses scènes religieuses, baignées d'une lumière douce et mouvante. Il invente une peinture du charme, de la tendresse et de l'envol."
+            },
+            {
+              "h": "Le message : annoncer deux siècles d'avance",
+              "p": "Le Corrège est un précurseur stupéfiant : son illusionnisme de coupole annonce les plafonds baroques du XVIIe siècle (le Bernin, Gaulli, Tiepolo) ; sa douceur sensuelle, le Rococo du XVIIIe. Travaillant seul à Parme, il a inventé, avant l'heure, des voies que l'art mettra des générations à rejoindre."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Longtemps un peu négligé, le Corrège est reconnu comme un génie en avance sur son temps. Gombrich souligne que ses coupoles illusionnistes et sa douceur fondue ont ouvert la voie au Baroque et au Rococo. Les peintres du XVIIIe (Boucher, Tiepolo) le vénéreront comme un maître de la grâce."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où la Haute Renaissance cherche l'équilibre stable, le Corrège cherche déjà le mouvement, l'envol, la sensualité fondue — il est un baroque avant le Baroque. Son isolement à Parme, loin des écoles, lui a permis cette liberté d'invention. Un précurseur solitaire, dont la modernité n'a été pleinement comprise que bien plus tard."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Assomption de la Vierge",
+              "artiste": "Corrège",
+              "annee": "1526-1530",
+              "lieu": "Cathédrale de Parme",
+              "wiki": "Assumption of the Virgin (Correggio)",
+              "analyse": "Coupole peinte en trompe-l'œil : un tourbillon vertigineux de figures et de nuées monte vers le ciel, vu en raccourci depuis le sol, comme si la voûte s'ouvrait sur l'infini. Une audace illusionniste qui annonce, d'un siècle, les grands plafonds baroques."
+            },
+            {
+              "titre": "Danaé",
+              "artiste": "Corrège",
+              "annee": "v. 1531",
+              "lieu": "Galerie Borghèse, Rome",
+              "wiki": "Danaë (Correggio)",
+              "analyse": "Danaé reçoit Jupiter changé en pluie d'or, dans une scène d'une sensualité fondue et délicate, chairs douces baignées de lumière caressante. L'une des mythologies amoureuses où le Corrège invente une grâce sensuelle qui annonce le Rococo."
+            },
+            {
+              "titre": "Jupiter et Io",
+              "artiste": "Corrège",
+              "annee": "v. 1530",
+              "lieu": "Kunsthistorisches Museum, Vienne",
+              "wiki": "Jupiter and Io (Correggio)",
+              "analyse": "La nymphe Io, pâmée, est enlacée par Jupiter dissimulé dans une nuée sombre dont émerge à peine un visage. Sensualité extatique et sfumato fondu : un sommet de la peinture érotique de la Renaissance, d'une audace et d'une douceur rares."
+            },
+            {
+              "titre": "La Nuit (Adoration des bergers)",
+              "artiste": "Corrège",
+              "annee": "1525-1530",
+              "lieu": "Gemäldegalerie, Dresde",
+              "wiki": "Holy Night (Correggio)",
+              "analyse": "L'Enfant Jésus rayonne d'une lumière surnaturelle qui illumine, dans la nuit, le visage émerveillé de la mère et des bergers. L'un des premiers grands nocturnes : la lumière jaillit de l'Enfant lui-même, effet qui inspirera tout le Baroque."
             }
           ]
         }
@@ -2723,19 +2807,53 @@
           "dates": "1560-1609",
           "role": "",
           "wiki": "Annibale Carracci",
-          "portrait": "Voie classique et noble du baroque (galerie Farnèse).",
+          "portrait": "Annibal Carrache (1560-1609) est, avec le Caravage, l'un des deux fondateurs de la peinture baroque — mais sur la voie opposée. Là où le Caravage choque par le réalisme, Carrache régénère l'art par l'étude de la nature et des maîtres, et invente une grande peinture idéale et classique qui dominera Rome.",
           "bio_sections": [
             {
-              "h": "Le réformateur de Bologne",
-              "p": "Annibal Carrache, avec sa famille, fonde à Bologne une académie pour régénérer la peinture par l'étude de la nature et des grands maîtres."
+              "h": "L'enfance : Bologne et la famille Carrache",
+              "p": "Né en 1560 à Bologne, Annibal appartient à une famille de peintres : avec son frère Agostino et son cousin Ludovic, il forme le clan des Carrache. Dans cette ville d'université, ils fondent ensemble une académie pour réformer la peinture, alors épuisée par les excès du maniérisme tardif."
+            },
+            {
+              "h": "Le déclic : régénérer l'art",
+              "p": "Le constat des Carrache : la peinture maniériste est devenue artificielle, maniérée, coupée du réel. Leur remède : revenir à l'étude directe de la nature et à celle des grands maîtres (Raphaël, Michel-Ange, Titien, Corrège), pour retrouver une peinture saine, équilibrée et noble. Leur académie enseigne le dessin d'après le modèle vivant."
             },
             {
               "h": "La galerie Farnèse",
-              "p": "Son plafond du palais Farnèse à Rome, foisonnant d'amours mythologiques, devient un modèle de la grande décoration baroque, étudié par tous."
+              "p": "Appelé à Rome, Annibal réalise son chef-d'œuvre : le plafond de la galerie du palais Farnèse, foisonnant d'amours mythologiques des dieux, dans un décor en trompe-l'œil d'une invention et d'une vitalité éblouissantes. Cette fresque devient un modèle étudié par tous les peintres, jusqu'à des générations plus tard."
             },
             {
-              "h": "Les deux voies du Baroque",
-              "p": "Face au réalisme brutal du Caravage, il incarne la voie idéale et classique : ensemble, les deux ouvrent tout le XVIIe siècle."
+              "h": "Son moteur : la synthèse idéale",
+              "p": "Annibal Carrache cherche une synthèse : la solidité de Michel-Ange, la grâce de Raphaël, la couleur de Titien et du Corrège, et l'observation de la nature. De ce mélange savant naît un style noble, vigoureux et équilibré — le grand style classique-baroque qui inspirera tout le XVIIe siècle romain."
+            },
+            {
+              "h": "Le message : les deux voies du Baroque",
+              "p": "Avec le Caravage, Annibal ouvre le Baroque, mais sur l'autre versant : non le réalisme cru et ténébreux, mais l'idéal, la composition grandiose, la couleur lumineuse. Ces deux voies — caravagesque et classique — vont structurer toute la peinture du siècle, et celle de Carrache donnera naissance à la lignée de Reni, du Dominiquin, puis de Poussin."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font d'Annibal Carrache l'un des deux pères du Baroque et le restaurateur de la grande peinture après la crise maniériste. Gombrich souligne que son académie et son plafond Farnèse ont fixé le modèle de l'art classique-idéal qui dominera Rome et nourrira Poussin et tout le classicisme français."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Face au génie révolté et solitaire du Caravage, Carrache incarne l'art savant, enseignable, fondé sur l'étude. L'un casse, l'autre régénère. Mort relativement jeune et déprimé après l'épuisant chantier Farnèse, il laisse pourtant l'une des deux fondations sur lesquelles se construira tout le siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Mangeur de fèves",
+              "artiste": "Carrache",
+              "annee": "v. 1585",
+              "lieu": "Galerie Colonna, Rome",
+              "wiki": "The Bean Eater",
+              "analyse": "Un paysan, surpris en train de manger ses fèves, cuillère levée, regarde le spectateur. Réalisme direct et populaire, sans idéalisation : preuve que Carrache, avant son grand style romain, savait aussi observer la vie ordinaire avec une franchise saisissante."
+            },
+            {
+              "titre": "Pietà",
+              "artiste": "Carrache",
+              "annee": "v. 1600",
+              "lieu": "Musée de Capodimonte, Naples",
+              "wiki": "Pietà (Annibale Carracci)",
+              "analyse": "La Vierge soutient le corps du Christ mort, entourée d'angelots éplorés. Composition équilibrée, douleur noble et contenue, couleur chaude héritée du Corrège : le grand style classique-baroque de Carrache au service de l'émotion religieuse."
             }
           ]
         },
@@ -3998,16 +4116,46 @@
           "dates": "1639-1709",
           "role": "",
           "wiki": "Giovanni Battista Gaulli",
-          "portrait": "Maître de l'illusion de plafond (Gesù).",
+          "portrait": "Giovanni Battista Gaulli, dit Le Baciccio (1639-1709), est le maître de l'illusion de plafond baroque, protégé du Bernin. Son chef-d'œuvre, la voûte du Gesù à Rome, où peinture, stuc et architecture se confondent dans un débordement de lumière, est l'un des sommets de l'art illusionniste.",
           "bio_longue": "Giovanni Battista Gaulli, dit Baciccio (1639-1709), est le maître de l'illusion de plafond. Protégé du Bernin, il réalise au Gesù de Rome le Triomphe du nom de Jésus, sommet du trompe-l'œil baroque où peinture, stuc et architecture se confondent pour faire éclater la voûte vers le ciel.",
           "bio_sections": [
             {
-              "h": "Le maître du trompe-l'œil",
-              "p": "Giovanni Battista Gaulli, dit Baciccio, protégé du Bernin, est le maître de l'illusion de plafond."
+              "h": "L'enfance : Gênes et la peste",
+              "p": "Né en 1639 à Gênes, Gaulli perd toute sa famille dans l'épidémie de peste de 1657 et part, seul, tenter sa chance à Rome. Cette arrivée dans la Ville éternelle, jeune et démuni, le met sur le chemin du Bernin, alors maître tout-puissant de l'art romain, qui va lancer sa carrière."
+            },
+            {
+              "h": "Le déclic : la protection du Bernin",
+              "p": "Le Bernin remarque le talent du jeune Gaulli et le prend sous son aile, lui obtenant des commandes prestigieuses. De son protecteur, Gaulli absorbe le sens du spectacle total, de la fusion des arts et de l'émotion dramatique. Il devient l'un des grands décorateurs de la Rome baroque triomphante."
             },
             {
               "h": "Le plafond du Gesù",
-              "p": "Au Gesù de Rome, il réalise un Triomphe du nom de Jésus où la voûte semble se déchirer : peinture, stuc et architecture se confondent, et l'œil ne distingue plus le peint du réel."
+              "p": "Son chef-d'œuvre est la voûte de l'église du Gesù, le Triomphe du Nom de Jésus : la voûte semble se déchirer, le ciel s'ouvre, les élus montent vers la lumière divine tandis que les damnés débordent du cadre et semblent tomber dans l'église même. Peinture, stuc doré et architecture se confondent : l'œil ne distingue plus le peint du réel."
+            },
+            {
+              "h": "Son moteur : l'illusion et l'extase",
+              "p": "Ce qui anime Gaulli, c'est l'illusionnisme total au service de la ferveur : faire croire au spectateur que le ciel s'ouvre vraiment au-dessus de lui, l'emporter dans une vision extatique. Lumière éblouissante, mouvement ascensionnel, débordement du cadre : tout vise l'émerveillement et l'élan spirituel."
+            },
+            {
+              "h": "Le message : le triomphe de la foi",
+              "p": "Au service de la Contre-Réforme et des jésuites, Gaulli met son art au service du triomphe de l'Église : la gloire du Nom de Jésus, l'ascension des élus, l'écrasement du mal. Son plafond est une machine à convertir et à émerveiller, une apothéose visuelle de la puissance et de la lumière divines."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Gaulli l'un des grands maîtres de l'illusionnisme de plafond baroque, aux côtés de Pozzo. Gombrich souligne que son plafond du Gesù pousse à l'extrême la fusion de la peinture, de la sculpture et de l'architecture, réalisant le rêve baroque de l'œuvre d'art totale et spectaculaire."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Héritier direct du Bernin en peinture, Gaulli porte l'illusion de plafond à un point où la frontière entre le réel et le peint disparaît. Là où le Corrège avait amorcé l'idée, lui la pousse jusqu'au vertige. Son Gesù reste l'une des expériences visuelles les plus saisissantes de tout le Baroque romain."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Triomphe du Nom de Jésus",
+              "artiste": "Gaulli",
+              "annee": "1672-1685",
+              "lieu": "Église du Gesù, Rome",
+              "wiki": "Triumph of the Name of Jesus",
+              "analyse": "La voûte du Gesù semble se déchirer : le ciel s'ouvre dans une lumière éblouissante où montent les élus, tandis que les damnés débordent du cadre et paraissent tomber dans l'église. Peinture, stuc doré et architecture confondus : l'illusionnisme baroque à son comble."
             }
           ]
         },
@@ -5851,19 +5999,69 @@
           "dates": "~1850",
           "role": "Angleterre",
           "wiki": "Pre-Raphaelite Brotherhood",
-          "portrait": "Rossetti, Millais : retour au Moyen Âge idéalisé.",
+          "portrait": "Les Préraphaélites sont une confrérie de jeunes peintres anglais (Rossetti, Millais, Hunt), fondée en 1848, qui voulurent rompre avec l'académisme et retrouver la fraîcheur, la couleur et la sincérité des peintres d'avant Raphaël. Leur art, à la fois archaïsant et intense, a marqué durablement la culture anglaise.",
           "bio_sections": [
             {
-              "h": "Le retour à l'avant-Raphaël",
-              "p": "Les Préraphaélites, jeunes Anglais (Rossetti, Millais, Hunt), veulent rompre avec l'académisme et retrouver la fraîcheur des peintres d'avant Raphaël."
+              "h": "La naissance d'une confrérie",
+              "p": "En 1848, à Londres, trois jeunes artistes — Dante Gabriel Rossetti, John Everett Millais et William Holman Hunt — fondent secrètement la « Confrérie préraphaélite ». Révoltés contre l'enseignement académique de la Royal Academy, qu'ils jugent figé et conventionnel, ils signent leurs œuvres des initiales mystérieuses « PRB »."
             },
             {
-              "h": "Couleur et détail",
-              "p": "Couleurs vives, détail botanique minutieux, sujets médiévaux, bibliques ou littéraires (l'Ophélie de Millais) : une beauté à la fois archaïque et intense."
+              "h": "Le déclic : avant Raphaël",
+              "p": "Leur idée : l'art aurait pris une mauvaise pente depuis Raphaël, vers l'idéalisation et la facilité. Il faut donc revenir à la sincérité, à la fraîcheur et au détail minutieux des primitifs italiens et flamands d'avant lui. D'où leur nom : « pré-raphaélites », c'est-à-dire fidèles à l'esprit d'avant Raphaël."
             },
             {
-              "h": "Le pont vers les arts décoratifs",
-              "p": "Leur idéal nourrira le mouvement Arts and Crafts de William Morris et tout le renouveau décoratif anglais."
+              "h": "Couleur, détail et nature",
+              "p": "Leur peinture est reconnaissable : couleurs vives et lumineuses, détail botanique d'une précision extrême (chaque fleur, chaque brin d'herbe étudié sur le motif), sujets tirés de la Bible, du Moyen Âge, de Shakespeare ou de la poésie. L'Ophélie de Millais, noyée parmi les fleurs peintes une à une, en est l'exemple parfait."
+            },
+            {
+              "h": "Leur moteur : sincérité et beauté intense",
+              "p": "Ce qui anime les préraphaélites, c'est une quête de vérité et de beauté, à rebours des conventions : peindre fidèlement la nature, mais aussi exprimer des émotions, des symboles, une spiritualité ou une sensualité intenses. Rossetti, surtout, développe une beauté féminine rêveuse et mélancolique devenue une véritable icône."
+            },
+            {
+              "h": "Le message : entre Moyen Âge rêvé et morale",
+              "p": "Leurs sujets médiévaux et littéraires expriment une nostalgie d'un passé idéalisé, mais aussi des préoccupations morales contemporaines (La Conscience éveillée de Hunt évoque la rédemption d'une femme entretenue). Cet idéal nourrira ensuite le mouvement Arts and Crafts de William Morris et tout le renouveau décoratif anglais."
+            },
+            {
+              "h": "Pourquoi ils comptent, selon les experts",
+              "p": "Les historiens voient dans les préraphaélites le premier mouvement d'avant-garde moderne par son organisation et son manifeste, et une influence majeure sur l'art et le design anglais. Gombrich souligne leur sincérité et leur souci du détail, même s'il note la part de leur charme un peu littéraire et nostalgique."
+            },
+            {
+              "h": "Ce qui les différencie",
+              "p": "Pendant que la France invente l'impressionnisme et la peinture de la vie moderne, l'Angleterre, avec les préraphaélites, regarde vers le Moyen Âge, le symbole et le détail minutieux. Leur voie, archaïsante et poétique, est un cas singulier — qui a profondément marqué l'imaginaire et les arts décoratifs britanniques jusqu'à aujourd'hui."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Ophélie",
+              "artiste": "Préraphaélites",
+              "annee": "1851-1852",
+              "lieu": "Tate Britain, Londres",
+              "wiki": "Ophelia (painting)",
+              "analyse": "Par John Everett Millais : l'Ophélie de Shakespeare flotte, chantant, dans la rivière où elle se noie, parmi des fleurs et des herbes peintes une à une avec une précision botanique stupéfiante. Beauté, mort et nature minutieuse : l'icône même du préraphaélisme."
+            },
+            {
+              "titre": "Beata Beatrix",
+              "artiste": "Préraphaélites",
+              "annee": "v. 1864-1870",
+              "lieu": "Tate Britain, Londres",
+              "wiki": "Beata Beatrix",
+              "analyse": "Par Dante Gabriel Rossetti : la Béatrice de Dante, en transe extatique, les yeux clos, au seuil de la mort — hommage à l'épouse défunte du peintre. Beauté féminine rêveuse et mélancolique, mystique et sensuelle : la marque de Rossetti."
+            },
+            {
+              "titre": "La Conscience éveillée",
+              "artiste": "Préraphaélites",
+              "annee": "1853",
+              "lieu": "Tate Britain, Londres",
+              "wiki": "The Awakening Conscience",
+              "analyse": "Par William Holman Hunt : une femme entretenue, sur les genoux de son amant, se redresse soudain, saisie d'un sursaut moral, tandis que la lumière l'appelle dehors. Détail symbolique partout : la peinture comme leçon de rédemption morale victorienne."
+            },
+            {
+              "titre": "Le Christ dans la maison de ses parents",
+              "artiste": "Préraphaélites",
+              "annee": "1849-1850",
+              "lieu": "Tate Britain, Londres",
+              "wiki": "Christ in the House of His Parents",
+              "analyse": "Par Millais : la Sainte Famille dans un atelier de charpentier rendu avec un réalisme cru (sciure, outils, mains calleuses) qui scandalisa — on jugea blasphématoire de montrer le sacré aussi humblement. La sincérité préraphaélite poussée jusqu'à la provocation."
             }
           ]
         },
@@ -6328,19 +6526,53 @@
           "dates": "1830-1903",
           "role": "Impressionnisme",
           "wiki": "Camille Pissarro",
-          "portrait": "Le pilier généreux du groupe.",
+          "portrait": "Camille Pissarro (1830-1903) est le doyen et la conscience morale des impressionnistes — le seul à avoir participé à leurs huit expositions. Peintre des chemins de campagne et des boulevards de Paris, généreux passeur, il fut le lien vivant entre toutes les générations, de Corot à Cézanne et Gauguin.",
           "bio_sections": [
             {
-              "h": "Le doyen du groupe",
-              "p": "Camille Pissarro est l'aîné et la conscience morale des impressionnistes — le seul à participer à leurs huit expositions."
+              "h": "L'enfance : des Antilles à Paris",
+              "p": "Né en 1830 sur l'île de Saint-Thomas (Antilles danoises), dans une famille de commerçants juifs, Pissarro est destiné au négoce mais ne rêve que de dessiner. Il finit par s'enfuir peindre au Venezuela, puis gagne Paris pour devenir artiste. Cette origine lointaine et ce choix contre sa famille forgent un homme libre, indépendant et obstiné."
+            },
+            {
+              "h": "Le déclic : Corot et le plein air",
+              "p": "À Paris, Pissarro est marqué par Corot et le paysage, puis par la jeune génération de Monet, Renoir, Sisley, qu'il rejoint. Il adopte le plein air et la touche claire, et devient l'un des piliers du groupe impressionniste, exposant à toutes leurs manifestations — fidélité que nul autre n'aura."
             },
             {
               "h": "La terre et la ville",
-              "p": "Il peint les chemins de campagne, les paysannes, puis les grands boulevards de Paris vus d'en haut, toujours avec une touche fidèle à la lumière du plein air."
+              "p": "Pissarro peint d'abord la campagne : chemins, vergers, paysannes au travail, villages sous le givre, avec une honnêteté et une solidité héritées de Millet. Plus tard, il peint les grands boulevards de Paris vus d'en haut, grouillants de foule et de voitures, captant la vie moderne de la ville dans la lumière changeante."
             },
             {
-              "h": "Le passeur",
-              "p": "Généreux, il conseille Cézanne et Gauguin, et essaie même un temps la technique pointilliste de Seurat : un pont vivant entre les générations."
+              "h": "Son moteur : la fidélité et la générosité",
+              "p": "Ce qui distingue Pissarro, c'est sa droiture et sa générosité. Toujours pauvre, jamais découragé, il soutient et conseille les plus jeunes : il guide Cézanne (qui se dira « son élève »), encourage Gauguin, essaie même un temps la technique pointilliste de Seurat. Sympathisant anarchiste, il croit en un art honnête et libre."
+            },
+            {
+              "h": "Le message : la dignité du travail et du réel",
+              "p": "Pissarro ne cherche ni le brillant ni l'effet : il peint le réel, la terre, le travail, la ville, avec une sincérité paisible. Ses paysannes et ses boulevards ont la même dignité tranquille. Son art, sans esbroufe, est une célébration honnête de la vie ordinaire et de la lumière sur le monde."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Pissarro un pilier de l'impressionnisme et un passeur essentiel : sans lui, le lien entre Corot, l'impressionnisme, le néo-impressionnisme et Cézanne n'aurait pas été le même. Gombrich souligne sa constance et son rôle modeste mais fondamental au cœur du mouvement, comme aîné et conscience du groupe."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Monet vise la sensation pure et Renoir la joie, Pissarro garde une gravité terrienne et une dimension sociale. Moins spectaculaire que ses amis, il est le plus fidèle, le plus généreux, le plus constant. Sa droiture humaine et sa fécondité en font le « bon père » de toute une génération d'artistes."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Boulevard Montmartre",
+              "artiste": "Pissarro",
+              "annee": "1897",
+              "lieu": "collections diverses",
+              "wiki": "Boulevard Montmartre",
+              "analyse": "Le grand boulevard parisien vu d'en haut, depuis une fenêtre d'hôtel, grouillant de foule, de voitures et de lumière. Pissarro en fit une série à toutes les heures et tous les temps. La vie moderne de la ville captée dans la vibration de l'atmosphère."
+            },
+            {
+              "titre": "Avenue de l'Opéra",
+              "artiste": "Pissarro",
+              "annee": "1898",
+              "lieu": "collections diverses",
+              "wiki": "Avenue de l'Opéra",
+              "analyse": "L'avenue parisienne sous un ciel gris d'hiver, perspective fuyante noyée dans la brume et la circulation. Pissarro, vieillissant et la vue fragile, peint depuis sa fenêtre la grande ville moderne avec une justesse atmosphérique remarquable."
             }
           ]
         },
@@ -9283,15 +9515,53 @@
           "dates": "~1255-1319",
           "role": "Sienne",
           "wiki": "Duccio",
-          "portrait": "Sienne ; douceur, or, transition (Maestà).",
+          "portrait": "Duccio di Buoninsegna (v. 1255-1319) est le grand maître de Sienne et le fondateur de son école. Pendant que Giotto, à Florence, invente le volume et le réalisme, Duccio prolonge et assouplit la tradition byzantine en une peinture d'une douceur, d'un raffinement et d'une couleur d'orfèvre incomparables.",
           "bio_sections": [
             {
-              "h": "Le maître de Sienne",
-              "p": "Duccio est, à Sienne, le pendant de Giotto — mais dans une autre veine : douceur, or, lignes raffinées, héritées de Byzance et assouplies."
+              "h": "Les origines : Sienne, rivale de Florence",
+              "p": "Né vers 1255 à Sienne, cité marchande rivale de Florence, Duccio y devient le peintre le plus important de sa génération. Sienne cultive un goût propre : moins le réalisme et le volume que la grâce, l'élégance des lignes, l'or et la couleur précieuse. Duccio en est le père et le maître incontesté."
+            },
+            {
+              "h": "Le déclic : assouplir Byzance",
+              "p": "Duccio hérite de l'art byzantin — figures dorées, hiératiques, codifiées. Mais il l'humanise et l'assouplit : ses Vierges deviennent tendres, ses drapés plus souples, ses visages plus doux, ses couleurs plus délicates. Sans rompre brutalement comme Giotto, il fait évoluer la tradition vers plus de grâce et de sentiment."
             },
             {
               "h": "La Maestà",
-              "p": "Son immense Maestà, retable de la cathédrale de Sienne, fut portée en procession dans la ville entière. Il ouvre la voie à la délicate école siennoise."
+              "p": "Son chef-d'œuvre, la Maestà de la cathédrale de Sienne, est un immense retable à deux faces : au recto, la Vierge en majesté entourée d'une foule de saints ; au verso, des dizaines de petites scènes de la vie du Christ. Le jour de son installation, en 1311, elle fut portée en procession à travers toute la ville en fête, au son des cloches."
+            },
+            {
+              "h": "Son moteur : la grâce et le raffinement",
+              "p": "Ce qui guide Duccio, c'est la recherche de la beauté délicate : lignes élégantes et fluides, harmonies de couleurs subtiles, or rehaussé, douceur des expressions. Son art est précieux comme une orfèvrerie, fait pour émouvoir par la grâce et la tendresse plus que par le réalisme dramatique."
+            },
+            {
+              "h": "Le message : la douce dévotion siennoise",
+              "p": "Duccio offre une spiritualité tendre et raffinée, où le sacré séduit par sa beauté et sa douceur. Cette voie — opposée au réalisme grave de Giotto — fonde l'école siennoise, qui rayonnera avec Simone Martini et les Lorenzetti, et marquera le gothique international dans toute l'Europe."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Duccio le fondateur de l'école siennoise et l'un des grands maîtres de la transition entre Byzance et la Renaissance. Gombrich souligne qu'il représente une voie parallèle à celle de Giotto : non le volume et le réalisme, mais la grâce, la ligne et la couleur — tout aussi féconde pour la suite."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Giotto, son contemporain florentin, donne poids et émotion réaliste aux figures, Duccio garde l'or, la grâce et la délicatesse de la ligne. Les deux ouvrent le chemin, mais dans des directions complémentaires. Duccio est le père de la tendresse et du raffinement siennois, dont l'écho durera des siècles."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Maestà",
+              "artiste": "Duccio",
+              "annee": "1308-1311",
+              "lieu": "Museo dell'Opera del Duomo, Sienne",
+              "wiki": "Maestà (Duccio)",
+              "analyse": "Immense retable à deux faces : la Vierge en majesté trône parmi une foule de saints et d'anges, sur fond d'or. Portée en procession dans toute Sienne en fête le jour de son installation. La grâce, la couleur et l'or de l'école siennoise à leur sommet."
+            },
+            {
+              "titre": "La Madone Rucellai",
+              "artiste": "Duccio",
+              "annee": "1285",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Rucellai Madonna",
+              "analyse": "Grande Vierge à l'Enfant trônant, portée par des anges, sur fond d'or, dans un cadre élégamment ourlé. La douceur des visages et la souplesse nouvelle des drapés assouplissent la rigidité byzantine : le génie siennois de Duccio s'y annonce."
             }
           ]
         },
@@ -9301,15 +9571,53 @@
           "dates": "~1284-1344",
           "role": "gothique int.",
           "wiki": "Simone Martini",
-          "portrait": "Gothique international, élégance courtoise (Annonciation).",
+          "portrait": "Simone Martini (v. 1284-1344) est le plus grand héritier de Duccio et l'incarnation du gothique international : un art d'élégance courtoise, de lignes gracieuses et d'or précieux. Peintre de Sienne, des papes d'Avignon et ami de Pétrarque, il a porté le raffinement siennois à son apogée européen.",
           "bio_sections": [
             {
-              "h": "L'élégance courtoise",
-              "p": "Simone Martini, Siennois, incarne le gothique international : élégance des lignes, fonds d'or, raffinement courtois."
+              "h": "Les origines : l'école de Sienne",
+              "p": "Né vers 1284 à Sienne, Simone Martini se forme dans le sillage de Duccio, dont il prolonge la grâce et le raffinement. Mais il y ajoute une élégance courtoise nouvelle, un sens du luxe et de la ligne sinueuse qui le rendront célèbre dans toute l'Europe et recherché par les cours les plus prestigieuses."
+            },
+            {
+              "h": "Le déclic : l'élégance courtoise",
+              "p": "Simone développe un style d'une élégance suprême : lignes ondoyantes, silhouettes allongées et gracieuses, étoffes brodées, fonds d'or éclatants, couleurs raffinées. C'est l'esprit du gothique international, art des cours princières, où la beauté précieuse et le raffinement courtois priment sur le réalisme."
             },
             {
               "h": "L'Annonciation",
-              "p": "Son Annonciation, toute en courbes gracieuses et en or, est un sommet de ce style précieux. Ami de Pétrarque, il travailla aussi pour la cour des papes en Avignon."
+              "p": "Son chef-d'œuvre, l'Annonciation de la cathédrale de Sienne, est un sommet de ce style : l'ange et la Vierge, tout en courbes gracieuses, échangent sur un fond d'or pur ; les paroles de l'ange sont gravées en lettres d'or dans l'air. La Vierge se détourne dans un mouvement d'une élégance et d'une délicatesse exquises."
+            },
+            {
+              "h": "Son moteur : la grâce et le luxe",
+              "p": "Ce qui guide Simone, c'est la quête d'une beauté raffinée et aristocratique : la ligne pure, l'or, l'élégance des poses et des étoffes. Son art est fait pour les cours et les princes de l'Église, pour éblouir et charmer par sa préciosité. Il porte l'idéal courtois à son plus haut degré de raffinement."
+            },
+            {
+              "h": "Le message : Sienne, Avignon, Pétrarque",
+              "p": "Simone travaille pour Sienne, pour le roi de Naples, puis pour la cour des papes installée à Avignon, foyer du gothique international. Là, il se lie d'amitié avec le poète Pétrarque, pour qui il peint le portrait (perdu) de sa Laure. Il diffuse ainsi l'élégance siennoise dans toute l'Europe princière."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Simone Martini l'un des plus grands représentants du gothique international et l'héritier le plus brillant de Duccio. Gombrich souligne son élégance linéaire incomparable et son rôle dans la diffusion européenne du raffinement siennois, qui marquera l'enluminure et la peinture de cour jusqu'au XVe siècle."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Giotto et les Florentins cherchent le volume et la gravité, Simone choisit la grâce, la ligne et l'or — l'élégance courtoise plutôt que la vérité dramatique. Ami des poètes, peintre des cours, il incarne l'idéal aristocratique et raffiné du gothique international, dont il est le maître le plus accompli."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Annonciation",
+              "artiste": "Simone Martini",
+              "annee": "1333",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Annunciation (Simone Martini)",
+              "analyse": "Sur un fond d'or pur, l'ange et la Vierge tout en courbes gracieuses ; les paroles de l'ange sont gravées en lettres d'or dans l'air, et Marie se détourne dans un mouvement d'une élégance exquise. Le sommet du gothique international et de la grâce siennoise."
+            },
+            {
+              "titre": "La Maestà",
+              "artiste": "Simone Martini",
+              "annee": "1315",
+              "lieu": "Palazzo Pubblico, Sienne",
+              "wiki": "Maestà (Simone Martini)",
+              "analyse": "Grande fresque de la salle du conseil de Sienne : la Vierge en majesté sous un dais, entourée de saints, comme une reine tenant sa cour. Élégance des lignes, dais ouvragé, fond raffiné : l'idéal courtois appliqué à l'image protectrice de la cité."
             }
           ]
         },
@@ -9319,15 +9627,45 @@
           "dates": "XIVe s.",
           "role": "Sienne",
           "wiki": "Ambrogio Lorenzetti",
-          "portrait": "Espace et vie civique (fresques du Bon Gouvernement).",
+          "portrait": "Les frères Lorenzetti — Ambrogio et Pietro (actifs v. 1320-1348) — sont, avec Simone Martini, les grands maîtres de l'école siennoise du XIVe siècle. Ambrogio, surtout, a peint l'une des œuvres les plus extraordinaires du Moyen Âge : une vaste fresque civique sur le bon et le mauvais gouvernement.",
           "bio_sections": [
             {
-              "h": "Sienne et la cité",
-              "p": "Les frères Lorenzetti, à Sienne, donnent au XIVe siècle un art de l'espace et de la vie civique."
+              "h": "Les origines : deux frères de Sienne",
+              "p": "Pietro et Ambrogio Lorenzetti, actifs à Sienne dans la première moitié du XIVe siècle, prolongent l'art de Duccio et de Simone Martini, mais en y ajoutant un sens nouveau de l'espace, du volume et de la vie réelle, peut-être influencé par Giotto. Ils périront tous deux, sans doute, dans la grande peste de 1348 qui ravage Sienne."
             },
             {
-              "h": "Le Bon Gouvernement",
-              "p": "L'Allégorie du Bon et du Mauvais Gouvernement, vaste fresque du palais communal, déroule la ville et la campagne siennoises — l'un des premiers grands paysages et tableaux politiques de l'art occidental."
+              "h": "Le déclic : l'espace et le réel",
+              "p": "Les Lorenzetti dépassent la grâce purement décorative de l'école siennoise : ils s'intéressent à la profondeur, à l'architecture, au paysage, à la vie quotidienne. Ambrogio, surtout, ose représenter la ville et la campagne réelles, avec leurs habitants au travail — une nouveauté radicale pour l'époque."
+            },
+            {
+              "h": "Le Bon et le Mauvais Gouvernement",
+              "p": "Le chef-d'œuvre d'Ambrogio est la vaste Allégorie des effets du bon et du mauvais gouvernement, au palais communal de Sienne : sur les murs se déroulent la ville prospère et la campagne fertile sous un bon gouvernement, puis la cité ravagée sous la tyrannie. L'un des premiers grands paysages et tableaux politiques de l'art occidental."
+            },
+            {
+              "h": "Leur moteur : peindre la cité et le monde",
+              "p": "Ce qui anime Ambrogio Lorenzetti, c'est l'ambition de représenter le monde réel et la vie civique : marchands, paysans, danseuses, artisans, champs et collines. Sa fresque est une encyclopédie visuelle de la vie d'une cité italienne médiévale, mise au service d'une leçon politique sur la justice et le bien commun."
+            },
+            {
+              "h": "Le message : l'art au service de la cité",
+              "p": "Le Bon Gouvernement n'est pas une œuvre religieuse mais civique et politique : il enseigne aux gouvernants de Sienne les vertus du bon gouvernement (justice, paix, concorde) et les ravages de la tyrannie. L'art y devient un discours sur la chose publique, fait pour instruire ceux qui dirigent la République."
+            },
+            {
+              "h": "Pourquoi ils comptent, selon les experts",
+              "p": "Les historiens font des Lorenzetti, et d'Ambrogio en particulier, des précurseurs majeurs : le premier grand paysage, la première grande peinture politique et civique. Gombrich souligne l'audace d'Ambrogio à représenter la vie quotidienne et l'espace réel, bien avant que cela ne devienne courant dans la peinture occidentale."
+            },
+            {
+              "h": "Ce qui les différencie",
+              "p": "Là où Simone Martini cultive la grâce courtoise et l'or, les Lorenzetti regardent le monde réel : la ville, la campagne, le travail, la politique. Leur Bon Gouvernement est un cas unique au Moyen Âge. Fauchés par la peste de 1348, ils laissent une œuvre dont la modernité — paysage, vie civique — ne sera retrouvée que bien plus tard."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Allégorie des effets du bon et du mauvais gouvernement",
+              "artiste": "Lorenzetti",
+              "annee": "1338-1339",
+              "lieu": "Palazzo Pubblico, Sienne",
+              "wiki": "The Allegory of Good and Bad Government",
+              "analyse": "Par Ambrogio Lorenzetti : sur les murs de la salle du conseil, la ville prospère et la campagne fertile sous le bon gouvernement, opposées à la cité ravagée sous la tyrannie. L'un des premiers grands paysages et la première grande peinture politique de l'Occident."
             }
           ]
         },

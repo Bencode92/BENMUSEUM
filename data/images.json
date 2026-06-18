@@ -4395,5 +4395,215 @@
     "h": 1324,
     "format": "jpg",
     "file": "The_Mill.jpg"
+  },
+  "Boulevard Montmartre": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Boulevard_Montmartre.jpg/1280px-Boulevard_Montmartre.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 750,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Boulevard_Montmartre.jpg",
+    "w": 4416,
+    "h": 3312,
+    "format": "jpg",
+    "file": "Boulevard_Montmartre.jpg"
+  },
+  "Avenue de l'Opéra": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Avenue_de_l%27Op%C3%A9ra_Paris.jpg/1280px-Avenue_de_l%27Op%C3%A9ra_Paris.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 665,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Avenue_de_l%27Op%C3%A9ra_Paris.jpg",
+    "w": 3018,
+    "h": 2008,
+    "format": "jpg",
+    "file": "Avenue_de_l'Opéra_Paris.jpg"
+  },
+  "Ophelia (painting)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg/1280px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 680,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
+    "w": 7087,
+    "h": 4820,
+    "format": "jpg",
+    "file": "John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg"
+  },
+  "Beata Beatrix": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Dante_Gabriel_Rossetti_-_Beata_Beatrix%2C_1864-1870.jpg/1280px-Dante_Gabriel_Rossetti_-_Beata_Beatrix%2C_1864-1870.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1281,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Dante_Gabriel_Rossetti_-_Beata_Beatrix%2C_1864-1870.jpg",
+    "w": 2506,
+    "h": 3209,
+    "format": "jpg",
+    "file": "Dante_Gabriel_Rossetti_-_Beata_Beatrix,_1864-1870.jpg"
+  },
+  "The Awakening Conscience": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Hunt-AwakeningConscience1853.jpg/1280px-Hunt-AwakeningConscience1853.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1371,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Hunt-AwakeningConscience1853.jpg",
+    "w": 2136,
+    "h": 2929,
+    "format": "jpg",
+    "file": "Hunt-AwakeningConscience1853.jpg"
+  },
+  "Christ in the House of His Parents": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/John_Everett_Millais_-_Christ_in_the_House_of_His_Parents_%28%60The_Carpenter%27s_Shop%27%29_-_Google_Art_Project.jpg/1280px-John_Everett_Millais_-_Christ_in_the_House_of_His_Parents_%28%60The_Carpenter%27s_Shop%27%29_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 607,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/John_Everett_Millais_-_Christ_in_the_House_of_His_Parents_%28%60The_Carpenter%27s_Shop%27%29_-_Google_Art_Project.jpg",
+    "w": 4500,
+    "h": 2731,
+    "format": "jpg",
+    "file": "John_Everett_Millais_-_Christ_in_the_House_of_His_Parents_(`The_Carpenter's_Shop')_-_Google_Art_Project.jpg"
+  },
+  "Proserpine (Rossetti)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Dante_Gabriel_Rossetti_-_Proserpine_-_Google_Art_Project.jpg",
+    "thumb_w": 1041,
+    "thumb_h": 2300,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Dante_Gabriel_Rossetti_-_Proserpine_-_Google_Art_Project.jpg",
+    "w": 1041,
+    "h": 2300,
+    "format": "jpg",
+    "file": "Dante_Gabriel_Rossetti_-_Proserpine_-_Google_Art_Project.jpg"
+  },
+  "The Bean Eater": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Carracci_-_Der_Bohnenesser.jpeg/1280px-Carracci_-_Der_Bohnenesser.jpeg",
+    "thumb_w": 1000,
+    "thumb_h": 834,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Carracci_-_Der_Bohnenesser.jpeg",
+    "w": 3294,
+    "h": 2748,
+    "format": "jpeg",
+    "file": "Carracci_-_Der_Bohnenesser.jpeg"
+  },
+  "Pietà (Annibale Carracci)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Annibale_Carracci_1560-1609_Pieta.jpg",
+    "thumb_w": 965,
+    "thumb_h": 1024,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Annibale_Carracci_1560-1609_Pieta.jpg",
+    "w": 965,
+    "h": 1024,
+    "format": "jpg",
+    "file": "Annibale_Carracci_1560-1609_Pieta.jpg"
+  },
+  "Assumption of the Virgin (Correggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cathedral_%28Parma%29_-_Assumption_by_Correggio.jpg/1280px-Cathedral_%28Parma%29_-_Assumption_by_Correggio.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 827,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cathedral_%28Parma%29_-_Assumption_by_Correggio.jpg",
+    "w": 3550,
+    "h": 2936,
+    "format": "jpg",
+    "file": "Cathedral_(Parma)_-_Assumption_by_Correggio.jpg"
+  },
+  "Danaë (Correggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Correggio_008.jpg",
+    "thumb_w": 1030,
+    "thumb_h": 825,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Correggio_008.jpg",
+    "w": 1030,
+    "h": 825,
+    "format": "jpg",
+    "file": "Correggio_008.jpg"
+  },
+  "Portrait of a Lady (van der Weyden)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rogier_van_der_Weyden_-_Portrait_of_a_Lady_-_Google_Art_Project.jpg/1280px-Rogier_van_der_Weyden_-_Portrait_of_a_Lady_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1370,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Rogier_van_der_Weyden_-_Portrait_of_a_Lady_-_Google_Art_Project.jpg",
+    "w": 4181,
+    "h": 5729,
+    "format": "jpg",
+    "file": "Rogier_van_der_Weyden_-_Portrait_of_a_Lady_-_Google_Art_Project.jpg"
+  },
+  "Braque Triptych": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/72/Braque_Family_Triptych_closed_WGA.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 671,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Braque_Family_Triptych_closed_WGA.jpg",
+    "w": 1000,
+    "h": 671,
+    "format": "jpg",
+    "file": "Braque_Family_Triptych_closed_WGA.jpg"
+  },
+  "Triumph of the Name of Jesus": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/G.B.Gaulli-Triumph_of_the_Name_of_Jesus.jpg/1280px-G.B.Gaulli-Triumph_of_the_Name_of_Jesus.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1802,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/G.B.Gaulli-Triumph_of_the_Name_of_Jesus.jpg",
+    "w": 3160,
+    "h": 5695,
+    "format": "jpg",
+    "file": "G.B.Gaulli-Triumph_of_the_Name_of_Jesus.jpg"
+  },
+  "Maestà (Duccio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Duccio_maesta1021.jpg/1280px-Duccio_maesta1021.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 493,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Duccio_maesta1021.jpg",
+    "w": 2029,
+    "h": 1000,
+    "format": "jpg",
+    "file": "Duccio_maesta1021.jpg"
+  },
+  "Rucellai Madonna": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Duccio_-_Rucellai_Madonna.jpg/1280px-Duccio_-_Rucellai_Madonna.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1428,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Duccio_-_Rucellai_Madonna.jpg",
+    "w": 3772,
+    "h": 5385,
+    "format": "jpg",
+    "file": "Duccio_-_Rucellai_Madonna.jpg"
+  },
+  "Maestà (Simone Martini)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Simone_Martini_-_Maest%C3%A0_-_Google_Art_Project.jpg/1280px-Simone_Martini_-_Maest%C3%A0_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 769,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Simone_Martini_-_Maest%C3%A0_-_Google_Art_Project.jpg",
+    "w": 4135,
+    "h": 3179,
+    "format": "jpg",
+    "file": "Simone_Martini_-_Maestà_-_Google_Art_Project.jpg"
+  },
+  "The Allegory of Good and Bad Government": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ambrogio_Lorenzetti_-_Allegory_of_the_Good_Government_%28detail%29_-_WGA13487.jpg",
+    "thumb_w": 1074,
+    "thumb_h": 838,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ambrogio_Lorenzetti_-_Allegory_of_the_Good_Government_%28detail%29_-_WGA13487.jpg",
+    "w": 1074,
+    "h": 838,
+    "format": "jpg",
+    "file": "Ambrogio_Lorenzetti_-_Allegory_of_the_Good_Government_(detail)_-_WGA13487.jpg"
+  },
+  "Annunciation (Simone Martini)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg/1280px-Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 868,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Simone_Martini_%E2%80%94_Annunciation_with_St._Margaret_and_St._Ansanus.jpg",
+    "w": 10416,
+    "h": 9044,
+    "format": "jpg",
+    "file": "Simone_Martini_—_Annunciation_with_St._Margaret_and_St._Ansanus.jpg"
+  },
+  "Jupiter and Io (Correggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Antonio_Allegri%2C_called_Correggio_-_Jupiter_and_Io_-_Google_Art_Project.jpg/1280px-Antonio_Allegri%2C_called_Correggio_-_Jupiter_and_Io_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 2317,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Antonio_Allegri%2C_called_Correggio_-_Jupiter_and_Io_-_Google_Art_Project.jpg",
+    "w": 3430,
+    "h": 7948,
+    "format": "jpg",
+    "file": "Antonio_Allegri,_called_Correggio_-_Jupiter_and_Io_-_Google_Art_Project.jpg"
+  },
+  "Holy Night (Correggio)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Correggio_-_The_Holy_Night_-_Google_Art_Project.jpg/1280px-Correggio_-_The_Holy_Night_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1363,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Correggio_-_The_Holy_Night_-_Google_Art_Project.jpg",
+    "w": 3179,
+    "h": 4332,
+    "format": "jpg",
+    "file": "Correggio_-_The_Holy_Night_-_Google_Art_Project.jpg"
   }
 }
