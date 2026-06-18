@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "47"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "48"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -179,6 +179,22 @@ function resetChat() {
   if ($("chatlog2")) $("chatlog2").innerHTML = "";
   if ($("chatares")) $("chatares").innerHTML = "";
 }
+// discussion ciblée sur mes points faibles (œuvres ratées / peu sues)
+function openChatWeak() {
+  const list = [...new Set(weakPool().map(x => `${x.oeuvre.titre} (${x.oeuvre.artiste})`))].slice(0, 20);
+  if (!list.length) return;
+  chatMsgs = [];
+  CHATCTX = {
+    label: "mes erreurs", scope: "weak",
+    fiche: "Révision d'histoire de l'art. Œuvres / artistes que l'élève maîtrise mal : " + list.join(" ; ") + ".",
+    ask: { floorName: "Révision ciblée", salle: { nom: "Mes points faibles", presentation: list.join(" ; ") } },
+  };
+  if ($("chattitle")) $("chattitle").textContent = "Discuter — mes erreurs";
+  if ($("chatlog2")) $("chatlog2").innerHTML = "";
+  $("chatdrawer").hidden = false;
+  addCmsg("bot", `Tu maîtrises mal ${list.length} œuvre${list.length > 1 ? "s" : ""} : ${list.slice(0, 6).join(" · ")}${list.length > 6 ? "…" : ""}. Demande-moi ce qui les distingue, de t'interroger dessus, ou un moyen de les retenir.`).classList.add("dim");
+  $("chatin").focus();
+}
 async function sendChat() {
   const inp = $("chatin"); const q = inp.value.trim(); if (!q) return;
   const ctx = CHATCTX || (CHATCTX = pageContext());
@@ -213,9 +229,10 @@ async function analyseChat() {
     const add = document.createElement("button");
     add.className = "optbtn"; add.style.marginTop = "10px"; add.textContent = "➕ Ajouter ces points à la fiche";
     add.onclick = () => {
-      addNote(ctx.scope, `Issu d'une discussion :\n${j.answer}`);
-      const box = $("view").querySelector(`.notes[data-scope="${ctx.scope}"]`);
-      if (box) renderNotesList(box, ctx.scope);
+      // alimente les Approfondissements (IA) de la page — la fiche se développe
+      addEnrich(ctx.scope, "Issu d'une discussion", j.answer);
+      const ebox = $("view") && $("view").querySelector(`.aienrich[data-scope="${CSS.escape(ctx.scope)}"]`);
+      if (ebox) { ebox.outerHTML = enrichBlock(ctx.scope); wireEnrichBlock(ctx.scope, ctx.fiche, ctx.ask); }
       add.textContent = "✓ Ajouté à la fiche"; add.disabled = true;
     };
     res.after(add);
@@ -544,6 +561,7 @@ function renderQuiz() {
     .filter(a => a && !ANON.test(a)).sort((a, b) => a.localeCompare(b, "fr"));
   const due = sessionStats();
   const tracked = Object.keys(srsStore()).length;
+  const weakN = weakPool().filter(x => IMAGES[x.oeuvre.wiki]).length;
   $("view").innerHTML = `
     <div class="pagehead"><h1>Réviser</h1>
       <p class="lead">Deux modes : la <b>révision espacée du jour</b> (mémorisation durable, façon flashcards) et le <b>quiz libre</b> (s'entraîner sur une cible).</p></div>
@@ -554,8 +572,16 @@ function renderQuiz() {
         <button class="big" data-nav="#/session">▶ ${due ? "Réviser maintenant" : "Lancer une session"}</button>
       </div>
     </div>
+    <div class="block" style="border-left:4px solid var(--bad,#c0392b)">
+      <h3>🎯 Cibler mes erreurs</h3>
+      <p class="lead">${weakN ? `Tu as <b>${weakN}</b> œuvre${weakN > 1 ? "s" : ""} mal maîtrisée${weakN > 1 ? "s" : ""} (ratées au quiz ou peu sues). Entraîne-toi dessus, ou fais le point avec le guide.` : "Dès que tu rates des questions, elles s'accumulent ici pour un quiz et une discussion sur mesure."}</p>
+      <div class="sess-actions">
+        <button class="next" id="qweak"${weakN ? "" : " disabled"}>🎯 Quiz de mes erreurs${weakN ? ` (${weakN})` : ""}</button>
+        <button class="optbtn" id="dweak"${weakN ? "" : " disabled"}>💬 Discuter de mes erreurs avec le guide</button>
+      </div>
+    </div>
     <div class="block">
-      <h3>🎯 Quiz libre — cible</h3>
+      <h3>📚 Quiz libre — cible</h3>
       <div class="quizcfg">
         <label>Chapitre / époque<br><select id="qchap"><option value="">Tout le musée</option>${chapters.map(c => `<option>${esc(c)}</option>`).join("")}</select></label>
         <label>Focus artiste<br><select id="qart"><option value="">— Aucun —</option>${artists.map(a => `<option>${esc(a)}</option>`).join("")}</select></label>
@@ -566,6 +592,8 @@ function renderQuiz() {
     </div>
     <div id="quizarea"></div>`;
   $("qstart").onclick = () => startQuiz();
+  const wq = $("qweak"); if (wq) wq.onclick = () => startQuiz({ pool: weakPool(), label: "mes erreurs" });
+  const dw = $("dweak"); if (dw) dw.onclick = openChatWeak;
 }
 function quizScope() {
   const chap = $("qchap") ? $("qchap").value : "";
@@ -575,6 +603,13 @@ function quizScope() {
   if (art) pool = pool.filter(x => x.oeuvre.artiste === art);
   return { chap, art, pool };
 }
+// points faibles = cartes SRS en boîte basse (≤ 2 : ratées ou peu sues)
+function weakWikiSet() {
+  const s = srsStore(), set = new Set();
+  Object.keys(s).forEach(id => { if (id.startsWith("w:") && (s[id].box || 1) <= 2) set.add(id.slice(2)); });
+  return set;
+}
+function weakPool() { const set = weakWikiSet(); return FLAT.filter(x => set.has(x.oeuvre.wiki)); }
 // questions visuelles, fabriquées à partir des données (fiable, sans IA)
 function buildVisualQuestions(pool, n) {
   const wp = pool.filter(x => IMAGES[x.oeuvre.wiki]);
@@ -607,15 +642,17 @@ function buildVisualQuestions(pool, n) {
   }
   return qs;
 }
-async function startQuiz() {
-  const { chap, art, pool } = quizScope();
+async function startQuiz(opts) {
+  opts = opts || {};
+  let chap = "", art = "", pool, label;
+  if (opts.pool) { pool = opts.pool; label = opts.label || "révision ciblée"; }
+  else { ({ chap, art, pool } = quizScope()); label = [art, chap].filter(Boolean).join(" — ") || "l'histoire de l'art"; }
   const box = $("quizarea"); if (!box) return;
   if (!pool.length) { box.innerHTML = `<p class="lead">Aucune œuvre pour cette cible.</p>`; return; }
   box.innerHTML = `<p class="lead">Préparation du quiz…</p>`;
   let qs = buildVisualQuestions(pool, 15);
   // questions de compréhension générées par l'IA (si le Worker est branché)
   try {
-    const label = [art, chap].filter(Boolean).join(" — ") || "l'histoire de l'art";
     const contenu = `Sujet : ${label}.\n` + pool.slice(0, 14).map(x =>
       `« ${x.oeuvre.titre} » (${x.oeuvre.artiste}, ${x.oeuvre.annee}) : ${x.oeuvre.explication || x.oeuvre.analyse || ""} ${x.oeuvre.contexte || ""}`).join("\n")
       + "\n" + [...new Set(pool.map(x => x.chap.idee).filter(Boolean))].join(" ");
@@ -783,9 +820,15 @@ function renderArtiste(id, ai) {
         <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
         ${o.analyse ? `<details class="deep"><summary>📖 Analyse</summary><p>${esc(o.analyse)}</p></details>` : `<p style="font-size:13px;margin-top:6px">${esc(o.genie || "")}</p>`}</div></div>`).join("")}</div>`);
 
+  // approfondissements IA persistés (la discussion + le bouton ci-dessous enrichissent la fiche)
+  const aScope = `artiste:${id}:${ai}`;
+  const aFiche = `${a.nom} (${a.dates}). ${a.portrait || ""} ${(a.bio_sections || []).map(s => `${s.h} : ${s.p}`).join(" ") || a.bio_longue || ""}`;
+  const aAsk = { floorName: d.titre, salle: { nom: a.nom, presentation: a.portrait || "" } };
+  P.push(enrichBlock(aScope));
   P.push(`<div class="navworks"><button data-nav="#/d/${id}">← Retour au dossier ${esc(d.titre)}</button></div>`);
   $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
   loadImages($("view"));
+  wireEnrichBlock(aScope, aFiche, aAsk);
   // mode test : masque les réponses, on révèle section par section (rappel actif)
   const bt = $("biotest");
   if (bt) {
@@ -999,6 +1042,55 @@ function wireNotes() {
       addNote(scope, v); ta.value = ""; renderNotesList(box, scope);
     };
   });
+}
+
+/* ---------- Approfondissements IA persistés (la discussion enrichit la page) ---------- */
+function enrichKey(scope) { return "museum:enrich:" + scope; }
+function getEnrich(scope) { try { return JSON.parse(localStorage.getItem(enrichKey(scope))) || []; } catch { return []; } }
+function addEnrich(scope, q, text) {
+  const a = getEnrich(scope); a.push({ q: q || "", text: text || "", ts: today() });
+  localStorage.setItem(enrichKey(scope), JSON.stringify(a));
+}
+// bloc HTML : approfondissements déjà sauvés + champ pour creuser un nouvel aspect via l'IA
+function enrichBlock(scope) {
+  const items = getEnrich(scope);
+  return `<div class="block aienrich" data-scope="${esc(scope)}">
+    <h2 class="sec" style="margin-top:0">🤖 Approfondissements (IA) ${items.length ? `· ${items.length}` : ""}</h2>
+    <div class="enrichlist">${items.map((it, i) => `
+      <div class="recit-block"><div class="recit-txt">
+        ${it.q ? `<h3>${esc(it.q)}</h3>` : ""}<p>${esc(it.text)}</p>
+        <button class="linkbtn enrichdel" data-i="${i}" style="font-size:12px;color:var(--muted)">supprimer</button>
+      </div></div>`).join("") || `<p class="lead">Creuse un aspect via l'IA — la réponse s'ajoute ici et reste sur la fiche.</p>`}</div>
+    <div class="addnote">
+      <input class="enrichq" placeholder="Approfondir : ex. « Quelle influence sur les artistes suivants ? », « Le contexte politique ? »" />
+      <button class="optbtn enrichask">🤖 Approfondir via l'IA</button>
+    </div>
+    <div class="answer enrichans" hidden></div>
+  </div>`;
+}
+// branche le bloc : creuse via l'IA (mode discussion) puis sauve + ré-affiche ; suppression d'un item
+function wireEnrichBlock(scope, fiche, ask) {
+  const box = $("view").querySelector(`.aienrich[data-scope="${CSS.escape(scope)}"]`); if (!box) return;
+  const refresh = () => { box.outerHTML = enrichBlock(scope); wireEnrichBlock(scope, fiche, ask); };
+  box.querySelectorAll(".enrichdel").forEach(b => b.onclick = () => {
+    const a = getEnrich(scope); a.splice(+b.dataset.i, 1); localStorage.setItem(enrichKey(scope), JSON.stringify(a)); refresh();
+  });
+  const askBtn = box.querySelector(".enrichask"), inp = box.querySelector(".enrichq"), ans = box.querySelector(".enrichans");
+  askBtn.onclick = async () => {
+    const q = inp.value.trim(); if (!q) return;
+    ans.hidden = false; ans.className = "answer enrichans dim"; ans.textContent = "L'IA approfondit…";
+    try {
+      const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ ...(ask || {}), question: q, fiche }) });
+      if (!r.ok) throw new Error();
+      const j = await r.json();
+      addEnrich(scope, q, j.answer); inp.value = ""; refresh();
+    } catch {
+      ans.className = "answer enrichans dim";
+      ans.innerHTML = "⚠️ IA hors ligne. <button class='linkbtn' id='cfgE'>Configurer l'IA en ligne</button>";
+      const b = $("cfgE"); if (b) b.onclick = setAiUrl;
+    }
+  };
 }
 
 /* =========================================================================
