@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "46"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "47"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -764,13 +764,14 @@ function renderArtiste(id, ai) {
       const o = imgPool.find(x => !usedImg.has(x.wiki));
       if (o) { imgs[i] = o; usedImg.add(o.wiki); }
     });
-    P.push(`<h2 class="sec">📖 Sa vie, son évolution</h2>` + a.bio_sections.map((s, i) => {
+    P.push(`<h2 class="sec">📖 Sa vie, son évolution <button class="optbtn" id="biotest" style="font-size:13px;padding:4px 10px;margin-left:10px;vertical-align:middle">🧠 Mode test</button></h2>
+      <div id="biowrap">` + a.bio_sections.map((s, i) => {
       const o = imgs[i];
       const cap = o ? `${o.titre} — ${o.artiste || a.nom}` : "";
       return `<div class="recit-block${o ? " illus" : ""}">
         ${o ? `<figure class="recit-fig"><img class="recit-img" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(cap)}" alt="${esc(cap)}" /><figcaption>${esc(cap)} <span class="zoomhint">🔍</span></figcaption></figure>` : ""}
-        <div class="recit-txt"><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p></div></div>`;
-    }).join(""));
+        <div class="recit-txt"><h3>${esc(s.h)}</h3><button class="optbtn biorev" hidden>🧠 Réfléchis, puis révèle</button><p class="biop">${esc(s.p)}</p></div></div>`;
+    }).join("") + `</div>`);
   } else if (a.bio_longue) {
     P.push(`<h2 class="sec">📖 Sa vie</h2><div class="block recit"><p style="font-size:15.5px;line-height:1.75">${esc(a.bio_longue)}</p></div>`);
   }
@@ -785,6 +786,21 @@ function renderArtiste(id, ai) {
   P.push(`<div class="navworks"><button data-nav="#/d/${id}">← Retour au dossier ${esc(d.titre)}</button></div>`);
   $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
   loadImages($("view"));
+  // mode test : masque les réponses, on révèle section par section (rappel actif)
+  const bt = $("biotest");
+  if (bt) {
+    let on = false;
+    bt.onclick = () => {
+      on = !on;
+      bt.textContent = on ? "📖 Mode lecture" : "🧠 Mode test";
+      bt.classList.toggle("good", on);
+      $("view").querySelectorAll("#biowrap .biop").forEach(p => { p.hidden = on; });
+      $("view").querySelectorAll("#biowrap .biorev").forEach(b => { b.hidden = !on; });
+    };
+    $("view").querySelectorAll("#biowrap .biorev").forEach(b => b.onclick = () => {
+      const p = b.parentElement.querySelector(".biop"); if (p) p.hidden = false; b.hidden = true;
+    });
+  }
 }
 
 function renderDossier(id) {
