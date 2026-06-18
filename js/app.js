@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "44"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "45"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -22,6 +22,21 @@ Promise.all([
       FLAT.push({ ci, oi, chap: c, oeuvre: o })));
     DOSSIERS = dos.dossiers || [];
     IMAGES = img || {};
+    // enrichir le pool du quiz avec les œuvres des fiches d'artistes (a.oeuvres),
+    // rattachées au 1er chapitre de leur dossier, dédupliquées par image
+    {
+      const seenW = new Set(FLAT.map(x => x.oeuvre.wiki));
+      const chapOf = {};
+      CHAPITRES.forEach((c, ci) => { if (c.dossier && !(c.dossier in chapOf)) chapOf[c.dossier] = { c, ci }; });
+      DOSSIERS.forEach(d => {
+        const ref = chapOf[d.id]; if (!ref) return;
+        (d.artistes || []).forEach(a => (a.oeuvres || []).forEach(o => {
+          if (!o.wiki || seenW.has(o.wiki)) return;
+          seenW.add(o.wiki);
+          FLAT.push({ ci: ref.ci, oi: -1, chap: ref.c, oeuvre: { ...o, artiste: o.artiste || a.nom } });
+        }));
+      });
+    }
     buildFloors();
     route();
   })
@@ -591,8 +606,8 @@ async function startQuiz() {
   try {
     const label = [art, chap].filter(Boolean).join(" — ") || "l'histoire de l'art";
     const contenu = `Sujet : ${label}.\n` + pool.slice(0, 14).map(x =>
-      `« ${x.oeuvre.titre} » (${x.oeuvre.artiste}, ${x.oeuvre.annee}) : ${x.oeuvre.explication} ${x.oeuvre.contexte}`).join("\n")
-      + "\n" + [...new Set(pool.map(x => x.chap.idee))].join(" ");
+      `« ${x.oeuvre.titre} » (${x.oeuvre.artiste}, ${x.oeuvre.annee}) : ${x.oeuvre.explication || x.oeuvre.analyse || ""} ${x.oeuvre.contexte || ""}`).join("\n")
+      + "\n" + [...new Set(pool.map(x => x.chap.idee).filter(Boolean))].join(" ");
     const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "quiz", contenu, n: 7 }) });
     if (r.ok) { const d = parseQuizJSON((await r.json()).answer); if (d && Array.isArray(d.questions)) d.questions.forEach(q => qs.push({ kind: "text", q: q.q, options: q.options, answer: q.answer, explication: q.explication })); }
   } catch {}
