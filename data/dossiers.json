@@ -2745,24 +2745,78 @@
           "dates": "1598-1680",
           "role": "",
           "wiki": "Gian Lorenzo Bernini",
-          "portrait": "Génie total du baroque romain : sculpteur, architecte, scénographe. Colonnade de Saint-Pierre, baldaquin.",
+          "portrait": "Gian Lorenzo Bernini (1598-1680) est le génie absolu du Baroque, le sculpteur qui a donné au marbre la vie, le mouvement et l'émotion les plus intenses de toute l'histoire. Sculpteur, architecte, scénographe, il a, à lui seul, façonné le visage de la Rome baroque, de la place Saint-Pierre à l'extase de sainte Thérèse.",
           "bio_longue": "Gian Lorenzo Bernini (1598-1680) est au Baroque ce que Michel-Ange fut à la Renaissance : un génie total, adulé, qui domine l'art romain pendant un demi-siècle. Sculpteur prodige (son Apollon et Daphné, où le marbre se transforme en feuillage, est taillé à 24 ans), il est aussi architecte (la colonnade de Saint-Pierre, le baldaquin), scénographe, auteur de comédies. Sa rivalité avec l'architecte Borromini, plus sombre et torturé, alimente la légende. Pour lui, l'art doit émerveiller et émouvoir, fusionner sculpture, architecture et lumière en un spectacle total.",
           "bio_sections": [
             {
-              "h": "Le prodige romain",
-              "p": "Gian Lorenzo Bernini est un prodige : sculpteur dès l'enfance, il taille à 24 ans un Apollon et Daphné où le marbre se transforme en feuillage et en chair sous nos yeux. Rome n'a pas vu pareil génie depuis Michel-Ange."
+              "h": "L'enfance : un prodige du marbre",
+              "p": "Né en 1598 à Naples, fils d'un sculpteur qui l'emmène à Rome, le jeune Gian Lorenzo est un prodige : enfant, il taille déjà le marbre avec une virtuosité qui stupéfie. Le pape Paul V, l'ayant vu à l'œuvre, aurait prédit qu'il serait « le Michel-Ange de son siècle ». Il grandit dans l'admiration de l'antique et la conquête précoce de la gloire."
             },
             {
-              "h": "Le théâtre total",
-              "p": "Son Extase de sainte Thérèse n'est pas qu'une statue : c'est une mise en scène où le marbre devient nuée, où une lumière dorée tombe d'une fenêtre cachée, où des spectateurs sculptés assistent depuis des loges. Le Baroque y devient spectacle immersif."
+              "h": "Le déclic : donner vie à la pierre",
+              "p": "Très jeune, le Bernin réalise pour le cardinal Borghèse une série de groupes qui révolutionnent la sculpture : il y saisit l'instant le plus dramatique, le mouvement en plein élan. Son Apollon et Daphné capte la seconde exacte où la nymphe se métamorphose en laurier, l'écorce gagnant déjà ses doigts. Le marbre devient chair, feuillage, souffle."
             },
             {
-              "h": "L'architecte du Vatican",
-              "p": "Architecte autant que sculpteur, il dessine la colossale colonnade de la place Saint-Pierre — deux bras de pierre qui « embrassent » les fidèles — et le baldaquin de bronze au cœur de la basilique. Il met en scène la gloire de l'Église."
+              "h": "Le théâtre du marbre",
+              "p": "Le Bernin pense la sculpture comme un théâtre : il met en scène le spectateur, la lumière, l'espace. Son Extase de sainte Thérèse, dans une chapelle romaine, montre la sainte transpercée par la flèche d'un ange dans un nuage de marbre, baignée d'une lumière dorée venue d'une fenêtre cachée. Sculpture, architecture et lumière fusionnent en un spectacle total."
             },
             {
-              "h": "Le maître d'un demi-siècle",
-              "p": "Sa rivalité avec l'architecte Borromini, plus sombre et tourmenté, nourrit la légende. Adulé par les papes, le Bernin domine l'art romain pendant cinquante ans : pour lui, l'art doit émerveiller et émouvoir, en fondant tous les arts en un."
+              "h": "Son moteur : l'émotion et le spectacle sacré",
+              "p": "Ce qui anime le Bernin, c'est l'intensité : rendre visibles l'extase, la terreur, l'effort, l'amour. Au service de la Contre-Réforme, il veut émouvoir, saisir, emporter le croyant. Sa virtuosité technique — un marbre qui semble mou, transparent, vivant — est entièrement au service de cette puissance dramatique."
+            },
+            {
+              "h": "Le message : façonner la Rome baroque",
+              "p": "Architecte des papes, le Bernin dessine la colonnade de la place Saint-Pierre, vaste embrassement de colonnes accueillant les fidèles, le baldaquin de bronze sous la coupole, les fontaines de Rome (la Fontaine des Quatre Fleuves). Il donne à la capitale catholique son visage théâtral et triomphant, qu'elle garde encore."
+            },
+            {
+              "h": "Pourquoi il est un titan, selon les experts",
+              "p": "Les historiens font du Bernin le sculpteur le plus important depuis Michel-Ange et l'incarnation même du Baroque. Gombrich souligne sa maîtrise inouïe du marbre et son génie de la mise en scène, qui ont défini l'art au service de l'émotion et de la foi pour tout un siècle, dans toute l'Europe catholique."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où la Renaissance cherchait l'équilibre serein, le Bernin cherche le mouvement, l'instant culminant, l'émotion débordante. Rival farouche de Borromini, courtisan brillant, travailleur infatigable jusqu'à plus de 80 ans, il a fait de la sculpture un art total, théâtral et bouleversant. Le Baroque, c'est lui."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Apollon et Daphné",
+              "artiste": "Le Bernin",
+              "annee": "1622-1625",
+              "lieu": "Galerie Borghèse, Rome",
+              "wiki": "Apollo and Daphne (Bernini)",
+              "analyse": "L'instant exact où Daphné, poursuivie par Apollon, se métamorphose en laurier : l'écorce gagne ses jambes, ses doigts deviennent feuilles, ses cheveux branches. Le marbre saisit le mouvement et la transformation en plein élan. Une prouesse technique stupéfiante."
+            },
+            {
+              "titre": "L'Extase de sainte Thérèse",
+              "artiste": "Le Bernin",
+              "annee": "1647-1652",
+              "lieu": "Santa Maria della Vittoria, Rome",
+              "wiki": "Ecstasy of Saint Teresa",
+              "analyse": "Un ange souriant transperce d'une flèche le cœur de sainte Thérèse, pâmée sur un nuage de marbre, baignée de rayons dorés et d'une lumière venue d'une fenêtre cachée. Extase mystique et sensuelle : sculpture, architecture et lumière fondues en spectacle total."
+            },
+            {
+              "titre": "La Fontaine des Quatre Fleuves",
+              "artiste": "Le Bernin",
+              "annee": "1648-1651",
+              "lieu": "Piazza Navona, Rome",
+              "wiki": "Fontana dei Quattro Fiumi",
+              "analyse": "Quatre figures colossales personnifiant les grands fleuves des continents s'agitent autour d'un rocher surmonté d'un obélisque, dans une eau jaillissante. Théâtre baroque en plein air, exubérant et dynamique, au cœur de Rome."
+            },
+            {
+              "titre": "David",
+              "artiste": "Le Bernin",
+              "annee": "1623-1624",
+              "lieu": "Galerie Borghèse, Rome",
+              "wiki": "David (Bernini)",
+              "analyse": "Contrairement au David serein de Michel-Ange, celui du Bernin est saisi en pleine action, le corps tordu, le visage crispé par l'effort, au moment de lancer la pierre. Le spectateur devient Goliath. Le mouvement et la tension baroques par excellence."
+            },
+            {
+              "titre": "L'Enlèvement de Proserpine",
+              "artiste": "Le Bernin",
+              "annee": "1621-1622",
+              "lieu": "Galerie Borghèse, Rome",
+              "wiki": "The Rape of Proserpina",
+              "analyse": "Pluton empoigne Proserpine qui se débat ; les doigts du dieu s'enfoncent dans la cuisse de marbre comme dans une chair vivante. Détail prodigieux qui résume le génie du Bernin : faire de la pierre la plus dure l'illusion de la chair la plus tendre."
             }
           ]
         },
@@ -3034,24 +3088,70 @@
           "dates": "1594-1665",
           "role": "",
           "wiki": "Nicolas Poussin",
-          "portrait": "Français à Rome ; baroque classique et intellectuel : raison, ordre, antiquité.",
+          "portrait": "Nicolas Poussin (1594-1665) est le père du classicisme français et le peintre-philosophe par excellence. Installé à Rome, nourri d'Antiquité et de raison, il a fait de la peinture un art de la pensée et de l'ordre — l'exact contraire de l'exubérance baroque, et le modèle de toute la tradition académique française.",
           "bio_longue": "Nicolas Poussin (1594-1665) est le grand classique français, paradoxalement installé à Rome presque toute sa vie. Cultivé, philosophe, il compose ses tableaux comme on construit une démonstration : équilibre, clarté, références à l'Antiquité et au stoïcisme. Il travaille lentement, pour des amateurs lettrés, loin des grandes commandes spectaculaires. Son art « qui pense » fonde une tradition française de la raison et de l'ordre, opposée à l'exubérance baroque, et qui mènera jusqu'à David et au néoclassicisme.",
           "bio_sections": [
             {
-              "h": "Un Français à Rome",
-              "p": "Nicolas Poussin, Normand, s'installe presque toute sa vie à Rome, au contact des ruines antiques et des collectionneurs lettrés. Loin des grandes commandes spectaculaires, il choisit une voie à part."
+              "h": "L'enfance : la Normandie et le départ",
+              "p": "Né en 1594 près des Andelys, en Normandie, dans une famille modeste, Poussin se forme en autodidacte et monte à Paris, puis n'a qu'une obsession : gagner Rome, capitale de l'art et de l'Antiquité. Après plusieurs tentatives, il y parvient à 30 ans et y passera presque toute sa vie, loin des honneurs de la cour de France."
             },
             {
-              "h": "Le baroque qui pense",
-              "p": "Sa peinture est l'inverse du tumulte : ordre, clarté, équilibre, références à l'Antiquité et au stoïcisme. Il compose ses tableaux comme on construit une démonstration — Les Bergers d'Arcadie méditent sur la mort avec une gravité sereine."
+              "h": "Le déclic : Rome et l'Antiquité",
+              "p": "À Rome, Poussin étudie passionnément les statues antiques, Raphaël et Titien. Il y forge son idéal : une peinture savante, réfléchie, fondée sur le dessin, la raison et l'harmonie. Il travaille pour un cercle d'amateurs cultivés qui goûtent ses sujets érudits, tirés de la mythologie, de l'histoire et de la Bible."
             },
             {
-              "h": "Pour les amateurs lettrés",
-              "p": "Il travaille lentement, pour un cercle d'amateurs cultivés capables de lire ses allégories savantes. C'est un peintre-philosophe, qui s'adresse à l'intelligence plus qu'aux sens."
+              "h": "La peinture comme pensée",
+              "p": "Pour Poussin, peindre, c'est d'abord penser et composer : il dispose ses figures comme des acteurs sur une scène, calcule chaque geste, chaque expression, pour exprimer clairement une idée morale ou philosophique. Il modelait même de petites figurines de cire dans une boîte pour régler l'éclairage et les poses. Rien n'est laissé au hasard."
             },
             {
-              "h": "Le père du classicisme français",
-              "p": "Sa rigueur fonde une tradition française de la raison et de l'ordre, opposée à l'exubérance baroque, qui traversera les siècles et mènera jusqu'à David et au néoclassicisme. « Poussiniste » deviendra synonyme de classique."
+              "h": "Son moteur : l'ordre, la raison, la mesure",
+              "p": "Ce qui guide Poussin, c'est la quête de l'ordre et de la clarté : composition équilibrée, gestes lisibles, sujet noble. Il se méfie de l'émotion facile et du spectacle baroque. Sa devise pourrait être la raison : la beauté naît de la justesse, de la mesure, de l'intelligence de la composition."
+            },
+            {
+              "h": "Le message : la sagesse et le temps",
+              "p": "Poussin médite sur les grands thèmes : la mort, le destin, le temps. Dans Les Bergers d'Arcadie, des bergers découvrent un tombeau portant l'inscription « Et in Arcadia ego » (« Moi aussi, je suis en Arcadie » — la mort parle) : même au paradis, la mort règne. Sa peinture est une philosophie en images, grave et sereine."
+            },
+            {
+              "h": "Pourquoi il est fondateur, selon les experts",
+              "p": "Les historiens font de Poussin le fondateur du classicisme français et la référence de l'Académie pendant deux siècles : le « parti de Poussin » (le dessin, la raison) s'opposera longtemps au « parti de Rubens » (la couleur). Cézanne voulait « refaire Poussin sur nature ». Gombrich souligne son rôle de modèle de l'art réfléchi et ordonné."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Au cœur du siècle baroque exubérant, Poussin choisit la retenue, la gravité, la pensée. Là où le Bernin emporte, lui fait réfléchir. Solitaire, exigeant, vivant modestement à Rome pour un petit cercle de connaisseurs, il incarne l'idéal du peintre-philosophe, et son influence sur l'art français sera immense et durable."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les Bergers d'Arcadie (Et in Arcadia ego)",
+              "artiste": "Poussin",
+              "annee": "v. 1638-1640",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Et in Arcadia ego",
+              "analyse": "Des bergers d'un âge d'or idéal déchiffrent l'inscription d'un tombeau : « Et in Arcadia ego » — même ici, au paradis, la mort est présente. Composition d'une sérénité parfaite et méditation philosophique sur la fragilité du bonheur. Le classicisme pensant."
+            },
+            {
+              "titre": "L'Enlèvement des Sabines",
+              "artiste": "Poussin",
+              "annee": "v. 1637-1638",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "The Abduction of the Sabine Women (Poussin)",
+              "analyse": "Sur un signal de Romulus, les Romains enlèvent les femmes sabines dans un tumulte de corps et de gestes — mais chaque figure est calculée, lisible, comme une chorégraphie figée. La violence ordonnée par la raison : Poussin compose le chaos lui-même."
+            },
+            {
+              "titre": "La Mort de Germanicus",
+              "artiste": "Poussin",
+              "annee": "1627",
+              "lieu": "Minneapolis Institute of Art",
+              "wiki": "The Death of Germanicus",
+              "analyse": "Le général romain mourant, entouré de ses fidèles qui jurent vengeance, dans une composition de bas-relief antique. Œuvre fondatrice du tableau d'histoire classique : la gravité morale et la clarté de la composition au service d'un exemple de vertu."
+            },
+            {
+              "titre": "La Danse de la vie humaine",
+              "artiste": "Poussin",
+              "annee": "v. 1634-1636",
+              "lieu": "Wallace Collection, Londres",
+              "wiki": "A Dance to the Music of Time",
+              "analyse": "Quatre figures (la Pauvreté, le Travail, la Richesse, le Plaisir) dansent en ronde au son de la lyre du Temps ailé, tandis qu'Apollon traverse le ciel. Allégorie philosophique du cycle de la fortune humaine : la peinture comme méditation sur le destin."
             }
           ]
         },
@@ -3061,19 +3161,53 @@
           "dates": "1600-1682",
           "role": "",
           "wiki": "Claude Lorrain",
-          "portrait": "Paysages idéaux baignés de lumière dorée.",
+          "portrait": "Claude Gellée, dit Le Lorrain (1600-1682), est le maître du paysage idéal et le poète de la lumière. Installé à Rome, il a inventé un paysage classique baigné de soleil — ports antiques, ruines, lumière dorée du couchant — dont la sérénité fascinera l'Angleterre et marquera profondément Turner.",
           "bio_sections": [
             {
-              "h": "Le poète de la lumière",
-              "p": "Claude Gellée, dit Le Lorrain, installé à Rome, invente le paysage idéal classique."
+              "h": "L'enfance : de la Lorraine à Rome",
+              "p": "Né vers 1600 en Lorraine, dans une famille modeste, orphelin jeune, Claude Gellée part très tôt pour Rome, où il aurait d'abord été pâtissier au service d'un peintre. Il y apprend la peinture et ne quittera quasiment plus la campagne romaine, dont la lumière et les ruines deviendront la matière de toute son œuvre."
             },
             {
-              "h": "Le soleil dans le tableau",
-              "p": "Ports antiques, lumière dorée du couchant, ruines et arbres équilibrés : il est le premier à oser peindre le soleil lui-même au cœur de la toile, baignant tout d'or."
+              "h": "Le déclic : la campagne romaine et la lumière",
+              "p": "Le Lorrain passe ses journées dans la campagne romaine, à dessiner les arbres, les ruines, les jeux de la lumière à différentes heures. De ces études naît son art : recomposer en atelier des paysages idéaux, parfaits, baignés d'une lumière qui est le vrai sujet. Il est l'un des premiers à étudier la lumière naturelle avec une telle attention."
             },
             {
-              "h": "L'idéal du paysage",
-              "p": "Sa sérénité lumineuse fascinera les Anglais et marquera profondément Turner, qui voulut rivaliser avec lui."
+              "h": "Le paysage idéal",
+              "p": "Ses tableaux suivent une formule devenue classique : un grand espace s'ouvrant vers l'horizon, des arbres équilibrés sur les côtés, des ruines antiques, de petites figures mythologiques ou bibliques, et au centre, souvent, le soleil. Tout est ordonné pour conduire l'œil vers la lumière du lointain, dans une harmonie sereine."
+            },
+            {
+              "h": "Son moteur : peindre la lumière elle-même",
+              "p": "L'obsession du Lorrain, c'est la lumière : il ose, le premier, peindre le soleil lui-même au cœur de la toile, baignant tout d'or, faisant vibrer la brume et les reflets sur l'eau. Le sujet (mythologique ou biblique) n'est qu'un prétexte ; ce qui compte, c'est l'atmosphère lumineuse, l'heure dorée du matin ou du soir."
+            },
+            {
+              "h": "Le message : la sérénité d'un âge d'or",
+              "p": "Le Lorrain peint un monde idéal et apaisé, un âge d'or rêvé où la nature, les ruines et la lumière s'accordent en une harmonie parfaite. Ses ports antiques au soleil couchant évoquent la nostalgie d'une grandeur passée et la paix d'un monde idéalisé, hors du temps."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font du Lorrain le maître du paysage classique, dont l'influence fut immense, surtout en Angleterre : les amateurs anglais en raffolaient, et Turner voulut explicitement rivaliser avec lui, allant jusqu'à léguer ses toiles à condition qu'elles soient exposées à côté des siennes. Gombrich en fait le poète de la lumière idéale."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Poussin, son ami et compatriote à Rome, met l'accent sur la pensée et la composition des figures, Le Lorrain met tout dans la lumière et l'atmosphère du paysage. Discret, méthodique (il tenait un registre dessiné de ses œuvres pour déjouer les faux), il a fait du paysage un genre noble et lyrique, ancêtre de Turner."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Port de mer avec l'embarquement de la reine de Saba",
+              "artiste": "Le Lorrain",
+              "annee": "1648",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Seaport with the Embarkation of the Queen of Sheba",
+              "analyse": "Un port antique au soleil levant : la lumière dorée se reflète sur l'eau entre les palais et les vaisseaux, tandis que de petites figures s'affairent à l'embarquement. Le soleil lui-même au cœur du tableau : la lumière idéale qui obséda Turner."
+            },
+            {
+              "titre": "Port de mer avec l'embarquement de sainte Ursule",
+              "artiste": "Le Lorrain",
+              "annee": "1641",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Embarkation of Saint Ursula",
+              "analyse": "Autre port idéal baigné de la lumière du matin, architectures équilibrées de part et d'autre, vaisseaux à quai, l'horizon lumineux au centre. La formule parfaite du paysage classique : l'œil conduit vers la clarté dorée du lointain."
             }
           ]
         }
@@ -3420,24 +3554,62 @@
           "dates": "~1582-1666",
           "role": "",
           "wiki": "Frans Hals",
-          "portrait": "Haarlem ; portraits éclatants de vie, touche rapide et libre (Le Cavalier riant).",
+          "portrait": "Frans Hals (v. 1582-1666) est le grand portraitiste de l'âge d'or hollandais, le peintre du rire, de la vie et de la spontanéité. Par une touche libre, rapide, presque esquissée, il a capté l'instant vivant — un sourire, un regard, un éclat — avec une modernité qui fascinera Manet et les impressionnistes.",
           "bio_longue": "Frans Hals (vers 1582-1666), de Haarlem, est le peintre de la vie qui jaillit. Sa touche rapide, libre, presque esquissée, saisit le sourire, le rire, le mouvement — c'est le contraire du portrait figé. Ses gardes civiques attablés débordent d'énergie et de bonhomie. Très demandé puis passé de mode, il finit pauvre, secouru par la ville ; ses derniers portraits, gris et graves, sont d'une profondeur saisissante.",
           "bio_sections": [
             {
-              "h": "Haarlem, la touche libre",
-              "p": "Frans Hals, de Haarlem, est le peintre de la vie qui jaillit. Sa touche est rapide, large, presque esquissée — révolutionnaire pour l'époque, où l'on attendait un fini lisse."
+              "h": "Les origines : Haarlem",
+              "p": "Né vers 1582 à Anvers dans une famille flamande qui fuit la guerre, Frans Hals grandit à Haarlem, prospère cité hollandaise, où il passera toute sa vie. Dans cette société bourgeoise, calviniste et marchande, sans cour ni grandes commandes religieuses, le portrait — individuel ou de groupe — est la grande demande, et Hals va en devenir le maître."
             },
             {
-              "h": "Le rire et le mouvement",
-              "p": "Là où le portrait était figé, Hals saisit le sourire, le rire, le geste suspendu (Le Cavalier riant). Ses gardes civiques attablés débordent d'énergie et de bonhomie."
+              "h": "Le déclic : saisir l'instant vivant",
+              "p": "Là où le portrait traditionnel fige le modèle dans une pose solennelle, Hals fait le contraire : il saisit ses modèles en plein mouvement, riant, parlant, le verre à la main, comme surpris dans l'instant. Le Joyeux Buveur, le Cavalier riant : ses portraits semblent vivants, attrapés à la volée."
             },
             {
-              "h": "Le déclin",
-              "p": "Très demandé puis passé de mode, il finit pauvre, secouru par la ville de Haarlem qui lui verse une petite pension."
+              "h": "La touche libre",
+              "p": "Le secret de Hals, c'est sa touche : rapide, large, visible, presque négligée — des coups de pinceau jetés qui, de loin, composent une dentelle, un sourire, un reflet. Cette spontanéité, révolutionnaire pour l'époque, donne à ses portraits une fraîcheur et une vie inédites. Il peint vite, et cela se voit, et c'est magnifique."
             },
             {
-              "h": "La gravité finale",
-              "p": "Ses derniers portraits, gris et graves, atteignent une profondeur saisissante. Sa touche audacieuse fascinera les modernes, de Manet aux impressionnistes."
+              "h": "Son moteur : la vie et la franchise",
+              "p": "Ce qui anime Hals, c'est l'énergie vitale : il aime les visages animés, les rires, les buveurs, les bohémiens. Il peint ses bourgeois de Haarlem avec une vivacité chaleureuse, et les marginaux (Malle Babbe, la « folle » au hibou) avec une humanité sans fard. La vie, prise sur le vif, est son sujet."
+            },
+            {
+              "h": "Le message : la dignité de toute une société",
+              "p": "Hals immortalise la société de Haarlem : les officiers des gardes civiques dans de grands banquets pleins de vie, les régents et régentes d'hospices dans leur austérité. À la fin de sa vie, pauvre et âgé, il peint les Régentes de l'hospice des vieillards avec une gravité saisissante : la vieillesse et la dignité regardées en face."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Longtemps éclipsé par Rembrandt, Hals est redécouvert au XIXe siècle et devient une idole : Manet, Van Gogh et les impressionnistes admirent sa touche libre, ancêtre de la peinture moderne. Gombrich souligne qu'il a, le premier, capté l'instant fugitif et le mouvement de la vie dans le portrait."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Rembrandt sonde l'âme dans l'ombre et la profondeur, Hals capte la surface vivante, l'éclat de l'instant, dans la lumière du jour. Sa spontanéité joyeuse en fait l'opposé complémentaire de Rembrandt. Mort pauvre et oublié à plus de 80 ans, il est aujourd'hui célébré comme l'un des plus modernes des anciens."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Cavalier riant",
+              "artiste": "Frans Hals",
+              "annee": "1624",
+              "lieu": "Wallace Collection, Londres",
+              "wiki": "Laughing Cavalier",
+              "analyse": "Un jeune homme à la moustache relevée et au sourire en coin nous toise, légèrement de biais, dans un costume brodé d'une virtuosité éblouissante. Vie, esprit et touche libre : l'un des portraits les plus vivants et célèbres de tout l'art hollandais."
+            },
+            {
+              "titre": "Malle Babbe",
+              "artiste": "Frans Hals",
+              "annee": "v. 1633-1635",
+              "lieu": "Gemäldegalerie, Berlin",
+              "wiki": "Malle Babbe",
+              "analyse": "Une vieille femme du peuple, dite « la folle de Haarlem », rit aux éclats, une chope à la main, un hibou sur l'épaule. Peinte d'une touche fougueuse et rapide, elle est saisie dans un éclat de vie brut : Hals regarde les marginaux avec une humanité chaleureuse."
+            },
+            {
+              "titre": "Les Régentes de l'hospice des vieillards",
+              "artiste": "Frans Hals",
+              "annee": "1664",
+              "lieu": "Musée Frans Hals, Haarlem",
+              "wiki": "Regentesses of the Old Men's Almshouse",
+              "analyse": "Cinq vieilles femmes en noir, administratrices d'un hospice, fixent le spectateur avec une gravité austère et lasse. Peinte par un Hals de plus de 80 ans, pauvre et lui-même assisté : la vieillesse et la dignité regardées sans complaisance, d'une touche presque tremblée."
             }
           ]
         },
@@ -3447,16 +3619,54 @@
           "dates": "1628-1682",
           "role": "",
           "wiki": "Jacob van Ruisdael",
-          "portrait": "Le grand paysagiste, ciels dramatiques.",
+          "portrait": "Jacob van Ruisdael (v. 1628-1682) est le plus grand paysagiste de l'âge d'or hollandais. Là où ses contemporains peignaient des vues plaisantes, il a donné au paysage une profondeur, une gravité et une émotion presque romantiques — ciels immenses, forêts sombres, moulins et cimetières chargés de mélancolie.",
           "bio_longue": "Jacob van Ruisdael (1628-1682) est le plus grand paysagiste hollandais. Sous d'immenses ciels mouvants qui occupent les deux tiers de la toile, il peint la campagne, les moulins, les forêts et les ruines avec une gravité presque mélancolique. Il élève le paysage — genre jusque-là mineur — au rang de grand art, et influencera profondément les romantiques anglais comme Constable.",
           "bio_sections": [
             {
-              "h": "Le grand paysagiste",
-              "p": "Jacob van Ruisdael est le maître du paysage hollandais, genre nouveau né de la fierté d'un pays gagné sur les eaux."
+              "h": "Les origines : une famille de paysagistes",
+              "p": "Né vers 1628 à Haarlem dans une famille de peintres de paysage (son père et son oncle en étaient), Jacob van Ruisdael grandit dans ce genre qu'il portera à son sommet. La Hollande, pays plat gagné sur les eaux, fière de sa terre et de son ciel, fait du paysage un genre national — et Ruisdael en devient le maître incontesté."
             },
             {
-              "h": "Le ciel comme sujet",
-              "p": "Ciels immenses et changeants, moulins, forêts sombres, cimetières : il donne au paysage une gravité et une mélancolie presque romantiques, bien avant l'heure."
+              "h": "Le déclic : la grandeur du ciel et de la terre",
+              "p": "Ruisdael ne se contente pas de jolies vues : il cherche la grandeur et l'émotion. Ses ciels occupent souvent les deux tiers de la toile, immenses, chargés de nuages mouvants ; la terre, en dessous, vibre des passages d'ombre et de lumière. Le paysage devient un drame de la nature, vaste et émouvant."
+            },
+            {
+              "h": "Le paysage chargé d'émotion",
+              "p": "Forêts sombres et touffues, torrents, ruines, moulins dressés contre le ciel, cimetières aux tombes envahies : Ruisdael charge ses paysages d'une gravité, d'une mélancolie, parfois d'une angoisse qui annoncent le romantisme deux siècles avant l'heure. La nature y exprime des sentiments."
+            },
+            {
+              "h": "Son moteur : la nature comme méditation",
+              "p": "Ce qui anime Ruisdael, c'est une sensibilité profonde à la nature comme miroir de la condition humaine : la fuite du temps, la fragilité de la vie, la puissance des éléments. Le Cimetière juif, avec ses ruines, ses tombes et son arc-en-ciel sur un ciel d'orage, est une véritable méditation sur la mort et la résurrection."
+            },
+            {
+              "h": "Le message : la dignité du paysage",
+              "p": "Ruisdael élève le paysage hollandais au rang de grand art chargé de sens : ses moulins, ses dunes, ses forêts ne sont pas de simples décors mais des présences puissantes. Le Moulin de Wijk, dressé seul contre un ciel immense au-dessus de l'eau, est devenu une image emblématique de la Hollande et de sa lutte avec les éléments."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Ruisdael le plus grand paysagiste hollandais et un précurseur du romantisme. Son influence fut considérable : Constable et les romantiques allemands (Friedrich) lui doivent beaucoup. Gombrich souligne qu'il a, le premier, su faire du paysage l'expression d'une émotion et d'une méditation, et non un simple agrément."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où les autres paysagistes hollandais cherchent le charme et la précision, Ruisdael cherche la grandeur, la gravité, l'émotion. Sa mélancolie et sa puissance dramatique le distinguent et l'élèvent. Mort dans une relative pauvreté, il est aujourd'hui reconnu comme le maître qui a donné une âme au paysage."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Moulin de Wijk",
+              "artiste": "Jacob van Ruisdael",
+              "annee": "v. 1670",
+              "lieu": "Rijksmuseum, Amsterdam",
+              "wiki": "The Windmill at Wijk bij Duurstede",
+              "analyse": "Un moulin massif se dresse, seul et monumental, contre un ciel immense et chargé, au-dessus de l'eau où passent des barques. Image emblématique de la Hollande et de sa lutte avec les éléments : le paysage élevé à une grandeur presque héroïque."
+            },
+            {
+              "titre": "Le Cimetière juif",
+              "artiste": "Jacob van Ruisdael",
+              "annee": "v. 1655-1660",
+              "lieu": "Gemäldegalerie, Dresde / Detroit",
+              "wiki": "The Jewish Cemetery",
+              "analyse": "Des tombes au milieu de ruines, un arbre foudroyé, un torrent, un arc-en-ciel perçant un ciel d'orage. Méditation puissante sur la mort, le temps et l'espérance : le paysage devient un drame spirituel, annonçant le romantisme deux siècles avant l'heure."
             }
           ]
         },
@@ -3466,15 +3676,45 @@
           "dates": "1626-1679",
           "role": "",
           "wiki": "Jan Steen",
-          "portrait": "Scènes de genre pleines d'humour et de désordre.",
+          "portrait": "Jan Steen (v. 1626-1679) est le grand conteur joyeux de l'âge d'or hollandais : peintre des fêtes de famille, des tavernes et des intérieurs en désordre, il a fait de la comédie de mœurs un art truculent et plein de vie — sous lequel se cache toujours une malicieuse leçon de morale.",
           "bio_sections": [
             {
-              "h": "Le conteur joyeux",
-              "p": "Jan Steen peint des intérieurs animés, tavernes et fêtes de famille pleines de désordre joyeux."
+              "h": "L'enfance : le fils du brasseur de Leyde",
+              "p": "Né vers 1626 à Leyde dans une famille de brasseurs, Jan Steen baigne dès l'enfance dans le monde des auberges et de la convivialité qu'il peindra sans cesse. Il sera lui-même, en plus de peintre, tenancier d'auberge et brasseur — connaissant de l'intérieur le monde joyeux et débraillé qu'il met en scène."
             },
             {
-              "h": "La morale en riant",
-              "p": "Sous l'humour (« un ménage de Jan Steen » est resté un dicton du désordre) se cache une leçon de morale sur les excès — instruire en amusant."
+              "h": "Le déclic : peindre la comédie humaine",
+              "p": "Steen se spécialise dans la scène de genre animée : fêtes, banquets, noces de village, intérieurs familiaux pleins de monde et de désordre. Il a un don rare de conteur et de metteur en scène : ses tableaux fourmillent de personnages, d'anecdotes et d'expressions, comme des scènes de théâtre comique."
+            },
+            {
+              "h": "Le désordre joyeux",
+              "p": "Ses intérieurs sont si animés et chaotiques qu'« un ménage de Jan Steen » est resté, en néerlandais, un dicton pour désigner une maison sens dessus dessous. Enfants turbulents, parents distraits, animaux, plats renversés : Steen peint la vie de famille dans toute sa pagaille joyeuse et tendre."
+            },
+            {
+              "h": "Son moteur : amuser et instruire",
+              "p": "Sous la truculence, Steen glisse presque toujours une leçon de morale : ses scènes de désordre illustrent des proverbes (« comme chantent les vieux, les jeunes sifflent » — les enfants imitent les défauts des parents). Il dénonce en riant l'ivrognerie, la paresse, la mauvaise éducation. Le rire est au service de la sagesse."
+            },
+            {
+              "h": "Le message : la sagesse populaire en images",
+              "p": "Steen est l'héritier de Bruegel : il observe les travers humains avec un mélange de tendresse et d'ironie. Ses tableaux sont des comédies de mœurs où chacun peut se reconnaître et rire de soi tout en méditant la leçon. Une morale souriante, jamais pesante, profondément humaine."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Jan Steen l'un des plus grands peintres de genre hollandais et un conteur incomparable. Gombrich souligne son art de la composition animée et de la narration, et la finesse psychologique cachée sous l'apparente bouffonnerie : un humoriste profond, observateur lucide de la nature humaine."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où de Hooch et Vermeer peignent le silence et l'ordre des intérieurs, Steen peint le bruit, le mouvement, le désordre joyeux. Son humour, sa verve, sa truculence en font un cas à part : le grand comique de l'âge d'or, qui fait rire pour mieux faire réfléchir."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Fête de la Saint-Nicolas",
+              "artiste": "Jan Steen",
+              "annee": "v. 1665-1668",
+              "lieu": "Rijksmuseum, Amsterdam",
+              "wiki": "The Feast of Saint Nicholas",
+              "analyse": "Le matin de la Saint-Nicolas : une fillette serre ses cadeaux, un garçon pleure d'avoir été puni, les parents rient, la grand-mère fait signe. Toute une famille saisie dans un instant de vie joyeuse et désordonnée, peinte avec une tendresse et une verve incomparables."
             }
           ]
         },
@@ -3484,15 +3724,53 @@
           "dates": "1629-1684",
           "role": "",
           "wiki": "Pieter de Hooch",
-          "portrait": "Intérieurs paisibles, lumière (proche de Vermeer).",
+          "portrait": "Pieter de Hooch (1629-1684) est le poète de l'intérieur hollandais et de la lumière domestique. Proche de Vermeer à Delft, il a peint avec une tendresse paisible les cours et les pièces des maisons bourgeoises, et excellé à faire passer la lumière de seuil en seuil, jusqu'au fond ensoleillé.",
           "bio_sections": [
             {
-              "h": "L'intimité de la maison",
-              "p": "Pieter de Hooch, proche de Vermeer à Delft, peint la paix des intérieurs bourgeois et des cours hollandaises."
+              "h": "Les origines : Rotterdam et Delft",
+              "p": "Né en 1629 à Rotterdam, fils d'un maçon, Pieter de Hooch se forme et travaille surtout à Delft, dans les années où Vermeer y œuvre aussi. C'est là, dans cette ville paisible et lumineuse, qu'il réalise ses chefs-d'œuvre : des scènes d'intérieur et de cour d'un calme et d'une douceur inégalés."
             },
             {
-              "h": "La lumière des seuils",
-              "p": "Sa spécialité : enfilades de pièces et portes ouvertes où la lumière passe de salle en salle, jusqu'à la cour ensoleillée — un art tendre de l'espace domestique."
+              "h": "Le déclic : la lumière domestique",
+              "p": "De Hooch se spécialise dans la vie domestique tranquille : une femme épluche des légumes, range du linge, surveille un enfant dans une cour ensoleillée. Mais son vrai sujet est la lumière : comment elle entre par une porte, traverse une pièce, illumine un mur, un carrelage, un coin de cour."
+            },
+            {
+              "h": "L'art des seuils et des perspectives",
+              "p": "Sa grande invention est l'enfilade : des pièces et des portes ouvertes les unes sur les autres, à travers lesquelles le regard et la lumière voyagent, de l'intérieur sombre jusqu'à la cour ou la rue ensoleillée du fond. Ces perspectives de seuils créent une profondeur paisible et une poésie de l'espace domestique."
+            },
+            {
+              "h": "Son moteur : la paix du quotidien",
+              "p": "Ce qui guide de Hooch, c'est l'amour du calme et de l'ordre domestique : la propreté des sols, la lumière sur un mur de brique, la tendresse d'une mère et d'un enfant. Ses scènes respirent la sérénité, la sécurité du foyer bourgeois hollandais, valeur centrale de cette société."
+            },
+            {
+              "h": "Le message : la dignité de la maison",
+              "p": "Comme Vermeer, de Hooch élève la vie domestique la plus simple à la dignité d'un sujet de tableau : une femme dans sa cour, un enfant qu'on guide, une pièce balayée de lumière deviennent des images de paix et d'harmonie. Il célèbre les vertus tranquilles du foyer et de la vie ordonnée."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Pieter de Hooch, avec Vermeer, le maître de la scène d'intérieur de Delft. Gombrich souligne sa maîtrise de la lumière et de l'espace, ses perspectives de pièces en enfilade qui créent une profondeur et une poésie uniques du quotidien domestique."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Proche de Vermeer, de Hooch est un peu moins mystérieux et plus narratif : il aime les enfilades, les cours, les scènes de vie. Là où Steen montre le désordre joyeux, lui montre l'ordre paisible et la lumière. Ses meilleures années, à Delft, ont produit quelques-unes des plus belles images de paix domestique de tout l'art."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Cour d'une maison à Delft",
+              "artiste": "Pieter de Hooch",
+              "annee": "1658",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Courtyard of a House in Delft",
+              "analyse": "Une femme et un enfant descendent un escalier dans une cour de brique ensoleillée, tandis qu'au fond, par un passage, on aperçoit une autre figure et la rue. Lumière, ordre et tendresse domestique : la poésie des seuils et des perspectives chère à de Hooch."
+            },
+            {
+              "titre": "Femme buvant avec deux hommes",
+              "artiste": "Pieter de Hooch",
+              "annee": "v. 1658",
+              "lieu": "National Gallery, Londres",
+              "wiki": "A Woman Drinking with Two Men",
+              "analyse": "Dans un intérieur clair, une femme trinque avec deux hommes tandis qu'une servante s'affaire ; la lumière entre par les fenêtres et une porte ouverte au fond. Scène de convivialité élégante, baignée de la lumière limpide de Delft."
             }
           ]
         },
@@ -4003,20 +4281,54 @@
           "dates": "1703-1770",
           "role": "",
           "wiki": "François Boucher",
-          "portrait": "Rococo sensuel et décoratif, peintre de Madame de Pompadour.",
+          "portrait": "François Boucher (1703-1770) est le peintre par excellence du Rococo français et du goût de la cour de Louis XV. Favori de la marquise de Pompadour, virtuose de la grâce décorative, il a couvert palais et salons de Vénus roses, de bergères galantes et de pastorales charmantes — l'incarnation même du plaisir aristocratique.",
           "bio_longue": "François Boucher (1703-1770) est le Rococo dans sa version la plus sensuelle et décorative. Peintre favori de Madame de Pompadour, maîtresse de Louis XV, il produit des Vénus roses et potelées, des bergères galantes, des pastorales charmantes, dans des tons de pastel acidulés. Virtuose et infatigable décorateur, il incarne le goût d'une cour qui ne veut que plaire — ce que les Lumières lui reprocheront bientôt amèrement.",
           "bio_sections": [
             {
-              "h": "Le peintre de Pompadour",
-              "p": "François Boucher est le peintre favori de Madame de Pompadour, maîtresse de Louis XV, et l'incarnation du goût rococo de la cour."
+              "h": "L'enfance : Paris et le dessin",
+              "p": "Né en 1703 à Paris, fils d'un petit maître peintre qui lui apprend le métier, Boucher est un dessinateur précoce et infatigable. Lauréat du prix de Rome, il complète sa formation en Italie, mais c'est l'esprit léger et galant de son temps, plus que la grandeur antique, qui orientera tout son art."
             },
             {
-              "h": "Sensualité décorative",
-              "p": "Vénus roses et potelées, bergères galantes, pastorales charmantes, tons pastel acidulés : il ne veut que plaire et décorer."
+              "h": "Le déclic : la faveur de Madame de Pompadour",
+              "p": "Boucher devient le peintre favori de la marquise de Pompadour, maîtresse cultivée de Louis XV et arbitre du goût. Il la portraiture, décore ses demeures, conçoit pour elle décors, tapisseries et porcelaines. Cette protection en fait l'artiste le plus en vue du royaume, premier peintre du roi et directeur de l'Académie."
             },
             {
-              "h": "Le reproche des Lumières",
-              "p": "Cette frivolité aristocratique lui sera bientôt reprochée par les Lumières et par Diderot, au nom d'un art plus sérieux et plus moral."
+              "h": "La grâce décorative",
+              "p": "Boucher est un magicien de la composition décorative : Vénus, nymphes et amours aux chairs nacrées et roses, bergères coquettes, pastorales idéales, dans des tons pastel acidulés et des compositions tourbillonnantes. Tout n'est que charme, élégance et sensualité légère, fait pour plaire à l'œil et orner les murs des palais."
+            },
+            {
+              "h": "Son moteur : plaire et décorer",
+              "p": "Boucher ne cherche ni à émouvoir gravement ni à instruire : il veut plaire, charmer, décorer. Travailleur prodigieux, il produit une quantité immense de tableaux, dessins, esquisses et modèles. Son art est celui du plaisir pur, de la joliesse raffinée, parfaitement accordé à l'insouciance de la cour."
+            },
+            {
+              "h": "Le message : le Rococo et ses critiques",
+              "p": "Boucher incarne l'esprit du Rococo à son apogée — mais aussi ce que les Lumières vont bientôt lui reprocher. Diderot le critique vivement : trop de fard, pas de vérité, pas de morale. Cette frivolité aristocratique, brillante mais creuse aux yeux des philosophes, annonce déjà le retour à l'ordre sérieux qui viendra avec David."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Boucher l'incarnation parfaite du goût Rococo et du style Louis XV, et un décorateur d'un talent immense. Gombrich le situe au cœur de cet art de cour fait pour le plaisir, dont la grâce séduisante allait bientôt être balayée par le sérieux néoclassique. Un sommet et un symbole de son époque."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Chardin, son contemporain, choisit le silence et la vérité humble, Boucher choisit le brillant, la sensualité et le décor. Maître de l'agrément, peintre du bonheur facile, il est l'antithèse exacte de la gravité à venir. Son nom reste, pour le meilleur et pour le pire, synonyme du Rococo et de la douceur de vivre de l'Ancien Régime."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Toilette de Vénus",
+              "artiste": "Boucher",
+              "annee": "1751",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "The Toilet of Venus (Boucher)",
+              "analyse": "Vénus, nue et rose, est parée par des amours dans un décor de soieries et de fleurs, tons pastel acidulés. Peinte pour la salle de bains de Madame de Pompadour : la grâce sensuelle et décorative du Rococo dans toute sa séduction raffinée."
+            },
+            {
+              "titre": "Portrait de Madame de Pompadour",
+              "artiste": "Boucher",
+              "annee": "1756",
+              "lieu": "Alte Pinakothek, Munich",
+              "wiki": "Madame de Pompadour (Boucher)",
+              "analyse": "La marquise, protectrice de Boucher, étendue dans une robe à fleurs somptueuse, entourée de livres et d'objets d'art qui affichent sa culture. Le portrait d'apparat d'une femme de pouvoir et de goût, sommet de l'élégance Louis XV."
             }
           ]
         },
@@ -4371,20 +4683,62 @@
           "dates": "1697-1764",
           "role": "Angleterre",
           "wiki": "William Hogarth",
-          "portrait": "Satire morale en séries, père de l'art anglais.",
+          "portrait": "William Hogarth (1697-1764) est le père de l'art anglais et l'inventeur de la « comédie morale peinte ». Esprit indépendant et mordant, il a raconté en images, comme un romancier, la société de son temps — ses vices, ses travers, sa corruption — et fait de la gravure un art populaire et satirique.",
           "bio_longue": "William Hogarth (1697-1764) est le père de l'art anglais. Esprit indépendant et mordant, il invente la « comédie morale peinte » : des séries de tableaux qui racontent et critiquent les mœurs de son temps (Mariage à la mode, La Carrière d'un libertin). Diffusées par la gravure, ses séries touchent un large public et font de l'art un instrument de satire sociale. Il se bat aussi pour les droits des artistes et une école anglaise indépendante de l'Italie.",
           "bio_sections": [
             {
-              "h": "Le père de l'art anglais",
-              "p": "William Hogarth, esprit indépendant et mordant, invente la « comédie morale peinte »."
+              "h": "L'enfance : la prison pour dettes",
+              "p": "Né en 1697 à Londres, Hogarth connaît une enfance marquée par la ruine : son père, maître d'école, est emprisonné pour dettes, et la famille vit plusieurs années dans la geôle. Cette expérience de la misère et de l'injustice marquera son regard lucide et critique sur la société anglaise et ses cruautés."
             },
             {
-              "h": "Les séries",
-              "p": "Comme un romancier en images, il déroule scène par scène la déchéance d'un mariage arrangé (Mariage à la mode) ou d'un libertin — l'art devient satire sociale, diffusée par la gravure."
+              "h": "Le déclic : graver pour le peuple",
+              "p": "Formé comme graveur, Hogarth comprend la puissance de l'estampe : reproductible, bon marché, diffusable, elle touche un large public. Il décide d'en faire un art de satire morale, racontant des histoires en plusieurs scènes que tout le monde peut comprendre et acheter — bien avant la bande dessinée et le roman illustré."
             },
             {
-              "h": "Le combat pour l'art anglais",
-              "p": "Il se bat aussi pour les droits des artistes et pour une école anglaise indépendante de l'Italie."
+              "h": "Les « comédies morales »",
+              "p": "Hogarth invente des séries narratives : La Carrière du libertin, Mariage à la mode déroulent, scène par scène comme un roman, la déchéance d'un homme ou l'échec d'un mariage arrangé. Chaque image fourmille de détails à déchiffrer, drôles et accusateurs. L'art devient récit social et leçon de morale."
+            },
+            {
+              "h": "Son moteur : la satire et la vérité",
+              "p": "Ce qui anime Hogarth, c'est la dénonciation des vices de son temps : la débauche, l'alcoolisme (Gin Lane), les mariages d'argent, la cruauté, la corruption. Patriote, il fustige aussi le snobisme anglais pour l'art étranger et se bat pour une école nationale. Son humour est mordant, son regard sans pitié mais profondément humain."
+            },
+            {
+              "h": "Le message : l'art au service de la société",
+              "p": "Pour Hogarth, l'art doit instruire et réformer : montrer les conséquences du vice pour en détourner, dénoncer l'injustice pour l'amender. Il se bat aussi concrètement pour les droits des artistes (une loi sur le copyright des gravures porte son nom) et pour la reconnaissance d'un art anglais indépendant."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Hogarth le fondateur d'une tradition picturale anglaise et l'inventeur de la narration séquentielle satirique. Gombrich souligne son originalité : avoir fait de la peinture et de la gravure un théâtre moral de la vie contemporaine, ouvrant la voie à la caricature et à la critique sociale en images."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le continent peint dieux, saints et princes, Hogarth peint la rue de Londres, ses libertins et ses ivrognes, avec un humour féroce. Indépendant, combatif, profondément anglais, il a créé presque seul un art national et donné à la satire ses lettres de noblesse picturales."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Mariage à la mode",
+              "artiste": "Hogarth",
+              "annee": "1743-1745",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Marriage A-la-Mode (Hogarth)",
+              "analyse": "Série de six tableaux retraçant, comme un roman, le désastre d'un mariage arrangé entre un fils de noble ruiné et une fille de riche bourgeois : ennui, adultère, dettes, mort. Chaque scène fourmille de détails accusateurs. La comédie morale peinte à son sommet."
+            },
+            {
+              "titre": "La Marchande de crevettes",
+              "artiste": "Hogarth",
+              "annee": "v. 1740-1745",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Shrimp Girl",
+              "analyse": "Une jeune vendeuse des rues, panier sur la tête, sourit, saisie d'une touche libre et lumineuse, presque inachevée. Loin de la satire : un instant de vie populaire d'une fraîcheur et d'une spontanéité étonnantes, qui annoncent l'impressionnisme."
+            },
+            {
+              "titre": "Gin Lane",
+              "artiste": "Hogarth",
+              "annee": "1751",
+              "lieu": "gravure (nombreux musées)",
+              "wiki": "Gin Lane",
+              "analyse": "Une rue de Londres ravagée par l'alcool : une mère ivre laisse tomber son bébé, des corps gisent, tout s'effondre. Gravure de combat contre le fléau du gin, diffusée à bas prix pour frapper l'opinion. L'art comme arme sociale."
             }
           ]
         },
@@ -4394,15 +4748,45 @@
           "dates": "1723-1792",
           "role": "Angleterre",
           "wiki": "Joshua Reynolds",
-          "portrait": "Portraitiste savant, premier président de la Royal Academy.",
+          "portrait": "Sir Joshua Reynolds (1723-1792) est le portraitiste le plus savant de l'Angleterre et le premier président de la Royal Academy. Théoricien autant que peintre, il a voulu élever le portrait anglais à la dignité du grand art en le nourrissant des maîtres anciens — fondant ainsi l'école nationale britannique.",
           "bio_sections": [
             {
-              "h": "Le président de l'Academy",
-              "p": "Joshua Reynolds est le portraitiste le plus savant de l'Angleterre et le premier président de la Royal Academy."
+              "h": "L'enfance : le fils du pasteur lettré",
+              "p": "Né en 1723 dans le Devon, fils d'un pasteur et maître d'école cultivé, Reynolds reçoit une éducation soignée qui en fera un homme de lettres autant qu'un peintre. Doué, ambitieux et sociable, il fréquentera toute sa vie l'élite intellectuelle anglaise — Samuel Johnson, Garrick, Burke — et pensera la peinture en théoricien."
+            },
+            {
+              "h": "Le déclic : l'Italie et les maîtres",
+              "p": "Un long séjour en Italie est décisif : Reynolds y étudie Raphaël, Michel-Ange, Titien, les Vénitiens. Il en revient convaincu que le peintre anglais doit s'élever en s'inspirant des grands maîtres, et que le portrait peut atteindre la noblesse de la peinture d'histoire s'il emprunte ses poses et sa grandeur."
             },
             {
               "h": "Le « grand style »",
-              "p": "Dans ses Discours, il prône un portrait noble, nourri de références aux maîtres anciens, élevant le genre à la dignité de la peinture d'histoire."
+              "p": "Reynolds applique au portrait ce qu'il appelle le « grand style » : il pose ses modèles dans des attitudes nobles empruntées à l'antique ou aux maîtres, les drape de références savantes, leur donne une dignité héroïque ou allégorique. Sarah Siddons en Muse tragique trône comme une figure de Michel-Ange."
+            },
+            {
+              "h": "Son moteur : ennoblir et théoriser",
+              "p": "Ce qui guide Reynolds, c'est l'ambition d'élever l'art anglais : faire du portrait un genre noble, et fonder une tradition. Président de la Royal Academy, il prononce ses fameux Discours, où il enseigne aux étudiants l'étude des maîtres et la recherche de la beauté idéale et générale, contre le simple détail."
+            },
+            {
+              "h": "Le message : la grandeur par la culture",
+              "p": "Pour Reynolds, le génie n'est pas un don brut mais le fruit de l'étude et de la culture : l'artiste doit s'élever en assimilant le meilleur de la tradition. Sa peinture érudite, ses portraits qui dialoguent avec Raphaël et Titien, incarnent cette foi dans l'apprentissage et la noblesse de l'art."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Reynolds le fondateur institutionnel de l'art anglais : par la Royal Academy et ses Discours, il a donné à l'Angleterre une école et une doctrine. Gombrich discute sa théorie du « grand style » comme un sommet de la pensée académique, même si l'on préfère parfois la fraîcheur plus naturelle de son rival Gainsborough."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Gainsborough peint d'instinct, avec grâce et légèreté, Reynolds peint avec érudition et ambition théorique. L'un est poète, l'autre savant. Anobli, couvert d'honneurs, Reynolds a fait du portrait anglais un art respectable et savant — et posé les fondations sur lesquelles tout le XIXe siècle britannique se construira."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Sarah Siddons en Muse tragique",
+              "artiste": "Reynolds",
+              "annee": "1784",
+              "lieu": "Huntington Library, San Marino",
+              "wiki": "Sarah Siddons as the Tragic Muse",
+              "analyse": "La grande actrice Sarah Siddons trône comme une allégorie de la Tragédie, dans une pose et une grandeur empruntées à Michel-Ange, encadrée de figures sombres. Le portrait élevé à la dignité de la peinture d'histoire : le « grand style » de Reynolds incarné."
             }
           ]
         },
@@ -4412,20 +4796,62 @@
           "dates": "1727-1788",
           "role": "Angleterre",
           "wiki": "Thomas Gainsborough",
-          "portrait": "Portraits naturels et paysages, rival de Reynolds.",
+          "portrait": "Thomas Gainsborough (1727-1788) est, avec Reynolds, le grand portraitiste anglais du XVIIIe siècle — mais le plus naturel et le plus gracieux. Doté d'une touche légère et frémissante, il rêvait de peindre des paysages, et c'est cet amour de la nature qui donne à ses portraits leur charme aérien et leur poésie.",
           "bio_longue": "Thomas Gainsborough (1727-1788) est, avec son rival Reynolds, le grand portraitiste anglais. Mais il aurait préféré peindre des paysages — et c'est justement ce qui fait son charme : il saisit ses modèles aristocratiques avec un naturel élégant, souvent fondus dans une campagne anglaise vaporeuse, peinte d'une touche légère et libre. Le portrait, chez lui, respire l'air, la lumière et une grâce sans raideur.",
           "bio_sections": [
             {
-              "h": "Le rival de Reynolds",
-              "p": "Thomas Gainsborough est, avec Reynolds, le grand portraitiste anglais — mais il aurait préféré peindre des paysages, et c'est ce qui fait son charme."
+              "h": "L'enfance : le Suffolk et la nature",
+              "p": "Né en 1727 à Sudbury, dans le Suffolk rural, fils d'un drapier, Gainsborough passe son enfance à dessiner la campagne anglaise qu'il aime par-dessus tout. Ce lien intime avec la nature, les arbres, la lumière des champs ne le quittera jamais : même portraitiste recherché, il rêvera toujours de paysages."
             },
             {
-              "h": "Le naturel et le paysage",
-              "p": "Il saisit ses modèles avec une élégance naturelle, souvent fondus dans une campagne anglaise vaporeuse, d'une touche légère et libre (M. et Mme Andrews, The Blue Boy)."
+              "h": "Le déclic : portrait par nécessité, paysage par amour",
+              "p": "Pour vivre, Gainsborough doit peindre des portraits — la grande demande de la riche société anglaise. Il s'y révèle d'une grâce incomparable. Mais son cœur reste au paysage : « Je suis las des portraits et je voudrais bien prendre ma viole de gambe et m'en aller dans quelque doux village peindre des paysages », écrivait-il."
             },
             {
-              "h": "Le souffle anglais",
-              "p": "Sa sensibilité au paysage et à la lumière annonce le grand siècle anglais de Constable et Turner."
+              "h": "La touche aérienne",
+              "p": "Sa manière est légère, vaporeuse, faite de touches déliées et frémissantes qui rendent à merveille la soie, les plumes, le feuillage et la lumière changeante. Il fond souvent ses modèles dans une campagne anglaise brumeuse, comme s'ils respiraient l'air du dehors. Une élégance naturelle, sans la pesanteur savante de Reynolds."
+            },
+            {
+              "h": "Son moteur : le naturel et la grâce",
+              "p": "Ce qui guide Gainsborough, c'est l'instinct et la sensibilité, non la théorie : il peint d'après son œil et son cœur, cherchant la grâce, le naturel, l'atmosphère. Il refuse les poses empruntées et la pompe érudite, préférant saisir l'élégance vivante et un peu rêveuse de ses modèles dans la lumière."
+            },
+            {
+              "h": "Le message : l'homme dans la nature",
+              "p": "Chez Gainsborough, l'être humain n'est jamais coupé de la nature : ses modèles posent dans des paysages (Monsieur et Madame Andrews assis devant leurs terres), promenés au grand air, baignés de la lumière anglaise. Cette communion de la figure et du paysage annonce la grande sensibilité romantique au paysage."
+            },
+            {
+              "h": "Pourquoi il compte, selon les experts",
+              "p": "Les historiens font de Gainsborough l'égal et le contraire de Reynolds, et un précurseur du grand paysage anglais : sa sensibilité à la nature et à la lumière prépare Constable et Turner. Gombrich souligne la modernité de sa touche libre et sa façon de fondre le portrait dans l'atmosphère, plus proche du sentiment que de la pose."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Reynolds est savant et ambitieux, Gainsborough est instinctif et gracieux ; l'un cite les maîtres, l'autre regarde la nature. Rivaux à la Royal Academy, ils incarnent les deux pôles de l'art anglais. Le charme aérien de Gainsborough, sa poésie du paysage, en font le plus aimable et le plus poète des deux."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "The Blue Boy (L'Enfant bleu)",
+              "artiste": "Gainsborough",
+              "annee": "v. 1770",
+              "lieu": "Huntington Library, San Marino",
+              "wiki": "The Blue Boy",
+              "analyse": "Un jeune garçon en costume de satin bleu chatoyant, dans une pose élégante héritée de Van Dyck, se détache sur un paysage assombri. Virtuosité de la touche sur la soie bleue et grâce aristocratique : l'un des portraits anglais les plus célèbres."
+            },
+            {
+              "titre": "Monsieur et Madame Andrews",
+              "artiste": "Gainsborough",
+              "annee": "v. 1750",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Mr and Mrs Andrews",
+              "analyse": "Un jeune couple de propriétaires terriens pose, désinvolte, devant ses champs moissonnés et ses arbres, sous un grand ciel anglais. Le portrait et le paysage fondus en un seul tableau : l'amour de Gainsborough pour la campagne transparaît à chaque détail."
+            },
+            {
+              "titre": "La Promenade matinale",
+              "artiste": "Gainsborough",
+              "annee": "1785",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Morning Walk",
+              "analyse": "Un jeune couple élégant se promène, bras dessus bras dessous, dans un parc vaporeux où arbres et figures se fondent dans une même lumière argentée. Touche légère et frémissante, grâce et poésie : le sommet de l'élégance aérienne de Gainsborough."
             }
           ]
         },

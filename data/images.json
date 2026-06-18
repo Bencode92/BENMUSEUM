@@ -4145,5 +4145,255 @@
     "h": 2139,
     "format": "jpg",
     "file": "Guardi,Francesco_-_The_Departure_of_Bucentaur_for_the_Lido_on_Ascension_Day.jpg"
+  },
+  "Apollo and Daphne (Bernini)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg/1280px-Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1681,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg",
+    "w": 4640,
+    "h": 7800,
+    "format": "jpg",
+    "file": "Apollo_and_Daphne_(Bernini)_(cropped).jpg"
+  },
+  "David (Bernini)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Bernini%27s_David_02.jpg/1280px-Bernini%27s_David_02.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Bernini%27s_David_02.jpg",
+    "w": 4456,
+    "h": 6686,
+    "format": "jpg",
+    "file": "Bernini's_David_02.jpg"
+  },
+  "Fontana dei Quattro Fiumi": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Obelisco_Fontana_dei_Fiumi_Piazza_Navona_Roma.jpg/1280px-Obelisco_Fontana_dei_Fiumi_Piazza_Navona_Roma.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 2059,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Obelisco_Fontana_dei_Fiumi_Piazza_Navona_Roma.jpg",
+    "w": 6763,
+    "h": 13926,
+    "format": "jpg",
+    "file": "Obelisco_Fontana_dei_Fiumi_Piazza_Navona_Roma.jpg"
+  },
+  "The Rape of Proserpina": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Rape_of_Prosepina_September_2015-3a.jpg/1280px-Rape_of_Prosepina_September_2015-3a.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1520,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Rape_of_Prosepina_September_2015-3a.jpg",
+    "w": 4452,
+    "h": 6768,
+    "format": "jpg",
+    "file": "Rape_of_Prosepina_September_2015-3a.jpg"
+  },
+  "The Death of Germanicus": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Nicolas_Poussin_-_The_Death_of_Germanicus_-_Google_Art_Project.jpg/1280px-Nicolas_Poussin_-_The_Death_of_Germanicus_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 744,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Nicolas_Poussin_-_The_Death_of_Germanicus_-_Google_Art_Project.jpg",
+    "w": 4284,
+    "h": 3188,
+    "format": "jpg",
+    "file": "Nicolas_Poussin_-_The_Death_of_Germanicus_-_Google_Art_Project.jpg"
+  },
+  "Laughing Cavalier": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cavalier_soldier_Hals-1624x.jpg/1280px-Cavalier_soldier_Hals-1624x.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1218,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cavalier_soldier_Hals-1624x.jpg",
+    "w": 4841,
+    "h": 5897,
+    "format": "jpg",
+    "file": "Cavalier_soldier_Hals-1624x.jpg"
+  },
+  "Malle Babbe": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Frans_Hals_021.jpg/1280px-Frans_Hals_021.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1184,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Frans_Hals_021.jpg",
+    "w": 2024,
+    "h": 2396,
+    "format": "jpg",
+    "file": "Frans_Hals_021.jpg"
+  },
+  "Regentesses of the Old Men's Almshouse": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Frans_Hals_-_De_regentessen_van_het_oudemannenhuis.jpg/1280px-Frans_Hals_-_De_regentessen_van_het_oudemannenhuis.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 681,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Frans_Hals_-_De_regentessen_van_het_oudemannenhuis.jpg",
+    "w": 2303,
+    "h": 1569,
+    "format": "jpg",
+    "file": "Frans_Hals_-_De_regentessen_van_het_oudemannenhuis.jpg"
+  },
+  "Seaport with the Embarkation of the Queen of Sheba": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Claude_Lorrain_008.jpg/1280px-Claude_Lorrain_008.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 761,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Claude_Lorrain_008.jpg",
+    "w": 6000,
+    "h": 4563,
+    "format": "jpg",
+    "file": "Claude_Lorrain_008.jpg"
+  },
+  "The Shrimp Girl": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/William_Hogarth_-_The_Shrimp_Girl_-_WGA11467.jpg/1280px-William_Hogarth_-_The_Shrimp_Girl_-_WGA11467.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1212,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/William_Hogarth_-_The_Shrimp_Girl_-_WGA11467.jpg",
+    "w": 3486,
+    "h": 4226,
+    "format": "jpg",
+    "file": "William_Hogarth_-_The_Shrimp_Girl_-_WGA11467.jpg"
+  },
+  "Gin Lane": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Beer-street-and-Gin-lane.jpg/1280px-Beer-street-and-Gin-lane.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 597,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Beer-street-and-Gin-lane.jpg",
+    "w": 3720,
+    "h": 2219,
+    "format": "jpg",
+    "file": "Beer-street-and-Gin-lane.jpg"
+  },
+  "Sarah Siddons as the Tragic Muse": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Reynolds%2C_Sir_Joshua_-_Mrs_Siddons_as_the_Tragic_Muse_-_Google_Art_Project.jpg/1280px-Reynolds%2C_Sir_Joshua_-_Mrs_Siddons_as_the_Tragic_Muse_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1604,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Reynolds%2C_Sir_Joshua_-_Mrs_Siddons_as_the_Tragic_Muse_-_Google_Art_Project.jpg",
+    "w": 2001,
+    "h": 3209,
+    "format": "jpg",
+    "file": "Reynolds,_Sir_Joshua_-_Mrs_Siddons_as_the_Tragic_Muse_-_Google_Art_Project.jpg"
+  },
+  "The Blue Boy": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b6/The_Blue_Boy.jpg",
+    "thumb_w": 872,
+    "thumb_h": 1289,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/The_Blue_Boy.jpg",
+    "w": 872,
+    "h": 1289,
+    "format": "jpg",
+    "file": "The_Blue_Boy.jpg"
+  },
+  "The Morning Walk": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Thomas_Gainsborough_-_Mr_and_Mrs_William_Hallett_%28%27The_Morning_Walk%27%29_-_WGA8418.jpg/1280px-Thomas_Gainsborough_-_Mr_and_Mrs_William_Hallett_%28%27The_Morning_Walk%27%29_-_WGA8418.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1306,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Thomas_Gainsborough_-_Mr_and_Mrs_William_Hallett_%28%27The_Morning_Walk%27%29_-_WGA8418.jpg",
+    "w": 3235,
+    "h": 4226,
+    "format": "jpg",
+    "file": "Thomas_Gainsborough_-_Mr_and_Mrs_William_Hallett_('The_Morning_Walk')_-_WGA8418.jpg"
+  },
+  "The Toilet of Venus (Boucher)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Toilet_of_Venus%2C_by_Fran%C3%A7ois_Boucher.jpg/1280px-The_Toilet_of_Venus%2C_by_Fran%C3%A7ois_Boucher.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1278,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Toilet_of_Venus%2C_by_Fran%C3%A7ois_Boucher.jpg",
+    "w": 1530,
+    "h": 1955,
+    "format": "jpg",
+    "file": "The_Toilet_of_Venus,_by_François_Boucher.jpg"
+  },
+  "The Jewish Cemetery": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Jacob_Isaackszoon_van_Ruisdael_-_The_Jewish_Cemetery_%281654_or_1655%29.jpg/1280px-Jacob_Isaackszoon_van_Ruisdael_-_The_Jewish_Cemetery_%281654_or_1655%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 770,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Jacob_Isaackszoon_van_Ruisdael_-_The_Jewish_Cemetery_%281654_or_1655%29.jpg",
+    "w": 2700,
+    "h": 2079,
+    "format": "jpg",
+    "file": "Jacob_Isaackszoon_van_Ruisdael_-_The_Jewish_Cemetery_(1654_or_1655).jpg"
+  },
+  "The Feast of Saint Nicholas": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Jan_Havicksz._Steen_%E2%80%93_Het_Sint-Nicolaasfeest_%E2%80%93_Google_Art_Project.jpg/1280px-Jan_Havicksz._Steen_%E2%80%93_Het_Sint-Nicolaasfeest_%E2%80%93_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1173,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Jan_Havicksz._Steen_%E2%80%93_Het_Sint-Nicolaasfeest_%E2%80%93_Google_Art_Project.jpg",
+    "w": 4000,
+    "h": 4690,
+    "format": "jpg",
+    "file": "Jan_Havicksz._Steen_–_Het_Sint-Nicolaasfeest_–_Google_Art_Project.jpg"
+  },
+  "The Courtyard of a House in Delft": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/The_Courtyard_of_a_House_in_Delft.jpg/1280px-The_Courtyard_of_a_House_in_Delft.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1229,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/The_Courtyard_of_a_House_in_Delft.jpg",
+    "w": 5094,
+    "h": 6261,
+    "format": "jpg",
+    "file": "The_Courtyard_of_a_House_in_Delft.jpg"
+  },
+  "A Woman Drinking with Two Men": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Pieter_de_Hooch_-_A_Woman_Drinking_with_Two_Men.jpg/1280px-Pieter_de_Hooch_-_A_Woman_Drinking_with_Two_Men.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1132,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Pieter_de_Hooch_-_A_Woman_Drinking_with_Two_Men.jpg",
+    "w": 5300,
+    "h": 6000,
+    "format": "jpg",
+    "file": "Pieter_de_Hooch_-_A_Woman_Drinking_with_Two_Men.jpg"
+  },
+  "Et in Arcadia ego": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Nicolas_Poussin_-_Et_in_Arcadia_ego_%28deuxi%C3%A8me_version%29.jpg/1280px-Nicolas_Poussin_-_Et_in_Arcadia_ego_%28deuxi%C3%A8me_version%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 713,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Nicolas_Poussin_-_Et_in_Arcadia_ego_%28deuxi%C3%A8me_version%29.jpg",
+    "w": 5966,
+    "h": 4253,
+    "format": "jpg",
+    "file": "Nicolas_Poussin_-_Et_in_Arcadia_ego_(deuxième_version).jpg"
+  },
+  "The Abduction of the Sabine Women (Poussin)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nicolas_Poussin_-_L%27Enl%C3%A8vement_des_Sabines_%281634-5%29.jpg/1280px-Nicolas_Poussin_-_L%27Enl%C3%A8vement_des_Sabines_%281634-5%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 736,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Nicolas_Poussin_-_L%27Enl%C3%A8vement_des_Sabines_%281634-5%29.jpg",
+    "w": 3907,
+    "h": 2876,
+    "format": "jpg",
+    "file": "Nicolas_Poussin_-_L'Enlèvement_des_Sabines_(1634-5).jpg"
+  },
+  "A Dance to the Music of Time": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/The_dance_to_the_music_of_time_c._1640.jpg/1280px-The_dance_to_the_music_of_time_c._1640.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 782,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/The_dance_to_the_music_of_time_c._1640.jpg",
+    "w": 4889,
+    "h": 3825,
+    "format": "jpg",
+    "file": "The_dance_to_the_music_of_time_c._1640.jpg"
+  },
+  "The Embarkation of Saint Ursula": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Claude_Lorrain_-_Seaport_with_the_Embarkation_of_Saint_Ursula.jpg/1280px-Claude_Lorrain_-_Seaport_with_the_Embarkation_of_Saint_Ursula.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 756,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Claude_Lorrain_-_Seaport_with_the_Embarkation_of_Saint_Ursula.jpg",
+    "w": 6000,
+    "h": 4536,
+    "format": "jpg",
+    "file": "Claude_Lorrain_-_Seaport_with_the_Embarkation_of_Saint_Ursula.jpg"
+  },
+  "Madame de Pompadour (Boucher)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Charles_Andr%C3%A9_Van_Loo_-_Madame_de_Pompadour_en_belle_jardini%C3%A8re_-_v.1754-1755FXD.jpg/1280px-Charles_Andr%C3%A9_Van_Loo_-_Madame_de_Pompadour_en_belle_jardini%C3%A8re_-_v.1754-1755FXD.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1255,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Charles_Andr%C3%A9_Van_Loo_-_Madame_de_Pompadour_en_belle_jardini%C3%A8re_-_v.1754-1755FXD.jpg",
+    "w": 1675,
+    "h": 2102,
+    "format": "jpg",
+    "file": "Charles_André_Van_Loo_-_Madame_de_Pompadour_en_belle_jardinière_-_v.1754-1755FXD.jpg"
+  },
+  "The Windmill at Wijk bij Duurstede": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Mill.jpg/1280px-The_Mill.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 828,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/The_Mill.jpg",
+    "w": 1600,
+    "h": 1324,
+    "format": "jpg",
+    "file": "The_Mill.jpg"
   }
 }
