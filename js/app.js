@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "45"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "46"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -354,6 +354,8 @@ function wireChecklist() {
 function renderOeuvre(ci, oi) {
   const c = CHAPITRES[ci], o = c?.oeuvres?.[oi];
   if (!o) return renderChapitre(ci);
+  // consulter une œuvre en détail l'inscrit dans la révision espacée (si illustrée)
+  if (o.wiki && IMAGES[o.wiki]) introduceCard(`w:${o.wiki}`);
   crumb([{ label: "Accueil", nav: "#/" }, { label: `${c.num}. ${c.titre}`, nav: `#/c/${ci}` }, { label: o.titre }]);
   const prev = oi > 0 ? `#/c/${ci}/o/${oi - 1}` : null;
   const next = oi < c.oeuvres.length - 1 ? `#/c/${ci}/o/${oi + 1}` : null;
@@ -540,11 +542,20 @@ function renderQuiz() {
   const chapters = [...new Set(FLAT.map(x => x.chap.titre))];
   const artists = [...new Set(FLAT.map(x => x.oeuvre.artiste))]
     .filter(a => a && !ANON.test(a)).sort((a, b) => a.localeCompare(b, "fr"));
+  const due = sessionStats();
+  const tracked = Object.keys(srsStore()).length;
   $("view").innerHTML = `
     <div class="pagehead"><h1>Réviser</h1>
-      <p class="lead">Choisis ta cible, puis lance un quiz d'une vingtaine de questions : reconnaître les œuvres, leurs auteurs, l'inverse (trouver le bon tableau), et des questions sur le style, l'artiste, l'époque.</p></div>
+      <p class="lead">Deux modes : la <b>révision espacée du jour</b> (mémorisation durable, façon flashcards) et le <b>quiz libre</b> (s'entraîner sur une cible).</p></div>
+    <div class="block" style="border-left:4px solid var(--gold)">
+      <h3>🔁 Révision espacée du jour</h3>
+      <p class="lead">${due ? `<b>${due}</b> carte${due > 1 ? "s" : ""} à revoir aujourd'hui.` : tracked ? "Rien à revoir aujourd'hui — reviens demain, tes cartes remonteront au bon moment." : "Première session : les œuvres que tu <b>consultes</b> ou que tu <b>rates au quiz</b> entrent ici et reviennent à intervalles croissants (1, 3, 7, 16, 35 jours)."}${tracked ? ` · ${tracked} œuvre${tracked > 1 ? "s" : ""} suivie${tracked > 1 ? "s" : ""}` : ""}</p>
+      <div class="sess-actions">
+        <button class="big" data-nav="#/session">▶ ${due ? "Réviser maintenant" : "Lancer une session"}</button>
+      </div>
+    </div>
     <div class="block">
-      <h3>🎯 Cible</h3>
+      <h3>🎯 Quiz libre — cible</h3>
       <div class="quizcfg">
         <label>Chapitre / époque<br><select id="qchap"><option value="">Tout le musée</option>${chapters.map(c => `<option>${esc(c)}</option>`).join("")}</select></label>
         <label>Focus artiste<br><select id="qart"><option value="">— Aucun —</option>${artists.map(a => `<option>${esc(a)}</option>`).join("")}</select></label>
@@ -642,9 +653,11 @@ function playQuestion() {
   opts.forEach((b, oi) => b.onclick = () => {
     if (done) return; done = true;
     if (oi === q.answer) QZ.score++;
+    // alimentation SRS : une œuvre ratée entre en révision espacée (sauf déjà connue)
+    else if (q.meta && q.meta.oeuvre && q.meta.oeuvre.wiki) introduceCard(`w:${q.meta.oeuvre.wiki}`);
     opts.forEach((x, xi) => { if (xi === q.answer) x.classList.add("good"); else if (xi === oi) x.classList.add("bad"); x.disabled = true; });
     const exp = box.querySelector(".qexp"); exp.hidden = false;
-    let txt = oi === q.answer ? "✓ Bonne réponse." : "✗ Raté.";
+    let txt = oi === q.answer ? "✓ Bonne réponse." : "✗ Raté — ajoutée à ta révision.";
     if (q.explication) txt += " " + q.explication;
     if (q.meta) txt += `  — ${q.meta.oeuvre.titre}, ${q.meta.oeuvre.artiste} (${q.meta.oeuvre.annee}).`;
     exp.textContent = txt;
@@ -1044,14 +1057,27 @@ const addDays = n => new Date(Date.now() + n * 86400000 - new Date().getTimezone
 function srsStore() { try { return JSON.parse(localStorage.getItem("museum:srs")) || {}; } catch { return {}; } }
 function srsSave(s) { localStorage.setItem("museum:srs", JSON.stringify(s)); }
 
-// cartes = œuvres en fiche qui ont une image
+// cartes = toutes les œuvres illustrées (chapitres + fiches d'artistes), clé = image (stable)
+let CARDS_CACHE = null;
 function buildCards() {
-  const cards = [];
-  CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) => {
-    if (IMAGES[o.wiki]) cards.push({ id: `w:${ci}:${oi}`, ci, oi, titre: o.titre, artiste: o.artiste, wiki: o.wiki, expl: o.explication, ctx: o.contexte, chNum: c.num, chTitre: c.titre });
-  }));
+  if (CARDS_CACHE) return CARDS_CACHE;
+  const cards = [], seen = new Set();
+  const add = card => { if (card.wiki && IMAGES[card.wiki] && !seen.has(card.wiki)) { seen.add(card.wiki); cards.push(card); } };
+  // 1) œuvres de niveau chapitre (avec leurs « éléments à repérer »)
+  CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) =>
+    add({ id: `w:${o.wiki}`, ci, oi, titre: o.titre, artiste: o.artiste, wiki: o.wiki, expl: o.explication || o.analyse || "", ctx: o.contexte || "", chNum: c.num, chTitre: c.titre })));
+  // 2) œuvres des fiches d'artistes (a.oeuvres), rattachées au 1er chapitre de leur dossier
+  const chapOf = {};
+  CHAPITRES.forEach((c, ci) => { if (c.dossier && !(c.dossier in chapOf)) chapOf[c.dossier] = { c, ci }; });
+  DOSSIERS.forEach(d => {
+    const ref = chapOf[d.id]; if (!ref) return;
+    (d.artistes || []).forEach(a => (a.oeuvres || []).forEach(o =>
+      add({ id: `w:${o.wiki}`, ci: ref.ci, oi: -1, titre: o.titre, artiste: o.artiste || a.nom, wiki: o.wiki, expl: o.analyse || o.explication || "", ctx: "", chNum: ref.c.num, chTitre: ref.c.titre })));
+  });
+  CARDS_CACHE = cards;
   return cards;
 }
+const cardById = id => buildCards().find(c => c.id === id) || null;
 function introduceCard(id) {
   const s = srsStore(); if (s[id]) return; s[id] = { box: 1, due: addDays(1), seen: 1 }; srsSave(s);
 }
@@ -1073,7 +1099,11 @@ function buildSession() {
   const newCard = cards.find(c => !s[c.id]) || null;
   const due = seen.filter(c => s[c.id].due <= t).slice(0, 6);
   const steps = [];
-  if (newCard) { steps.push({ type: "story", card: newCard }); steps.push({ type: "observe", card: newCard }); }
+  if (newCard) {
+    steps.push({ type: "story", card: newCard });
+    const nc = CHAPITRES[newCard.ci], no = nc && nc.oeuvres && newCard.oi >= 0 ? nc.oeuvres[newCard.oi] : null;
+    if (no && (no.elements || []).length) steps.push({ type: "observe", card: newCard });
+  }
   due.forEach(card => steps.push({ type: "flash", card }));
   // si rien de neuf ni de dû, on révise quand même quelques cartes vues (ou un aperçu)
   if (!steps.length) {
