@@ -1,9 +1,1 @@
-[
-  {
-    "scope": "artiste:renaissance:4",
-    "type": "enrich",
-    "q": "TEST pipeline",
-    "text": "Entrée de test automatique — sera supprimée.",
-    "ts": "2026-06-19"
-  }
-]
+[]
