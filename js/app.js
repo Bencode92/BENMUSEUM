@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "49"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "50"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -154,12 +154,21 @@ function initChat() {
     <header><span id="chattitle">Discuter</span><button id="chatclose" aria-label="Fermer">×</button></header>
     <div id="chatlog2"></div>
     <form id="chatform2"><input id="chatin" autocomplete="off" placeholder="Discute du sujet de cette page…" /><button type="submit">→</button></form>
-    <div id="chatanalyse"><button id="chatanalyze">🔎 Analyser les points clés à ajouter à la fiche</button><div id="chatares"></div></div>`;
+    <div id="chatanalyse">
+      <button id="chatanalyze">🔎 Analyser les points clés à ajouter à la fiche</button>
+      <button id="chataddwork">➕ Ajouter une œuvre à la fiche</button>
+      <div id="chatares"></div>
+    </div>`;
   document.body.appendChild(dr);
   fab.onclick = openChat;
   $("chatclose").onclick = () => { dr.hidden = true; };
   $("chatform2").onsubmit = e => { e.preventDefault(); sendChat(); };
   $("chatanalyze").onclick = analyseChat;
+  $("chataddwork").onclick = () => {
+    const ctx = CHATCTX || (CHATCTX = pageContext());
+    if (!ctx.scope || !ctx.scope.startsWith("artiste:")) { $("chatares").textContent = "Ouvre la fiche d'un artiste pour lui ajouter une œuvre."; return; }
+    aiProposeWork(ctx.scope, ctx.ask, [], $("chatares"), () => { route(); $("chatares").innerHTML = "✓ Œuvre ajoutée à la fiche."; });
+  };
 }
 function addCmsg(role, text) {
   const log = $("chatlog2"); const div = document.createElement("div");
@@ -760,8 +769,10 @@ function renderArtiste(id, ai) {
   const a = d && d.artistes && d.artistes[ai];
   if (!a) return d ? renderDossier(id) : renderDossiersList();
   crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre, nav: `#/d/${id}` }, { label: a.nom }]);
-  // œuvres : celles du dossier signées par lui + ses œuvres propres (a.oeuvres), dédoublonnées par titre
-  const merged = [...(d.oeuvres || []).filter(o => sameArtist(o.artiste, a.nom)), ...(a.oeuvres || [])];
+  const aScope = `artiste:${id}:${ai}`;
+  // œuvres : dossier + a.oeuvres + œuvres ajoutées par l'IA (museum:works), dédoublonnées par titre
+  const userWorks = getUserWorks(aScope).map(w => ({ ...w, _uw: true }));
+  const merged = [...(d.oeuvres || []).filter(o => sameArtist(o.artiste, a.nom)), ...(a.oeuvres || []), ...userWorks];
   const seen = new Set();
   const works = merged.filter(o => { const k = (o.titre || "").toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
   const bioD = { oeuvres: works.map(o => ({ ...o, artiste: o.artiste || a.nom })), artistes: [a] };
@@ -814,22 +825,29 @@ function renderArtiste(id, ai) {
     P.push(`<h2 class="sec">📖 Sa vie</h2><div class="block recit"><p style="font-size:15.5px;line-height:1.75">${esc(a.bio_longue)}</p></div>`);
   }
 
-  // ses œuvres dans ce dossier
-  if (works.length) P.push(`<h2 class="sec">🖼 Ses œuvres (${works.length})</h2>
-    <div class="grid cols">${works.map(o => `
-      <div class="card"><div class="thumb zoomable" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}"></div>
-        <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
-        ${o.analyse ? `<details class="deep"><summary>📖 Analyse</summary><p>${esc(o.analyse)}</p></details>` : `<p style="font-size:13px;margin-top:6px">${esc(o.genie || "")}</p>`}</div></div>`).join("")}</div>`);
-
-  // approfondissements IA persistés (la discussion + le bouton ci-dessous enrichissent la fiche)
-  const aScope = `artiste:${id}:${ai}`;
+  // ses œuvres (dossier + a.oeuvres + ajoutées par l'IA), avec bouton d'ajout via l'IA
   const aFiche = `${a.nom} (${a.dates}). ${a.portrait || ""} ${(a.bio_sections || []).map(s => `${s.h} : ${s.p}`).join(" ") || a.bio_longue || ""}`;
   const aAsk = { floorName: d.titre, salle: { nom: a.nom, presentation: a.portrait || "" } };
+  P.push(`<h2 class="sec">🖼 Ses œuvres (${works.length})</h2>
+    <div class="grid cols">${works.map(o => `
+      <div class="card"><div class="thumb zoomable" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}">${o._uw ? `<button class="uwdel" data-uwid="${o.uwid}" title="Retirer">✕</button>` : ""}</div>
+        <div class="body"><div class="t">${esc(o.titre)}${o._uw ? ` <span class="tag" style="font-size:10px;background:var(--gold);color:#fff;padding:1px 5px;border-radius:4px">IA</span>` : ""}</div><div class="s">${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
+        ${o.analyse ? `<details class="deep"><summary>📖 Analyse</summary><p>${esc(o.analyse)}</p></details>` : `<p style="font-size:13px;margin-top:6px">${esc(o.genie || "")}</p>`}</div></div>`).join("")}</div>
+    <div class="sess-actions"><button class="optbtn" id="addwork">➕ Ajouter une œuvre via l'IA</button></div>
+    <div id="addworkhost"></div>`);
+
+  // approfondissements IA persistés (la discussion + le bouton ci-dessous enrichissent la fiche)
   P.push(enrichBlock(aScope));
   P.push(`<div class="navworks"><button data-nav="#/d/${id}">← Retour au dossier ${esc(d.titre)}</button></div>`);
   $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
   loadImages($("view"));
   wireEnrichBlock(aScope, aFiche, aAsk);
+  // ajouter une œuvre via l'IA + retirer les œuvres ajoutées
+  const addwb = $("addwork");
+  if (addwb) addwb.onclick = () => aiProposeWork(aScope, aAsk, works.map(o => o.titre), $("addworkhost"), () => renderArtiste(id, ai));
+  $("view").querySelectorAll(".uwdel").forEach(b => b.onclick = e => {
+    e.stopPropagation(); removeUserWork(aScope, +b.dataset.uwid); renderArtiste(id, ai);
+  });
   // mode test : masque les réponses, on révèle section par section (rappel actif)
   const bt = $("biotest");
   if (bt) {
@@ -1062,8 +1080,14 @@ function enrichBlock(scope) {
         ${it.q ? `<h3>${esc(it.q)}</h3>` : ""}<p>${esc(it.text)}</p>
         <button class="linkbtn enrichdel" data-i="${i}" style="font-size:12px;color:var(--muted)">supprimer</button>
       </div></div>`).join("") || `<p class="lead">Creuse un aspect via l'IA — la réponse s'ajoute ici et reste sur la fiche.</p>`}</div>
+    <div class="sess-actions" style="margin-bottom:6px;flex-wrap:wrap">
+      <button class="optbtn enrichquick" data-q="Quelle a été son influence sur les artistes qui l'ont suivi ?">↳ Son influence</button>
+      <button class="optbtn enrichquick" data-q="Détaille sa technique et ce qui la rend reconnaissable.">↳ Sa technique</button>
+      <button class="optbtn enrichquick" data-q="Quel était le contexte historique et politique de son œuvre ?">↳ Le contexte</button>
+      <button class="optbtn enrichquick" data-q="Raconte une anecdote marquante sur lui et son travail.">↳ Une anecdote</button>
+    </div>
     <div class="addnote">
-      <input class="enrichq" placeholder="Approfondir : ex. « Quelle influence sur les artistes suivants ? », « Le contexte politique ? »" />
+      <input class="enrichq" placeholder="Ou pose ta propre question : « Pourquoi le bleu ? », « Son lien avec… ? »" />
       <button class="optbtn enrichask">🤖 Approfondir via l'IA</button>
     </div>
     <div class="answer enrichans" hidden></div>
@@ -1077,6 +1101,7 @@ function wireEnrichBlock(scope, fiche, ask) {
     const a = getEnrich(scope); a.splice(+b.dataset.i, 1); localStorage.setItem(enrichKey(scope), JSON.stringify(a)); refresh();
   });
   const askBtn = box.querySelector(".enrichask"), inp = box.querySelector(".enrichq"), ans = box.querySelector(".enrichans");
+  box.querySelectorAll(".enrichquick").forEach(b => b.onclick = () => { inp.value = b.dataset.q; askBtn.click(); });
   askBtn.onclick = async () => {
     const q = inp.value.trim(); if (!q) return;
     ans.hidden = false; ans.className = "answer enrichans dim"; ans.textContent = "L'IA approfondit…";
@@ -1092,6 +1117,50 @@ function wireEnrichBlock(scope, fiche, ask) {
       const b = $("cfgE"); if (b) b.onclick = setAiUrl;
     }
   };
+}
+
+/* ---------- Œuvres ajoutées par l'IA (la discussion enrichit la galerie) ---------- */
+function worksKey(scope) { return "museum:works:" + scope; }
+function getUserWorks(scope) { try { return JSON.parse(localStorage.getItem(worksKey(scope))) || []; } catch { return []; } }
+function addUserWork(scope, w) { const a = getUserWorks(scope); a.push(w); localStorage.setItem(worksKey(scope), JSON.stringify(a)); }
+function removeUserWork(scope, uwid) { const a = getUserWorks(scope).filter(w => w.uwid !== uwid); localStorage.setItem(worksKey(scope), JSON.stringify(a)); }
+// l'IA propose UNE œuvre (JSON structuré), on récupère son image en direct, on prévisualise puis on ajoute
+async function aiProposeWork(scope, ask, existingTitles, host, onAdded) {
+  if (!host) return;
+  const artiste = (ask && ask.salle && ask.salle.nom) || "";
+  host.innerHTML = `<p class="lead dim">L'IA cherche une œuvre à ajouter…</p>`;
+  const q = `Propose UNE œuvre majeure de ${artiste} qui ne figure PAS dans cette liste : ${existingTitles.join(" ; ") || "(aucune)"}. `
+    + `Réponds UNIQUEMENT par un objet JSON, sans aucun autre texte, au format exact : `
+    + `{"titre":"titre en français","annee":"année ou période","lieu":"musée, ville","analyse":"2 à 3 phrases sur l'œuvre et son intérêt","wiki_en":"titre EXACT de l'article Wikipédia ANGLAIS de cette œuvre, pour l'image"}.`;
+  try {
+    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ ...(ask || {}), question: q }) });
+    if (!r.ok) throw new Error();
+    const w = parseQuizJSON((await r.json()).answer);
+    if (!w || !w.titre) {
+      host.innerHTML = `<p class="lead">L'IA n'a pas proposé d'œuvre exploitable. <button class="optbtn" id="retryw">↻ Réessayer</button></p>`;
+      const rb = host.querySelector("#retryw"); if (rb) rb.onclick = () => aiProposeWork(scope, ask, existingTitles, host, onAdded); return;
+    }
+    const img = await getImageUrl(w.wiki_en || w.titre);
+    host.innerHTML = `<div class="card" style="max-width:540px;margin-top:8px">
+      <div class="thumb"${img ? ` style="background-image:url('${img}')"` : ""}></div>
+      <div class="body"><div class="t">${esc(w.titre)}</div>
+        <div class="s">${esc(w.annee || "")}${w.lieu ? " · " + esc(w.lieu) : ""}${img ? "" : " · (pas d'image trouvée)"}</div>
+        <p style="font-size:13px;margin-top:6px">${esc(w.analyse || "")}</p>
+        <div class="sess-actions">
+          <button class="next" id="addw">➕ Ajouter à la fiche</button>
+          <button class="optbtn" id="otherw">↻ Une autre</button>
+          <button class="optbtn" id="cancelw">✕ Annuler</button>
+        </div></div></div>`;
+    host.querySelector("#addw").onclick = () => {
+      addUserWork(scope, { titre: w.titre, artiste, annee: w.annee || "", lieu: w.lieu || "", wiki: w.wiki_en || w.titre, analyse: w.analyse || "", ai: true, uwid: Date.now() });
+      onAdded && onAdded();
+    };
+    host.querySelector("#otherw").onclick = () => aiProposeWork(scope, ask, existingTitles.concat(w.titre), host, onAdded);
+    host.querySelector("#cancelw").onclick = () => { host.innerHTML = ""; };
+  } catch {
+    host.innerHTML = `<p class="lead">⚠️ IA hors ligne. <button class="linkbtn" id="cfgW">Configurer l'IA</button></p>`;
+    const b = host.querySelector("#cfgW"); if (b) b.onclick = setAiUrl;
+  }
 }
 
 /* =========================================================================
