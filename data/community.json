@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "scope": "artiste:renaissance:4",
+    "type": "enrich",
+    "q": "Détaille sa technique et ce qui la rend reconnaissable.",
+    "text": "## La main de Léonard\n\nCe qui rend Léonard immédiatement reconnaissable, c'est une technique qu'il a portée à sa perfection : le **sfumato** — de l'italien *fumo*, la fumée. L'idée est simple mais révolutionnaire : il n'existe pas de contour net dans la nature. Regardez un visage à la lumière du jour — les bords se fondent, ils ne sont pas dessinés au trait. Léonard a donc **abandonné le contour** et construit ses formes par de minuscules touches superposées, si fines qu'on ne distingue aucun coup de pinceau, créant une transition imperceptible entre l'ombre et la lumière.\n\nPour y parvenir, il appliquait des **glacis** — des couches de peinture quasi transparentes, l'une sur l'autre, parfois des dizaines — un travail d'une lenteur extrême qui explique en partie pourquoi il finissait si peu de tableaux. Le résultat est ce **modelé vaporeux**, cette impression que les figures semblent respirer et exister dans un espace réel plutôt que sur une surface plate.\n\nOn le voit à l'évidence dans le sourire de *La Joconde* : les commissures des lèvres disparaissent dans l'ombre — on ne sait jamais exactement si elle sourit ou non, précisément parce qu'aucun trait ne fixe la réponse. C'est le mystère rendu par la technique elle-même.",
+    "ts": "2026-06-19"
+  }
+]
