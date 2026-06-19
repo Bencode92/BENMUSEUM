@@ -10998,6 +10998,531 @@
         "Qu'est-ce que le gothique international, et en quoi diffère-t-il de Giotto ?",
         "Quel lien direct avec Masaccio et la Renaissance ?"
       ]
+    },
+    {
+      "id": "art-contemporain",
+      "titre": "L'art contemporain",
+      "periode": "1945 → aujourd'hui",
+      "couleur": "#e0457b",
+      "sous_titre": "De New York au monde entier : le geste, l'image, l'idée, le marché.",
+      "carte": [
+        [
+          "Dates",
+          "1945 → aujourd'hui"
+        ],
+        [
+          "Foyers",
+          "New York d'abord, puis Londres, Berlin, et le monde entier"
+        ],
+        [
+          "Idée-mère",
+          "Plus aucune définition de l'art ne fait consensus : tout devient possible, tout devient question"
+        ],
+        [
+          "Logique",
+          "Une accélération de ruptures : abstraction gestuelle → image de masse → idée pure → provocation → installation mondialisée"
+        ]
+      ],
+      "bascule": "Après 1945, l'Europe est ruinée et New York devient la capitale de l'art. L'art ne raconte plus, ne décrit plus : il agit, provoque, questionne. L'héritage de Duchamp (l'idée vaut plus que la main) explose dans toutes les directions, et l'art entre dans l'ère du marché, des médias et de la mondialisation.",
+      "phrase": "« Tout le monde sera célèbre quinze minutes. » — Andy Warhol",
+      "probleme": "Quand tout peut être de l'art — une toile éclaboussée, une boîte de soupe, une idée, un requin dans le formol —, qu'est-ce qui fait encore qu'une chose est une œuvre ? La réponse se déplace de l'objet vers le geste, le concept, le contexte et le regard.",
+      "mouvements": [
+        "Expressionnisme abstrait (New York, années 1940-50) : le geste et la couleur purs — Pollock, Rothko, de Kooning.",
+        "Pop Art (années 1960) : l'image de la société de consommation et des médias — Warhol, Lichtenstein.",
+        "Minimalisme & art conceptuel : réduire à l'essentiel, ou faire de l'idée l'œuvre même (héritage de Duchamp).",
+        "Nouvelle figuration & néo-expressionnisme : le retour du corps, du cri, du graffiti — Bacon, Basquiat.",
+        "Art contemporain mondialisé : installation, performance, provocation, marché — Koons, Hirst, Kusama, Ai Weiwei, Banksy."
+      ],
+      "oeuvres": [
+        {
+          "titre": "Sunflower Seeds (Graines de tournesol)",
+          "artiste": "Ai Weiwei",
+          "annee": "2010",
+          "lieu": "Tate Modern, Londres",
+          "wiki": "Sunflower Seeds (artwork)",
+          "analyse": "Cent millions de graines de tournesol en porcelaine, peintes une à une à la main par des centaines d'artisans chinois, étalées en un vaste tapis gris. De loin, une masse uniforme ; de près, chaque graine est unique. Ai Weiwei y médite sur l'individu noyé dans la multitude, le travail anonyme, et la Chine de Mao (où le tournesol se tournait vers le « soleil » Mao). L'installation comme pensée politique."
+        },
+        {
+          "titre": "Maman",
+          "artiste": "Louise Bourgeois",
+          "annee": "1999",
+          "lieu": "exemplaires dans le monde (Bilbao, Ottawa…)",
+          "wiki": "Maman (sculpture)",
+          "analyse": "Une araignée d'acier de neuf mètres de haut, perchée sur ses pattes filiformes, portant sous son abdomen une poche d'œufs de marbre. À la fois monstrueuse et protectrice. Bourgeois la dédie à sa mère, tisserande : l'araignée tisse, répare, protège. La sculpture contemporaine qui fait de l'angoisse intime un mythe universel."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Jackson Pollock",
+          "dates": "1912-1956",
+          "role": "Expressionnisme abstrait",
+          "wiki": "Jackson Pollock",
+          "portrait": "Jackson Pollock a libéré la peinture de la toile posée sur un chevalet : il la pose au sol et y projette la couleur en mouvement. Le geste du corps devient l'œuvre.",
+          "bio_sections": [
+            {
+              "h": "L'enfance : l'Ouest américain et le mal-être",
+              "p": "Né en 1912 dans le Wyoming, Pollock grandit dans un Ouest rude, au sein d'une famille modeste et instable. Caractère tourmenté, alcoolique toute sa vie, il monte à New York étudier la peinture et cherche longtemps sa voie, marqué par les muralistes mexicains et le surréalisme."
+            },
+            {
+              "h": "Le déclic : peindre par terre",
+              "p": "Vers 1947, Pollock fait un geste radical : il cloue la toile au sol et, au lieu de poser le pinceau dessus, il fait dégouliner et gicler la peinture depuis un bâton ou un pot percé, en se déplaçant tout autour. C'est le dripping : la peinture enregistre le mouvement du corps."
+            },
+            {
+              "h": "L'action painting",
+              "p": "Ses immenses toiles (Lavender Mist, No. 5) sont des entrelacs de coulures sans début ni fin, sans haut ni bas, sans sujet. Le critique parle d'« action painting » : ce qui compte, c'est l'acte de peindre, l'énergie, la danse autour de la toile, dont le tableau garde la trace."
+            },
+            {
+              "h": "Son moteur : l'énergie pure et l'inconscient",
+              "p": "Pollock veut peindre sans contrôle conscient, laisser jaillir une énergie brute venue du dedans. « Quand je suis dans ma peinture, je ne sais pas ce que je fais. » Le hasard maîtrisé, le rythme, la transe du geste : l'œuvre est l'enregistrement d'un événement physique et psychique."
+            },
+            {
+              "h": "Le message : New York capitale",
+              "p": "Avec Pollock, le centre de l'art bascule de Paris à New York : l'expressionnisme abstrait américain devient le premier mouvement d'avant-garde né aux États-Unis à dominer le monde. La peinture américaine prend, pour la première fois, la tête de la modernité."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'abstraction européenne composait des formes, Pollock supprime la forme et le sujet pour ne garder que le geste et l'énergie. Mythe de l'artiste maudit (il meurt à 44 ans dans un accident de voiture, ivre), il incarne l'Amérique d'après-guerre : libre, brute, démesurée."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Mark Rothko",
+          "dates": "1903-1970",
+          "role": "Color field painting",
+          "wiki": "Mark Rothko",
+          "portrait": "Mark Rothko a réduit la peinture à de grands rectangles de couleur flottants, faits pour envelopper le spectateur et le plonger dans une émotion proche du sacré.",
+          "bio_sections": [
+            {
+              "h": "Les origines : de la Russie à l'Amérique",
+              "p": "Né en 1903 en Russie dans une famille juive, Marcus Rothkowitz émigre enfant aux États-Unis pour fuir les persécutions. Cultivé, tourmenté, il vient tard à la peinture après des débuts figuratifs et surréalistes, avant de trouver, vers 1949, sa forme définitive."
+            },
+            {
+              "h": "Le déclic : la couleur seule",
+              "p": "Rothko abandonne toute figure : ne restent que deux ou trois rectangles de couleur aux bords flous, superposés, qui semblent flotter et vibrer sur un fond coloré. Des champs de couleur immenses (color fields), à l'échelle du corps humain."
+            },
+            {
+              "h": "La couleur qui enveloppe",
+              "p": "Ses toiles sont grandes pour qu'on se tienne tout près, immergé : « peindre grand, c'est être dans le tableau ». Les couleurs, posées en voiles transparents, palpitent, respirent, changent selon la lumière. Le spectateur est censé y entrer comme dans un espace de méditation."
+            },
+            {
+              "h": "Son moteur : l'émotion, pas l'abstraction",
+              "p": "Rothko refuse qu'on le dise « abstrait » ou « coloriste » : « je ne m'intéresse qu'à l'expression des émotions humaines fondamentales — la tragédie, l'extase, la mort ». Devant ses toiles, les gens pleurent, dit-il ; c'est qu'ils éprouvent ce qu'il y a mis."
+            },
+            {
+              "h": "Le message : le sacré sans religion",
+              "p": "Ses dernières œuvres s'assombrissent — la chapelle Rothko de Houston est faite de panneaux presque noirs, espace spirituel non confessionnel. La couleur devient prière, recueillement, abîme. Dépressif, Rothko se suicide en 1970, au sommet de sa gloire."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Pollock met l'énergie et le geste, Rothko met le silence, la lenteur, la contemplation. Deux faces de l'expressionnisme abstrait : l'action et la méditation. Rothko a fait de la couleur pure un véhicule du tragique et du sacré, sans aucune image."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Willem de Kooning",
+          "dates": "1904-1997",
+          "role": "Expressionnisme abstrait",
+          "wiki": "Willem de Kooning",
+          "portrait": "Willem de Kooning, à la frontière de l'abstraction et de la figure, a peint des femmes féroces et des paysages de couleur d'une énergie sauvage, sommet du geste expressionniste.",
+          "bio_sections": [
+            {
+              "h": "Les origines : un Hollandais à New York",
+              "p": "Né en 1904 à Rotterdam, de Kooning émigre clandestinement aux États-Unis en 1926. Solide artisan formé en Europe, il devient, avec Pollock, l'autre grand de l'expressionnisme abstrait new-yorkais."
+            },
+            {
+              "h": "Le déclic : ni tout à fait abstrait",
+              "p": "Contrairement à Pollock, de Kooning ne quitte jamais complètement la figure : il oscille entre abstraction et image, retravaillant sans fin ses toiles dans une matière épaisse et violente."
+            },
+            {
+              "h": "La série des Women",
+              "p": "Ses Women (Femmes), aux dents et aux yeux écarquillés, à la fois déesses et furies, font scandale : peintes d'une touche déchaînée, elles ramènent la figure humaine au cœur de l'abstraction, dans une énergie presque agressive."
+            },
+            {
+              "h": "Son moteur : le geste et le doute",
+              "p": "De Kooning peint dans la lutte et le doute, grattant, recommençant, laissant la trace de chaque repentir. La peinture est un combat avec la matière, jamais résolu, toujours vibrant."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Pollock supprime la figure et Rothko la couleur-émotion, de Kooning garde la tension entre le corps et l'abstraction. Atteint d'Alzheimer à la fin de sa vie, il continua de peindre des toiles étrangement épurées et sereines."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Andy Warhol",
+          "dates": "1928-1987",
+          "role": "Pop Art",
+          "wiki": "Andy Warhol",
+          "portrait": "Andy Warhol a fait entrer dans l'art l'image de la société de consommation et des médias — boîtes de soupe, billets, stars — produites en série comme des marchandises. Il a aboli la frontière entre art et publicité.",
+          "bio_sections": [
+            {
+              "h": "L'enfance : le fils d'immigrés et la maladie",
+              "p": "Né en 1928 à Pittsburgh dans une famille d'ouvriers immigrés slovaques, Andrew Warhola est un enfant maladif, souvent alité, qui dévore magazines, bandes dessinées et photos de stars. Cette culture de l'image populaire et du glamour sera la matière même de son art."
+            },
+            {
+              "h": "Le déclic : du publicitaire à l'artiste",
+              "p": "D'abord illustrateur publicitaire à succès à New York, Warhol comprend qu'il peut faire de l'art avec les images de la pub et de la consommation. En 1962, il expose ses boîtes de soupe Campbell : 32 toiles identiques. Scandale et révélation : le produit de masse devient sujet d'art."
+            },
+            {
+              "h": "La Factory et la sérigraphie",
+              "p": "Il adopte la sérigraphie, qui permet de reproduire une image en série, comme une usine. Son atelier, la Factory, produit en masse Marilyn, Liz, Mao, les dollars, les chaises électriques. La répétition, la couleur criarde, l'absence de touche personnelle : l'art comme marchandise assumée."
+            },
+            {
+              "h": "Son moteur : la surface et la célébrité",
+              "p": "Warhol cultive le vide et la surface : « Si vous voulez tout savoir sur moi, regardez la surface : il n'y a rien derrière. » Fasciné par la gloire, l'argent et la mort, il fait de sa propre personne — perruque argentée, ton blasé — une œuvre et une marque."
+            },
+            {
+              "h": "Le message : l'art à l'ère des médias",
+              "p": "Warhol a vu avant tout le monde la société de l'image, de la marque et de la célébrité de masse. Ses Marilyn répétées disent la star transformée en produit, et la mort qui rôde sous le glamour. « Tout le monde sera célèbre quinze minutes » : prophétie de notre époque."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'expressionnisme abstrait exaltait le geste unique et l'âme de l'artiste, Warhol fait l'inverse : pas de geste, pas d'âme, la reproduction mécanique et froide. Figure centrale du Pop Art, il a fait de l'art un miroir glaçant et lucide de la société de consommation."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Roy Lichtenstein",
+          "dates": "1923-1997",
+          "role": "Pop Art",
+          "wiki": "Roy Lichtenstein",
+          "portrait": "Roy Lichtenstein a transformé la bande dessinée et la publicité en peinture monumentale, reproduisant à la main les points d'imprimerie et les bulles — l'image populaire élevée au rang de tableau.",
+          "bio_sections": [
+            {
+              "h": "Le déclic : peindre la BD",
+              "p": "Peintre américain cherchant sa voie, Lichtenstein a, dit la légende, un déclic en peignant pour ses enfants un personnage de bande dessinée. Vers 1961, il se met à agrandir des cases de comics et de publicités en grandes toiles."
+            },
+            {
+              "h": "Les points Benday",
+              "p": "Sa marque : reproduire à la main, méticuleusement, les petits points d'imprimerie (Benday dots), les aplats de couleurs primaires, les contours noirs épais et les bulles de texte (« Whaam! », « M-Maybe »). L'image industrielle, copiée à la main, devient art."
+            },
+            {
+              "h": "Son moteur : l'ironie de la copie",
+              "p": "Lichtenstein joue sur l'écart : un cliché sentimental de roman-photo ou une explosion de comic de guerre, traités avec le sérieux d'un grand tableau d'histoire. Distance ironique et froideur, comme Warhol, face à la culture de masse."
+            },
+            {
+              "h": "Le message : il n'y a plus de hiérarchie",
+              "p": "En faisant d'une vignette de BD un chef-d'œuvre de musée, Lichtenstein abolit la frontière entre art « noble » et culture populaire. Tout peut être sujet ; le style de la reproduction de masse devient un style à part entière."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Warhol sérigraphie mécaniquement, Lichtenstein peint tout à la main en imitant le mécanique — paradoxe qui fait son sel. Avec lui, le Pop Art atteint une perfection graphique froide et immédiatement reconnaissable."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Francis Bacon",
+          "dates": "1909-1992",
+          "role": "Nouvelle figuration",
+          "wiki": "Francis Bacon (artist)",
+          "portrait": "Francis Bacon a maintenu, en plein triomphe de l'abstraction, une peinture figurative d'une violence inouïe : des corps déformés, hurlants, enfermés, qui disent l'angoisse de l'homme du XXe siècle.",
+          "bio_sections": [
+            {
+              "h": "Les origines : un marginal irlandais",
+              "p": "Né en 1909 à Dublin, chassé par son père qui ne supporte pas son homosexualité, Bacon mène une vie de bohème, de jeu et d'excès à Londres. Autodidacte, il vient tard à la peinture, qu'il pratique dans un atelier d'un désordre légendaire."
+            },
+            {
+              "h": "Le déclic : peindre le cri",
+              "p": "Bacon refuse l'abstraction : il veut peindre la chair, le corps, mais déformés par la souffrance. Ses Trois études pour des figures au pied d'une crucifixion (1944) imposent d'emblée des créatures hurlantes, à la frontière de l'humain et de l'animal."
+            },
+            {
+              "h": "Les corps enfermés",
+              "p": "Ses personnages, souvent inspirés de photographies, sont tordus, écorchés, enfermés dans des cages de lignes ou sur des aplats vides. Il reprend le Portrait d'Innocent X de Vélasquez en pape hurlant. La chair devient viande, le visage se dissout dans le mouvement."
+            },
+            {
+              "h": "Son moteur : la violence et le hasard",
+              "p": "Bacon peint dans l'urgence, jette la peinture, accepte l'accident. Il veut « ouvrir les valves de la sensation », frapper le système nerveux directement, sans raconter d'histoire. La beauté ne l'intéresse pas : la vérité crue du corps et de la mort, oui."
+            },
+            {
+              "h": "Le message : l'homme sans Dieu",
+              "p": "Athée, marqué par les guerres et les images d'atrocités du siècle, Bacon peint la condition humaine sans consolation : la solitude, la chair périssable, l'angoisse nue. Une peinture tragique, sans rédemption, d'une force qui dérange."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Seul ou presque à tenir la figuration quand tous abstraient, Bacon est l'un des plus grands peintres du corps et de l'angoisse du XXe siècle. Sa violence maîtrisée et sa matière magnifique en font un cas à part, sans école ni suiveurs."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Jean-Michel Basquiat",
+          "dates": "1960-1988",
+          "role": "Néo-expressionnisme",
+          "wiki": "Jean-Michel Basquiat",
+          "portrait": "Jean-Michel Basquiat, parti du graffiti de rue, est devenu en quelques années une star de la peinture : ses toiles brutes, couvertes de mots, de couronnes et de figures noires, ont fait entrer l'énergie de la rue et la question raciale dans l'art.",
+          "bio_sections": [
+            {
+              "h": "L'enfance : Brooklyn, entre deux mondes",
+              "p": "Né en 1960 à Brooklyn d'un père haïtien et d'une mère portoricaine, Basquiat grandit dans une famille cultivée mais difficile. Précoce, polyglotte, nourri d'anatomie (un livre offert après un accident), de jazz et d'histoire noire, il fugue adolescent et vit dans la rue."
+            },
+            {
+              "h": "Le déclic : SAMO, le graffiti",
+              "p": "Vers 17 ans, il couvre les murs de SoHo de graffitis poétiques et énigmatiques signés « SAMO© ». Repéré par la scène underground new-yorkaise, il passe du mur à la toile et explose en quelques années dans le monde de l'art des années 1980."
+            },
+            {
+              "h": "Une peinture brute et savante",
+              "p": "Ses toiles, en apparence brutes — figures squelettiques, couronnes, masques, mots barrés, listes —, sont en réalité saturées de références : anatomie, jazz, histoire noire, héros sportifs. La couronne couronne ses héros noirs ; le graffiti devient écriture de l'identité."
+            },
+            {
+              "h": "Son moteur : la rage et l'identité",
+              "p": "Basquiat met dans sa peinture la colère et la fierté d'être noir dans un monde de l'art blanc. Il peint les héros noirs, dénonce le racisme et l'esclavage, mêle le savant et le populaire. L'énergie de la rue et du jazz irrigue chaque toile."
+            },
+            {
+              "h": "Le message : une étoile filante",
+              "p": "Ami de Warhol, adulé et exploité par le marché, Basquiat brûle vite : la drogue l'emporte à 27 ans, en 1988. Devenu icône, l'un des artistes les plus chers du monde, il incarne à la fois le génie brut et les dérives du marché de l'art."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Premier peintre noir star de l'histoire de l'art occidental, Basquiat a fait entrer le graffiti, le jazz et la question raciale dans la grande peinture. Sa fulgurance et sa brièveté en font une légende, à la croisée de la rue, de l'art savant et du mythe."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "David Hockney",
+          "dates": "1937-",
+          "role": "Nouvelle figuration / Pop",
+          "wiki": "David Hockney",
+          "portrait": "David Hockney, le plus célèbre peintre britannique vivant, a maintenu une figuration joyeuse et lumineuse — piscines californiennes, doubles portraits, paysages éclatants — en explorant sans cesse de nouveaux outils, du Polaroid à l'iPad.",
+          "bio_sections": [
+            {
+              "h": "Les origines : du Yorkshire à la Californie",
+              "p": "Né en 1937 dans une ville industrielle du nord de l'Angleterre, Hockney, dandy à lunettes rondes et cheveux blonds, s'impose jeune. Il tombe amoureux de la Californie, de sa lumière, de ses piscines et de sa liberté, où il s'installe dans les années 1960."
+            },
+            {
+              "h": "Le déclic : les piscines",
+              "p": "Ses tableaux de piscines de Los Angeles (A Bigger Splash) — eau bleue, éclaboussure figée, lumière plate et nette — deviennent des icônes : un art clair, élégant, sensuel, à contre-courant de l'abstraction austère et de l'art conceptuel."
+            },
+            {
+              "h": "L'œil curieux",
+              "p": "Hockney n'a cessé d'expérimenter : doubles portraits psychologiques, collages de Polaroids, décors d'opéra, et, très âgé, paysages peints sur iPad. Il s'interroge sans fin sur la perception, la perspective, la façon dont on voit vraiment le monde."
+            },
+            {
+              "h": "Son moteur : la joie de regarder",
+              "p": "Contre l'angoisse et le conceptuel, Hockney revendique le plaisir des yeux, la couleur, la lumière, la nature. « L'art doit donner du plaisir et de la joie. » Sa figuration assumée a longtemps été jugée démodée, puis célébrée comme une fidélité au visible."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'art contemporain privilégie l'idée et la provocation, Hockney défend la peinture, le dessin, la figuration et la joie. Toujours actif et inventif à plus de 80 ans, il est la preuve vivante que la peinture figurative reste un terrain d'invention."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Jeff Koons",
+          "dates": "1955-",
+          "role": "Néo-pop / Kitsch",
+          "wiki": "Jeff Koons",
+          "portrait": "Jeff Koons a poussé jusqu'au vertige l'héritage de Warhol : faire de l'art avec le kitsch, le jouet, la publicité, dans des objets surdimensionnés, brillants et coûteux qui interrogent le bon goût, le désir et le marché.",
+          "bio_sections": [
+            {
+              "h": "Les origines : du courtier à l'artiste",
+              "p": "Né en 1955 en Pennsylvanie, Koons est un temps courtier en matières premières à Wall Street avant de se consacrer à l'art. Cette familiarité avec le commerce et le marketing imprègne toute son œuvre, pensée comme un produit."
+            },
+            {
+              "h": "Le déclic : assumer le kitsch",
+              "p": "Koons décide de prendre au sérieux ce que le bon goût méprise : les bibelots, les jouets gonflables, les figurines en porcelaine. Il les reproduit à grande échelle, en acier poli miroir ou en porcelaine de luxe, sans la moindre ironie affichée."
+            },
+            {
+              "h": "Les Balloon Dogs et le miroir",
+              "p": "Ses chiens-ballons géants en acier inoxydable poli (Balloon Dog), ses cœurs suspendus, sa statue de Michael Jackson en porcelaine dorée : des objets parfaits, brillants comme des miroirs, qui renvoient au spectateur sa propre image et son désir. Le banal devient idole de luxe."
+            },
+            {
+              "h": "Son moteur : le désir, le marché, le spectacle",
+              "p": "Koons orchestre tout — fabrication par des ateliers entiers, prix records, mise en scène de sa propre vie. Il assume que l'art est aussi un marché et un spectacle. Ses œuvres comptent parmi les plus chères jamais vendues d'un artiste vivant."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Adulé ou détesté, Koons divise comme peu d'artistes : génie de notre époque du désir et du marketing, ou triomphe du vide et de l'argent ? Il incarne, héritier extrême de Duchamp et Warhol, la question contemporaine : où s'arrête l'art, où commence le produit ?"
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Damien Hirst",
+          "dates": "1965-",
+          "role": "Young British Artists",
+          "wiki": "Damien Hirst",
+          "portrait": "Damien Hirst, figure de proue des Young British Artists, a fait de la mort son grand sujet : animaux dans le formol, crânes incrustés de diamants, mouches. Provocateur et homme d'affaires, il a marqué l'art et le marché des années 1990-2000.",
+          "bio_sections": [
+            {
+              "h": "Les origines : Leeds et la mort",
+              "p": "Né en 1965 à Bristol, élevé à Leeds, Hirst est marqué jeune par la mort et la médecine (il visitait la morgue). Étudiant à Londres, il organise en 1988 l'exposition « Freeze » qui lance la génération des Young British Artists (YBA)."
+            },
+            {
+              "h": "Le déclic : l'animal dans le formol",
+              "p": "Son œuvre-choc : un requin tigre de quatre mètres conservé dans une cuve de formol, intitulé « L'impossibilité physique de la mort dans l'esprit d'un vivant » (1991). Suivront un mouton, une vache et son veau coupés en deux. La mort exposée, littéralement, sous nos yeux."
+            },
+            {
+              "h": "La mort et le luxe",
+              "p": "Hirst décline la mort sous toutes ses formes : armoires à pharmacie, tableaux de papillons, vanités. Son crâne humain incrusté de 8 601 diamants (For the Love of God) unit la mort et le luxe extrême. Le memento mori classique à l'ère du marché."
+            },
+            {
+              "h": "Son moteur : provoquer et vendre",
+              "p": "Hirst assume le scandale et l'argent : il a fait vendre aux enchères une exposition entière, contournant les galeries, pour des sommes record. Artiste-entrepreneur autant que créateur, il incarne la fusion de l'art contemporain et du marché spéculatif."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Héritier de la vanité baroque et du readymade, Hirst a fait de la mort un spectacle contemporain et un produit de luxe. Adulé puis contesté, il reste l'image même de l'art-marché flamboyant des années 1990-2000."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Yayoi Kusama",
+          "dates": "1929-",
+          "role": "Pois, infini, installation",
+          "wiki": "Yayoi Kusama",
+          "portrait": "Yayoi Kusama, l'artiste la plus populaire du monde, transforme ses hallucinations en art : pois proliférants, citrouilles, et « chambres à l'infini » où le spectateur se perd dans un univers de lumières répétées sans fin.",
+          "bio_sections": [
+            {
+              "h": "L'enfance : les hallucinations",
+              "p": "Née en 1929 au Japon dans une famille rigide, Kusama souffre dès l'enfance d'hallucinations : elle voit le monde se couvrir de pois, des champs de fleurs lui parler, des motifs proliférer à l'infini. Elle se met à dessiner ces visions pour ne pas sombrer."
+            },
+            {
+              "h": "Le déclic : New York et l'avant-garde",
+              "p": "Dans les années 1960, Kusama débarque à New York et s'impose dans l'avant-garde par des performances, des happenings et des installations couvertes de pois et de formes molles. Femme, japonaise, dans un milieu d'hommes blancs, elle s'impose par une énergie hors norme."
+            },
+            {
+              "h": "Les pois et l'infini",
+              "p": "Le pois est son obsession et son langage : il recouvre les corps, les objets, les pièces, dissolvant les limites entre le moi et le monde (l'« auto-oblitération »). Ses Infinity Rooms, cabinets de miroirs et de lumières, plongent le visiteur dans un cosmos sans fin."
+            },
+            {
+              "h": "Son moteur : transformer la folie en beauté",
+              "p": "Kusama vit volontairement, depuis 1977, dans un hôpital psychiatrique de Tokyo, et peint chaque jour dans son atelier voisin. L'art est sa thérapie et sa survie : transformer la terreur de l'infini et de la disparition en une expérience d'émerveillement partagé."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Femme asiatique pionnière dans un monde de l'art occidental et masculin, Kusama a fait de sa maladie mentale la source d'un art universellement aimé. Ses citrouilles à pois et ses chambres à l'infini attirent des foules immenses : l'art comme immersion totale."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Ai Weiwei",
+          "dates": "1957-",
+          "role": "Art engagé / installation",
+          "wiki": "Ai Weiwei",
+          "portrait": "Ai Weiwei est l'artiste-dissident le plus célèbre du monde : il mêle l'art conceptuel, l'installation monumentale et le combat politique contre la censure et pour les droits humains, en Chine et au-delà.",
+          "bio_sections": [
+            {
+              "h": "Les origines : fils de poète exilé",
+              "p": "Né en 1957, Ai Weiwei est le fils d'un grand poète chinois exilé et persécuté sous Mao. Il grandit dans des conditions très dures, puis séjourne à New York dans les années 1980, où il découvre Duchamp et Warhol. Il rentre en Chine et y devient une figure de l'avant-garde."
+            },
+            {
+              "h": "Le déclic : l'art comme acte",
+              "p": "Ai Weiwei fait de l'art un geste politique : il photographie sa main faisant un doigt d'honneur devant les monuments du pouvoir, brise une urne antique chinoise, recouvre des vases millénaires de peinture industrielle. Provoquer pour interroger le pouvoir et la tradition."
+            },
+            {
+              "h": "Les grandes installations",
+              "p": "Ses œuvres sont souvent monumentales et faites main : les cent millions de graines de tournesol en porcelaine (Sunflower Seeds), des milliers de cartables d'enfants morts dans un séisme (dénonçant la corruption), des gilets de sauvetage de réfugiés. La masse fabriquée à la main porte un message politique."
+            },
+            {
+              "h": "Son moteur : la vérité contre la censure",
+              "p": "Ai Weiwei utilise l'art et les réseaux sociaux pour dénoncer la censure, la corruption et les violations des droits humains. Surveillé, battu, emprisonné puis exilé par le régime chinois, il transforme sa propre persécution en matière de son art."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où beaucoup d'art contemporain joue avec le marché, Ai Weiwei joue avec le pouvoir et risque sa liberté. Héritier de Duchamp (le geste qui fait sens) mis au service du combat politique, il incarne l'artiste-citoyen mondialisé du XXIe siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Sunflower Seeds (Graines de tournesol)",
+              "artiste": "Ai Weiwei",
+              "annee": "2010",
+              "lieu": "Tate Modern, Londres",
+              "wiki": "Sunflower Seeds (artwork)",
+              "analyse": "Cent millions de graines de tournesol en porcelaine, peintes une à une à la main par des centaines d'artisans, étalées en un vaste tapis gris à la Tate Modern. De loin une masse uniforme, de près chaque graine est unique : l'individu noyé dans la multitude, le travail anonyme, la Chine de Mao. L'installation comme pensée politique."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Banksy",
+          "dates": "v. 1974-",
+          "role": "Street art",
+          "wiki": "Banksy",
+          "portrait": "Banksy, artiste de rue anonyme, est devenu mondialement célèbre par ses pochoirs satiriques sur les murs des villes : un art accessible à tous, drôle et politique, qui se moque du pouvoir, de la guerre et du marché de l'art lui-même.",
+          "bio_sections": [
+            {
+              "h": "L'anonymat comme œuvre",
+              "p": "Banksy, probablement né à Bristol vers 1974, n'a jamais révélé son identité. Cet anonymat, à l'ère de la célébrité, fait partie de son art : il déjoue le culte de l'artiste-star et lui permet d'agir illégalement dans la rue."
+            },
+            {
+              "h": "Le déclic : le pochoir",
+              "p": "Pour aller vite et échapper à la police, Banksy adopte le pochoir, qui donne ses images nettes et reproductibles : une petite fille lâchant un ballon en forme de cœur, des rats, des policiers qui s'embrassent, des manifestants lançant des fleurs."
+            },
+            {
+              "h": "L'art dans la rue, pour tous",
+              "p": "Ses œuvres apparaissent la nuit, gratuites, sur les murs des villes, sur le mur de séparation en Cisjordanie, dans des camps de réfugiés. L'art sort du musée et de la galerie pour s'adresser directement aux passants, partout dans le monde."
+            },
+            {
+              "h": "Son moteur : la satire et la subversion",
+              "p": "Banksy se moque du pouvoir, de la guerre, du consumérisme — et du marché de l'art lui-même : en 2018, son tableau Girl with Balloon s'autodétruit en se déchiquetant juste après avoir été adjugé à plus d'un million. L'ultime pied de nez au marché."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Anonyme quand les autres cherchent la gloire, gratuit et illégal quand l'art se vend des millions, drôle et politique, Banksy a fait du street art un phénomène mondial et brouillé toutes les frontières : qui est l'artiste, où est l'œuvre, à qui appartient-elle ?"
+            }
+          ]
+        }
+      ],
+      "index": [
+        "Expressionnisme abstrait : Pollock (dripping), Rothko (color field), de Kooning.",
+        "Pop Art : Warhol (sérigraphie, consommation), Lichtenstein (BD, points Benday).",
+        "Nouvelle figuration : Bacon (corps-cri), Hockney (figuration joyeuse).",
+        "Néo-expressionnisme / rue : Basquiat (graffiti → galerie).",
+        "Art mondialisé : Koons (kitsch), Hirst (mort), Kusama (infini), Ai Weiwei (engagement), Banksy (street art)."
+      ],
+      "liens": {
+        "vient_de": "Du readymade de Duchamp et de l'abstraction du début du XXe : l'idée et le geste l'emportent sur la représentation.",
+        "mene": "À l'art d'aujourd'hui — numérique, NFT, IA, installations immersives — où la question « qu'est-ce que l'art ? » reste plus que jamais ouverte."
+      },
+      "memos": [
+        "Après 1945, la capitale de l'art passe de Paris à New York.",
+        "Le geste pur (Pollock), puis l'image de masse (Warhol), puis l'idée (conceptuel), puis la provocation et le marché.",
+        "Tout peut devenir art : la question se déplace de l'objet vers le concept, le contexte et le regard.",
+        "L'art contemporain est mondialisé, médiatique et indissociable de son marché."
+      ],
+      "autotest": [
+        "Pourquoi New York devient-elle la capitale de l'art après 1945 ?",
+        "Qu'est-ce que le dripping de Pollock change dans l'acte de peindre ?",
+        "En quoi les boîtes de soupe de Warhol abolissent-elles la frontière art / consommation ?",
+        "Qu'apporte Basquiat (rue, identité) à la peinture des années 1980 ?",
+        "Comment Ai Weiwei et Banksy font-ils de l'art un acte politique ?"
+      ],
+      "recit": [
+        {
+          "h": "1945 : New York prend la tête",
+          "p": "Au sortir de la guerre, l'Europe est ruinée et beaucoup d'artistes ont fui aux États-Unis. Pour la première fois, c'est à New York, et non à Paris, que s'invente l'avant-garde. L'argent, la liberté et l'énergie américaines y attirent le monde de l'art."
+        },
+        {
+          "h": "Le geste pur : l'expressionnisme abstrait",
+          "p": "Jackson Pollock pose sa toile au sol et y projette la peinture en dansant autour : le geste du corps devient l'œuvre. Mark Rothko, lui, réduit tout à de grands rectangles de couleur flottants, faits pour envelopper et émouvoir. L'art ne représente plus rien : il agit, ou il médite."
+        },
+        {
+          "h": "L'image de masse : le Pop Art",
+          "p": "Dans les années 1960, contre cette abstraction sérieuse, le Pop Art ramène les images de la rue et du supermarché. Andy Warhol sérigraphie des boîtes de soupe et des Marilyn en série ; Roy Lichtenstein agrandit des cases de bande dessinée. La société de consommation se regarde dans le miroir, froid, de l'art."
+        },
+        {
+          "h": "L'idée comme œuvre",
+          "p": "Dans le sillage de Duchamp, le minimalisme épure jusqu'au cube nu, et l'art conceptuel décrète que l'idée, le texte, le protocole peuvent être l'œuvre, sans objet à regarder. La peinture semble par moments condamnée ; l'art devient pensée."
+        },
+        {
+          "h": "Le retour du corps et du cri",
+          "p": "Mais la figure revient, violente : Francis Bacon peint des corps hurlants et déformés, l'angoisse de l'homme sans Dieu. Et dans le New York des années 1980, un jeune graffeur, Jean-Michel Basquiat, fait entrer la rue, le jazz et la question noire dans la grande peinture."
+        },
+        {
+          "h": "L'art-monde : provocation, installation, marché",
+          "p": "À partir des années 1990, l'art devient mondial, médiatique et spéculatif : Jeff Koons sacralise le kitsch, Damien Hirst plonge la mort dans le formol, Yayoi Kusama immerge les foules dans l'infini, Ai Weiwei en fait une arme politique, et Banksy, anonyme, ramène l'art gratuit dans la rue. La question reste ouverte : qu'est-ce qui fait, aujourd'hui encore, qu'une chose est de l'art ?"
+        }
+      ]
     }
   ]
 }

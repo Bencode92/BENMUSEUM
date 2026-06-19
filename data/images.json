@@ -5065,5 +5065,135 @@
     "h": 522,
     "format": "jpg",
     "file": "Willem_Kalf.jpg"
+  },
+  "Jackson Pollock": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Jackson_Pollock%27s_passport_%28cropped%29.jpg",
+    "thumb_w": 603,
+    "thumb_h": 613,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Jackson_Pollock%27s_passport_%28cropped%29.jpg",
+    "w": 603,
+    "h": 613,
+    "format": "jpg",
+    "file": "Jackson_Pollock's_passport_(cropped).jpg"
+  },
+  "Mark Rothko": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Consuelo_Kanaga%2C_Mark_Rothko%2C_Yorktown_Heights%2C_ca._1949.jpg/960px-Consuelo_Kanaga%2C_Mark_Rothko%2C_Yorktown_Heights%2C_ca._1949.jpg",
+    "thumb_w": 900,
+    "thumb_h": 901,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Consuelo_Kanaga%2C_Mark_Rothko%2C_Yorktown_Heights%2C_ca._1949.jpg",
+    "w": 1534,
+    "h": 1536,
+    "format": "jpg",
+    "file": "Consuelo_Kanaga,_Mark_Rothko,_Yorktown_Heights,_ca._1949.jpg"
+  },
+  "Andy Warhol": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Andy_Warhol_at_the_Jewish_Museum_%28by_Bernard_Gotfryd%29_%E2%80%93_LOC.jpg/960px-Andy_Warhol_at_the_Jewish_Museum_%28by_Bernard_Gotfryd%29_%E2%80%93_LOC.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1308,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Andy_Warhol_at_the_Jewish_Museum_%28by_Bernard_Gotfryd%29_%E2%80%93_LOC.jpg",
+    "w": 3224,
+    "h": 4686,
+    "format": "jpg",
+    "file": "Andy_Warhol_at_the_Jewish_Museum_(by_Bernard_Gotfryd)_–_LOC.jpg"
+  },
+  "Roy Lichtenstein": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Roy_Lichtenstein%2C_painter_1969_%28cropped%29.jpg/960px-Roy_Lichtenstein%2C_painter_1969_%28cropped%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1201,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Roy_Lichtenstein%2C_painter_1969_%28cropped%29.jpg",
+    "w": 1875,
+    "h": 2503,
+    "format": "jpg",
+    "file": "Roy_Lichtenstein,_painter_1969_(cropped).jpg"
+  },
+  "Jean-Michel Basquiat": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Jean-Michel_Basquiat_passport_%28cropped%29.jpg",
+    "thumb_w": 165,
+    "thumb_h": 212,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Jean-Michel_Basquiat_passport_%28cropped%29.jpg",
+    "w": 165,
+    "h": 212,
+    "format": "jpg",
+    "file": "Jean-Michel_Basquiat_passport_(cropped).jpg"
+  },
+  "David Hockney": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/David_Hockney_in_Washington_Square_Park_%281977%29.jpg",
+    "thumb_w": 455,
+    "thumb_h": 607,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/David_Hockney_in_Washington_Square_Park_%281977%29.jpg",
+    "w": 455,
+    "h": 607,
+    "format": "jpg",
+    "file": "David_Hockney_in_Washington_Square_Park_(1977).jpg"
+  },
+  "Jeff Koons": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Jeff_Koons_01_%283x4_cropped%29.JPG/960px-Jeff_Koons_01_%283x4_cropped%29.JPG",
+    "thumb_w": 900,
+    "thumb_h": 1199,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Jeff_Koons_01_%283x4_cropped%29.JPG",
+    "w": 2072,
+    "h": 2760,
+    "format": "jpg",
+    "file": "Jeff_Koons_01_(3x4_cropped).JPG"
+  },
+  "Damien Hirst": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Damien_Hirst_2_-_West_London_studio%2C_Jul_16%2C_2021.jpg",
+    "thumb_w": 490,
+    "thumb_h": 632,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Damien_Hirst_2_-_West_London_studio%2C_Jul_16%2C_2021.jpg",
+    "w": 490,
+    "h": 632,
+    "format": "jpg",
+    "file": "Damien_Hirst_2_-_West_London_studio,_Jul_16,_2021.jpg"
+  },
+  "Yayoi Kusama": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yayoi_Kusama_wax_model_at_Louis_Vitton.jpg/960px-Yayoi_Kusama_wax_model_at_Louis_Vitton.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1200,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yayoi_Kusama_wax_model_at_Louis_Vitton.jpg",
+    "w": 2448,
+    "h": 3264,
+    "format": "jpg",
+    "file": "Yayoi_Kusama_wax_model_at_Louis_Vitton.jpg"
+  },
+  "Ai Weiwei": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Aj_Wej-wej_I_%282017%29.jpg",
+    "thumb_w": 886,
+    "thumb_h": 1197,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Aj_Wej-wej_I_%282017%29.jpg",
+    "w": 886,
+    "h": 1197,
+    "format": "jpg",
+    "file": "Aj_Wej-wej_I_(2017).jpg"
+  },
+  "Willem de Kooning": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Willem_de_Kooning_in_his_studio.jpg/960px-Willem_de_Kooning_in_his_studio.jpg",
+    "thumb_w": 900,
+    "thumb_h": 693,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Willem_de_Kooning_in_his_studio.jpg",
+    "w": 1024,
+    "h": 789,
+    "format": "jpg",
+    "file": "Willem_de_Kooning_in_his_studio.jpg"
+  },
+  "Sunflower Seeds (artwork)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ai_Weiwei%27s_Sunflower_Seeds%2C_Tate_Modern.jpg/960px-Ai_Weiwei%27s_Sunflower_Seeds%2C_Tate_Modern.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1350,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ai_Weiwei%27s_Sunflower_Seeds%2C_Tate_Modern.jpg",
+    "w": 2592,
+    "h": 3888,
+    "format": "jpg",
+    "file": "Ai_Weiwei's_Sunflower_Seeds,_Tate_Modern.jpg"
+  },
+  "Maman (sculpture)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Giant_spider_strikes_again%21.jpg/960px-Giant_spider_strikes_again%21.jpg",
+    "thumb_w": 900,
+    "thumb_h": 675,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Giant_spider_strikes_again%21.jpg",
+    "w": 3264,
+    "h": 2448,
+    "format": "jpg",
+    "file": "Giant_spider_strikes_again!.jpg"
   }
 }
