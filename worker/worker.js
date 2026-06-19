@@ -3,7 +3,8 @@
    Secrets (jamais dans le navigateur) :
      - ANTHROPIC_API_KEY : clé Claude (discussion / quiz / enrichissement)
      - GITHUB_TOKEN      : jeton GitHub fine-grained (Contents: read/write sur BENMUSEUM) — pour le mode "save"
-     - EDIT_PASSWORD     : phrase de passe qui autorise l'écriture partagée (anti-vandalisme)
+     - EDIT_PASSWORD     : OPTIONNEL — si défini, exige cette phrase de passe pour écrire (anti-vandalisme).
+                           Si absent, l'écriture partagée est ouverte (n'importe qui connaissant l'URL peut écrire).
    Le mode "save" ajoute une entrée à data/community.json (couche partagée, visible par tous).
    Déploiement : voir worker/README.md
    ========================================================================= */
@@ -67,7 +68,8 @@ export default {
     /* ---------- mode "save" : écriture partagée dans community.json ---------- */
     if (mode === "save") {
       if (!env.GITHUB_TOKEN) return json({ error: "GITHUB_TOKEN absent (secret Worker)" }, 500, cors);
-      if (!env.EDIT_PASSWORD || b.password !== env.EDIT_PASSWORD) return json({ error: "Phrase de passe incorrecte" }, 403, cors);
+      // phrase de passe OPTIONNELLE : on ne l'exige QUE si le secret EDIT_PASSWORD existe
+      if (env.EDIT_PASSWORD && b.password !== env.EDIT_PASSWORD) return json({ error: "Phrase de passe incorrecte" }, 403, cors);
       const entry = b.entry;
       if (!entry || !entry.scope || !entry.type) return json({ error: "Entrée invalide" }, 400, cors);
       try {

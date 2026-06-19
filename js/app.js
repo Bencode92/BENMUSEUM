@@ -11,7 +11,7 @@ let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
 const $ = id => document.getElementById(id);
 
-const DV = "55"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "56"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -1251,19 +1251,19 @@ function addEnrich(scope, q, text) {
 }
 // ---- couche PARTAGÉE (community.json) : visible par tous, écrite via le Worker ----
 function communityFor(scope, type) { return COMMUNITY.filter(e => e && e.scope === scope && e.type === type); }
-// publie une entrée sur le site partagé (via le Worker, protégé par phrase de passe)
-async function publishEntry(entry) {
-  let pw = localStorage.getItem("museum:editpw");
-  if (!pw) {
-    pw = prompt("Phrase de passe d'édition (pour publier sur le site partagé, visible par tous).\nLaisse vide pour enregistrer seulement sur ce navigateur :", "");
-    if (pw) localStorage.setItem("museum:editpw", pw.trim());
-  }
-  if (!pw) return { shared: false, reason: "local" };
+// publie une entrée sur le site partagé (via le Worker). Aucune phrase de passe par défaut :
+// on n'en demande une QUE si le Worker la réclame (réponse 403, cas où EDIT_PASSWORD est défini).
+async function publishEntry(entry, _retried) {
+  const pw = localStorage.getItem("museum:editpw") || "";
   try {
-    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "save", password: pw.trim(), entry }) });
+    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "save", password: pw, entry }) });
     const j = await r.json().catch(() => ({}));
     if (r.ok && j.ok) return { shared: true };
-    if (r.status === 403) { localStorage.removeItem("museum:editpw"); return { shared: false, reason: "phrase de passe incorrecte" }; }
+    if (r.status === 403 && !_retried) {
+      const p = prompt("Ce Worker est protégé par une phrase de passe d'édition. Saisis-la :", "");
+      if (p) { localStorage.setItem("museum:editpw", p.trim()); return publishEntry(entry, true); }
+      return { shared: false, reason: "phrase de passe requise" };
+    }
     return { shared: false, reason: j.error || (j.answer ? "Worker pas encore à jour (mode save)" : "err " + r.status) };
   } catch { return { shared: false, reason: "réseau / Worker pas à jour" }; }
 }
