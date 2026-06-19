@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "scope": "artiste:renaissance:4",
+    "type": "enrich",
+    "q": "diagnostic",
+    "text": "diag — à supprimer",
+    "ts": "2026-06-19"
+  }
+]
