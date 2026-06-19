@@ -8,20 +8,23 @@ let CHAPITRES = [];
 let DOSSIERS = [];
 let IMAGES = {};             // manifeste des images résolues (data/images.json)
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
+let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
 const $ = id => document.getElementById(id);
 
-const DV = "54"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "55"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
   fetch("data/images.json?v=" + DV).then(r => r.json()).catch(() => ({})),
+  fetch("data/community.json?t=" + Date.now()).then(r => r.json()).catch(() => []),
 ])
-  .then(([art, dos, img]) => {
+  .then(([art, dos, img, com]) => {
     CHAPITRES = art.chapitres;
     CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) =>
       FLAT.push({ ci, oi, chap: c, oeuvre: o })));
     DOSSIERS = dos.dossiers || [];
     IMAGES = img || {};
+    COMMUNITY = Array.isArray(com) ? com : [];
     // enrichir le pool du quiz avec les œuvres des fiches d'artistes (a.oeuvres),
     // rattachées au 1er chapitre de leur dossier, dédupliquées par image
     {
@@ -221,11 +224,13 @@ async function sendChat() {
     if (ctx.scope && ctx.scope !== "weak") {
       const add = document.createElement("button");
       add.className = "linkbtn addtofiche"; add.textContent = "➕ Ajouter cette réponse à la fiche";
-      add.onclick = () => {
-        addEnrich(ctx.scope, q, j.answer);
+      add.onclick = async () => {
+        add.disabled = true; add.textContent = "Publication…";
+        const res = await publishEntry({ scope: ctx.scope, type: "enrich", q, text: j.answer });
+        if (!res.shared) addEnrich(ctx.scope, q, j.answer);
         const ebox = $("view") && $("view").querySelector(`.aienrich[data-scope="${CSS.escape(ctx.scope)}"]`);
         if (ebox) { ebox.outerHTML = enrichBlock(ctx.scope); wireEnrichBlock(ctx.scope, ctx.fiche, ctx.ask); }
-        add.textContent = "✓ Ajouté à la fiche"; add.disabled = true;
+        add.textContent = res.shared ? "✓ Publié (visible par tous ~1 min)" : "✓ Ajouté (ce navigateur)";
       };
       thinking.after(add);
       $("chatlog2").scrollTop = $("chatlog2").scrollHeight;
@@ -943,9 +948,10 @@ function renderArtiste(id, ai) {
   if (!a) return d ? renderDossier(id) : renderDossiersList();
   crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre, nav: `#/d/${id}` }, { label: a.nom }]);
   const aScope = `artiste:${id}:${ai}`;
-  // œuvres : dossier + a.oeuvres + œuvres ajoutées par l'IA (museum:works), dédoublonnées par titre
+  // œuvres : dossier + a.oeuvres + partagées (community) + ajoutées en local, dédoublonnées par titre
+  const sharedWorks = communityFor(aScope, "work").map(w => ({ ...w, _shared: true }));
   const userWorks = getUserWorks(aScope).map(w => ({ ...w, _uw: true }));
-  const merged = [...(d.oeuvres || []).filter(o => sameArtist(o.artiste, a.nom)), ...(a.oeuvres || []), ...userWorks];
+  const merged = [...(d.oeuvres || []).filter(o => sameArtist(o.artiste, a.nom)), ...(a.oeuvres || []), ...sharedWorks, ...userWorks];
   const seen = new Set();
   const works = merged.filter(o => { const k = (o.titre || "").toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
   const bioD = { oeuvres: works.map(o => ({ ...o, artiste: o.artiste || a.nom })), artistes: [a] };
@@ -1004,7 +1010,7 @@ function renderArtiste(id, ai) {
   P.push(`<h2 class="sec">🖼 Ses œuvres (${works.length})</h2>
     <div class="grid cols">${works.map(o => `
       <div class="card"><div class="thumb zoomable" data-wiki="${esc(o.wiki)}" data-zoom="${esc(o.wiki)}" data-cap="${esc(o.titre)} — ${esc(o.artiste)}">${o._uw ? `<button class="uwdel" data-uwid="${o.uwid}" title="Retirer">✕</button>` : ""}</div>
-        <div class="body"><div class="t">${esc(o.titre)}${o._uw ? ` <span class="tag" style="font-size:10px;background:var(--gold);color:#fff;padding:1px 5px;border-radius:4px">IA</span>` : ""}</div><div class="s">${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
+        <div class="body"><div class="t">${esc(o.titre)}${o._shared ? ` <span class="tag" style="font-size:10px;background:var(--gold);color:#fff;padding:1px 5px;border-radius:4px">🌍 IA partagée</span>` : o._uw ? ` <span class="tag" style="font-size:10px;background:#888;color:#fff;padding:1px 5px;border-radius:4px">IA · ce navigateur</span>` : ""}</div><div class="s">${esc(o.annee)}${o.lieu ? ` · ${esc(o.lieu)}` : ""}</div>
         ${o.analyse ? `<details class="deep"><summary>📖 Analyse</summary><p>${esc(o.analyse)}</p></details>` : `<p style="font-size:13px;margin-top:6px">${esc(o.genie || "")}</p>`}</div></div>`).join("")}</div>
     <div class="sess-actions"><button class="optbtn" id="addwork">➕ Ajouter une œuvre via l'IA</button></div>
     <div id="addworkhost"></div>`);
@@ -1243,16 +1249,42 @@ function addEnrich(scope, q, text) {
   const a = getEnrich(scope); a.push({ q: q || "", text: text || "", ts: today() });
   localStorage.setItem(enrichKey(scope), JSON.stringify(a));
 }
-// bloc HTML : approfondissements déjà sauvés + champ pour creuser un nouvel aspect via l'IA
+// ---- couche PARTAGÉE (community.json) : visible par tous, écrite via le Worker ----
+function communityFor(scope, type) { return COMMUNITY.filter(e => e && e.scope === scope && e.type === type); }
+// publie une entrée sur le site partagé (via le Worker, protégé par phrase de passe)
+async function publishEntry(entry) {
+  let pw = localStorage.getItem("museum:editpw");
+  if (!pw) {
+    pw = prompt("Phrase de passe d'édition (pour publier sur le site partagé, visible par tous).\nLaisse vide pour enregistrer seulement sur ce navigateur :", "");
+    if (pw) localStorage.setItem("museum:editpw", pw.trim());
+  }
+  if (!pw) return { shared: false, reason: "local" };
+  try {
+    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "save", password: pw.trim(), entry }) });
+    const j = await r.json().catch(() => ({}));
+    if (r.ok && j.ok) return { shared: true };
+    if (r.status === 403) { localStorage.removeItem("museum:editpw"); return { shared: false, reason: "phrase de passe incorrecte" }; }
+    return { shared: false, reason: j.error || (j.answer ? "Worker pas encore à jour (mode save)" : "err " + r.status) };
+  } catch { return { shared: false, reason: "réseau / Worker pas à jour" }; }
+}
+// bloc HTML : approfondissements partagés (community) + perso (local) + champ pour creuser via l'IA
 function enrichBlock(scope) {
-  const items = getEnrich(scope);
-  return `<div class="block aienrich" data-scope="${esc(scope)}">
-    <h2 class="sec" style="margin-top:0">🤖 Approfondissements (IA) ${items.length ? `· ${items.length}` : ""}</h2>
-    <div class="enrichlist">${items.map((it, i) => `
+  const shared = communityFor(scope, "enrich");
+  const local = getEnrich(scope);
+  const total = shared.length + local.length;
+  const sharedHTML = shared.map(it => `
       <div class="recit-block"><div class="recit-txt">
         ${it.q ? `<h3>${esc(it.q)}</h3>` : ""}<p>${esc(it.text)}</p>
-        <button class="linkbtn enrichdel" data-i="${i}" style="font-size:12px;color:var(--muted)">supprimer</button>
-      </div></div>`).join("") || `<p class="lead">Creuse un aspect via l'IA — la réponse s'ajoute ici et reste sur la fiche.</p>`}</div>
+        <span class="tag" style="font-size:10px;background:var(--gold);color:#fff;padding:1px 6px;border-radius:4px">🌍 partagé</span>
+      </div></div>`).join("");
+  const localHTML = local.map((it, i) => `
+      <div class="recit-block"><div class="recit-txt">
+        ${it.q ? `<h3>${esc(it.q)}</h3>` : ""}<p>${esc(it.text)}</p>
+        <span style="font-size:10px;color:var(--muted)">ce navigateur</span> · <button class="linkbtn enrichdel" data-i="${i}" style="font-size:12px;color:var(--muted)">supprimer</button>
+      </div></div>`).join("");
+  return `<div class="block aienrich" data-scope="${esc(scope)}">
+    <h2 class="sec" style="margin-top:0">🤖 Approfondissements (IA) ${total ? `· ${total}` : ""}</h2>
+    <div class="enrichlist">${sharedHTML + localHTML || `<p class="lead">Creuse un aspect via l'IA — la réponse s'ajoute ici et reste sur la fiche.</p>`}</div>
     <div class="sess-actions" style="margin-bottom:6px;flex-wrap:wrap">
       <button class="optbtn enrichquick" data-q="Quelle a été son influence sur les artistes qui l'ont suivi ?">↳ Son influence</button>
       <button class="optbtn enrichquick" data-q="Détaille sa technique et ce qui la rend reconnaissable.">↳ Sa technique</button>
@@ -1283,13 +1315,26 @@ function wireEnrichBlock(scope, fiche, ask) {
         body: JSON.stringify({ ...(ask || {}), question: q, fiche }) });
       if (!r.ok) throw new Error();
       const j = await r.json();
-      addEnrich(scope, q, j.answer); inp.value = ""; refresh();
+      inp.value = "";
+      ans.className = "answer enrichans dim"; ans.textContent = "Publication sur le site partagé…";
+      const res = await publishEntry({ scope, type: "enrich", q, text: j.answer });
+      if (!res.shared) addEnrich(scope, q, j.answer); // pas partagé → au moins en local
+      ans.hidden = true;
+      refresh();
+      flash(res.shared ? "🌍 Ajouté au site partagé (visible par tous après ~1 min)." : (res.reason === "local" ? "Ajouté sur ce navigateur." : "Ajouté en local (partage indisponible : " + res.reason + ")."));
     } catch {
       ans.className = "answer enrichans dim";
       ans.innerHTML = "⚠️ IA hors ligne. <button class='linkbtn' id='cfgE'>Configurer l'IA en ligne</button>";
       const b = $("cfgE"); if (b) b.onclick = setAiUrl;
     }
   };
+}
+// petit bandeau de confirmation éphémère
+function flash(msg) {
+  let el = $("flashmsg");
+  if (!el) { el = document.createElement("div"); el.id = "flashmsg"; el.style = "position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 18px;border-radius:8px;z-index:9999;max-width:90%;box-shadow:0 4px 18px rgba(0,0,0,.3);font-size:14px"; document.body.appendChild(el); }
+  el.textContent = msg; el.style.opacity = "1";
+  clearTimeout(flash._t); flash._t = setTimeout(() => { el.style.transition = "opacity .5s"; el.style.opacity = "0"; }, 4000);
 }
 
 /* ---------- Œuvres ajoutées par l'IA (la discussion enrichit la galerie) ---------- */
@@ -1324,8 +1369,12 @@ async function aiProposeWork(scope, ask, existingTitles, host, onAdded) {
           <button class="optbtn" id="otherw">↻ Une autre</button>
           <button class="optbtn" id="cancelw">✕ Annuler</button>
         </div></div></div>`;
-    host.querySelector("#addw").onclick = () => {
-      addUserWork(scope, { titre: w.titre, artiste, annee: w.annee || "", lieu: w.lieu || "", wiki: w.wiki_en || w.titre, analyse: w.analyse || "", ai: true, uwid: Date.now() });
+    host.querySelector("#addw").onclick = async () => {
+      const work = { titre: w.titre, artiste, annee: w.annee || "", lieu: w.lieu || "", wiki: w.wiki_en || w.titre, analyse: w.analyse || "" };
+      host.innerHTML = `<p class="lead dim">Publication…</p>`;
+      const res = await publishEntry({ scope, type: "work", ...work });
+      if (!res.shared) addUserWork(scope, { ...work, ai: true, uwid: Date.now() });
+      flash(res.shared ? "🌍 Œuvre ajoutée au site partagé (visible par tous après ~1 min)." : (res.reason === "local" ? "Œuvre ajoutée sur ce navigateur." : "Ajoutée en local (partage indisponible : " + res.reason + ")."));
       onAdded && onAdded();
     };
     host.querySelector("#otherw").onclick = () => aiProposeWork(scope, ask, existingTitles.concat(w.titre), host, onAdded);
