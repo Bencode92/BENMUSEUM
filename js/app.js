@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "53"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "54"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -286,6 +286,7 @@ function route() {
   document.querySelectorAll(".tab").forEach(b => b.classList.toggle("active", b.dataset.nav === "#/" + tabKey));
   scrollTo(0, 0);
   if (top === "quiz") { setActiveFloor(-1); return renderQuiz(); }
+  if (top === "maitrise") { setActiveFloor(-1); return renderMaitrise(); }
   if (top === "session") { setActiveFloor(-1); return startSession(); }
   if (top === "parcours") { setActiveFloor(-1); return renderParcours(); }
   if (top === "favoris") { setActiveFloor(-1); return renderFavoris(); }
@@ -692,8 +693,9 @@ async function startQuiz(opts) {
 }
 // QCM de COMPRÉHENSION : l'IA génère « que représente l'œuvre / qui est qui » + explication développée ;
 // l'image de l'œuvre s'affiche, la question commence par son titre (pour la relier à l'image).
-async function startThematicQuiz() {
-  const { chap, art, pool } = quizScope();
+async function startThematicQuiz(opts) {
+  opts = opts || {};
+  const pool = opts.pool || quizScope().pool;
   const box = $("quizarea"); if (!box) return;
   const withImg = pool.filter(x => IMAGES[x.oeuvre.wiki]);
   if (!withImg.length) { box.innerHTML = `<p class="lead">Pas d'œuvre illustrée pour cette cible — choisis une autre période.</p>`; return; }
@@ -717,8 +719,8 @@ async function startThematicQuiz() {
       if (m) { const t = m[1].toLowerCase().trim(); item = works.find(x => { const w = x.oeuvre.titre.toLowerCase(); return w.includes(t) || t.includes(w); }); }
       qs.push({ kind: item ? "img" : "text", img: item ? item.oeuvre.wiki : "", q: q.q, options: q.options, answer: q.answer, explication: q.explication, meta: item || null });
     });
-    if (!qs.length) { box.innerHTML = `<p class="lead">⚠️ L'IA n'a pas pu générer ce QCM. <button class="optbtn" id="rty">↻ Réessayer</button></p>`; const b = box.querySelector("#rty"); if (b) b.onclick = startThematicQuiz; return; }
-    QZ = { qs: shuffle(qs), i: 0, score: 0, replay: startThematicQuiz };
+    if (!qs.length) { box.innerHTML = `<p class="lead">⚠️ L'IA n'a pas pu générer ce QCM. <button class="optbtn" id="rty">↻ Réessayer</button></p>`; const b = box.querySelector("#rty"); if (b) b.onclick = () => startThematicQuiz(opts); return; }
+    QZ = { qs: shuffle(qs), i: 0, score: 0, replay: () => startThematicQuiz(opts) };
     playQuestion();
   } catch {
     box.innerHTML = `<p class="lead">⚠️ Ce QCM a besoin de l'IA, actuellement hors ligne. <button class="linkbtn" id="cfgQ">Configurer l'IA</button></p>`;
@@ -764,6 +766,126 @@ function playQuestion() {
     nb.onclick = () => { QZ.i++; playQuestion(); };
     box.querySelector(".quiz").appendChild(nb);
   });
+}
+
+/* =========================================================================
+   MODE MAÎTRISE — connaître vraiment (niveau prépa) artistes / époques / écoles
+   ========================================================================= */
+let RC = null; // état du rappel libre
+function maitriseScope() {
+  const a = $("martiste") ? $("martiste").value : "";
+  const e = $("mepoque") ? $("mepoque").value : "";
+  let pool = FLAT;
+  if (a) pool = pool.filter(x => x.oeuvre.artiste === a);
+  if (e) pool = pool.filter(x => x.chap.dossier === e);
+  const ep = e && (DOSSIERS.find(d => d.id === e) || {}).titre;
+  const label = [a, ep].filter(Boolean).join(" — ") || "tout le musée";
+  return { pool, label };
+}
+function masteryStats(cards) {
+  const s = srsStore(); let mastered = 0, weak = 0, seen = 0;
+  cards.forEach(c => { const e = s["w:" + c.oeuvre.wiki]; if (e) { seen++; if ((e.box || 1) >= 4) mastered++; if ((e.box || 1) <= 2) weak++; } });
+  return { total: cards.length, mastered, weak, seen };
+}
+function gaugeHTML(cards) {
+  const m = masteryStats(cards);
+  const pct = m.total ? Math.round(100 * m.mastered / m.total) : 0;
+  return `<div style="margin-top:10px">
+    <div style="background:#e9e4da;border-radius:7px;height:16px;overflow:hidden"><div style="width:${pct}%;height:100%;background:var(--gold);transition:width .3s"></div></div>
+    <p class="lead" style="margin-top:6px">Maîtrise : <b>${pct}%</b> — ${m.mastered}/${m.total} œuvres maîtrisées${m.weak ? ` · <b>${m.weak}</b> à consolider` : ""}${m.seen < m.total ? ` · ${m.total - m.seen} jamais vues` : ""}. <span style="color:var(--muted)">(« maîtrisée » = revue avec succès plusieurs fois)</span></p>
+  </div>`;
+}
+// distracteurs = artistes de la MÊME époque → on apprend à distinguer les proches
+function buildDiscrimination(pool, n) {
+  const wp = pool.filter(x => IMAGES[x.oeuvre.wiki] && x.oeuvre.artiste && !ANON.test(x.oeuvre.artiste));
+  const qs = [], used = new Set(); let guard = 0;
+  while (qs.length < n && guard++ < n * 12 && wp.length) {
+    const it = wp[Math.floor(Math.random() * wp.length)];
+    if (used.has(it.oeuvre.wiki)) continue; used.add(it.oeuvre.wiki);
+    const sameEra = [...new Set(FLAT.filter(x => x.chap.dossier === it.chap.dossier && x.oeuvre.artiste && !ANON.test(x.oeuvre.artiste) && x.oeuvre.artiste !== it.oeuvre.artiste).map(x => x.oeuvre.artiste))];
+    let distract = pick(sameEra, 3);
+    if (distract.length < 3) {
+      const more = [...new Set(FLAT.map(x => x.oeuvre.artiste).filter(a => a && !ANON.test(a) && a !== it.oeuvre.artiste && !distract.includes(a)))];
+      distract = distract.concat(pick(more, 3 - distract.length));
+    }
+    if (distract.length < 3) continue;
+    const opts = shuffle([it.oeuvre.artiste, ...distract]);
+    qs.push({ kind: "img", img: it.oeuvre.wiki, q: "Parmi ces artistes de la même époque, lequel a réalisé cette œuvre ?", options: opts, answer: opts.indexOf(it.oeuvre.artiste), meta: it, explication: `${it.oeuvre.titre} — ${it.oeuvre.artiste}.` });
+  }
+  return qs;
+}
+function startDiscrimination() {
+  const { pool, label } = maitriseScope();
+  const box = $("quizarea"); if (!box) return;
+  const qs = buildDiscrimination(pool, 15);
+  if (!qs.length) { box.innerHTML = `<p class="lead">Pas assez d'œuvres illustrées pour discriminer ici — élargis la cible.</p>`; return; }
+  QZ = { qs, i: 0, score: 0, replay: startDiscrimination };
+  playQuestion();
+}
+// rappel libre : aucune option, on répond de tête, on révèle, on s'auto-évalue (effet de génération)
+function startRecall() {
+  const { pool } = maitriseScope();
+  const cards = shuffle(pool.filter(x => IMAGES[x.oeuvre.wiki])).slice(0, 12);
+  const box = $("quizarea"); if (!box) return;
+  if (!cards.length) { box.innerHTML = `<p class="lead">Pas d'œuvre illustrée pour cette cible.</p>`; return; }
+  RC = { items: cards, i: 0, savais: 0 };
+  playRecall();
+}
+function playRecall() {
+  const box = $("quizarea"); if (!box) return;
+  const it = RC.items[RC.i];
+  if (!it) {
+    const pct = Math.round(100 * RC.savais / RC.items.length);
+    box.innerHTML = `<div class="quiz"><div class="q">Terminé !</div>
+      <div class="score" style="font-size:22px;color:var(--gold)">Su de tête : ${RC.savais} / ${RC.items.length} <small>(${pct}%)</small></div>
+      <p class="lead">Ce que tu n'as pas su revient dans ta révision espacée.</p>
+      <button class="next" id="rreplay">↻ Refaire</button></div>`;
+    $("rreplay").onclick = startRecall; return;
+  }
+  box.innerHTML = `<div class="quiz"><div class="score">Carte ${RC.i + 1} / ${RC.items.length} · su ${RC.savais}</div>
+    <img class="qimg" data-wiki="${esc(it.oeuvre.wiki)}" alt="" />
+    <div class="q">🧠 De tête : <b>qui</b> a peint cette œuvre ? Quel est son <b>titre</b> ? De quelle <b>époque</b> ?</div>
+    <div id="rverso" hidden><p style="font-size:16px"><b>${esc(it.oeuvre.titre)}</b> — ${esc(it.oeuvre.artiste)}</p>
+      <p style="color:var(--muted)">${esc(it.chap.titre)}${it.oeuvre.annee ? ` · ${esc(it.oeuvre.annee)}` : ""}</p></div>
+    <div class="sess-actions">
+      <button class="next" id="rflip">Révéler la réponse</button>
+      <div id="rgrade" hidden><button class="optbtn bad" id="rno">↻ Pas su</button><button class="optbtn good" id="ryes">✓ Je savais</button></div>
+    </div></div>`;
+  loadImages(box);
+  $("rflip").onclick = () => { $("rverso").hidden = false; $("rflip").hidden = true; $("rgrade").hidden = false; };
+  $("rno").onclick = () => { gradeCard("w:" + it.oeuvre.wiki, false); RC.i++; playRecall(); };
+  $("ryes").onclick = () => { gradeCard("w:" + it.oeuvre.wiki, true); RC.savais++; RC.i++; playRecall(); };
+}
+function renderMaitrise() {
+  crumb([{ label: "Maîtrise" }]);
+  const arts = [...new Set(FLAT.map(x => x.oeuvre.artiste).filter(a => a && !ANON.test(a)))].sort((a, b) => a.localeCompare(b, "fr"));
+  const epoques = DOSSIERS.map(d => ({ id: d.id, titre: d.titre }));
+  $("view").innerHTML = `
+    <div class="pagehead"><h1>Mode Maîtrise</h1>
+      <p class="lead">Pour connaître <b>vraiment</b> — niveau prépa — les artistes, les époques et les écoles. Choisis une cible, vise la jauge à 100 % en variant les exercices.</p></div>
+    <div class="block">
+      <h3>🎯 Ma cible</h3>
+      <div class="quizcfg">
+        <label>Artiste<br><select id="martiste"><option value="">— Tous —</option>${arts.map(a => `<option>${esc(a)}</option>`).join("")}</select></label>
+        <label>Époque / école<br><select id="mepoque"><option value="">— Toutes —</option>${epoques.map(e => `<option value="${esc(e.id)}">${esc(e.titre)}</option>`).join("")}</select></label>
+      </div>
+      <div id="mgauge"></div>
+      <p class="lead" style="margin-top:12px">Quatre exercices, du plus simple au plus exigeant :</p>
+      <div class="sess-actions" style="flex-wrap:wrap">
+        <button class="next" id="mrecon">👁 Reconnaissance</button>
+        <button class="next" id="mdiscr">🔀 Discrimination — distinguer les proches</button>
+        <button class="next" id="mrecall">🧠 Rappel libre — sans options</button>
+        <button class="next" id="mcompr">🖼 Compréhension — que représente l'œuvre ? (IA)</button>
+      </div>
+    </div>
+    <div id="quizarea"></div>`;
+  const refresh = () => { $("mgauge").innerHTML = gaugeHTML(maitriseScope().pool.filter(x => IMAGES[x.oeuvre.wiki])); };
+  refresh();
+  $("martiste").onchange = refresh; $("mepoque").onchange = refresh;
+  $("mrecon").onclick = () => startQuiz({ pool: maitriseScope().pool, label: maitriseScope().label });
+  $("mdiscr").onclick = startDiscrimination;
+  $("mrecall").onclick = startRecall;
+  $("mcompr").onclick = () => startThematicQuiz({ pool: maitriseScope().pool, label: maitriseScope().label });
 }
 
 /* ---------- DOSSIERS (modules d'apprentissage riches) ---------- */
