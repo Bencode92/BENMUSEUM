@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "50"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "51"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -217,6 +217,19 @@ async function sendChat() {
     const j = await r.json();
     thinking.classList.remove("dim"); thinking.textContent = j.answer;
     chatMsgs.push({ role: "user", text: q }, { role: "assistant", text: j.answer });
+    // bouton sous CHAQUE réponse : l'ajouter à la fiche (bloc Approfondissements) — la page se complète
+    if (ctx.scope && ctx.scope !== "weak") {
+      const add = document.createElement("button");
+      add.className = "linkbtn addtofiche"; add.textContent = "➕ Ajouter cette réponse à la fiche";
+      add.onclick = () => {
+        addEnrich(ctx.scope, q, j.answer);
+        const ebox = $("view") && $("view").querySelector(`.aienrich[data-scope="${CSS.escape(ctx.scope)}"]`);
+        if (ebox) { ebox.outerHTML = enrichBlock(ctx.scope); wireEnrichBlock(ctx.scope, ctx.fiche, ctx.ask); }
+        add.textContent = "✓ Ajouté à la fiche"; add.disabled = true;
+      };
+      thinking.after(add);
+      $("chatlog2").scrollTop = $("chatlog2").scrollHeight;
+    }
   } catch {
     thinking.classList.remove("dim");
     thinking.innerHTML = "⚠️ IA hors ligne. <button class='linkbtn' id='cfgc'>Configurer l'IA en ligne</button>";
