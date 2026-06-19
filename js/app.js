@@ -10,7 +10,7 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 const $ = id => document.getElementById(id);
 
-const DV = "52"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "53"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -604,17 +604,20 @@ function renderQuiz() {
       </div>
     </div>
     <div class="block">
-      <h3>📚 Quiz libre — cible</h3>
+      <h3>📚 QCM thématique — choisis ta cible</h3>
       <div class="quizcfg">
-        <label>Chapitre / époque<br><select id="qchap"><option value="">Tout le musée</option>${chapters.map(c => `<option>${esc(c)}</option>`).join("")}</select></label>
+        <label>Période / chapitre<br><select id="qchap"><option value="">🌍 Tout le musée (global)</option>${chapters.map(c => `<option>${esc(c)}</option>`).join("")}</select></label>
         <label>Focus artiste<br><select id="qart"><option value="">— Aucun —</option>${artists.map(a => `<option>${esc(a)}</option>`).join("")}</select></label>
       </div>
-      <div class="sess-actions">
-        <button class="next" id="qstart">▶ Lancer le quiz (≈ 20 questions)</button>
+      <p class="lead" style="margin:10px 0 4px">Deux types de QCM, avec les tableaux affichés et le score en direct :</p>
+      <div class="sess-actions" style="flex-wrap:wrap">
+        <button class="next" id="qstart">👁 Reconnaissance — qui l'a peint ? quelle œuvre ? quelle période ?</button>
+        <button class="next" id="qthematic">🖼 Compréhension — que représente l'œuvre ? (qui est Judas… + explication)</button>
       </div>
     </div>
     <div id="quizarea"></div>`;
   $("qstart").onclick = () => startQuiz();
+  const qt = $("qthematic"); if (qt) qt.onclick = () => startThematicQuiz();
   const wq = $("qweak"); if (wq) wq.onclick = () => startQuiz({ pool: weakPool(), label: "mes erreurs" });
   const dw = $("dweak"); if (dw) dw.onclick = openChatWeak;
 }
@@ -684,8 +687,43 @@ async function startQuiz(opts) {
   } catch {}
   qs = shuffle(qs).slice(0, 20);
   if (!qs.length) { box.innerHTML = `<p class="lead">Pas assez de contenu illustré pour un quiz ici.</p>`; return; }
-  QZ = { qs, i: 0, score: 0 };
+  QZ = { qs, i: 0, score: 0, replay: () => startQuiz(opts) };
   playQuestion();
+}
+// QCM de COMPRÉHENSION : l'IA génère « que représente l'œuvre / qui est qui » + explication développée ;
+// l'image de l'œuvre s'affiche, la question commence par son titre (pour la relier à l'image).
+async function startThematicQuiz() {
+  const { chap, art, pool } = quizScope();
+  const box = $("quizarea"); if (!box) return;
+  const withImg = pool.filter(x => IMAGES[x.oeuvre.wiki]);
+  if (!withImg.length) { box.innerHTML = `<p class="lead">Pas d'œuvre illustrée pour cette cible — choisis une autre période.</p>`; return; }
+  const works = shuffle(withImg).slice(0, 10);
+  box.innerHTML = `<p class="lead">🖼 L'IA prépare ton QCM de compréhension (que représentent les œuvres)…</p>`;
+  const contenu =
+    "Génère des questions de QCM sur CE QUE REPRÉSENTE chaque œuvre : le sujet, l'épisode, le personnage clé ou la signification "
+    + "(par exemple : « Dans la Cène, lequel des personnages est Judas ? » ; « Quel épisode cette œuvre représente-t-elle ? » ; « Que symbolise tel détail ? »). "
+    + "Pour CHAQUE œuvre listée ci-dessous, rédige UNE question. Commence OBLIGATOIREMENT la question par le titre EXACT de l'œuvre entre guillemets « ». "
+    + "4 options dont UNE seule correcte. Donne une explication DÉVELOPPÉE de 3 à 4 phrases qui raconte le sujet ou le personnage (qui il est, ce qu'il fait, pourquoi il compte).\n\nŒUVRES :\n"
+    + works.map((x, i) => `${i + 1}. « ${x.oeuvre.titre} » (${x.oeuvre.artiste}, ${x.oeuvre.annee}) : ${x.oeuvre.explication || x.oeuvre.analyse || ""} ${x.oeuvre.contexte || ""}`).join("\n");
+  try {
+    const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "quiz", contenu, n: works.length }) });
+    if (!r.ok) throw new Error();
+    const d = parseQuizJSON((await r.json()).answer);
+    const qs = [];
+    ((d && d.questions) || []).forEach(q => {
+      if (!q || !Array.isArray(q.options) || typeof q.answer !== "number") return;
+      const m = (q.q || "").match(/[«"]\s*(.+?)\s*[»"]/);
+      let item = null;
+      if (m) { const t = m[1].toLowerCase().trim(); item = works.find(x => { const w = x.oeuvre.titre.toLowerCase(); return w.includes(t) || t.includes(w); }); }
+      qs.push({ kind: item ? "img" : "text", img: item ? item.oeuvre.wiki : "", q: q.q, options: q.options, answer: q.answer, explication: q.explication, meta: item || null });
+    });
+    if (!qs.length) { box.innerHTML = `<p class="lead">⚠️ L'IA n'a pas pu générer ce QCM. <button class="optbtn" id="rty">↻ Réessayer</button></p>`; const b = box.querySelector("#rty"); if (b) b.onclick = startThematicQuiz; return; }
+    QZ = { qs: shuffle(qs), i: 0, score: 0, replay: startThematicQuiz };
+    playQuestion();
+  } catch {
+    box.innerHTML = `<p class="lead">⚠️ Ce QCM a besoin de l'IA, actuellement hors ligne. <button class="linkbtn" id="cfgQ">Configurer l'IA</button></p>`;
+    const b = box.querySelector("#cfgQ"); if (b) b.onclick = setAiUrl;
+  }
 }
 function playQuestion() {
   const box = $("quizarea"); if (!box) return;
@@ -695,7 +733,7 @@ function playQuestion() {
     box.innerHTML = `<div class="quiz"><div class="q">Terminé !</div>
       <div class="score" style="font-size:24px;color:var(--gold)">${QZ.score} / ${QZ.qs.length} <small>(${pct}%)</small></div>
       <button class="next" id="qreplay">↻ Rejouer</button></div>`;
-    $("qreplay").onclick = startQuiz; return;
+    $("qreplay").onclick = QZ.replay || startQuiz; return;
   }
   let body;
   if (q.kind === "grid") {
