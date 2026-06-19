@@ -11,7 +11,7 @@ let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
 const $ = id => document.getElementById(id);
 
-const DV = "56"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "57"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -158,7 +158,7 @@ function initChat() {
     <div id="chatlog2"></div>
     <form id="chatform2"><input id="chatin" autocomplete="off" placeholder="Discute du sujet de cette page…" /><button type="submit">→</button></form>
     <div id="chatanalyse">
-      <button id="chatanalyze">🔎 Analyser les points clés à ajouter à la fiche</button>
+      <button id="chatanalyze">🧷 Résumer la discussion → ajouter à la fiche</button>
       <button id="chataddwork">➕ Ajouter une œuvre à la fiche</button>
       <div id="chatares"></div>
     </div>`;
@@ -244,23 +244,29 @@ async function sendChat() {
 async function analyseChat() {
   const ctx = CHATCTX || (CHATCTX = pageContext());
   const res = $("chatares");
-  if (!chatMsgs.length) { res.textContent = "Discute d'abord un peu, puis lance l'analyse."; return; }
-  res.textContent = "Analyse en cours…";
+  $("chatanalyse").querySelectorAll(".synthadd").forEach(b => b.remove()); // pas de bouton en double
+  if (!chatMsgs.length) { res.textContent = "Discute d'abord autant que tu veux, puis demande la synthèse."; return; }
+  res.className = ""; res.textContent = "🧷 L'IA résume la discussion…";
   const transcript = chatMsgs.map(m => (m.role === "user" ? "Moi : " : "Guide : ") + m.text).join("\n");
+  const question = `Voici notre discussion à propos de « ${ctx.label} » :\n\n${transcript}\n\n`
+    + `Rédige une SYNTHÈSE claire et bien écrite, prête à être ajoutée à la fiche, dans le style d'un musée (chaleureux et précis). `
+    + `Commence par un titre court, puis 1 à 3 paragraphes qui gardent l'essentiel. Ne répète pas la discussion, ne t'adresse pas à moi (pas de « nous avons vu… »), écris comme un texte de fiche.`;
   try {
     const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" },
-      body: JSON.stringify({ mode: "enrich", fiche: ctx.fiche, texte: transcript }) });
+      body: JSON.stringify({ ...(ctx.ask || {}), question }) });
     if (!r.ok) throw new Error();
-    const j = await r.json();
-    res.textContent = j.answer;
+    const synth = (await r.json()).answer;
+    res.textContent = synth;
     const add = document.createElement("button");
-    add.className = "optbtn"; add.style.marginTop = "10px"; add.textContent = "➕ Ajouter ces points à la fiche";
-    add.onclick = () => {
-      // alimente les Approfondissements (IA) de la page — la fiche se développe
-      addEnrich(ctx.scope, "Issu d'une discussion", j.answer);
+    add.className = "optbtn synthadd"; add.style.marginTop = "10px"; add.textContent = "➕ Ajouter cette synthèse à la fiche";
+    add.onclick = async () => {
+      if (!ctx.scope || ctx.scope === "weak") { res.textContent = "Ouvre la fiche d'un artiste / d'une œuvre pour y ajouter la synthèse."; return; }
+      add.disabled = true; add.textContent = "Publication…";
+      const pub = await publishEntry({ scope: ctx.scope, type: "enrich", q: "Synthèse d'une discussion", text: synth });
+      if (!pub.shared) addEnrich(ctx.scope, "Synthèse d'une discussion", synth);
       const ebox = $("view") && $("view").querySelector(`.aienrich[data-scope="${CSS.escape(ctx.scope)}"]`);
       if (ebox) { ebox.outerHTML = enrichBlock(ctx.scope); wireEnrichBlock(ctx.scope, ctx.fiche, ctx.ask); }
-      add.textContent = "✓ Ajouté à la fiche"; add.disabled = true;
+      add.textContent = pub.shared ? "✓ Publié — visible par tous (~1 min)" : "✓ Ajouté (ce navigateur)";
     };
     res.after(add);
   } catch {
