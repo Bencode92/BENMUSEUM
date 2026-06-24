@@ -5715,5 +5715,85 @@
     "h": 2500,
     "format": "jpg",
     "file": "Judit_decapitando_a_Holofernes,_por_Artemisia_Gentileschi.jpg"
+  },
+  "Judith Leyster": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Self-portrait_by_Judith_Leyster.jpg/1280px-Self-portrait_by_Judith_Leyster.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1142,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Self-portrait_by_Judith_Leyster.jpg",
+    "w": 4836,
+    "h": 5525,
+    "format": "jpg",
+    "file": "Self-portrait_by_Judith_Leyster.jpg"
+  },
+  "Carel Fabritius": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Carel_Fabritius_-_Self-Portrait_-_Google_Art_Project.jpg/1280px-Carel_Fabritius_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1351,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Carel_Fabritius_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "w": 3694,
+    "h": 4989,
+    "format": "jpg",
+    "file": "Carel_Fabritius_-_Self-Portrait_-_Google_Art_Project.jpg"
+  },
+  "The Goldfinch (Fabritius)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Fabritius-vink.jpg/1280px-Fabritius-vink.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1527,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Fabritius-vink.jpg",
+    "w": 1965,
+    "h": 3000,
+    "format": "jpg",
+    "file": "Fabritius-vink.jpg"
+  },
+  "Hendrick Avercamp": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hendrick_Avercamp.jpg",
+    "thumb_w": 250,
+    "thumb_h": 201,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hendrick_Avercamp.jpg",
+    "w": 250,
+    "h": 201,
+    "format": "jpg",
+    "file": "Hendrick_Avercamp.jpg"
+  },
+  "Pieter Saenredam": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Pieter_Saenredam_by_Jacob_van_Campen.jpg/1280px-Pieter_Saenredam_by_Jacob_van_Campen.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1421,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Pieter_Saenredam_by_Jacob_van_Campen.jpg",
+    "w": 5004,
+    "h": 7111,
+    "format": "jpg",
+    "file": "Pieter_Saenredam_by_Jacob_van_Campen.jpg"
+  },
+  "Pieter Claesz": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/N%C3%BCrnberg_%E2%80%94_GNM_2013-09-07_Mattes_%2864%29.JPG/1280px-N%C3%BCrnberg_%E2%80%94_GNM_2013-09-07_Mattes_%2864%29.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 1333,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/N%C3%BCrnberg_%E2%80%94_GNM_2013-09-07_Mattes_%2864%29.JPG",
+    "w": 3672,
+    "h": 4896,
+    "format": "jpg",
+    "file": "Nürnberg_—_GNM_2013-09-07_Mattes_(64).JPG"
+  },
+  "Gerard ter Borch": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Zelfportret_by_Gerard_ter_Borch.jpg/1280px-Zelfportret_by_Gerard_ter_Borch.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1461,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Zelfportret_by_Gerard_ter_Borch.jpg",
+    "w": 2054,
+    "h": 3000,
+    "format": "jpg",
+    "file": "Zelfportret_by_Gerard_ter_Borch.jpg"
+  },
+  "The Avenue at Middelharnis": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Meindert_Hobbema_001.jpg/1280px-Meindert_Hobbema_001.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 740,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Meindert_Hobbema_001.jpg",
+    "w": 5707,
+    "h": 4226,
+    "format": "jpg",
+    "file": "Meindert_Hobbema_001.jpg"
   }
 }

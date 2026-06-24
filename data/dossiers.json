@@ -4028,7 +4028,8 @@
               "wiki": "Syndics of the Drapers' Guild",
               "analyse": "Cinq drapiers et un valet interrompus dans leur réunion lèvent les yeux vers nous, comme si nous venions d'entrer. Portrait de groupe d'une vérité et d'une présence saisissantes, sommet du genre hollandais."
             }
-          ]
+          ],
+          "groupe": "Portrait & portrait de groupe"
         },
         {
           "niveau": "★",
@@ -4109,7 +4110,8 @@
               "wiki": "The Lacemaker (Vermeer)",
               "analyse": "Tout petit tableau : une jeune femme penchée, concentrée sur ses fils et ses fuseaux. La précision du geste, les fils rouges et blancs qui jaillissent, le flou tendre du premier plan : la quintessence de l'attention silencieuse chère à Vermeer."
             }
-          ]
+          ],
+          "groupe": "Scène de genre"
         },
         {
           "niveau": "★",
@@ -4174,7 +4176,8 @@
               "wiki": "Regentesses of the Old Men's Almshouse",
               "analyse": "Cinq vieilles femmes en noir, administratrices d'un hospice, fixent le spectateur avec une gravité austère et lasse. Peinte par un Hals de plus de 80 ans, pauvre et lui-même assisté : la vieillesse et la dignité regardées sans complaisance, d'une touche presque tremblée."
             }
-          ]
+          ],
+          "groupe": "Portrait & portrait de groupe"
         },
         {
           "niveau": "○",
@@ -4231,7 +4234,8 @@
               "wiki": "The Jewish Cemetery",
               "analyse": "Des tombes au milieu de ruines, un arbre foudroyé, un torrent, un arc-en-ciel perçant un ciel d'orage. Méditation puissante sur la mort, le temps et l'espérance : le paysage devient un drame spirituel, annonçant le romantisme deux siècles avant l'heure."
             }
-          ]
+          ],
+          "groupe": "Paysage & marine"
         },
         {
           "niveau": "○",
@@ -4279,7 +4283,8 @@
               "wiki": "The Feast of Saint Nicholas",
               "analyse": "Le matin de la Saint-Nicolas : une fillette serre ses cadeaux, un garçon pleure d'avoir été puni, les parents rient, la grand-mère fait signe. Toute une famille saisie dans un instant de vie joyeuse et désordonnée, peinte avec une tendresse et une verve incomparables."
             }
-          ]
+          ],
+          "groupe": "Scène de genre"
         },
         {
           "niveau": "○",
@@ -4335,7 +4340,8 @@
               "wiki": "A Woman Drinking with Two Men",
               "analyse": "Dans un intérieur clair, une femme trinque avec deux hommes tandis qu'une servante s'affaire ; la lumière entre par les fenêtres et une porte ouverte au fond. Scène de convivialité élégante, baignée de la lumière limpide de Delft."
             }
-          ]
+          ],
+          "groupe": "Scène de genre"
         },
         {
           "niveau": "○",
@@ -4382,6 +4388,208 @@
               "lieu": "collections diverses",
               "wiki": "Still Life with a Nautilus Cup",
               "analyse": "Surgissant de l'ombre dans une lumière chaude : argenterie ciselée, porcelaine de Chine, verre de cristal, citron à demi pelé dont l'écorce pend en spirale. Quelques objets précieux élevés en pure poésie — éloge du luxe et rappel discret de sa fragilité."
+            }
+          ],
+          "groupe": "Nature morte & vanité"
+        },
+        {
+          "niveau": "★",
+          "nom": "Judith Leyster",
+          "dates": "1609-1660",
+          "role": "Portrait & scène de genre",
+          "groupe": "Scène de genre",
+          "wiki": "Judith Leyster",
+          "portrait": "Judith Leyster, maîtresse de la guilde de Haarlem (rare pour une femme), peint des scènes de genre vivantes et lumineuses — son œuvre fut longtemps attribuée à tort à Frans Hals.",
+          "bio_sections": [
+            {
+              "h": "Les origines : Haarlem",
+              "p": "Née à Haarlem dans une famille de brasseurs, Judith Leyster se forme dans le foyer de Frans Hals, dont elle est proche. Fait exceptionnel pour une femme : elle est reçue maîtresse dans la guilde de Saint-Luc et dirige son propre atelier, avec des apprentis."
+            },
+            {
+              "h": "Sa technique : la touche vive",
+              "p": "Comme Hals, elle saisit l'instant, le sourire, le geste, d'une touche libre et d'une lumière chaude. Scènes de taverne, musiciens, enfants rieurs, scènes nocturnes éclairées d'une bougie."
+            },
+            {
+              "h": "Une œuvre confisquée",
+              "p": "Après son mariage, elle peint moins. Surtout, son œuvre est longtemps attribuée à Frans Hals ou à son mari : ce n'est qu'à la fin du XIXe siècle qu'on redécouvre sa signature (un monogramme avec une étoile, jeu sur son nom « leister », étoile)."
+            },
+            {
+              "h": "Pourquoi elle compte",
+              "p": "Elle est l'une des rares femmes peintres reconnues du Siècle d'or hollandais et l'emblème de l'effacement des femmes du récit de l'art : sa redécouverte a relancé toute une relecture de l'histoire."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Dans une Hollande où le marché favorise la spécialisation, elle s'impose, femme, comme maîtresse indépendante — et son talent, longtemps crédité à un homme, est aujourd'hui pleinement reconnu."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Carel Fabritius",
+          "dates": "1622-1654",
+          "role": "École de Delft",
+          "groupe": "Scène de genre",
+          "wiki": "Carel Fabritius",
+          "portrait": "Carel Fabritius, l'élève le plus doué de Rembrandt, fait le pont vers Delft et Vermeer ; mort jeune dans l'explosion de la poudrière de Delft, il laisse peu d'œuvres mais un chef-d'œuvre : Le Chardonneret.",
+          "bio_sections": [
+            {
+              "h": "Les origines : l'atelier de Rembrandt",
+              "p": "Formé à Amsterdam chez Rembrandt, Fabritius en est l'élève le plus original : il assimile la lumière du maître mais l'inverse, peignant souvent des figures sombres sur fond clair (au lieu de l'inverse)."
+            },
+            {
+              "h": "Le déplacement à Delft",
+              "p": "Il s'installe à Delft vers 1650, où sa recherche sur la lumière et la perspective influence probablement le jeune Vermeer. Il est le maillon entre le génie de Rembrandt et l'école de Delft."
+            },
+            {
+              "h": "Le Chardonneret (1654)",
+              "p": "Un petit oiseau enchaîné à sa mangeoire, peint avec une économie et une justesse de lumière stupéfiantes, presque un trompe-l'œil. Œuvre minuscule devenue mondialement célèbre (et héroïne d'un roman de Donna Tartt)."
+            },
+            {
+              "h": "Une mort tragique",
+              "p": "En 1654, l'explosion de la poudrière de Delft ravage la ville et tue Fabritius à 32 ans, détruisant une grande partie de son atelier. Il ne reste qu'une dizaine de toiles — d'où sa légende d'un génie fauché."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Entre la profondeur de Rembrandt et la clarté de Vermeer, Fabritius est le chaînon manquant : sa lumière claire et son sens de l'espace annoncent Delft. Son œuvre brève mais éblouissante en fait un cas à part."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Chardonneret",
+              "artiste": "Carel Fabritius",
+              "annee": "1654",
+              "lieu": "Mauritshuis, La Haye",
+              "wiki": "The Goldfinch (Fabritius)",
+              "analyse": "Un petit chardonneret enchaîné à sa mangeoire, sur un mur clair, peint avec une économie de moyens et une justesse de lumière saisissantes. Œuvre minuscule et parfaite, peinte l'année de la mort de l'artiste dans l'explosion de Delft."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Hendrick Avercamp",
+          "dates": "1585-1634",
+          "role": "Paysages d'hiver",
+          "groupe": "Paysage & marine",
+          "wiki": "Hendrick Avercamp",
+          "portrait": "Hendrick Avercamp, surnommé « le muet de Kampen », est le maître des paysages d'hiver : de vastes scènes glacées peuplées de centaines de patineurs, vue d'ensemble d'une société entière sur la glace.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Sourd et muet (d'où son surnom « de Stomme van Kampen »), Avercamp se spécialise dès le début du siècle dans un genre alors neuf : le paysage d'hiver hollandais, hérité de la tradition flamande de Bruegel."
+            },
+            {
+              "h": "Sa technique : la foule sur la glace",
+              "p": "Vues panoramiques d'étangs et de canaux gelés, sous un ciel bas, peuplés d'une multitude de petits personnages : patineurs, joueurs de kolf, promeneurs, riches et pauvres mêlés. Couleurs douces, observation minutieuse."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Il fait du froid et du loisir collectif un sujet à part entière : ses scènes d'hiver sont à la fois un document social (toute la société hollandaise réunie sur la glace) et un enchantement visuel."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Pieter Saenredam",
+          "dates": "1597-1665",
+          "role": "Intérieurs d'églises",
+          "groupe": "Intérieurs d'église",
+          "wiki": "Pieter Saenredam",
+          "portrait": "Pieter Saenredam peint les intérieurs d'églises blanches et nues — l'image même du temple protestant dépouillé — avec une précision architecturale et une lumière d'une pureté presque abstraite.",
+          "bio_sections": [
+            {
+              "h": "Origines & sujet",
+              "p": "Saenredam se consacre presque exclusivement aux intérieurs d'églises gothiques vidées de leurs images par la Réforme : murs blanchis à la chaux, colonnes nues, sol clair. Le contraire exact du décor baroque catholique (ch. 19)."
+            },
+            {
+              "h": "Sa technique : la précision et le vide",
+              "p": "À partir de relevés exacts sur place, il construit des perspectives rigoureuses, mais baignées d'une lumière douce et d'un silence habité. Quelques minuscules figures soulignent l'immensité de l'espace blanc."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Il transforme l'austérité calviniste en beauté : ses églises vides, lumineuses et précises sont une méditation sur l'espace, la lumière et le dépouillement — presque une abstraction avant l'heure."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Pieter Claesz",
+          "dates": "1597-1660",
+          "role": "Nature morte & vanité",
+          "groupe": "Nature morte & vanité",
+          "wiki": "Pieter Claesz",
+          "portrait": "Pieter Claesz est le maître de la nature morte « déjeuner » monochrome et de la vanité : un verre renversé, une montre, un crâne, une bougie éteinte — la vie qui passe, peinte avec une virtuosité sobre.",
+          "bio_sections": [
+            {
+              "h": "Origines & genre",
+              "p": "Installé à Haarlem, Claesz se spécialise dans les « ontbijtjes » (petits-déjeuners) et les vanités : des tables servies, modestes ou raffinées, peintes dans des gammes monochromes de gris, de brun et d'argent."
+            },
+            {
+              "h": "Sa technique : la lumière sur les matières",
+              "p": "Verres, étain, huîtres, pain, citron pelé : il rend les matières et les reflets avec une justesse extraordinaire, dans une lumière douce et une composition sobre, presque méditative."
+            },
+            {
+              "h": "Le message : la vanité",
+              "p": "Crâne, montre, verre renversé, bougie qui fume : autant de rappels que tout passe et que la vie est brève (« vanitas vanitatum »). Sous la beauté des choses, une leçon morale discrète."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Kalf déploie le luxe somptueux, Claesz cultive la sobriété monochrome et la méditation sur le temps. Maître du genre, il fait de la table dressée un poème silencieux."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Gerard ter Borch",
+          "dates": "1617-1681",
+          "role": "Scène de genre raffinée",
+          "groupe": "Scène de genre",
+          "wiki": "Gerard ter Borch",
+          "portrait": "Gerard ter Borch peint de petites scènes raffinées de la haute société : satins soyeux, gestes feutrés, conversations ambiguës — l'élégance et le non-dit de la bourgeoisie aisée.",
+          "bio_sections": [
+            {
+              "h": "Origines",
+              "p": "Grand voyageur (Italie, Espagne, Angleterre), ter Borch revient peindre, à petit format, l'intimité élégante des familles aisées hollandaises."
+            },
+            {
+              "h": "Sa technique : le satin et le silence",
+              "p": "Il est célèbre pour son rendu inégalé des étoffes — surtout le satin blanc, dont il capte chaque pli et reflet. Scènes feutrées : une lettre, un verre de vin, un instrument de musique, un regard."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Maître du raffinement et de l'ambiguïté psychologique, il influence Vermeer et Metsu. Ses scènes calmes, élégantes et un peu énigmatiques sont des sommets de la peinture de genre."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Meindert Hobbema",
+          "dates": "1638-1709",
+          "role": "Paysage",
+          "groupe": "Paysage & marine",
+          "wiki": "The Avenue at Middelharnis",
+          "portrait": "Meindert Hobbema, élève de Ruisdael, a peint l'une des images les plus célèbres du paysage hollandais : L'Allée de Middelharnis, une perspective d'arbres filant vers l'horizon.",
+          "bio_sections": [
+            {
+              "h": "Origines",
+              "p": "Élève et ami de Jacob van Ruisdael, Hobbema peint des paysages plus paisibles et lumineux que son maître : moulins à eau, chemins boisés, fermes sous de grands ciels."
+            },
+            {
+              "h": "L'Allée de Middelharnis (1689)",
+              "p": "Une route bordée de hauts arbres grêles file en perspective vers un village, sous un ciel immense. Composition d'une simplicité et d'une efficacité parfaites, devenue une icône du paysage et un cas d'école de la perspective."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Il abandonna en partie la peinture pour un emploi de jaugeur de vin. Mais son Allée, longtemps à la National Gallery de Londres, influença profondément le paysage anglais du XIXe siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Allée de Middelharnis",
+              "artiste": "Meindert Hobbema",
+              "annee": "1689",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Avenue at Middelharnis",
+              "analyse": "Une route bordée de hauts arbres élancés file en perspective vers un village, sous un vaste ciel hollandais. Simplicité et efficacité parfaites : un cas d'école de la perspective et l'une des images les plus aimées du paysage."
             }
           ]
         }
