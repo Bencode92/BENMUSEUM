@@ -5665,5 +5665,55 @@
     "h": 4800,
     "format": "jpg",
     "file": "Giovanni_Antonio_Bazzi.jpg"
+  },
+  "Artemisia Gentileschi": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1280px-Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1351,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg",
+    "w": 3767,
+    "h": 5088,
+    "format": "jpg",
+    "file": "Self-portrait_as_the_Allegory_of_Painting_(La_Pittura)_-_Artemisia_Gentileschi.jpg"
+  },
+  "Self-Portrait as the Allegory of Painting": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1280px-Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1351,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg",
+    "w": 3767,
+    "h": 5088,
+    "format": "jpg",
+    "file": "Self-portrait_as_the_Allegory_of_Painting_(La_Pittura)_-_Artemisia_Gentileschi.jpg"
+  },
+  "Joseph the Carpenter": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Saint_Joseph_Charpentier.jpg/1280px-Saint_Joseph_Charpentier.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1345,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Saint_Joseph_Charpentier.jpg",
+    "w": 2230,
+    "h": 3000,
+    "format": "jpg",
+    "file": "Saint_Joseph_Charpentier.jpg"
+  },
+  "The Penitent Magdalen (de La Tour)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Georges_de_La_Tour_-_Magdalen_of_Night_Light_-_WGA12337.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1226,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Georges_de_La_Tour_-_Magdalen_of_Night_Light_-_WGA12337.jpg",
+    "w": 900,
+    "h": 1226,
+    "format": "jpg",
+    "file": "Georges_de_La_Tour_-_Magdalen_of_Night_Light_-_WGA12337.jpg"
+  },
+  "Judith Slaying Holofernes (Artemisia Gentileschi, Naples)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Judit_decapitando_a_Holofernes%2C_por_Artemisia_Gentileschi.jpg/1280px-Judit_decapitando_a_Holofernes%2C_por_Artemisia_Gentileschi.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1216,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Judit_decapitando_a_Holofernes%2C_por_Artemisia_Gentileschi.jpg",
+    "w": 2056,
+    "h": 2500,
+    "format": "jpg",
+    "file": "Judit_decapitando_a_Holofernes,_por_Artemisia_Gentileschi.jpg"
   }
 }

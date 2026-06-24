@@ -3048,7 +3048,8 @@
               "wiki": "Medusa (Caravaggio)",
               "analyse": "Peinte sur un bouclier de parade, la tête de Méduse hurle à l'instant de sa décollation, serpents dressés, sang giclant. Un cri figé : Caravage capte l'horreur au moment exact où elle bascule."
             }
-          ]
+          ],
+          "groupe": "Naturalisme (caravagisme)"
         },
         {
           "niveau": "○",
@@ -3104,7 +3105,8 @@
               "wiki": "Pietà (Annibale Carracci)",
               "analyse": "La Vierge soutient le corps du Christ mort, entourée d'angelots éplorés. Composition équilibrée, douleur noble et contenue, couleur chaude héritée du Corrège : le grand style classique-baroque de Carrache au service de l'émotion religieuse."
             }
-          ]
+          ],
+          "groupe": "Classicisme bolonais"
         },
         {
           "niveau": "★",
@@ -3185,7 +3187,8 @@
               "wiki": "The Rape of Proserpina",
               "analyse": "Pluton empoigne Proserpine qui se débat ; les doigts du dieu s'enfoncent dans la cuisse de marbre comme dans une chair vivante. Détail prodigieux qui résume le génie du Bernin : faire de la pierre la plus dure l'illusion de la chair la plus tendre."
             }
-          ]
+          ],
+          "groupe": "Baroque romain monumental"
         },
         {
           "niveau": "○",
@@ -3241,7 +3244,8 @@
               "wiki": "Sant'Ivo alla Sapienza",
               "analyse": "Le plan part d'une étoile à six branches ; la coupole s'élève en une spirale étonnante couronnée d'une lanterne hélicoïdale. Géométrie complexe, lumière savante, invention sans précédent : l'audace formelle de Borromini à son sommet."
             }
-          ]
+          ],
+          "groupe": "Baroque romain monumental"
         },
         {
           "niveau": "★",
@@ -3314,7 +3318,8 @@
               "wiki": "Het Pelsken",
               "analyse": "Sa jeune épouse, nue, à peine drapée d'un manteau de fourrure, surprise comme dans l'intimité. Tendresse et sensualité d'un mari amoureux : un nu vivant, charnel, sans prétexte mythologique."
             }
-          ]
+          ],
+          "groupe": "École flamande catholique"
         },
         {
           "niveau": "○",
@@ -3378,7 +3383,8 @@
               "wiki": "Equestrian Portrait of Charles I",
               "analyse": "Le roi en armure, sur un cheval immense, sous un arbre majestueux : l'image du monarque souverain, dans la lignée du Charles Quint de Titien. La propagande royale Stuart portée à son sommet d'élégance."
             }
-          ]
+          ],
+          "groupe": "École flamande catholique"
         },
         {
           "niveau": "★",
@@ -3459,7 +3465,8 @@
               "wiki": "The Triumph of Bacchus",
               "analyse": "Bacchus couronne des paysans ivres et hilares, joués par de vrais hommes du peuple. Le dieu antique descend parmi les buveurs réels : mythologie et réalisme espagnol fondus avec un humour tendre."
             }
-          ]
+          ],
+          "groupe": "Siècle d'or espagnol"
         },
         {
           "niveau": "○",
@@ -3531,7 +3538,8 @@
               "wiki": "The Young Beggar",
               "analyse": "Un enfant pauvre, en haillons, assis dans la lumière d'une fenêtre, s'épouille au soleil. Murillo regarde les enfants des rues de Séville avec une tendresse et une vérité touchantes : la dignité et la grâce trouvées dans la misère même."
             }
-          ]
+          ],
+          "groupe": "Siècle d'or espagnol"
         },
         {
           "niveau": "★",
@@ -3604,7 +3612,8 @@
               "wiki": "A Dance to the Music of Time",
               "analyse": "Quatre figures (la Pauvreté, le Travail, la Richesse, le Plaisir) dansent en ronde au son de la lyre du Temps ailé, tandis qu'Apollon traverse le ciel. Allégorie philosophique du cycle de la fortune humaine : la peinture comme méditation sur le destin."
             }
-          ]
+          ],
+          "groupe": "Classicisme français (à Rome)"
         },
         {
           "niveau": "○",
@@ -3659,6 +3668,109 @@
               "lieu": "National Gallery, Londres",
               "wiki": "The Embarkation of Saint Ursula",
               "analyse": "Autre port idéal baigné de la lumière du matin, architectures équilibrées de part et d'autre, vaisseaux à quai, l'horizon lumineux au centre. La formule parfaite du paysage classique : l'œil conduit vers la clarté dorée du lointain."
+            }
+          ],
+          "groupe": "Classicisme français (à Rome)"
+        },
+        {
+          "niveau": "★",
+          "nom": "Artemisia Gentileschi",
+          "dates": "1593-1656",
+          "role": "Caravagisme",
+          "groupe": "Naturalisme (caravagisme)",
+          "wiki": "Artemisia Gentileschi",
+          "portrait": "Artemisia Gentileschi est l'une des plus grandes caravagistes du XVIIe siècle : une peintre de la lumière violente et de la force dramatique, qui a peint des femmes qui agissent — et la première femme reçue à l'Académie de Florence.",
+          "bio_sections": [
+            {
+              "h": "Les origines : l'atelier du père",
+              "p": "Fille du peintre caravagiste Orazio Gentileschi, Artemisia se forme dans son atelier romain, à une époque où les femmes sont quasi exclues de l'apprentissage artistique. Elle révèle très tôt un talent exceptionnel pour le dessin et la composition."
+            },
+            {
+              "h": "Le procès — sans réduire l'art à la biographie",
+              "p": "À 18 ans, elle est violée par le peintre Agostino Tassi ; le procès retentissant de 1612 la soumet à la torture pour « vérifier » sa parole. Cet épisode l'a marquée, mais il ne doit pas réduire son œuvre à son drame : Artemisia est d'abord une immense peintre."
+            },
+            {
+              "h": "Sa technique : la lumière et la force",
+              "p": "Caravagiste de premier plan : clair-obscur violent, naturalisme charnel, instant dramatique saisi au sommet de la tension. Sa Judith décapitant Holopherne montre des femmes qui tuent, peintes sans complaisance, d'une force physique inouïe."
+            },
+            {
+              "h": "Une carrière internationale",
+              "p": "Première femme admise à l'Académie de dessin de Florence, elle mène une carrière indépendante et reconnue de Florence à Rome, Naples et Londres (où elle rejoint son père à la cour de Charles Ier). Une réussite rarissime pour une femme de son temps."
+            },
+            {
+              "h": "Pourquoi elle compte, selon les experts",
+              "p": "Longtemps réduite à son viol ou éclipsée, elle est aujourd'hui reconnue comme une des grandes caravagistes et une figure majeure de la réévaluation des femmes artistes — à citer pour elle-même, pour la puissance dramatique de sa peinture."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Là où le caravagisme masculin regarde souvent la femme en victime ou en objet, Artemisia peint des héroïnes actives, puissantes, vengeresses (Judith, Jaël, Esther) : un regard inédit dans l'art de son siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Judith décapitant Holopherne",
+              "artiste": "Artemisia Gentileschi",
+              "annee": "v. 1620",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Judith Slaying Holofernes (Artemisia Gentileschi, Naples)",
+              "analyse": "Judith et sa servante maintiennent Holopherne et lui tranchent la gorge dans un jaillissement de sang, à la lueur crue d'une lampe. Force physique, réalisme brutal, deux femmes qui agissent ensemble : l'un des sommets du caravagisme, d'une violence assumée."
+            },
+            {
+              "titre": "Autoportrait en allégorie de la Peinture",
+              "artiste": "Artemisia Gentileschi",
+              "annee": "v. 1638-1639",
+              "lieu": "Royal Collection, Londres",
+              "wiki": "Self-Portrait as the Allegory of Painting",
+              "analyse": "Artemisia se peint en train de peindre, incarnant elle-même l'allégorie de la Peinture (la « Pittura ») — ce qu'un homme ne pouvait pas faire, l'allégorie étant féminine. Manifeste discret et génial : la femme peintre est l'art même."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Georges de La Tour",
+          "dates": "1593-1652",
+          "role": "Caravagisme français",
+          "groupe": "Naturalisme (caravagisme)",
+          "wiki": "The Penitent Magdalen (de La Tour)",
+          "portrait": "Georges de La Tour, le caravagiste lorrain, transpose la lumière de Caravage dans le silence et le recueillement : des nocturnes éclairés d'une seule bougie, d'une pureté géométrique presque abstraite.",
+          "bio_sections": [
+            {
+              "h": "Les origines : la Lorraine",
+              "p": "Né en Lorraine (alors duché indépendant), La Tour connaît de son vivant la réussite et la reconnaissance, avant de tomber dans un oubli total pendant près de trois siècles — il n'est redécouvert qu'au XXe siècle."
+            },
+            {
+              "h": "Le déclic : la leçon de Caravage",
+              "p": "Il hérite du ténébrisme caravagesque (la lumière unique arrachant les figures à l'ombre), mais le détourne : là où Caravage est violent et théâtral, La Tour est silencieux et intériorisé."
+            },
+            {
+              "h": "Sa technique : la bougie",
+              "p": "Ses scènes nocturnes sont éclairées d'une seule chandelle, dont la flamme (souvent cachée par une main translucide) sculpte les visages. Les formes se simplifient en volumes presque géométriques, d'un dépouillement extrême."
+            },
+            {
+              "h": "Son message : le recueillement",
+              "p": "Madeleines pénitentes méditant devant un crâne, nativités, saint Joseph charpentier : La Tour peint la méditation, le silence, la fragilité de la flamme et de la vie. Une spiritualité grave et apaisée, à mille lieues du faste baroque."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Unique en son genre : il prend la lumière dramatique du Baroque mais en fait un instrument de calme et de prière. Redécouvert au XXe siècle, il est aujourd'hui célébré comme l'un des plus grands peintres français du XVIIe."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Saint Joseph charpentier",
+              "artiste": "Georges de La Tour",
+              "annee": "v. 1642",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Joseph the Carpenter",
+              "analyse": "Dans la nuit, le petit Jésus tient une bougie qui éclaire le visage de Joseph penché sur son travail. La flamme protégée par la main de l'enfant, le silence, la tendresse : le ténébrisme mis au service du recueillement le plus pur."
+            },
+            {
+              "titre": "La Madeleine à la flamme filante",
+              "artiste": "Georges de La Tour",
+              "annee": "v. 1640",
+              "lieu": "Los Angeles County Museum of Art",
+              "wiki": "The Penitent Magdalen (de La Tour)",
+              "analyse": "Madeleine, repentante, médite devant une bougie et un crâne posé sur ses genoux. Une seule flamme, des volumes épurés, un silence absolu : une vanité et une méditation sur le temps, d'une beauté presque abstraite."
             }
           ]
         }
