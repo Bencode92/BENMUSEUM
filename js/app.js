@@ -11,7 +11,7 @@ let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
 const $ = id => document.getElementById(id);
 
-const DV = "57"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "58"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -1138,7 +1138,7 @@ function renderDossier(id) {
     };
     if (d.artistes.some(a => a.groupe)) {
       const groups = {};
-      d.artistes.forEach(a => { (groups[a.groupe || "Autres"] ||= []).push(a); });
+      d.artistes.forEach(a => { const g = a.groupe || "Autres"; (groups[g] = groups[g] || []).push(a); });
       P.push(sec("👤 Les artistes, par école", Object.entries(groups).map(([g, arr]) =>
         `<h3 class="grp">${esc(g)}</h3><div class="grid cols">${arr.map(aCard).join("")}</div>`).join("")));
     } else {
@@ -1202,7 +1202,7 @@ function renderFavoris() {
     return;
   }
   const groups = {};
-  keys.forEach(k => { const it = f[k]; (groups[it.type] ||= []).push({ k, ...it }); });
+  keys.forEach(k => { const it = f[k]; (groups[it.type] = groups[it.type] || []).push({ k, ...it }); });
   const labels = { "œuvre": "Œuvres", "artiste": "Artistes", "dossier": "Dossiers", "chapitre": "Chapitres" };
   $("view").innerHTML = `<div class="pagehead"><h1>Mes favoris</h1>
     <p class="lead">${keys.length} élément${keys.length > 1 ? "s" : ""} mis de côté.</p></div>
