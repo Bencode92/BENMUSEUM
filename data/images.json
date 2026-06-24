@@ -5215,5 +5215,225 @@
     "h": 2604,
     "format": "jpg",
     "file": "Berthe_Morisot_008.jpg"
+  },
+  "Ernst Ludwig Kirchner": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ernst_Ludwig_Kirchner_-_Selbstportr%C3%A4t_in_der_Atelierwohnung_in_Berlin-Friedenau_%281913-15%29.jpg/960px-Ernst_Ludwig_Kirchner_-_Selbstportr%C3%A4t_in_der_Atelierwohnung_in_Berlin-Friedenau_%281913-15%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 911,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Ernst_Ludwig_Kirchner_-_Selbstportr%C3%A4t_in_der_Atelierwohnung_in_Berlin-Friedenau_%281913-15%29.jpg",
+    "w": 1333,
+    "h": 1350,
+    "format": "jpg",
+    "file": "Ernst_Ludwig_Kirchner_-_Selbstporträt_in_der_Atelierwohnung_in_Berlin-Friedenau_(1913-15).jpg"
+  },
+  "Juan Gris": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/4/4f/Juan_Gris%2C_1922%2C_photograph_by_Man_Ray%2C_Paris._Gelatin_silver_print.jpg",
+    "thumb_w": 736,
+    "thumb_h": 1006,
+    "url": "https://upload.wikimedia.org/wikipedia/en/4/4f/Juan_Gris%2C_1922%2C_photograph_by_Man_Ray%2C_Paris._Gelatin_silver_print.jpg",
+    "w": 736,
+    "h": 1006,
+    "format": "jpg",
+    "file": "Juan_Gris,_1922,_photograph_by_Man_Ray,_Paris._Gelatin_silver_print.jpg"
+  },
+  "Umberto Boccioni": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Umberto_Boccioni%2C_portrait_photograph.jpg",
+    "thumb_w": 452,
+    "thumb_h": 600,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Umberto_Boccioni%2C_portrait_photograph.jpg",
+    "w": 452,
+    "h": 600,
+    "format": "jpg",
+    "file": "Umberto_Boccioni,_portrait_photograph.jpg"
+  },
+  "Kazimir Malevich": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Casimir_Malevich_photo.jpg/960px-Casimir_Malevich_photo.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1378,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Casimir_Malevich_photo.jpg",
+    "w": 1306,
+    "h": 2000,
+    "format": "jpg",
+    "file": "Casimir_Malevich_photo.jpg"
+  },
+  "René Magritte": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Portrait_en_buste_du_peintre_surr%C3%A9aliste_Ren%C3%A9_Magritte_%281898-1967%29_le_18_octobre_1961_devant_une_de_ses_toiles%2C_PH19994.jpg/960px-Portrait_en_buste_du_peintre_surr%C3%A9aliste_Ren%C3%A9_Magritte_%281898-1967%29_le_18_octobre_1961_devant_une_de_ses_toiles%2C_PH19994.jpg",
+    "thumb_w": 900,
+    "thumb_h": 894,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Portrait_en_buste_du_peintre_surr%C3%A9aliste_Ren%C3%A9_Magritte_%281898-1967%29_le_18_octobre_1961_devant_une_de_ses_toiles%2C_PH19994.jpg",
+    "w": 4303,
+    "h": 4275,
+    "format": "jpg",
+    "file": "Portrait_en_buste_du_peintre_surréaliste_René_Magritte_(1898-1967)_le_18_octobre_1961_devant_une_de_ses_toiles,_PH19994.jpg"
+  },
+  "Joan Miró": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Portrait_of_Joan_Miro%2C_Barcelona_1935_June_13.jpg/960px-Portrait_of_Joan_Miro%2C_Barcelona_1935_June_13.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1146,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Portrait_of_Joan_Miro%2C_Barcelona_1935_June_13.jpg",
+    "w": 1191,
+    "h": 1516,
+    "format": "jpg",
+    "file": "Portrait_of_Joan_Miro,_Barcelona_1935_June_13.jpg"
+  },
+  "Max Ernst": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Max_Ernst_1968.jpg/960px-Max_Ernst_1968.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1198,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Max_Ernst_1968.jpg",
+    "w": 1506,
+    "h": 2004,
+    "format": "jpg",
+    "file": "Max_Ernst_1968.jpg"
+  },
+  "Giorgio de Chirico": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Giorgio_de_Chirico_%28portrait%29.jpg",
+    "thumb_w": 290,
+    "thumb_h": 358,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Giorgio_de_Chirico_%28portrait%29.jpg",
+    "w": 290,
+    "h": 358,
+    "format": "jpg",
+    "file": "Giorgio_de_Chirico_(portrait).jpg"
+  },
+  "Constantin Brâncuși": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Edward_Steichen_-_Brancusi.jpg/960px-Edward_Steichen_-_Brancusi.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1117,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Edward_Steichen_-_Brancusi.jpg",
+    "w": 1012,
+    "h": 1256,
+    "format": "jpg",
+    "file": "Edward_Steichen_-_Brancusi.jpg"
+  },
+  "Amedeo Modigliani": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Amedeo_Modigliani_in_his_studio.jpg/960px-Amedeo_Modigliani_in_his_studio.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1050,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Amedeo_Modigliani_in_his_studio.jpg",
+    "w": 2476,
+    "h": 2888,
+    "format": "jpg",
+    "file": "Amedeo_Modigliani_in_his_studio.jpg"
+  },
+  "Le Corbusier": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Le_Corbusier_%281964%29.jpg/960px-Le_Corbusier_%281964%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 900,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Le_Corbusier_%281964%29.jpg",
+    "w": 1400,
+    "h": 1400,
+    "format": "jpg",
+    "file": "Le_Corbusier_(1964).jpg"
+  },
+  "Ludwig Mies van der Rohe": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ludwig_Mies_van_der_Rohe_in_Arts_%26_Architecture%2C_June_1960_issue.jpg/960px-Ludwig_Mies_van_der_Rohe_in_Arts_%26_Architecture%2C_June_1960_issue.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1158,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ludwig_Mies_van_der_Rohe_in_Arts_%26_Architecture%2C_June_1960_issue.jpg",
+    "w": 3212,
+    "h": 4131,
+    "format": "jpg",
+    "file": "Ludwig_Mies_van_der_Rohe_in_Arts_&_Architecture,_June_1960_issue.jpg"
+  },
+  "Alexander Calder": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Alexander_Calder_1947_-_Photo_by_Carl_Van_Vechten.jpg",
+    "thumb_w": 325,
+    "thumb_h": 500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Alexander_Calder_1947_-_Photo_by_Carl_Van_Vechten.jpg",
+    "w": 325,
+    "h": 500,
+    "format": "jpg",
+    "file": "Alexander_Calder_1947_-_Photo_by_Carl_Van_Vechten.jpg"
+  },
+  "Robert Delaunay": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Robert_Delaunay_portrait_photograph.jpg/960px-Robert_Delaunay_portrait_photograph.jpg",
+    "thumb_w": 900,
+    "thumb_h": 675,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Robert_Delaunay_portrait_photograph.jpg",
+    "w": 2048,
+    "h": 1536,
+    "format": "jpg",
+    "file": "Robert_Delaunay_portrait_photograph.jpg"
+  },
+  "Sonia Delaunay": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sonia_Delaunay_portrait_photograph.jpg/960px-Sonia_Delaunay_portrait_photograph.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1383,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sonia_Delaunay_portrait_photograph.jpg",
+    "w": 1333,
+    "h": 2048,
+    "format": "jpg",
+    "file": "Sonia_Delaunay_portrait_photograph.jpg"
+  },
+  "Black Square (painting)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg/960px-Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg",
+    "thumb_w": 900,
+    "thumb_h": 900,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg",
+    "w": 1718,
+    "h": 1718,
+    "format": "jpg",
+    "file": "Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
+  },
+  "Unique Forms of Continuity in Space": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg/960px-%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1121,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg",
+    "w": 1416,
+    "h": 1764,
+    "format": "jpg",
+    "file": "'Unique_Forms_of_Continuity_in_Space',_1913_bronze_by_Umberto_Boccioni.jpg"
+  },
+  "Blue Horse I": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Marc%2C_Franz_-_Blue_Horse_I_-_Google_Art_Project.jpg/960px-Marc%2C_Franz_-_Blue_Horse_I_-_Google_Art_Project.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1201,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Marc%2C_Franz_-_Blue_Horse_I_-_Google_Art_Project.jpg",
+    "w": 3881,
+    "h": 5180,
+    "format": "jpg",
+    "file": "Marc,_Franz_-_Blue_Horse_I_-_Google_Art_Project.jpg"
+  },
+  "Villa Savoye": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/3/3c/VillaSavoye.jpg",
+    "thumb_w": 792,
+    "thumb_h": 594,
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/VillaSavoye.jpg",
+    "w": 792,
+    "h": 594,
+    "format": "jpg",
+    "file": "VillaSavoye.jpg"
+  },
+  "Seagram Building": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Seagram_Building_%2835098307116%29.jpg/960px-Seagram_Building_%2835098307116%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 900,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Seagram_Building_%2835098307116%29.jpg",
+    "w": 5617,
+    "h": 5617,
+    "format": "jpg",
+    "file": "Seagram_Building_(35098307116).jpg"
+  },
+  "Barcelona Pavilion": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/960px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg",
+    "thumb_w": 900,
+    "thumb_h": 602,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg",
+    "w": 5466,
+    "h": 3658,
+    "format": "jpg",
+    "file": "The_Barcelona_Pavilion,_Barcelona,_2010.jpg"
+  },
+  "Bird in Space": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bird_in_Space.jpg/960px-Bird_in_Space.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1267,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Bird_in_Space.jpg",
+    "w": 1776,
+    "h": 2500,
+    "format": "jpg",
+    "file": "Bird_in_Space.jpg"
   }
 }

@@ -8042,7 +8042,8 @@
               "wiki": "The Green Stripe",
               "analyse": "Le visage de sa femme est partagé par une bande verte qui sépare un côté chaud d'un côté froid. La couleur ne décrit plus la peau : elle structure le visage et exprime une présence. Le fauvisme appliqué au portrait."
             }
-          ]
+          ],
+          "groupe": "Fauvisme"
         },
         {
           "niveau": "★",
@@ -8143,7 +8144,8 @@
               "wiki": "Girl with a Mandolin",
               "analyse": "Cubisme analytique : le corps et l'instrument se dissolvent en facettes brunes et grises, vus de plusieurs angles à la fois. L'objet n'est plus copié mais analysé et reconstruit par l'esprit. La peinture devient une architecture mentale."
             }
-          ]
+          ],
+          "groupe": "Cubisme"
         },
         {
           "niveau": "○",
@@ -8200,7 +8202,8 @@
               "wiki": "Fruit Dish and Glass",
               "analyse": "Premier papier collé de l'histoire : Braque colle un morceau de papier peint imitant le bois sur un dessin au fusain. Le réel (le papier) entre directement dans l'œuvre. Une invention décisive qui ouvre la voie au collage de tout l'art moderne."
             }
-          ]
+          ],
+          "groupe": "Cubisme"
         },
         {
           "niveau": "○",
@@ -8273,7 +8276,8 @@
               "wiki": "Puberty (Munch)",
               "analyse": "Une adolescente nue, assise sur un lit, les bras croisés sur les cuisses, le regard inquiet, tandis qu'une ombre menaçante grandit derrière elle. L'angoisse de l'éveil et de la peur du corps, peinte avec une fragilité bouleversante."
             }
-          ]
+          ],
+          "groupe": "Expressionnisme"
         },
         {
           "niveau": "○",
@@ -8311,7 +8315,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où Klimt, son aîné viennois, cherchait l'ornement doré et la beauté décorative, Kokoschka cherche la vérité crue de l'âme et l'angoisse. Sa touche nerveuse et son regard pénétrant en font l'un des grands peintres de l'intériorité, témoin lucide et passionné des déchirements de son siècle."
             }
-          ]
+          ],
+          "groupe": "Expressionnisme"
         },
         {
           "niveau": "★",
@@ -8360,7 +8365,8 @@
               "wiki": "Composition VII",
               "analyse": "Tourbillon de couleurs et de formes sans aucun objet reconnaissable, d'une énergie quasi cosmique. Kandinsky la considérait comme sa toile la plus aboutie d'avant-guerre. L'un des sommets de l'abstraction lyrique naissante : la peinture comme pure musique visuelle."
             }
-          ]
+          ],
+          "groupe": "Abstraction"
         },
         {
           "niveau": "○",
@@ -8409,7 +8415,8 @@
               "wiki": "Broadway Boogie Woogie",
               "analyse": "Une grille de petits carrés jaunes, rouges et bleus qui clignotent le long des lignes, comme les feux et le trafic de Manhattan au rythme du jazz. À 70 ans, Mondrian fait swinguer sa rigueur : l'abstraction géométrique devient pulsation et joie urbaine."
             }
-          ]
+          ],
+          "groupe": "Abstraction"
         },
         {
           "niveau": "★",
@@ -8482,7 +8489,8 @@
               "wiki": "Highway and Byways",
               "analyse": "Des bandes de couleur s'étagent comme des champs vus d'avion ou les strates d'un paysage, traversées d'une route centrale. Inspiré de l'Égypte, Klee transforme le paysage en rythme pur de couleurs montant vers l'horizon."
             }
-          ]
+          ],
+          "groupe": "Bauhaus"
         },
         {
           "niveau": "★",
@@ -8521,7 +8529,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où Picasso ou Matisse simplifient et abstraient, Dalí revient à un réalisme académique virtuose pour mieux peindre l'impossible. Et là où l'artiste moderne fuit souvent la célébrité, Dalí la cherche et s'en fait une œuvre. Personnage-spectacle, génie autoproclamé, il reste l'un des artistes les plus connus — et les plus discutés — du XXe siècle."
             }
-          ]
+          ],
+          "groupe": "Surréalisme"
         },
         {
           "niveau": "○",
@@ -8559,7 +8568,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où ses contemporains analysent la forme ou théorisent l'abstraction, Chagall rêve et se souvient. Sa fidélité à son monde natal, sa couleur joyeuse et sa poésie de l'amour, traversant exils, guerres et persécutions, en font une voix à part : celle d'un conteur qui a fait de la nostalgie et de l'amour une féerie universelle."
             }
-          ]
+          ],
+          "groupe": "École de Paris"
         },
         {
           "niveau": "○",
@@ -8597,7 +8607,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où le cubisme de Picasso et Braque est terreux et fermé, celui de Feininger est lumineux, transparent, aérien. Pont entre l'Amérique et l'Europe, entre la musique et la peinture, il a créé un monde cristallin reconnaissable entre tous, où villes et voiliers deviennent des architectures de pure lumière."
             }
-          ]
+          ],
+          "groupe": "Bauhaus"
         },
         {
           "niveau": "★",
@@ -8636,7 +8647,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où Giacometti étire et amincit l'homme jusqu'à l'angoisse, Moore arrondit et apaise la figure jusqu'à la fondre dans le paysage. Sculpteur de la masse, du vide et de la nature, il offre une modernité sereine et monumentale. Issu du peuple, devenu l'artiste officiel de l'Angleterre, il a peuplé le monde de ses présences tranquilles."
             }
-          ]
+          ],
+          "groupe": "Sculpture"
         },
         {
           "niveau": "○",
@@ -8674,7 +8686,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où l'art de son temps va vers l'abstraction, Giacometti revient obstinément à la figure humaine — mais une figure réduite à l'essentiel, à une présence. Travailleur acharné et tourmenté, jamais content, il a fait de l'échec et du recommencement perpétuels une méthode. Ses hommes qui marchent restent l'icône de l'homme d'après-guerre."
             }
-          ]
+          ],
+          "groupe": "Sculpture"
         },
         {
           "niveau": "○",
@@ -8730,7 +8743,8 @@
               "wiki": "Fagus Factory",
               "analyse": "Une fabrique de formes pour chaussures dont les murs de verre, sans piliers d'angle visibles, semblent flotter. Dès avant 1914, Gropius y invente la façade-rideau transparente : l'une des premières œuvres de l'architecture moderne."
             }
-          ]
+          ],
+          "groupe": "Bauhaus & architecture"
         },
         {
           "niveau": "○",
@@ -8786,7 +8800,8 @@
               "wiki": "Solomon R. Guggenheim Museum",
               "analyse": "Une spirale de béton blanc où le visiteur descend une rampe hélicoïdale continue le long des œuvres. Wright y pousse à l'extrême son idée d'espace intérieur fluide et continu. Son ultime chef-d'œuvre, achevé l'année de sa mort."
             }
-          ]
+          ],
+          "groupe": "Bauhaus & architecture"
         },
         {
           "niveau": "★",
@@ -8841,6 +8856,571 @@
               "lieu": "readymade (répliques en musées)",
               "wiki": "Fountain (Duchamp)",
               "analyse": "Un urinoir industriel renversé, signé « R. Mutt » et présenté comme sculpture. Le readymade le plus célèbre : par le seul geste de le choisir et de le désigner, Duchamp en fait une œuvre. L'acte de naissance de l'art conceptuel, qui change à jamais la question « qu'est-ce que l'art ? »."
+            }
+          ],
+          "groupe": "Dada"
+        },
+        {
+          "niveau": "★",
+          "nom": "Ernst Ludwig Kirchner",
+          "dates": "1880-1938",
+          "role": "Expressionnisme — Die Brücke",
+          "groupe": "Expressionnisme",
+          "wiki": "Ernst Ludwig Kirchner",
+          "portrait": "Ernst Ludwig Kirchner, fondateur du groupe Die Brücke, a peint la grande ville moderne comme un lieu d'angoisse et d'aliénation, en couleurs crues et traits anguleux.",
+          "bio_sections": [
+            {
+              "h": "Les origines : Die Brücke à Dresde",
+              "p": "En 1905, à Dresde, Kirchner fonde avec Heckel et Schmidt-Rottluff le groupe Die Brücke (« Le Pont ») : de jeunes artistes qui veulent « jeter un pont » vers un art neuf, libre et intense, contre l'académisme. C'est l'acte de naissance de l'expressionnisme allemand."
+            },
+            {
+              "h": "Le déclic : la couleur de l'angoisse",
+              "p": "Là où les fauves français mettent la couleur au service de la joie, Kirchner la met au service de l'inquiétude. Héritier de Munch et de Van Gogh, il déforme le réel pour en exprimer la tension intérieure."
+            },
+            {
+              "h": "Sa technique : traits anguleux, gravure rugueuse",
+              "p": "Couleurs acides, formes pointues, perspectives instables. Il pratique aussi la gravure sur bois, taillée brutalement, qui renoue avec la tradition germanique de Dürer et donne ses contours nerveux à sa peinture."
+            },
+            {
+              "h": "La ville comme aliénation",
+              "p": "Ses scènes de rue berlinoises montrent des silhouettes élégantes mais figées, glacées, des cocottes et des passants comme des automates. La grande ville moderne y devient un théâtre de la solitude et de la névrose."
+            },
+            {
+              "h": "Ce qui le différencie / sa fin tragique",
+              "p": "Traumatisé par la Première Guerre, fragile, Kirchner se réfugie en Suisse. Quand les nazis saisissent ses œuvres comme « art dégénéré » et le chassent des musées, il sombre et se suicide en 1938. Il reste le visage de l'expressionnisme allemand."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Franz Marc",
+          "dates": "1880-1916",
+          "role": "Expressionnisme — Der Blaue Reiter",
+          "groupe": "Expressionnisme",
+          "wiki": "Blue Horse I",
+          "portrait": "Franz Marc, cofondateur du Blaue Reiter, a peint des animaux — surtout des chevaux bleus — comme des symboles d'une harmonie spirituelle perdue, dans des couleurs codées.",
+          "bio_sections": [
+            {
+              "h": "Les origines : Munich et le spirituel",
+              "p": "À Munich, en 1911, Marc fonde avec Kandinsky le groupe Der Blaue Reiter (« Le Cavalier bleu »), plus lyrique et spirituel que Die Brücke. Tous deux croient que l'art doit exprimer une réalité intérieure et sacrée."
+            },
+            {
+              "h": "Le déclic : peindre l'âme des animaux",
+              "p": "Déçu par l'homme, Marc se tourne vers les animaux, qu'il juge plus purs, plus en accord avec la nature. Il cherche à peindre le monde tel que le ressent l'animal lui-même."
+            },
+            {
+              "h": "Sa technique : la couleur codée",
+              "p": "Marc attribue un sens aux couleurs : le bleu est le principe spirituel et masculin, le jaune la douceur féminine, le rouge la matière brutale. Ses chevaux bleus ne sont pas fantaisistes : ils sont des symboles."
+            },
+            {
+              "h": "Vers l'abstraction",
+              "p": "À la veille de la guerre, ses formes se fragmentent sous l'influence du cubisme et du futurisme, et frôlent l'abstraction : la nature se dissout en rythmes de couleur."
+            },
+            {
+              "h": "Ce qui le différencie / une mort précoce",
+              "p": "Mobilisé, Franz Marc est tué à Verdun en 1916, à 36 ans. Comme August Macke, mort dès 1914, il incarne la génération d'avant-garde fauchée par la guerre. Son Cheval bleu reste une icône de l'expressionnisme."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Cheval bleu I",
+              "artiste": "Franz Marc",
+              "annee": "1911",
+              "lieu": "Lenbachhaus, Munich",
+              "wiki": "Blue Horse I",
+              "analyse": "Un jeune cheval bleu, tête baissée, dans un paysage de collines rouges et jaunes. Le bleu n'est pas réaliste : c'est, pour Marc, la couleur du spirituel. L'animal devient le symbole d'une harmonie pure que l'homme a perdue."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Juan Gris",
+          "dates": "1887-1927",
+          "role": "Cubisme",
+          "groupe": "Cubisme",
+          "wiki": "Juan Gris",
+          "portrait": "Juan Gris, Espagnol de Paris, est le théoricien du cubisme : le plus rigoureux et le plus lumineux des trois, qui clarifie ce que Picasso et Braque avaient inventé dans la fièvre.",
+          "bio_sections": [
+            {
+              "h": "Les origines : du Bateau-Lavoir",
+              "p": "Arrivé d'Espagne à Paris, Gris s'installe au Bateau-Lavoir, voisin de Picasso, et entre dans le cercle cubiste avec Apollinaire et Kahnweiler. Il vient au cubisme après ses inventeurs, mais pour le porter à sa clarté."
+            },
+            {
+              "h": "Le déclic : mettre de l'ordre",
+              "p": "Là où le cubisme analytique de Picasso et Braque devenait illisible et gris, Gris réintroduit la couleur, la lisibilité et une construction géométrique nette. Il « part du cylindre pour arriver à la bouteille », disait-il, à l'inverse de Cézanne."
+            },
+            {
+              "h": "Sa technique : le cubisme synthétique limpide",
+              "p": "Plans colorés clairs, objets reconnaissables, papiers collés élégants, compositions équilibrées comme des architectures. Son cubisme est le plus ordonné et le plus décoratif."
+            },
+            {
+              "h": "Pourquoi il compte",
+              "p": "Gris est souvent considéré comme le plus pur des cubistes : il a transformé une révolution intuitive en un langage cohérent et transmissible. Sa rigueur influencera l'art construit et le purisme."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Moins flamboyant que Picasso, moins grave que Braque, Gris est l'intelligence claire du mouvement. Mort jeune, à 40 ans, il laisse l'œuvre la plus limpide du cubisme."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Fernand Léger",
+          "dates": "1881-1955",
+          "role": "Cubisme — le « tubisme »",
+          "groupe": "Cubisme",
+          "wiki": "",
+          "portrait": "Fernand Léger a inventé un cubisme à lui — le « tubisme » — célébrant la machine, l'usine et l'ouvrier : formes cylindriques, couleurs vives, esthétique du monde moderne et industriel.",
+          "bio_sections": [
+            {
+              "h": "Les origines : le choc de la machine",
+              "p": "Formé à Paris, Léger passe par le cubisme mais le tire vers le monde moderne. La guerre de 1914, où il découvre la beauté brutale des canons et des machines, le marque profondément : l'art doit dire l'âge industriel."
+            },
+            {
+              "h": "Le déclic : le « tubisme »",
+              "p": "Au lieu des facettes plates de Picasso, Léger construit avec des volumes cylindriques, métalliques, comme des pistons et des tubes — d'où le surnom de « tubisme ». Couleurs pures, contours noirs nets, énergie mécanique."
+            },
+            {
+              "h": "Sa technique : l'homme et la machine",
+              "p": "Il peint ouvriers, cyclistes, constructeurs, objets industriels, dans un style robuste et optimiste. Pour lui, l'art moderne doit être populaire, lisible, en accord avec le monde du travail et de la ville."
+            },
+            {
+              "h": "Son message : un art pour tous",
+              "p": "Proche des idées de gauche, Léger rêve d'un art monumental et démocratique, accessible à l'ouvrier autant qu'au bourgeois. Il fera des muraux, des décors, des vitraux."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le cubisme reste souvent intimiste (natures mortes, portraits), Léger en fait une célébration vigoureuse et colorée de la modernité industrielle. Son influence marquera l'affiche, le design et le muralisme."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Umberto Boccioni",
+          "dates": "1882-1916",
+          "role": "Futurisme",
+          "groupe": "Futurisme",
+          "wiki": "Umberto Boccioni",
+          "portrait": "Umberto Boccioni est le grand artiste du futurisme italien : il a cherché à sculpter et peindre le mouvement, la vitesse et le dynamisme du monde moderne.",
+          "bio_sections": [
+            {
+              "h": "Les origines : le Manifeste futuriste",
+              "p": "En 1909, le poète Marinetti lance le Manifeste futuriste : glorifier la vitesse, la machine, la ville, et « détruire les musées ». Boccioni en devient le principal artiste, peintre et sculpteur."
+            },
+            {
+              "h": "Le déclic : peindre la vitesse",
+              "p": "Influencé par le cubisme et la chronophotographie (les décompositions du mouvement de Marey), Boccioni veut rendre le dynamisme : non un objet figé, mais sa trajectoire, son énergie, sa simultanéité."
+            },
+            {
+              "h": "Sa technique : lignes-forces et continuité",
+              "p": "Il décompose le geste en « lignes-forces », fait fondre la figure dans son environnement et son mouvement. En sculpture, Formes uniques de la continuité dans l'espace montre un homme en marche transformé en une flamme métallique."
+            },
+            {
+              "h": "Pourquoi il compte",
+              "p": "Boccioni donne au futurisme ses chefs-d'œuvre et théorise la sculpture du mouvement. Son homme-flamme est l'une des images les plus célèbres de la modernité (sur la pièce italienne de 20 centimes d'euro)."
+            },
+            {
+              "h": "Ce qui le différencie / sa fin",
+              "p": "Le futurisme glorifiait la guerre comme « hygiène du monde » — ironie tragique : Boccioni meurt en 1916, d'une chute de cheval pendant son service militaire. Le mouvement, lui, glissera vers le fascisme italien."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Formes uniques de la continuité dans l'espace",
+              "artiste": "Umberto Boccioni",
+              "annee": "1913",
+              "lieu": "bronze (nombreux musées)",
+              "wiki": "Unique Forms of Continuity in Space",
+              "analyse": "Un homme en marche dont le corps, déformé par la vitesse, semble une flamme ou une voile métallique fendant l'air. Boccioni sculpte non le corps, mais son mouvement et son énergie. L'icône absolue du futurisme."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Kasimir Malevitch",
+          "dates": "1879-1935",
+          "role": "Abstraction — Suprématisme",
+          "groupe": "Abstraction",
+          "wiki": "Kazimir Malevich",
+          "portrait": "Kasimir Malevitch a poussé l'abstraction à son point limite : avec le Carré noir sur fond blanc, il proclame le « degré zéro » de la peinture, l'art réduit à la forme pure.",
+          "bio_sections": [
+            {
+              "h": "Les origines : l'avant-garde russe",
+              "p": "Russe, Malevitch traverse l'impressionnisme, le cubisme et le futurisme, puis cherche un art entièrement nouveau, libéré de tout objet — au cœur de la bouillonnante avant-garde russe des années 1910."
+            },
+            {
+              "h": "Le déclic : le Carré noir (1915)",
+              "p": "Il présente un simple carré noir sur fond blanc comme l'aboutissement absolu de la peinture : plus aucune image, plus aucun sujet, rien que la forme et la sensation pures. Il appelle cela le suprématisme — la suprématie de la sensation pure."
+            },
+            {
+              "h": "Sa technique : formes pures dans le vide",
+              "p": "Carrés, croix, cercles, rectangles de couleur flottant dans un espace blanc infini. Puis le Carré blanc sur fond blanc (1918) va encore plus loin : la presque-disparition de la peinture elle-même."
+            },
+            {
+              "h": "Une spiritualité sans image",
+              "p": "Malevitch place son Carré noir « dans le coin », là où l'on accroche les icônes dans les maisons russes : une icône sans figure, une spiritualité du vide. À rapprocher de l'art byzantin (l'image sacrée), mais vidée de toute représentation."
+            },
+            {
+              "h": "Ce qui le différencie / sa fin",
+              "p": "Père de l'abstraction géométrique radicale, Malevitch est ensuite étouffé par le réalisme socialiste stalinien : il doit revenir à la figuration dans les années 1930. Son Carré noir reste l'un des gestes les plus radicaux de l'histoire de l'art."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Carré noir sur fond blanc",
+              "artiste": "Kasimir Malevitch",
+              "annee": "1915",
+              "lieu": "Galerie Tretiakov, Moscou",
+              "wiki": "Black Square (painting)",
+              "analyse": "Un carré noir sur fond blanc, présenté comme le « degré zéro » de la peinture : ni sujet, ni récit, ni illusion — rien que la forme et la sensation pures. L'aboutissement le plus radical de l'abstraction, et une icône laïque."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "René Magritte",
+          "dates": "1898-1967",
+          "role": "Surréalisme",
+          "groupe": "Surréalisme",
+          "wiki": "René Magritte",
+          "portrait": "René Magritte, le surréaliste belge, peint des objets ordinaires avec une précision banale, mais déréglés, pour interroger le rapport entre l'image, l'objet et le mot. (Œuvres sous droits : pas d'image libre.)",
+          "bio_sections": [
+            {
+              "h": "Les origines : l'employé de la peinture",
+              "p": "Belge, discret, vivant en costume-cravate dans une banlieue de Bruxelles, Magritte est l'anti-artiste maudit. Il peint méthodiquement, comme un employé de bureau — ce qui rend ses images d'autant plus troublantes."
+            },
+            {
+              "h": "Le déclic : de Chirico et le mystère",
+              "p": "La découverte de la peinture « métaphysique » de De Chirico est un choc : il comprend qu'on peut peindre le réel le plus banal et le rendre étrange par un simple décalage. Il rejoint le surréalisme tout en gardant son indépendance."
+            },
+            {
+              "h": "Sa technique : le dérèglement du familier",
+              "p": "Il peint avec une précision plate, sans style apparent, des objets parfaitement reconnaissables — une pipe, une pomme, un chapeau melon — mais placés dans des situations impossibles : un homme dont le visage est caché par une pomme, le jour et la nuit en même temps."
+            },
+            {
+              "h": "Son message : « Ceci n'est pas une pipe »",
+              "p": "Sous une pipe parfaitement peinte, il écrit « Ceci n'est pas une pipe » : car ce n'est pas une pipe, c'est une image de pipe. Magritte interroge sans cesse l'écart entre l'image, l'objet et le mot — une réflexion d'une portée philosophique immense."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Dalí délire et Miró rêve, Magritte raisonne : son surréalisme est mental, conceptuel, presque froid. Sa postérité est colossale, de l'art conceptuel à la publicité — il a appris au XXe siècle à se méfier des images."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Joan Miró",
+          "dates": "1893-1983",
+          "role": "Surréalisme",
+          "groupe": "Surréalisme",
+          "wiki": "Joan Miró",
+          "portrait": "Joan Miró, le surréaliste catalan, a inventé un monde de signes, de taches et de créatures flottantes, une abstraction poétique et joyeuse née de l'automatisme. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Les origines : la Catalogne",
+              "p": "Profondément attaché à la Catalogne et à sa terre, Miró part à Paris où il rejoint les surréalistes. Mais il garde toujours un lien charnel avec le paysage et le folklore catalans, sources de son imaginaire."
+            },
+            {
+              "h": "Le déclic : l'automatisme",
+              "p": "Le surréalisme lui révèle l'automatisme : laisser la main, le hasard et l'inconscient produire des formes, sans contrôle de la raison. Miró « assassine la peinture » classique pour inventer un langage de signes."
+            },
+            {
+              "h": "Sa technique : un alphabet de signes",
+              "p": "Sur des fonds colorés ou laiteux flottent des étoiles, des lunes, des yeux, des oiseaux, des femmes réduits à des signes simples, biomorphes, reliés par de fines lignes. Un monde enfantin et cosmique à la fois."
+            },
+            {
+              "h": "Son message : la poésie pure",
+              "p": "Miró cherche une joie, une liberté, une poésie visuelle — loin de l'angoisse de Dalí ou de la froideur de Magritte. Ses tableaux sont des constellations ludiques, des rêves heureux."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Entre surréalisme et abstraction, Miró invente une voie unique : l'abstraction biomorphe et poétique. Son influence sur l'art d'après-guerre (et sur l'expressionnisme abstrait américain) est majeure."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Giorgio de Chirico",
+          "dates": "1888-1978",
+          "role": "Peinture métaphysique",
+          "groupe": "Surréalisme",
+          "wiki": "Giorgio de Chirico",
+          "portrait": "Giorgio de Chirico, inventeur de la peinture « métaphysique », a peint des places désertes aux ombres longues, hantées de statues et de mannequins — annonçant et inspirant tout le surréalisme. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Les origines : la nostalgie de l'antique",
+              "p": "Né en Grèce de parents italiens, de Chirico grandit baigné dans le mythe antique et l'architecture des cités méditerranéennes. Cette mélancolie des lieux le poursuivra toute sa vie."
+            },
+            {
+              "h": "Le déclic : la peinture métaphysique (vers 1910)",
+              "p": "Avant même le surréalisme, il invente une peinture de l'étrange : des places de ville italiennes désertes, écrasées d'une lumière de fin d'après-midi, aux perspectives faussées, peuplées de statues et d'ombres menaçantes."
+            },
+            {
+              "h": "Sa technique : l'inquiétante étrangeté",
+              "p": "Arcades vides, trains lointains, mannequins sans visage, objets incongrus juxtaposés : tout est reconnaissable, mais l'ensemble dégage un mystère, une angoisse silencieuse. C'est le rêve éveillé peint avant l'heure."
+            },
+            {
+              "h": "Son influence : le père du surréalisme",
+              "p": "Breton et les surréalistes voient en de Chirico un précurseur essentiel : sa façon de rendre le familier inquiétant nourrit directement Magritte, Dalí et Ernst. Sa période métaphysique (1910-1919) est la plus admirée."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Curieusement, de Chirico reniera son propre génie : il revient ensuite à un classicisme académique, au grand dam des surréalistes qui se sentent trahis. Mais sa peinture métaphysique reste l'une des sources de tout l'art onirique du siècle."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Constantin Brancusi",
+          "dates": "1876-1957",
+          "role": "Sculpture",
+          "groupe": "Sculpture",
+          "wiki": "Constantin Brâncuși",
+          "portrait": "Constantin Brancusi, père de la sculpture abstraite, a cherché toute sa vie la forme essentielle : polir et épurer jusqu'à atteindre l'essence d'un oiseau, d'un baiser, d'une tête.",
+          "bio_sections": [
+            {
+              "h": "Les origines : de la Roumanie à Paris",
+              "p": "Né dans un village de paysans roumains, Brancusi gagne Paris à pied, presque, et travaille un temps chez Rodin — qu'il quitte vite : « rien ne pousse à l'ombre des grands arbres ». Il veut une autre voie que le modelé tourmenté."
+            },
+            {
+              "h": "Le déclic : chercher l'essence",
+              "p": "Brancusi ne veut pas copier la nature mais en saisir l'essence : non l'oiseau, mais l'élan du vol ; non le visage, mais le baiser. Il simplifie, épure, polit le bronze et le marbre jusqu'à une perfection lisse."
+            },
+            {
+              "h": "Sa technique : la forme pure et le socle",
+              "p": "Ovoïdes parfaits, colonnes, formes élancées polies comme des miroirs. Il soigne autant le socle (souvent en bois brut) que l'œuvre : l'ensemble fait partie de la sculpture. Influence de l'art populaire roumain et de l'art « primitif »."
+            },
+            {
+              "h": "Le procès de l'Oiseau (1926-1928)",
+              "p": "Quand son Oiseau dans l'espace arrive aux États-Unis, la douane refuse d'y voir une œuvre d'art (donc exonérée) et la taxe comme un vulgaire objet de métal. Le procès qui suit — « est-ce de l'art ? » — devient célèbre : la justice tranche en faveur de Brancusi. L'art abstrait gagne sa reconnaissance légale."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Père de la sculpture abstraite moderne, Brancusi a libéré la sculpture de l'imitation comme Kandinsky l'avait fait pour la peinture. Sa quête de l'essence pure influence toute la sculpture du XXe siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Oiseau dans l'espace",
+              "artiste": "Constantin Brancusi",
+              "annee": "v. 1923-1940",
+              "lieu": "versions dans plusieurs musées",
+              "wiki": "Bird in Space",
+              "analyse": "Une forme élancée, polie comme un miroir, qui n'imite pas un oiseau mais l'élan du vol lui-même. Au cœur d'un procès douanier célèbre (« est-ce de l'art ? »), elle a fait reconnaître légalement la sculpture abstraite. La quête de l'essence pure."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Amedeo Modigliani",
+          "dates": "1884-1920",
+          "role": "École de Paris",
+          "groupe": "École de Paris",
+          "wiki": "Amedeo Modigliani",
+          "portrait": "Amedeo Modigliani, figure de la bohème de Montparnasse, a créé un style instantanément reconnaissable : visages et cous étirés, yeux en amande, élégance mélancolique — avant de mourir à 35 ans dans la misère.",
+          "bio_sections": [
+            {
+              "h": "Les origines : un Italien à Paris",
+              "p": "Né à Livourne dans une famille juive cultivée, Modigliani gagne Paris en 1906 et plonge dans la bohème de Montparnasse, parmi Picasso, Soutine, Brancusi. Beau, charmeur, miné par la tuberculose, l'alcool et la drogue."
+            },
+            {
+              "h": "Le déclic : la sculpture et l'art primitif",
+              "p": "D'abord tenté par la sculpture (sous l'influence de Brancusi et des masques africains), il en tire ses têtes allongées aux traits simplifiés, qu'il transpose ensuite dans la peinture."
+            },
+            {
+              "h": "Sa technique : l'allongement élégant",
+              "p": "Cous interminables, visages ovales, yeux souvent vides ou en amande, lignes sinueuses : un mélange unique de l'élégance de Botticelli, du maniérisme et de l'art africain. Portraits et nus d'une sensualité mélancolique."
+            },
+            {
+              "h": "Son monde : les amis et les amantes",
+              "p": "Il peint ses amis artistes et sa compagne Jeanne Hébuterne. Ses nus, exposés en 1917, font scandale et la police ferme l'exposition. Il vend peu, vit dans la misère."
+            },
+            {
+              "h": "Ce qui le différencie / une fin tragique",
+              "p": "Modigliani ne suit aucun mouvement : ni cubiste, ni fauve, il est un solitaire au style inimitable. Il meurt à 35 ans de la tuberculose en 1920 ; Jeanne, enceinte, se suicide le lendemain. Figure légendaire de l'artiste maudit."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Le Corbusier",
+          "dates": "1887-1965",
+          "role": "Architecture moderne",
+          "groupe": "Architecture",
+          "wiki": "Le Corbusier",
+          "portrait": "Le Corbusier, le plus influent architecte du XXe siècle, a défini l'habitat moderne : « la maison est une machine à habiter », pilotis, toit-terrasse, béton — une révolution mondiale.",
+          "bio_sections": [
+            {
+              "h": "Les origines : du Jura à Paris",
+              "p": "Charles-Édouard Jeanneret, né en Suisse, prend le pseudonyme « Le Corbusier ». Théoricien autant qu'architecte, il publie, polémique, dessine une vision totale de la ville et de la maison modernes."
+            },
+            {
+              "h": "Le déclic : la machine à habiter",
+              "p": "« Une maison est une machine à habiter. » Le Corbusier veut une architecture rationnelle, fonctionnelle, hygiénique, faite pour l'homme moderne et la production en série, en rupture totale avec l'ornement du passé."
+            },
+            {
+              "h": "Les cinq points",
+              "p": "Il formule les cinq points de l'architecture nouvelle : les pilotis (la maison sur poteaux), le toit-terrasse (un jardin sur le toit), le plan libre, la fenêtre en bandeau, la façade libre. La Villa Savoye (1931) en est la démonstration parfaite."
+            },
+            {
+              "h": "L'urbanisme et le béton",
+              "p": "Il rêve des villes radieuses, de grands ensembles ordonnés (la Cité radieuse de Marseille). Maître du béton brut, il infléchit, après-guerre, vers des formes plus sculpturales et expressives (la chapelle de Ronchamp)."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Aucun architecte n'a autant marqué le XXe siècle — pour le meilleur (l'habitat moderne, lumineux, pour tous) et le discuté (les grands ensembles déshumanisés qui s'en réclameront). Sa pensée a façonné les villes du monde entier."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Villa Savoye",
+              "artiste": "Le Corbusier",
+              "annee": "1928-1931",
+              "lieu": "Poissy, France",
+              "wiki": "Villa Savoye",
+              "analyse": "Une boîte blanche posée sur de fins pilotis, toit-terrasse, longue fenêtre en bandeau : la démonstration parfaite des « cinq points » de Le Corbusier. Le manifeste construit de l'habitat moderne."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Mies van der Rohe",
+          "dates": "1886-1969",
+          "role": "Architecture moderne",
+          "groupe": "Architecture",
+          "wiki": "Ludwig Mies van der Rohe",
+          "portrait": "Ludwig Mies van der Rohe, dernier directeur du Bauhaus, a porté l'architecture moderne à sa pureté absolue : acier, verre, vide. Sa devise : « Less is more » (moins, c'est plus).",
+          "bio_sections": [
+            {
+              "h": "Les origines : le Bauhaus",
+              "p": "Allemand, fils de tailleur de pierre, Mies devient le dernier directeur du Bauhaus avant sa fermeture par les nazis (1933), puis émigre aux États-Unis où il enseigne à Chicago."
+            },
+            {
+              "h": "Le déclic : « Less is more »",
+              "p": "Mies cherche la perfection par la suppression : éliminer tout ornement, tout superflu, jusqu'à ne garder que la structure pure. « Moins, c'est plus » ; et « Dieu est dans les détails »."
+            },
+            {
+              "h": "Sa technique : acier et verre",
+              "p": "Squelette d'acier, murs de verre, plans ouverts et fluides, proportions d'une rigueur absolue. Le pavillon de Barcelone (1929), tout en marbre et verre, est un chef-d'œuvre d'espace épuré ; le Seagram Building de New York, le gratte-ciel parfait."
+            },
+            {
+              "h": "Son influence : le Style international",
+              "p": "Mies définit le gratte-ciel de verre et d'acier qui couvrira les villes du monde entier après-guerre. Le « Style international » qu'il incarne devient le langage des centres d'affaires de la planète."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Le Corbusier est sculptural et théoricien tous azimuts, Mies vise une perfection minimale, presque classique, du détail et de la proportion. Son épure absolue marque toute l'architecture contemporaine."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Seagram Building",
+              "artiste": "Mies van der Rohe",
+              "annee": "1958",
+              "lieu": "New York",
+              "wiki": "Seagram Building",
+              "analyse": "Un gratte-ciel de verre teinté et de bronze, posé en retrait derrière une esplanade : proportions parfaites, aucun ornement, structure assumée. Le modèle de la tour de bureaux moderne, copié dans le monde entier."
+            },
+            {
+              "titre": "Le Pavillon de Barcelone",
+              "artiste": "Mies van der Rohe",
+              "annee": "1929",
+              "lieu": "Barcelone",
+              "wiki": "Barcelona Pavilion",
+              "analyse": "Un pavillon tout en marbre, onyx, verre et acier, sans fonction sinon l'espace lui-même : murs qui glissent, plans ouverts, fluidité absolue. La démonstration que « moins, c'est plus »."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Alexander Calder",
+          "dates": "1898-1976",
+          "role": "Sculpture — le mobile",
+          "groupe": "Sculpture",
+          "wiki": "Alexander Calder",
+          "portrait": "Alexander Calder a inventé le mobile : la sculpture en mouvement, suspendue, en équilibre, qui danse au moindre courant d'air. Il a fait entrer le temps et le hasard dans la sculpture. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Les origines : l'ingénieur-artiste",
+              "p": "Américain, fils et petit-fils de sculpteurs, Calder est d'abord formé comme ingénieur — d'où son génie de l'équilibre et de la mécanique. À Paris, il crée un cirque miniature animé qui fascine l'avant-garde."
+            },
+            {
+              "h": "Le déclic : la visite à Mondrian",
+              "p": "Une visite à l'atelier de Mondrian, en 1930, est le choc : devant les rectangles colorés, Calder imagine de les faire bouger. Il invente alors la sculpture mobile."
+            },
+            {
+              "h": "Sa technique : le mobile",
+              "p": "Des formes découpées et colorées (souvent dans l'esprit de Miró et Mondrian), suspendues par des fils et des tiges en équilibre délicat, qui bougent au moindre souffle. Marcel Duchamp baptise ces œuvres « mobiles »."
+            },
+            {
+              "h": "Son apport : le mouvement et le hasard",
+              "p": "Calder fait entrer dans la sculpture le temps, le mouvement réel et le hasard : l'œuvre n'est jamais deux fois la même. Il crée aussi des « stabiles », grandes sculptures fixes monumentales."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Personne avant lui n'avait fait bouger la sculpture par l'air lui-même. Joyeux, ludique, abstrait, Calder a inventé une forme entièrement neuve, à la croisée de l'art, de l'ingénierie et du jeu."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Robert Delaunay",
+          "dates": "1885-1941",
+          "role": "Orphisme",
+          "groupe": "Orphisme",
+          "wiki": "Robert Delaunay",
+          "portrait": "Robert Delaunay, avec Sonia Delaunay, a inventé l'orphisme : un cubisme libéré par la couleur pure, qui mène droit à l'abstraction lumineuse — disques et cercles colorés vibrants.",
+          "bio_sections": [
+            {
+              "h": "Les origines : du cubisme à la couleur",
+              "p": "Parti du cubisme parisien, Delaunay trouve qu'il manque de couleur. Il y réintroduit la couleur pure et le mouvement, fasciné par la lumière et les contrastes simultanés (les théories de Chevreul, déjà chères à Seurat)."
+            },
+            {
+              "h": "Le déclic : l'orphisme",
+              "p": "Apollinaire baptise sa voie « orphisme » (du poète Orphée) : un art où la couleur, comme la musique, se suffit à elle-même. Delaunay peint la tour Eiffel éclatée en couleurs, puis des disques solaires purs."
+            },
+            {
+              "h": "Sa technique : les contrastes simultanés",
+              "p": "Disques et cercles concentriques de couleurs vives qui vibrent les uns contre les autres, créant un rythme et une lumière dynamiques. C'est l'une des premières abstractions, fondée sur la seule couleur."
+            },
+            {
+              "h": "Le couple Delaunay",
+              "p": "Avec sa femme Sonia Delaunay — peintre et créatrice de génie, qui étend l'orphisme au textile, à la mode, au design —, ils forment l'un des grands couples de l'avant-garde. Sonia est aujourd'hui réévaluée comme une figure majeure, longtemps minorée."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "L'orphisme est le chaînon entre le cubisme et l'abstraction par la couleur : il influence le Blaue Reiter (Marc, Klee, Macke) et toute la peinture qui fait de la couleur pure un sujet en soi."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Max Ernst",
+          "dates": "1891-1976",
+          "role": "Dada & Surréalisme",
+          "groupe": "Surréalisme",
+          "wiki": "Max Ernst",
+          "portrait": "Max Ernst, passé de Dada au surréalisme, a inventé le frottage et le collage surréaliste, peuplant ses œuvres de forêts inquiétantes et de créatures hybrides. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Les origines : Dada à Cologne",
+              "p": "Allemand, marqué par l'absurde de la Première Guerre, Ernst fonde le Dada de Cologne avant de gagner Paris et de rejoindre les surréalistes. Il porte en lui la révolte dadaïste et l'exploration de l'inconscient."
+            },
+            {
+              "h": "Le déclic : le hasard comme méthode",
+              "p": "Ernst invente des techniques pour faire surgir l'inattendu : le frottage (frotter un crayon sur une feuille posée sur du bois pour révéler des formes), le grattage, le collage de gravures anciennes recomposées en scènes oniriques."
+            },
+            {
+              "h": "Sa technique : forêts et hybrides",
+              "p": "Forêts pétrifiées, villes englouties, oiseaux mécaniques, créatures mi-humaines mi-animales : Ernst peuple ses œuvres d'un bestiaire d'inquiétude, né du hasard et du rêve."
+            },
+            {
+              "h": "Son parcours : l'exil",
+              "p": "Persécuté comme « dégénéré » par les nazis, interné en France comme « ennemi », il fuit aux États-Unis pendant la guerre — contribuant à transmettre le surréalisme à la future avant-garde américaine."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Inventeur technique génial, Ernst est le surréaliste le plus expérimental : il a montré que le hasard et le procédé pouvaient générer des images du subconscient, ouvrant la voie à l'automatisme d'après-guerre."
             }
           ]
         }
