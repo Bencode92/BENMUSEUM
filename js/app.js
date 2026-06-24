@@ -11,7 +11,7 @@ let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
 const $ = id => document.getElementById(id);
 
-const DV = "60"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "61"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),

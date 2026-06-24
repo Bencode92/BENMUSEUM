@@ -9054,6 +9054,14 @@
           "p": "À côté des animaux, de petites figures féminines comme la Vénus de Willendorf. Là, aucun réalisme : le corps est réduit à ses signes de fécondité, exagérés, tandis que le visage et les membres disparaissent. Ce n'est pas un portrait, c'est une amplification du vital, un objet magique tenant dans la main. L'art primitif ne copie pas le réel : il en concentre la force."
         },
         {
+          "h": "La main soufflée : « j'étais là »",
+          "p": "Sur les parois de Pech-Merle ou de Gargas apparaissent des mains négatives : l'homme posait sa paume sur le rocher et soufflait le pigment autour. Reste l'empreinte en creux, vieille de plus de 25 000 ans. C'est peut-être la première signature de l'humanité — non un portrait, mais une présence : quelqu'un a vécu, a touché cette pierre."
+        },
+        {
+          "h": "Un art déjà universel",
+          "p": "L'art n'est pas réservé aux grottes d'Europe : dès que l'homme est homme, il grave, sculpte, peint — propulseurs ornés, statuettes, art rupestre d'Afrique et d'Australie. Partout, et très tôt, le besoin de représenter et d'agir par l'image apparaît. L'art n'est pas un luxe tardif : il naît avec nous."
+        },
+        {
           "h": "Un art sans nom",
           "p": "Aucun de ces artistes n'a de nom — et c'est précisément ce qui distingue tout cet âge de ce qui suivra. L'art est collectif, rituel, transmis de génération en génération comme un savoir sacré. Il « marche » s'il remplit sa fonction, pas s'il plaît à un individu. Cette logique — l'image comme rite, non comme expression personnelle — on la retrouvera, sous d'autres formes, en Égypte, à Byzance, dans l'art tribal qui fascinera Picasso."
         }
@@ -9189,12 +9197,20 @@
           "p": "D'où la règle la plus célèbre de l'art égyptien : on représente chaque chose sous son angle le plus reconnaissable, et non tel qu'on la verrait d'un point de vue unique. La tête de profil (plus claire), mais l'œil de face ; le buste de face, mais les jambes de profil. Ce n'est pas une maladresse : c'est un système rigoureux et délibéré, pensé pour livrer l'information la plus complète et la plus durable possible."
         },
         {
+          "h": "La loi du profil",
+          "p": "La figure égyptienne assemble chaque partie du corps sous l'angle où elle est la plus reconnaissable : tête de profil, mais œil de face ; épaules de face, mais jambes et pieds de profil. Ce n'est pas une maladresse : c'est une écriture du corps, claire et complète, qu'on a respectée presque sans changement pendant trois mille ans."
+        },
+        {
           "h": "La hiérarchie d'échelle : la taille dit l'importance",
           "p": "Autre code : la taille des figures n'obéit pas à la distance mais à l'importance. Le pharaon est immense parce qu'il est puissant, pas parce qu'il serait au premier plan ; ses ennemis ou ses serviteurs sont minuscules. Dès la Palette de Narmer, aux origines de l'Égypte, tout le langage est déjà fixé : registres superposés qui se lisent comme des lignes, hiérarchie d'échelle, frontalité. Un code visuel d'une puissance et d'une longévité uniques."
         },
         {
           "h": "La parenthèse d'Amarna",
           "p": "Une seule fois, le canon millénaire se brise. Sous le pharaon Akhenaton (vers 1350 av. J.-C.), à Amarna, l'art se fait soudain plus naturel, plus intime, plus sensible : scènes familiales tendres, corps assouplis, et ce buste de Néfertiti d'une élégance et d'un naturalisme inouïs. Cette rupture, vite refermée après la mort du pharaon hérétique, prouve une chose essentielle : si les Égyptiens ont peint « raide » pendant trois mille ans, c'était un choix, pas une incapacité."
+        },
+        {
+          "h": "La Mésopotamie : le pouvoir gravé",
+          "p": "Entre les fleuves, les cités de Sumer, Babylone et Assur développent un art parallèle : stèles de victoire, taureaux ailés gardant les palais, bas-reliefs de chasses royales et de batailles. Comme en Égypte, l'art y sert le roi et les dieux, et raconte la puissance — la première grande narration en images de l'histoire."
         }
       ]
     },
@@ -9487,6 +9503,10 @@
           "p": "Voici, pour Gombrich, le moment décisif. La Grèce part du modèle égyptien — figures rigides, frontales, codifiées. Puis, en quelques générations seulement, fait unique dans l'histoire, les artistes grecs brisent le canon et se mettent à observer. Liberté des cités, esprit de débat et de compétition : tout pousse au progrès. Pour la première fois, on ne demande plus « que sais-je de ce corps ? » mais « comment le vois-je vraiment ? »."
         },
         {
+          "h": "Du kouros raide à l'homme vivant",
+          "p": "Les premières grandes statues grecques (les kouroi) sont encore raides et frontales, héritées du modèle égyptien : un pied en avant, les bras collés, un sourire figé. Puis, en moins d'un siècle, tout bascule : les Grecs détachent les bras, fléchissent les genoux, tournent la tête. La pierre se met à vivre. C'est le « grand éveil »."
+        },
+        {
           "h": "Saisir le mouvement",
           "p": "La grande conquête, c'est le mouvement et le raccourci : oser dessiner un membre vu de face, un corps en action. Le Discobole de Myron fige le lanceur de disque à l'instant de tension maximale : tout le corps est un ressort bandé, et pourtant l'ensemble reste équilibré, lisible. L'art ne représente plus une pose figée pour l'éternité, mais un instant vivant arraché au temps."
         },
@@ -9497,6 +9517,10 @@
         {
           "h": "Le Parthénon : observation et idéal réunis",
           "p": "Le sommet, c'est le Parthénon et les sculptures de Phidias, à l'Athènes de Périclès. Les corps y sont à la fois réels (drapés vivants, mouvement vrai) et idéalisés (beauté parfaite) : l'observation se met au service d'un idéal. Le temple lui-même intègre des corrections optiques invisibles — colonnes légèrement galbées et inclinées — pour que l'œil en perçoive la perfection. L'art grec ne copie pas la nature : il la corrige pour la rendre plus juste que vraie."
+        },
+        {
+          "h": "Pourquoi la Grèce a tout changé",
+          "p": "Pour la première fois, l'artiste ne suit plus une formule éternelle mais observe, choisit, corrige : l'œuvre devient une recherche, jamais finie. De cette liberté nouvelle naît toute la tradition occidentale — celle que, deux mille ans plus tard, la Renaissance ira justement redécouvrir comme son idéal."
         }
       ]
     },
@@ -9788,8 +9812,16 @@
           "p": "L'hellénistique adore aussi le mouvement spectaculaire. La Victoire de Samothrace se dresse sur une proue de navire, les ailes déployées, le drapé plaqué par le vent comme si elle venait de se poser dans la tempête. Ce n'est plus une figure posée : c'est un instant d'élan, de souffle, de force capté en plein vol. La sculpture devient pur mouvement."
         },
         {
+          "h": "Le portrait et l'individu",
+          "p": "L'art hellénistique ose enfin l'individu : non plus seulement le héros idéal, mais le vieillard ridé, l'enfant, le boxeur épuisé, l'étranger. La beauté parfaite cède la place à la vérité et à la variété humaines — première grande curiosité pour ce qui rend chaque visage unique."
+        },
+        {
           "h": "Le pathos : la souffrance mise en scène",
           "p": "Enfin, l'émotion extrême. Le Laocoon montre un prêtre et ses fils étouffés par des serpents, les visages tordus de douleur, les corps en torsion désespérée. C'est le sommet du pathos hellénistique : l'art met en scène la souffrance physique avec un réalisme spectaculaire. Redécouverte à Rome en 1506, cette œuvre bouleversera Michel-Ange et nourrira le Baroque : la boucle de l'histoire de l'art passe par elle."
+        },
+        {
+          "h": "Un art qui conquiert le monde",
+          "p": "Avec les conquêtes d'Alexandre, l'art grec se répand de l'Égypte à l'Inde et fusionne avec d'autres cultures. Puis Rome, en absorbant la Grèce, copie ses statues par milliers et les transmet à tout l'Occident. L'idéal grec devient, pour des siècles, la référence absolue de la beauté."
         }
       ]
     },
@@ -9929,6 +9961,10 @@
         {
           "h": "Le génie de l'architecture",
           "p": "Le vrai chef-d'œuvre de Rome, c'est son architecture. Grâce à l'arc, à la voûte, à la coupole et surtout au béton, les Romains créent des espaces intérieurs immenses, ce que la Grèce ne faisait pas. Le Panthéon, avec sa coupole parfaite percée d'un oculus ouvert sur le ciel, le Colisée et ses arcs en série, les aqueducs : Rome bâtit pour les foules et pour la durée. Son ingénierie structure encore nos villes."
+        },
+        {
+          "h": "Le béton : une révolution de l'espace",
+          "p": "Le vrai génie romain est technique : l'invention du béton. Il permet des voûtes, des coupoles et des espaces intérieurs immenses, impossibles avec la seule pierre grecque. Le Panthéon et sa coupole, les thermes, les basiliques, les aqueducs, le Colisée : une architecture de l'utile et de la grandeur, qui inspire encore la nôtre."
         },
         {
           "h": "L'art comme propagande",
