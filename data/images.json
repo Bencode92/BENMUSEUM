@@ -5795,5 +5795,45 @@
     "h": 4226,
     "format": "jpg",
     "file": "Meindert_Hobbema_001.jpg"
+  },
+  "Rosa Bonheur": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rosa_Bonheur_agee.jpg/1280px-Rosa_Bonheur_agee.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1333,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Rosa_Bonheur_agee.jpg",
+    "w": 3024,
+    "h": 4032,
+    "format": "jpg",
+    "file": "Rosa_Bonheur_agee.jpg"
+  },
+  "The Horse Fair": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rosa_Bonheur%2C_The_Horse_Fair%2C_1852%E2%80%9355.jpg/1280px-Rosa_Bonheur%2C_The_Horse_Fair%2C_1852%E2%80%9355.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 474,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Rosa_Bonheur%2C_The_Horse_Fair%2C_1852%E2%80%9355.jpg",
+    "w": 6324,
+    "h": 2995,
+    "format": "jpg",
+    "file": "Rosa_Bonheur,_The_Horse_Fair,_1852–55.jpg"
+  },
+  "Théodore Rousseau": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Theodore_Rousseau.jpg/1280px-Theodore_Rousseau.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1278,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Theodore_Rousseau.jpg",
+    "w": 2809,
+    "h": 3591,
+    "format": "jpg",
+    "file": "Theodore_Rousseau.jpg"
+  },
+  "Charles-François Daubigny": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Charles_francois_daubigny.jpg",
+    "thumb_w": 1187,
+    "thumb_h": 1504,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Charles_francois_daubigny.jpg",
+    "w": 1187,
+    "h": 1504,
+    "format": "jpg",
+    "file": "Charles_francois_daubigny.jpg"
   }
 }

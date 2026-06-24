@@ -6629,7 +6629,8 @@
               "wiki": "Madame Moitessier",
               "analyse": "Une bourgeoise opulente en robe à fleurs, dont le reflet rêveur apparaît dans le miroir. Précision des étoffes, perfection de la ligne, présence hypnotique : un sommet du portrait, mûri pendant douze ans."
             }
-          ]
+          ],
+          "groupe": "Néoclassicisme"
         },
         {
           "niveau": "○",
@@ -6693,7 +6694,8 @@
               "wiki": "Insane Woman",
               "analyse": "Portrait d'une vieille femme internée, peint pour un médecin aliéniste. Le regard fuyant, la dignité douloureuse : Géricault peint la folie sans caricature ni mépris. Un des premiers regards humains et modernes sur la maladie mentale."
             }
-          ]
+          ],
+          "groupe": "Romantisme"
         },
         {
           "niveau": "★",
@@ -6774,7 +6776,8 @@
               "wiki": "The Massacre at Chios",
               "analyse": "Des Grecs hagards attendent la mort ou l'esclavage après le massacre ottoman de l'île de Chios. Sujet d'actualité brûlante, peint avec une couleur et un désespoir qui scandalisèrent l'académie — « le massacre de la peinture », dit-on alors."
             }
-          ]
+          ],
+          "groupe": "Romantisme"
         },
         {
           "niveau": "○",
@@ -6830,7 +6833,8 @@
               "wiki": "The Bridge at Narni",
               "analyse": "Étude peinte sur le motif en Italie : un pont antique en ruine sous la lumière éclatante du Sud, rendu d'une fraîcheur et d'une justesse stupéfiantes. Longtemps gardée pour lui, elle est l'une des œuvres les plus modernes de son temps, annonçant l'impressionnisme."
             }
-          ]
+          ],
+          "groupe": "Paysage & école de Barbizon"
         },
         {
           "niveau": "★",
@@ -6895,7 +6899,8 @@
               "wiki": "The Sower (Millet)",
               "analyse": "Un semeur avance d'un grand geste dans le soir, semant à la volée, silhouette puissante et anonyme se détachant sur le ciel. Image héroïque et intemporelle du travail de la terre, que Van Gogh copiera et vénérera toute sa vie."
             }
-          ]
+          ],
+          "groupe": "Réalisme"
         },
         {
           "niveau": "★",
@@ -6968,7 +6973,8 @@
               "wiki": "The Meeting (Courbet)",
               "analyse": "Courbet, sac au dos, salue son mécène qui le croise sur un chemin. L'artiste, fier et libre, marche tête haute, plus digne que le bourgeois qui le finance. L'orgueil de Courbet résumé en une scène de plein air ensoleillée."
             }
-          ]
+          ],
+          "groupe": "Réalisme"
         },
         {
           "niveau": "○",
@@ -7016,7 +7022,8 @@
               "wiki": "The Third-Class Carriage",
               "analyse": "Dans un wagon bondé, des voyageurs pauvres — une vieille femme, une mère allaitant, un enfant endormi — attendent, las et silencieux, dans une lumière sourde. Tendresse et gravité pour les humbles, touche libre et moderne : le Daumier peintre, longtemps secret, à son sommet."
             }
-          ]
+          ],
+          "groupe": "Réalisme"
         },
         {
           "niveau": "○",
@@ -7088,7 +7095,8 @@
               "wiki": "Christ in the House of His Parents",
               "analyse": "Par Millais : la Sainte Famille dans un atelier de charpentier rendu avec un réalisme cru (sciure, outils, mains calleuses) qui scandalisa — on jugea blasphématoire de montrer le sacré aussi humblement. La sincérité préraphaélite poussée jusqu'à la provocation."
             }
-          ]
+          ],
+          "groupe": "Préraphaélites (Angleterre)"
         },
         {
           "niveau": "○",
@@ -7143,6 +7151,102 @@
               "lieu": "Detroit Institute of Arts",
               "wiki": "Nocturne in Black and Gold – The Falling Rocket",
               "analyse": "Un feu d'artifice sur la Tamise nocturne, réduit à quelques voiles sombres et à des éclats d'or — presque abstrait. Le critique Ruskin l'accusa d'« avoir jeté un pot de peinture à la face du public » ; le procès qui suivit défendit l'autonomie de l'art."
+            }
+          ],
+          "groupe": "Art pour l'art (Angleterre)"
+        },
+        {
+          "niveau": "★",
+          "nom": "Rosa Bonheur",
+          "dates": "1822-1899",
+          "role": "Peinture animalière / Réalisme",
+          "groupe": "Réalisme",
+          "wiki": "Rosa Bonheur",
+          "portrait": "Rosa Bonheur, peintre animalière de gloire européenne, fut l'une des artistes femmes les plus célèbres du XIXe siècle — femme libre qui obtint l'autorisation officielle de porter le pantalon pour étudier dans les foires et les abattoirs.",
+          "bio_sections": [
+            {
+              "h": "Les origines : une éducation saint-simonienne",
+              "p": "Fille d'un peintre adepte du saint-simonisme (doctrine prônant l'égalité des sexes), Rosa Bonheur est élevée dans l'idée qu'une femme peut devenir une grande artiste. Elle se forme en copiant au Louvre et en étudiant sans relâche les animaux."
+            },
+            {
+              "h": "Sa technique : l'animal observé",
+              "p": "Réaliste, elle peint les animaux — chevaux, bœufs, moutons — avec une exactitude anatomique et une puissance rares. Pour les étudier, elle fréquente les marchés aux bestiaux, les foires et les abattoirs, ce qui exige, pour une femme, une autorisation de police pour porter le pantalon."
+            },
+            {
+              "h": "Le triomphe : Le Marché aux chevaux",
+              "p": "Son immense Marché aux chevaux (1855), exposé triomphalement à Londres et New York et diffusé par la gravure, la rend mondialement célèbre et riche. Elle achète un château et vit ouvertement avec ses compagnes."
+            },
+            {
+              "h": "Une femme libre et reconnue",
+              "p": "Première femme artiste décorée de la Légion d'honneur (par l'impératrice Eugénie). Indépendante, fumant le cigare, vivant comme elle l'entend, elle est une figure pionnière de l'émancipation autant qu'une grande peintre."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Dans un milieu masculin, elle s'impose par le seul talent, au plus haut niveau international, dans un genre (l'animalier) qu'elle élève. À citer comme l'une des grandes femmes artistes du siècle, longtemps minorée par le récit."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Marché aux chevaux",
+              "artiste": "Rosa Bonheur",
+              "annee": "1852-1855",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "The Horse Fair",
+              "analyse": "Une immense toile (plus de 5 m de long) où des chevaux puissants se cabrent au marché de Paris, dans un tourbillon d'énergie animale. Exactitude anatomique, force et mouvement : le chef-d'œuvre qui rendit Rosa Bonheur mondialement célèbre."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Théodore Rousseau",
+          "dates": "1812-1867",
+          "role": "École de Barbizon",
+          "groupe": "Paysage & école de Barbizon",
+          "wiki": "Théodore Rousseau",
+          "portrait": "Théodore Rousseau est le chef de l'école de Barbizon : il s'installe en lisière de la forêt de Fontainebleau pour peindre la nature pour elle-même, en plein air — un chaînon décisif vers l'impressionnisme.",
+          "bio_sections": [
+            {
+              "h": "Les origines : « le grand refusé »",
+              "p": "Paysagiste passionné, Rousseau est si systématiquement refusé par le jury du Salon, hostile au paysage pur, qu'on le surnomme « le grand refusé ». Il choisit alors de quitter Paris pour vivre et peindre dans la nature."
+            },
+            {
+              "h": "Barbizon et le plein air",
+              "p": "Il s'installe au village de Barbizon, en lisière de la forêt de Fontainebleau, et y attire d'autres paysagistes (Diaz, Daubigny, Millet). Ensemble, ils peignent arbres, sous-bois, étangs et ciels d'après nature, sans prétexte mythologique."
+            },
+            {
+              "h": "Sa technique : la nature pour elle-même",
+              "p": "Chênes puissants, lumières du soir, climats changeants : Rousseau donne au paysage français une gravité et une présence nouvelles, observées sur le motif puis travaillées en atelier."
+            },
+            {
+              "h": "Ce qui le différencie / son rôle",
+              "p": "Avec Barbizon, il fait du paysage un sujet majeur et légitime — le chaînon entre le romantisme du paysage (Constable, Turner) et l'impressionnisme, qui systématisera le plein air."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Charles-François Daubigny",
+          "dates": "1817-1878",
+          "role": "École de Barbizon",
+          "groupe": "Paysage & école de Barbizon",
+          "wiki": "Charles-François Daubigny",
+          "portrait": "Charles-François Daubigny, paysagiste de Barbizon, peint les bords de l'Oise depuis son bateau-atelier — un plein air radical qui annonce directement Monet, qu'il défendra plus tard.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Paysagiste, Daubigny pousse plus loin que ses amis de Barbizon l'idée de peindre sur le motif : il veut saisir l'instant et la lumière de l'eau, des berges, des matins de rivière."
+            },
+            {
+              "h": "Le bateau-atelier « Le Botin »",
+              "p": "Il aménage un bateau-atelier sur l'Oise pour peindre au plus près de l'eau, en plein air, ce que peu osent alors. Ses paysages, plus lumineux et esquissés, frôlent déjà la touche impressionniste."
+            },
+            {
+              "h": "Le passeur vers l'impressionnisme",
+              "p": "Membre du jury du Salon, Daubigny défend les jeunes refusés — dont Monet et Pissarro. Son plein air et son soutien font de lui un pont direct vers l'impressionnisme (ch. 26)."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Le plus « impressionniste » des paysagistes de Barbizon : sa quête de la lumière sur l'eau et son audace de la touche annoncent littéralement la génération suivante."
             }
           ]
         }
