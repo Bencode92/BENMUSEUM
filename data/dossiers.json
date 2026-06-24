@@ -6074,7 +6074,8 @@
               "wiki": "The Death of Socrates",
               "analyse": "Socrate, condamné, saisit la coupe de ciguë tout en continuant d'enseigner, le doigt levé vers le ciel, serein face à la mort. La leçon stoïcienne du devoir et du courage, mise en scène avec une clarté de bas-relief antique."
             }
-          ]
+          ],
+          "groupe": "Néoclassicisme"
         },
         {
           "niveau": "★",
@@ -6155,7 +6156,8 @@
               "wiki": "The Sleep of Reason Produces Monsters",
               "analyse": "Un homme endormi sur sa table est assailli de hiboux et de chauves-souris. Devise des Caprices : quand la raison s'endort, les monstres de la superstition surgissent. Le programme de toute la part visionnaire de Goya."
             }
-          ]
+          ],
+          "groupe": "Romantisme"
         },
         {
           "niveau": "○",
@@ -6219,7 +6221,8 @@
               "wiki": "The Great Red Dragon Paintings",
               "analyse": "Tiré de l'Apocalypse : un dragon colossal, de dos, déploie ses ailes au-dessus d'une femme. Corps titanesque hérité de Michel-Ange, vision incandescente du mal cosmique. La puissance prophétique et terrifiante de l'imaginaire de Blake."
             }
-          ]
+          ],
+          "groupe": "Romantisme"
         },
         {
           "niveau": "★",
@@ -6276,7 +6279,8 @@
               "wiki": "Salisbury Cathedral from the Bishop's Grounds",
               "analyse": "La flèche de la cathédrale apparaît entre les arbres, encadrée par un arche de feuillage, sous un ciel pommelé. La nature et l'architecture en harmonie, baignées de la lumière humide et changeante de l'Angleterre."
             }
-          ]
+          ],
+          "groupe": "Le paysage anglais"
         },
         {
           "niveau": "★",
@@ -6357,7 +6361,8 @@
               "wiki": "Norham Castle, Sunrise",
               "analyse": "Le château n'est plus qu'une ombre bleue noyée dans un brouillard de jaune lumineux ; tout se dissout dans la lumière du matin. Œuvre tardive, presque abstraite, qui anticipe de plusieurs décennies l'art moderne."
             }
-          ]
+          ],
+          "groupe": "Le paysage anglais"
         },
         {
           "niveau": "○",
@@ -6412,6 +6417,202 @@
               "lieu": "National Gallery of Art, Washington",
               "wiki": "Watson and the Shark",
               "analyse": "Par John Singleton Copley : un fait divers réel, un jeune homme attaqué par un requin dans le port de La Havane, traité avec l'intensité dramatique d'une grande scène épique. L'événement contemporain élevé au sublime, annonçant Géricault."
+            }
+          ],
+          "groupe": "Néoclassicisme"
+        },
+        {
+          "niveau": "★",
+          "nom": "Caspar David Friedrich",
+          "dates": "1774-1840",
+          "role": "Romantisme allemand",
+          "groupe": "Romantisme",
+          "wiki": "Caspar David Friedrich",
+          "portrait": "Caspar David Friedrich, le grand romantique allemand, fait du paysage une expérience spirituelle de l'infini : des figures vues de dos contemplent des étendues immenses, entre mélancolie, religiosité et sublime.",
+          "bio_sections": [
+            {
+              "h": "Les origines : le Nord et le deuil",
+              "p": "Né sur la Baltique, Friedrich est marqué jeune par la mort (sa mère, ses frères, dont l'un noyé sous ses yeux). Installé à Dresde, foyer du romantisme allemand, il fait de la nature du Nord — mers froides, brumes, sapins, ruines — le miroir de l'âme."
+            },
+            {
+              "h": "Le déclic : le paysage spirituel",
+              "p": "Friedrich refuse le paysage simple décor : il en fait une méditation métaphysique sur Dieu, l'infini, la mort et la solitude de l'homme. La nature devient un sanctuaire silencieux."
+            },
+            {
+              "h": "Sa technique : la figure de dos (Rückenfigur)",
+              "p": "Sa trouvaille célèbre : des personnages vus de dos, contemplant l'immensité. Le spectateur regarde par-dessus leur épaule et entre ainsi dans le tableau, face à l'infini. Lumière froide, compositions épurées, silence."
+            },
+            {
+              "h": "Le sublime de l'infini",
+              "p": "Le Voyageur au-dessus de la mer de nuages, Le Moine au bord de la mer, La Mer de glace : l'homme minuscule face à l'illimité. C'est le sublime de Burke fait peinture — non plaire, mais saisir d'effroi et de vertige."
+            },
+            {
+              "h": "Ce qui le différencie / postérité",
+              "p": "Oublié après sa mort, jugé démodé, Friedrich est redécouvert au XXe siècle et reconnu comme le sommet du romantisme du paysage. Le Voyageur est devenu l'icône même du romantisme. Une influence majeure, des symbolistes aux artistes contemporains."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Voyageur au-dessus de la mer de nuages",
+              "artiste": "Caspar David Friedrich",
+              "annee": "v. 1818",
+              "lieu": "Kunsthalle, Hambourg",
+              "wiki": "Wanderer above the Sea of Fog",
+              "analyse": "Un homme de dos, debout sur un pic, contemple une mer de brumes d'où émergent des sommets. La figure de dos nous fait entrer dans le tableau, face à l'infini. L'icône absolue du romantisme et du sublime."
+            },
+            {
+              "titre": "La Mer de glace",
+              "artiste": "Caspar David Friedrich",
+              "annee": "1823-1824",
+              "lieu": "Kunsthalle, Hambourg",
+              "wiki": "The Sea of Ice",
+              "analyse": "Un navire broyé par des plaques de glace dressées comme des dalles funéraires, dans un Grand Nord glacé et muet. Vision désespérée de la nature écrasant l'homme : le sublime poussé jusqu'au tragique."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Antonio Canova",
+          "dates": "1757-1822",
+          "role": "Sculpture néoclassique",
+          "groupe": "Néoclassicisme",
+          "wiki": "Antonio Canova",
+          "portrait": "Antonio Canova, le sculpteur le plus célèbre d'Europe, est l'équivalent de David en trois dimensions : un marbre pur, poli, idéalisé d'après l'Antique, que toutes les cours s'arrachent.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Né dans la région de Venise, fils de tailleur de pierre, Canova s'impose à Rome comme le maître absolu de la sculpture néoclassique, au moment où les fouilles de Pompéi et les théories de Winckelmann remettent l'Antiquité à la mode."
+            },
+            {
+              "h": "Sa technique : le marbre idéal",
+              "p": "Formes pures et lisses, contours nets, beauté idéalisée d'après les statues antiques, marbre poli jusqu'à imiter la douceur de la peau. La « noble simplicité et grandeur calme » de Winckelmann faite sculpture."
+            },
+            {
+              "h": "Grâce et pouvoir",
+              "p": "Psyché ranimée par le baiser de l'Amour : une grâce sensuelle et tendre. Mais il sculpte aussi le pouvoir : Pauline Borghèse en Vénus victrix, Napoléon en Mars colossal. Les souverains d'Europe se disputent ses œuvres."
+            },
+            {
+              "h": "Pourquoi il compte",
+              "p": "Il est à la sculpture ce que David est à la peinture : le chef du néoclassicisme. Il définit l'idéal de beauté sculptée pour toute une époque et restaure même, en diplomate, des œuvres pillées par Napoléon."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où le baroque (le Bernin, ch. 19) cherchait le mouvement et le drame, Canova cherche le calme, la pureté, l'équilibre antique. Le marbre redevient serein, lisse, idéal."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Psyché ranimée par le baiser de l'Amour",
+              "artiste": "Antonio Canova",
+              "annee": "1787-1793",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "Psyche Revived by Cupid's Kiss",
+              "analyse": "Cupidon soulève délicatement Psyché évanouie ; leurs corps forment une arabesque tendre, ailes déployées. Marbre poli d'une grâce sensuelle, équilibre parfait : le sommet de la grâce néoclassique."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Henry Fuseli",
+          "dates": "1741-1825",
+          "role": "Pré-romantisme",
+          "groupe": "Romantisme",
+          "wiki": "Henry Fuseli",
+          "portrait": "Henry Fuseli, Suisse installé à Londres et ami de Blake, peint l'irrationnel, le rêve et l'érotico-fantastique : son Cauchemar est l'une des premières grandes images de l'inconscient.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Né Johann Heinrich Füssli à Zurich, d'abord pasteur et homme de lettres, il se tourne vers la peinture et s'installe à Londres, où il devient professeur à la Royal Academy. Ami de William Blake."
+            },
+            {
+              "h": "Le déclic : Le Cauchemar (1781)",
+              "p": "Une femme endormie, renversée, sur la poitrine de laquelle est accroupi un démon (un « incube »), tandis qu'une tête de cheval surgit des ténèbres. Image troublante, érotique et angoissante de l'inconscient — bien avant Freud."
+            },
+            {
+              "h": "Sa technique : l'irrationnel théâtral",
+              "p": "Inspiré de Michel-Ange et du maniérisme, il peint des sujets littéraires (Shakespeare, Milton) et oniriques dans des poses exagérées, des clairs-obscurs dramatiques, une sensualité inquiétante."
+            },
+            {
+              "h": "Ce qui le différencie / postérité",
+              "p": "Fuseli ouvre la voie au romantisme noir et au fantastique : son exploration du rêve et de la terreur annonce le symbolisme et le surréalisme. Le Cauchemar reste l'une des images les plus reproduites de l'art."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Cauchemar",
+              "artiste": "Henry Fuseli",
+              "annee": "1781",
+              "lieu": "Detroit Institute of Arts",
+              "wiki": "The Nightmare",
+              "analyse": "Une dormeuse renversée, un démon accroupi sur sa poitrine, une jument spectrale jaillissant de l'ombre. Première grande image de l'inconscient et du rêve angoissé, à la fois érotique et terrifiante — un siècle avant Freud."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Élisabeth Vigée Le Brun",
+          "dates": "1755-1842",
+          "role": "Portrait (fin de l'Ancien Régime)",
+          "groupe": "Néoclassicisme",
+          "wiki": "Élisabeth Vigée Le Brun",
+          "portrait": "Élisabeth Vigée Le Brun, portraitiste de Marie-Antoinette, fut l'une des artistes les plus célèbres et les mieux payées de son temps — femme indépendante qui mena une carrière européenne malgré la Révolution.",
+          "bio_sections": [
+            {
+              "h": "Les origines : un talent précoce",
+              "p": "Fille d'un pastelliste parisien, douée très jeune, elle vit dès l'adolescence de son art. Belle, spirituelle, elle tient salon et s'impose comme portraitiste recherché de l'aristocratie."
+            },
+            {
+              "h": "La peintre de la reine",
+              "p": "Elle devient la portraitiste favorite de Marie-Antoinette, qu'elle peint plus de trente fois, créant son image officielle (et plus humaine, en mère ou en simple robe). Reçue à l'Académie royale en 1783, fait rare pour une femme."
+            },
+            {
+              "h": "L'exil et la carrière européenne",
+              "p": "À la Révolution, liée à la cour, elle fuit la France et mène douze ans une carrière triomphale à travers l'Europe — Italie, Vienne, Saint-Pétersbourg (cour de Russie) —, peignant l'aristocratie de tout le continent."
+            },
+            {
+              "h": "Sa technique : grâce et naturel",
+              "p": "Touche souple, couleurs fraîches, sourires naturels (elle ose montrer les dents, ce qui choque), tendresse des regards. Elle laisse aussi de précieux Mémoires sur son époque et le métier."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Femme artiste au sommet de la gloire et de la fortune sous l'Ancien Régime, indépendante et reconnue dans toute l'Europe : une figure majeure, longtemps minorée par le récit, à réintégrer pleinement."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Autoportrait au chapeau de paille",
+              "artiste": "Élisabeth Vigée Le Brun",
+              "annee": "v. 1782",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Élisabeth Vigée Le Brun",
+              "analyse": "L'artiste se peint elle-même, palette en main, au chapeau de paille, le sourire naturel et le regard direct, inspiré de Rubens. Affirmation sereine d'une femme peintre au faîte de son art et de son succès."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Angelica Kauffman",
+          "dates": "1741-1807",
+          "role": "Néoclassicisme",
+          "groupe": "Néoclassicisme",
+          "wiki": "Angelica Kauffman",
+          "portrait": "Angelica Kauffman, Suissesse de carrière internationale, fut l'une des deux femmes membres fondatrices de la Royal Academy de Londres, et l'une des rares femmes à peindre de la grande peinture d'histoire.",
+          "bio_sections": [
+            {
+              "h": "Les origines : une enfant prodige cosmopolite",
+              "p": "Née dans les Grisons, fille de peintre, surdouée et polyglotte, Angelica Kauffman voyage en Italie puis s'installe à Londres, où elle s'impose dans la haute société artistique."
+            },
+            {
+              "h": "Membre fondatrice de la Royal Academy",
+              "p": "En 1768, elle est, avec Mary Moser, l'une des deux seules femmes parmi les membres fondateurs de la Royal Academy — distinction exceptionnelle (et qui ne se reproduira pas avant longtemps)."
+            },
+            {
+              "h": "Sa technique : le néoclassicisme gracieux",
+              "p": "Portraits élégants et, fait rare pour une femme à l'époque, scènes d'histoire antique et mythologique — domaine réservé aux hommes. Couleurs douces, grâce, idéal antique adouci."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Femme peignant l'histoire (le genre le plus noble et le plus interdit aux femmes), reconnue dans toute l'Europe, amie de Goethe et de Reynolds : une pionnière à citer dans l'angle « femmes artistes »."
             }
           ]
         }

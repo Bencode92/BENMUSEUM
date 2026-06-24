@@ -5835,5 +5835,95 @@
     "h": 1504,
     "format": "jpg",
     "file": "Charles_francois_daubigny.jpg"
+  },
+  "Caspar David Friedrich": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Gerhard_von_K%C3%BCgelgen_portrait_of_Friedrich.jpg/1280px-Gerhard_von_K%C3%BCgelgen_portrait_of_Friedrich.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1297,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gerhard_von_K%C3%BCgelgen_portrait_of_Friedrich.jpg",
+    "w": 1443,
+    "h": 1871,
+    "format": "jpg",
+    "file": "Gerhard_von_Kügelgen_portrait_of_Friedrich.jpg"
+  },
+  "Wanderer above the Sea of Fog": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+    "thumb_w": 1000,
+    "thumb_h": 1283,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+    "w": 5256,
+    "h": 6742,
+    "format": "jpeg",
+    "file": "Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg"
+  },
+  "The Sea of Ice": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg/1280px-Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 748,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg",
+    "w": 3176,
+    "h": 2375,
+    "format": "jpg",
+    "file": "Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg"
+  },
+  "Antonio Canova": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Antonio_Canova_Selfportrait_1792.jpg",
+    "thumb_w": 788,
+    "thumb_h": 983,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Antonio_Canova_Selfportrait_1792.jpg",
+    "w": 788,
+    "h": 983,
+    "format": "jpg",
+    "file": "Antonio_Canova_Selfportrait_1792.jpg"
+  },
+  "Psyche Revived by Cupid's Kiss": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG/1280px-0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 871,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG",
+    "w": 2976,
+    "h": 2592,
+    "format": "jpg",
+    "file": "0_Psyché_ranimée_par_le_baiser_de_l'Amour_-_Canova_-_Louvre_1.JPG"
+  },
+  "Henry Fuseli": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Henry_Fuseli_by_James_Northcote.jpg/1280px-Henry_Fuseli_by_James_Northcote.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1202,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Henry_Fuseli_by_James_Northcote.jpg",
+    "w": 2400,
+    "h": 2885,
+    "format": "jpg",
+    "file": "Henry_Fuseli_by_James_Northcote.jpg"
+  },
+  "The Nightmare": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Johann_Heinrich_F%C3%BCssli_-_The_Nightmare_55.5.A-d1-2019-04-15.jpg/1280px-Johann_Heinrich_F%C3%BCssli_-_The_Nightmare_55.5.A-d1-2019-04-15.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 803,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Johann_Heinrich_F%C3%BCssli_-_The_Nightmare_55.5.A-d1-2019-04-15.jpg",
+    "w": 8192,
+    "h": 6577,
+    "format": "jpg",
+    "file": "Johann_Heinrich_Füssli_-_The_Nightmare_55.5.A-d1-2019-04-15.jpg"
+  },
+  "Élisabeth Vigée Le Brun": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Self-portrait_in_a_Straw_Hat_by_Elisabeth-Louise_Vig%C3%A9e-Lebrun.jpg/1280px-Self-portrait_in_a_Straw_Hat_by_Elisabeth-Louise_Vig%C3%A9e-Lebrun.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1389,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Self-portrait_in_a_Straw_Hat_by_Elisabeth-Louise_Vig%C3%A9e-Lebrun.jpg",
+    "w": 4320,
+    "h": 6000,
+    "format": "jpg",
+    "file": "Self-portrait_in_a_Straw_Hat_by_Elisabeth-Louise_Vigée-Lebrun.jpg"
+  },
+  "Angelica Kauffman": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/c/c1/Portrait_of_Angelica_Kauffman_%281764%29.jpg",
+    "thumb_w": 839,
+    "thumb_h": 1024,
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/Portrait_of_Angelica_Kauffman_%281764%29.jpg",
+    "w": 839,
+    "h": 1024,
+    "format": "jpg",
+    "file": "Portrait_of_Angelica_Kauffman_(1764).jpg"
   }
 }
