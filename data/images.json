@@ -5625,5 +5625,45 @@
     "h": 552,
     "format": "jpg",
     "file": "Reichstagchristo010.jpg"
+  },
+  "Andrea del Sarto": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sarto%2C_Andrea_del_-_Self-portrait_-_Uffizi.jpg",
+    "thumb_w": 673,
+    "thumb_h": 936,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sarto%2C_Andrea_del_-_Self-portrait_-_Uffizi.jpg",
+    "w": 673,
+    "h": 936,
+    "format": "jpg",
+    "file": "Sarto,_Andrea_del_-_Self-portrait_-_Uffizi.jpg"
+  },
+  "Madonna of the Harpies": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Andrea_del_Sarto_-_Virgin_and_Child_between_St_Francis_of_Assisi_and_St_John_the_Evangelist_%28%27Madonna_of_the_Harpies%27%29%2C_1517%2C_1890_no.1577.jpg/960px-Andrea_del_Sarto_-_Virgin_and_Child_between_St_Francis_of_Assisi_and_St_John_the_Evangelist_%28%27Madonna_of_the_Harpies%27%29%2C_1517%2C_1890_no.1577.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1010,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Andrea_del_Sarto_-_Virgin_and_Child_between_St_Francis_of_Assisi_and_St_John_the_Evangelist_%28%27Madonna_of_the_Harpies%27%29%2C_1517%2C_1890_no.1577.jpg",
+    "w": 2228,
+    "h": 2500,
+    "format": "jpg",
+    "file": "Andrea_del_Sarto_-_Virgin_and_Child_between_St_Francis_of_Assisi_and_St_John_the_Evangelist_('Madonna_of_the_Harpies'),_1517,_1890_no.1577.jpg"
+  },
+  "Fra Bartolomeo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/87/Fra_bartolomeo.jpg",
+    "thumb_w": 407,
+    "thumb_h": 581,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Fra_bartolomeo.jpg",
+    "w": 407,
+    "h": 581,
+    "format": "jpg",
+    "file": "Fra_bartolomeo.jpg"
+  },
+  "Il Sodoma": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Giovanni_Antonio_Bazzi.jpg/960px-Giovanni_Antonio_Bazzi.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1350,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Giovanni_Antonio_Bazzi.jpg",
+    "w": 3200,
+    "h": 4800,
+    "format": "jpg",
+    "file": "Giovanni_Antonio_Bazzi.jpg"
   }
 }

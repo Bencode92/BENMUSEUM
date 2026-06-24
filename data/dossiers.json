@@ -202,7 +202,7 @@
           "role": "le grand-père",
           "wiki": "Giotto",
           "portrait": "Giotto di Bondone (v. 1267-1337) est le grand-père de toute la peinture occidentale moderne. Deux siècles avant la Renaissance, il a rompu avec la raideur dorée du Moyen Âge pour redonner aux figures un poids, un espace et des émotions vraies — ouvrant la voie que Masaccio, puis Léonard, suivront.",
-          "groupe": "Le précurseur",
+          "groupe": "Les précurseurs (XIVe)",
           "bio_sections": [
             {
               "h": "L'enfance : le berger devenu peintre",
@@ -258,7 +258,7 @@
           "role": "le pionnier foudroyé",
           "wiki": "Masaccio",
           "portrait": "Masaccio (1401-1428) est le jeune génie qui, mort à 27 ans, a fait entrer la peinture dans la Renaissance. En quelques années, il a appliqué à la peinture la perspective de Brunelleschi et la solidité de Giotto, donnant à ses figures un poids, une lumière et un espace réels — point de départ de tout le Quattrocento.",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "Premier Quattrocento (Florence)",
           "bio_sections": [
             {
               "h": "L'enfance : un surnom révélateur",
@@ -314,7 +314,7 @@
           "role": "le sculpteur révolutionnaire",
           "wiki": "Donatello",
           "portrait": "Donatello (v. 1386-1466) est le plus grand sculpteur du Quattrocento florentin et l'un des fondateurs de l'art de la Renaissance. Inventif, audacieux, capable de tendresse comme de violence expressive, il a ressuscité le nu antique, l'émotion vraie et la statue équestre — préparant la voie à Michel-Ange.",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "Premier Quattrocento (Florence)",
           "bio_sections": [
             {
               "h": "L'enfance : l'atelier de Florence",
@@ -387,7 +387,7 @@
           "wiki": "Sandro Botticelli",
           "portrait": "Sandro Botticelli (1445-1510) est le peintre de la grâce linéaire et de la beauté rêveuse de la Florence des Médicis. Maître de la ligne pure et des figures mélancoliques, il a donné, avec La Naissance de Vénus et Le Printemps, les images les plus enchanteresses de la Renaissance — avant de finir, troublé, dans la dévotion.",
           "bio_longue": "Sandro Botticelli (1445-1510) est le peintre de la grâce florentine sous les Médicis. Sa ligne sinueuse, presque musicale, et ses figures rêveuses (La Naissance de Vénus, Le Printemps) traduisent un idéal de beauté hérité de l'Antiquité et de la philosophie néoplatonicienne de son cercle. Mais sa fin est sombre : tombé sous l'influence du prédicateur fanatique Savonarole, qui faisait brûler les œuvres « vaniteuses » dans des « bûchers des vanités », il aurait lui-même renié et détruit certaines de ses toiles païennes. Oublié à sa mort, il ne sera redécouvert qu'au XIXe siècle.",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "Fin du Quattrocento",
           "bio_sections": [
             {
               "h": "L'enfance : le petit tonneau de Florence",
@@ -460,7 +460,7 @@
           "wiki": "Leonardo da Vinci",
           "portrait": "Léonard de Vinci (1452-1519) est l'incarnation même du génie de la Renaissance : peintre, mais aussi anatomiste, ingénieur, botaniste, urbaniste, inventeur. Il a laissé peu de tableaux achevés — une quinzaine — mais chacun a déplacé les limites de ce que la peinture pouvait atteindre.",
           "bio_longue": "Leonardo da Vinci (1452-1519), fils illégitime d'un notaire, est l'incarnation même du génie universel : peintre, mais aussi anatomiste, ingénieur, botaniste, inventeur. Sa curiosité dévorante est aussi son défaut — il finissait peu d'œuvres, distrait par mille recherches. Il invente le sfumato, ce fondu vaporeux qui rend le sourire de la Joconde insaisissable. Pour lui, peindre, c'est comprendre : il dissèque des cadavres, étudie le vol des oiseaux, le mouvement de l'eau. Il meurt en France, à la cour de François Iᵉʳ, qui l'avait attiré comme on s'offre la plus grande merveille de son temps.",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "La Haute Renaissance",
           "bio_sections": [
             {
               "h": "L'enfance : un enfant illégitime, libre et curieux",
@@ -541,7 +541,7 @@
           "wiki": "Michelangelo",
           "portrait": "Michelangelo Buonarroti (1475-1564) se voulait sculpteur avant tout, mais il a dominé tous les arts de son siècle : la sculpture, la peinture, l'architecture, la poésie. Sa vie, longue et tourmentée, incarne la figure du génie solitaire arrachant ses œuvres au marbre et à lui-même — le terrible (terribilità) fait homme.",
           "bio_longue": "Michelangelo Buonarroti (1475-1564) se voulait avant tout sculpteur — il disait « libérer » la figure déjà prisonnière du bloc de marbre. Solitaire, colérique, d'une exigence terrible, il vit 88 ans et traverse les époques. Le pape Jules II le force à peindre le plafond de la chapelle Sixtine : quatre ans de souffrance, seul sur un échafaudage, la tête renversée, à peindre 300 figures — il s'en plaint en vers. Son art a une puissance, une tension dramatique (la « terribilità ») qui dépasse l'équilibre serein de ses contemporains et annonce déjà le Baroque.",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "La Haute Renaissance",
           "bio_sections": [
             {
               "h": "L'enfance : le lait des tailleurs de pierre",
@@ -622,7 +622,7 @@
           "wiki": "Raphael",
           "portrait": "Raffaello Sanzio (1483-1520) est, avec Léonard et Michel-Ange, le troisième géant de la Haute Renaissance — mais il en incarne la face heureuse : la grâce, l'harmonie, la douceur. Mort à seulement 37 ans, adulé de tous, il a fixé pour des siècles l'idéal de la beauté équilibrée.",
           "bio_longue": "Raffaello Sanzio (1483-1520) est le plus jeune des trois géants et le plus aimable : là où Léonard est mystérieux et Michel-Ange tourmenté, Raphaël est l'harmonie, la grâce, la facilité. Génie de la composition, il orchestre des dizaines de figures dans un équilibre parfait (L'École d'Athènes). Adulé, riche, entouré d'un grand atelier, il mène une vie de prince — et meurt brutalement à 37 ans, le jour de son anniversaire dit-on. Sa mort, en 1520, est souvent prise comme la fin de la Haute Renaissance.",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "La Haute Renaissance",
           "bio_sections": [
             {
               "h": "L'enfance : fils de peintre à Urbin",
@@ -703,7 +703,7 @@
           "wiki": "Titian",
           "portrait": "Tiziano Vecellio (v. 1488-1576) est le maître absolu de l'école vénitienne et le plus grand coloriste de son siècle. Au cours d'une carrière de plus de soixante-dix ans, il a peint pour les papes et les empereurs, et libéré la couleur et la touche d'une manière qui annonce toute la peinture moderne.",
           "bio_longue": "Tiziano Vecellio (vers 1488-1576) règne sur Venise et sur la peinture européenne pendant soixante ans. Maître absolu de la couleur et de la matière, peintre officiel de l'empereur Charles Quint (qui, dit la légende, se serait baissé pour ramasser son pinceau tombé), il peint rois, papes et déesses. Le plus frappant est son évolution : avec l'âge, sa touche se libère, se fait large, vibrante, presque abstraite de près — annonçant trois siècles à l'avance la peinture moderne.",
-          "groupe": "École de Venise — la couleur",
+          "groupe": "Venise",
           "bio_sections": [
             {
               "h": "L'enfance : des Dolomites à Venise",
@@ -784,7 +784,7 @@
           "wiki": "Albrecht Dürer",
           "portrait": "Albrecht Dürer (1471-1528), de Nuremberg, est le plus grand artiste de la Renaissance du Nord et le premier à porter l'idéal humaniste italien dans le monde germanique. Génie du dessin et de la gravure, théoricien, il fut aussi le premier artiste à se penser et à se peindre comme un créateur à part entière.",
           "bio_longue": "Albrecht Dürer (1471-1528), de Nuremberg, est l'homme qui fait entrer la Renaissance en Allemagne. Fasciné par l'Italie, il en rapporte la science des proportions et de la perspective, qu'il fusionne avec le génie nordique du détail. Surtout, il est un maître de la gravure : un art reproductible, diffusé en masse à travers l'Europe — ce qui fait de lui le premier artiste véritablement célèbre de son vivant à l'échelle du continent. Dans ses autoportraits, il se représente en personnage noble, presque christique : l'affirmation éclatante de la nouvelle dignité de l'artiste.",
-          "groupe": "Renaissance du Nord — le détail",
+          "groupe": "Renaissance allemande",
           "bio_sections": [
             {
               "h": "L'enfance : fils d'orfèvre à Nuremberg",
@@ -864,7 +864,7 @@
           "dates": "1377-1446",
           "role": "architecte",
           "wiki": "Filippo Brunelleschi",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "Premier Quattrocento (Florence)",
           "portrait": "Filippo Brunelleschi (1377-1446) est l'inventeur de l'architecture de la Renaissance et de la perspective. Orfèvre devenu bâtisseur, il a coiffé Florence d'une coupole qu'on jugeait impossible et donné à l'art occidental l'outil qui allait tout changer : les lois mathématiques de la perspective.",
           "bio_sections": [
             {
@@ -929,7 +929,7 @@
           "dates": "~1395-1455",
           "role": "",
           "wiki": "Fra Angelico",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "Premier Quattrocento (Florence)",
           "portrait": "Fra Angelico (v. 1395-1455) est le moine-peintre de la première Renaissance florentine, celui qui a mis la science nouvelle de l'espace et de la lumière au service d'une foi sereine et lumineuse. Béatifié par l'Église, surnommé « le peintre angélique », il unit la modernité du métier à la pureté de la prière.",
           "bio_sections": [
             {
@@ -986,7 +986,7 @@
           "dates": "~1415-1492",
           "role": "",
           "wiki": "Piero della Francesca",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "Premier Quattrocento (Florence)",
           "portrait": "Piero della Francesca (v. 1415-1492) est le peintre-mathématicien de la Renaissance, le maître d'une peinture d'une perfection géométrique et d'une sérénité silencieuse. Longtemps oublié, il est aujourd'hui adoré : sa lumière claire, ses volumes purs et son calme presque abstrait parlent directement à l'œil moderne.",
           "bio_sections": [
             {
@@ -1059,7 +1059,7 @@
           "dates": "~1431-1506",
           "role": "",
           "wiki": "Andrea Mantegna",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "Renaissance d'Italie du Nord",
           "portrait": "Andrea Mantegna (1431-1506) est le peintre savant de la Renaissance du Nord de l'Italie, possédé par la passion de l'Antiquité romaine et par l'audace de la perspective. Rigoureux, sculptural, archéologue autant qu'artiste, il a porté le raccourci et l'illusion à un degré jamais vu.",
           "bio_sections": [
             {
@@ -1124,7 +1124,7 @@
           "dates": "1444-1514",
           "role": "architecte",
           "wiki": "Donato Bramante",
-          "groupe": "École de Florence & Rome — le dessin",
+          "groupe": "La Haute Renaissance",
           "portrait": "Donato Bramante (1444-1514) est le grand architecte de la Haute Renaissance, celui qui imposa à Rome le retour à la pureté monumentale de l'Antiquité. Du minuscule Tempietto, parfait comme un bijou classique, aux plans gigantesques de la nouvelle basilique Saint-Pierre, il a fixé l'idéal de l'architecture classique.",
           "bio_sections": [
             {
@@ -1181,7 +1181,7 @@
           "dates": "~1430-1516",
           "role": "",
           "wiki": "Giovanni Bellini",
-          "groupe": "École de Venise — la couleur",
+          "groupe": "Renaissance d'Italie du Nord",
           "portrait": "Giovanni Bellini (v. 1430-1516) est le père de l'école vénitienne et le maître qui a appris à Venise à peindre la lumière. Au fil d'une longue carrière, il a transformé les madones et les retables par une douceur atmosphérique nouvelle, formant Giorgione et Titien — toute la gloire vénitienne descend de lui.",
           "bio_sections": [
             {
@@ -1246,7 +1246,7 @@
           "dates": "~1477-1510",
           "role": "",
           "wiki": "Giorgione",
-          "groupe": "École de Venise — la couleur",
+          "groupe": "Renaissance d'Italie du Nord",
           "portrait": "Giorgione (v. 1477-1510) est le plus mystérieux des grands Vénitiens. Mort jeune de la peste, il n'a laissé qu'une poignée d'œuvres sûres — mais il a inventé une peinture nouvelle, où l'atmosphère, la poésie et le rêve comptent plus que le sujet, et marqué à jamais Titien et toute Venise.",
           "bio_sections": [
             {
@@ -1311,7 +1311,7 @@
           "dates": "1528-1588",
           "role": "",
           "wiki": "Paolo Veronese",
-          "groupe": "École de Venise — la couleur",
+          "groupe": "Venise",
           "portrait": "Paolo Veronese (1528-1588) est, avec Titien et le Tintoret, l'un des trois géants de la Venise du XVIe siècle — le peintre du faste, de la lumière argentée et des grands banquets somptueux. Maître de la couleur claire et des architectures grandioses, il a célébré la splendeur de la Sérénissime comme nul autre.",
           "bio_sections": [
             {
@@ -1368,7 +1368,7 @@
           "dates": "~1390-1441",
           "role": "",
           "wiki": "Jan van Eyck",
-          "groupe": "Renaissance du Nord — le détail",
+          "groupe": "Renaissance des Flandres",
           "portrait": "Jan van Eyck (v. 1390-1441) est le génie fondateur de la peinture flamande et l'un des plus grands de tous les temps. Maître inégalé de la peinture à l'huile, il a su rendre le monde visible — la lumière, les matières, le moindre détail — avec une précision et une profondeur que personne n'avait atteintes avant lui.",
           "bio_sections": [
             {
@@ -1425,7 +1425,7 @@
           "dates": "~1400-1464",
           "role": "",
           "wiki": "Rogier van der Weyden",
-          "groupe": "Renaissance du Nord — le détail",
+          "groupe": "Renaissance des Flandres",
           "portrait": "Rogier van der Weyden (v. 1400-1464) est, après Van Eyck, le plus grand maître flamand du XVe siècle — mais là où Van Eyck montre le monde visible, lui montre la douleur de l'âme. Maître de l'émotion religieuse, il a porté l'expression du chagrin et de la compassion à une intensité jamais atteinte.",
           "bio_sections": [
             {
@@ -1482,7 +1482,7 @@
           "dates": "~1450-1516",
           "role": "",
           "wiki": "Hieronymus Bosch",
-          "groupe": "Renaissance du Nord — le détail",
+          "groupe": "Renaissance des Flandres",
           "portrait": "Jérôme Bosch (v. 1450-1516) est le plus énigmatique des peintres flamands : un visionnaire qui a peuplé ses tableaux de monstres, de damnés et de machines infernales, des siècles avant le surréalisme. Derrière ses cauchemars fourmillants se cache une méditation morale sur le péché, la folie et le salut de l'homme.",
           "bio_sections": [
             {
@@ -1539,7 +1539,7 @@
           "dates": "~1497-1543",
           "role": "",
           "wiki": "Hans Holbein the Younger",
-          "groupe": "Renaissance du Nord — le détail",
+          "groupe": "Renaissance allemande",
           "portrait": "Hans Holbein le Jeune (1497-1543) est le plus grand portraitiste de la Renaissance du Nord. D'une précision et d'une intelligence psychologique inégalées, il a fixé pour l'éternité les visages de l'humanisme et de la cour d'Angleterre — Érasme, Thomas More, Henri VIII — avec une vérité saisissante.",
           "bio_sections": [
             {
@@ -1596,7 +1596,7 @@
           "dates": "~1525-1569",
           "role": "",
           "wiki": "Pieter Bruegel the Elder",
-          "groupe": "Renaissance du Nord — le détail",
+          "groupe": "Renaissance des Flandres",
           "portrait": "Pieter Bruegel l'Ancien (v. 1525-1569) est le plus grand peintre flamand du XVIe siècle : celui qui a délaissé les héros et les saints pour la vie des paysans et l'immensité des paysages. Sous l'apparence d'un peintre populaire et truculent se cache un esprit profond, lucide et grave sur la condition humaine.",
           "bio_sections": [
             {
@@ -1685,7 +1685,7 @@
           "dates": "1489-1534",
           "role": "",
           "wiki": "Antonio da Correggio",
-          "groupe": "École de Venise — la couleur",
+          "groupe": "Italie du Nord (Parme)",
           "portrait": "Antonio Allegri, dit Le Corrège (v. 1489-1534), est le génie de Parme, un solitaire qui, loin des grands centres, a inventé l'avenir. Maître de la douceur sensuelle et des coupoles en trompe-l'œil où les figures s'envolent, il annonce, près d'un siècle à l'avance, le Baroque et le Rococo.",
           "bio_sections": [
             {
@@ -1749,6 +1749,109 @@
               "lieu": "Gemäldegalerie, Dresde",
               "wiki": "Holy Night (Correggio)",
               "analyse": "L'Enfant Jésus rayonne d'une lumière surnaturelle qui illumine, dans la nuit, le visage émerveillé de la mère et des bergers. L'un des premiers grands nocturnes : la lumière jaillit de l'Enfant lui-même, effet qui inspirera tout le Baroque."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Andrea del Sarto",
+          "dates": "1486-1530",
+          "role": "« Le peintre sans faute »",
+          "groupe": "La Haute Renaissance",
+          "wiki": "Andrea del Sarto",
+          "portrait": "Andrea del Sarto, le « peintre sans faute » de Florence, allie une perfection technique sereine au sfumato de Léonard — et forme les futurs maniéristes Pontormo et Rosso.",
+          "bio_sections": [
+            {
+              "h": "Origines : le fils du tailleur",
+              "p": "Né à Florence en 1486, fils d'un tailleur (sarto, d'où son surnom), Andrea se forme dans l'atelier florentin et s'impose vite par une maîtrise technique exceptionnelle, à l'ombre des trois géants partis pour Rome."
+            },
+            {
+              "h": "« Senza errori »",
+              "p": "Vasari le surnomme « il pittore senza errori » — le peintre sans faute : son dessin, sa couleur, ses compositions sont d'une perfection impeccable. Mais Vasari y voit aussi une limite : il lui manquerait le feu et l'audace des génies."
+            },
+            {
+              "h": "Sa technique : l'équilibre serein",
+              "p": "Sfumato fondu hérité de Léonard, couleur douce et chaude, compositions pyramidales d'un calme parfait (la Madone des Harpies). Il incarne, à Florence, le versant le plus serein de la Haute Renaissance."
+            },
+            {
+              "h": "Le maître des maniéristes",
+              "p": "Son atelier forme Pontormo et Rosso Fiorentino — les futurs inventeurs du maniérisme (ch. 18). Andrea del Sarto est ainsi le pont entre l'harmonie classique et la crise qui va suivre."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Léonard, Michel-Ange et Raphaël brillent à Rome, Andrea reste le grand maître resté à Florence : la perfection tranquille, sans l'ambition titanesque — ce qui lui valut autant d'admiration que le reproche d'un manque d'audace."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Madone des Harpies",
+              "artiste": "Andrea del Sarto",
+              "annee": "1517",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Madonna of the Harpies",
+              "analyse": "La Vierge debout sur un socle orné de harpies, entourée de saints, dans une composition pyramidale d'un équilibre parfait, baignée d'un sfumato doux. Le chef-d'œuvre du « peintre sans faute » : la Haute Renaissance florentine à son apogée serein."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Fra Bartolomeo",
+          "dates": "v. 1472-1517",
+          "role": "Classicisme dévot",
+          "groupe": "La Haute Renaissance",
+          "wiki": "Fra Bartolomeo",
+          "portrait": "Fra Bartolomeo, moine dominicain de San Marco, unit la ferveur religieuse au classicisme équilibré de la Haute Renaissance, dans un échange fécond avec Raphaël.",
+          "bio_sections": [
+            {
+              "h": "Origines : le couvent de San Marco",
+              "p": "Peintre florentin, il entre comme frère dominicain au couvent de San Marco — celui-là même qu'avait orné Fra Angelico. Il en hérite la vocation de mettre l'art au service de la dévotion."
+            },
+            {
+              "h": "Le déclic : Savonarole",
+              "p": "Bouleversé par les sermons du moine réformateur Savonarole, qui dénonce le luxe et l'art profane, Fra Bartolomeo brûle ses œuvres « mondaines » et se consacre, comme frère, à la seule peinture sacrée."
+            },
+            {
+              "h": "Sa technique : le classicisme grave",
+              "p": "Grandes pales d'autel équilibrées, draperies amples, sfumato, gravité sereine. Il porte le classicisme de la Haute Renaissance vers une spiritualité apaisée et monumentale."
+            },
+            {
+              "h": "L'échange avec Raphaël",
+              "p": "Lors du séjour de Raphaël à Florence, les deux peintres s'influencent : Fra Bartolomeo prend de Raphaël la grâce et la souplesse, Raphaël lui emprunte le sens de la composition monumentale et des grandes draperies."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Il est le maillon entre Fra Angelico (la dévotion du Quattrocento) et l'équilibre de la Haute Renaissance : un classicisme entièrement mis au service de la foi, grave et serein."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Le Sodoma",
+          "dates": "1477-1549",
+          "role": "Diffuseur de la manière de Léonard",
+          "groupe": "La Haute Renaissance",
+          "wiki": "Il Sodoma",
+          "portrait": "Giovanni Antonio Bazzi, dit Le Sodoma, lombard formé près de Léonard, a diffusé le sfumato et la grâce léonardesques à Sienne et à Rome.",
+          "bio_sections": [
+            {
+              "h": "Origines : un Lombard formé près de Léonard",
+              "p": "Né à Verceil en Lombardie, Bazzi se forme dans le sillage de Léonard de Vinci, dont il assimile le sfumato et la douceur. Personnage excentrique et haut en couleur, il porte le sobriquet de « Sodoma »."
+            },
+            {
+              "h": "Sa technique : la grâce léonardesque",
+              "p": "Sfumato fondu, visages doux, élégance des poses : il transpose la manière moderne de Léonard dans une peinture aimable et raffinée."
+            },
+            {
+              "h": "Ses grands cycles",
+              "p": "Il peint les fresques de la vie de saint Benoît au monastère de Monte Oliveto Maggiore, puis, à Rome, à la Villa Farnesina pour le banquier Chigi, les Noces d'Alexandre et Roxane, d'une grâce sensuelle."
+            },
+            {
+              "h": "Son rôle : un passeur",
+              "p": "Le Sodoma diffuse la « manière moderne » de la Haute Renaissance hors des grands foyers, notamment à Sienne, contribuant à répandre les conquêtes de Léonard."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Maître de second rang mais raffiné, il illustre comment le génie des trois grands irrigue, par leurs suiveurs, toute l'Italie de la Renaissance."
             }
           ]
         }
