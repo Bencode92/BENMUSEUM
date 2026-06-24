@@ -5195,5 +5195,25 @@
     "h": 2448,
     "format": "jpg",
     "file": "Giant_spider_strikes_again!.jpg"
+  },
+  "Berthe Morisot": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/Morisot_berthe_photo.jpg",
+    "thumb_w": 564,
+    "thumb_h": 942,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Morisot_berthe_photo.jpg",
+    "w": 564,
+    "h": 942,
+    "format": "jpg",
+    "file": "Morisot_berthe_photo.jpg"
+  },
+  "The Cradle (Morisot)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Berthe_Morisot_008.jpg/1280px-Berthe_Morisot_008.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1287,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Berthe_Morisot_008.jpg",
+    "w": 2024,
+    "h": 2604,
+    "format": "jpg",
+    "file": "Berthe_Morisot_008.jpg"
   }
 }

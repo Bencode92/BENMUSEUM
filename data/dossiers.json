@@ -6963,7 +6963,8 @@
               "wiki": "The Balcony (Manet)",
               "analyse": "Trois figures élégantes sur un balcon aux volets verts éclatants, dont la peintre Berthe Morisot au regard intense. Inspiré de Goya, le tableau juxtapose des présences distantes les unes des autres, dans une atmosphère énigmatique."
             }
-          ]
+          ],
+          "groupe": "Le précurseur"
         },
         {
           "niveau": "★",
@@ -7036,7 +7037,8 @@
               "wiki": "Women in the Garden",
               "analyse": "Grande toile peinte entièrement en plein air (il creusa une tranchée pour atteindre le haut). Des robes claires éclaboussées de soleil et d'ombres colorées sous les arbres : déjà, à 26 ans, toute la quête impressionniste de la lumière naturelle."
             }
-          ]
+          ],
+          "groupe": "Impressionnisme"
         },
         {
           "niveau": "★",
@@ -7101,7 +7103,8 @@
               "wiki": "The Swing (Renoir)",
               "analyse": "Une jeune femme sur une balançoire, dans un jardin où le soleil tombe en taches mauves et dorées à travers les feuilles. L'étude de la lumière tachetée, la « tache solaire », poussée à un raffinement délicat."
             }
-          ]
+          ],
+          "groupe": "Impressionnisme"
         },
         {
           "niveau": "★",
@@ -7158,7 +7161,8 @@
               "wiki": "The Little Dancer of Fourteen Years",
               "analyse": "Sculpture de cire vêtue d'un vrai tutu et d'un ruban : une jeune danseuse, menton levé, mains croisées dans le dos. Le réalisme du costume réel choqua le public. Une vérité du corps adolescent, fragile et fière, sans idéalisation."
             }
-          ]
+          ],
+          "groupe": "Impressionnisme"
         },
         {
           "niveau": "○",
@@ -7214,7 +7218,8 @@
               "wiki": "Avenue de l'Opéra",
               "analyse": "L'avenue parisienne sous un ciel gris d'hiver, perspective fuyante noyée dans la brume et la circulation. Pissarro, vieillissant et la vue fragile, peint depuis sa fenêtre la grande ville moderne avec une justesse atmosphérique remarquable."
             }
-          ]
+          ],
+          "groupe": "Impressionnisme"
         },
         {
           "niveau": "★",
@@ -7287,7 +7292,8 @@
               "wiki": "The Basket of Apples",
               "analyse": "Une nature morte où la table ne se rejoint pas de part et d'autre de la nappe, où les pommes semblent rouler hors de la perspective. Cézanne sacrifie l'exactitude à l'équilibre de l'ensemble : « avec une pomme, je veux étonner Paris. »"
             }
-          ]
+          ],
+          "groupe": "Post-impressionnisme"
         },
         {
           "niveau": "★",
@@ -7376,7 +7382,8 @@
               "wiki": "Wheatfield with Crows",
               "analyse": "Un ciel d'orage bleu nuit pèse sur un champ de blé d'or que traversent des corbeaux noirs et trois chemins qui ne mènent nulle part. Peinte peu avant sa mort, elle dégage une beauté et une angoisse extrêmes — un sommet de l'expression par la couleur."
             }
-          ]
+          ],
+          "groupe": "Post-impressionnisme"
         },
         {
           "niveau": "★",
@@ -7449,7 +7456,8 @@
               "wiki": "Arearea",
               "analyse": "Sous des arbres, deux Tahitiennes et un chien rouge dans un paysage d'aplats verts, jaunes et orangés ; au fond, une idole et des danseuses. Le chien rouge résume sa liberté : la couleur n'obéit qu'à l'harmonie et au rêve, jamais au réel."
             }
-          ]
+          ],
+          "groupe": "Post-impressionnisme"
         },
         {
           "niveau": "○",
@@ -7521,7 +7529,8 @@
               "wiki": "Le Chahut",
               "analyse": "Des danseuses de cancan, jambes levées en rythme, sous les lumières d'un cabaret. Lignes ascendantes, sourires relevés : Seurat applique sa théorie de l'expression joyeuse par les lignes montantes. Le spectacle moderne traité comme une démonstration."
             }
-          ]
+          ],
+          "groupe": "Néo-impressionnisme"
         },
         {
           "niveau": "○",
@@ -7585,7 +7594,8 @@
               "wiki": "Jane Avril (Toulouse-Lautrec)",
               "analyse": "Affiche pour la danseuse Jane Avril, saisie dans un déhanché, le manche d'une contrebasse encadrant la scène d'une trouvaille graphique audacieuse. L'élégance nerveuse et l'invention de cadrage qui font de Lautrec un maître de l'affiche."
             }
-          ]
+          ],
+          "groupe": "Post-impressionnisme"
         },
         {
           "niveau": "★",
@@ -7657,6 +7667,52 @@
               "lieu": "Musée Rodin, Paris",
               "wiki": "The Gates of Hell",
               "analyse": "Portail monumental inspiré de Dante, jamais achevé : un fourmillement de plus de 200 corps tourmentés d'où émergent Le Penseur et Le Baiser. Le grand laboratoire de toute l'œuvre de Rodin, vision grandiose et désespérée de la condition humaine."
+            }
+          ],
+          "groupe": "Sculpture"
+        },
+        {
+          "niveau": "★",
+          "nom": "Berthe Morisot",
+          "dates": "1841-1895",
+          "role": "Impressionnisme",
+          "groupe": "Impressionnisme",
+          "wiki": "Berthe Morisot",
+          "portrait": "Berthe Morisot est l'une des fondatrices de l'impressionnisme — au cœur du noyau dur, pas en marge — et la virtuose d'une touche libre, presque esquissée, qui peint l'intime.",
+          "bio_sections": [
+            {
+              "h": "Les origines : une bourgeoise cultivée",
+              "p": "Née en 1841 dans une famille bourgeoise et cultivée, Berthe Morisot reçoit, comme il se doit pour une jeune fille de son rang, des leçons de dessin — mais elle en fait une vocation. Élève et copiste au Louvre, elle est conseillée par Corot, le maître du paysage, qui lui transmet le goût du plein air et de la lumière."
+            },
+            {
+              "h": "Le déclic : la rencontre de Manet",
+              "p": "Vers 1868, elle rencontre Édouard Manet, qui la peint de nombreuses fois (Le Balcon). Elle épousera son frère, Eugène Manet. Loin d'être une simple muse, elle entre dans le cercle des futurs impressionnistes dont elle devient une figure centrale, tenant un salon où se croise toute l'avant-garde."
+            },
+            {
+              "h": "Sa technique : la grâce de l'inachevé",
+              "p": "Morisot pousse la touche impressionniste vers une liberté extrême : coups de pinceau rapides, esquissés, qui laissent respirer la toile et le blanc du fond. Cette virtuosité de l'inachevé, où la peinture semble à peine posée, est admirée de ses pairs comme l'une des plus audacieuses du groupe."
+            },
+            {
+              "h": "Son monde : l'intime et le féminin",
+              "p": "Femme de la bonne société, elle n'a pas accès aux cafés, aux coulisses ni aux lieux que peignent ses amis hommes. Elle fait de cette limite une force : elle peint le monde qui lui est ouvert — intérieurs, jardins, femmes à leur toilette, mères et enfants, la maternité — avec une intimité et une fraîcheur inédites."
+            },
+            {
+              "h": "Pourquoi elle compte, selon les experts",
+              "p": "Morisot expose à sept des huit expositions impressionnistes — bien plus que Manet ou Cézanne. Les historiens la replacent aujourd'hui au cœur fondateur du mouvement, contre le récit longtemps exclusivement masculin de l'histoire de l'art. Avec l'Américaine Mary Cassatt, elle prouve que les femmes furent dans le noyau dur de l'avant-garde."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Là où Monet dissout le paysage et Degas saisit le mouvement public, Morisot capte l'intimité domestique et la lumière douce des intérieurs, d'une touche plus libre et aérienne que presque tous ses pairs. Longtemps minorée parce que femme, elle est redécouverte comme l'une des plus grandes de sa génération."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Berceau",
+              "artiste": "Berthe Morisot",
+              "annee": "1872",
+              "lieu": "Musée d'Orsay, Paris",
+              "wiki": "The Cradle (Morisot)",
+              "analyse": "Une jeune mère (la sœur de l'artiste) veille son nourrisson endormi derrière un voile de berceau qu'elle effleure. Touche légère, blancs vaporeux, tendresse contenue : le sujet le plus intime — la maternité — élevé au rang de grande peinture. L'œuvre la plus célèbre de Morisot."
             }
           ]
         }
@@ -7759,6 +7815,14 @@
           "p": "Deux innovations rendent l'impressionnisme possible. La peinture en tube (vers 1840) libère le peintre de l'atelier : on peut enfin peindre dehors, sur le motif. Et l'arrivée des estampes japonaises bouleverse la composition (cadrages audacieux, aplats). L'idée centrale : on ne peint plus l'objet qu'on connaît, mais l'impression visuelle d'un instant — la lumière qui change, les reflets, l'atmosphère. La touche devient visible, fragmentée ; les ombres se colorent ; le sujet (une gare, une meule, une danseuse) n'est qu'un prétexte à capter la lumière."
         },
         {
+          "h": "Le terreau : Paris, la photo, le Japon, le marché",
+          "p": "L'impressionnisme naît d'un changement de vie, pas seulement de goût. Le Paris d'Haussmann offre boulevards, gares et loisirs à peindre ; le train et le tube de peinture en étain rendent le plein air possible (« sans le tube, pas d'impressionnisme », disait Renoir). La photographie libère la peinture de l'imitation ; l'estampe japonaise lui donne ses cadrages coupés et ses aplats. Et comme le Salon officiel les refuse, ces peintres inventent un circuit parallèle, porté par le marchand Durand-Ruel — qui les sauvera en exportant l'impressionnisme aux États-Unis."
+        },
+        {
+          "h": "La bande : cafés, expositions, marchands",
+          "p": "Avant d'être une doctrine, l'impressionnisme est une bande d'amis. On se retrouve au café Guerbois autour de Manet et de l'écrivain Zola — le « groupe des Batignolles ». En 1869, Monet et Renoir, chevalets côte à côte à La Grenouillère, inventent la touche divisée. En 1874, faute de Salon, ils exposent chez le photographe Nadar : huit expositions suivront jusqu'en 1886. Pissarro, seul, participe aux huit et fait le lien entre les générations ; Caillebotte, peintre et mécène, achète ses amis pour les faire vivre et léguera sa collection à l'État."
+        },
+        {
           "h": "Manet, le père scandaleux",
           "p": "Avant même le groupe, Édouard Manet ouvre la brèche. Son Déjeuner sur l'herbe (une femme nue déjeunant avec des hommes habillés) puis son Olympia (une prostituée qui fixe le spectateur droit dans les yeux) font scandale au Salon. Non pour le nu — banal en peinture — mais parce qu'il refuse de l'ennoblir en déesse : c'est une femme d'aujourd'hui, peinte en aplats francs, qui assume d'être de la peinture. Manet ne se joindra jamais aux expositions impressionnistes, mais il en est le père : il a fait sauter le verrou."
         },
@@ -7774,6 +7838,13 @@
           "h": "Pourquoi ils sont les pères de l'art moderne",
           "p": "En une génération, l'art a basculé. Les impressionnistes ont prouvé qu'on pouvait peindre librement, hors de l'Académie, et vendre directement à des marchands et collectionneurs — un nouveau marché. Les post-impressionnistes ont montré que la peinture pouvait servir la structure, l'émotion ou le symbole plutôt que l'imitation. Tout le XXe siècle — cubisme, fauvisme, expressionnisme, abstraction — sort de ces quelques ateliers parisiens de la fin du XIXe."
         }
+      ],
+      "mouvements": [
+        "Impressionnisme : peindre la sensation lumineuse en plein air, par touches de couleur pure et ombres colorées (Monet, Renoir, Pissarro, Morisot, Degas).",
+        "Néo-impressionnisme / pointillisme : rationaliser la couleur en points purs que l'œil recompose, selon les lois optiques (Seurat, Signac).",
+        "Post-impressionnisme : dépasser la sensation — la STRUCTURE (Cézanne → cubisme), l'ÉMOTION (Van Gogh → expressionnisme), le SYMBOLE (Gauguin → fauvisme/Nabis).",
+        "École de Pont-Aven & Nabis : aplats de couleur cernés et couleur symbolique (Gauguin, Bernard, Sérusier → Bonnard, Vuillard, Denis).",
+        "Vers l'affiche et la sculpture moderne : Toulouse-Lautrec (Montmartre, la lithographie) et Rodin (le mouvement rendu au marbre)."
       ]
     },
     {
