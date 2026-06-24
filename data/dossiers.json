@@ -11927,7 +11927,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où l'abstraction européenne composait des formes, Pollock supprime la forme et le sujet pour ne garder que le geste et l'énergie. Mythe de l'artiste maudit (il meurt à 44 ans dans un accident de voiture, ivre), il incarne l'Amérique d'après-guerre : libre, brute, démesurée."
             }
-          ]
+          ],
+          "groupe": "Expressionnisme abstrait"
         },
         {
           "niveau": "★",
@@ -11961,7 +11962,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où Pollock met l'énergie et le geste, Rothko met le silence, la lenteur, la contemplation. Deux faces de l'expressionnisme abstrait : l'action et la méditation. Rothko a fait de la couleur pure un véhicule du tragique et du sacré, sans aucune image."
             }
-          ]
+          ],
+          "groupe": "Color field"
         },
         {
           "niveau": "○",
@@ -11995,7 +11997,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où Pollock supprime la figure et Rothko la couleur-émotion, de Kooning garde la tension entre le corps et l'abstraction. Atteint d'Alzheimer à la fin de sa vie, il continua de peindre des toiles étrangement épurées et sereines."
             }
-          ]
+          ],
+          "groupe": "Expressionnisme abstrait"
         },
         {
           "niveau": "★",
@@ -12029,7 +12032,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où l'expressionnisme abstrait exaltait le geste unique et l'âme de l'artiste, Warhol fait l'inverse : pas de geste, pas d'âme, la reproduction mécanique et froide. Figure centrale du Pop Art, il a fait de l'art un miroir glaçant et lucide de la société de consommation."
             }
-          ]
+          ],
+          "groupe": "Pop Art"
         },
         {
           "niveau": "★",
@@ -12063,7 +12067,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où Warhol sérigraphie mécaniquement, Lichtenstein peint tout à la main en imitant le mécanique — paradoxe qui fait son sel. Avec lui, le Pop Art atteint une perfection graphique froide et immédiatement reconnaissable."
             }
-          ]
+          ],
+          "groupe": "Pop Art"
         },
         {
           "niveau": "★",
@@ -12097,7 +12102,8 @@
               "h": "Ce qui le différencie",
               "p": "Seul ou presque à tenir la figuration quand tous abstraient, Bacon est l'un des plus grands peintres du corps et de l'angoisse du XXe siècle. Sa violence maîtrisée et sa matière magnifique en font un cas à part, sans école ni suiveurs."
             }
-          ]
+          ],
+          "groupe": "Nouvelle figuration"
         },
         {
           "niveau": "★",
@@ -12131,7 +12137,8 @@
               "h": "Ce qui le différencie",
               "p": "Premier peintre noir star de l'histoire de l'art occidental, Basquiat a fait entrer le graffiti, le jazz et la question raciale dans la grande peinture. Sa fulgurance et sa brièveté en font une légende, à la croisée de la rue, de l'art savant et du mythe."
             }
-          ]
+          ],
+          "groupe": "Néo-expressionnisme"
         },
         {
           "niveau": "★",
@@ -12165,7 +12172,8 @@
               "h": "Ce qui le différencie",
               "p": "Là où l'art contemporain privilégie l'idée et la provocation, Hockney défend la peinture, le dessin, la figuration et la joie. Toujours actif et inventif à plus de 80 ans, il est la preuve vivante que la peinture figurative reste un terrain d'invention."
             }
-          ]
+          ],
+          "groupe": "Nouvelle figuration"
         },
         {
           "niveau": "★",
@@ -12199,7 +12207,8 @@
               "h": "Ce qui le différencie",
               "p": "Adulé ou détesté, Koons divise comme peu d'artistes : génie de notre époque du désir et du marketing, ou triomphe du vide et de l'argent ? Il incarne, héritier extrême de Duchamp et Warhol, la question contemporaine : où s'arrête l'art, où commence le produit ?"
             }
-          ]
+          ],
+          "groupe": "Art-monde"
         },
         {
           "niveau": "★",
@@ -12233,7 +12242,8 @@
               "h": "Ce qui le différencie",
               "p": "Héritier de la vanité baroque et du readymade, Hirst a fait de la mort un spectacle contemporain et un produit de luxe. Adulé puis contesté, il reste l'image même de l'art-marché flamboyant des années 1990-2000."
             }
-          ]
+          ],
+          "groupe": "Art-monde"
         },
         {
           "niveau": "★",
@@ -12267,7 +12277,8 @@
               "h": "Ce qui la différencie",
               "p": "Femme asiatique pionnière dans un monde de l'art occidental et masculin, Kusama a fait de sa maladie mentale la source d'un art universellement aimé. Ses citrouilles à pois et ses chambres à l'infini attirent des foules immenses : l'art comme immersion totale."
             }
-          ]
+          ],
+          "groupe": "Art-monde"
         },
         {
           "niveau": "★",
@@ -12311,7 +12322,8 @@
               "wiki": "Sunflower Seeds (artwork)",
               "analyse": "Cent millions de graines de tournesol en porcelaine, peintes une à une à la main par des centaines d'artisans, étalées en un vaste tapis gris à la Tate Modern. De loin une masse uniforme, de près chaque graine est unique : l'individu noyé dans la multitude, le travail anonyme, la Chine de Mao. L'installation comme pensée politique."
             }
-          ]
+          ],
+          "groupe": "Art-monde"
         },
         {
           "niveau": "★",
@@ -12344,6 +12356,604 @@
             {
               "h": "Ce qui le différencie",
               "p": "Anonyme quand les autres cherchent la gloire, gratuit et illégal quand l'art se vend des millions, drôle et politique, Banksy a fait du street art un phénomène mondial et brouillé toutes les frontières : qui est l'artiste, où est l'œuvre, à qui appartient-elle ?"
+            }
+          ],
+          "groupe": "Art-monde"
+        },
+        {
+          "niveau": "★",
+          "nom": "Barnett Newman",
+          "dates": "1905-1970",
+          "role": "Color field",
+          "groupe": "Color field",
+          "wiki": "Barnett Newman",
+          "portrait": "Barnett Newman réduit la peinture à de vastes aplats de couleur traversés d'une fine bande verticale, le « zip » : le sublime atteint par la presque-absence.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "New-yorkais cultivé, théoricien autant que peintre, Newman cherche après 1945 un art du sublime, dépouillé de toute anecdote. Il trouve sa formule en 1948 avec Onement I : un champ de couleur fendu par une seule ligne verticale."
+            },
+            {
+              "h": "Sa technique : le « zip »",
+              "p": "De très grands aplats de couleur unie, traversés d'une ou plusieurs bandes verticales (les « zips ») qui structurent l'espace et appellent la présence du spectateur, debout, face à l'immensité colorée."
+            },
+            {
+              "h": "Son message : le sublime par la réduction",
+              "p": "Pour Newman, l'art doit provoquer une expérience presque sacrée du « ici et maintenant ». Vir Heroicus Sublimis : un mur de rouge où le spectateur, minuscule, fait l'expérience de l'absolu."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Avec Rothko, il fonde le color field. Sa radicalité (un champ + une ligne) influence directement le minimalisme. Là où Pollock met le geste, Newman met le silence et la verticale."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Helen Frankenthaler",
+          "dates": "1928-2011",
+          "role": "Color field — soak-stain",
+          "groupe": "Color field",
+          "wiki": "Helen Frankenthaler",
+          "portrait": "Helen Frankenthaler invente le « soak-stain » : verser la couleur diluée sur la toile brute, qui l'absorbe comme une teinture. Une femme au cœur de l'innovation de l'époque.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Issue de la bourgeoisie new-yorkaise, formée jeune, elle est marquée par Pollock (la toile au sol) mais cherche autre chose que le geste violent : la fluidité de la couleur."
+            },
+            {
+              "h": "Sa technique : le soak-stain",
+              "p": "Dès 1952 (Mountains and Sea), elle verse de la peinture très diluée sur la toile non préparée, qui la boit comme une aquarelle géante. La couleur n'est plus posée dessus : elle imprègne le tissu, en nappes translucides."
+            },
+            {
+              "h": "Son apport : le pont",
+              "p": "Son invention fait le lien entre l'expressionnisme abstrait gestuel et l'abstraction « post-painterly » de la couleur pure (Morris Louis, Kenneth Noland s'en emparent aussitôt)."
+            },
+            {
+              "h": "Pourquoi elle compte / différence",
+              "p": "Preuve, contre le récit masculin, qu'une femme est au cœur de l'innovation technique des années 1950. Sa douceur fluide contraste avec la violence de Pollock ou de Kooning."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Robert Rauschenberg",
+          "dates": "1925-2008",
+          "role": "Néo-dada — Combines",
+          "groupe": "Néo-dada",
+          "wiki": "Robert Rauschenberg",
+          "portrait": "Robert Rauschenberg fait entrer le monde réel et trivial dans l'art : ses « Combines » hybrides mêlent peinture et objets (pneu, lit, chèvre empaillée). Héritier de Duchamp, pont vers le Pop.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Formé au Black Mountain College (auprès de Josef Albers, près du compositeur John Cage), Rauschenberg réagit contre la grandiloquence de l'expressionnisme abstrait : il veut ramener la vie ordinaire dans l'art."
+            },
+            {
+              "h": "Sa technique : les Combines",
+              "p": "Il invente le tableau-objet : des toiles où s'accrochent des choses réelles — un pneu autour d'une chèvre empaillée (Monogram), un lit, des photos, des déchets urbains. « Je travaille dans l'écart entre l'art et la vie. »"
+            },
+            {
+              "h": "Le geste-manifeste",
+              "p": "En 1953, il efface un dessin de De Kooning (Erased de Kooning Drawing) : effacer devient un acte créateur — pur geste duchampien sur ce qu'est l'art."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Lancé par le marchand Leo Castelli, il est la charnière entre expressionnisme abstrait et Pop Art. Sa liberté à tout intégrer ouvre la voie à l'installation et à l'assemblage contemporains."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Jasper Johns",
+          "dates": "1930-",
+          "role": "Néo-dada",
+          "groupe": "Néo-dada",
+          "wiki": "Jasper Johns",
+          "portrait": "Jasper Johns peint des drapeaux, cibles et chiffres — des images si banales et codées qu'elles brouillent la frontière entre l'objet et sa représentation.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Proche de Rauschenberg dans le New York des années 1950, Johns choisit des images « que l'esprit connaît déjà » : le drapeau américain, la cible, les chiffres. Un drapeau peint est-il une image de drapeau, ou un drapeau ?"
+            },
+            {
+              "h": "Sa technique : l'encaustique",
+              "p": "Il peint à l'encaustique (cire pigmentée), qui fige chaque coup de pinceau dans une surface précieuse et tactile : l'image la plus banale devient objet d'attention minutieuse."
+            },
+            {
+              "h": "Son message : objet ou image ?",
+              "p": "En choisissant des signes plats et familiers, Johns interroge la nature même de la représentation. Ni abstrait ni vraiment figuratif : il peint des « choses » plus que des sujets."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Avec Rauschenberg, il ouvre la porte au Pop et au conceptuel. Sa réflexion froide sur le signe en fait l'un des artistes les plus influents et les plus chers de l'après-guerre."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Richard Hamilton",
+          "dates": "1922-2011",
+          "role": "Pop Art (britannique)",
+          "groupe": "Pop Art",
+          "wiki": "Richard Hamilton (artist)",
+          "portrait": "Richard Hamilton est le père du Pop Art britannique : il en donne la définition et le collage-manifeste dès 1956, avant l'explosion américaine.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "À Londres, au sein de l'Independent Group, Hamilton analyse la culture de masse américaine (pub, BD, design) qui fascine l'Europe d'après-guerre. Il en fait le sujet d'un art nouveau."
+            },
+            {
+              "h": "Le geste fondateur (1956)",
+              "p": "Son collage Just what is it that makes today's homes so different…? réunit un culturiste, une pin-up, une télé, un aspirateur, une sucette « POP » : l'intérieur moderne saturé d'images de consommation. Le Pop est défini là."
+            },
+            {
+              "h": "Sa définition du pop",
+              "p": "Hamilton liste les qualités du pop : « populaire, jetable, bon marché, produit en série, jeune, spirituel, sexy, gadget, glamour, big business ». Un programme avant l'œuvre."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Il précède Warhol de plusieurs années et théorise le mouvement. Plus analytique et ironique que ses cadets américains, il est la racine européenne du Pop."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Claes Oldenburg",
+          "dates": "1929-2022",
+          "role": "Pop Art — la sculpture molle",
+          "groupe": "Pop Art",
+          "wiki": "Claes Oldenburg",
+          "portrait": "Claes Oldenburg agrandit les objets du quotidien à une échelle monumentale et les rend « mous » : le banal devient absurde, drôle et étrange.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Suédo-américain, il participe aux happenings du New York des années 1960 et ouvre The Store, où il vend des répliques d'objets ordinaires en plâtre peint : la consommation devient art."
+            },
+            {
+              "h": "Sa technique : le mou et le géant",
+              "p": "Il fabrique des objets en vinyle ou tissu rembourré qui s'affaissent (un hamburger mou, une batterie molle) et, avec Coosje van Bruggen, des sculptures publiques géantes (une pince à linge de 14 m, une cuillère-cerise)."
+            },
+            {
+              "h": "Son message : l'humour du quotidien",
+              "p": "Changer l'échelle et la matière d'un objet banal le rend soudain monumental, comique, poétique. Oldenburg célèbre et moque la société d'abondance."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Il fait passer le Pop dans la sculpture et l'espace public. Sa fantaisie ludique contraste avec la froideur de Warhol."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Donald Judd",
+          "dates": "1928-1994",
+          "role": "Minimalisme",
+          "groupe": "Minimalisme",
+          "wiki": "Donald Judd",
+          "portrait": "Donald Judd, théoricien du minimalisme, crée des « objets spécifiques » : boîtes métalliques simples, alignées, sans illusion ni émotion. « Ce que vous voyez est ce que vous voyez. »",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Peintre puis critique d'art à New York, Judd rejette autant l'illusion de la peinture que la rhétorique de l'expressionnisme abstrait. Il veut des objets réels, dans l'espace réel."
+            },
+            {
+              "h": "Sa technique : les « specific objects »",
+              "p": "Des volumes industriels (acier, cuivre, plexiglas coloré), souvent en série régulière, fabriqués en usine selon ses plans. Ni peinture ni sculpture : un troisième terme, l'objet pur."
+            },
+            {
+              "h": "Son message : aucune illusion",
+              "p": "Pas de symbole, pas de composition, pas de main de l'artiste : la forme, le matériau, l'intervalle, et la relation au lieu. À Marfa (Texas), il installe ses œuvres en permanence dans le désert."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Figure centrale du minimalisme, héritier de Mondrian et du Bauhaus. Sa radicalité de l'objet mène logiquement à l'art conceptuel."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Dan Flavin",
+          "dates": "1933-1996",
+          "role": "Minimalisme — la lumière",
+          "groupe": "Minimalisme",
+          "wiki": "Dan Flavin",
+          "portrait": "Dan Flavin fait de simples tubes fluorescents du commerce des œuvres d'art : la lumière colorée elle-même devient sculpture et baigne l'espace.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "New-yorkais, il a l'idée d'utiliser des tubes néon industriels standard, tels quels, comme matière artistique — un readymade lumineux, dans l'esprit de Duchamp."
+            },
+            {
+              "h": "Sa technique : le néon",
+              "p": "Il dispose des tubes fluorescents de couleurs et de longueurs standard dans les coins, les couloirs, le long des murs. La lumière déborde, colore l'espace et le corps du spectateur."
+            },
+            {
+              "h": "Son message : la lumière comme matière",
+              "p": "L'œuvre n'est pas l'objet (le tube) mais la lumière qu'il diffuse et l'espace qu'elle transforme. Immatériel et pourtant industriel."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Il ouvre l'art à la lumière comme médium (jusqu'à Turrell). Minimaliste par l'objet, il est aussi un poète de l'espace baigné de couleur."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Joseph Kosuth",
+          "dates": "1945-",
+          "role": "Art conceptuel",
+          "groupe": "Art conceptuel",
+          "wiki": "Joseph Kosuth",
+          "portrait": "Joseph Kosuth incarne l'art conceptuel : ce qui compte n'est ni l'objet ni le faire, mais l'idée. Son œuvre interroge frontalement la définition de l'art.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Théoricien autant qu'artiste (Art After Philosophy, 1969), Kosuth pousse à son terme la ligne Duchamp : si Fontaine a fait de la désignation un acte d'art, alors l'art est affaire d'idée et de définition."
+            },
+            {
+              "h": "Le geste : One and Three Chairs (1965)",
+              "p": "Il présente une vraie chaise, sa photographie grandeur nature, et la définition « chaise » du dictionnaire. Trois formes du même concept. La question : laquelle est l'œuvre ? Réponse : l'idée de chaise."
+            },
+            {
+              "h": "Son médium : le langage",
+              "p": "Beaucoup de ses œuvres sont des textes, des définitions au néon, des citations : l'art devient pensée et langage, dématérialisé."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Il dématérialise l'objet d'art et fait de l'interrogation sur l'art le sujet de l'art. L'aboutissement le plus pur de l'héritage Duchamp."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Sol LeWitt",
+          "dates": "1928-2007",
+          "role": "Art conceptuel & minimalisme",
+          "groupe": "Art conceptuel",
+          "wiki": "Sol LeWitt",
+          "portrait": "Sol LeWitt sépare la conception de l'exécution : il vend des instructions que d'autres réalisent. « L'idée devient une machine qui fait l'art. »",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "À la croisée du minimalisme et du conceptuel, LeWitt veut un art où la décision est dans l'idée, pas dans la main. La réalisation peut être déléguée."
+            },
+            {
+              "h": "Sa technique : les Wall Drawings",
+              "p": "Il rédige des protocoles (« tracer 10 000 lignes droites de 25 cm dans tel carré ») que des assistants exécutent sur les murs des musées. L'œuvre, ce sont les instructions ; le dessin mural en est une réalisation, effaçable et reproductible."
+            },
+            {
+              "h": "Son message : concept = œuvre",
+              "p": "« Dans l'art conceptuel, l'idée ou le concept est l'aspect le plus important de l'œuvre. » L'artiste ne touche pas forcément l'objet final."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Il radicalise l'idée d'auteur : séparer l'invention de la fabrication. Immense influence sur tout l'art conceptuel et l'installation."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Robert Smithson",
+          "dates": "1938-1973",
+          "role": "Land art",
+          "groupe": "Land art",
+          "wiki": "Robert Smithson",
+          "portrait": "Robert Smithson, pionnier du Land art, sort l'art du musée pour le sculpter à même le paysage : Spiral Jetty, jetée en spirale soumise à l'érosion et au temps.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Dans le New York conceptuel des années 1960, Smithson veut un art hors de la galerie et du marché, inscrit dans la nature et la durée géologique."
+            },
+            {
+              "h": "Le geste : Spiral Jetty (1970)",
+              "p": "Avec des bulldozers, il construit dans le Grand Lac Salé de l'Utah une jetée en spirale de 460 mètres, faite de boue, de sel et de roche. Tantôt émergée, tantôt submergée, elle change avec le niveau de l'eau."
+            },
+            {
+              "h": "Son message : l'œuvre et le temps",
+              "p": "L'œuvre n'est pas un objet fini mais un processus : l'érosion, le sel, le niveau du lac la transforment. Smithson introduit le temps géologique et l'entropie dans l'art."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Père du Land art, il fait du paysage lui-même le médium. Mort jeune dans un accident d'avion en survolant un de ses sites. Spiral Jetty est une icône de l'art hors-les-murs."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Spiral Jetty",
+              "artiste": "Robert Smithson",
+              "annee": "1970",
+              "lieu": "Grand Lac Salé, Utah",
+              "wiki": "Spiral Jetty",
+              "analyse": "Une jetée en spirale de 460 m, faite de boue, de sel et de basalte, construite à même le Grand Lac Salé. Tantôt visible, tantôt engloutie selon le niveau de l'eau, elle inscrit l'œuvre dans le temps géologique et l'érosion. Le manifeste du Land art."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Christo et Jeanne-Claude",
+          "dates": "1935-2020 / 1935-2009",
+          "role": "Empaquetage / installation",
+          "groupe": "Land art",
+          "wiki": "Christo and Jeanne-Claude",
+          "portrait": "Christo et Jeanne-Claude empaquettent monuments et paysages — le Pont-Neuf, le Reichstag, des îles, l'Arc de Triomphe — en œuvres éphémères, monumentales et autofinancées.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Christo, réfugié bulgare, et sa femme française Jeanne-Claude conçoivent ensemble des projets gigantesques. Idée : voiler un lieu familier pour le faire re-voir, le temps de quelques jours."
+            },
+            {
+              "h": "Leur technique : voiler le monumental",
+              "p": "Des kilomètres de tissu et de cordes enveloppent un monument ou tracent un paysage (Surrounded Islands en rose, The Gates à Central Park). Œuvres temporaires : montées, vues quelques jours, puis démontées et recyclées."
+            },
+            {
+              "h": "Leur principe : indépendance totale",
+              "p": "Ils refusent tout sponsor : ils financent leurs projets par la vente des dessins préparatoires de Christo. L'œuvre n'appartient à personne et ne se vend pas — seul le souvenir reste."
+            },
+            {
+              "h": "Pourquoi ils comptent / différence",
+              "p": "Ils réconcilient l'art le plus monumental avec l'éphémère et le populaire (des millions de visiteurs gratuits). L'Arc de Triomphe empaqueté (2021) fut réalisé après leur mort, selon leurs plans."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Reichstag empaqueté",
+              "artiste": "Christo et Jeanne-Claude",
+              "annee": "1995",
+              "lieu": "Berlin",
+              "wiki": "Wrapped Reichstag",
+              "analyse": "Le Parlement allemand entièrement enveloppé de 100 000 m² de tissu argenté pendant deux semaines, vu par cinq millions de personnes. Voiler un monument chargé d'histoire pour le faire re-voir, puis tout démonter : l'art monumental et éphémère."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Joseph Beuys",
+          "dates": "1921-1986",
+          "role": "Fluxus / sculpture sociale",
+          "groupe": "Performance / Fluxus",
+          "wiki": "Joseph Beuys",
+          "portrait": "Joseph Beuys, figure de Fluxus, fait de la performance et de l'idée que « tout homme est un artiste » un art destiné à transformer la société : la « sculpture sociale ».",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Allemand marqué par la guerre (un mythe personnel : sauvé par des nomades tatars, enveloppé de feutre et de graisse — d'où ses matériaux). Il veut un art qui guérisse et transforme la société."
+            },
+            {
+              "h": "Sa technique : la performance chamanique",
+              "p": "Comment expliquer les tableaux à un lièvre mort (1965) : le visage couvert de miel et d'or, il murmure à un lièvre mort. Le feutre, la graisse, le miel : des matières chargées de sens, de chaleur et de soin."
+            },
+            {
+              "h": "Son message : la sculpture sociale",
+              "p": "« Tout homme est un artiste » : chacun peut, par sa créativité, façonner la société comme une sculpture. Beuys plante 7 000 chênes (Documenta, 1982), milite, enseigne — l'art déborde dans la vie et la politique."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Il élargit l'art à l'action sociale et politique, et fait de l'artiste un éveilleur. Figure la plus influente de l'art allemand d'après-guerre."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Marina Abramović",
+          "dates": "1946-",
+          "role": "Body art / performance",
+          "groupe": "Performance / Fluxus",
+          "wiki": "Marina Abramović",
+          "portrait": "Marina Abramović, « grand-mère de la performance », met son propre corps à l'épreuve — douleur, endurance, présence — pour faire de la présence vivante une œuvre.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Née en Serbie (Yougoslavie) dans une famille rigide, Abramović fait du corps son médium dès les années 1970 : elle teste les limites physiques et psychiques de l'artiste et du public."
+            },
+            {
+              "h": "Sa technique : le corps à la limite",
+              "p": "Rhythm 0 (1974) : elle s'offre passive avec 72 objets (dont une arme chargée), laissant le public agir sur elle — jusqu'au danger. Avec son compagnon Ulay, performances de tension et d'endurance."
+            },
+            {
+              "h": "Le geste : The Artist Is Present (2010)",
+              "p": "Au MoMA, assise immobile et silencieuse des semaines durant, elle fixe tour à tour chaque visiteur qui s'assoit en face. La simple présence partagée devient l'œuvre — beaucoup pleurent."
+            },
+            {
+              "h": "Pourquoi elle compte / différence",
+              "p": "Elle a fait de la performance un art majeur et durable, et de la présence (le temps, le corps, le regard) une matière. Figure mondiale de l'art immatériel."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Lucian Freud",
+          "dates": "1922-2011",
+          "role": "Nouvelle figuration",
+          "groupe": "Nouvelle figuration",
+          "wiki": "Lucian Freud",
+          "portrait": "Lucian Freud, petit-fils de Sigmund, peint des portraits et des nus à la chair épaisse, impitoyables : la présence physique brute, à contre-courant de l'abstraction.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Né à Berlin, petit-fils du fondateur de la psychanalyse, il fuit le nazisme et s'installe à Londres. Ami de Bacon, il choisit, comme lui, de rester fidèle à la figure quand tout va vers l'abstraction."
+            },
+            {
+              "h": "Sa technique : la chair comme matière",
+              "p": "Empâtements lents, épais, presque sculptés ; longues séances de pose. Il peint la peau, les plis, les veines avec une crudité sans flatterie — le corps comme chair vivante et mortelle."
+            },
+            {
+              "h": "Son message : la vérité du corps",
+              "p": "Pas d'idéalisation, pas de psychologie facile : la présence physique brute du modèle, scrutée des heures durant. Ses nus (dont ceux de la performeuse Sue Tilley) sont d'une honnêteté implacable."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Avec Bacon, il maintient la grande peinture figurative au XXe siècle. Là où Bacon déforme et hurle, Freud observe et pèse la chair. L'un des plus grands portraitistes du siècle."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Anselm Kiefer",
+          "dates": "1945-",
+          "role": "Néo-expressionnisme",
+          "groupe": "Néo-expressionnisme",
+          "wiki": "Anselm Kiefer",
+          "portrait": "Anselm Kiefer affronte le passé nazi et la mémoire allemande dans d'immenses toiles de plomb, de paille, de cendre et de terre : la peinture comme travail de deuil. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Né en Allemagne dans les ruines de 1945, Kiefer fait de l'histoire allemande refoulée — le nazisme, la Shoah, les mythes germaniques — son sujet, à rebours d'une société qui veut oublier."
+            },
+            {
+              "h": "Sa technique : la matière comme mémoire",
+              "p": "Toiles colossales chargées de plomb, paille, cendre, sable, plantes séchées, photographies brûlées. La matière même porte le poids du temps, de la destruction et du deuil."
+            },
+            {
+              "h": "Son message : regarder l'histoire en face",
+              "p": "Paysages calcinés, champs labourés, architectures en ruine, références à la poésie (Celan) et aux mythes : Kiefer transforme la peinture en lieu de mémoire et de catharsis collective."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Figure majeure du néo-expressionnisme des années 1980, il rend à la peinture une ambition historique et spirituelle énorme, dans une époque dominée par l'ironie."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Louise Bourgeois",
+          "dates": "1911-2010",
+          "role": "Sculpture / art-monde",
+          "groupe": "Art-monde",
+          "wiki": "Louise Bourgeois",
+          "portrait": "Louise Bourgeois, reconnue très tard, explore la mémoire, la mère et le trauma : ses araignées géantes (Maman) sont devenues l'emblème de la réévaluation des femmes artistes.",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Française installée à New York, elle puise dans son enfance blessée (l'infidélité du père, la mère tisserande) la matière d'une œuvre obsessionnelle sur le corps, la sexualité, la peur et la protection."
+            },
+            {
+              "h": "Sa technique : l'intime monumental",
+              "p": "Sculptures en marbre, bronze, tissu, latex ; « cellules » (espaces clos chargés d'objets) ; et ses araignées colossales. Le très intime (le trauma) rendu monumental et universel."
+            },
+            {
+              "h": "Le geste : Maman",
+              "p": "Une araignée d'acier de 9 mètres, à la fois monstrueuse et protectrice, portant ses œufs : hommage à sa mère, tisserande qui « répare ». L'angoisse et la tendresse réunies."
+            },
+            {
+              "h": "Pourquoi elle compte / différence",
+              "p": "Reconnue mondialement seulement à plus de 70 ans (rétrospective au MoMA, 1982), elle est devenue l'icône de la redécouverte des femmes artistes longtemps ignorées."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Maman",
+              "artiste": "Louise Bourgeois",
+              "annee": "1999",
+              "lieu": "exemplaires dans le monde",
+              "wiki": "Maman (sculpture)",
+              "analyse": "Une araignée d'acier de neuf mètres sur ses pattes filiformes, portant une poche d'œufs de marbre : monstrueuse et protectrice à la fois. Hommage à la mère tisserande de l'artiste — l'araignée tisse, répare, protège. L'angoisse intime devenue mythe universel."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Maurizio Cattelan",
+          "dates": "1960-",
+          "role": "Art-monde — provocation",
+          "groupe": "Art-monde",
+          "wiki": "Maurizio Cattelan",
+          "portrait": "Maurizio Cattelan est le grand provocateur de l'art contemporain : de la banane scotchée au mur aux WC en or, il interroge par le canular ce qu'est (encore) l'art et sa valeur. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Italien autodidacte, Cattelan fait de l'humour, du scandale et de l'irrévérence ses outils. Il vise les institutions, le marché, le pouvoir, avec un art de farceur lucide."
+            },
+            {
+              "h": "Sa technique : le canular sérieux",
+              "p": "Le pape Jean-Paul II frappé par une météorite (La Nona Ora), un Hitler agenouillé en prière, des WC en or massif (America) installés dans un musée et utilisables."
+            },
+            {
+              "h": "Le geste : Comedian (2019)",
+              "p": "Une simple banane scotchée au mur, vendue une fortune à Art Basel Miami, déclenche un débat mondial — un visiteur la mange. Pur geste duchampien : c'est l'idée et le contexte qui font l'œuvre, pas l'objet."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Héritier de Duchamp et de Warhol, il met à nu les mécanismes du marché et du musée par la dérision. Son art est un commentaire sur l'art et sa valeur."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "El Anatsui",
+          "dates": "1944-",
+          "role": "Art-monde — global",
+          "groupe": "Art-monde",
+          "wiki": "El Anatsui",
+          "portrait": "El Anatsui, Ghanéen, assemble des milliers de capsules de bouteilles en immenses tentures murales chatoyantes : un art somptueux et fragile qui décentre le récit hors d'Occident. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Né au Ghana, longtemps professeur au Nigeria, El Anatsui travaille à partir de matériaux de récupération africains, chargés d'histoire (commerce, colonisation, consommation)."
+            },
+            {
+              "h": "Sa technique : la tenture de capsules",
+              "p": "Il fait aplatir et coudre par des assistants des milliers de capsules et opercules de bouteilles d'alcool, formant d'immenses draperies métalliques, souples, dorées, accrochées comme des tapisseries monumentales."
+            },
+            {
+              "h": "Son message : histoire et matière",
+              "p": "L'alcool évoque le commerce triangulaire et la colonisation ; le déchet recyclé devient somptueux. Chaque tenture, jamais accrochée deux fois pareil, mêle beauté, mémoire et critique."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Star mondiale (Lion d'or de la Biennale de Venise), il incarne le décentrement de l'art contemporain hors d'Occident et la richesse des scènes africaines."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Gerhard Richter",
+          "dates": "1932-",
+          "role": "Peinture contemporaine",
+          "groupe": "Peinture contemporaine",
+          "wiki": "Gerhard Richter",
+          "portrait": "Gerhard Richter, l'un des plus grands peintres vivants, alterne photo-peinture floue et abstractions raclées, interrogeant l'image elle-même à l'ère de la photographie. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Né à Dresde, formé sous le réalisme socialiste d'Allemagne de l'Est, Richter fuit à l'Ouest en 1961. Marqué par les deux régimes, il développe un doute permanent sur l'image et l'idéologie."
+            },
+            {
+              "h": "Sa technique : flou et raclage",
+              "p": "Il peint d'après photographies puis « floute » la surface, brouillant la frontière peinture/photo ; et réalise d'immenses abstractions en raclant la peinture à la raclette, mêlant hasard et contrôle."
+            },
+            {
+              "h": "Son message : douter de l'image",
+              "p": "Ses séries (la bande à Baader, son oncle nazi, sa tante internée, les bougies, les paysages) interrogent la mémoire allemande et la capacité même de l'image à dire le vrai."
+            },
+            {
+              "h": "Pourquoi il compte / différence",
+              "p": "Refusant tout style unique, Richter fait de l'incertitude sa méthode. Considéré comme le plus grand peintre vivant, il maintient la peinture pensante au cœur de l'art contemporain."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Tracey Emin",
+          "dates": "1963-",
+          "role": "Art-monde — YBA",
+          "groupe": "Art-monde",
+          "wiki": "Tracey Emin",
+          "portrait": "Tracey Emin, figure des Young British Artists, fait de sa vie intime la plus crue (son lit défait, ses amants) une œuvre confessionnelle. (Œuvres sous droits.)",
+          "bio_sections": [
+            {
+              "h": "Origines & déclic",
+              "p": "Anglaise au parcours difficile, Emin fait de son autobiographie — sexualité, avortements, abus, dépression — la matière directe de son art, sans filtre."
+            },
+            {
+              "h": "Le geste : My Bed (1998)",
+              "p": "Elle expose son propre lit défait, entouré de bouteilles, mégots, sous-vêtements, après une période dépressive. L'intime le plus cru présenté tel quel : l'œuvre, c'est la trace de sa vie."
+            },
+            {
+              "h": "Sa technique : la confession",
+              "p": "Néons manuscrits, broderies, dessins, textes : un art de l'aveu et de l'émotion brute, où l'artiste s'expose sans pudeur."
+            },
+            {
+              "h": "Pourquoi elle compte / différence",
+              "p": "Avec Hirst, elle incarne les YBA et l'art confessionnel. Elle a ouvert la voie à un art féminin de l'intime assumé, longtemps tabou."
             }
           ]
         }

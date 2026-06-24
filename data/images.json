@@ -5435,5 +5435,195 @@
     "h": 2500,
     "format": "jpg",
     "file": "Bird_in_Space.jpg"
+  },
+  "Barnett Newman": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Newman_Barnett.jpg/960px-Newman_Barnett.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1147,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Newman_Barnett.jpg",
+    "w": 2907,
+    "h": 3705,
+    "format": "jpg",
+    "file": "Newman_Barnett.jpg"
+  },
+  "Helen Frankenthaler": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/81/%C2%A9lynngilbert_Helen_Frankenthaler_1978.jpg",
+    "thumb_w": 600,
+    "thumb_h": 886,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/%C2%A9lynngilbert_Helen_Frankenthaler_1978.jpg",
+    "w": 600,
+    "h": 886,
+    "format": "jpg",
+    "file": "©lynngilbert_Helen_Frankenthaler_1978.jpg"
+  },
+  "Robert Rauschenberg": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Robert_Rauschenberg_%281968%29.jpg/960px-Robert_Rauschenberg_%281968%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1200,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Robert_Rauschenberg_%281968%29.jpg",
+    "w": 2209,
+    "h": 2945,
+    "format": "jpg",
+    "file": "Robert_Rauschenberg_(1968).jpg"
+  },
+  "Jasper Johns": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Jasper_Johns%2C_Medal_of_Freedom%2C_2011.jpg",
+    "thumb_w": 197,
+    "thumb_h": 306,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Jasper_Johns%2C_Medal_of_Freedom%2C_2011.jpg",
+    "w": 197,
+    "h": 306,
+    "format": "jpg",
+    "file": "Jasper_Johns,_Medal_of_Freedom,_2011.jpg"
+  },
+  "Richard Hamilton (artist)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/8/80/Richard_Hamilton_Artist.jpg",
+    "thumb_w": 559,
+    "thumb_h": 645,
+    "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Richard_Hamilton_Artist.jpg",
+    "w": 559,
+    "h": 645,
+    "format": "jpg",
+    "file": "Richard_Hamilton_Artist.jpg"
+  },
+  "Claes Oldenburg": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Claes_Oldenburg_-_2012.jpg/960px-Claes_Oldenburg_-_2012.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1201,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Claes_Oldenburg_-_2012.jpg",
+    "w": 1949,
+    "h": 2600,
+    "format": "jpg",
+    "file": "Claes_Oldenburg_-_2012.jpg"
+  },
+  "Dan Flavin": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%22_14_-_ITALY_-_Dan_Flavin_in_Milan_-_Chiesa_di_Santa_Maria_Annunciata_in_Chiesa_Rossa_church_-_LED_lightning_-_color_emotion_-_colorful.jpg/960px-%22_14_-_ITALY_-_Dan_Flavin_in_Milan_-_Chiesa_di_Santa_Maria_Annunciata_in_Chiesa_Rossa_church_-_LED_lightning_-_color_emotion_-_colorful.jpg",
+    "thumb_w": 900,
+    "thumb_h": 506,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/%22_14_-_ITALY_-_Dan_Flavin_in_Milan_-_Chiesa_di_Santa_Maria_Annunciata_in_Chiesa_Rossa_church_-_LED_lightning_-_color_emotion_-_colorful.jpg",
+    "w": 2592,
+    "h": 1456,
+    "format": "jpg",
+    "file": "\"_14_-_ITALY_-_Dan_Flavin_in_Milan_-_Chiesa_di_Santa_Maria_Annunciata_in_Chiesa_Rossa_church_-_LED_lightning_-_color_emotion_-_colorful.jpg"
+  },
+  "Joseph Kosuth": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Joseph_Kosuth_%28cropped%29.jpg",
+    "thumb_w": 450,
+    "thumb_h": 600,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Joseph_Kosuth_%28cropped%29.jpg",
+    "w": 450,
+    "h": 600,
+    "format": "jpg",
+    "file": "Joseph_Kosuth_(cropped).jpg"
+  },
+  "Robert Smithson": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Spiral_Jetty_Smithson_Laramee.jpg/960px-Spiral_Jetty_Smithson_Laramee.jpg",
+    "thumb_w": 900,
+    "thumb_h": 675,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Spiral_Jetty_Smithson_Laramee.jpg",
+    "w": 3072,
+    "h": 2304,
+    "format": "jpg",
+    "file": "Spiral_Jetty_Smithson_Laramee.jpg"
+  },
+  "Joseph Beuys": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Beuys-Feldman-Gallery.jpg",
+    "thumb_w": 476,
+    "thumb_h": 700,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Beuys-Feldman-Gallery.jpg",
+    "w": 476,
+    "h": 700,
+    "format": "jpg",
+    "file": "Beuys-Feldman-Gallery.jpg"
+  },
+  "Marina Abramović": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Glasto24_28_300624_%28130_of_545%29_%2853838092455%29_%28cropped%29.jpg/960px-Glasto24_28_300624_%28130_of_545%29_%2853838092455%29_%28cropped%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1225,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Glasto24_28_300624_%28130_of_545%29_%2853838092455%29_%28cropped%29.jpg",
+    "w": 1163,
+    "h": 1583,
+    "format": "jpg",
+    "file": "Glasto24_28_300624_(130_of_545)_(53838092455)_(cropped).jpg"
+  },
+  "Lucian Freud": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/LucienFreud.jpg",
+    "thumb_w": 427,
+    "thumb_h": 646,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/LucienFreud.jpg",
+    "w": 427,
+    "h": 646,
+    "format": "jpg",
+    "file": "LucienFreud.jpg"
+  },
+  "Maurizio Cattelan": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Museum_Boijmans_Van_Beuningen_2009-02-15_-_interior_-_02.jpg/960px-Museum_Boijmans_Van_Beuningen_2009-02-15_-_interior_-_02.jpg",
+    "thumb_w": 900,
+    "thumb_h": 600,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Museum_Boijmans_Van_Beuningen_2009-02-15_-_interior_-_02.jpg",
+    "w": 3888,
+    "h": 2592,
+    "format": "jpg",
+    "file": "Museum_Boijmans_Van_Beuningen_2009-02-15_-_interior_-_02.jpg"
+  },
+  "Louise Bourgeois": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Oliver_Mark_-_Louise_Bourgeois%2C_New_York_1996.jpg/960px-Oliver_Mark_-_Louise_Bourgeois%2C_New_York_1996.jpg",
+    "thumb_w": 900,
+    "thumb_h": 904,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Oliver_Mark_-_Louise_Bourgeois%2C_New_York_1996.jpg",
+    "w": 2389,
+    "h": 2400,
+    "format": "jpg",
+    "file": "Oliver_Mark_-_Louise_Bourgeois,_New_York_1996.jpg"
+  },
+  "Gerhard Richter": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Gerhard_Richter%2C_Prague_%282017%29.jpg/960px-Gerhard_Richter%2C_Prague_%282017%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1125,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Gerhard_Richter%2C_Prague_%282017%29.jpg",
+    "w": 1024,
+    "h": 1280,
+    "format": "jpg",
+    "file": "Gerhard_Richter,_Prague_(2017).jpg"
+  },
+  "Tracey Emin": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tracey_Emin_1-cropped.jpg/960px-Tracey_Emin_1-cropped.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1211,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Tracey_Emin_1-cropped.jpg",
+    "w": 1031,
+    "h": 1387,
+    "format": "jpg",
+    "file": "Tracey_Emin_1-cropped.jpg"
+  },
+  "Christo and Jeanne-Claude": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jean-Claude_and_Christo%2C_May_2009_%284%29_%28cropped%29.jpg/960px-Jean-Claude_and_Christo%2C_May_2009_%284%29_%28cropped%29.jpg",
+    "thumb_w": 900,
+    "thumb_h": 977,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jean-Claude_and_Christo%2C_May_2009_%284%29_%28cropped%29.jpg",
+    "w": 1634,
+    "h": 1773,
+    "format": "jpg",
+    "file": "Jean-Claude_and_Christo,_May_2009_(4)_(cropped).jpg"
+  },
+  "Spiral Jetty": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+    "thumb_w": 800,
+    "thumb_h": 450,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiral-jetty-from-rozel-point.png",
+    "w": 800,
+    "h": 450,
+    "format": "png",
+    "file": "Spiral-jetty-from-rozel-point.png"
+  },
+  "Wrapped Reichstag": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Reichstagchristo010.jpg",
+    "thumb_w": 602,
+    "thumb_h": 552,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Reichstagchristo010.jpg",
+    "w": 602,
+    "h": 552,
+    "format": "jpg",
+    "file": "Reichstagchristo010.jpg"
   }
 }
