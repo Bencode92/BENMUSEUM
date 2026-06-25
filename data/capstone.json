@@ -1,0 +1,189 @@
+{
+  "titre": "Les clés transversales",
+  "intro": "Pas du contenu de chapitre : les mécanismes et les outils de pensée qui relient les 28 chapitres. Comment l'art évolue, ce qui fut tenu pour « beau », comment un chef-d'œuvre le devient, d'où vient la puissance d'un artiste, et comment recontextualiser. Le document de synthèse finale, à relire avant un concours.",
+  "sections": [
+    {
+      "icon": "🎯",
+      "titre": "0 · La méthode en une phrase",
+      "blocks": [
+        { "t": "lead", "v": "Ne jamais juger une œuvre avec les yeux d'aujourd'hui : toujours reconstruire ce qu'elle a brisé, pour qui, et ce qu'elle a rendu possible." },
+        { "t": "p", "v": "Toute ta culture artistique tient dans ce déplacement : passer de « est-ce que j'aime / est-ce beau ? » à « quel problème cette œuvre résout-elle, contre quelle norme, dans quel contexte, et avec quelle postérité ? »." }
+      ]
+    },
+    {
+      "icon": "⚖️",
+      "titre": "I · L'évolution du « beau »",
+      "blocks": [
+        { "t": "p", "v": "Le « beau » n'est pas une constante. Chaque époque a son régime de valeur : ce qu'elle attend d'une œuvre. La bonne question n'est pas « était-ce beau ? » mais « quel était le critère de l'époque, et l'œuvre y obéit-elle ou le déplace-t-elle ? »." },
+        { "t": "table", "head": ["Époque", "Le critère de valeur", "Mot-clé"], "rows": [
+          ["Préhistoire / Égypte", "Efficacité : agir sur le monde (magie), durer (éternité), montrer ce qu'on SAIT", "utile, éternel"],
+          ["Grèce", "Harmonie & idéal : proportion mathématique, corps idéalisé (kalos)", "proportion, canon"],
+          ["Moyen Âge", "Clarté & splendeur : lumière, éclat, symbole du divin (claritas)", "lumière, sacré"],
+          ["Renaissance", "Imitation idéalisée : la nature corrigée par la science et la grâce antique", "disegno, grâce"],
+          ["Maniérisme", "Grâce difficile : artifice, virtuosité, élégance étrange (la maniera)", "difficulté, artifice"],
+          ["Baroque", "Émotion & mouvement : émouvoir, convaincre, le sublime théâtral", "pathos, théâtre"],
+          ["XVIIIᵉ", "Deux pôles : grâce légère (rococo) vs sobriété morale (Lumières) ; naît le sublime", "plaisir / raison"],
+          ["XIXᵉ", "Rupture : le vrai prime le beau (réalisme) ; l'art pour l'art ; beauté du moderne et du fugitif", "vérité, modernité"],
+          ["XXᵉ-XXIᵉ", "Le beau n'est plus le but : expression, idée, choc, nouveauté, authenticité ; « beau » devient suspect", "expression, idée"]
+        ] },
+        { "t": "callout", "label": "Le basculement décisif", "v": "Le XIXᵉ siècle. Pendant ~2 500 ans (de la Grèce au néoclassicisme), « bien faire » = imiter idéalement le réel. À partir de Courbet (peindre le laid, l'ordinaire) et de Manet, le beau cesse d'être l'objectif. Comprendre cela, c'est comprendre pourquoi un public peut trouver « laid » ce qui est en réalité révolutionnaire : il juge avec le critère de l'époque précédente." },
+        { "t": "sub", "v": "Deux notions à ne pas confondre" },
+        { "t": "list", "items": [
+          "Le beau : harmonieux, mesuré, qui plaît (la Vénus, Raphaël).",
+          "Le sublime (Burke, 1757) : ce qui dépasse et écrase — l'orage, l'abîme, l'infini, la terreur (Turner, Friedrich). L'art veut désormais bouleverser, pas seulement plaire."
+        ] }
+      ]
+    },
+    {
+      "icon": "🏆",
+      "titre": "II · Comment un chef-d'œuvre devient chef-d'œuvre",
+      "blocks": [
+        { "t": "lead", "v": "Un chef-d'œuvre n'est pas né, il est FAIT — par l'histoire. Ce n'est pas une qualité éternelle, c'est un jugement que l'histoire ratifie (et parfois révise). El Greco, Vermeer, Bosch, Botticelli ont été oubliés, puis re-sacrés. Le canon est révisable." },
+        { "t": "cards", "items": [
+          { "h": "1 · La rupture résolutoire", "v": "L'œuvre résout un problème sur lequel l'époque butait. Masaccio résout l'espace ; Caravage la lumière dramatique ; Picasso le point de vue unique." },
+          { "h": "2 · La reconnaissance", "v": "Une œuvre a besoin de champions : pairs, critiques, mécènes, marchands. Vasari, Baudelaire, Durand-Ruel, Kahnweiler. Le génie isolé qui triomphe seul est un mythe." },
+          { "h": "3 · La canonisation", "v": "Salon, Académie, musée, manuel scolaire, reproduction de masse font le monument. La Joconde le doit aussi à son vol (1911). La gloire est un processus social." },
+          { "h": "4 · Le scandale fécond", "v": "Beaucoup de chefs-d'œuvre furent d'abord honnis : Olympia, Les Demoiselles d'Avignon, Fontaine, Le Sacre du printemps. Le scandale signale souvent une vraie rupture." },
+          { "h": "5 · La fécondité", "v": "Un chef-d'œuvre ouvre des portes : c'est un commencement, pas une fin. Cézanne → le cubisme ; Van Gogh → l'expressionnisme." },
+          { "h": "6 · L'aura et le récit", "v": "La légende (l'oreille de Van Gogh, le meurtre de Caravage) fabrique le chef-d'œuvre autant que la toile. Le récit fait voir." }
+        ] },
+        { "t": "callout", "label": "Nuance critique", "v": "« Chef-d'œuvre » à l'origine = le morceau de maîtrise d'un apprenti pour devenir maître (preuve technique). Le sens moderne (l'œuvre suprême et géniale) est plus tardif et idéologique : il suppose le « génie » individuel, invention de la Renaissance et du Romantisme. Le canon reflète aussi des rapports de pouvoir (qui décide ?) — d'où la réévaluation des femmes artistes et des arts non-occidentaux." }
+      ]
+    },
+    {
+      "icon": "⚡",
+      "titre": "III · D'où vient la puissance d'un artiste",
+      "blocks": [
+        { "t": "p", "v": "La puissance d'un grand artiste n'est pas une magie inexplicable : elle se décompose — et c'est ce qui la rend transmissible. Cinq sources :" },
+        { "t": "cards", "items": [
+          { "h": "1 · Un problème résolu", "v": "La clé de Gombrich. Le grand artiste voit un problème que son époque n'arrive pas à résoudre — et invente la solution. Demande-toi toujours : quel était son problème ?" },
+          { "h": "2 · Un regard neuf", "v": "Voir ce que les autres ne voient pas : Monet voit que les ombres sont colorées ; Cézanne la structure géométrique ; Van Eyck le détail infini." },
+          { "h": "3 · Une technique au service d'une vision", "v": "La technique est le véhicule, pas le but. La touche tourbillonnante de Van Gogh EST son émotion. On ne sépare jamais le style du sens." },
+          { "h": "4 · Une nécessité intérieure", "v": "Le mot de Kandinsky. L'œuvre forte répond à une urgence profonde, pas seulement à une commande. C'est ce qui distingue l'artiste de l'habile exécutant." },
+          { "h": "5 · Le travail, l'atelier, les pairs", "v": "Le génie est situé et relationnel. Picasso sans les masques africains + Cézanne (1907) + Braque = pas de cubisme. La rivalité fabrique la puissance autant que le don." }
+        ] },
+        { "t": "callout", "label": "La signature", "v": "L'artiste trouve une forme qui rend visible l'invisible. Sa vraie signature n'est pas le nom au bas de la toile : c'est la solution formelle qu'on reconnaît entre mille — le sfumato de Léonard, le dripping de Pollock, l'arabesque de Matisse, le clair-obscur de Caravage." }
+      ]
+    },
+    {
+      "icon": "🔑",
+      "titre": "IV · La méthode-reine : « classique aujourd'hui, révolution à l'époque »",
+      "blocks": [
+        { "t": "p", "v": "Ton outil le plus puissant. Une œuvre nous semble fade parce que sa révolution a été digérée : ce qu'elle a inventé est devenu la norme, donc invisible. Recontextualiser, c'est rendre à l'œuvre son tranchant d'origine." },
+        { "t": "sub", "v": "La grille en 4 questions (à appliquer à TOUTE œuvre)" },
+        { "t": "ol", "items": [
+          "Quelle était la NORME avant ? (la règle, l'habitude, l'attendu)",
+          "Qu'a-t-elle BRISÉ ou inventé ? (la rupture précise)",
+          "Pourquoi était-ce un CHOC dans son contexte ? (technique, social, religieux, politique, économique)",
+          "Qu'a-t-elle rendu POSSIBLE après ? (la postérité, la fécondité)"
+        ] },
+        { "t": "sub", "v": "Le réservoir d'exemples (« banal aujourd'hui → séisme à l'époque »)" },
+        { "t": "list", "items": [
+          "L'émotion d'un visage (Giotto, ~1300) : évident pour nous ; révolution après mille ans de figures hiératiques.",
+          "Le contrapposto (Grèce, ~480 av.) : on ne le remarque plus ; séisme après 3 000 ans de figures raides égyptiennes.",
+          "La perspective (Florence, ~1420) : banalité scolaire ; bombe car personne ne savait construire l'espace.",
+          "La touche visible, l'« inachevé » (impressionnisme, 1874) : norme aujourd'hui ; scandale (« esquisses » non finies).",
+          "Des paysans grandeur nature (Courbet, 1850) : anodin ; provocation car ce format était réservé aux rois et aux saints.",
+          "Un urinoir signé (Duchamp, 1917) : cliché ; détonation qui déplace l'art de l'objet vers l'idée."
+        ] },
+        { "t": "callout", "label": "Le piège inverse", "v": "Le rebelle d'hier devient le pompier d'aujourd'hui. L'impressionnisme, jadis refusé, est devenu la peinture la plus consensuelle du monde (calendriers, mugs). L'avant-garde se transforme en académie. Ne pas sacraliser « la rupture » comme valeur en soi, ni mépriser le « classique » qui fut, lui aussi, une rupture en son temps." }
+      ]
+    },
+    {
+      "icon": "🧵",
+      "titre": "V · Les grands fils de l'évolution",
+      "blocks": [
+        { "t": "sub", "v": "Fil 1 — Le méta-arc : IMITER → EXPRIMER → INTERROGER" },
+        { "t": "list", "items": [
+          "Avant d'imiter (préhistoire, Égypte, Byzance) : l'image agit (magie) ou rend présent le sacré.",
+          "Imiter (Grèce → Renaissance → XVIIIᵉ) : ~2 500 ans à conquérir l'apparence.",
+          "Cesser d'imiter / exprimer (XIXᵉ-XXᵉ) : la photographie libère la peinture ; l'art exprime la sensation, l'idée.",
+          "Interroger (XXᵉ-XXIᵉ) : l'art se demande « qu'est-ce que l'art ? » (Duchamp). De Lascaux (l'image qui agit) à Duchamp (l'image qui s'interroge)."
+        ] },
+        { "t": "sub", "v": "Fil 2 — Les oppositions-pendules (des balanciers éternels)" },
+        { "t": "list", "items": [
+          "Dessin / Couleur (disegno / colorito) : Florence/Venise → Poussin/Rubens → Ingres/Delacroix → impressionnisme.",
+          "Idéal / Réel : Grèce idéale vs portrait romain vériste ; académisme vs réalisme.",
+          "Ordre / Émotion : Poussin vs Bernin ; néoclassicisme vs romantisme.",
+          "Règle / Liberté : canon vs invention, académie vs avant-garde."
+        ] },
+        { "t": "sub", "v": "Fil 3 — Le statut de l'artiste" },
+        { "t": "p", "v": "Anonyme (préhistoire → médiéval) → nommé (Grèce) → génie (Renaissance) → rebelle / avant-garde (XIXᵉ) → marque / concept (contemporain). Demande-toi toujours : à cette époque, l'artiste est-il un artisan, un génie, un rebelle, une marque ?" },
+        { "t": "sub", "v": "Fil 4 — La destination : pour qui ? payé par qui ?" },
+        { "t": "p", "v": "Le commanditaire détermine en partie l'œuvre : grotte (magie) → temple/tombeau (Égypte) → Église (Moyen Âge, Baroque) → cour (Versailles, rococo) → marché libre (Hollande, impressionnisme) → galerie / foire / musée (contemporain). Change le payeur, et tu changes l'art." }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "titre": "VI · La grille d'analyse universelle",
+      "blocks": [
+        { "t": "p", "v": "Décrire AVANT d'interpréter (l'erreur du débutant est de foncer sur le sens). Lis l'œuvre dans cet ordre :" },
+        { "t": "ol", "items": [
+          "Sujet — que représente-t-elle ? (et que NE représente-t-elle pas : l'absence compte)",
+          "Composition — pyramide stable, diagonale dynamique, frontalité, décentrement, vide ? Elle oriente le regard.",
+          "Lumière — uniforme, clair-obscur dramatique, lumière dorée sacrée, plein air ? Elle fait le drame ou le calme.",
+          "Couleur — locale et réaliste, symbolique, autonome, acide ? Dominantes, contrastes.",
+          "Touche / facture — lisse et invisible (académique) ou visible et expressive (Van Gogh) ? La facture trahit l'intention.",
+          "Format / support / matière — fresque, huile, marbre, bronze, readymade, installation. L'échelle fait sens.",
+          "Fonction / destination — église ? cour ? collectionneur ? musée ? idée ?",
+          "Contexte — politique, religieux, économique, technique du moment.",
+          "Nouveauté — qu'invente / brise-t-elle ? (la grille de la section IV)",
+          "Postérité — qu'a-t-elle rendu possible ?"
+        ] },
+        { "t": "callout", "label": "Astuce de concours", "v": "La comparaison de deux œuvres est l'exercice le plus formateur (et le plus fréquent). Mettre côte à côte un David de Donatello et un David du Bernin révèle la rupture mieux qu'aucune description isolée." }
+      ]
+    },
+    {
+      "icon": "📖",
+      "titre": "VII · Petit lexique pour penser l'art",
+      "blocks": [
+        { "t": "list", "items": [
+          "Mimésis : l'imitation de la nature (le but de l'art grec à classique).",
+          "Idéal / Canon : la nature corrigée, rendue parfaite selon des règles de proportion.",
+          "Perspective : construction mathématique de l'espace (Florence, 1420).",
+          "Sfumato : transitions fondues, sans contour (Léonard).",
+          "Clair-obscur / ténébrisme : contraste violent ombre-lumière (Caravage, Rembrandt).",
+          "Contrapposto : bascule du poids du corps, qui le rend vivant (Grèce).",
+          "Disegno / Colorito : primat du dessin (Florence) vs de la couleur (Venise).",
+          "Pathos : l'expression intense de la souffrance / émotion (hellénistique, baroque).",
+          "Sublime : ce qui dépasse et terrifie (≠ beau ; Burke, Romantisme).",
+          "Hiératisme : frontalité rigide et sacrée (Byzance).",
+          "Vanité : nature morte rappelant la brièveté de la vie (crâne, bougie ; Hollande).",
+          "Avant-garde : l'art qui précède et rompt (XIXᵉ-XXᵉ).",
+          "Readymade : objet manufacturé désigné comme art (Duchamp).",
+          "Kitsch : le faux-beau, le sentimental de pacotille (et son retournement ironique : Koons).",
+          "Aura : l'unicité « magique » de l'original (Benjamin), que la reproduction de masse dissout."
+        ] }
+      ]
+    },
+    {
+      "icon": "🛠",
+      "titre": "VIII · Méthode de travail",
+      "blocks": [
+        { "t": "ol", "items": [
+          "Voir en vrai quand tu peux : l'échelle, la matière, la touche se perdent en reproduction. Le musée est ton vrai manuel.",
+          "Comparer systématiquement : deux œuvres côte à côte > mille descriptions isolées.",
+          "Le triptyque, toujours : contexte → œuvre → postérité. Jamais l'œuvre seule.",
+          "Se méfier des évidences : « c'est beau », « c'est raté » sont des jugements d'aujourd'hui. Reconstruis le critère de l'époque.",
+          "Décrire avant d'interpréter : le sens découle de la description, il ne la précède pas.",
+          "Lire les passeurs : Vasari, Baudelaire, Gombrich (« l'art comme résolution de problèmes »), Panofsky, Daniel Arasse.",
+          "Garder l'esprit critique : le canon est révisable, le « génie » est en partie construit, l'avant-garde devient académie, le récit reste occidental (réintègre femmes et arts non-occidentaux)."
+        ] }
+      ]
+    },
+    {
+      "icon": "✅",
+      "titre": "En une page — ce qu'il faut avoir compris",
+      "blocks": [
+        { "t": "list", "items": [
+          "Le « beau » n'existe pas en soi : chaque époque a son critère. Le grand basculement = le XIXᵉ, où le beau cesse d'être le but.",
+          "Un chef-d'œuvre est FAIT par l'histoire : rupture + passeurs + canonisation + scandale fécond + postérité + récit. Le canon est révisable.",
+          "La puissance d'un artiste = un problème bien posé + un regard neuf + une technique au service d'une vision + une nécessité intérieure + un contexte. Le génie est situé.",
+          "La méthode-reine : « classique aujourd'hui, révolution à l'époque » — quelle norme ? quelle rupture ? quel choc ? quelle postérité ? — sans oublier que le rebelle d'hier est le pompier d'aujourd'hui.",
+          "Les 4 fils : imiter → exprimer → interroger ; les pendules (dessin/couleur…) ; le statut de l'artiste ; le commanditaire.",
+          "L'art ne « progresse » pas vers un mieux : il déplace sans cesse ses problèmes et ses critères. Comprendre ces déplacements, c'est exactement ce qu'est une culture artistique."
+        ] }
+      ]
+    }
+  ]
+}

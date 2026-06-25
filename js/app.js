@@ -9,16 +9,19 @@ let DOSSIERS = [];
 let IMAGES = {};             // manifeste des images résolues (data/images.json)
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
+let CAPSTONE = null;         // clés transversales (data/capstone.json)
 const $ = id => document.getElementById(id);
 
-const DV = "77"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "78"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
   fetch("data/images.json?v=" + DV).then(r => r.json()).catch(() => ({})),
   fetch("data/community.json?t=" + Date.now()).then(r => r.json()).catch(() => []),
+  fetch("data/capstone.json?v=" + DV).then(r => r.json()).catch(() => null),
 ])
-  .then(([art, dos, img, com]) => {
+  .then(([art, dos, img, com, cap]) => {
+    CAPSTONE = cap;
     CHAPITRES = art.chapitres;
     CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) =>
       FLAT.push({ ci, oi, chap: c, oeuvre: o })));
@@ -298,6 +301,7 @@ function route() {
   scrollTo(0, 0);
   if (top === "quiz") { setActiveFloor(-1); return renderQuiz(); }
   if (top === "maitrise") { setActiveFloor(-1); return renderMaitrise(); }
+  if (top === "cles") { setActiveFloor(-1); return renderCapstone(); }
   if (top === "session") { setActiveFloor(-1); return startSession(); }
   if (top === "parcours") { setActiveFloor(-1); return renderParcours(); }
   if (top === "favoris") { setActiveFloor(-1); return renderFavoris(); }
@@ -313,6 +317,37 @@ function route() {
     return renderChapitre(ci);
   }
   setActiveFloor(-1); return renderHome();
+}
+
+/* ---------- CLÉS TRANSVERSALES (capstone, au-dessus des 28 chapitres) ---------- */
+function renderCapstone() {
+  crumb([{ label: "Accueil", nav: "#/" }, { label: "Clés transversales" }]);
+  if (!CAPSTONE || !CAPSTONE.sections) {
+    $("view").innerHTML = `<div class="pagehead"><h1>Clés transversales</h1></div><p class="lead">Contenu indisponible.</p>`;
+    return;
+  }
+  const blk = b => {
+    switch (b.t) {
+      case "lead": return `<p class="lead" style="font-size:17.5px;font-style:italic;max-width:74ch">${esc(b.v)}</p>`;
+      case "p": return `<p style="max-width:74ch;margin:8px 0;line-height:1.7">${esc(b.v)}</p>`;
+      case "sub": return `<h3 class="grp" style="margin:22px 0 6px">${esc(b.v)}</h3>`;
+      case "callout": return `<div class="memo"><b>${esc(b.label || "Nuance")} :</b> ${esc(b.v)}</div>`;
+      case "list": return `<ul class="dots">${b.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul>`;
+      case "ol": return `<ol class="rev">${b.items.map(i => `<li>${esc(i)}</li>`).join("")}</ol>`;
+      case "table": return `<table class="tbl"><tr>${b.head.map(h => `<th>${esc(h)}</th>`).join("")}</tr>${b.rows.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>`;
+      case "cards": return `<div class="grid cols">${b.items.map(it => `<div class="card"><div class="body"><div class="t">${esc(it.h)}</div><div class="s">${esc(it.v)}</div></div></div>`).join("")}</div>`;
+      default: return "";
+    }
+  };
+  const body = CAPSTONE.sections.map(s =>
+    `<h2 class="sec">${esc(s.icon || "")} ${esc(s.titre)}</h2>${(s.blocks || []).map(blk).join("")}`).join("");
+  $("view").innerHTML = `
+    <div class="pagehead">
+      <div class="ep">Synthèse finale · la couche au-dessus des 28 chapitres</div>
+      <h1>${esc(CAPSTONE.titre)}</h1>
+      <p class="lead">${esc(CAPSTONE.intro)}</p>
+    </div>
+    ${body}`;
 }
 
 /* ---------- fil d'Ariane ---------- */
