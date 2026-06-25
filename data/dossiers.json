@@ -11518,6 +11518,30 @@
           "wiki": "Kritios Boy",
           "genie": "Le poids sur une jambe, l'autre détendue → la figure « respire ». Innovation qui restera la base de la figure occidentale jusqu'à Michel-Ange et au-delà.",
           "analyse": "Le problème : sortir de la raideur frontale héritée d'Égypte, donner vie au corps. La solution, visible dès le Kritios (vers 480 av. J.-C.) : le poids du corps repose sur une jambe, l'autre se détend, ce qui fait basculer légèrement le bassin et les épaules — la figure « respire ». Le détail à voir : cette asymétrie subtile, le déhanchement naturel, la fin du sourire archaïque figé. L'héritage : le contrapposto devient la base de toute la figure occidentale, repris sans cesse de Polyclète à Michel-Ange et au-delà. Une révolution discrète mais fondatrice."
+        },
+        {
+          "titre": "L'Aurige de Delphes",
+          "artiste": "Anonyme (style sévère)",
+          "annee": "v. 470 av. J.-C.",
+          "lieu": "Musée de Delphes",
+          "wiki": "Charioteer of Delphi",
+          "analyse": "Un conducteur de char en bronze, d'un calme grave et d'yeux incrustés encore intacts : l'un des rares ORIGINAUX grecs conservés (le bronze a presque partout été fondu). La sobriété du style sévère."
+        },
+        {
+          "titre": "Les Bronzes de Riace",
+          "artiste": "Anonyme",
+          "annee": "v. 460-450 av. J.-C.",
+          "lieu": "Musée de Reggio de Calabre",
+          "wiki": "Riace bronzes",
+          "analyse": "Deux guerriers de bronze grandeur nature, remontés de la mer en 1972 : des originaux du Vᵉ siècle, musculature idéale et contrapposto assuré. Un choc, tant les originaux sont rares."
+        },
+        {
+          "titre": "Le Kouros d'Anavyssos",
+          "artiste": "Anonyme (archaïque)",
+          "annee": "v. 530 av. J.-C.",
+          "lieu": "Musée national, Athènes",
+          "wiki": "Anavyssos Kouros",
+          "analyse": "Un kouros archaïque, frontal, jambe gauche avancée et « sourire archaïque » figé : on y voit nettement l'héritage de la statue égyptienne (ch. 2), juste avant que la Grèce ne brise ce modèle."
         }
       ],
       "artistes": [
@@ -11568,7 +11592,8 @@
               "wiki": "Discobolus",
               "analyse": "Le lanceur de disque figé à l'instant de tension maximale, juste avant le lancer : corps tordu en spirale, bras armé, équilibre suspendu. Tout le mouvement contenu dans un instant immobile. La première grande conquête de l'action dans la sculpture."
             }
-          ]
+          ],
+          "groupe": "Le style sévère (la bascule)"
         },
         {
           "niveau": "★",
@@ -11633,7 +11658,8 @@
               "wiki": "Statue of Zeus at Olympia",
               "analyse": "Statue colossale du dieu trônant, en or et ivoire, dans le temple d'Olympie : l'une des Sept Merveilles du monde antique. Disparue depuis l'Antiquité tardive, elle incarnait la majesté suprême du roi des dieux."
             }
-          ]
+          ],
+          "groupe": "Le classicisme (âge de Périclès)"
         },
         {
           "niveau": "○",
@@ -11681,6 +11707,44 @@
               "lieu": "copies romaines (Naples...)",
               "wiki": "Doryphoros",
               "analyse": "Un athlète marchant, lance à l'épaule, conçu comme la démonstration des proportions idéales du corps (le « Canon »). Une jambe porte, l'autre se détend (contrapposto), équilibre parfait du repos et du mouvement. La beauté faite système, modèle pour des siècles."
+            }
+          ],
+          "groupe": "Le classicisme (âge de Périclès)"
+        },
+        {
+          "niveau": "★",
+          "nom": "Kritios",
+          "dates": "début Vᵉ s. av. J.-C.",
+          "role": "Le premier contrapposto",
+          "groupe": "Le style sévère (la bascule)",
+          "wiki": "Kritios Boy",
+          "portrait": "Kritios sculpte l'Éphèbe qui porte son nom : la première statue où le poids du corps bascule sur une jambe. L'instant exact où le kouros raide, hérité de l'Égypte, devient un corps vivant — l'acte de naissance du classicisme.",
+          "bio_sections": [
+            {
+              "h": "Le moment de bascule",
+              "p": "Au lendemain des guerres médiques, l'art grec quitte la frontalité rigide du kouros archaïque. Kritios incarne ce « style sévère » : les visages se font graves, et le corps, pour la première fois, cesse d'être symétrique et figé."
+            },
+            {
+              "h": "L'invention du contrapposto",
+              "p": "Dans l'Éphèbe de Kritios, le poids repose sur une seule jambe ; le bassin s'incline d'un côté, les épaules de l'autre. Le corps semble respirer, prêt à bouger. C'est le contrapposto — la trouvaille qui rend la statue vivante."
+            },
+            {
+              "h": "Pourquoi c'est capital",
+              "p": "Trois mille ans d'Égypte n'avaient jamais osé ce déhanché : représenter non ce qu'on sait du corps, mais ce qu'on voit d'un corps en équilibre réel. Tout le classicisme (Phidias, Polyclète) part de là."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Kritios n'est pas un nom de gloire comme Phidias, mais son Éphèbe est le pivot de l'histoire : le seuil franchi entre l'art de l'éternité (ch. 2) et l'art du regard vivant."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Éphèbe de Kritios",
+              "artiste": "Kritios",
+              "annee": "v. 480 av. J.-C.",
+              "lieu": "Musée de l'Acropole, Athènes",
+              "wiki": "Kritios Boy",
+              "analyse": "Un jeune homme dont le poids bascule sur la jambe gauche, le bassin légèrement incliné. Le premier contrapposto connu : la statue cesse d'être un bloc frontal pour devenir un corps qui respire. Le seuil du classicisme."
             }
           ]
         }
@@ -11827,6 +11891,38 @@
           "wiki": "Venus de Milo",
           "genie": "Grâce idéalisée et drapé vivant. Avec l'autel de Pergame (combat de géants tourmenté), elle illustre les deux pôles de l'hellénistique : beauté sereine et drame théâtral.",
           "analyse": "Découverte en 1820 sur l'île grecque de Milos, datée vers 130 av. J.-C., elle est devenue l'emblème du Louvre et un idéal universel de beauté. Tout y est mouvement contenu : la spirale douce du corps, le déhanchement, le drapé qui glisse et semble sur le point de tomber des hanches, jouant du contraste entre la peau lisse et l'étoffe. Ses bras manquants, loin de la diminuer, ajoutent au mystère. Elle résume la grâce hellénistique : la perfection technique mise au service du charme et de la sensualité."
+        },
+        {
+          "titre": "La Victoire de Samothrace",
+          "artiste": "Anonyme (hellénistique)",
+          "annee": "v. 190 av. J.-C.",
+          "lieu": "Musée du Louvre, Paris",
+          "wiki": "Winged Victory of Samothrace",
+          "analyse": "Une déesse ailée se pose à la proue d'un navire, la draperie plaquée par le vent et le souffle de la mer. Le mouvement et la « draperie mouillée » portés à l'incandescence : un sommet du dynamisme hellénistique."
+        },
+        {
+          "titre": "Le Gaulois mourant",
+          "artiste": "Anonyme (école de Pergame)",
+          "annee": "v. 230 av. J.-C.",
+          "lieu": "Musées du Capitole, Rome",
+          "wiki": "Dying Gaul",
+          "analyse": "Un guerrier gaulois vaincu, affaissé sur son bouclier, attend la mort avec dignité. Pergame célèbre sa victoire en montrant la noblesse du vaincu : le pathos appliqué à l'ennemi barbare, observé jusqu'à la moustache et le torque."
+        },
+        {
+          "titre": "Le Grand Autel de Pergame",
+          "artiste": "Anonyme (école de Pergame)",
+          "annee": "v. 170 av. J.-C.",
+          "lieu": "Pergamonmuseum, Berlin",
+          "wiki": "Pergamon Altar",
+          "analyse": "Une frise géante où dieux et géants s'affrontent dans un déchaînement de corps, d'ailes et de draperies. Le mouvement paroxystique et le relief presque détaché du fond : le baroque de l'Antiquité."
+        },
+        {
+          "titre": "Le Boxeur au repos",
+          "artiste": "Anonyme (hellénistique)",
+          "annee": "v. 100 av. J.-C.",
+          "lieu": "Musée national romain, Rome",
+          "wiki": "Boxer at Rest",
+          "analyse": "Un boxeur épuisé, assis, le visage tuméfié et le nez cassé, lève les yeux. Réalisme cru, loin de tout idéal : un rare bronze ORIGINAL qui montre l'homme vrai, vaincu et las, plutôt que le héros."
         }
       ],
       "artistes": [
@@ -11885,7 +11981,8 @@
               "wiki": "Hermes and the Infant Dionysus",
               "analyse": "Un Hermès jeune et rêveur, déhanché en courbe souple, joue avec l'enfant Dionysos qu'il porte. Marbre poli comme une peau douce, expression tendre : l'humanisation des dieux et la grâce praxitélienne incarnées."
             }
-          ]
+          ],
+          "groupe": "Le second classicisme (IVᵉ s.)"
         },
         {
           "niveau": "○",
@@ -11942,7 +12039,8 @@
               "wiki": "Farnese Hercules",
               "analyse": "Hercule épuisé après ses travaux, appuyé sur sa massue, musculature colossale et lassitude pesante. Copie romaine monumentale d'un original de Lysippe : la puissance héroïque et la fatigue du héros, étudiées par Michel-Ange à la Renaissance."
             }
-          ]
+          ],
+          "groupe": "Le second classicisme (IVᵉ s.)"
         },
         {
           "niveau": "○",
@@ -11989,6 +12087,34 @@
               "lieu": "Musées du Vatican, Rome",
               "wiki": "Laocoön and His Sons",
               "analyse": "Le prêtre Laocoon et ses deux fils étouffés par des serpents marins, muscles noués et visages tordus de douleur. Le sommet du pathos hellénistique, l'exact opposé du calme classique. Redécouvert en 1506 sous les yeux de Michel-Ange, il fascina tout l'art occidental."
+            }
+          ],
+          "groupe": "L'école hellénistique (le pathos)"
+        },
+        {
+          "niveau": "○",
+          "nom": "Scopas",
+          "dates": "IVᵉ s. av. J.-C.",
+          "role": "Le maître du pathos",
+          "groupe": "Le second classicisme (IVᵉ s.)",
+          "wiki": "Scopas",
+          "portrait": "Scopas introduit la passion dans le marbre : yeux profondément enfoncés, sourcils tourmentés, bouche entrouverte. Le premier à faire de l'émotion intense le sujet même de la sculpture — il ouvre la voie au pathos hellénistique.",
+          "bio_sections": [
+            {
+              "h": "Un sculpteur-architecte",
+              "p": "Actif au IVᵉ siècle, Scopas travaille notamment au Mausolée d'Halicarnasse (l'une des Sept Merveilles) et au temple de Tégée. Sculpteur autant qu'architecte, il appartient à la génération qui, après Périclès, privilégie l'individu et le sentiment."
+            },
+            {
+              "h": "L'invention du pathos",
+              "p": "Sa marque : des visages aux orbites creusées, au regard levé, aux traits crispés par l'émotion. Là où le Vᵉ siècle cherchait le calme idéal, Scopas cherche la tension, la souffrance, l'exaltation — l'âme visible sur le marbre."
+            },
+            {
+              "h": "Une influence majeure",
+              "p": "Ce langage de l'émotion intense féconde tout l'art hellénistique : on le retrouve dans le Gaulois mourant, l'autel de Pergame, le Laocoon. Scopas est la source du grand pathos qui, bien plus tard, inspirera le baroque (Bernin, ch. 19)."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Face à la grâce sereine de Praxitèle, son contemporain, Scopas représente l'autre versant du IVᵉ siècle : non le charme, mais la passion. Ses originaux sont perdus ; on le connaît par des têtes attribuées et par les copies."
             }
           ]
         }

@@ -6415,5 +6415,75 @@
     "h": 3456,
     "format": "jpg",
     "file": "Θεές_των_Όφεων_6391.JPG"
+  },
+  "Charioteer of Delphi": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Vognstyreren-fra_Delfi2.jpg/1280px-Vognstyreren-fra_Delfi2.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 748,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Vognstyreren-fra_Delfi2.jpg",
+    "w": 2288,
+    "h": 1712,
+    "format": "jpg",
+    "file": "Vognstyreren-fra_Delfi2.jpg"
+  },
+  "Riace bronzes": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/96/Reggio_calabria_museo_nazionale_bronzi_di_riace.jpg",
+    "thumb_w": 229,
+    "thumb_h": 475,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Reggio_calabria_museo_nazionale_bronzi_di_riace.jpg",
+    "w": 229,
+    "h": 475,
+    "format": "jpg",
+    "file": "Reggio_calabria_museo_nazionale_bronzi_di_riace.jpg"
+  },
+  "Scopas": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/NAMA_Hygie.jpg",
+    "thumb_w": 1200,
+    "thumb_h": 1591,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/NAMA_Hygie.jpg",
+    "w": 1200,
+    "h": 1591,
+    "format": "jpg",
+    "file": "NAMA_Hygie.jpg"
+  },
+  "Dying Gaul": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dying_gaul.jpg/1280px-Dying_gaul.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 813,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Dying_gaul.jpg",
+    "w": 1458,
+    "h": 1186,
+    "format": "jpg",
+    "file": "Dying_gaul.jpg"
+  },
+  "Pergamon Altar": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pergamon_Museum_in_Berlin.jpg/1280px-Pergamon_Museum_in_Berlin.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 695,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pergamon_Museum_in_Berlin.jpg",
+    "w": 3318,
+    "h": 2305,
+    "format": "jpg",
+    "file": "Pergamon_Museum_in_Berlin.jpg"
+  },
+  "Boxer at Rest": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/P%C3%BAgil_en_rep%C3%B2s_%28s._IV_a.C.%29%2C_Museu_Nacional_Rom%C3%A0_%28Palau_Massimo%29%2C_Roma_%28Vista_general%29.jpg/1280px-P%C3%BAgil_en_rep%C3%B2s_%28s._IV_a.C.%29%2C_Museu_Nacional_Rom%C3%A0_%28Palau_Massimo%29%2C_Roma_%28Vista_general%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1499,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/P%C3%BAgil_en_rep%C3%B2s_%28s._IV_a.C.%29%2C_Museu_Nacional_Rom%C3%A0_%28Palau_Massimo%29%2C_Roma_%28Vista_general%29.jpg",
+    "w": 3199,
+    "h": 4795,
+    "format": "jpg",
+    "file": "Púgil_en_repòs_(s._IV_a.C.),_Museu_Nacional_Romà_(Palau_Massimo),_Roma_(Vista_general).jpg"
+  },
+  "Anavyssos Kouros": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Kouros_anavissos.jpg",
+    "thumb_w": 612,
+    "thumb_h": 1522,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Kouros_anavissos.jpg",
+    "w": 612,
+    "h": 1522,
+    "format": "jpg",
+    "file": "Kouros_anavissos.jpg"
   }
 }
