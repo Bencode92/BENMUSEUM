@@ -6295,5 +6295,125 @@
     "h": 959,
     "format": "jpg",
     "file": "Rosalba Carriera - Winter - WGA04501.jpg"
+  },
+  "Cueva de las Manos": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/SantaCruz-CuevaManos-P2210651b.jpg/1280px-SantaCruz-CuevaManos-P2210651b.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 750,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/SantaCruz-CuevaManos-P2210651b.jpg",
+    "w": 1600,
+    "h": 1200,
+    "format": "jpg",
+    "file": "SantaCruz-CuevaManos-P2210651b.jpg"
+  },
+  "Olmec colossal heads": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/San_Lorenzo_Monument_4_crop.jpg",
+    "thumb_w": 807,
+    "thumb_h": 1152,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/San_Lorenzo_Monument_4_crop.jpg",
+    "w": 807,
+    "h": 1152,
+    "format": "jpg",
+    "file": "San_Lorenzo_Monument_4_crop.jpg"
+  },
+  "Giza pyramid complex": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/1280px-Pyramids_of_the_Giza_Necropolis.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 417,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pyramids_of_the_Giza_Necropolis.jpg",
+    "w": 10104,
+    "h": 4210,
+    "format": "jpg",
+    "file": "Pyramids_of_the_Giza_Necropolis.jpg"
+  },
+  "Pyramid of Djoser": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sakkara_01.jpg/1280px-Sakkara_01.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 749,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Sakkara_01.jpg",
+    "w": 4315,
+    "h": 3232,
+    "format": "jpg",
+    "file": "Sakkara_01.jpg"
+  },
+  "Imhotep": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Imhotep%2C_donated_by_Padisu_MET_DP164134.jpg/1280px-Imhotep%2C_donated_by_Padisu_MET_DP164134.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1346,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Imhotep%2C_donated_by_Padisu_MET_DP164134.jpg",
+    "w": 2972,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Imhotep,_donated_by_Padisu_MET_DP164134.jpg"
+  },
+  "Standard of Ur": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg/1280px-Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 750,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg",
+    "w": 4288,
+    "h": 3216,
+    "format": "jpg",
+    "file": "Denis_Bourez_-_British_Museum,_London_(8747049029)_(2).jpg"
+  },
+  "Code of Hammurabi": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+    "thumb_w": 1215,
+    "thumb_h": 2000,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+    "w": 1215,
+    "h": 2000,
+    "format": "jpg",
+    "file": "P1050763_Louvre_code_Hammurabi_face_rwk.JPG"
+  },
+  "Lion Hunt of Ashurbanipal": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Exhibition_I_am_Ashurbanipal_king_of_the_world%2C_king_of_Assyria%2C_British_Museum_%2845972455081%29.jpg/1280px-Exhibition_I_am_Ashurbanipal_king_of_the_world%2C_king_of_Assyria%2C_British_Museum_%2845972455081%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 662,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Exhibition_I_am_Ashurbanipal_king_of_the_world%2C_king_of_Assyria%2C_British_Museum_%2845972455081%29.jpg",
+    "w": 4928,
+    "h": 3264,
+    "format": "jpg",
+    "file": "Exhibition_I_am_Ashurbanipal_king_of_the_world,_king_of_Assyria,_British_Museum_(45972455081).jpg"
+  },
+  "Ishtar Gate": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Berl%C3%ADn%2C_Museo_de_P%C3%A9rgamo_05.jpg/1280px-Berl%C3%ADn%2C_Museo_de_P%C3%A9rgamo_05.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 622,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Berl%C3%ADn%2C_Museo_de_P%C3%A9rgamo_05.jpg",
+    "w": 3628,
+    "h": 2256,
+    "format": "jpg",
+    "file": "Berlín,_Museo_de_Pérgamo_05.jpg"
+  },
+  "Mask of Agamemnon": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Athens_%E2%80%94_Mask_of_Agamemnon.jpg/1280px-Athens_%E2%80%94_Mask_of_Agamemnon.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 946,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Athens_%E2%80%94_Mask_of_Agamemnon.jpg",
+    "w": 3455,
+    "h": 3268,
+    "format": "jpg",
+    "file": "Athens_—_Mask_of_Agamemnon.jpg"
+  },
+  "Lion Gate Mycenae": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lion_Gate_-_Mycenae_by_Joy_of_Museums.jpg/1280px-Lion_Gate_-_Mycenae_by_Joy_of_Museums.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 667,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Lion_Gate_-_Mycenae_by_Joy_of_Museums.jpg",
+    "w": 5046,
+    "h": 3366,
+    "format": "jpg",
+    "file": "Lion_Gate_-_Mycenae_by_Joy_of_Museums.jpg"
+  },
+  "Snake Goddess": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/%CE%98%CE%B5%CE%AD%CF%82_%CF%84%CF%89%CE%BD_%CE%8C%CF%86%CE%B5%CF%89%CE%BD_6391.JPG/1280px-%CE%98%CE%B5%CE%AD%CF%82_%CF%84%CF%89%CE%BD_%CE%8C%CF%86%CE%B5%CF%89%CE%BD_6391.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 750,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/%CE%98%CE%B5%CE%AD%CF%82_%CF%84%CF%89%CE%BD_%CE%8C%CF%86%CE%B5%CF%89%CE%BD_6391.JPG",
+    "w": 4608,
+    "h": 3456,
+    "format": "jpg",
+    "file": "Θεές_των_Όφεων_6391.JPG"
   }
 }

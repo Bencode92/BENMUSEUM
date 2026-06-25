@@ -11051,13 +11051,44 @@
       ],
       "oeuvres": [
         {
-          "titre": "Grottes de Lascaux & Altamira",
-          "artiste": "Anonyme",
-          "annee": "~17 000 av. J.-C.",
-          "lieu": "France / Espagne",
+          "titre": "Grottes de Lascaux",
+          "artiste": "Anonyme (magdalénien)",
+          "annee": "v. 17 000 av. J.-C.",
+          "lieu": "Dordogne, France",
           "wiki": "Lascaux",
-          "genie": "Des troupeaux peints au fond de grottes obscures, presque inaccessibles. Si on les cache si loin, c'est qu'elles ne sont pas faites pour être vues mais pour agir : magie de la chasse. La vivacité du trait montre une observation déjà aiguë.",
-          "analyse": "Découvertes en 1940 par des adolescents, les peintures de Lascaux (vers 17 000 av. J.-C.) couvrent les parois d'une grotte du Périgord d'aurochs, de chevaux et de cerfs d'un dynamisme saisissant. Surnommées « la chapelle Sixtine de la préhistoire », elles ne sont pas une décoration mais sans doute un dispositif magique lié à la chasse — peintes là où personne ne vivait, dans le noir. La vivacité du trait, le sens du mouvement et du volume (en jouant des bosses de la roche) révèlent une observation déjà extraordinairement aiguë."
+          "analyse": "Chevaux, aurochs et cerfs lancés sur la roche avec un sens prodigieux du mouvement. La « perspective tordue » (cornes de face sur une tête de profil) montre ce qu'on SAIT de l'animal, non ce qu'on voit : un choix, pas une maladresse."
+        },
+        {
+          "titre": "Grotte d'Altamira",
+          "artiste": "Anonyme",
+          "annee": "v. 15 000 av. J.-C.",
+          "lieu": "Cantabrie, Espagne",
+          "wiki": "Cave of Altamira",
+          "analyse": "Des bisons polychromes épousent les bosses du plafond, qui les font saillir à la lueur des torches. Découverts en 1879, on les crut d'abord faux : trop beaux pour être préhistoriques."
+        },
+        {
+          "titre": "Grotte Chauvet",
+          "artiste": "Anonyme",
+          "annee": "v. 36 000 av. J.-C.",
+          "lieu": "Ardèche, France",
+          "wiki": "Chauvet Cave",
+          "analyse": "Parmi les plus anciennes peintures connues : lions, rhinocéros et chevaux déjà d'une maîtrise totale. Preuve que l'art naît d'emblée accompli, et non par lent tâtonnement vers le « réalisme »."
+        },
+        {
+          "titre": "La Vénus de Willendorf",
+          "artiste": "Anonyme",
+          "annee": "v. 25 000 av. J.-C.",
+          "lieu": "Naturhistorisches Museum, Vienne",
+          "wiki": "Venus of Willendorf",
+          "analyse": "Le corps féminin réduit à ses signes de fécondité — seins, ventre, hanches — sans visage. Non un portrait mais une image-pouvoir, un condensé de fertilité tenant dans la main."
+        },
+        {
+          "titre": "Les mains négatives",
+          "artiste": "Anonyme",
+          "annee": "v. 7 000 av. J.-C.",
+          "lieu": "Cueva de las Manos, Patagonie (Argentine)",
+          "wiki": "Cueva de las Manos",
+          "analyse": "La main posée sur la paroi, le pigment soufflé tout autour : la silhouette en creux. « J'étais là » — peut-être la première signature de l'humanité, le geste de présence le plus pur."
         },
         {
           "titre": "Masques et statues tribaux",
@@ -11065,17 +11096,15 @@
           "annee": "toutes époques",
           "lieu": "Afrique, Océanie",
           "wiki": "Traditional African masks",
-          "genie": "Visages stylisés, géométriques, parfois effrayants. La forme n'imite pas un visage, elle incarne un esprit. Ces objets fascineront plus tard Picasso et les modernes.",
-          "analyse": "Le problème : pour ces sociétés, l'image n'imite pas, elle agit. La solution : le masque ne reproduit pas un visage humain mais en stylise les traits jusqu'à la géométrie, parfois jusqu'à l'effroi, pour incarner un esprit ou une force et permettre, dans le rite, de devenir un autre. Le détail à voir : l'écart total avec le réalisme occidental — formes simplifiées, symétries, exagérations codifiées, transmises de génération en génération. L'héritage : ces objets, longtemps relégués comme « primitifs », bouleverseront Picasso et les modernes vers 1906-07 (Les Demoiselles d'Avignon en sortent directement) ; ils prouvent qu'il n'existe pas une seule « bonne » façon de représenter."
+          "analyse": "Objets rituels où l'abstraction expressive concentre un pouvoir : incarner un esprit, un ancêtre, une force. Leur géométrie puissante bouleversera Picasso et les modernes (ch. 27)."
         },
         {
-          "titre": "Art précolombien",
+          "titre": "Têtes colossales olmèques",
           "artiste": "Anonyme",
-          "annee": "av. 1500",
-          "lieu": "Amériques",
-          "wiki": "Pre-Columbian art",
-          "genie": "Architecture monumentale, sculptures puissantes et codifiées (Aztèques, Mayas, Incas) : des civilisations entières avec leur propre langage visuel, sans contact avec l'Europe.",
-          "analyse": "Le problème : des civilisations entières (Aztèques, Mayas, Incas) inventent, sans aucun contact avec l'Europe, leur propre langage visuel. La solution : un art monumental et hautement codifié — pyramides, temples, sculptures de dieux et de souverains — au service du cosmos, du calendrier et du pouvoir sacré, où la précision géométrique compte plus que la ressemblance. Le détail à voir : la stylisation rituelle, la frontalité, l'absence de perspective, l'omniprésence du sacré et du sang. L'héritage : un rappel que la beauté et la fonction de l'art se jugent selon la culture qui le produit, pas selon nos catégories."
+          "annee": "v. 1200-900 av. J.-C.",
+          "lieu": "Golfe du Mexique",
+          "wiki": "Olmec colossal heads",
+          "analyse": "Des têtes de basalte de plusieurs tonnes, aux traits individualisés (des souverains ?), taillées sans outils de métal. Un art sacré et politique monumental, surgi d'un monde totalement coupé de l'Europe."
         }
       ],
       "artistes_note": "Aucun nom : l'art est collectif, rituel, transmis. C'est justement ce qui le distingue de tout ce qui suivra.",
@@ -11191,31 +11220,116 @@
       ],
       "oeuvres": [
         {
+          "titre": "Les pyramides de Gizeh",
+          "artiste": "Anonyme égyptien",
+          "annee": "v. 2560 av. J.-C.",
+          "lieu": "Gizeh, Égypte",
+          "wiki": "Giza pyramid complex",
+          "analyse": "Trois montagnes de pierre parfaitement orientées, tombeaux des pharaons de l'Ancien Empire. La géométrie pure mise au service de l'éternité : faire durer le roi au-delà de la mort."
+        },
+        {
+          "titre": "Le Grand Sphinx",
+          "artiste": "Anonyme égyptien",
+          "annee": "v. 2500 av. J.-C.",
+          "lieu": "Gizeh, Égypte",
+          "wiki": "Great Sphinx of Giza",
+          "analyse": "Corps de lion, tête de pharaon : la force animale unie à l'autorité royale, gardien colossal taillé dans le roc. L'image fond le pouvoir humain et la puissance sacrée."
+        },
+        {
+          "titre": "La pyramide à degrés de Djéser",
+          "artiste": "Imhotep",
+          "annee": "v. 2630 av. J.-C.",
+          "lieu": "Saqqarah, Égypte",
+          "wiki": "Pyramid of Djoser",
+          "analyse": "La première grande construction de pierre de l'histoire, conçue par Imhotep — empilement de mastabas montant vers le ciel. L'un des rares monuments dont on connaisse l'architecte."
+        },
+        {
           "titre": "Peintures et reliefs de tombes",
-          "artiste": "Anonyme",
-          "annee": "tous Empires",
-          "lieu": "Égypte",
+          "artiste": "Anonyme égyptien",
+          "annee": "Nouvel Empire",
+          "lieu": "Vallée des Rois, Thèbes",
           "wiki": "Ancient Egyptian art",
-          "genie": "Scènes de la vie, du travail, des offrandes, en registres. Système de représentation fonctionnel : chaque élément montré sous son angle le plus lisible, pour « équiper » le défunt dans l'au-delà.",
-          "analyse": "Le problème : assurer au défunt une vie éternelle complète exige de tout montrer, clairement et durablement. La solution : un système rigoureux — la scène se lit en registres horizontaux superposés, et chaque chose est figurée sous son angle le plus reconnaissable (tête de profil, œil et torse de face, jambes de profil). Le détail à voir : ce n'est jamais ce que l'œil verrait d'un point de vue unique, mais ce que l'esprit sait ; les serviteurs, les récoltes, les offrandes sont « catalogués » pour équiper le mort. L'héritage : un langage d'une stabilité unique, presque inchangé sur 3000 ans, parce que sa cohérence et sa durée valaient plus que toute innovation."
+          "analyse": "Sur les parois, la loi du profil : tête de profil mais œil de face, épaules de face mais jambes de profil. Chaque partie montrée sous son angle le plus lisible, pour l'éternité."
         },
         {
-          "titre": "La révolution d'Akhenaton / Amarna",
-          "artiste": "Anonyme",
-          "annee": "~1350 av. J.-C.",
-          "lieu": "Amarna",
-          "wiki": "Amarna art",
-          "genie": "Akhenaton impose un style plus naturel, intime, sensible (scènes familiales tendres). Brève rupture du canon millénaire — preuve que les règles égyptiennes étaient un choix, pas une incapacité.",
-          "analyse": "Le problème : le canon égyptien semblait immuable — était-ce une incapacité ? La solution, brève et spectaculaire : sous le pharaon Akhenaton (vers 1350 av. J.-C.), à Amarna, l'art s'assouplit soudain — corps plus naturels, scènes familiales tendres (le couple royal caressant ses enfants sous le disque solaire), une intimité inédite. Le détail à voir : la rondeur des formes, le relâchement des poses, l'émotion. L'héritage : cette parenthèse, vite refermée après la mort du pharaon « hérétique », prouve l'essentiel — si les Égyptiens ont peint « raide » pendant des millénaires, c'était un choix culturel, pas une limite technique."
+          "titre": "Le buste de Néfertiti",
+          "artiste": "Anonyme (atelier de Thoutmôsis)",
+          "annee": "v. 1345 av. J.-C.",
+          "lieu": "Neues Museum, Berlin",
+          "wiki": "Nefertiti Bust",
+          "analyse": "Sommet de la parenthèse d'Amarna : un visage d'une grâce et d'un naturel inouïs, où l'Égypte « voit » au lieu de « savoir ». Un instant de liberté aussitôt refermé."
         },
         {
-          "titre": "Fresques de Knossos",
-          "artiste": "Anonyme",
-          "annee": "~1500 av. J.-C.",
-          "lieu": "Crète",
+          "titre": "Le masque de Toutânkhamon",
+          "artiste": "Anonyme égyptien",
+          "annee": "v. 1323 av. J.-C.",
+          "lieu": "Musée égyptien, Le Caire",
+          "wiki": "Mask of Tutankhamun",
+          "analyse": "Or et lapis-lazuli pour le visage idéalisé du jeune pharaon : un masque funéraire fait pour l'éternité, gardant une trace de la douceur d'Amarna."
+        },
+        {
+          "titre": "L'Étendard d'Ur",
+          "artiste": "Anonyme sumérien",
+          "annee": "v. 2600 av. J.-C.",
+          "lieu": "British Museum, Londres",
+          "wiki": "Standard of Ur",
+          "analyse": "Une boîte incrustée racontant, sur deux faces, la guerre et la paix en registres superposés. Le récit gravé du pouvoir : déjà l'image au service de l'ordre social."
+        },
+        {
+          "titre": "La stèle du code de Hammurabi",
+          "artiste": "Anonyme babylonien",
+          "annee": "v. 1750 av. J.-C.",
+          "lieu": "Musée du Louvre, Paris",
+          "wiki": "Code of Hammurabi",
+          "analyse": "Une stèle de basalte couverte de lois, surmontée du roi recevant le pouvoir du dieu-soleil. L'image légitime la loi : le pouvoir gravé pour durer."
+        },
+        {
+          "titre": "La chasse au lion d'Assurbanipal",
+          "artiste": "Anonyme assyrien",
+          "annee": "v. 645 av. J.-C.",
+          "lieu": "British Museum, Londres",
+          "wiki": "Lion Hunt of Ashurbanipal",
+          "analyse": "Reliefs assyriens d'une violence magistrale : le roi terrassant les lions, propagande de la force royale. La souffrance des bêtes, observée avec une intensité saisissante."
+        },
+        {
+          "titre": "La Porte d'Ishtar",
+          "artiste": "Anonyme babylonien",
+          "annee": "v. 575 av. J.-C.",
+          "lieu": "Pergamonmuseum, Berlin",
+          "wiki": "Ishtar Gate",
+          "analyse": "Une porte monumentale de briques émaillées d'un bleu profond, semée d'animaux sacrés. Babylone affirme sa splendeur : la couleur et la matière au service du prestige."
+        },
+        {
+          "titre": "Les fresques de Knossos",
+          "artiste": "Anonyme minoen",
+          "annee": "v. 1700-1450 av. J.-C.",
+          "lieu": "Cnossos, Crète",
           "wiki": "Knossos",
-          "genie": "Fresques vives et libres (dauphins, danseurs). Une exception joyeuse et naturelle au monde rigide du Proche-Orient.",
-          "analyse": "Le problème : dans un Proche-Orient à l'art grave et hiératique, la Crète minoenne fait exception. La solution : des fresques vives, libres, joyeuses — dauphins ondoyants, jeux taurins, danseurs, fleurs — peintes d'un trait souple et coloré. Le détail à voir : le mouvement et la spontanéité, à l'opposé de la frontalité égyptienne ; la nature et le plaisir y dominent. L'héritage : une civilisation insulaire raffinée et lumineuse qui annonce, par sa fraîcheur, le futur regard grec sur le corps et le monde."
+          "analyse": "Dauphins, jeunes gens bondissant par-dessus le taureau, « dames » élégantes : fluidité, mouvement, couleurs vives. L'exception joyeuse, à l'opposé de la rigidité égyptienne."
+        },
+        {
+          "titre": "La Déesse aux serpents",
+          "artiste": "Anonyme minoen",
+          "annee": "v. 1600 av. J.-C.",
+          "lieu": "Musée d'Héraklion, Crète",
+          "wiki": "Snake Goddess",
+          "analyse": "Une figurine de faïence, seins nus et serpents brandis, pleine de vie et d'énergie : la vitalité minoenne, sensuelle et libre, loin de toute obsession funéraire."
+        },
+        {
+          "titre": "Le masque d'Agamemnon",
+          "artiste": "Anonyme mycénien",
+          "annee": "v. 1550 av. J.-C.",
+          "lieu": "Musée national, Athènes",
+          "wiki": "Mask of Agamemnon",
+          "analyse": "Un masque funéraire d'or battu trouvé à Mycènes. La civilisation mycénienne, plus guerrière que la crétoise, prend le relais sur le continent et prépare le monde grec."
+        },
+        {
+          "titre": "La Porte des Lions de Mycènes",
+          "artiste": "Anonyme mycénien",
+          "annee": "v. 1250 av. J.-C.",
+          "lieu": "Mycènes, Grèce",
+          "wiki": "Lion Gate Mycenae",
+          "analyse": "Deux lionnes héraldiques au-dessus de l'entrée de la citadelle : la première sculpture monumentale du sol grec, gardienne du pouvoir mycénien."
         }
       ],
       "artistes_note": "Quasi anonymes. Imhotep (architecte de la première pyramide) est l'un des rares noms ; Akhenaton est un pharaon-réformateur, pas un artiste.",
@@ -11300,6 +11414,48 @@
         {
           "h": "La Mésopotamie : le pouvoir gravé",
           "p": "Entre les fleuves, les cités de Sumer, Babylone et Assur développent un art parallèle : stèles de victoire, taureaux ailés gardant les palais, bas-reliefs de chasses royales et de batailles. Comme en Égypte, l'art y sert le roi et les dieux, et raconte la puissance — la première grande narration en images de l'histoire."
+        },
+        {
+          "h": "La Crète : l'exception joyeuse",
+          "p": "Sur l'île de Crète, au palais de Knossos, une civilisation maritime et raffinée invente tout l'inverse de la rigidité égyptienne : fluidité, mouvement, amour de la mer et de la nature, couleurs vives, aucune obsession de la mort. Dauphins, sauts au-dessus du taureau, « dames » élégantes : l'art y respire et danse. Par cette vivacité, la Crète est le chaînon discret qui annonce déjà le goût grec du corps vivant et du mouvement (ch. 3)."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Imhotep",
+          "dates": "v. 2600 av. J.-C.",
+          "role": "Le premier architecte nommé",
+          "wiki": "Imhotep",
+          "portrait": "Imhotep, vizir et savant universel de l'Ancien Empire, est l'architecte de la pyramide à degrés de Djéser — la première grande construction de pierre de l'histoire. C'est l'un des très rares créateurs dont l'Antiquité ait gardé le nom, au point d'être plus tard divinisé : l'exception qui confirme l'anonymat de la règle.",
+          "bio_sections": [
+            {
+              "h": "Un savant universel",
+              "p": "Imhotep n'est pas qu'un bâtisseur : vizir du pharaon Djéser, il est aussi prêtre, astronome et médecin. Figure d'érudit total dans une Égypte naissante, il incarne le savoir mis au service du pouvoir royal."
+            },
+            {
+              "h": "La pyramide à degrés (v. 2630 av.)",
+              "p": "À Saqqarah, il conçoit pour Djéser un tombeau révolutionnaire : six mastabas empilés formant une pyramide à degrés, montant vers le ciel. C'est la première grande architecture de pierre taillée de l'histoire — l'ancêtre des pyramides de Gizeh."
+            },
+            {
+              "h": "Un nom qui traverse les millénaires",
+              "p": "Fait extraordinaire dans un art presque entièrement anonyme : son nom est gravé et transmis. Quinze siècles après sa mort, les Égyptiens le divinisent comme dieu de la médecine et de la sagesse, et les Grecs l'assimilent à Asclépios."
+            },
+            {
+              "h": "L'exception qui confirme la règle",
+              "p": "Partout ailleurs dans ce bloc (préhistoire, Égypte, Mésopotamie, Crète), l'artiste n'a pas de nom : l'individu créateur n'existe pas encore comme valeur. Imhotep est l'exception célèbre — il faudra attendre la Grèce (ch. 3-4) pour que les artistes commencent à signer, et la Renaissance (ch. 15) pour que le génie soit sacré."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La pyramide à degrés de Djéser",
+              "artiste": "Imhotep",
+              "annee": "v. 2630 av. J.-C.",
+              "lieu": "Saqqarah, Égypte",
+              "wiki": "Pyramid of Djoser",
+              "analyse": "Six mastabas empilés montant vers le ciel : le premier grand monument de pierre de l'histoire. Imhotep invente l'architecture monumentale et donne à l'Égypte le modèle dont sortiront les pyramides de Gizeh."
+            }
+          ]
         }
       ]
     },
