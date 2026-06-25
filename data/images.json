@@ -6735,5 +6735,25 @@
     "h": 500,
     "format": "jpg",
     "file": "Villard_de_Honnecourt.jpg"
+  },
+  "Francis Bacon (artist)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Bacon_by_Gray_257.jpg/960px-Bacon_by_Gray_257.jpg",
+    "thumb_w": 900,
+    "thumb_h": 1124,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bacon_by_Gray_257.jpg",
+    "w": 1426,
+    "h": 1781,
+    "format": "jpg",
+    "file": "Bacon by Gray 257.jpg"
+  },
+  "El Anatsui": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/El_Anatsui_-_Man%27s_Cloth.jpg/960px-El_Anatsui_-_Man%27s_Cloth.jpg",
+    "thumb_w": 900,
+    "thumb_h": 601,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/El_Anatsui_-_Man%27s_Cloth.jpg",
+    "w": 3776,
+    "h": 2520,
+    "format": "jpg",
+    "file": "El Anatsui - Man's Cloth.jpg"
   }
 }

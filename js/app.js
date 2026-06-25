@@ -12,7 +12,7 @@ let COMMUNITY = [];          // ajouts partagés (data/community.json) — visib
 let CAPSTONE = null;         // clés transversales (data/capstone.json)
 const $ = id => document.getElementById(id);
 
-const DV = "78"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "79"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -61,13 +61,32 @@ async function getImageUrl(title) {
     const url = first?.thumbnail?.source || null; imgCache.set(title, url); return url;
   } catch { return null; }
 }
+// œuvres modernes encore sous droits d'auteur → non incluses dans le manifeste libre de droits
+const PROTECTED = new Set(["Guernica (Picasso)", "The Persistence of Memory", "Bicycle Wheel"]);
+function phSVG(kind) {
+  const label = kind === "protege" ? "Œuvre sous droits" : "Image indisponible";
+  const icon = kind === "protege" ? "🔒" : "🖼";
+  const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='640' height='480'>` +
+    `<rect width='100%' height='100%' fill='#F4F3EE'/>` +
+    `<rect x='10' y='10' width='620' height='460' fill='none' stroke='#DDD8CB' stroke-width='2' stroke-dasharray='7 7'/>` +
+    `<text x='50%' y='43%' font-size='66' text-anchor='middle' dominant-baseline='central'>${icon}</text>` +
+    `<text x='50%' y='62%' font-size='27' fill='#6F685B' font-family='Georgia, serif' text-anchor='middle'>${label}</text>` +
+    `</svg>`;
+  return "data:image/svg+xml," + encodeURIComponent(svg);
+}
+function imgPlaceholder(el, kind) {
+  if (el.tagName === "IMG") { el.src = phSVG(kind); el.classList.add("imgph"); }
+  else el.classList.add("thumbph", kind === "protege" ? "protege" : "missing");
+}
 function loadImages(root = document) {
   root.querySelectorAll("[data-wiki]").forEach(el => {
     if (el.dataset.loaded) return; el.dataset.loaded = "1";
-    getImageUrl(el.dataset.wiki).then(url => {
-      if (!url) return;
-      if (el.tagName === "IMG") el.src = url;
-      else el.style.backgroundImage = `url("${url}")`;
+    const wiki = el.dataset.wiki;
+    if (!wiki) return;
+    if (PROTECTED.has(wiki)) { imgPlaceholder(el, "protege"); return; }
+    getImageUrl(wiki).then(url => {
+      if (url) { if (el.tagName === "IMG") el.src = url; else el.style.backgroundImage = `url("${url}")`; }
+      else imgPlaceholder(el, "missing");
     });
   });
 }
@@ -106,8 +125,9 @@ function openZoom(wiki, cap) {
   const lb = $("lightbox"); if (!lb) return;
   $("lbcap").textContent = cap || ""; $("lbimg").src = "";
   lb.hidden = false;
+  if (PROTECTED.has(wiki)) { $("lbimg").src = phSVG("protege"); return; }
   const hi = IMAGES[wiki] && (IMAGES[wiki].url || IMAGES[wiki].thumb);
-  if (hi) $("lbimg").src = hi; else getImageUrl(wiki).then(u => { if (u) $("lbimg").src = u; });
+  if (hi) $("lbimg").src = hi; else getImageUrl(wiki).then(u => { $("lbimg").src = u || phSVG("missing"); });
 }
 function closeZoom() { const lb = $("lightbox"); if (lb) { lb.hidden = true; $("lbimg").src = ""; } }
 if ($("lightbox")) {
