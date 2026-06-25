@@ -2400,7 +2400,8 @@
               "wiki": "Joseph in Egypt (Pontormo)",
               "analyse": "Plusieurs épisodes de l'histoire de Joseph se déroulent en même temps dans un espace irréel, peuplé de petites figures, d'escaliers en spirale et de statues. Couleurs vives, composition foisonnante et déroutante : déjà toute la liberté inquiète du maniérisme naissant."
             }
-          ]
+          ],
+          "groupe": "Maniérisme florentin"
         },
         {
           "niveau": "★",
@@ -2465,7 +2466,8 @@
               "wiki": "Portrait of Lucrezia Panciatichi",
               "analyse": "Une jeune femme au visage de porcelaine, au regard absent, parée de bijoux dont un collier portant la devise « sans fin ». La beauté lisse et distante du portrait maniériste, d'une élégance presque irréelle."
             }
-          ]
+          ],
+          "groupe": "Maniérisme florentin"
         },
         {
           "niveau": "★",
@@ -2514,7 +2516,8 @@
               "wiki": "Madonna with the Long Neck",
               "analyse": "La Vierge, au cou et aux doigts démesurément allongés, tient un Enfant glissant, énorme, dans un espace incohérent (une colonne isolée, un personnage minuscule). L'anatomie sacrifiée à la pure grâce de la ligne : le manifeste de l'élégance maniériste."
             }
-          ]
+          ],
+          "groupe": "Maniérisme de Parme"
         },
         {
           "niveau": "○",
@@ -2570,7 +2573,8 @@
               "wiki": "Cellini Salt Cellar",
               "analyse": "En or et émail, deux figures allongées — Neptune (la mer, qui donne le sel) et la Terre (qui donne le poivre) — encadrent les condiments. Objet de table digne d'un roi, sommet de l'orfèvrerie : le luxe et la grâce maniéristes à l'échelle de la main."
             }
-          ]
+          ],
+          "groupe": "Sculpture maniériste"
         },
         {
           "niveau": "○",
@@ -2618,7 +2622,8 @@
               "wiki": "Abduction of a Sabine Woman",
               "analyse": "Trois figures enlacées s'élèvent en spirale dans un seul bloc de marbre : on tourne autour sans trouver de face principale. Sommet de la figura serpentinata maniériste et prouesse technique inouïe — le mouvement et la virtuosité poussés à l'extrême."
             }
-          ]
+          ],
+          "groupe": "Sculpture maniériste"
         },
         {
           "niveau": "★",
@@ -2675,7 +2680,8 @@
               "wiki": "Susanna and the Elders (Tintoretto)",
               "analyse": "Suzanne, nue, se mire au bord de l'eau, ignorant les deux vieillards qui l'épient. Lumière nacrée sur la chair, perspective audacieuse de la haie de roses, sensualité et tension du regard voleur : la virtuosité vénitienne au service du récit biblique."
             }
-          ]
+          ],
+          "groupe": "Venise tardive"
         },
         {
           "niveau": "★",
@@ -2756,7 +2762,8 @@
               "wiki": "The Opening of the Fifth Seal",
               "analyse": "Saint Jean, immense, lève les bras vers un ciel tourmenté tandis que des âmes nues se dressent pour recevoir des vêtements. Couleurs irréelles, corps en flammes : une œuvre tardive si moderne qu'elle inspira directement Picasso."
             }
-          ]
+          ],
+          "groupe": "Le visionnaire"
         },
         {
           "niveau": "★",
@@ -2845,7 +2852,8 @@
               "wiki": "Netherlandish Proverbs",
               "analyse": "Un village où une centaine de proverbes sont mis en scène littéralement (« se cogner la tête au mur », « porter le jour dans un panier »). Encyclopédie drôle et grinçante de la folie et de la sottise humaines, à déchiffrer sans fin."
             }
-          ]
+          ],
+          "groupe": "Le Nord (voie distincte)"
         },
         {
           "niveau": "○",
@@ -2893,6 +2901,153 @@
               "lieu": "Minneapolis Institute of Art",
               "wiki": "Six Tuscan Poets",
               "analyse": "Dante, Pétrarque, Boccace et trois autres poètes toscans réunis autour d'une table, comme un panthéon des lettres. Vasari, l'historien-peintre, met en image sa passion : célébrer et fixer pour la postérité les grands hommes de la culture italienne."
+            }
+          ],
+          "groupe": "Le théoricien"
+        },
+        {
+          "niveau": "★",
+          "nom": "Rosso Fiorentino",
+          "dates": "1494-1540",
+          "role": "Maniérisme florentin / Fontainebleau",
+          "groupe": "Maniérisme florentin",
+          "wiki": "Rosso Fiorentino",
+          "portrait": "Rosso Fiorentino, condisciple de Pontormo à la manière dure et anguleuse, est le passeur du maniérisme : appelé par François Iᵉʳ, il fonde l'école de Fontainebleau et exporte le nouveau style hors d'Italie.",
+          "bio_sections": [
+            {
+              "h": "Les origines : Florence",
+              "p": "Florentin comme Pontormo, formé dans le sillage d'Andrea del Sarto et de Michel-Ange, Giovan Battista di Jacopo, dit Rosso (« le roux »), appartient à la première génération qui, vers 1520, cherche une voie après la perfection de la Haute Renaissance."
+            },
+            {
+              "h": "Sa manière : dure, anguleuse, dramatique",
+              "p": "Plus heurté que Pontormo, Rosso peint des figures aux contours tranchants, aux poses tendues, aux couleurs froides et acides. Sa Déposition de Volterra, aux corps anguleux suspendus à des échelles, est un sommet d'étrangeté expressive et d'anti-harmonie."
+            },
+            {
+              "h": "Le déclic : la France et Fontainebleau",
+              "p": "Après le sac de Rome (1527), qu'il vit de près, Rosso part en France au service de François Iᵉʳ. Il y dirige le décor du château de Fontainebleau, mêlant fresque et stucs encadrant les scènes (les fameux « cuirs » et guirlandes)."
+            },
+            {
+              "h": "Le passeur du maniérisme au Nord",
+              "p": "Avec le Primatice, il fonde l'école de Fontainebleau : c'est par lui que l'élégance maniériste italienne — figures allongées, sensualité raffinée, ornement — gagne la France et, de là, toute l'Europe du Nord."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Pontormo reste à Florence, Rosso est l'exportateur : il transforme un style italien en mode européenne. Sans lui, pas de Fontainebleau, ni du goût français pour la grâce maniériste qui marquera le XVIᵉ siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Déposition de Volterra",
+              "artiste": "Rosso Fiorentino",
+              "annee": "1521",
+              "lieu": "Pinacothèque, Volterra",
+              "wiki": "Volterra Deposition",
+              "analyse": "Des corps anguleux, aux gestes saccadés, s'affairent sur de frêles échelles autour du Christ mort, dans des couleurs froides et criardes. Pas d'harmonie, mais une tension nerveuse et une étrangeté glacée : l'un des premiers manifestes du maniérisme."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Arcimboldo",
+          "dates": "1526-1593",
+          "role": "Maniérisme de cour (Prague)",
+          "groupe": "Maniérisme de cour",
+          "wiki": "Giuseppe Arcimboldo",
+          "portrait": "Arcimboldo, peintre des empereurs à Prague et Vienne, invente les « têtes composées » : des portraits faits de fruits, de légumes, de fleurs ou de livres — virtuosité ludique et énigmatique, redécouverte par les surréalistes.",
+          "bio_sections": [
+            {
+              "h": "Les origines : Milan, puis les cours des Habsbourg",
+              "p": "Milanais, d'abord peintre de vitraux, Giuseppe Arcimboldo entre au service des empereurs Habsbourg (Maximilien II puis Rodolphe II) à Vienne et à Prague — cours raffinées, curieuses de sciences, de merveilles et de jeux d'esprit."
+            },
+            {
+              "h": "L'invention : les têtes composées",
+              "p": "Sa trouvaille célèbre : des profils humains entièrement faits d'objets assemblés. Les saisons deviennent des visages de fleurs (Printemps) ou de fruits d'automne ; les éléments, les métiers, les bibliothécaires se composent de leurs attributs."
+            },
+            {
+              "h": "Sa technique : l'illusion savante",
+              "p": "Chaque fruit, fleur ou poisson est peint avec une précision naturaliste de cabinet de curiosités ; mais l'ensemble forme, par illusion, un visage. Le jeu fascine la cour : c'est un divertissement spirituel, allégorique et flatteur (Vertumnus célèbre Rodolphe II en dieu des saisons)."
+            },
+            {
+              "h": "Oubli et redécouverte",
+              "p": "Oublié pendant des siècles comme une simple curiosité, Arcimboldo est redécouvert au XXᵉ siècle par les surréalistes (Dalí, ch. 27), qui voient en lui un précurseur de l'image double et de l'imaginaire onirique."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Vertumnus (Rodolphe II)",
+              "artiste": "Arcimboldo",
+              "annee": "v. 1590",
+              "lieu": "Château de Skokloster, Suède",
+              "wiki": "Vertumnus (Arcimboldo)",
+              "analyse": "L'empereur Rodolphe II est représenté en Vertumne, dieu romain des saisons et des jardins : son visage est entièrement composé de fruits, fleurs et légumes de toute l'année. Flatterie allégorique (l'abondance du règne) et prouesse d'illusion."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Sofonisba Anguissola",
+          "dates": "v. 1532-1625",
+          "role": "Portrait (femme artiste)",
+          "groupe": "Femmes artistes",
+          "wiki": "Sofonisba Anguissola",
+          "portrait": "Sofonisba Anguissola, noble crémonaise, fut l'une des premières femmes artistes de renommée européenne : portraitiste de la cour d'Espagne, admirée de Michel-Ange, elle invente un portrait intime et vivant longtemps minoré par le récit.",
+          "bio_sections": [
+            {
+              "h": "Les origines : une éducation noble exceptionnelle",
+              "p": "Fille d'un noble de Crémone progressiste, elle reçoit, fait rarissime pour une femme, une véritable formation de peintre. Mais exclue de l'étude du nu (interdite aux femmes), elle se tourne vers ce qu'elle peut observer : sa famille, les portraits, les scènes intimes."
+            },
+            {
+              "h": "Le déclic : admirée de Michel-Ange",
+              "p": "Le vieux Michel-Ange, à qui l'on montre ses dessins, l'encourage et corrige ses esquisses : une caution prestigieuse. Vasari lui-même la cite avec admiration dans ses Vies — reconnaissance exceptionnelle pour une artiste femme."
+            },
+            {
+              "h": "Sa technique : le portrait intime et vivant",
+              "p": "Elle excelle dans le portrait psychologique et les scènes de famille pleines de naturel et de tendresse — comme La Partie d'échecs, où ses sœurs jouent et rient. Une fraîcheur et une vie nouvelles, loin de la raideur officielle."
+            },
+            {
+              "h": "La cour d'Espagne",
+              "p": "Sa réputation lui vaut d'être appelée à Madrid comme dame d'honneur et peintre de la reine Élisabeth de Valois, à la cour de Philippe II. Elle y mène, des décennies durant, une carrière de portraitiste officielle — sommet rare pour une femme."
+            },
+            {
+              "h": "Ce qui la différencie / postérité",
+              "p": "Pionnière, elle ouvre la voie aux femmes artistes (Lavinia Fontana, plus tard Artemisia). Longtemps ses œuvres furent attribuées à des hommes ; sa réévaluation en fait aujourd'hui une figure majeure de la Renaissance tardive."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Partie d'échecs",
+              "artiste": "Sofonisba Anguissola",
+              "annee": "1555",
+              "lieu": "Musée national, Poznań",
+              "wiki": "The Game of Chess (Sofonisba Anguissola)",
+              "analyse": "Trois des sœurs de l'artiste jouent aux échecs sous le regard d'une servante, l'une souriant au spectateur. Scène intime, vivante et naturelle, d'une modernité saisissante : le portrait de groupe devient instant de vie familiale."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Lavinia Fontana",
+          "dates": "1552-1614",
+          "role": "Portrait & peinture d'histoire (femme artiste)",
+          "groupe": "Femmes artistes",
+          "wiki": "Lavinia Fontana",
+          "portrait": "Lavinia Fontana, Bolonaise, est l'une des premières femmes à vivre d'une véritable carrière professionnelle de peintre : portraitiste recherchée, elle obtient même de grandes commandes publiques et religieuses, domaine alors réservé aux hommes.",
+          "bio_sections": [
+            {
+              "h": "Les origines : Bologne",
+              "p": "Fille du peintre Prospero Fontana, formée dans son atelier, Lavinia exerce à Bologne — ville où l'Université et un climat plus ouvert favorisent l'instruction des femmes. Son mari gère son atelier et leur nombreuse famille, fait inhabituel."
+            },
+            {
+              "h": "Vivre de son art",
+              "p": "Portraitiste très demandée de la noblesse bolonaise, puis appelée à Rome par le pape, elle obtient des commandes publiques de grands retables d'église — chose presque inédite pour une femme. Elle vit pleinement de sa peinture."
+            },
+            {
+              "h": "Sa technique",
+              "p": "Portraits riches et minutieux (étoffes, bijoux, dentelles rendus avec soin), mais aussi scènes religieuses et mythologiques de grand format, où elle ose même le nu — audace rare pour une artiste de son temps."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Avec Sofonisba Anguissola, elle prouve qu'une femme peut mener une carrière professionnelle complète et reconnue. À citer, comme Anguissola, dans la réintégration des femmes artistes longtemps effacées du récit."
             }
           ]
         }

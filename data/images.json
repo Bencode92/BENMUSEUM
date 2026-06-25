@@ -5975,5 +5975,75 @@
     "h": 3189,
     "format": "jpg",
     "file": "Self_portrait,_after_Sebastiano_del_Piombo.jpg"
+  },
+  "Rosso Fiorentino": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Houghton_Typ_525_68.864_-_Vasari%2C_Le_vite_-_Il_Rosso.jpg/1280px-Houghton_Typ_525_68.864_-_Vasari%2C_Le_vite_-_Il_Rosso.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1202,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Houghton_Typ_525_68.864_-_Vasari%2C_Le_vite_-_Il_Rosso.jpg",
+    "w": 2623,
+    "h": 3153,
+    "format": "jpg",
+    "file": "Houghton_Typ_525_68.864_-_Vasari,_Le_vite_-_Il_Rosso.jpg"
+  },
+  "Giuseppe Arcimboldo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg/1280px-Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1485,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg",
+    "w": 3765,
+    "h": 5592,
+    "format": "jpg",
+    "file": "Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg"
+  },
+  "Vertumnus (Arcimboldo)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg/1280px-Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1240,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg",
+    "w": 11795,
+    "h": 14623,
+    "format": "jpg",
+    "file": "Vertumnus_årstidernas_gud_målad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg"
+  },
+  "Sofonisba Anguissola": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sofonisba_Anguissola%2C_Selvportr%C3%A6t_ved_staffeliet%2C_1556%2C_Museum_Castle_in_%C5%81a%C5%84cut.jpg/1280px-Sofonisba_Anguissola%2C_Selvportr%C3%A6t_ved_staffeliet%2C_1556%2C_Museum_Castle_in_%C5%81a%C5%84cut.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1162,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Sofonisba_Anguissola%2C_Selvportr%C3%A6t_ved_staffeliet%2C_1556%2C_Museum_Castle_in_%C5%81a%C5%84cut.jpg",
+    "w": 6100,
+    "h": 7087,
+    "format": "jpg",
+    "file": "Sofonisba_Anguissola,_Selvportræt_ved_staffeliet,_1556,_Museum_Castle_in_Łańcut.jpg"
+  },
+  "Lavinia Fontana": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Lavinia-Fontana-Autoritratto-in-studio-1579-Firenze-Uffizi_%28cropped%29.png",
+    "thumb_w": 866,
+    "thumb_h": 876,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Lavinia-Fontana-Autoritratto-in-studio-1579-Firenze-Uffizi_%28cropped%29.png",
+    "w": 866,
+    "h": 876,
+    "format": "png",
+    "file": "Lavinia-Fontana-Autoritratto-in-studio-1579-Firenze-Uffizi_(cropped).png"
+  },
+  "Volterra Deposition": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rosso_Fiorentino%2C_Deposizione_di_Volterra%2C_Pinacoteca_e_Museo_Civico_di_Volterra%2C_1521.jpg/1280px-Rosso_Fiorentino%2C_Deposizione_di_Volterra%2C_Pinacoteca_e_Museo_Civico_di_Volterra%2C_1521.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1693,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rosso_Fiorentino%2C_Deposizione_di_Volterra%2C_Pinacoteca_e_Museo_Civico_di_Volterra%2C_1521.jpg",
+    "w": 4429,
+    "h": 7500,
+    "format": "jpg",
+    "file": "Rosso_Fiorentino,_Deposizione_di_Volterra,_Pinacoteca_e_Museo_Civico_di_Volterra,_1521.jpg"
+  },
+  "The Game of Chess (Sofonisba Anguissola)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/The_Chess_Game_%28Sofonisba_Anguissola%29_1555_%284096x3236px%29.jpg/1280px-The_Chess_Game_%28Sofonisba_Anguissola%29_1555_%284096x3236px%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 790,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/The_Chess_Game_%28Sofonisba_Anguissola%29_1555_%284096x3236px%29.jpg",
+    "w": 4096,
+    "h": 3236,
+    "format": "jpg",
+    "file": "The_Chess_Game_(Sofonisba_Anguissola)_1555_(4096x3236px).jpg"
   }
 }
