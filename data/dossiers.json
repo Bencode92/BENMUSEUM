@@ -1181,7 +1181,7 @@
           "dates": "~1430-1516",
           "role": "",
           "wiki": "Giovanni Bellini",
-          "groupe": "Renaissance d'Italie du Nord",
+          "groupe": "Venise",
           "portrait": "Giovanni Bellini (v. 1430-1516) est le père de l'école vénitienne et le maître qui a appris à Venise à peindre la lumière. Au fil d'une longue carrière, il a transformé les madones et les retables par une douceur atmosphérique nouvelle, formant Giorgione et Titien — toute la gloire vénitienne descend de lui.",
           "bio_sections": [
             {
@@ -1246,7 +1246,7 @@
           "dates": "~1477-1510",
           "role": "",
           "wiki": "Giorgione",
-          "groupe": "Renaissance d'Italie du Nord",
+          "groupe": "Venise",
           "portrait": "Giorgione (v. 1477-1510) est le plus mystérieux des grands Vénitiens. Mort jeune de la peste, il n'a laissé qu'une poignée d'œuvres sûres — mais il a inventé une peinture nouvelle, où l'atmosphère, la poésie et le rêve comptent plus que le sujet, et marqué à jamais Titien et toute Venise.",
           "bio_sections": [
             {
@@ -1852,6 +1852,109 @@
             {
               "h": "Ce qui le différencie",
               "p": "Maître de second rang mais raffiné, il illustre comment le génie des trois grands irrigue, par leurs suiveurs, toute l'Italie de la Renaissance."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Antonello da Messina",
+          "dates": "v. 1430-1479",
+          "role": "L'huile flamande à Venise",
+          "groupe": "Venise",
+          "wiki": "Antonello da Messina",
+          "portrait": "Antonello da Messina, Sicilien, apporte à Venise la peinture à l'huile flamande : la précision du Nord unie à la lumière du Sud — l'étincelle qui déclenche toute l'école vénitienne de la couleur.",
+          "bio_sections": [
+            {
+              "h": "Les origines : la Sicile, carrefour",
+              "p": "Né à Messine, en Sicile — île carrefour entre l'Italie, l'Espagne et le monde flamand via le commerce —, Antonello apprend très tôt la technique de la peinture à l'huile venue des Pays-Bas (de Van Eyck, ch. 14), encore rare en Italie."
+            },
+            {
+              "h": "Le déclic : l'huile à Venise (vers 1475)",
+              "p": "Son séjour à Venise est décisif : il y apporte la maîtrise de l'huile sur panneau, qui permet glacis, transparences et lumière douce. Giovanni Bellini s'en empare aussitôt — et c'est de là que naît la grande école vénitienne de la couleur."
+            },
+            {
+              "h": "Sa technique : Nord + Sud",
+              "p": "Il unit la minutie flamande du détail (chaque cheveu, chaque reflet) à la clarté géométrique et à la lumière italiennes. Ses Saint Jérôme dans son cabinet et ses portraits d'homme, au regard vif et direct, sont d'une présence saisissante."
+            },
+            {
+              "h": "Le portrait moderne",
+              "p": "Ses portraits en buste, tournés de trois quarts, fixant presque le spectateur, héritent du portrait flamand et fondent une tradition italienne du portrait psychologique vivant."
+            },
+            {
+              "h": "Pourquoi il compte",
+              "p": "Sans Antonello, pas de colorito vénitien : il est le passeur qui apporte l'outil (l'huile) et la sensibilité (la lumière, le détail) dont Bellini, Giorgione et Titien feront le langage de Venise."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Saint Jérôme dans son cabinet de travail",
+              "artiste": "Antonello da Messina",
+              "annee": "v. 1475",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Saint Jerome in His Study (Antonello)",
+              "analyse": "Saint Jérôme étudie dans un cabinet de bois ouvert comme une scène, entouré d'objets minutieux (livres, oiseaux, un lion dans l'ombre), baigné d'une lumière douce. Précision flamande et clarté italienne réunies : l'huile fait son entrée triomphale en Italie."
+            },
+            {
+              "titre": "Portrait d'homme",
+              "artiste": "Antonello da Messina",
+              "annee": "v. 1475",
+              "lieu": "National Gallery, Londres",
+              "wiki": "Portrait of a Man (Antonello)",
+              "analyse": "Un homme de trois quarts, au léger sourire et au regard direct, surgit de l'ombre avec une présence vivante héritée du portrait flamand. L'un des premiers grands portraits psychologiques de la Renaissance italienne."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Lorenzo Lotto",
+          "dates": "v. 1480-1556",
+          "role": "Portrait psychologique",
+          "groupe": "Venise",
+          "wiki": "Lorenzo Lotto",
+          "portrait": "Lorenzo Lotto, Vénitien excentrique et inquiet, fut un grand portraitiste psychologique — longtemps éclipsé par Titien, aujourd'hui redécouvert pour son étrange profondeur.",
+          "bio_sections": [
+            {
+              "h": "Les origines : un solitaire errant",
+              "p": "Vénitien de formation, mais incapable de s'imposer dans la Venise dominée par Titien, Lotto mène une vie d'errance (Bergame, les Marches, Rome…), inquiète et pieuse, finissant oblat dans un couvent de Lorette."
+            },
+            {
+              "h": "Sa technique : couleur vénitienne, âme troublée",
+              "p": "Il a la couleur lumineuse de Venise, mais une sensibilité nerveuse, mélancolique, parfois bizarre : compositions instables, symboles énigmatiques, lumières étranges. Une voix dissonante dans l'harmonie vénitienne."
+            },
+            {
+              "h": "Le portraitiste de l'intériorité",
+              "p": "Ses portraits captent l'inquiétude, la rêverie, la fragilité de ses modèles, avec des objets symboliques qui révèlent leur vie intérieure. Une psychologie d'une finesse rare pour l'époque."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Longtemps jugé mineur car non conforme au triomphe titianesque, Lotto est aujourd'hui réévalué comme l'un des plus originaux et émouvants de la Renaissance vénitienne — le peintre de l'âme troublée."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Sebastiano del Piombo",
+          "dates": "v. 1485-1547",
+          "role": "Venise à Rome",
+          "groupe": "Venise (à Rome)",
+          "wiki": "Sebastiano del Piombo",
+          "portrait": "Sebastiano del Piombo, Vénitien parti à Rome, tente la fusion impossible : la couleur de Venise et le dessin puissant de Michel-Ange, dont il devient l'allié contre Raphaël.",
+          "bio_sections": [
+            {
+              "h": "Les origines : de Venise à Rome",
+              "p": "Formé à Venise dans le sillage de Giorgione (la couleur, l'atmosphère), Sebastiano part à Rome vers 1511, en plein triomphe de la Haute Renaissance (ch. 15)."
+            },
+            {
+              "h": "Le déclic : l'alliance avec Michel-Ange",
+              "p": "À Rome, il se lie à Michel-Ange, qui voit en lui un champion vénitien à opposer à Raphaël. Michel-Ange lui fournit parfois des dessins que Sebastiano met en couleur : une collaboration unique."
+            },
+            {
+              "h": "Sa technique : la fusion disegno + colorito",
+              "p": "Il tente la synthèse rêvée : la force du dessin et de l'anatomie romaine (Michel-Ange) avec la richesse de la couleur vénitienne. La Résurrection de Lazare, peinte en rivalité directe avec la Transfiguration de Raphaël."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Surnommé « del Piombo » (du plomb) car nommé gardien du sceau de plomb pontifical (une charge lucrative qui ralentit sa production), il incarne le point de contact entre les deux grands pôles de la Renaissance : Venise et Rome."
             }
           ]
         }

@@ -5925,5 +5925,55 @@
     "h": 1024,
     "format": "jpg",
     "file": "Portrait_of_Angelica_Kauffman_(1764).jpg"
+  },
+  "Antonello da Messina": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg/1280px-Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1392,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg",
+    "w": 4309,
+    "h": 6000,
+    "format": "jpg",
+    "file": "Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg"
+  },
+  "Saint Jerome in His Study (Antonello)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg/1280px-Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1268,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg",
+    "w": 4731,
+    "h": 6000,
+    "format": "jpg",
+    "file": "Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg"
+  },
+  "Portrait of a Man (Antonello)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg/1280px-Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1392,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg",
+    "w": 4309,
+    "h": 6000,
+    "format": "jpg",
+    "file": "Antonello_da_Messina_-_Portrait_of_a_Man_-_National_Gallery_London.jpg"
+  },
+  "Lorenzo Lotto": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Lotto_Lorenzo_%28attributed%29_presumably_self_portrait_31862-p.jpg/1280px-Lotto_Lorenzo_%28attributed%29_presumably_self_portrait_31862-p.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1247,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lotto_Lorenzo_%28attributed%29_presumably_self_portrait_31862-p.jpg",
+    "w": 2205,
+    "h": 2750,
+    "format": "jpg",
+    "file": "Lotto_Lorenzo_(attributed)_presumably_self_portrait_31862-p.jpg"
+  },
+  "Sebastiano del Piombo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Self_portrait%2C_after_Sebastiano_del_Piombo.jpg/1280px-Self_portrait%2C_after_Sebastiano_del_Piombo.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1311,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Self_portrait%2C_after_Sebastiano_del_Piombo.jpg",
+    "w": 2433,
+    "h": 3189,
+    "format": "jpg",
+    "file": "Self_portrait,_after_Sebastiano_del_Piombo.jpg"
   }
 }
