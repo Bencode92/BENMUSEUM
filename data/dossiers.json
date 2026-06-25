@@ -13021,6 +13021,54 @@
           "wiki": "Palatine Chapel, Aachen",
           "genie": "Architecture qui imite consciemment Rome et Byzance. Charlemagne veut ressusciter l'Empire : première tentative de « renaissance » antique en Occident.",
           "analyse": "Le problème : comment renouer avec la grandeur perdue de Rome ? La solution de Charlemagne (vers 800) : sa chapelle Palatine d'Aix imite consciemment l'architecture romaine et byzantine (plan centré, coupole, marbres). Le détail à voir : la volonté d'imitation de l'Antique, la solennité retrouvée. L'héritage : la « renaissance carolingienne », première tentative en Occident de ressusciter l'Empire et son art — un avant-goût, sept siècles avant, de la vraie Renaissance."
+        },
+        {
+          "titre": "Le Livre de Kells",
+          "artiste": "Anonyme (insulaire)",
+          "annee": "v. 800",
+          "lieu": "Trinity College, Dublin",
+          "wiki": "Book of Kells",
+          "analyse": "Un évangéliaire irlandais d'une virtuosité folle : pages-tapis d'entrelacs sans fin, lettrines peuplées d'animaux et de nœuds. L'apport « barbare » de l'entrelacs porté à son sommet, au service du livre sacré."
+        },
+        {
+          "titre": "Le Livre de Durrow",
+          "artiste": "Anonyme (insulaire)",
+          "annee": "v. 680",
+          "lieu": "Trinity College, Dublin",
+          "wiki": "Book of Durrow",
+          "analyse": "L'un des premiers grands évangéliaires insulaires : entrelacs, spirales et symboles des évangélistes réduits à des signes presque abstraits. L'individu s'efface dans un décor liturgique infini."
+        },
+        {
+          "titre": "Les portes de bronze d'Hildesheim",
+          "artiste": "Anonyme (ottonien)",
+          "annee": "v. 1015",
+          "lieu": "Cathédrale d'Hildesheim",
+          "wiki": "Bernward Doors",
+          "analyse": "Deux vantaux de bronze coulés d'un seul jet, racontant la Genèse et la vie du Christ en reliefs vifs et gauches. L'art ottonien retrouve l'ambition monumentale et une émotion narrative nouvelle."
+        },
+        {
+          "titre": "Le crucifix de Gero",
+          "artiste": "Anonyme (ottonien)",
+          "annee": "v. 970",
+          "lieu": "Cathédrale de Cologne",
+          "wiki": "Gero Cross",
+          "analyse": "Un grand Christ de bois, mort, la tête tombée, le ventre affaissé : une des premières fois où la souffrance du corps est montrée crûment. Une émotion nouvelle entre dans l'art occidental."
+        },
+        {
+          "titre": "Le Psautier d'Utrecht",
+          "artiste": "Anonyme (carolingien)",
+          "annee": "v. 830",
+          "lieu": "Bibliothèque d'Utrecht",
+          "wiki": "Utrecht Psalter",
+          "analyse": "Des dessins à la plume nerveux, agités, qui illustrent les psaumes de petites figures bondissantes. La renaissance carolingienne renoue avec la vivacité antique, à l'opposé du hiératisme."
+        },
+        {
+          "titre": "La Tapisserie de Bayeux",
+          "artiste": "Anonyme (peut-être des brodeuses)",
+          "annee": "v. 1070",
+          "lieu": "Bayeux",
+          "wiki": "Bayeux Tapestry",
+          "analyse": "Une broderie de 70 mètres racontant la conquête de l'Angleterre par Guillaume : un récit en images d'une vivacité étonnante. Œuvre peut-être brodée par des femmes — à réintégrer dans l'histoire."
         }
       ],
       "artistes_note": "Moines anonymes, copistes et enlumineurs. L'individu s'efface derrière l'œuvre collective du monastère.",
@@ -13088,6 +13136,44 @@
           "h": "Le creuset de l'Occident",
           "p": "De ce mélange — héritage romain, christianisme, traditions « barbares », apport byzantin — naît peu à peu l'art médiéval occidental. Le terrain est prêt : bientôt, les abbayes romanes puis les cathédrales gothiques feront de nouveau surgir le grand art monumental."
         }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Hildegarde de Bingen",
+          "dates": "1098-1179",
+          "role": "L'abbesse visionnaire",
+          "wiki": "Hildegard of Bingen",
+          "portrait": "Hildegarde de Bingen, abbesse, compositrice, savante et mystique, est l'une des très rares créatrices nommées du Moyen Âge : ses visions, consignées et enluminées, font d'elle une figure majeure à réintégrer dans une histoire de l'art trop longtemps masculine.",
+          "bio_sections": [
+            {
+              "h": "Une abbesse universelle",
+              "p": "Moniale puis abbesse en Rhénanie, Hildegarde est à la fois théologienne, médecin, naturaliste et compositrice de musique. Femme de pouvoir et de savoir dans un monde clérical masculin, elle correspond avec papes et empereurs."
+            },
+            {
+              "h": "Les visions de Scivias",
+              "p": "Elle dit recevoir des visions de lumière depuis l'enfance et les consigne dans le Scivias, accompagné d'enluminures éclatantes (réalisées sous sa direction) : mandalas de feu, cosmos, figures cosmiques d'une étrangeté saisissante."
+            },
+            {
+              "h": "Une créatrice nommée — fait rare",
+              "p": "Dans un Moyen Âge où l'art est presque toujours anonyme et collectif, Hildegarde laisse un nom, une œuvre identifiée et une pensée personnelle. Elle incarne l'exception et rappelle que des femmes créaient, même quand le récit les a effacées."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Ni simple copiste ni exécutante : une autrice qui conçoit textes, images et musique comme un tout. Sa redécouverte au XXᵉ siècle en a fait un symbole de la créativité féminine longtemps invisibilisée."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les enluminures du Scivias",
+              "artiste": "Hildegarde de Bingen",
+              "annee": "v. 1151",
+              "lieu": "Manuscrit du Scivias",
+              "wiki": "Scivias",
+              "analyse": "Une figure baignée de flammes et d'or illustre une vision cosmique : Hildegarde se représente recevant la lumière divine, plume en main. Des images d'une force visionnaire, à mi-chemin de la théologie et de l'art."
+            }
+          ]
+        }
       ]
     },
     {
@@ -13141,6 +13227,30 @@
           "wiki": "Gislebertus",
           "genie": "Christ en gloire, damnés tordus de terreur. La sculpture enseigne et effraie : les corps sont allongés, déformés, non par maladresse mais pour frapper l'esprit. L'expression prime sur le réel.",
           "analyse": "Le problème : instruire et frapper des fidèles qui ne savent pas lire. La solution : sur le tympan d'Autun (vers 1130), Gislebertus sculpte un Jugement dernier où le Christ trône, immense, parmi des damnés tordus de terreur. Le détail à voir : les corps allongés, déformés, disproportionnés — non par maladresse mais pour terrifier et hiérarchiser ; l'expression prime sur le réel. Fait rare : l'artiste a signé son œuvre, signe précoce d'une fierté d'auteur. L'héritage : la « Bible de pierre » médiévale, où la sculpture enseigne par l'effroi et l'émerveillement."
+        },
+        {
+          "titre": "Le tympan de Vézelay",
+          "artiste": "Anonyme roman",
+          "annee": "v. 1130",
+          "lieu": "Basilique Sainte-Madeleine, Vézelay",
+          "wiki": "Vézelay Abbey",
+          "analyse": "Un Christ immense en gloire, rayonnant, envoie les apôtres évangéliser le monde ; autour, les peuples lointains, fantastiques. La déformation et l'agrandissement du Christ servent le message, non le réalisme."
+        },
+        {
+          "titre": "L'abbatiale Sainte-Foy de Conques",
+          "artiste": "Anonyme roman",
+          "annee": "XIᵉ-XIIᵉ s.",
+          "lieu": "Conques",
+          "wiki": "Abbey Church of Saint Foy",
+          "analyse": "Une église-forteresse sur le chemin de Compostelle, dont le tympan du Jugement dernier déploie en registres clairs le tri des élus et des damnés. La « Bible des illettrés » faite pierre."
+        },
+        {
+          "titre": "L'abbaye de Cluny",
+          "artiste": "Anonyme roman",
+          "annee": "à partir de 1088",
+          "lieu": "Cluny (Bourgogne)",
+          "wiki": "Cluny Abbey",
+          "analyse": "Jadis la plus grande église de la chrétienté, cœur du faste monastique bénédictin, détruite après la Révolution. Son ambition colossale incarne la puissance de l'Église militante — et provoqua la réaction austère de Cîteaux."
         }
       ],
       "artistes_note": "Majoritairement anonymes. Rare exception : Gislebertus, qui a signé le tympan d'Autun — signe précoce d'une fierté d'artiste.",
@@ -13214,6 +13324,44 @@
           "h": "Vers la lumière",
           "p": "Massif, sombre, terrien, l'art roman exprime une foi grave et un peu effrayée. Mais déjà, les constructeurs cherchent à élever les voûtes, à percer les murs. De cet effort va jaillir, au XIIe siècle, une révolution : le gothique, qui fera entrer la lumière."
         }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "Gislebertus",
+          "dates": "actif v. 1120-1135",
+          "role": "Le sculpteur qui signe",
+          "wiki": "Gislebertus",
+          "portrait": "Gislebertus a gravé son nom — « Gislebertus hoc fecit » — sous le tympan d'Autun : l'un des tout premiers sculpteurs médiévaux à signer son œuvre, signe précoce d'une fierté d'artiste dans un monde anonyme.",
+          "bio_sections": [
+            {
+              "h": "Un nom dans l'anonymat",
+              "p": "« Gislebertus a fait ceci » : ces trois mots gravés sous le Jugement dernier d'Autun sont exceptionnels. Dans un art roman presque entièrement collectif et anonyme, un homme revendique son œuvre — l'ébauche lointaine de l'artiste moderne."
+            },
+            {
+              "h": "Le Jugement dernier d'Autun",
+              "p": "Sur le tympan de la cathédrale Saint-Lazare, il sculpte un Christ colossal trônant, entouré d'élus minuscules et de damnés terrifiés que des démons saisissent. Une scène faite pour instruire et effrayer le pèlerin dès le seuil."
+            },
+            {
+              "h": "L'expressivité romane",
+              "p": "Ses figures sont étirées, anguleuses, aux gestes outrés, aux visages d'épouvante : la déformation n'est pas maladresse mais puissance expressive. La peur du Jugement se lit dans chaque corps tordu."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "À la fois grand artiste et rare signataire, Gislebertus condense les deux leçons du roman : l'image qui enseigne par le sens (non par le réalisme), et l'individu créateur qui, timidement, commence à émerger."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Jugement dernier d'Autun",
+              "artiste": "Gislebertus",
+              "annee": "v. 1130",
+              "lieu": "Cathédrale Saint-Lazare, Autun",
+              "wiki": "Gislebertus",
+              "analyse": "Un Christ colossal trône au centre ; à sa droite les élus, à sa gauche les damnés que des démons happent et qu'on pèse. Figures étirées, terreur sculptée : la « Bible des illettrés » et la signature d'un homme fier de son art."
+            }
+          ]
+        }
       ]
     },
     {
@@ -13267,6 +13415,38 @@
           "wiki": "Reims Cathedral",
           "genie": "Saints d'abord raides, puis de plus en plus naturels, jusqu'à des sourires et des poses vivantes. La sculpture redécouvre l'humain — une marche qui mènera tout droit à Giotto et à la Renaissance.",
           "analyse": "Le problème : la sculpture médiévale, longtemps schématique, peut-elle redevenir humaine ? La solution : sur les portails gothiques (Chartres, Reims), au fil du XIIIe siècle, les statues-colonnes se détachent peu à peu du mur, s'assouplissent, jusqu'à sourire et prendre des poses vivantes. Le détail à voir : l'évolution, d'une figure raide et allongée vers un drapé naturel, un visage incarné, une émotion vraie. L'héritage : cette ré-humanisation de la sculpture ouvre directement la voie à Giotto et, deux siècles plus tard, à la Renaissance."
+        },
+        {
+          "titre": "La Sainte-Chapelle",
+          "artiste": "Anonyme gothique",
+          "annee": "1242-1248",
+          "lieu": "Paris",
+          "wiki": "Sainte-Chapelle",
+          "analyse": "Un écrin où le mur a presque disparu : des parois de vitraux montent d'un seul élan, baignant l'espace de lumière colorée. La châsse de pierre et de verre voulue par Saint Louis pour les reliques de la Passion."
+        },
+        {
+          "titre": "La cathédrale d'Amiens",
+          "artiste": "Anonyme gothique",
+          "annee": "à partir de 1220",
+          "lieu": "Amiens",
+          "wiki": "Amiens Cathedral",
+          "analyse": "Le vaisseau gothique porté à son comble de hauteur et de clarté ; au portail, le « Beau Dieu » bénit, visage serein et humain. La pierre s'élance vers le ciel, la sculpture se réhumanise."
+        },
+        {
+          "titre": "Notre-Dame de Paris",
+          "artiste": "Anonyme gothique",
+          "annee": "1163-1345",
+          "lieu": "Paris",
+          "wiki": "Notre-Dame de Paris",
+          "analyse": "L'un des premiers grands gothiques, avec ses arcs-boutants déployés et ses rosaces de vitraux. La cathédrale comme orgueil de la cité — et, depuis, palimpseste des restaurations du XIXᵉ siècle (Viollet-le-Duc)."
+        },
+        {
+          "titre": "La basilique de Saint-Denis",
+          "artiste": "Anonyme gothique (abbé Suger)",
+          "annee": "v. 1140",
+          "lieu": "Saint-Denis",
+          "wiki": "Basilica of Saint-Denis",
+          "analyse": "Le berceau du gothique : c'est ici que l'abbé Suger fait ouvrir les murs et monter les premiers grands vitraux. Le mur cède au verre, la lumière devient matière théologique."
         }
       ],
       "artistes_note": "Largement anonymes (maîtres d'œuvre, ateliers de tailleurs). Quelques noms émergent, comme Nicola Pisano en Italie, qui ravive l'antique dans la sculpture.",
@@ -13345,6 +13525,66 @@
         {
           "h": "Un art qui gagne l'Europe",
           "p": "Né en France, le gothique conquiert toute l'Europe et dure trois siècles, se faisant toujours plus orné (le « gothique flamboyant »). C'est l'art des grandes cathédrales, sommet du Moyen Âge — et le décor dans lequel, en Italie, un certain Giotto va bientôt rendre à la peinture le poids du réel."
+        }
+      ],
+      "artistes": [
+        {
+          "niveau": "★",
+          "nom": "L'abbé Suger",
+          "dates": "1081-1151",
+          "role": "L'inventeur du gothique",
+          "wiki": "Suger",
+          "portrait": "L'abbé Suger, conseiller des rois et bâtisseur de Saint-Denis, fait dissoudre le mur en vitraux vers 1140 : il invente le style gothique au nom d'une théologie de la lumière, où la clarté colorée élève l'âme vers Dieu.",
+          "bio_sections": [
+            {
+              "h": "L'abbé d'État",
+              "p": "Né modeste, Suger devient abbé de Saint-Denis, nécropole des rois de France, et conseiller des rois Louis VI et Louis VII (il gouverne même le royaume pendant la croisade). Homme de pouvoir autant que d'Église."
+            },
+            {
+              "h": "L'invention du gothique (v. 1140)",
+              "p": "En reconstruisant le chœur de Saint-Denis, il fait combiner croisée d'ogives, arc brisé et grandes baies : le mur s'efface, remplacé par le vitrail. C'est là, vers 1140, que naît le style gothique, qui gagnera toute l'Europe."
+            },
+            {
+              "h": "La théologie de la lumière",
+              "p": "Nourri de l'idée que Dieu est lumière, Suger veut une église où la lumière colorée des vitraux transporte l'âme « du monde matériel vers l'immatériel ». La cathédrale devient une image de la Jérusalem céleste."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Suger n'est pas l'architecte au sens technique, mais le commanditaire-penseur qui conçoit le programme et en laisse un récit écrit — fait rare. L'un des premiers à théoriser ce qu'une œuvre d'art doit produire sur le spectateur."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La basilique de Saint-Denis",
+              "artiste": "L'abbé Suger",
+              "annee": "v. 1140",
+              "lieu": "Saint-Denis",
+              "wiki": "Basilica of Saint-Denis",
+              "analyse": "Le chœur où Suger fait ouvrir les murs : croisée d'ogives et vitraux baignent l'espace de lumière colorée. L'acte de naissance du gothique, conçu comme une montée de l'âme vers la lumière divine."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Villard de Honnecourt",
+          "dates": "actif v. 1230",
+          "role": "Le carnet d'un homme de métier",
+          "wiki": "Villard de Honnecourt",
+          "portrait": "Villard de Honnecourt a laissé un carnet de croquis unique : plans d'églises, machines, figures et animaux. Un témoignage rare et précieux sur le savoir-faire des chantiers gothiques, d'ordinaire anonyme.",
+          "bio_sections": [
+            {
+              "h": "Un carnet qui a traversé les siècles",
+              "p": "On ne sait presque rien de Villard, sinon qu'il a parcouru les grands chantiers (Reims, Laon, Chartres) et consigné dans un carnet de parchemin, vers 1230, tout ce qui l'intéressait : architecture, mécanismes, figures."
+            },
+            {
+              "h": "Le métier mis à nu",
+              "p": "Plans de cathédrales, épure d'un chœur, lion « dessiné d'après nature », machines (une scie hydraulique), procédés de géométrie : son carnet ouvre une fenêtre rarissime sur la pensée concrète des bâtisseurs médiévaux."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Dans un monde où le savoir des chantiers se transmettait oralement et anonymement, Villard met par écrit et par le dessin. Son carnet est l'un des très rares documents qui donnent un visage au travail collectif des cathédrales."
+            }
+          ]
         }
       ]
     },

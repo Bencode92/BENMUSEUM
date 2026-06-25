@@ -6585,5 +6585,155 @@
     "h": 2839,
     "format": "jpg",
     "file": "Guo_Xi_-_Early_Spring_(large).jpg"
+  },
+  "Book of Durrow": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/IE_TCD_MS_57_f.86r.jpg/1280px-IE_TCD_MS_57_f.86r.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1372,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/IE_TCD_MS_57_f.86r.jpg",
+    "w": 6030,
+    "h": 8272,
+    "format": "jpg",
+    "file": "IE_TCD_MS_57_f.86r.jpg"
+  },
+  "Bernward Doors": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bernwardst%C3%BCr.jpg",
+    "thumb_w": 776,
+    "thumb_h": 1679,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bernwardst%C3%BCr.jpg",
+    "w": 776,
+    "h": 1679,
+    "format": "jpg",
+    "file": "Bernwardstür.jpg"
+  },
+  "Gero Cross": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gerokreuz_full_20050903.jpg/1280px-Gerokreuz_full_20050903.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1555,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Gerokreuz_full_20050903.jpg",
+    "w": 1292,
+    "h": 2009,
+    "format": "jpg",
+    "file": "Gerokreuz_full_20050903.jpg"
+  },
+  "Utrecht Psalter": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/72/Utrecht104.jpg",
+    "thumb_w": 1200,
+    "thumb_h": 1626,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Utrecht104.jpg",
+    "w": 1200,
+    "h": 1626,
+    "format": "jpg",
+    "file": "Utrecht104.jpg"
+  },
+  "Hildegard of Bingen": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Hildegard_von_Bingen.jpg/1280px-Hildegard_von_Bingen.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1462,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hildegard_von_Bingen.jpg",
+    "w": 1354,
+    "h": 1980,
+    "format": "jpg",
+    "file": "Hildegard_von_Bingen.jpg"
+  },
+  "Scivias": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Meister_des_Hildegardis-Codex_001_cropped.jpg",
+    "thumb_w": 807,
+    "thumb_h": 1068,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Meister_des_Hildegardis-Codex_001_cropped.jpg",
+    "w": 807,
+    "h": 1068,
+    "format": "jpg",
+    "file": "Meister_des_Hildegardis-Codex_001_cropped.jpg"
+  },
+  "Vézelay Abbey": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/V%C3%A9zelay_-_Basilique_Sainte-Marie-Madeleine_-_Ext%C3%A9rieur_-_10.jpg/1280px-V%C3%A9zelay_-_Basilique_Sainte-Marie-Madeleine_-_Ext%C3%A9rieur_-_10.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1400,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/V%C3%A9zelay_-_Basilique_Sainte-Marie-Madeleine_-_Ext%C3%A9rieur_-_10.jpg",
+    "w": 3875,
+    "h": 5425,
+    "format": "jpg",
+    "file": "Vézelay_-_Basilique_Sainte-Marie-Madeleine_-_Extérieur_-_10.jpg"
+  },
+  "Abbey Church of Saint Foy": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/39/Conques_JPG02.jpg",
+    "thumb_w": 1200,
+    "thumb_h": 1600,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Conques_JPG02.jpg",
+    "w": 1200,
+    "h": 1600,
+    "format": "jpg",
+    "file": "Conques_JPG02.jpg"
+  },
+  "Cluny Abbey": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cluny_-_B%C3%A2timents_abbatiaux_-_08.jpg/1280px-Cluny_-_B%C3%A2timents_abbatiaux_-_08.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 667,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cluny_-_B%C3%A2timents_abbatiaux_-_08.jpg",
+    "w": 6603,
+    "h": 4406,
+    "format": "jpg",
+    "file": "Cluny_-_Bâtiments_abbatiaux_-_08.jpg"
+  },
+  "Sainte-Chapelle": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sainte_Chapelle_-_Upper_level_1.jpg",
+    "thumb_w": 989,
+    "thumb_h": 1961,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sainte_Chapelle_-_Upper_level_1.jpg",
+    "w": 989,
+    "h": 1961,
+    "format": "jpg",
+    "file": "Sainte_Chapelle_-_Upper_level_1.jpg"
+  },
+  "Amiens Cathedral": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG/1280px-0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 1535,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG",
+    "w": 2252,
+    "h": 3456,
+    "format": "jpg",
+    "file": "0_Amiens_-_Cathédrale_Notre-Dame_(1).JPG"
+  },
+  "Basilica of Saint-Denis": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Saint-Denis_-_Fa%C3%A7ade.jpg/1280px-Saint-Denis_-_Fa%C3%A7ade.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1516,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Saint-Denis_-_Fa%C3%A7ade.jpg",
+    "w": 2027,
+    "h": 3072,
+    "format": "jpg",
+    "file": "Saint-Denis_-_Façade.jpg"
+  },
+  "Suger": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Abbot_Suger.jpg",
+    "thumb_w": 658,
+    "thumb_h": 431,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Abbot_Suger.jpg",
+    "w": 658,
+    "h": 431,
+    "format": "jpg",
+    "file": "Abbot_Suger.jpg"
+  },
+  "Villard de Honnecourt": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Villard_de_Honnecourt.jpg",
+    "thumb_w": 350,
+    "thumb_h": 500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Villard_de_Honnecourt.jpg",
+    "w": 350,
+    "h": 500,
+    "format": "jpg",
+    "file": "Villard_de_Honnecourt.jpg"
+  },
+  "Portfolio of Villard de Honnecourt": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Villard_de_Honnecourt.jpg",
+    "thumb_w": 350,
+    "thumb_h": 500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Villard_de_Honnecourt.jpg",
+    "w": 350,
+    "h": 500,
+    "format": "jpg",
+    "file": "Villard_de_Honnecourt.jpg"
   }
 }
