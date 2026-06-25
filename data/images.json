@@ -6045,5 +6045,175 @@
     "h": 3236,
     "format": "jpg",
     "file": "The_Chess_Game_(Sofonisba_Anguissola)_1555_(4096x3236px).jpg"
+  },
+  "Lorenzo Ghiberti": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ghiberti.png",
+    "thumb_w": 1017,
+    "thumb_h": 981,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ghiberti.png",
+    "w": 1017,
+    "h": 981,
+    "format": "png",
+    "file": "Ghiberti.png"
+  },
+  "Paolo Uccello": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cinq_ma%C3%AEtres_de_la_Renaissance_florentine_-_Uccello_%28Louvre%29.jpg/1280px-Cinq_ma%C3%AEtres_de_la_Renaissance_florentine_-_Uccello_%28Louvre%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1253,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cinq_ma%C3%AEtres_de_la_Renaissance_florentine_-_Uccello_%28Louvre%29.jpg",
+    "w": 3590,
+    "h": 4500,
+    "format": "jpg",
+    "file": "Cinq_maîtres_de_la_Renaissance_florentine_-_Uccello_(Louvre).jpg"
+  },
+  "Andrea del Verrocchio": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Andrea_del_Castagno%2C_portrait_de_Verrocchio%2C_vers_1470.jpg",
+    "thumb_w": 846,
+    "thumb_h": 929,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Andrea_del_Castagno%2C_portrait_de_Verrocchio%2C_vers_1470.jpg",
+    "w": 846,
+    "h": 929,
+    "format": "jpg",
+    "file": "Andrea_del_Castagno,_portrait_de_Verrocchio,_vers_1470.jpg"
+  },
+  "Domenico Ghirlandaio": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/de/Domenico_Ghirlandaio_Self_Portrait.jpg",
+    "thumb_w": 887,
+    "thumb_h": 1109,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Domenico_Ghirlandaio_Self_Portrait.jpg",
+    "w": 887,
+    "h": 1109,
+    "format": "jpg",
+    "file": "Domenico_Ghirlandaio_Self_Portrait.jpg"
+  },
+  "Hans Memling": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hans_Memling_-_Self-portrait.jpg",
+    "thumb_w": 760,
+    "thumb_h": 1200,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hans_Memling_-_Self-portrait.jpg",
+    "w": 760,
+    "h": 1200,
+    "format": "jpg",
+    "file": "Hans_Memling_-_Self-portrait.jpg"
+  },
+  "Hugo van der Goes": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Hugo_van_der_Goes_007.png/1280px-Hugo_van_der_Goes_007.png",
+    "thumb_w": 1000,
+    "thumb_h": 1188,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Hugo_van_der_Goes_007.png",
+    "w": 3087,
+    "h": 3666,
+    "format": "png",
+    "file": "Hugo_van_der_Goes_007.png"
+  },
+  "Matthias Grünewald": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/Grunewald_Self_Portrait.jpg",
+    "thumb_w": 727,
+    "thumb_h": 995,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Grunewald_Self_Portrait.jpg",
+    "w": 727,
+    "h": 995,
+    "format": "jpg",
+    "file": "Grunewald_Self_Portrait.jpg"
+  },
+  "Lucas Cranach the Elder": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lucas_Cranach_d._%C3%84._063.jpg/1280px-Lucas_Cranach_d._%C3%84._063.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1314,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Lucas_Cranach_d._%C3%84._063.jpg",
+    "w": 1528,
+    "h": 2008,
+    "format": "jpg",
+    "file": "Lucas_Cranach_d._Ä._063.jpg"
+  },
+  "The Battle of San Romano": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/San_Romano_Battle_%28Paolo_Uccello%2C_London%29_01.jpg/1280px-San_Romano_Battle_%28Paolo_Uccello%2C_London%29_01.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 566,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/San_Romano_Battle_%28Paolo_Uccello%2C_London%29_01.jpg",
+    "w": 6074,
+    "h": 3435,
+    "format": "jpg",
+    "file": "San_Romano_Battle_(Paolo_Uccello,_London)_01.jpg"
+  },
+  "An Old Man and his Grandson": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Ghirlandaio%2C_Domenico_-_An_Old_Man_and_His_Grandson_-_Louvre_-_Google_Art_Project.jpg/1280px-Ghirlandaio%2C_Domenico_-_An_Old_Man_and_His_Grandson_-_Louvre_-_Google_Art_Project.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1356,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ghirlandaio%2C_Domenico_-_An_Old_Man_and_His_Grandson_-_Louvre_-_Google_Art_Project.jpg",
+    "w": 2949,
+    "h": 4000,
+    "format": "jpg",
+    "file": "Ghirlandaio,_Domenico_-_An_Old_Man_and_His_Grandson_-_Louvre_-_Google_Art_Project.jpg"
+  },
+  "The Last Judgment (Memling)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Das_J%C3%BCngste_Gericht_%28Memling%29.jpg/1280px-Das_J%C3%BCngste_Gericht_%28Memling%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 666,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Das_J%C3%BCngste_Gericht_%28Memling%29.jpg",
+    "w": 3543,
+    "h": 2359,
+    "format": "jpg",
+    "file": "Das_Jüngste_Gericht_(Memling).jpg"
+  },
+  "Portinari Altarpiece": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hugo_van_der_Goes_-_Portinari_Triptych_%28c._1477%29.jpg/1280px-Hugo_van_der_Goes_-_Portinari_Triptych_%28c._1477%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 415,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Hugo_van_der_Goes_-_Portinari_Triptych_%28c._1477%29.jpg",
+    "w": 3928,
+    "h": 1630,
+    "format": "jpg",
+    "file": "Hugo_van_der_Goes_-_Portinari_Triptych_(c._1477).jpg"
+  },
+  "Isenheim Altarpiece": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Isenheim_Altarpiece_-_In_situ_%28cropped%29.jpg/1280px-Isenheim_Altarpiece_-_In_situ_%28cropped%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 783,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Isenheim_Altarpiece_-_In_situ_%28cropped%29.jpg",
+    "w": 4429,
+    "h": 3468,
+    "format": "jpg",
+    "file": "Isenheim_Altarpiece_-_In_situ_(cropped).jpg"
+  },
+  "The Baptism of Christ (Verrocchio and Leonardo)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Baptism_of_Christ_%28Verrocchio_and_Leonardo%29.jpg/1280px-The_Baptism_of_Christ_%28Verrocchio_and_Leonardo%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1194,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/The_Baptism_of_Christ_%28Verrocchio_and_Leonardo%29.jpg",
+    "w": 5200,
+    "h": 6210,
+    "format": "jpg",
+    "file": "The_Baptism_of_Christ_(Verrocchio_and_Leonardo).jpg"
+  },
+  "Adam and Eve (Cranach)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lucas_Cranach_d.%C3%84._-_Adam_und_Eva_%28Gem%C3%A4ldepaar%29%2C_Mus%C3%A9e_des_Beaux-Arts_de_Besan%C3%A7on.jpg/1280px-Lucas_Cranach_d.%C3%84._-_Adam_und_Eva_%28Gem%C3%A4ldepaar%29%2C_Mus%C3%A9e_des_Beaux-Arts_de_Besan%C3%A7on.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1303,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Lucas_Cranach_d.%C3%84._-_Adam_und_Eva_%28Gem%C3%A4ldepaar%29%2C_Mus%C3%A9e_des_Beaux-Arts_de_Besan%C3%A7on.jpg",
+    "w": 1671,
+    "h": 2178,
+    "format": "jpg",
+    "file": "Lucas_Cranach_d.Ä._-_Adam_und_Eva_(Gemäldepaar),_Musée_des_Beaux-Arts_de_Besançon.jpg"
+  },
+  "North Doors of the Florence Baptistery": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lorenzo_ghiberti_e_aiuti%2C_porta_nord_del_battistero_di_firenze%2C_01.JPG/1280px-Lorenzo_ghiberti_e_aiuti%2C_porta_nord_del_battistero_di_firenze%2C_01.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 1645,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lorenzo_ghiberti_e_aiuti%2C_porta_nord_del_battistero_di_firenze%2C_01.JPG",
+    "w": 1824,
+    "h": 3000,
+    "format": "jpg",
+    "file": "Lorenzo_ghiberti_e_aiuti,_porta_nord_del_battistero_di_firenze,_01.JPG"
+  },
+  "Gates of Paradise": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Lorenzo_ghiberti%2C_porta_del_paradiso%2C_1425-52%2C_00.JPG/1280px-Lorenzo_ghiberti%2C_porta_del_paradiso%2C_1425-52%2C_00.JPG",
+    "thumb_w": 1000,
+    "thumb_h": 1540,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Lorenzo_ghiberti%2C_porta_del_paradiso%2C_1425-52%2C_00.JPG",
+    "w": 2154,
+    "h": 3318,
+    "format": "jpg",
+    "file": "Lorenzo ghiberti, porta del paradiso, 1425-52, 00.JPG"
   }
 }

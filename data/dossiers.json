@@ -986,7 +986,7 @@
           "dates": "~1415-1492",
           "role": "",
           "wiki": "Piero della Francesca",
-          "groupe": "Premier Quattrocento (Florence)",
+          "groupe": "Fin du Quattrocento",
           "portrait": "Piero della Francesca (v. 1415-1492) est le peintre-mathématicien de la Renaissance, le maître d'une peinture d'une perfection géométrique et d'une sérénité silencieuse. Longtemps oublié, il est aujourd'hui adoré : sa lumière claire, ses volumes purs et son calme presque abstrait parlent directement à l'œil moderne.",
           "bio_sections": [
             {
@@ -1955,6 +1955,310 @@
             {
               "h": "Ce qui le différencie",
               "p": "Surnommé « del Piombo » (du plomb) car nommé gardien du sceau de plomb pontifical (une charge lucrative qui ralentit sa production), il incarne le point de contact entre les deux grands pôles de la Renaissance : Venise et Rome."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Ghiberti",
+          "dates": "1378-1455",
+          "role": "La porte de bronze",
+          "groupe": "Premier Quattrocento (Florence)",
+          "wiki": "Lorenzo Ghiberti",
+          "portrait": "Lorenzo Ghiberti remporte en 1401 le concours fondateur du Quattrocento, puis consacre sa vie aux portes du Baptistère de Florence — les « Portes du Paradis » selon Michel-Ange, où la perspective fait entrer la profondeur dans le bronze.",
+          "bio_sections": [
+            {
+              "h": "Le concours de 1401 : l'acte de naissance",
+              "p": "Pour orner les portes du Baptistère de Florence, la ville organise un concours resté célèbre. Ghiberti l'emporte sur Brunelleschi, qui, dépité, se tourne alors vers l'architecture. On date souvent de ce concours le coup d'envoi de la Renaissance florentine."
+            },
+            {
+              "h": "Les Portes du Paradis",
+              "p": "Ghiberti passe l'essentiel de sa vie sur deux portes de bronze. Les secondes, dorées, sont si belles que Michel-Ange les surnomme « les Portes du Paradis » : dix panneaux où, pour la première fois en relief, la perspective creuse une profondeur d'espace."
+            },
+            {
+              "h": "Sa technique : la profondeur en bronze",
+              "p": "Il fond des reliefs où les plans s'étagent du haut-relief (premier plan) au bas-relief presque plat (lointain) : la perspective nouvelle de Brunelleschi appliquée à la sculpture, avec une élégance encore gothique dans les drapés."
+            },
+            {
+              "h": "L'atelier-école",
+              "p": "Son immense chantier devient un atelier-école où se forme une génération entière (Donatello y débute). Ghiberti écrit aussi des Commentarii, l'un des premiers écrits d'un artiste sur son art et son histoire."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Charnière entre le gothique tardif et la Renaissance : il garde la grâce des drapés médiévaux mais y introduit la science nouvelle de l'espace. Sa porte est le manifeste sculpté du premier Quattrocento."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Les Portes du Paradis",
+              "artiste": "Ghiberti",
+              "annee": "1425-1452",
+              "lieu": "Baptistère, Florence (Musée de l'Œuvre du Dôme)",
+              "wiki": "Gates of Paradise",
+              "analyse": "Dix panneaux de bronze doré racontant l'Ancien Testament, où la perspective étage les plans du relief jusqu'à un lointain presque plat. Michel-Ange les jugea dignes d'être « les Portes du Paradis » : la science de l'espace entre dans la sculpture."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Paolo Uccello",
+          "dates": "1397-1475",
+          "role": "L'obsédé de la perspective",
+          "groupe": "Premier Quattrocento (Florence)",
+          "wiki": "Paolo Uccello",
+          "portrait": "Paolo Uccello était si fasciné par la perspective qu'il en oubliait, dit Vasari, de venir se coucher : ses Batailles de San Romano transforment une mêlée en un ballet géométrique de lances et de chevaux.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Florentin formé chez Ghiberti, Uccello appartient à la première génération qui s'empare de la perspective. Il en fait une véritable obsession, multipliant les études de raccourcis et de corps géométriques."
+            },
+            {
+              "h": "L'obsession de la perspective",
+              "p": "Vasari raconte que sa femme l'appelait en vain au lit : Uccello, penché sur ses tracés, murmurait « oh, la douce perspective ! ». Anecdote célèbre sur l'ivresse de la science nouvelle au Quattrocento."
+            },
+            {
+              "h": "Sa technique : la géométrie comme poésie",
+              "p": "Dans La Bataille de San Romano, lances brisées, chevaux et soldats tombés sont disposés selon des lignes de fuite rigoureuses : la guerre devient un échiquier abstrait, presque irréel, d'une étrange beauté décorative."
+            },
+            {
+              "h": "Ce qui le différencie / postérité",
+              "p": "Plus poète que savant exact, il pousse la perspective jusqu'à l'abstraction rêveuse. Redécouvert au XXe siècle, il fut admiré des cubistes et des surréalistes pour ce mélange unique de rigueur et d'étrangeté."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Bataille de San Romano",
+              "artiste": "Paolo Uccello",
+              "annee": "v. 1435-1455",
+              "lieu": "National Gallery, Londres",
+              "wiki": "The Battle of San Romano",
+              "analyse": "Une mêlée de cavaliers, lances dressées et brisées tombant le long de lignes de fuite calculées. La perspective transforme la bataille en un ballet géométrique presque abstrait : la science nouvelle muée en féerie décorative."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Verrocchio",
+          "dates": "v. 1435-1488",
+          "role": "L'atelier du génie",
+          "groupe": "Fin du Quattrocento",
+          "wiki": "Andrea del Verrocchio",
+          "portrait": "Andrea del Verrocchio, sculpteur et peintre, dirige à Florence le plus grand atelier de son temps — celui où se forme le jeune Léonard de Vinci, dont la beauté d'un ange aurait, dit-on, fait renoncer le maître à la peinture.",
+          "bio_sections": [
+            {
+              "h": "L'atelier-carrefour",
+              "p": "Orfèvre de formation, Verrocchio devient le sculpteur favori des Médicis et tient l'atelier le plus couru de Florence. Y passent Léonard de Vinci, Le Pérugin (futur maître de Raphaël) et bien d'autres : un véritable carrefour de la Renaissance."
+            },
+            {
+              "h": "L'anecdote de l'ange",
+              "p": "Dans son Baptême du Christ, Verrocchio confie un ange au jeune Léonard. Selon Vasari, devant la grâce inouïe de cet ange, le maître aurait renoncé à peindre, comprenant que l'élève l'avait dépassé. Anecdote fondatrice du mythe de Léonard."
+            },
+            {
+              "h": "Sa technique",
+              "p": "Excellent sculpteur (son David de bronze, sa statue équestre du Colleone à Venise, pleine de force) autant que peintre, il transmet à ses élèves le goût de l'étude d'après nature, du modelé doux et du mouvement."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Plus qu'une œuvre, il lègue une école : par Léonard et Le Pérugin, son atelier irrigue toute la Haute Renaissance (ch. 15). Le maître dont le génie fut de former des génies."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Baptême du Christ",
+              "artiste": "Verrocchio (et Léonard)",
+              "annee": "v. 1475",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "The Baptism of Christ (Verrocchio and Leonardo)",
+              "analyse": "Saint Jean baptise le Christ ; à gauche, deux anges, dont l'un — d'une douceur lumineuse — serait de la main du jeune Léonard. La légende veut que Verrocchio, ébloui, ait renoncé à la peinture. Le passage de témoin entre deux générations."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Domenico Ghirlandaio",
+          "dates": "1448-1494",
+          "role": "Le chroniqueur de Florence",
+          "groupe": "Fin du Quattrocento",
+          "wiki": "Domenico Ghirlandaio",
+          "portrait": "Domenico Ghirlandaio, fresquiste prospère de la Florence de Laurent le Magnifique, peuple ses scènes sacrées de portraits de la bonne société florentine — et tient l'atelier où débute, adolescent, Michel-Ange.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Florentin, fils d'orfèvre (« ghirlandaio », le fabricant de guirlandes), il dirige un atelier prospère et très organisé, répondant aux grandes commandes de fresques des familles riches de Florence."
+            },
+            {
+              "h": "Sa technique : la chronique en fresque",
+              "p": "Dans ses cycles (chapelle Tornabuoni à Santa Maria Novella), il situe les scènes saintes dans la Florence de son temps et y glisse les portraits des commanditaires et de leurs proches : un document vivant sur la société florentine."
+            },
+            {
+              "h": "Le maître de Michel-Ange",
+              "p": "C'est dans son atelier que Michel-Ange, encore adolescent, apprend la technique de la fresque — savoir-faire qu'il déploiera trente ans plus tard à la Sixtine (ch. 15). À ce titre, un maillon décisif."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Son Vieillard et son petit-fils, où la tendresse l'emporte sur la laideur d'un nez malade, est l'un des portraits les plus émouvants du Quattrocento : la vérité observée unie à l'humanité."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Un vieillard et son petit-fils",
+              "artiste": "Domenico Ghirlandaio",
+              "annee": "v. 1490",
+              "lieu": "Musée du Louvre, Paris",
+              "wiki": "An Old Man and his Grandson",
+              "analyse": "Un vieil homme au nez déformé par la maladie regarde tendrement son petit-fils, qui lève les yeux vers lui. La laideur observée sans complaisance, mais transfigurée par l'amour : un sommet de tendresse et de vérité du Quattrocento."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Memling",
+          "dates": "v. 1430-1494",
+          "role": "La douceur de Bruges",
+          "groupe": "Renaissance des Flandres",
+          "wiki": "Hans Memling",
+          "portrait": "Hans Memling, l'héritier apaisé de Van Eyck à Bruges, peint une beauté sereine et lumineuse : retables paisibles et portraits doux qui firent de lui le peintre le plus prospère de la ville.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "D'origine allemande, Memling se forme probablement chez Van der Weyden avant de s'installer à Bruges, alors capitale du commerce flamand, où il devient un peintre riche et recherché."
+            },
+            {
+              "h": "Sa technique : la sérénité lumineuse",
+              "p": "Il hérite de la minutie et de l'huile eyckiennes, mais en adoucit l'intensité : compositions calmes et équilibrées, visages paisibles, couleurs claires. Une beauté tranquille, sans drame ni tourment."
+            },
+            {
+              "h": "Le portrait flamand",
+              "p": "Ses portraits, souvent sur fond de paysage, fixent les marchands étrangers de Bruges (Italiens notamment) avec une douceur et une dignité qui influenceront le portrait du Sud."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Van der Weyden bouleverse et Bosch inquiète, Memling apaise : il incarne le versant serein, harmonieux, presque italien de l'art flamand de la fin du XVe siècle."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Jugement dernier",
+              "artiste": "Hans Memling",
+              "annee": "v. 1467-1471",
+              "lieu": "Musée national, Gdańsk",
+              "wiki": "The Last Judgment (Memling)",
+              "analyse": "Le Christ juge trône au sommet ; saint Michel pèse les âmes, séparant les élus des damnés. Triptyque d'une clarté lumineuse et d'un fini précieux, commandé par un banquier des Médicis à Bruges — et capturé par des pirates en route vers l'Italie."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Hugo van der Goes",
+          "dates": "v. 1440-1482",
+          "role": "Le réalisme qui frappa Florence",
+          "groupe": "Renaissance des Flandres",
+          "wiki": "Hugo van der Goes",
+          "portrait": "Hugo van der Goes peint le Retable Portinari, envoyé de Bruges à Florence : son réalisme cru — de vrais bergers, de vraies mains rugueuses — frappe les Italiens et leur prouve que le Nord avait quelque chose à leur apprendre.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Maître à Gand, Hugo van der Goes est l'un des plus grands peintres flamands de sa génération, à l'art puissant et inquiet, plus monumental et plus tourmenté que celui de Memling."
+            },
+            {
+              "h": "Le Retable Portinari : Nord → Sud",
+              "p": "Commandé par Tommaso Portinari, agent des Médicis à Bruges, ce grand triptyque est expédié à Florence vers 1483. Son réalisme — bergers aux visages burinés, fleurs et objets minutieux — frappe les peintres florentins et nourrit leur art."
+            },
+            {
+              "h": "Sa technique",
+              "p": "Échelle monumentale, émotion intense, réalisme sans idéalisation : il ose montrer la rudesse des humbles à côté de la majesté sacrée, dans une lumière grave et des couleurs profondes."
+            },
+            {
+              "h": "La fin tragique",
+              "p": "Esprit fragile, il se retire dans un couvent près de Bruxelles mais, rongé par la mélancolie et le doute religieux, sombre dans la dépression et meurt peu après — figure de l'artiste tourmenté avant l'heure."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Avec lui, le Nord ne se contente pas d'imiter : il exporte une leçon. Le Retable Portinari est le moment où l'Italie regarde la Flandre — preuve que la « conquête du réel » fut un dialogue, non un monologue florentin."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Retable Portinari",
+              "artiste": "Hugo van der Goes",
+              "annee": "v. 1475",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Portinari Altarpiece",
+              "analyse": "Autour de l'Adoration de l'Enfant, des bergers aux visages rudes surgissent avec un réalisme saisissant, parmi des fleurs et des objets d'une précision flamande. Envoyé à Florence, ce triptyque apprit aux Italiens la puissance de l'observation du Nord."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Grünewald",
+          "dates": "v. 1470-1528",
+          "role": "L'expressionniste avant l'heure",
+          "groupe": "Renaissance allemande",
+          "wiki": "Matthias Grünewald",
+          "portrait": "Matthias Grünewald refuse l'idéal italien et pousse l'intensité gothique à l'extrême : son Retable d'Issenheim montre un Christ couvert de plaies, d'un réalisme atroce — la souffrance brute contre la beauté lisse.",
+          "bio_sections": [
+            {
+              "h": "Les origines : l'anti-Dürer",
+              "p": "Contemporain de Dürer, Grünewald est son exact opposé : là où Dürer rapporte d'Italie la mesure et la proportion, Grünewald ignore l'idéal antique et prolonge l'émotion gothique allemande, portée à son paroxysme."
+            },
+            {
+              "h": "Le Retable d'Issenheim",
+              "p": "Peint pour un hôpital de moines soignant la peste et le « mal des ardents », le retable montre un Christ supplicié, la peau verdâtre criblée d'échardes et de plaies — une image faite pour que les malades reconnaissent leur propre souffrance dans celle de Dieu."
+            },
+            {
+              "h": "Sa technique : la couleur visionnaire",
+              "p": "Couleurs irréelles, lumières surnaturelles, expressivité extrême. Mais, volet ouvert, le même retable révèle une Résurrection éblouissante, le Christ irradiant de lumière : du fond de l'horreur jaillit la gloire."
+            },
+            {
+              "h": "Ce qui le différencie / postérité",
+              "p": "Aucun goût pour la beauté idéale : seule compte l'intensité de l'émotion. Oublié, redécouvert au XXe siècle, il est célébré comme un ancêtre de l'expressionnisme (ch. 27) — la preuve que le Nord avait sa propre voie, contre l'italianisme."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Le Retable d'Issenheim",
+              "artiste": "Matthias Grünewald",
+              "annee": "v. 1512-1516",
+              "lieu": "Musée Unterlinden, Colmar",
+              "wiki": "Isenheim Altarpiece",
+              "analyse": "Un Christ en croix au corps verdâtre, couvert de plaies et d'échardes, dans une nuit déchirée. Peint pour des malades de la peste, ce sommet de réalisme douloureux fait de la souffrance même un objet de méditation — l'émotion brute contre l'idéal italien."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Cranach l'Ancien",
+          "dates": "1472-1553",
+          "role": "Le peintre de la Réforme",
+          "groupe": "Renaissance allemande",
+          "wiki": "Lucas Cranach the Elder",
+          "portrait": "Lucas Cranach l'Ancien, ami de Luther et peintre de cour de Saxe, met son atelier-entreprise au service de la Réforme — tout en peignant des Vénus et des Ève élancées, élégantes et maniérées.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Peintre de cour des princes électeurs de Saxe à Wittenberg — épicentre de la Réforme —, Cranach dirige un atelier-entreprise extrêmement prolifique, produisant portraits, scènes religieuses et mythologiques en série."
+            },
+            {
+              "h": "Le peintre de la Réforme",
+              "p": "Ami proche de Martin Luther (dont il est le témoin de mariage et le portraitiste attitré), il met son art au service de la cause protestante : portraits de Luther diffusés par centaines, images de propagande pour la nouvelle foi."
+            },
+            {
+              "h": "Sa technique : l'élégance maniérée",
+              "p": "Ses nus — Vénus, Ève, nymphes — aux corps minces, longs et sinueux, au charme un peu froid et précieux, contrastent avec le réalisme allemand : une grâce raffinée, presque ornementale."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Témoin majeur de l'alliance entre l'art et l'imprimerie au service des idées : par la gravure et la peinture en série, Cranach donne un visage à la Réforme et illustre la nouvelle puissance de l'image diffusée (ch. 17)."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Adam et Ève",
+              "artiste": "Lucas Cranach l'Ancien",
+              "annee": "1528",
+              "lieu": "Galerie des Offices, Florence",
+              "wiki": "Adam and Eve (Cranach)",
+              "analyse": "Adam et Ève, aux corps minces et sinueux, encadrent l'arbre de la connaissance et le serpent. Élégance maniérée, sensualité froide et précieuse : la marque d'un Cranach qui, loin du réalisme de Grünewald, cultive une grâce ornementale."
             }
           ]
         }
