@@ -6215,5 +6215,85 @@
     "h": 3318,
     "format": "jpg",
     "file": "Lorenzo ghiberti, porta del paradiso, 1425-52, 00.JPG"
+  },
+  "Andrea Pozzo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/Andrea_Pozzo%2C_autoportrait.jpg",
+    "thumb_w": 663,
+    "thumb_h": 879,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Andrea_Pozzo%2C_autoportrait.jpg",
+    "w": 663,
+    "h": 879,
+    "format": "jpg",
+    "file": "Andrea_Pozzo,_autoportrait.jpg"
+  },
+  "Sant'Ignazio ceiling": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Church_of_Sant%27Ignazio_di_Loyola.jpg/1280px-Church_of_Sant%27Ignazio_di_Loyola.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 835,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Church_of_Sant%27Ignazio_di_Loyola.jpg",
+    "w": 6094,
+    "h": 5086,
+    "format": "jpg",
+    "file": "Church_of_Sant'Ignazio_di_Loyola.jpg"
+  },
+  "Rosalba Carriera": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Rosalba_Carriera_Self-portrait.jpg",
+    "thumb_w": 582,
+    "thumb_h": 713,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Rosalba_Carriera_Self-portrait.jpg",
+    "w": 582,
+    "h": 713,
+    "format": "jpg",
+    "file": "Rosalba_Carriera_Self-portrait.jpg"
+  },
+  "Adélaïde Labille-Guiard": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ad%C3%A9la%C3%AFde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg/1280px-Ad%C3%A9la%C3%AFde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1432,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ad%C3%A9la%C3%AFde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg",
+    "w": 4523,
+    "h": 6479,
+    "format": "jpg",
+    "file": "Adélaïde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg"
+  },
+  "Self-Portrait with Two Pupils": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ad%C3%A9la%C3%AFde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg/1280px-Ad%C3%A9la%C3%AFde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1432,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ad%C3%A9la%C3%AFde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg",
+    "w": 4523,
+    "h": 6479,
+    "format": "jpg",
+    "file": "Adélaïde_Labille-Guiard_-_Self-Portrait_with_Two_Pupils_-_The_Metropolitan_Museum_of_Art.jpg"
+  },
+  "Apotheosis of St Ignatius": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Andrea_pozzo%2C_gloria_di_sant%27ignazio%2C_1685-94%2C_00.jpg/1280px-Andrea_pozzo%2C_gloria_di_sant%27ignazio%2C_1685-94%2C_00.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1500,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Andrea_pozzo%2C_gloria_di_sant%27ignazio%2C_1685-94%2C_00.jpg",
+    "w": 2304,
+    "h": 3456,
+    "format": "jpg",
+    "file": "Andrea pozzo, gloria di sant'ignazio, 1685-94, 00.jpg"
+  },
+  "The Grand Canal, Venice (Guardi)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Venice%2C_The_Grand_Canal_with_Santa_Maria_della_Salute%2C_Francesco_Guardi%2C_c.1750.jpg/1280px-Venice%2C_The_Grand_Canal_with_Santa_Maria_della_Salute%2C_Francesco_Guardi%2C_c.1750.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 693,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Venice%2C_The_Grand_Canal_with_Santa_Maria_della_Salute%2C_Francesco_Guardi%2C_c.1750.jpg",
+    "w": 3012,
+    "h": 2088,
+    "format": "jpg",
+    "file": "Venice, The Grand Canal with Santa Maria della Salute, Francesco Guardi, c.1750.jpg"
+  },
+  "Allegory of Winter (Rosalba Carriera)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/96/Rosalba_Carriera_-_Winter_-_WGA04501.jpg",
+    "thumb_w": 723,
+    "thumb_h": 959,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Rosalba_Carriera_-_Winter_-_WGA04501.jpg",
+    "w": 723,
+    "h": 959,
+    "format": "jpg",
+    "file": "Rosalba Carriera - Winter - WGA04501.jpg"
   }
 }

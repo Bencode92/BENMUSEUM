@@ -5353,7 +5353,8 @@
               "wiki": "The Banquet of Cleopatra (Tiepolo)",
               "analyse": "Cléopâtre dissout une perle dans le vinaigre pour gagner son pari avec Marc Antoine, dans un décor d'architectures somptueuses et de costumes vénitiens éclatants. Faste, lumière claire et élégance : l'héritage de Véronèse magnifié par la légèreté de Tiepolo."
             }
-          ]
+          ],
+          "groupe": "La grande fresque (apogée)"
         },
         {
           "niveau": "○",
@@ -5402,7 +5403,8 @@
               "wiki": "Triumph of the Name of Jesus",
               "analyse": "La voûte du Gesù semble se déchirer : le ciel s'ouvre dans une lumière éblouissante où montent les élus, tandis que les damnés débordent du cadre et paraissent tomber dans l'église. Peinture, stuc doré et architecture confondus : l'illusionnisme baroque à son comble."
             }
-          ]
+          ],
+          "groupe": "La quadratura (percer le plafond)"
         },
         {
           "niveau": "★",
@@ -5451,7 +5453,8 @@
               "wiki": "The Stonemason's Yard",
               "analyse": "Vue d'un chantier au bord du Grand Canal, avec ses tas de pierres, son linge qui sèche et ses Vénitiens au travail, sous une lumière douce du matin. Moins une carte postale qu'une scène de vie vraie : sans doute le plus beau et le plus humain des Canaletto."
             }
-          ]
+          ],
+          "groupe": "La veduta (vues de Venise)"
         },
         {
           "niveau": "○",
@@ -5489,6 +5492,58 @@
             {
               "h": "Ce qui le différencie",
               "p": "Là où Canaletto offre une Venise exacte, lumineuse et ordonnée, Guardi en donne une vision atmosphérique, vibrante et mélancolique. Moins fidèle mais plus poétique, il transforme la veduta en peinture d'ambiance. Dernier grand Vénitien, il referme, par sa touche déjà impressionniste, trois siècles de gloire picturale."
+            }
+          ],
+          "groupe": "La veduta (vues de Venise)",
+          "oeuvres": [
+            {
+              "titre": "Le Grand Canal vers la Salute",
+              "artiste": "Francesco Guardi",
+              "annee": "v. 1750",
+              "lieu": "Collections diverses",
+              "wiki": "The Grand Canal, Venice (Guardi)",
+              "analyse": "Le Grand Canal de Venise sous un ciel vibrant, l'église de la Salute au loin. La touche s'émiette, la lumière tremble : une veduta nerveuse et atmosphérique, nostalgique, qui annonce presque l'impressionnisme un siècle à l'avance."
+            }
+          ]
+        },
+        {
+          "niveau": "★",
+          "nom": "Andrea Pozzo",
+          "dates": "1642-1709",
+          "role": "Le théoricien de la quadratura",
+          "groupe": "La quadratura (percer le plafond)",
+          "wiki": "Andrea Pozzo",
+          "portrait": "Andrea Pozzo, jésuite et maître de la perspective illusionniste, peint à Sant'Ignazio de Rome une fausse coupole et un ciel ouvert si parfaits qu'un point au sol marque l'endroit d'où l'illusion est totale — puis il en écrit le traité, diffusé dans toute l'Europe.",
+          "bio_sections": [
+            {
+              "h": "Le jésuite peintre",
+              "p": "Frère jésuite, Pozzo met son art au service de son ordre. Il porte à son sommet la quadratura : l'art de peindre une architecture en trompe-l'œil qui prolonge l'architecture réelle, jusqu'à effacer la frontière entre le bâti et le peint."
+            },
+            {
+              "h": "Le plafond de Sant'Ignazio",
+              "p": "Sur la voûte de l'église Saint-Ignace, il peint la Gloire de saint Ignace : les murs semblent s'élever à l'infini et le ciel s'ouvrir, peuplé de figures montant vers la lumière. L'église paraît n'avoir plus de toit."
+            },
+            {
+              "h": "Le point magique",
+              "p": "L'illusion n'est parfaite que d'un seul endroit, marqué d'un disque de marbre au sol : vu d'ailleurs, l'espace se tord. Pozzo y peint aussi une fausse coupole sur toile plane, là où l'argent manquait pour en bâtir une vraie."
+            },
+            {
+              "h": "Le traité européen",
+              "p": "Il consigne ses méthodes dans la Perspectiva pictorum et architectorum, manuel illustré traduit et diffusé dans toute l'Europe (jusqu'en Chine). Des générations de décorateurs y apprennent l'illusionnisme : Pozzo enseigne le baroque au monde."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où Gaulli (Baciccio) cherche l'émotion débordante, Pozzo cherche la rigueur géométrique de l'illusion : le baroque devient une science exacte de la perspective, codifiée et exportable."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "La Gloire de saint Ignace",
+              "artiste": "Andrea Pozzo",
+              "annee": "1685-1694",
+              "lieu": "Église Sant'Ignazio, Rome",
+              "wiki": "Apotheosis of St Ignatius",
+              "analyse": "La voûte de l'église semble s'ouvrir sur un ciel infini où saint Ignace monte vers la lumière, porté par une architecture peinte qui prolonge la vraie. D'un point précis au sol, l'illusion est totale : le sommet de la quadratura."
             }
           ]
         }
@@ -5686,7 +5741,8 @@
               "wiki": "L'Enseigne de Gersaint",
               "analyse": "Peinte malade, peu avant sa mort, comme enseigne pour la boutique d'un marchand d'art : on emballe un portrait de Louis XIV tandis que des clients élégants admirent les tableaux. Un adieu plein de grâce, d'esprit et de modernité."
             }
-          ]
+          ],
+          "groupe": "Le Rococo français"
         },
         {
           "niveau": "○",
@@ -5743,7 +5799,8 @@
               "wiki": "Madame de Pompadour (Boucher)",
               "analyse": "La marquise, protectrice de Boucher, étendue dans une robe à fleurs somptueuse, entourée de livres et d'objets d'art qui affichent sa culture. Le portrait d'apparat d'une femme de pouvoir et de goût, sommet de l'élégance Louis XV."
             }
-          ]
+          ],
+          "groupe": "Le Rococo français"
         },
         {
           "niveau": "○",
@@ -5800,7 +5857,8 @@
               "wiki": "Basilica of the Fourteen Holy Helpers",
               "analyse": "Église de pèlerinage où Neumann fait onduler murs et voûtes en une série d'ovales qui s'interpénètrent, baignés de lumière, blanc et or. Plus un seul angle droit : l'espace devient mouvement et musique. Le chef-d'œuvre du Rococo d'Europe centrale."
             }
-          ]
+          ],
+          "groupe": "Le Rococo d'Europe centrale (architecture)"
         },
         {
           "niveau": "○",
@@ -5848,7 +5906,8 @@
               "wiki": "Karlskirche",
               "analyse": "Synthèse audacieuse : une vaste coupole ovale, une façade à fronton antique encadrée de deux colonnes triomphales façon colonne Trajane. Rome antique, baroque du Bernin et symbolisme impérial réunis en un manifeste de la grandeur des Habsbourg."
             }
-          ]
+          ],
+          "groupe": "Le Rococo d'Europe centrale (architecture)"
         },
         {
           "niveau": "○",
@@ -5895,6 +5954,48 @@
               "lieu": "Melk, Autriche",
               "wiki": "Melk Abbey",
               "analyse": "Vaste monastère bénédictin posé sur un éperon rocheux dominant le Danube : façade d'or et de blanc, deux tours et une coupole, terrasses surplombant le fleuve. Vue du Danube, elle semble un vaisseau triomphal. L'un des chefs-d'œuvre absolus du baroque monastique d'Europe centrale."
+            }
+          ],
+          "groupe": "Le Rococo d'Europe centrale (architecture)"
+        },
+        {
+          "niveau": "★",
+          "nom": "Rosalba Carriera",
+          "dates": "1675-1757",
+          "role": "La reine du pastel",
+          "groupe": "Le pastel & les femmes artistes",
+          "wiki": "Rosalba Carriera",
+          "portrait": "Rosalba Carriera, Vénitienne, impose le pastel comme un art noble et conquiert toute l'Europe : ses portraits poudrés, tendres et lumineux font d'elle l'une des artistes les plus célèbres et les mieux payées de son temps.",
+          "bio_sections": [
+            {
+              "h": "Venise : du couvercle de tabatière au grand art",
+              "p": "D'abord miniaturiste (elle peint des couvercles de tabatières pour les touristes), Rosalba Carriera transpose sa délicatesse dans le pastel — technique alors mineure qu'elle élève au rang de grand art du portrait."
+            },
+            {
+              "h": "L'art du pastel galant",
+              "p": "Sa touche poudrée rend à merveille la chair, la soie, la poudre des perruques et l'éclat des regards. Léger, frais, flatteur, son pastel est le portrait rêvé de la société rococo : grâce et intimité."
+            },
+            {
+              "h": "Le triomphe européen",
+              "p": "Appelée à Paris (1720), elle y fait sensation et lance la mode du pastel en France (qui formera Quentin de La Tour). Reçue à l'Académie royale, elle travaille aussi pour les cours de Vienne, de Modène, de Pologne : une gloire continentale."
+            },
+            {
+              "h": "La fin dans la nuit",
+              "p": "À la fin de sa vie, elle perd la vue — drame pour une artiste de la lumière et de la finesse — et meurt aveugle à Venise. Sa carrière reste l'une des plus éclatantes du siècle."
+            },
+            {
+              "h": "Ce qui la différencie / femme artiste",
+              "p": "Femme, elle atteint un sommet de gloire et de fortune dans toute l'Europe, et impose une technique nouvelle. À réintégrer, comme Vigée Le Brun, parmi les grandes artistes longtemps minorées par le récit."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "L'Hiver (allégorie)",
+              "artiste": "Rosalba Carriera",
+              "annee": "v. 1726",
+              "lieu": "Gemäldegalerie, Dresde",
+              "wiki": "Allegory of Winter (Rosalba Carriera)",
+              "analyse": "Une jeune femme emmitouflée de fourrure incarne l'Hiver, le teint poudré, le regard tendre. Toute la grâce du pastel rococo : douceur des matières, intimité du visage, charme léger et lumineux — la marque de Rosalba."
             }
           ]
         }
@@ -6113,7 +6214,8 @@
               "wiki": "The Young Schoolmistress",
               "analyse": "Une fillette joue à enseigner la lecture à un plus petit, désignant les lettres avec un sérieux touchant. Silence, concentration, lumière douce : Chardin fait d'un jeu d'enfants une scène d'une gravité et d'une beauté tranquilles."
             }
-          ]
+          ],
+          "groupe": "L'esprit français (raison, intimité, sculpture)"
         },
         {
           "niveau": "★",
@@ -6186,7 +6288,8 @@
               "wiki": "The Stolen Kiss (Fragonard)",
               "analyse": "Une jeune femme, surprise, reçoit un baiser furtif d'un jeune homme à la porte, jetant un œil vers le salon voisin. Lisse et précis, contrastant avec sa touche habituelle : l'instant volé du désir, capté avec une délicatesse exquise."
             }
-          ]
+          ],
+          "groupe": "L'esprit français (raison, intimité, sculpture)"
         },
         {
           "niveau": "○",
@@ -6251,7 +6354,8 @@
               "wiki": "Gin Lane",
               "analyse": "Une rue de Londres ravagée par l'alcool : une mère ivre laisse tomber son bébé, des corps gisent, tout s'effondre. Gravure de combat contre le fléau du gin, diffusée à bas prix pour frapper l'opinion. L'art comme arme sociale."
             }
-          ]
+          ],
+          "groupe": "L'école anglaise (portrait & satire)"
         },
         {
           "niveau": "○",
@@ -6299,7 +6403,8 @@
               "wiki": "Sarah Siddons as the Tragic Muse",
               "analyse": "La grande actrice Sarah Siddons trône comme une allégorie de la Tragédie, dans une pose et une grandeur empruntées à Michel-Ange, encadrée de figures sombres. Le portrait élevé à la dignité de la peinture d'histoire : le « grand style » de Reynolds incarné."
             }
-          ]
+          ],
+          "groupe": "L'école anglaise (portrait & satire)"
         },
         {
           "niveau": "★",
@@ -6364,7 +6469,8 @@
               "wiki": "The Morning Walk",
               "analyse": "Un jeune couple élégant se promène, bras dessus bras dessous, dans un parc vaporeux où arbres et figures se fondent dans une même lumière argentée. Touche légère et frémissante, grâce et poésie : le sommet de l'élégance aérienne de Gainsborough."
             }
-          ]
+          ],
+          "groupe": "L'école anglaise (portrait & satire)"
         },
         {
           "niveau": "○",
@@ -6411,6 +6517,48 @@
               "lieu": "Capitole de Virginie, Richmond",
               "wiki": "George Washington (Houdon)",
               "analyse": "Statue du président américain d'après nature, en habit civil, appuyé sur un faisceau et une canne, le regard ferme et calme. Houdon traversa l'Atlantique pour prendre le modèle vivant : la vérité et la dignité du héros républicain saisies sans emphase."
+            }
+          ],
+          "groupe": "L'esprit français (raison, intimité, sculpture)"
+        },
+        {
+          "niveau": "★",
+          "nom": "Adélaïde Labille-Guiard",
+          "dates": "1749-1803",
+          "role": "Portrait & combat des femmes artistes",
+          "groupe": "Femmes artistes",
+          "wiki": "Adélaïde Labille-Guiard",
+          "portrait": "Adélaïde Labille-Guiard, portraitiste et pastelliste, rivale de Vigée Le Brun, mit son talent au service d'une cause : l'accès des femmes à la formation et à l'Académie, qu'elle défendit avec acharnement.",
+          "bio_sections": [
+            {
+              "h": "Les origines",
+              "p": "Parisienne, fille de mercier, elle se forme au pastel auprès de Quentin de La Tour, puis à l'huile. Elle s'impose comme portraitiste de premier plan, reçue à l'Académie royale en 1783 le même jour que sa rivale Élisabeth Vigée Le Brun."
+            },
+            {
+              "h": "La rivalité avec Vigée Le Brun",
+              "p": "Les deux femmes, talentueuses et reçues ensemble, sont sans cesse opposées par la critique du temps, qui ne conçoit guère deux grandes peintres à la fois. Labille-Guiard, plus sobre et rigoureuse, peint l'aristocratie et la famille royale."
+            },
+            {
+              "h": "Le combat pour les femmes",
+              "p": "Elle milite publiquement pour que l'Académie cesse de limiter le nombre de femmes admises et ouvre aux femmes une vraie formation. Elle forme elle-même de nombreuses élèves — engagement rare et courageux."
+            },
+            {
+              "h": "L'Autoportrait avec deux élèves",
+              "p": "Son chef-d'œuvre se montre elle-même peignant, entourée de deux jeunes femmes qu'elle instruit : un manifeste discret et magnifique en faveur des femmes artistes et de leur droit à apprendre et à transmettre."
+            },
+            {
+              "h": "Ce qui la différencie",
+              "p": "Plus qu'une carrière, un combat : elle lie son art à la cause de l'égalité d'accès à la profession. À citer, avec Vigée Le Brun et Rosalba Carriera, dans la réintégration des femmes artistes du XVIIIᵉ."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Autoportrait avec deux élèves",
+              "artiste": "Adélaïde Labille-Guiard",
+              "annee": "1785",
+              "lieu": "Metropolitan Museum, New York",
+              "wiki": "Self-Portrait with Two Pupils",
+              "analyse": "L'artiste, en grande toilette, se peint devant son chevalet, observée par deux jeunes élèves attentives. Affirmation éclatante de la femme peintre — non seulement créatrice, mais maîtresse qui transmet : un manifeste pour la formation des femmes."
             }
           ]
         }
