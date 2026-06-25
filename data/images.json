@@ -6485,5 +6485,105 @@
     "h": 1522,
     "format": "jpg",
     "file": "Kouros_anavissos.jpg"
+  },
+  "Ara Pacis": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ara_Pacis_%28SW%29.jpg/1280px-Ara_Pacis_%28SW%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 637,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ara_Pacis_%28SW%29.jpg",
+    "w": 5417,
+    "h": 3450,
+    "format": "jpg",
+    "file": "Ara_Pacis_(SW).jpg"
+  },
+  "Greco-Buddhist art": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Gandhara_Buddha_%28tnm%29.jpeg/1280px-Gandhara_Buddha_%28tnm%29.jpeg",
+    "thumb_w": 1000,
+    "thumb_h": 1658,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gandhara_Buddha_%28tnm%29.jpeg",
+    "w": 1746,
+    "h": 2894,
+    "format": "jpeg",
+    "file": "Gandhara_Buddha_(tnm).jpeg"
+  },
+  "Dura-Europos synagogue": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Doura_Europos_synagogue_courtyard.jpg/1280px-Doura_Europos_synagogue_courtyard.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 750,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Doura_Europos_synagogue_courtyard.jpg",
+    "w": 1600,
+    "h": 1200,
+    "format": "jpg",
+    "file": "Doura_Europos_synagogue_courtyard.jpg"
+  },
+  "Christ Pantocrator": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Spas_vsederzhitel_sinay.jpg/1280px-Spas_vsederzhitel_sinay.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1866,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Spas_vsederzhitel_sinay.jpg",
+    "w": 2023,
+    "h": 3774,
+    "format": "jpg",
+    "file": "Spas_vsederzhitel_sinay.jpg"
+  },
+  "Theotokos of Vladimir": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Virgin_of_Vladimir.jpg/1280px-Virgin_of_Vladimir.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1456,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Virgin_of_Vladimir.jpg",
+    "w": 4384,
+    "h": 6384,
+    "format": "jpg",
+    "file": "Virgin_of_Vladimir.jpg"
+  },
+  "Trinity (Andrei Rublev)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Angelsatmamre-trinity-rublev-1410.jpg/1280px-Angelsatmamre-trinity-rublev-1410.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1245,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Angelsatmamre-trinity-rublev-1410.jpg",
+    "w": 1300,
+    "h": 1619,
+    "format": "jpg",
+    "file": "Angelsatmamre-trinity-rublev-1410.jpg"
+  },
+  "Dome of the Rock": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg/1280px-Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 723,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg",
+    "w": 7500,
+    "h": 5425,
+    "format": "jpg",
+    "file": "Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg"
+  },
+  "Islamic geometric patterns": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Doorway_in_Ben_Youssef_Madrasa.JPG",
+    "thumb_w": 1024,
+    "thumb_h": 1536,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Doorway_in_Ben_Youssef_Madrasa.JPG",
+    "w": 1024,
+    "h": 1536,
+    "format": "jpg",
+    "file": "Doorway_in_Ben_Youssef_Madrasa.JPG"
+  },
+  "Shan shui": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg/1280px-Guo_Xi_-_Early_Spring_%28large%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1454,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg",
+    "w": 1952,
+    "h": 2839,
+    "format": "jpg",
+    "file": "Guo_Xi_-_Early_Spring_(large).jpg"
+  },
+  "Early Spring (painting)": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg/1280px-Guo_Xi_-_Early_Spring_%28large%29.jpg",
+    "thumb_w": 1000,
+    "thumb_h": 1454,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg",
+    "w": 1952,
+    "h": 2839,
+    "format": "jpg",
+    "file": "Guo_Xi_-_Early_Spring_(large).jpg"
   }
 }

@@ -12254,6 +12254,46 @@
           "wiki": "Catacombs of Rome",
           "genie": "Images simples et schématiques (bon pasteur, orant). L'art chrétien naissant ne cherche pas la beauté mais à transmettre un message de salut. Début du glissement vers l'art symbolique médiéval.",
           "analyse": "Dans les galeries souterraines où les premiers chrétiens enterraient leurs morts (à partir du IIIe siècle), apparaissent des peintures simples, presque maladroites : le bon pasteur portant sa brebis, l'orant aux bras levés, des symboles comme le poisson. Aux antipodes du réalisme romain, ces images ne cherchent ni la beauté ni la ressemblance : elles transmettent un message d'espérance et de salut. L'art y redevient signe, symbole — et ce glissement annonce tout le Moyen Âge, où l'image servira la foi avant de servir l'œil."
+        },
+        {
+          "titre": "Le Colisée",
+          "artiste": "Anonyme romain",
+          "annee": "70-80 apr. J.-C.",
+          "lieu": "Rome",
+          "wiki": "Colosseum",
+          "analyse": "Un amphithéâtre de 50 000 places, étagé d'arcs et de demi-colonnes superposant les ordres grecs. Le génie romain de l'arc, de la voûte et du béton mis au service du spectacle de masse et du prestige impérial."
+        },
+        {
+          "titre": "L'Auguste de Prima Porta",
+          "artiste": "Anonyme romain",
+          "annee": "Iᵉʳ s. apr. J.-C.",
+          "lieu": "Musées du Vatican",
+          "wiki": "Augustus of Prima Porta",
+          "analyse": "L'empereur en chef de guerre, le bras levé, le visage idéalisé d'un jeune dieu. Le naturalisme grec mis au service de la propagande : non un portrait fidèle, mais l'image construite du pouvoir."
+        },
+        {
+          "titre": "L'Ara Pacis",
+          "artiste": "Anonyme romain",
+          "annee": "13-9 av. J.-C.",
+          "lieu": "Rome",
+          "wiki": "Ara Pacis",
+          "analyse": "L'« autel de la Paix » d'Auguste, dont les reliefs montrent une procession de la famille impériale, traitée avec un réalisme calme. L'art au service de l'idéologie d'État : la paix retrouvée comme bienfait du prince."
+        },
+        {
+          "titre": "Le Bouddha du Gandhâra",
+          "artiste": "Anonyme (gréco-bouddhique)",
+          "annee": "Iᵉʳ-IIIᵉ s. apr. J.-C.",
+          "lieu": "Région du Gandhâra",
+          "wiki": "Greco-Buddhist art",
+          "analyse": "Un Bouddha aux traits et aux drapés tout grecs, né de l'héritage laissé par Alexandre en Asie. Preuve éclatante de la diffusion mondiale du naturalisme grec, fondu ici avec la spiritualité bouddhique."
+        },
+        {
+          "titre": "Les fresques de Doura-Europos",
+          "artiste": "Anonyme",
+          "annee": "v. 245 apr. J.-C.",
+          "lieu": "Doura-Europos (Syrie)",
+          "wiki": "Dura-Europos synagogue",
+          "analyse": "Les murs peints d'une synagogue couverts de scènes bibliques figurées : un rare témoignage d'art juif figuratif, où l'image commence à raconter plutôt qu'à imiter — annonce du tournant chrétien."
         }
       ],
       "artistes_note": "Largement anonymes : l'art romain est collectif et fonctionnel ; l'art chrétien naissant aussi.",
@@ -12398,6 +12438,38 @@
           "wiki": "Byzantine art",
           "genie": "Visage du Christ ou de la Vierge, codifié, frontal, au regard fixe. Ce n'est pas un portrait, c'est un objet de dévotion : la « ressemblance » est spirituelle, pas physique. Modèle reproduit pendant des siècles.",
           "analyse": "Le problème : une image peut-elle montrer le divin sans devenir une idole ? (la grande querelle des iconoclastes). La solution : l'icône n'est pas un portrait mais un objet de dévotion — visage codifié, frontal, regard fixe, proportions fixées. Le détail à voir : la « ressemblance » visée est spirituelle, pas physique ; le même modèle se recopie à l'identique pendant des siècles, le peintre s'effaçant devant le sacré. L'héritage : une conception de l'image comme fenêtre vers l'éternité, qui régnera à Byzance et nourrira tout l'art chrétien d'Orient."
+        },
+        {
+          "titre": "Sainte-Sophie",
+          "artiste": "Anthémios de Tralles & Isidore de Milet",
+          "annee": "532-537",
+          "lieu": "Constantinople (Istanbul)",
+          "wiki": "Hagia Sophia",
+          "analyse": "Une coupole gigantesque qui semble « suspendue » au ciel par une couronne de fenêtres, conçue par deux rares architectes nommés. Le sommet de l'art byzantin : l'espace et la lumière transformés en expérience du divin."
+        },
+        {
+          "titre": "Le Christ Pantocrator",
+          "artiste": "Anonyme byzantin",
+          "annee": "VIᵉ s.",
+          "lieu": "Monastère Sainte-Catherine, Sinaï",
+          "wiki": "Christ Pantocrator",
+          "analyse": "Le Christ « tout-puissant », frontal, le regard fixe et grave, bénissant. L'icône ne cherche pas la ressemblance d'un homme : elle rend présent le divin, selon un modèle transmis et immuable."
+        },
+        {
+          "titre": "La Vierge de Vladimir",
+          "artiste": "Anonyme byzantin",
+          "annee": "v. 1130",
+          "lieu": "Galerie Tretiakov, Moscou",
+          "wiki": "Theotokos of Vladimir",
+          "analyse": "La Mère de Dieu serre tendrement l'Enfant joue contre joue, sur fond d'or intemporel. Une des icônes les plus vénérées : l'or n'est pas un décor mais la lumière divine, hors du temps et de l'espace."
+        },
+        {
+          "titre": "La Trinité d'Andreï Roublev",
+          "artiste": "Andreï Roublev",
+          "annee": "v. 1411",
+          "lieu": "Galerie Tretiakov, Moscou",
+          "wiki": "Trinity (Andrei Rublev)",
+          "analyse": "Trois anges autour d'une table, d'une douceur et d'une harmonie suprêmes : le sommet de l'icône russe, héritière de Byzance. Un des très rares peintres d'icônes dont le nom nous soit parvenu."
         }
       ],
       "artistes_note": "Anonymes : l'icône byzantine refuse l'originalité individuelle ; le moine-peintre suit un modèle sacré, il ne « crée » pas.",
@@ -12522,6 +12594,38 @@
           "wiki": "Travelers Among Mountains and Streams",
           "genie": "Montagnes émergeant de la brume, minuscule voyageur, vastes vides. Le paysage exprime une harmonie cosmique ; le peintre vise l'essence, pas la copie. Le vide n'est pas un manque, c'est du souffle.",
           "analyse": "Le problème : non pas copier une vue, mais saisir l'esprit de la nature. La solution, à l'âge d'or Song : le peintre médite la montagne, l'eau et la brume, puis les restitue de mémoire d'un trait juste, à l'encre, comme un acte spirituel. Le détail à voir : l'homme y est minuscule, le vide (la brume, le papier nu) compte autant que le plein — c'est du souffle, pas un manque. L'héritage : une tout autre philosophie de l'image, contemplative et cosmique, dont l'estampe japonaise, lointaine héritière, marquera plus tard les impressionnistes."
+        },
+        {
+          "titre": "Le Dôme du Rocher",
+          "artiste": "Anonyme (art islamique)",
+          "annee": "691",
+          "lieu": "Jérusalem",
+          "wiki": "Dome of the Rock",
+          "analyse": "Le plus ancien grand monument de l'islam : une coupole dorée sur un octogone couvert de mosaïques et de calligraphies, sans aucune image figurée. L'ornement, la géométrie et la parole de Dieu remplacent la représentation."
+        },
+        {
+          "titre": "La Grande Mosquée de Cordoue",
+          "artiste": "Anonyme (art islamique)",
+          "annee": "à partir de 785",
+          "lieu": "Cordoue (Espagne)",
+          "wiki": "Mosque–Cathedral of Córdoba",
+          "analyse": "Une forêt de centaines de colonnes reliées par des arcs bicolores rouge et blanc, qui se répètent à l'infini. L'espace sacré devient un motif sans fin, abstrait et hypnotique : le génie ornemental de l'islam."
+        },
+        {
+          "titre": "L'Alhambra",
+          "artiste": "Anonyme (art islamique)",
+          "annee": "XIVᵉ s.",
+          "lieu": "Grenade (Espagne)",
+          "wiki": "Alhambra",
+          "analyse": "Un palais où murs, voûtes et fontaines se dissolvent en dentelle de stuc, géométrie d'étoiles, eau et lumière. Les voûtes en stalactites (muqarnas) semblent immatérielles : un paradis terrestre fait d'ornement pur."
+        },
+        {
+          "titre": "Motifs géométriques islamiques",
+          "artiste": "Anonyme (art islamique)",
+          "annee": "Moyen Âge",
+          "lieu": "Monde islamique",
+          "wiki": "Islamic geometric patterns",
+          "analyse": "Étoiles, polygones et arabesques s'enchaînent en pavages infinis, sans début ni fin. La géométrie devient méditation sur l'unité et l'infini de Dieu : un art abstrait achevé, des siècles avant l'abstraction occidentale."
         }
       ],
       "artistes": [
@@ -12571,7 +12675,8 @@
               "wiki": "Admonitions Scroll",
               "analyse": "Long rouleau peint qui déroule, scène après scène, des leçons de conduite pour les dames de cour. Figures élégantes au trait fin « comme un fil de soie », draperies flottantes : l'un des plus anciens chefs-d'œuvre de la peinture chinoise, fondateur de toute la tradition du rouleau narratif."
             }
-          ]
+          ],
+          "groupe": "Peinture chinoise (le souffle, le vide)"
         },
         {
           "niveau": "○",
@@ -12619,7 +12724,8 @@
               "wiki": "On a Mountain Path in Spring",
               "analyse": "Un lettré et son serviteur cheminent dans un coin de l'image ; le reste n'est que vide brumeux où s'envole un oiseau, à peine un saule. La composition « à un coin » de Ma Yuan : le vide comme souffle et méditation, l'homme minuscule face à l'immensité."
             }
-          ]
+          ],
+          "groupe": "Peinture chinoise (le souffle, le vide)"
         },
         {
           "niveau": "○",
@@ -12657,7 +12763,8 @@
               "h": "Ce qui le différencie",
               "p": "Lettré et fonctionnaire plus que peintre professionnel, Kao K'o-kung incarne l'idéal chinois de l'artiste-lettré, pour qui la peinture est un prolongement de la calligraphie et de la pensée. Ses brumes et ses montagnes, tout en retenue et en suggestion, prolongent l'esprit Song au cœur de l'époque mongole."
             }
-          ]
+          ],
+          "groupe": "Peinture chinoise (le souffle, le vide)"
         },
         {
           "niveau": "○",
@@ -12712,6 +12819,81 @@
               "lieu": "Grenade, Espagne",
               "wiki": "Court of the Lions",
               "analyse": "Cour entourée d'une forêt de fines colonnes, avec en son centre une fontaine portée par douze lions. Dentelle de stuc, arcades ajourées, eau qui circule : l'harmonie de la géométrie, de la lumière et de l'eau, chef-d'œuvre de l'architecture nasride."
+            }
+          ],
+          "groupe": "Art islamique (ornement & calligraphie)"
+        },
+        {
+          "niveau": "★",
+          "nom": "Fan Kuan",
+          "dates": "v. 960-1030",
+          "role": "Le paysage monumental (Song du Nord)",
+          "groupe": "Peinture chinoise (le souffle, le vide)",
+          "wiki": "Travelers Among Mountains and Streams",
+          "portrait": "Fan Kuan peint la montagne comme une présence écrasante face à laquelle l'homme n'est qu'un point : son rouleau Voyageurs parmi monts et torrents est l'un des sommets absolus de la peinture de paysage chinoise.",
+          "bio_sections": [
+            {
+              "h": "L'ermite de la montagne",
+              "p": "Peintre des Song du Nord, Fan Kuan aurait quitté la société pour vivre dans les montagnes et les peindre d'après nature. La légende veut qu'il ait compris que « le maître à suivre n'est pas les anciens peintres, mais la nature elle-même »."
+            },
+            {
+              "h": "Le paysage monumental",
+              "p": "Dans Voyageurs parmi monts et torrents, une paroi rocheuse colossale occupe presque toute la hauteur du rouleau ; en bas, minuscules, une caravane et un muletier. L'immensité de la nature et la petitesse de l'homme, sans pathos, comme une vérité cosmique."
+            },
+            {
+              "h": "Sa technique : l'encre et le souffle",
+              "p": "Par d'innombrables petits coups de pinceau (la « pluie de points »), il rend la matière de la roche, la cascade qui tombe d'un filet d'argent, la brume qui sépare les plans. Il ne décrit pas la montagne : il en saisit le souffle vital (qi)."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Là où l'Occident place l'homme au centre, Fan Kuan le dissout dans une nature immense et sacrée. Son rouleau est révéré en Chine comme un chef-d'œuvre national — une méditation peinte sur la place de l'homme dans le cosmos."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Voyageurs parmi monts et torrents",
+              "artiste": "Fan Kuan",
+              "annee": "v. 1000",
+              "lieu": "Musée national du Palais, Taipei",
+              "wiki": "Travelers Among Mountains and Streams",
+              "analyse": "Une falaise colossale écrase la composition ; tout en bas, une caravane minuscule chemine. La cascade tombe en un filet d'argent, la brume creuse l'espace. Le sommet du paysage monumental : l'homme infime devant l'immensité."
+            }
+          ]
+        },
+        {
+          "niveau": "○",
+          "nom": "Guo Xi",
+          "dates": "v. 1020-1090",
+          "role": "Le paysage et la brume (Song du Nord)",
+          "groupe": "Peinture chinoise (le souffle, le vide)",
+          "wiki": "Early Spring (painting)",
+          "portrait": "Guo Xi, peintre de cour des Song, théorise et peint le paysage comme un espace où l'œil voyage : ses montagnes de brume, aux formes mouvantes, invitent à s'y promener en esprit.",
+          "bio_sections": [
+            {
+              "h": "Le peintre de cour théoricien",
+              "p": "Au service de l'empereur Shenzong, Guo Xi est aussi l'auteur d'un traité célèbre, Le Haut Message des forêts et des sources, où il explique comment peindre — et comment regarder — un paysage : non un décor, mais un lieu où l'esprit se promène."
+            },
+            {
+              "h": "Premier printemps (1072)",
+              "p": "Son chef-d'œuvre montre une montagne aux formes ondoyantes, qui semble bouger dans la brume du dégel printanier. Les pins tordus, les vallées noyées de vapeur, les chemins qui se perdent : un paysage vivant, presque respirant."
+            },
+            {
+              "h": "Sa technique : la brume et le vide",
+              "p": "Maître des dégradés d'encre et des « nuages bouclés », il fait du vide brumeux une matière à part entière : le non-peint suggère l'infini, la distance, le souffle. Le regard circule de plan en plan comme dans un voyage."
+            },
+            {
+              "h": "Ce qui le différencie",
+              "p": "Plus mouvant et atmosphérique que la falaise figée de Fan Kuan, Guo Xi peint le paysage comme une expérience changeante : il pense le tableau du point de vue de celui qui le parcourt, des siècles avant les recherches occidentales sur le regard."
+            }
+          ],
+          "oeuvres": [
+            {
+              "titre": "Premier printemps",
+              "artiste": "Guo Xi",
+              "annee": "1072",
+              "lieu": "Musée national du Palais, Taipei",
+              "wiki": "Early Spring (painting)",
+              "analyse": "Une montagne aux formes ondoyantes émerge de la brume du dégel ; pins tordus, vallées noyées de vapeur, chemins qui se perdent. Le vide brumeux devient matière : un paysage qui respire, où l'œil voyage de plan en plan."
             }
           ]
         }
