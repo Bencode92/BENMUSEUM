@@ -140,6 +140,23 @@ if ($("lightbox")) {
 let chatMsgs = [];        // historique de la discussion en cours
 let CHATCTX = null;        // contexte de la page (sujet + fiche + scope)
 
+// la discussion est ENREGISTRÉE par page (scope) et restaurée à la réouverture
+function chatKey(scope) { return "museum:chat:" + scope; }
+function loadChat(scope) {
+  if (!scope || scope === "weak" || scope === "general") return [];
+  try { return JSON.parse(localStorage.getItem(chatKey(scope))) || []; } catch (e) { return []; }
+}
+function saveChat() {
+  const s = CHATCTX && CHATCTX.scope;
+  if (!s || s === "weak" || s === "general") return;
+  try { localStorage.setItem(chatKey(s), JSON.stringify(chatMsgs.slice(-40))); } catch (e) {}
+}
+function clearSavedChat() {
+  const s = CHATCTX && CHATCTX.scope; if (!s) return;
+  try { localStorage.removeItem(chatKey(s)); } catch (e) {}
+  chatMsgs = []; if ($("chatlog2")) $("chatlog2").innerHTML = "";
+}
+
 function generic() { return { label: "Histoire de l'art", scope: "general", fiche: "", ask: { floorName: "Histoire de l'art" } }; }
 function pageContext() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
@@ -183,6 +200,7 @@ function initChat() {
     <div id="chatanalyse">
       <button id="chatanalyze">🧷 Résumer la discussion → ajouter à la fiche</button>
       <button id="chataddwork">➕ Ajouter une œuvre à la fiche</button>
+      <button id="chatclear" title="Effacer la discussion enregistrée sur cette page">🗑 Nouvelle discussion</button>
       <div id="chatares"></div>
     </div>`;
   document.body.appendChild(dr);
@@ -190,6 +208,10 @@ function initChat() {
   $("chatclose").onclick = () => { dr.hidden = true; };
   $("chatform2").onsubmit = e => { e.preventDefault(); sendChat(); };
   $("chatanalyze").onclick = analyseChat;
+  $("chatclear").onclick = () => {
+    clearSavedChat(); if ($("chatares")) $("chatares").innerHTML = "";
+    if (CHATCTX) addCmsg("bot", `Nouvelle discussion sur « ${CHATCTX.label} ». La précédente a été effacée.`).classList.add("dim");
+  };
   $("chataddwork").onclick = () => {
     const ctx = CHATCTX || (CHATCTX = pageContext());
     if (!ctx.scope || !ctx.scope.startsWith("artiste:")) { $("chatares").textContent = "Ouvre la fiche d'un artiste pour lui ajouter une œuvre."; return; }
@@ -205,8 +227,18 @@ function openChat() {
   CHATCTX = pageContext();
   $("chattitle").textContent = "Discuter — " + CHATCTX.label;
   $("chatdrawer").hidden = false;
+  // restaure la discussion enregistrée pour cette page
+  if (!chatMsgs.length) {
+    const saved = loadChat(CHATCTX.scope);
+    if (saved.length) {
+      chatMsgs = saved.slice();
+      $("chatlog2").innerHTML = "";
+      addCmsg("bot", "↩︎ Reprise de votre discussion enregistrée sur cette page.").classList.add("dim");
+      saved.forEach(m => addCmsg(m.role === "user" ? "me" : "bot", m.text));
+    }
+  }
   if (!chatMsgs.length && !$("chatlog2").children.length)
-    addCmsg("bot", `Parlons de « ${CHATCTX.label} ». Pose une question, demande une précision, ou lance une idée — puis « Analyser les points clés » pour enrichir la fiche.`).classList.add("dim");
+    addCmsg("bot", `Parlons de « ${CHATCTX.label} ». Pose une question, demande une précision, ou lance une idée — puis « Résumer la discussion » pour enrichir la fiche. Ta discussion est enregistrée sur cette page.`).classList.add("dim");
   $("chatin").focus();
 }
 function resetChat() {
@@ -243,6 +275,7 @@ async function sendChat() {
     const j = await r.json();
     thinking.classList.remove("dim"); thinking.textContent = j.answer;
     chatMsgs.push({ role: "user", text: q }, { role: "assistant", text: j.answer });
+    saveChat();
     // bouton sous CHAQUE réponse : l'ajouter à la fiche (bloc Approfondissements) — la page se complète
     if (ctx.scope && ctx.scope !== "weak") {
       const add = document.createElement("button");
@@ -438,9 +471,13 @@ function renderChapitre(ci) {
           <div class="thumb" data-wiki="${esc(o.wiki)}"></div>
           <div class="body"><div class="t">${esc(o.titre)}</div><div class="s">${esc(o.artiste)} · ${esc(o.annee)}</div></div>
         </div>`).join("")}</div>` : ""}
+    ${enrichBlock("chap:" + c.num)}
     ${notesBlock("chap:" + c.num)}`;
   loadImages($("view"));
   wireChecklist();
+  const cFiche = `Chapitre ${c.num} — ${c.titre}. ${c.idee} ${c.notion || ""}`;
+  const cAsk = { floorName: `${c.titre} (chap. ${c.num})`, epoque: c.portee, salle: { nom: c.titre, presentation: c.idee } };
+  wireEnrichBlock("chap:" + c.num, cFiche, cAsk);
   wireNotes();
 }
 
@@ -493,6 +530,7 @@ function renderOeuvre(ci, oi) {
           <div class="answer" id="eans"></div>
         </div>
         ${aiQuizBlock("oeuvre")}
+        ${enrichBlock(`oeuvre:${ci}:${oi}`)}
         ${notesBlock(`oeuvre:${ci}:${oi}`)}
         <div class="navworks">
           <button ${prev ? `data-nav="${prev}"` : "disabled"}>← Œuvre précédente</button>
@@ -503,7 +541,10 @@ function renderOeuvre(ci, oi) {
   loadImages($("view"));
   wireGuide(c, o, `oeuvre:${ci}:${oi}`);
   wireEnrich(c, o, `oeuvre:${ci}:${oi}`);
-  wireAiQuiz("oeuvre", `« ${o.titre} » — ${o.artiste}, ${o.annee}. ${o.explication} ${o.contexte} Éléments : ${(o.elements || []).join(" ; ")}. Chapitre ${c.num} (${c.titre}) : ${c.idee}`);
+  const oFiche = `« ${o.titre} » — ${o.artiste}, ${o.annee}. ${o.explication} ${o.contexte} Éléments : ${(o.elements || []).join(" ; ")}. Chapitre ${c.num} (${c.titre}) : ${c.idee}`;
+  const oAsk = { floorName: `${c.titre} (chap. ${c.num})`, epoque: c.portee, salle: { nom: c.titre, presentation: c.idee }, work: { titre: o.titre, artiste: o.artiste, annee: o.annee, note: o.explication + " " + o.contexte } };
+  wireEnrichBlock(`oeuvre:${ci}:${oi}`, oFiche, oAsk);
+  wireAiQuiz("oeuvre", oFiche);
   wireNotes();
 }
 
@@ -1220,6 +1261,7 @@ function renderDossier(id) {
   if (d.autotest) P.push(sec("✅ Auto-test", `<ol class="rev">${d.autotest.map(q => `<li>${esc(q)}</li>`).join("")}</ol>`));
 
   P.push(aiQuizBlock("dossier"));
+  P.push(enrichBlock(`dossier:${d.id}`));
 
   $("view").innerHTML = `<div class="dossier">${P.join("")}</div>`;
   loadImages($("view"));
@@ -1227,6 +1269,8 @@ function renderDossier(id) {
   const contenu = `${d.titre} (${d.periode}). ${d.sous_titre || ""} ${d.probleme || ""} `
     + (d.recit || []).map(s => `${s.h} : ${s.p}`).join(" ")
     + " " + (d.memos || []).join(" ");
+  const dAsk = { floorName: d.titre, epoque: d.periode, salle: { nom: d.titre, presentation: d.sous_titre || d.probleme || "" } };
+  wireEnrichBlock(`dossier:${d.id}`, contenu, dAsk);
   wireAiQuiz("dossier", contenu);
 }
 
@@ -1319,7 +1363,9 @@ async function publishEntry(entry, _retried) {
   try {
     const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "save", password: pw, entry }) });
     const j = await r.json().catch(() => ({}));
-    if (r.ok && j.ok) return { shared: true };
+    // succès : on ajoute aussi l'entrée à la couche partagée EN MÉMOIRE, pour qu'elle
+    // apparaisse immédiatement (sinon elle n'arrive qu'au prochain rechargement, ~1 min).
+    if (r.ok && j.ok) { try { COMMUNITY.push(entry); } catch (e) {} return { shared: true }; }
     if (r.status === 403 && !_retried) {
       const p = prompt("Ce Worker est protégé par une phrase de passe d'édition. Saisis-la :", "");
       if (p) { localStorage.setItem("museum:editpw", p.trim()); return publishEntry(entry, true); }

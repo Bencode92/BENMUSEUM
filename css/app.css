@@ -510,5 +510,8 @@ details.deep p { font-size: 14px; line-height: 1.7; }
 #chatform2 button { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 0 16px; cursor: pointer; font-size: 18px; }
 #chatanalyse { border-top: 1px solid var(--line); padding: 12px; background: var(--card); }
 #chatanalyze { width: 100%; background: var(--chrome); color: var(--chrome-ink); border: none; border-radius: 8px; padding: 11px; cursor: pointer; font: inherit; font-weight: 600; }
+#chataddwork, #chatclear { width: 100%; margin-top: 8px; background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 9px; cursor: pointer; font: inherit; font-size: 13.5px; }
+#chataddwork:hover, #chatclear:hover { border-color: var(--chap); }
+#chatclear { color: var(--muted); }
 #chatares { margin-top: 10px; font-size: 14px; line-height: 1.55; white-space: pre-wrap; }
 @media (max-width: 600px) { #chatdrawer { width: 100vw; } #chatfab { right: 14px; bottom: 14px; } }
