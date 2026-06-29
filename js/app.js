@@ -14,7 +14,7 @@ let CITATIONS = [];          // citations choisies (data/citations.json)
 let VIVANT = {};             // éclats « pour rendre ça vivant » par dossier (data/vivant.json)
 const $ = id => document.getElementById(id);
 
-const DV = "82"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "83"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
