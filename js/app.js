@@ -13,7 +13,7 @@ let CAPSTONE = null;         // clés transversales (data/capstone.json)
 let CITATIONS = [];          // citations choisies (data/citations.json)
 const $ = id => document.getElementById(id);
 
-const DV = "80"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "81"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -414,10 +414,25 @@ function addUserCitation(c) { const a = userCitations(); a.unshift(c); saveUserC
 function delUserCitation(ts) { saveUserCitations(userCitations().filter(c => c.ts !== ts)); }
 // citations partagées (community.json, type "citation") + perso (local), dédupliquées
 function allMineCitations() {
-  const shared = communityFor("citations", "citation").map(c => ({ texte: c.text || c.texte, auteur: c.auteur, source: c.source, ts: c.ts, _shared: true }));
+  const shared = communityFor("citations", "citation").map(c => ({ texte: c.text || c.texte, auteur: c.auteur, source: c.source, dossier: c.dossier, analyse: c.analyse, ts: c.ts, _shared: true }));
   const local = userCitations();
   const seen = new Set(shared.map(c => (c.texte || "").trim()));
   return shared.concat(local.filter(c => !seen.has((c.texte || "").trim())));
+}
+// l'IA corrige l'orthographe de la citation ET en rédige une analyse accessible (« autrement dit »)
+async function analyseCitation(texte, auteur, source) {
+  const q = `Tu es professeur d'art et de lettres. Un élève a noté cette citation :\n` +
+    `« ${texte} »${auteur ? " — " + auteur : ""}${source ? ", " + source : ""}.\n\n` +
+    `Fais deux choses et réponds EXACTEMENT dans ce format, sans rien ajouter d'autre :\n` +
+    `CITATION: <recopie la citation en corrigeant uniquement l'orthographe, les accents et la ponctuation ; ne change ni les mots ni le sens>\n` +
+    `ANALYSE: <explique-la de façon claire et accessible, "autrement dit", en 3 à 5 phrases : ce que l'auteur veut dire, pourquoi c'est fort, et ce que cela éclaire sur l'art, le beau ou le regard>`;
+  const r = await fetch(aiEndpoint(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ question: q }) });
+  if (!r.ok) throw new Error();
+  const ans = ((await r.json()).answer || "").trim();
+  const mC = ans.match(/CITATION\s*:\s*([\s\S]*?)\n\s*ANALYSE\s*:/i);
+  const mA = ans.match(/ANALYSE\s*:\s*([\s\S]*)$/i);
+  const corr = (mC ? mC[1] : "").trim().replace(/^[«"']\s*|\s*[»"']$/g, "").trim();
+  return { texte_corrige: corr || texte, analyse: (mA ? mA[1] : ans).trim() };
 }
 // bloc « citation à méditer » inséré dans une leçon (par dossier)
 function quoteBlock(dossierId) {
@@ -426,9 +441,10 @@ function quoteBlock(dossierId) {
   const all = matches.concat(mineHere);
   if (!all.length) return "";
   return `<h2 class="sec">💭 À méditer</h2>` + all.map(q => `
-    <figure class="quote">
+    <figure class="quote${q._mine ? " mine" : ""}">
       <blockquote>« ${esc(q.texte)} »</blockquote>
       <figcaption>— ${esc(q.auteur || "Anonyme")}${q.source ? `, <i>${esc(q.source)}</i>` : ""}${q._mine ? ` · <span style="color:var(--muted)">votre lecture</span>` : ""}</figcaption>
+      ${q.analyse ? `<details class="deep"><summary>🔎 Autrement dit — l'analyse</summary><p>${esc(q.analyse)}</p></details>` : ""}
     </figure>`).join("");
 }
 function renderCitations() {
@@ -439,13 +455,16 @@ function renderCitations() {
     <figure class="quote">
       <blockquote>« ${esc(q.texte)} »</blockquote>
       <figcaption>— ${esc(q.auteur)}${q.source ? `, <i>${esc(q.source)}</i>` : ""}${q.theme ? ` · <span style="color:var(--muted)">${esc(q.theme)}</span>` : ""}${q.dossier ? ` · <a data-nav="#/d/${esc(q.dossier)}">${esc(dossierName(q.dossier))} →</a>` : ""}</figcaption>
+      ${q.analyse ? `<details class="deep"><summary>🔎 Autrement dit — l'analyse</summary><p>${esc(q.analyse)}</p></details>` : ""}
     </figure>`).join("");
   const mineHTML = mine.length ? mine.map(q => `
     <figure class="quote mine">
       <blockquote>« ${esc(q.texte)} »</blockquote>
-      <figcaption>— ${esc(q.auteur || "Anonyme")}${q.source ? `, <i>${esc(q.source)}</i>` : ""}
+      <figcaption>— ${esc(q.auteur || "Anonyme")}${q.source ? `, <i>${esc(q.source)}</i>` : ""}${q.dossier ? ` · <a data-nav="#/d/${esc(q.dossier)}">${esc(dossierName(q.dossier))} →</a>` : ""}
         ${q._shared ? ` · <span class="tag" style="font-size:10px;background:var(--gold);color:#fff;padding:1px 6px;border-radius:4px">🌍 partagée</span>` : (q.ts ? ` · <button class="linkbtn citdel" data-ts="${esc(q.ts)}" style="font-size:12px;color:var(--muted)">supprimer</button>` : "")}</figcaption>
-    </figure>`).join("") : `<p class="lead">Aucune citation pour l'instant. Note ci-dessous une phrase qui t'a marqué dans tes lectures — elle sera sauvegardée, et apparaîtra dans la leçon liée si tu en choisis une.</p>`;
+      ${q.analyse ? `<details class="deep"><summary>🔎 Autrement dit — l'analyse</summary><p>${esc(q.analyse)}</p></details>`
+        : (q.ts && !q._shared ? `<div style="margin-top:8px"><button class="linkbtn citanalyze" data-ts="${esc(q.ts)}" style="font-size:13px">🔎 Vérifier l'orthographe & analyser via l'IA</button></div>` : "")}
+    </figure>`).join("") : `<p class="lead">Aucune citation pour l'instant. Note ci-dessous une phrase qui t'a marqué dans tes lectures — l'IA en vérifiera l'orthographe et rédigera l'explication.</p>`;
   $("view").innerHTML = `
     <div class="pagehead">
       <div class="ep">Mes lectures · ce qui fait réfléchir</div>
@@ -468,15 +487,29 @@ function renderCitations() {
     <h2 class="sec">⭐ Citations choisies</h2>
     ${curHTML}`;
   $("citadd").onclick = async () => {
-    const texte = $("citxt").value.trim(); if (!texte) { $("citmsg").textContent = "Écris d'abord la citation."; return; }
-    const c = { texte, auteur: $("citaut").value.trim(), source: $("citsrc").value.trim(), dossier: $("citdos").value, ts: today() + "-" + Math.floor(performance.now()) };
+    const texte0 = $("citxt").value.trim(); if (!texte0) { $("citmsg").textContent = "Écris d'abord la citation."; return; }
+    const auteur = $("citaut").value.trim(), source = $("citsrc").value.trim(), dossier = $("citdos").value;
+    $("citadd").disabled = true;
+    $("citmsg").textContent = "🔎 L'IA vérifie l'orthographe et rédige l'explication…";
+    let texte = texte0, analyse = "";
+    try { const res = await analyseCitation(texte0, auteur, source); texte = res.texte_corrige || texte0; analyse = res.analyse || ""; }
+    catch (e) { $("citmsg").textContent = "⚠️ IA indisponible : citation enregistrée telle quelle (tu pourras l'analyser plus tard)."; }
+    const c = { texte, auteur, source, dossier, analyse, ts: today() + "-" + Math.floor(performance.now()) };
     addUserCitation(c);
-    $("citmsg").textContent = "💾 Enregistrée. Publication sur le site partagé…";
-    const pub = await publishEntry({ scope: "citations", type: "citation", q: (c.auteur || "") + (c.source ? " — " + c.source : ""), text: c.texte, auteur: c.auteur, source: c.source, dossier: c.dossier });
-    $("citmsg").textContent = pub.shared ? "🌍 Enregistrée et partagée (visible par tous ~1 min)." : "💾 Enregistrée sur ce navigateur.";
+    const pub = await publishEntry({ scope: "citations", type: "citation", q: (auteur || "") + (source ? " — " + source : ""), text: texte, auteur, source, dossier, analyse });
+    $("citmsg").textContent = pub.shared ? "🌍 Enregistrée, analysée et partagée (visible par tous ~1 min)." : "💾 Enregistrée et analysée sur ce navigateur.";
     renderCitations();
   };
   $("view").querySelectorAll(".citdel").forEach(b => b.onclick = () => { delUserCitation(b.dataset.ts); renderCitations(); });
+  $("view").querySelectorAll(".citanalyze").forEach(b => b.onclick = async () => {
+    const a = userCitations(), c = a.find(x => x.ts === b.dataset.ts); if (!c) return;
+    b.textContent = "🔎 analyse en cours…"; b.disabled = true;
+    try {
+      const res = await analyseCitation(c.texte, c.auteur, c.source);
+      c.texte = res.texte_corrige || c.texte; c.analyse = res.analyse || "";
+      saveUserCitations(a); renderCitations();
+    } catch (e) { b.textContent = "⚠️ IA indisponible — réessaie"; b.disabled = false; }
+  });
 }
 
 /* ---------- fil d'Ariane ---------- */

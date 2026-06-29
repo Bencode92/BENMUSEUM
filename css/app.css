@@ -237,6 +237,9 @@ img.imgph { object-fit: contain; background: var(--paper); }
 }
 .quote figcaption { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
 .quote figcaption a { color: var(--accent); }
+.quote details.deep { margin-top: 10px; }
+.quote details.deep summary { cursor: pointer; color: var(--accent); font-size: 13.5px; }
+.quote details.deep p { margin-top: 8px; font-size: 14.5px; line-height: 1.6; font-style: normal; }
 .card .body { padding: 13px 15px 15px; }
 .card .body .t { font-weight: 600; font-family: "Fraunces", serif; font-size: 16px; line-height: 1.3; }
 .card .body .s { font-size: 12.5px; color: var(--muted); margin-top: 5px; }

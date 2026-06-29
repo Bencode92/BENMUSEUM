@@ -5,84 +5,96 @@
       "auteur": "Robert Sabatier",
       "source": "Le Cygne noir",
       "theme": "Le beau, le laid, le regard",
-      "dossier": "xixe-romantisme-realisme"
+      "dossier": "xixe-romantisme-realisme",
+      "analyse": "Autrement dit : la laideur n'est pas dans les choses, mais dans notre façon de les regarder. La nature ne fabrique rien de laid — c'est le mépris, le jugement qu'on porte sur autrui qui crée la vraie laideur. La phrase renverse l'idée même de beauté : le beau et le laid ne sont pas des propriétés des objets, mais des effets de notre regard. C'est exactement la révolution que l'art du XIXᵉ va accomplir en peignant l'ordinaire et le « laid » (Courbet) : il déplace la beauté de l'objet vers le regard qu'on porte sur lui."
     },
     {
       "texte": "Il n'existe pas, à proprement parler, d'Art. Il n'existe que des artistes.",
       "auteur": "E. H. Gombrich",
       "source": "Histoire de l'art (incipit)",
       "theme": "Qu'est-ce que l'art ?",
-      "dossier": ""
+      "dossier": "",
+      "analyse": "Autrement dit : « l'Art » avec un grand A, comme idée éternelle et absolue, n'existe pas. Il n'y a que des hommes et des femmes qui, à un moment donné et pour des raisons précises, ont fabriqué des objets. Gombrich nous invite à ne jamais juger une œuvre dans le vide, mais toujours par rapport à son auteur, son époque et son intention — c'est toute la méthode du livre (et de cette plateforme)."
     },
     {
       "texte": "L'art ne reproduit pas le visible, il rend visible.",
       "auteur": "Paul Klee",
       "source": "Credo du créateur",
       "theme": "Voir / rendre visible",
-      "dossier": "xxe-experimental"
+      "dossier": "xxe-experimental",
+      "analyse": "Autrement dit : peindre ne consiste pas à recopier ce que l'œil voit, mais à faire apparaître ce qui, sans l'art, resterait invisible — une émotion, une structure, une force, une idée. L'art révèle plus qu'il n'imite. C'est la justification même de l'abstraction : si la photo copie déjà le visible, le peintre est libre de montrer l'invisible."
     },
     {
       "texte": "Le beau est toujours bizarre.",
       "auteur": "Charles Baudelaire",
       "source": "Exposition universelle de 1855",
       "theme": "La nature du beau",
-      "dossier": "manierisme"
+      "dossier": "manierisme",
+      "analyse": "Autrement dit : il n'y a pas de vraie beauté sans une part d'étrangeté, de singularité, de surprise. Le beau parfaitement régulier et lisse finit par ennuyer ; ce qui émeut, c'est l'écart, le grain d'inattendu, le détail un peu dérangeant. Une idée qui éclaire aussi bien les torsions du maniérisme que tout l'art moderne."
     },
     {
       "texte": "L'art est un mensonge qui nous permet de comprendre la vérité.",
       "auteur": "Pablo Picasso",
       "source": "Propos sur l'art, 1923",
       "theme": "Vérité de l'art",
-      "dossier": "art-contemporain"
+      "dossier": "art-contemporain",
+      "analyse": "Autrement dit : une œuvre n'est pas la réalité — c'est une illusion, un « mensonge » : de la peinture sur une toile, du marbre taillé. Mais ce mensonge assumé nous fait voir une vérité que le réel brut nous cache (une émotion, un sens, une structure). La fiction comme chemin vers le vrai : déformer pour mieux montrer."
     },
     {
       "texte": "L'art est le plus court chemin de l'homme à l'homme.",
       "auteur": "André Malraux",
-      "source": "La Condition humaine / écrits sur l'art",
+      "source": "Écrits sur l'art",
       "theme": "À quoi sert l'art",
-      "dossier": ""
+      "dossier": "",
+      "analyse": "Autrement dit : une œuvre permet à un être humain de toucher directement un autre être humain, par-delà les siècles, les langues et les frontières. Devant une peinture de Lascaux ou de Rembrandt, on communie avec quelqu'un qu'on ne rencontrera jamais. L'art est le pont le plus direct entre deux consciences."
     },
     {
       "texte": "La peinture est une poésie qui se voit au lieu de se sentir, et la poésie est une peinture qui se sent au lieu de se voir.",
       "auteur": "Léonard de Vinci",
       "source": "Carnets",
       "theme": "Peinture et poésie",
-      "dossier": "renaissance"
+      "dossier": "renaissance",
+      "analyse": "Autrement dit : peinture et poésie disent la même chose par des chemins inversés — l'une s'adresse à l'œil, l'autre à l'oreille et à l'imagination, mais toutes deux visent l'âme. Léonard hisse ainsi la peinture au rang des arts nobles (la poésie), à une époque où elle était encore considérée comme un simple métier manuel."
     },
     {
       "texte": "Traiter la nature par le cylindre, la sphère, le cône.",
       "auteur": "Paul Cézanne",
       "source": "Lettre à Émile Bernard, 1904",
       "theme": "La structure sous l'apparence",
-      "dossier": "impressionnisme"
+      "dossier": "impressionnisme",
+      "analyse": "Autrement dit : sous le désordre changeant des apparences se cachent des formes géométriques simples. Le peintre doit retrouver cette architecture secrète du monde au lieu d'en copier la surface mouvante. Cette intuition — chercher la structure, pas le reflet — ouvrira directement la porte au cubisme de Picasso et Braque."
     },
     {
       "texte": "La couleur surtout, et peut-être plus encore que le dessin, est une libération.",
       "auteur": "Henri Matisse",
       "source": "Notes d'un peintre, 1908",
       "theme": "Dessin et couleur",
-      "dossier": "xxe-experimental"
+      "dossier": "xxe-experimental",
+      "analyse": "Autrement dit : la couleur n'est pas un simple remplissage à l'intérieur du dessin ; bien employée, elle libère l'émotion et devient le vrai sujet du tableau. Matisse tranche le vieux débat dessin / couleur en faveur de la couleur — et invente le fauvisme, où des aplats violents valent pour eux-mêmes."
     },
     {
       "texte": "Ce qu'il y a de plus réel pour moi, ce sont les illusions que je crée avec ma peinture.",
       "auteur": "Eugène Delacroix",
       "source": "Journal",
       "theme": "Réel et illusion",
-      "dossier": "xixe-romantisme-realisme"
+      "dossier": "xixe-romantisme-realisme",
+      "analyse": "Autrement dit : pour le peintre romantique, la réalité la plus forte n'est pas le monde extérieur, mais les images et les émotions qu'il invente sur la toile. L'illusion picturale, parce qu'elle est chargée de sentiment, est plus « vraie » qu'une copie fidèle du réel. C'est le primat de l'imagination sur l'imitation."
     },
     {
-      "texte": "Tout ce que je vois maintenant pourrait être effacé d'un trait, mais l'idée demeure.",
+      "texte": "Tout ce que je vois pourrait être effacé d'un trait, mais l'idée demeure.",
       "auteur": "Michel-Ange",
       "source": "attribué",
       "theme": "L'idée et la forme",
-      "dossier": "renaissance"
+      "dossier": "renaissance",
+      "analyse": "Autrement dit : l'objet matériel peut disparaître, mais la vision, l'idée qui l'a fait naître, survit. Pour Michel-Ange, sculpter c'est « libérer » une forme déjà présente dans le bloc de marbre : c'est l'esprit, non la matière, qui fait l'œuvre. L'art comme triomphe de l'idée sur la pierre."
     },
     {
       "texte": "L'art lave l'âme de la poussière du quotidien.",
       "auteur": "Pablo Picasso",
       "source": "attribué",
       "theme": "Ce que l'art nous fait",
-      "dossier": ""
+      "dossier": "",
+      "analyse": "Autrement dit : l'art nous arrache à la routine et nettoie notre regard ; il remet de la profondeur, de l'attention et de l'émerveillement dans une vie encrassée par l'habitude. Regarder vraiment une œuvre, c'est se laver les yeux."
     }
   ]
 }
