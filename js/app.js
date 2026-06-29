@@ -11,9 +11,10 @@ let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
 let CAPSTONE = null;         // clés transversales (data/capstone.json)
 let CITATIONS = [];          // citations choisies (data/citations.json)
+let VIVANT = {};             // éclats « pour rendre ça vivant » par dossier (data/vivant.json)
 const $ = id => document.getElementById(id);
 
-const DV = "81"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "82"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
@@ -21,10 +22,12 @@ Promise.all([
   fetch("data/community.json?t=" + Date.now()).then(r => r.json()).catch(() => []),
   fetch("data/capstone.json?v=" + DV).then(r => r.json()).catch(() => null),
   fetch("data/citations.json?v=" + DV).then(r => r.json()).catch(() => ({ citations: [] })),
+  fetch("data/vivant.json?v=" + DV).then(r => r.json()).catch(() => ({})),
 ])
-  .then(([art, dos, img, com, cap, cit]) => {
+  .then(([art, dos, img, com, cap, cit, viv]) => {
     CAPSTONE = cap;
     CITATIONS = (cit && cit.citations) || [];
+    VIVANT = viv || {};
     CHAPITRES = art.chapitres;
     CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) =>
       FLAT.push({ ci, oi, chap: c, oeuvre: o })));
@@ -1255,6 +1258,16 @@ function renderArtiste(id, ai) {
   }
 }
 
+// éclats « pour rendre ça vivant » (métaphore, anecdote, parallèle, mot-clé) en tête de dossier
+function vivantBlock(id) {
+  const arr = VIVANT[id]; if (!arr || !arr.length) return "";
+  return `<h2 class="sec">✨ Pour rendre ça vivant</h2>
+    <div class="vivant">${arr.map(e => `
+      <div class="eclat">
+        <div class="eclat-h"><span class="eclat-ic">${esc(e.icon || "✨")}</span> ${esc(e.label || "")}</div>
+        <p>${esc(e.texte || "")}</p>
+      </div>`).join("")}</div>`;
+}
 function renderDossier(id) {
   const d = DOSSIERS.find(x => x.id === id); if (!d) return renderDossiersList();
   crumb([{ label: "Dossiers", nav: "#/dossiers" }, { label: d.titre }]);
@@ -1271,6 +1284,8 @@ function renderDossier(id) {
       <h1>${esc(d.titre)} ${favBtn(`dossier:${d.id}`, d.titre, `#/d/${d.id}`, "dossier")}</h1>
       ${d.sous_titre ? `<p class="lead">${esc(d.sous_titre)}</p>` : ""}
     </div></div>`);
+
+  { const vb = vivantBlock(d.id); if (vb) P.push(vb); }
 
   if (d.recit) P.push(sec("📖 Le récit, à travers les œuvres",
     d.recit.map(s => {

@@ -240,6 +240,13 @@ img.imgph { object-fit: contain; background: var(--paper); }
 .quote details.deep { margin-top: 10px; }
 .quote details.deep summary { cursor: pointer; color: var(--accent); font-size: 13.5px; }
 .quote details.deep p { margin-top: 8px; font-size: 14.5px; line-height: 1.6; font-style: normal; }
+
+/* « Pour rendre ça vivant » — éclats d'accroche en tête de dossier */
+.vivant { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.eclat { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; box-shadow: var(--shadow); border-top: 3px solid var(--chap); }
+.eclat-h { font-family: "Fraunces", serif; font-weight: 600; font-size: 14px; color: var(--accent); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .02em; }
+.eclat-ic { font-size: 17px; }
+.eclat p { margin: 0; font-size: 14.5px; line-height: 1.6; }
 .card .body { padding: 13px 15px 15px; }
 .card .body .t { font-weight: 600; font-family: "Fraunces", serif; font-size: 16px; line-height: 1.3; }
 .card .body .s { font-size: 12.5px; color: var(--muted); margin-top: 5px; }
