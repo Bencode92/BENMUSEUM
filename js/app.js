@@ -10,18 +10,21 @@ let IMAGES = {};             // manifeste des images résolues (data/images.json
 let FLAT = [];               // toutes les œuvres aplaties (pour le quiz)
 let COMMUNITY = [];          // ajouts partagés (data/community.json) — visibles par tous
 let CAPSTONE = null;         // clés transversales (data/capstone.json)
+let CITATIONS = [];          // citations choisies (data/citations.json)
 const $ = id => document.getElementById(id);
 
-const DV = "79"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
+const DV = "80"; // bump à chaque mise à jour de contenu pour court-circuiter le cache
 Promise.all([
   fetch("data/art.json?v=" + DV).then(r => r.json()),
   fetch("data/dossiers.json?v=" + DV).then(r => r.json()).catch(() => ({ dossiers: [] })),
   fetch("data/images.json?v=" + DV).then(r => r.json()).catch(() => ({})),
   fetch("data/community.json?t=" + Date.now()).then(r => r.json()).catch(() => []),
   fetch("data/capstone.json?v=" + DV).then(r => r.json()).catch(() => null),
+  fetch("data/citations.json?v=" + DV).then(r => r.json()).catch(() => ({ citations: [] })),
 ])
-  .then(([art, dos, img, com, cap]) => {
+  .then(([art, dos, img, com, cap, cit]) => {
     CAPSTONE = cap;
+    CITATIONS = (cit && cit.citations) || [];
     CHAPITRES = art.chapitres;
     CHAPITRES.forEach((c, ci) => (c.oeuvres || []).forEach((o, oi) =>
       FLAT.push({ ci, oi, chap: c, oeuvre: o })));
@@ -355,6 +358,7 @@ function route() {
   if (top === "quiz") { setActiveFloor(-1); return renderQuiz(); }
   if (top === "maitrise") { setActiveFloor(-1); return renderMaitrise(); }
   if (top === "cles") { setActiveFloor(-1); return renderCapstone(); }
+  if (top === "citations") { setActiveFloor(-1); return renderCitations(); }
   if (top === "session") { setActiveFloor(-1); return startSession(); }
   if (top === "parcours") { setActiveFloor(-1); return renderParcours(); }
   if (top === "favoris") { setActiveFloor(-1); return renderFavoris(); }
@@ -401,6 +405,78 @@ function renderCapstone() {
       <p class="lead">${esc(CAPSTONE.intro)}</p>
     </div>
     ${body}`;
+}
+
+/* ---------- CITATIONS (mes lectures) — espace personnel + sélection curée ---------- */
+function userCitations() { try { return JSON.parse(localStorage.getItem("museum:citations")) || []; } catch (e) { return []; } }
+function saveUserCitations(a) { localStorage.setItem("museum:citations", JSON.stringify(a)); }
+function addUserCitation(c) { const a = userCitations(); a.unshift(c); saveUserCitations(a); }
+function delUserCitation(ts) { saveUserCitations(userCitations().filter(c => c.ts !== ts)); }
+// citations partagées (community.json, type "citation") + perso (local), dédupliquées
+function allMineCitations() {
+  const shared = communityFor("citations", "citation").map(c => ({ texte: c.text || c.texte, auteur: c.auteur, source: c.source, ts: c.ts, _shared: true }));
+  const local = userCitations();
+  const seen = new Set(shared.map(c => (c.texte || "").trim()));
+  return shared.concat(local.filter(c => !seen.has((c.texte || "").trim())));
+}
+// bloc « citation à méditer » inséré dans une leçon (par dossier)
+function quoteBlock(dossierId) {
+  const matches = CITATIONS.filter(q => q.dossier === dossierId);
+  const mineHere = allMineCitations().filter(c => c.dossier === dossierId).map(c => ({ ...c, _mine: true }));
+  const all = matches.concat(mineHere);
+  if (!all.length) return "";
+  return `<h2 class="sec">💭 À méditer</h2>` + all.map(q => `
+    <figure class="quote">
+      <blockquote>« ${esc(q.texte)} »</blockquote>
+      <figcaption>— ${esc(q.auteur || "Anonyme")}${q.source ? `, <i>${esc(q.source)}</i>` : ""}${q._mine ? ` · <span style="color:var(--muted)">votre lecture</span>` : ""}</figcaption>
+    </figure>`).join("");
+}
+function renderCitations() {
+  crumb([{ label: "Accueil", nav: "#/" }, { label: "Citations" }]);
+  const mine = allMineCitations();
+  const dossierName = id => { const d = DOSSIERS.find(x => x.id === id); return d ? d.titre : ""; };
+  const curHTML = CITATIONS.map(q => `
+    <figure class="quote">
+      <blockquote>« ${esc(q.texte)} »</blockquote>
+      <figcaption>— ${esc(q.auteur)}${q.source ? `, <i>${esc(q.source)}</i>` : ""}${q.theme ? ` · <span style="color:var(--muted)">${esc(q.theme)}</span>` : ""}${q.dossier ? ` · <a data-nav="#/d/${esc(q.dossier)}">${esc(dossierName(q.dossier))} →</a>` : ""}</figcaption>
+    </figure>`).join("");
+  const mineHTML = mine.length ? mine.map(q => `
+    <figure class="quote mine">
+      <blockquote>« ${esc(q.texte)} »</blockquote>
+      <figcaption>— ${esc(q.auteur || "Anonyme")}${q.source ? `, <i>${esc(q.source)}</i>` : ""}
+        ${q._shared ? ` · <span class="tag" style="font-size:10px;background:var(--gold);color:#fff;padding:1px 6px;border-radius:4px">🌍 partagée</span>` : (q.ts ? ` · <button class="linkbtn citdel" data-ts="${esc(q.ts)}" style="font-size:12px;color:var(--muted)">supprimer</button>` : "")}</figcaption>
+    </figure>`).join("") : `<p class="lead">Aucune citation pour l'instant. Note ci-dessous une phrase qui t'a marqué dans tes lectures — elle sera sauvegardée, et apparaîtra dans la leçon liée si tu en choisis une.</p>`;
+  $("view").innerHTML = `
+    <div class="pagehead">
+      <div class="ep">Mes lectures · ce qui fait réfléchir</div>
+      <h1>Citations</h1>
+      <p class="lead">Garde les phrases qui te marquent — sur l'art, le beau, le regard. Elles sont sauvegardées, et celles que tu rattaches à une époque apparaissent dans la leçon (« 💭 À méditer »).</p>
+    </div>
+    <h2 class="sec">✍️ Ajouter une citation</h2>
+    <div class="block">
+      <textarea id="citxt" class="noteinput" style="min-height:90px" placeholder="« … » — la phrase qui t'a marqué"></textarea>
+      <div class="quizcfg" style="margin-top:8px">
+        <label>Auteur<br><input id="citaut" placeholder="ex. Robert Sabatier" /></label>
+        <label>Livre / source<br><input id="citsrc" placeholder="ex. Le Cygne noir" /></label>
+        <label>Rattacher à une époque (optionnel)<br><select id="citdos"><option value="">— Aucune —</option>${DOSSIERS.map(d => `<option value="${esc(d.id)}">${esc(d.titre)}</option>`).join("")}</select></label>
+      </div>
+      <div class="sess-actions" style="margin-top:10px"><button class="next" id="citadd">💾 Enregistrer la citation</button></div>
+      <div id="citmsg" style="font-size:13px;color:var(--muted);margin-top:6px"></div>
+    </div>
+    <h2 class="sec">📔 Mes citations${mine.length ? ` · ${mine.length}` : ""}</h2>
+    ${mineHTML}
+    <h2 class="sec">⭐ Citations choisies</h2>
+    ${curHTML}`;
+  $("citadd").onclick = async () => {
+    const texte = $("citxt").value.trim(); if (!texte) { $("citmsg").textContent = "Écris d'abord la citation."; return; }
+    const c = { texte, auteur: $("citaut").value.trim(), source: $("citsrc").value.trim(), dossier: $("citdos").value, ts: today() + "-" + Math.floor(performance.now()) };
+    addUserCitation(c);
+    $("citmsg").textContent = "💾 Enregistrée. Publication sur le site partagé…";
+    const pub = await publishEntry({ scope: "citations", type: "citation", q: (c.auteur || "") + (c.source ? " — " + c.source : ""), text: c.texte, auteur: c.auteur, source: c.source, dossier: c.dossier });
+    $("citmsg").textContent = pub.shared ? "🌍 Enregistrée et partagée (visible par tous ~1 min)." : "💾 Enregistrée sur ce navigateur.";
+    renderCitations();
+  };
+  $("view").querySelectorAll(".citdel").forEach(b => b.onclick = () => { delUserCitation(b.dataset.ts); renderCitations(); });
 }
 
 /* ---------- fil d'Ariane ---------- */
@@ -1260,6 +1336,7 @@ function renderDossier(id) {
   if (d.memos) P.push(sec("🧠 Mémos", `<ul class="dots">${d.memos.map(m => `<li><i>${esc(m)}</i></li>`).join("")}</ul>`));
   if (d.autotest) P.push(sec("✅ Auto-test", `<ol class="rev">${d.autotest.map(q => `<li>${esc(q)}</li>`).join("")}</ol>`));
 
+  { const qb = quoteBlock(d.id); if (qb) P.push(qb); }
   P.push(aiQuizBlock("dossier"));
   P.push(enrichBlock(`dossier:${d.id}`));
 

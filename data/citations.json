@@ -1,0 +1,88 @@
+{
+  "citations": [
+    {
+      "texte": "À l'opposé de toutes mes idées, n'étais-je pas près de me convaincre que la nature n'a jamais rien créé de laid, si ce n'est le regard qu'on peut jeter sur un autre ?",
+      "auteur": "Robert Sabatier",
+      "source": "Le Cygne noir",
+      "theme": "Le beau, le laid, le regard",
+      "dossier": "xixe-romantisme-realisme"
+    },
+    {
+      "texte": "Il n'existe pas, à proprement parler, d'Art. Il n'existe que des artistes.",
+      "auteur": "E. H. Gombrich",
+      "source": "Histoire de l'art (incipit)",
+      "theme": "Qu'est-ce que l'art ?",
+      "dossier": ""
+    },
+    {
+      "texte": "L'art ne reproduit pas le visible, il rend visible.",
+      "auteur": "Paul Klee",
+      "source": "Credo du créateur",
+      "theme": "Voir / rendre visible",
+      "dossier": "xxe-experimental"
+    },
+    {
+      "texte": "Le beau est toujours bizarre.",
+      "auteur": "Charles Baudelaire",
+      "source": "Exposition universelle de 1855",
+      "theme": "La nature du beau",
+      "dossier": "manierisme"
+    },
+    {
+      "texte": "L'art est un mensonge qui nous permet de comprendre la vérité.",
+      "auteur": "Pablo Picasso",
+      "source": "Propos sur l'art, 1923",
+      "theme": "Vérité de l'art",
+      "dossier": "art-contemporain"
+    },
+    {
+      "texte": "L'art est le plus court chemin de l'homme à l'homme.",
+      "auteur": "André Malraux",
+      "source": "La Condition humaine / écrits sur l'art",
+      "theme": "À quoi sert l'art",
+      "dossier": ""
+    },
+    {
+      "texte": "La peinture est une poésie qui se voit au lieu de se sentir, et la poésie est une peinture qui se sent au lieu de se voir.",
+      "auteur": "Léonard de Vinci",
+      "source": "Carnets",
+      "theme": "Peinture et poésie",
+      "dossier": "renaissance"
+    },
+    {
+      "texte": "Traiter la nature par le cylindre, la sphère, le cône.",
+      "auteur": "Paul Cézanne",
+      "source": "Lettre à Émile Bernard, 1904",
+      "theme": "La structure sous l'apparence",
+      "dossier": "impressionnisme"
+    },
+    {
+      "texte": "La couleur surtout, et peut-être plus encore que le dessin, est une libération.",
+      "auteur": "Henri Matisse",
+      "source": "Notes d'un peintre, 1908",
+      "theme": "Dessin et couleur",
+      "dossier": "xxe-experimental"
+    },
+    {
+      "texte": "Ce qu'il y a de plus réel pour moi, ce sont les illusions que je crée avec ma peinture.",
+      "auteur": "Eugène Delacroix",
+      "source": "Journal",
+      "theme": "Réel et illusion",
+      "dossier": "xixe-romantisme-realisme"
+    },
+    {
+      "texte": "Tout ce que je vois maintenant pourrait être effacé d'un trait, mais l'idée demeure.",
+      "auteur": "Michel-Ange",
+      "source": "attribué",
+      "theme": "L'idée et la forme",
+      "dossier": "renaissance"
+    },
+    {
+      "texte": "L'art lave l'âme de la poussière du quotidien.",
+      "auteur": "Pablo Picasso",
+      "source": "attribué",
+      "theme": "Ce que l'art nous fait",
+      "dossier": ""
+    }
+  ]
+}
